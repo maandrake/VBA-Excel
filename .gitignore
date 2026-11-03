@@ -35,3 +35,6 @@ _desenvolvimento/entrega1_20261102T182823Z/**/*.accdb
 /_auditoria/**/execucao_temp/
 
 /_auditoria/**/execucao_temp/
+
+# Repositorio Git aninhado
+/VBA-Excel/
