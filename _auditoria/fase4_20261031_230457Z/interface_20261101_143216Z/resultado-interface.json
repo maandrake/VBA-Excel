@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-11-01T14:40:04.537Z",
+  "modality": "Controle de interface Windows via @oai/sky; nao compilacao VBA",
+  "authorization": "Uso de Excel e controle autorizados pelo usuario; nenhuma nova confirmacao solicitada pelo agente",
+  "excel": {
+    "app": "Microsoft.Office.EXCEL.EXE.15",
+    "windowId": 8129612,
+    "lastObservedTitle": "Excel",
+    "lastObservedDialog": "Abrir"
+  },
+  "recovery": [
+    "list_windows expirou e reiniciou kernel; repeticao retornou janela Excel",
+    "Captura retornou arvore Excel, mas imagem da janela em primeiro plano era VS Code",
+    "Atualizacao e ativacao nao resolveram entrada no modal",
+    "Alt+n nao mudou focused_element da Caixa de Pesquisa"
+  ],
+  "errors": [
+    "element 330 is not available in cached app state for EXCEL.EXE",
+    "point (906, 982) is over EXCEL.EXE \"\", not target window EXCEL.EXE \"Excel\"; activate the target or take a fresh screenshot before retrying"
+  ],
+  "lastFocusedElement": "363 editar Caixa de Pesquisa; nao era Nome do arquivo",
+  "fixtureSHA256": "ff4f6b37d529e7404ae31bc65ceb1aeb3ba8f54aeb007b71c1e47c9bb9b9585d",
+  "fixtureUnchanged": true,
+  "importedComponents": 0,
+  "vbaCompilations": 0,
+  "vbaTests": 0,
+  "status": "BLOQUEADO_CONTROLE_MODAL_AGUARDANDO_ABERTURA_DA_FIXTURE_PELO_USUARIO",
+  "securityChanged": false,
+  "productionModified": false,
+  "uiInputsStopped": true
+}

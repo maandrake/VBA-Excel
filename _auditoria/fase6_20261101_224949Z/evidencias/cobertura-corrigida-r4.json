@@ -1,0 +1,6 @@
+{
+  "cause": "C_LEITOR_LEGADO, C_POSHIST_MUTACAO e C_VERSAO_OBSOLETA estavam na lista, mas faltavam verificacoes especificas no F6_Caso. Os PASS genericos R3 nao comprovam essas guardas.",
+  "changes": "Helper de assertivas chamado apenas no caminho normal; tres cenarios serao repetidos em pastas novas. Novo C_REORDENACAO_TIPOS preserva Value2/Formula/NumberFormat/Ignore em vez de copiar tudo via Formula.",
+  "scope": "Somente instrumentacao experimental; motor RodarOperacao inalterado em relacao a R3",
+  "sourceSHA256": "49d11731cc1bd808d76a6909678e6d73d4d8e839e479fe6cabb9e390aaf55682"
+}

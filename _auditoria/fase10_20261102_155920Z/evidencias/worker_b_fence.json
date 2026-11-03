@@ -1,0 +1,11 @@
+﻿{
+    "test":  "F10_B_NOVA_GERACAO",
+    "pid":  42952,
+    "owner":  "1956FBD4-B540-4DB5-B9A6-359DAAEE04F7",
+    "fence":  3,
+    "acquired":  1,
+    "revalidated":  1,
+    "updated":  1,
+    "businessMovement":  false,
+    "status":  "PASS"
+}

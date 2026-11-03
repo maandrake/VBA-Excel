@@ -1,0 +1,179 @@
+﻿{
+    "Entries":  [
+                    {
+                        "Registered":  true,
+                        "Guid":  "{00020430-0000-0000-C000-000000000046}",
+                        "Name":  "OLE Automation",
+                        "Entries":  [
+                                        {
+                                            "RegistryArchitecture":  "win32",
+                                            "Path":  "C:\\Windows\\System32\\stdole32.tlb",
+                                            "FileExists":  true,
+                                            "Version":  "1.0"
+                                        },
+                                        {
+                                            "RegistryArchitecture":  "win32",
+                                            "Path":  "C:\\Windows\\SysWOW64\\stdole2.tlb",
+                                            "FileExists":  true,
+                                            "Version":  "2.0"
+                                        },
+                                        {
+                                            "RegistryArchitecture":  "win64",
+                                            "Path":  "C:\\Windows\\System32\\stdole2.tlb",
+                                            "FileExists":  true,
+                                            "Version":  "2.0"
+                                        }
+                                    ]
+                    },
+                    {
+                        "Registered":  true,
+                        "Guid":  "{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}",
+                        "Name":  "Microsoft Office 16.0 Object Library",
+                        "Entries":  [
+                                        {
+                                            "RegistryArchitecture":  "win64",
+                                            "Path":  "C:\\Program Files\\Microsoft Office\\Root\\VFS\\ProgramFilesCommonX64\\Microsoft Shared\\VBA\\VBA7.1\\VBEUI.DLL",
+                                            "FileExists":  true,
+                                            "Version":  "2.6"
+                                        },
+                                        {
+                                            "RegistryArchitecture":  "win32",
+                                            "Path":  "C:\\Program Files\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX86\\Microsoft Shared\\Office16\\MSO.DLL",
+                                            "FileExists":  true,
+                                            "Version":  "2.7"
+                                        },
+                                        {
+                                            "RegistryArchitecture":  "win32",
+                                            "Path":  "C:\\Program Files\\Microsoft Office\\Root\\VFS\\ProgramFilesCommonX86\\Microsoft Shared\\OFFICE16\\MSO.DLL",
+                                            "FileExists":  true,
+                                            "Version":  "2.8"
+                                        },
+                                        {
+                                            "RegistryArchitecture":  "win64",
+                                            "Path":  "C:\\Program Files\\Microsoft Office\\Root\\VFS\\ProgramFilesCommonX64\\Microsoft Shared\\OFFICE16\\MSO.DLL",
+                                            "FileExists":  true,
+                                            "Version":  "2.8"
+                                        }
+                                    ]
+                    },
+                    {
+                        "Registered":  true,
+                        "Guid":  "{0D452EE1-E08F-101A-852E-02608C4D0BB4}",
+                        "Name":  "Microsoft Forms 2.0 Object Library",
+                        "Entries":  [
+                                        {
+                                            "RegistryArchitecture":  "win64",
+                                            "Path":  "C:\\Program Files\\Microsoft Office\\Root\\VFS\\System\\FM20.DLL",
+                                            "FileExists":  true,
+                                            "Version":  "2.0"
+                                        }
+                                    ]
+                    },
+                    {
+                        "Registered":  true,
+                        "Guid":  "{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}",
+                        "Name":  "Microsoft Internet Controls",
+                        "Entries":  [
+                                        {
+                                            "RegistryArchitecture":  "win32",
+                                            "Path":  "C:\\Windows\\SysWOW64\\ieframe.dll",
+                                            "FileExists":  true,
+                                            "Version":  "1.1"
+                                        },
+                                        {
+                                            "RegistryArchitecture":  "win64",
+                                            "Path":  "C:\\Windows\\System32\\ieframe.dll",
+                                            "FileExists":  true,
+                                            "Version":  "1.1"
+                                        }
+                                    ]
+                    },
+                    {
+                        "Registered":  true,
+                        "Guid":  "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}",
+                        "Name":  "Microsoft Windows Common Controls 6.0 (SP6)",
+                        "Entries":  [
+
+                                    ]
+                    },
+                    {
+                        "Registered":  true,
+                        "Guid":  "{9E175B60-F52A-11D8-B9A5-505054503030}",
+                        "Name":  "Microsoft Search CoClasses Type Library",
+                        "Entries":  [
+                                        {
+                                            "RegistryArchitecture":  "win32",
+                                            "Path":  "C:\\WINDOWS\\system32\\mssrch.dll",
+                                            "FileExists":  true,
+                                            "Version":  "1.0"
+                                        }
+                                    ]
+                    },
+                    {
+                        "Registered":  true,
+                        "Guid":  "{9E175B61-F52A-11D8-B9A5-505054503030}",
+                        "Name":  "Microsoft Search Interface Type Library",
+                        "Entries":  [
+                                        {
+                                            "RegistryArchitecture":  "win32",
+                                            "Path":  "C:\\WINDOWS\\system32\\mssitlb.dll",
+                                            "FileExists":  true,
+                                            "Version":  "1.0"
+                                        }
+                                    ]
+                    },
+                    {
+                        "Registered":  true,
+                        "Guid":  "{F5078F18-C551-11D3-89B9-0000F81FE221}",
+                        "Name":  "Microsoft XML, v6.0",
+                        "Entries":  [
+                                        {
+                                            "RegistryArchitecture":  "win32",
+                                            "Path":  "C:\\Windows\\SysWOW64\\msxml3.dll",
+                                            "FileExists":  true,
+                                            "Version":  "3.0"
+                                        },
+                                        {
+                                            "RegistryArchitecture":  "win64",
+                                            "Path":  "C:\\Windows\\System32\\msxml3.dll",
+                                            "FileExists":  true,
+                                            "Version":  "3.0"
+                                        },
+                                        {
+                                            "RegistryArchitecture":  "win32",
+                                            "Path":  "C:\\Windows\\SysWOW64\\msxml6.dll",
+                                            "FileExists":  true,
+                                            "Version":  "6.0"
+                                        },
+                                        {
+                                            "RegistryArchitecture":  "win64",
+                                            "Path":  "C:\\Windows\\System32\\msxml6.dll",
+                                            "FileExists":  true,
+                                            "Version":  "6.0"
+                                        }
+                                    ]
+                    },
+                    {
+                        "Registered":  true,
+                        "Guid":  "{0277FC34-FD1B-4616-BB19-A9AABCAF2A70}",
+                        "Name":  "Selenium Type Library",
+                        "Entries":  [
+                                        {
+                                            "RegistryArchitecture":  "win32",
+                                            "Path":  "C:\\Program Files\\SeleniumBasic\\Selenium32.tlb",
+                                            "FileExists":  true,
+                                            "Version":  "2.0"
+                                        },
+                                        {
+                                            "RegistryArchitecture":  "win64",
+                                            "Path":  "C:\\Program Files\\SeleniumBasic\\Selenium64.tlb",
+                                            "FileExists":  true,
+                                            "Version":  "2.0"
+                                        }
+                                    ]
+                    }
+                ],
+    "Timestamp":  "2026-10-31T18:57:00.9929996-03:00",
+    "Modality":  "Registro de TypeLib somente leitura; nao carrega DLL/OCX nem comprova IsBroken/compatibilidade",
+    "SecurityChanged":  false
+}

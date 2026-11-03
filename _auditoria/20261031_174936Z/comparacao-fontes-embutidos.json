@@ -1,0 +1,162 @@
+[
+  {
+    "file": "Form\\Cad_NCM.frm",
+    "module": "Cad_NCM",
+    "identical": true
+  },
+  {
+    "file": "Form\\Cad_NFE.frm",
+    "module": "Cad_NFE",
+    "identical": true
+  },
+  {
+    "file": "Form\\Cad_NFE_Saida.frm",
+    "module": "Cad_NFE_Saida",
+    "identical": true
+  },
+  {
+    "file": "Form\\frmRelatorioXML.frm",
+    "module": "frmRelatorioXML",
+    "identical": true
+  },
+  {
+    "file": "Form\\UserFormFiltro.frm",
+    "module": "UserFormFiltro",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlChamarFiltro.bas",
+    "module": "mdlChamarFiltro",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlChamarForm.bas",
+    "module": "mdlChamarForm",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlChamarFormDocFora.bas",
+    "module": "mdlChamarFormDocFora",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlChamarFormNCM.bas",
+    "module": "mdlChamarFormNCM",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlChamarFormSaida.bas",
+    "module": "mdlChamarFormSaida",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlChamarFormVeículos.bas",
+    "module": "mdlChamarFormVeículos",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlChamarTabCan.bas",
+    "module": "mdlChamarTabCan",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlChamarTabEnt.bas",
+    "module": "mdlChamarTabEnt",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlChamarTabSai.bas",
+    "module": "mdlChamarTabSai",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlCondCel.bas",
+    "module": "mdlCondCel",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlCopiar.bas",
+    "module": "mdlCopiar",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlCriaBackup.bas",
+    "module": "mdlCriaBackup",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlCursor.bas",
+    "module": "mdlCursor",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlMacroConexão.bas",
+    "module": "mdlMacroConexão",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlMacroConexãoClientes.bas",
+    "module": "mdlMacroConexãoClientes",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlMacroDocFora.bas",
+    "module": "mdlMacroDocFora",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlOcultarTítulo.bas",
+    "module": "mdlOcultarTítulo",
+    "identical": true
+  },
+  {
+    "file": "MDL\\mdlTelaCheia.bas",
+    "module": "mdlTelaCheia",
+    "identical": true
+  },
+  {
+    "file": "MDL\\modPreencherFormulario.bas",
+    "module": "modPreencherFormulario",
+    "identical": true
+  },
+  {
+    "file": "MDL\\modSeleniumCommon.bas",
+    "module": "modSeleniumCommon",
+    "identical": true
+  },
+  {
+    "file": "MDL\\modSeleniumConsultaNFE.bas",
+    "module": "modSeleniumConsultaNFE",
+    "identical": true
+  },
+  {
+    "file": "MDL\\modSeleniumRenavamConsulta.bas",
+    "module": "modSeleniumRenavamConsulta",
+    "identical": true
+  },
+  {
+    "file": "MDL\\modSelTest.bas",
+    "module": "modSelTest",
+    "identical": true
+  },
+  {
+    "file": "MDL\\modValidacaoXML.bas",
+    "module": "modValidacaoXML",
+    "identical": true
+  },
+  {
+    "file": "MDL\\MóduloOfficeRibbonEditor.bas",
+    "module": "MóduloOfficeRibbonEditor",
+    "identical": true
+  },
+  {
+    "file": "MDL\\MóduloPesquisa.bas",
+    "module": "MóduloPesquisa",
+    "identical": true
+  },
+  {
+    "file": "MDL\\MóduloRemoveFechar.bas",
+    "module": "MóduloRemoveFechar",
+    "identical": true
+  }
+]

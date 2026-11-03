@@ -1,0 +1,10 @@
+﻿{
+    "ID":  "F9_PROCESSO_LOCK_REAL",
+    "PID":  50612,
+    "ExcelPID":  45652,
+    "Modalidade":  "COM ADO em processo independente; Excel mantem transacao sem commit",
+    "Resultado":  "PASS",
+    "Tratamento":  "RECUSADO",
+    "Observado":  "Operação não permitida quando o objeto está fechado.",
+    "Seconds":  0.0095871999999999988
+}

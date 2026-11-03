@@ -1,0 +1,9 @@
+Call CandidatoReconstruir
+? FormulaC1(4, "MES"), Application.International(xlListSeparator)
+=C1_Campo($AZ4,"MES",$BI$2) ;
+
+? C1_Diagnostico()
+AUDIT=OK;PROJECTION=ERROR:1004:Entradas:r=4:j=9:Erro de definição de aplicativo ou de definição de objeto;REV=1;MOV=1;RECEIPTS=1;ACTIVE=1;PENDING=0
+
+Call E1_Diagnostico
+AUDIT=OK;PROJECTION=VERIFIED;REV=1;MOV=1;RECEIPTS=1;ACTIVE=1;PENDING=0

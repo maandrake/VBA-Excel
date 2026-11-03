@@ -1,0 +1,322 @@
+{
+  "checks": [
+    {
+      "Cenario": "BASE_FORMATO_REABERTURA",
+      "Resultado": "FAIL",
+      "Esperado": "selo estrito preservado ao reabrir",
+      "Observado": "ANTES=Falso;formatos restaurados na fixture=14",
+      "file": "formulas_reteste.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R01_PESQUISA_ATIVA_REENTRADA",
+      "Resultado": "PASS",
+      "Esperado": "somente novo episodio",
+      "Observado": "1;{69CE760D-0001-4C3F-A262-B213036CBC67}",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R02_CONTAGEM_ATIVA",
+      "Resultado": "PASS",
+      "Esperado": "6 ativos, excluindo antigo A",
+      "Observado": "6",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R03_ANUAL_POR_EPISODIO",
+      "Resultado": "PASS",
+      "Esperado": "novo NAO; antigo SIM",
+      "Observado": "NAO;SIM",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "BASE_ANUAL_PLACA",
+      "Resultado": "FAIL",
+      "Esperado": "NAO para nova entrada",
+      "Observado": "SIM",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R04_LISTA_APOS_REORDENAR",
+      "Resultado": "PASS",
+      "Esperado": "token resolve linha10 A",
+      "Observado": "10",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R05_TIPOS_FORMATOS_IGNORE",
+      "Resultado": "PASS",
+      "Esperado": "selo A:L exato e String44/@/Ignore",
+      "Observado": "32:Double:11001:11001:General:Falso38:String:FICTICIO:FICTICIO:General:Falso40:String:SINTETICO:SINTETICO:General:Falso52:String:VEICULO FIC6A01:VEICULO FIC6A01:General:Falso42:String:F6_FIC6A01:F6_FIC6A01:General:Falso36:String:FIC6A01:FIC6A01:General:Falso30:Double:2026:2026:General:Falso34:String:BRANCO:BRANCO:General:Falso28:Double:900:900:General:Falso35:Double:46327:46327:dd/mm/yyyy:Falso28:Empty:<EMPTY>::General:Falso109:String:01234567890123456789012345678901234567890123:01234567890123456789012345678901234567890123:@:Verdadeiro",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R06_FORMULAS_ID_REORDENACAO",
+      "Resultado": "PASS",
+      "Esperado": "A/chave/1800/11001",
+      "Observado": "FIC6A01;01234567890123456789012345678901234567890123;1800",
+      "file": "formulas_reteste.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "BASE_REFERENCIA_FISICA",
+      "Resultado": "FAIL",
+      "Esperado": "A",
+      "Observado": "FIC6C01",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "BASE_AUXILIAR_FISICO",
+      "Resultado": "PASS",
+      "Esperado": "1800",
+      "Observado": "1800",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R07_LACUNAS_CONTAGEM",
+      "Resultado": "PASS",
+      "Esperado": "6 atraves das lacunas",
+      "Observado": "6",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R08_LISTINDEX_NEGATIVO",
+      "Resultado": "PASS",
+      "Esperado": "sem selecao",
+      "Observado": "0",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R09_SELECAO_OBSOLETA",
+      "Resultado": "PASS",
+      "Esperado": "versao divergente recusa",
+      "Observado": "0",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R10_PROJECAO_DUPLICADA",
+      "Resultado": "PASS",
+      "Esperado": "recusa, sem primeiro candidato",
+      "Observado": "0",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R11_ID_AUSENTE",
+      "Resultado": "PASS",
+      "Esperado": "nao usa placa/NFe/linha",
+      "Observado": "0",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R12_COERCAO_DETECTADA",
+      "Resultado": "PASS",
+      "Esperado": "conteudo tipado divergente bloqueia",
+      "Observado": "0",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R13_HISTORICO_AMBIGUO",
+      "Resultado": "PASS",
+      "Esperado": "nenhum primeiro historico",
+      "Observado": "0",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R14_CUSTODIA_SUCESSIVA",
+      "Resultado": "PASS",
+      "Esperado": "um atual filial, versao4 apos T/D/T",
+      "Observado": "1;Entradas Filial;4",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R15_OUTRA_PASTA_ATIVA",
+      "Resultado": "PASS",
+      "Esperado": "leitor usa proprietario explicito",
+      "Observado": "6",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R16_ESTADOS_APPLICATION",
+      "Resultado": "PASS",
+      "Esperado": "estados preservados",
+      "Observado": "Verdadeiro;-4105",
+      "file": "leitores_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R17_CHAVE_FORMULA_STRING",
+      "Resultado": "PASS",
+      "Esperado": "String44/@/Ignore",
+      "Observado": "String;44",
+      "file": "formulas_reteste.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "BASE_AUXILIAR_VALOR_DISTINTO",
+      "Resultado": "FAIL",
+      "Esperado": "1800 do episodio A",
+      "Observado": "2400",
+      "file": "formulas_reteste.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "R18_FORMULA_CONTAGEM_ATIVA",
+      "Resultado": "PASS",
+      "Esperado": "3 matriz e 6 globais validados",
+      "Observado": "3;6",
+      "file": "formulas_reteste.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "FRIO_OK",
+      "Resultado": "PASS",
+      "Esperado": "JA_CONCLUIDA; sem escrita de negocio",
+      "Observado": "JA_CONCLUIDA;IGUAL=Verdadeiro",
+      "file": "frio_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "FRIO_ORFAO",
+      "Resultado": "PASS",
+      "Esperado": "CONCILIAR_ORFAO; sem escrita de negocio",
+      "Observado": "CONCILIAR_ORFAO;IGUAL=Verdadeiro",
+      "file": "frio_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "FRIO_TRUNCADO",
+      "Resultado": "PASS",
+      "Esperado": "CONCILIAR_TRUNCADO; sem escrita de negocio",
+      "Observado": "CONCILIAR_TRUNCADO;IGUAL=Verdadeiro",
+      "file": "frio_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "FRIO_PENDENTE",
+      "Resultado": "PASS",
+      "Esperado": "CONCILIAR_PENDENTE; sem escrita de negocio",
+      "Observado": "CONCILIAR_PENDENTE;IGUAL=Verdadeiro",
+      "file": "frio_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "FRIO_PENDENTE_MESMA_OP",
+      "Resultado": "PASS",
+      "Esperado": "CONCILIAR_PENDENTE",
+      "Observado": "CONCILIAR_PENDENTE",
+      "file": "frio_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "FRIO_DIVERGENTE",
+      "Resultado": "PASS",
+      "Esperado": "CONCILIAR_BASE; sem escrita de negocio",
+      "Observado": "CONCILIAR_BASE;IGUAL=Verdadeiro",
+      "file": "frio_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "FRIO_POS_SAVE",
+      "Resultado": "PASS",
+      "Esperado": "CONCILIAR_ESTADO; sem escrita de negocio",
+      "Observado": "CONCILIAR_ESTADO;IGUAL=Verdadeiro",
+      "file": "frio_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "FRIO_HISTORICO",
+      "Resultado": "PASS",
+      "Esperado": "CONCILIAR_EFEITOS; sem escrita de negocio",
+      "Observado": "CONCILIAR_EFEITOS;IGUAL=Verdadeiro",
+      "file": "frio_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "FRIO_AUSENTE",
+      "Resultado": "PASS",
+      "Esperado": "CONCILIAR_AUSENTE; sem escrita de negocio",
+      "Observado": "CONCILIAR_AUSENTE;IGUAL=Verdadeiro",
+      "file": "frio_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "FRIO_PAYLOAD",
+      "Resultado": "PASS",
+      "Esperado": "RECUSADA_PAYLOAD; sem escrita de negocio",
+      "Observado": "RECUSADA_PAYLOAD;IGUAL=Verdadeiro",
+      "file": "frio_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "FRIO_VERSAO",
+      "Resultado": "PASS",
+      "Esperado": "RECUSADA_VERSAO; sem escrita de negocio",
+      "Observado": "RECUSADA_VERSAO;IGUAL=Verdadeiro",
+      "file": "frio_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "FRIO_BAIXA",
+      "Resultado": "PASS",
+      "Esperado": "CONCILIAR_PENDENTE; sem escrita de negocio",
+      "Observado": "CONCILIAR_PENDENTE;IGUAL=Verdadeiro",
+      "file": "frio_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "FRIO_BAIXA_MESMA_OP",
+      "Resultado": "PASS",
+      "Esperado": "CONCILIAR_PENDENTE",
+      "Observado": "CONCILIAR_PENDENTE",
+      "file": "frio_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "FRIO_COMPENSACAO",
+      "Resultado": "PASS",
+      "Esperado": "CONCILIAR_PENDENTE; sem escrita de negocio",
+      "Observado": "CONCILIAR_PENDENTE;IGUAL=Verdadeiro",
+      "file": "frio_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    },
+    {
+      "Cenario": "FRIO_COMPENSACAO_MESMA_OP",
+      "Resultado": "PASS",
+      "Esperado": "CONCILIAR_PENDENTE",
+      "Observado": "CONCILIAR_PENDENTE",
+      "file": "frio_resultados.tsv",
+      "modality": "Execucao funcional VBA experimental compilado"
+    }
+  ],
+  "counts": {
+    "executedAssertions": 40,
+    "uniqueChecks": 38,
+    "PASS": 34,
+    "FAIL": 4,
+    "readerAdapterChecks": 18,
+    "coldScenarios": 12,
+    "coldChecks": 15
+  },
+  "preservedAttempts": {
+    "r2": "_auditoria\\fase7_20261102_025115Z\\evidencias\\tentativa-r2",
+    "r3": "_auditoria\\fase7_20261102_025115Z\\evidencias\\leitores-r3"
+  },
+  "note": "Contagem por assertiva; nao somar com cenarios F5/F6. BASE_AUXILIAR_FISICO PASS numerico nao discriminante; FAIL com valor distinto preservado."
+}

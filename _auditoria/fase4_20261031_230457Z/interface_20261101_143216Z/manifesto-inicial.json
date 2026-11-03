@@ -1,0 +1,52 @@
+{
+  "uiStamp": "20261101_143216Z",
+  "fixture4": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\Fixture_Auditoria_Fase4.xlsm",
+  "backups": [
+    {
+      "file": "RELATORIO_INTEGRACAO_FASE4.md",
+      "sha256": "d659a01c6edb9ca8c5e508decf37d82ffa926625000d1eff8a3980a285ca5cf8",
+      "verified": true
+    },
+    {
+      "file": "COMPILACAO_VBA_FASE4.md",
+      "sha256": "fd62a727d8e17a78ae6294576edaf78210d8198e41a6f99378c447360eccd25d",
+      "verified": true
+    },
+    {
+      "file": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+      "sha256": "6a523940b585b11d77f450050e1d663c2efc6cfdd33d795b319f04da8503e2a0",
+      "verified": true
+    },
+    {
+      "file": "PENDENCIAS_DECISAO.md",
+      "sha256": "8a6edf7520ceecd8c54dc5da445235ddc61f4841ad5718a3dc549ccbcccb7ece",
+      "verified": true
+    },
+    {
+      "file": "HISTORICO_ALTERACOES.md",
+      "sha256": "a15a9aec8b49e63bc1e62f227c3e9c0639b1cc67bfa9245b53587ae71c5903c0",
+      "verified": true
+    },
+    {
+      "file": "TESTES_VBA.md",
+      "sha256": "0da43235349cf2feb62a061b57be9b28fe25e415feb809088e43a959bb7fa05f",
+      "verified": true
+    },
+    {
+      "file": "MAPA_PROJETO.md",
+      "sha256": "8535ca1b5fd9487390576c6ce19c575c687bfa382bc759a9aea811f555ba6d00",
+      "verified": true
+    },
+    {
+      "file": "RELATORIO_AUDITORIA.md",
+      "sha256": "72ea92a7293d53725c7019635ffe1034adfcdfa452ca4ef49f70a16dc7146678",
+      "verified": true
+    },
+    {
+      "file": "Fixture_Auditoria_Fase4.xlsm",
+      "sha256": "ff4f6b37d529e7404ae31bc65ceb1aeb3ba8f54aeb007b71c1e47c9bb9b9585d",
+      "verified": true
+    }
+  ],
+  "authorization": "Usuario autorizou controle e testes Excel; sem mudanca de seguranca"
+}

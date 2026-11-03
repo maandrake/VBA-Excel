@@ -1,0 +1,92 @@
+[
+  {
+    "sheet": "Menu Principal",
+    "codeName": "Planilha12",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "Entradas",
+    "codeName": "Planilha1",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "Transferidos",
+    "codeName": "Planilha13",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "Entradas Anual",
+    "codeName": "Planilha3",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "Demonstração",
+    "codeName": "Planilha4",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "Saidas",
+    "codeName": "Planilha2",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "Todas Saidas",
+    "codeName": "Planilha17",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "Entradas Filial",
+    "codeName": "Planilha15",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "Entradas Anual Filial",
+    "codeName": "Planilha10",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "Saidas Filial",
+    "codeName": "Planilha16",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "Todas Saidas Filial",
+    "codeName": "Planilha18",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "Carros PF",
+    "codeName": "Planilha7",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "Clientes",
+    "codeName": "Planilha6",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "Veículos",
+    "codeName": "Planilha9",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "Doc. para fora",
+    "codeName": "Planilha11",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "NCM e CEST",
+    "codeName": "Planilha5",
+    "bodyMatch": false
+  },
+  {
+    "sheet": "Listas",
+    "codeName": "Planilha8",
+    "bodyMatch": true
+  },
+  {
+    "sheet": "ThisWorkbook",
+    "codeName": "EstaPastaDeTrabalho",
+    "bodyMatch": true
+  }
+]

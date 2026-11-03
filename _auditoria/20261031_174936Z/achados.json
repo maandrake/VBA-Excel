@@ -1,0 +1,202 @@
+[
+  {
+    "id": "A01",
+    "severity": "Alta",
+    "status": "Corrigido nos fontes",
+    "file": "Form/Cad_NFE_Saida.frm",
+    "line": 750,
+    "title": "Símbolo celula não declarado na transferência",
+    "evidence": "A única ocorrência executável usa celula.Errors, sem declaração. Option Explicit está ativo.",
+    "action": "A referência agora aponta para .Cells(linhaDemo, 12), a célula da chave já gravada no mesmo With. Compilação real pendente."
+  },
+  {
+    "id": "A02",
+    "severity": "Alta",
+    "status": "Corrigido nos fontes",
+    "file": "Form/Cad_NFE_Saida.frm",
+    "line": 1369,
+    "title": "Frame_ImpostoFilial ausente no formulário",
+    "evidence": "Quatro instruções acessam esse nome; ele não aparece nos streams de controles do FRX. Não há Controls.Add nem chamada dinâmica desse nome nos fontes.",
+    "action": "As quatro instruções inválidas foram comentadas. Eventos Enter/Exit e alterações dos controles existentes foram preservados; nenhum substituto foi criado."
+  },
+  {
+    "id": "A03",
+    "severity": "Alta",
+    "status": "Corrigido nos fontes",
+    "file": "Form/Cad_NFE.frm",
+    "line": 435,
+    "title": "Chave NF-e sem garantia explícita de texto",
+    "evidence": "Cadastro filial e transferência em Cad_NFE_Saida gravam L sem definir texto localmente. Teste COM em formato padrão converteu a chave fictícia para Double.",
+    "action": "NumberFormat = \"@\" antes da atribuição como String em ambos os pontos. Teste COM de operação equivalente preservou 44 dígitos e zeros após reabertura; eventos VBA não executados."
+  },
+  {
+    "id": "A04",
+    "severity": "Média",
+    "status": "Corrigido nos fontes",
+    "file": "Form/Cad_NCM.frm",
+    "line": 76,
+    "title": "Leitura de ListBox sem linha selecionada",
+    "evidence": "NCM lê List(-1,...). Nas saídas, ListCount > 0 não garante ListIndex >= 0.",
+    "action": "Guarda antes da leitura nas três listas. Guardas também impedem filtro sem coluna selecionada. Nomes dos controles conferidos no FRX."
+  },
+  {
+    "id": "A05",
+    "severity": "Baixa",
+    "status": "Corrigido nos fontes",
+    "file": "Form/Cad_NCM.frm",
+    "line": 229,
+    "title": "Redimensionamento repetido por coluna em três filtros",
+    "evidence": "PreencheLista do NCM e PreencheLista/PreencheLista2 de saídas executam ReDim Preserve para cada célula da linha encontrada.",
+    "action": "Uma expansão por registro e cache da quantidade de colunas; dimensões, cabeçalho, ordem e término na primeira célula vazia preservados. Modelo JS: 35 cenários equivalentes; tempo no VBA não medido."
+  },
+  {
+    "id": "A06",
+    "severity": "Alta",
+    "status": "Corrigido nos fontes",
+    "file": "MDL/MóduloOfficeRibbonEditor.bas",
+    "line": 17,
+    "title": "Ribbon pode salvar outra pasta ativa",
+    "evidence": "ChamarSalvar usa ActiveWorkbook.Save apesar de pertencer ao Ribbon desta pasta.",
+    "action": "Alterado somente esse callback para ThisWorkbook.Save. Assinatura preservada; teste com duas pastas ainda pendente."
+  },
+  {
+    "id": "A07",
+    "severity": "Baixa",
+    "status": "Corrigido nos fontes",
+    "file": "MDL/modPreencherFormulario.bas",
+    "line": 1,
+    "title": "Módulo sem Option Explicit",
+    "evidence": "Único fonte exportado sem declaração explícita obrigatória.",
+    "action": "Option Explicit adicionado; parâmetros, tipos e mapeamentos existentes preservados. Agora 32/32 fontes têm a diretiva."
+  },
+  {
+    "id": "A08",
+    "severity": "Crítica",
+    "status": "Pendente",
+    "file": "Form/Cad_NFE.frm",
+    "line": 217,
+    "title": "Exclusões parciais podem quebrar fórmulas e vínculos",
+    "evidence": "Delete Shift:=xlUp em A:M da filial deixa N:O fora do deslocamento. Há 363 fórmulas em N e 364 em O na pasta original. Reprodução fictícia em Excel produziu =#REF! em N2 e sentinela desalinhada em O2. Há sete pontos Delete, incluindo duas exclusões de linha inteira.",
+    "action": "Não ampliar nem substituir exclusões automaticamente. Definir política de baixa por registro, preservar fórmulas e validar todas as abas com estoque fictício antes de corrigir."
+  },
+  {
+    "id": "A09",
+    "severity": "Crítica",
+    "status": "Pendente",
+    "file": "Form/Cad_NFE_Saida.frm",
+    "line": 99,
+    "title": "Gravações em várias abas sem transação ou reversão",
+    "evidence": "GravarFilial escreve em Saidas Filial, Todas Saidas Filial, Entradas e Entradas Anual antes de localizar/apagar a entrada. CDbl/CDate podem falhar após gravações parciais. Cad_NFE também converte depois de gravar campos.",
+    "action": "Pré-validar dados e destinos e desenhar recuperação com snapshot por registro. Requer testes de falha em cada etapa; não foi reescrito sem regressão funcional completa."
+  },
+  {
+    "id": "A10",
+    "severity": "Alta",
+    "status": "Pendente",
+    "file": "Form/Cad_NFE.frm",
+    "line": 132,
+    "title": "Operações dependem da pasta ativa",
+    "evidence": "40 linhas com Sheets/Worksheets sem qualificação e oito referências ActiveWorkbook remanescentes. Alguns usos podem ser intencionais, mas há referências em exclusões e salvamentos.",
+    "action": "Priorizar qualificação por proprietário nos fluxos destrutivos e testar duas pastas abertas. Não substituir globalmente usos de navegação intencional da célula ativa."
+  },
+  {
+    "id": "A11",
+    "severity": "Média",
+    "status": "Pendente",
+    "file": "MDL/mdlChamarTabCan.bas",
+    "line": 5,
+    "title": "Navegação aponta para aba inexistente",
+    "evidence": "Cancelado, Estorno e Devolução não existe entre as 17 planilhas. O código não identifica uma substituição inequívoca.",
+    "action": "Investigar o vínculo legado com o usuário; nenhum nome de aba foi inventado e a macro pública não foi removida."
+  },
+  {
+    "id": "A12",
+    "severity": "Média",
+    "status": "Pendente",
+    "file": "MDL/mdlMacroConexão.bas",
+    "line": 9,
+    "title": "Três macros de atualização referem conexões ausentes",
+    "evidence": "O pacote não contém xl/connections.xml. Os módulos de conexão usam Consulta - Tutores, Consulta - Estudantes e Consulta - Documentos para fora.",
+    "action": "Confirmar se são integrações descontinuadas ou dependentes de outra pasta. Não atualizar conexões externas nem criar bancos/tabelas fictícios para contornar a ausência."
+  },
+  {
+    "id": "A13",
+    "severity": "Alta",
+    "status": "Pendente",
+    "file": "Form/Cad_NFE_Saida.frm",
+    "line": 560,
+    "title": "Cancelamento dispensa leitura e validação do XML",
+    "evidence": "operacaoCancelada evita CarregarXMLNFe e ValidarXMLNFe; os demais ramos mantêm gravação. O validador já avisa que XML normal não comprova cancelamento.",
+    "action": "Regra existente preservada. Definir a evidência de evento de cancelamento e critérios de estoque com aprovação específica; a auditoria não atesta a correção fiscal dessa decisão."
+  },
+  {
+    "id": "A14",
+    "severity": "Média",
+    "status": "Pendente",
+    "file": "MDL/modValidacaoXML.bas",
+    "line": 155,
+    "title": "Documento XML fornecido diretamente evita verificações do carregador",
+    "evidence": "O parâmetro documentoXML pode entrar sem a exigência de exatamente um infNFe aplicada em CarregarXMLNFe. XPaths globais podem misturar grupos de documentos compostos. O fluxo normal que usa o carregador já limita a cardinalidade.",
+    "action": "Adicionar testes de documento composto e validação estrutural comum aos dois caminhos antes de modificar o contrato. Não houve validação XSD/assinatura digital nesta auditoria."
+  },
+  {
+    "id": "A15",
+    "severity": "Média",
+    "status": "Pendente",
+    "file": "MDL/modValidacaoXML.bas",
+    "line": 1221,
+    "title": "Somatório ignora nós numéricos inválidos",
+    "evidence": "SomarNosXML adiciona somente os valores convertíveis e não sinaliza explicitamente os demais. Um item não selecionado pode ficar fora da soma sem erro próprio.",
+    "action": "Criar fixture de múltiplos itens com número inválido e conferir o relatório. Ajustar a propagação de erros sem mudar tolerâncias nem tributos, depois de validar a regressão."
+  },
+  {
+    "id": "A16",
+    "severity": "Média",
+    "status": "Pendente",
+    "file": "MDL/modSelTest.bas",
+    "line": 423,
+    "title": "Subprocesso sem limite de espera",
+    "evidence": "RunAndCapture espera execObj.status sair de zero, usando DoEvents sem timeout; StdOut só é drenado depois.",
+    "action": "Implementar prazo e captura progressiva de saída/erro, encerrando apenas o processo criado pelo teste. Não executar ferramentas externas reais nesta rodada."
+  },
+  {
+    "id": "A17",
+    "severity": "Baixa",
+    "status": "Pendente",
+    "file": "MDL/modSeleniumCommon.bas",
+    "line": 62,
+    "title": "Espera ocupa CPU e permite reentrada por DoEvents",
+    "evidence": "SleepMs e variantes usam espera ativa. Os cálculos já compensam meia-noite, mas a espera continua ocupando o thread.",
+    "action": "Considerar Sleep da API com intervalos curtos e proteção de reentrada, preservando compatibilidade e testando cancelamento/timeouts. Sem benchmark real nesta rodada."
+  },
+  {
+    "id": "A18",
+    "severity": "Alta",
+    "status": "Pendente",
+    "file": "MDL/mdlCriaBackup.bas",
+    "line": 5,
+    "title": "Backup legado salva a pasta ativa e reutiliza destino",
+    "evidence": "As rotinas chamam .Save antes de SaveCopyAs; o primeiro destino é .bak fixo e o segundo D:\\nome. Não há versionamento de cada execução nem verificação de conteúdo.",
+    "action": "O backup desta auditoria é separado, datado e verificado. Modernizar a rotina do produto após definir destino autorizado e regra para documento ainda não salvo."
+  },
+  {
+    "id": "A19",
+    "severity": "Média",
+    "status": "Pendente",
+    "file": "MDL/mdlCondCel.bas",
+    "line": 122,
+    "title": "Condição xlNotBetween calculada incorretamente",
+    "evidence": "A expressão Not(valor <= mínimo) And (valor >= máximo) não representa valores fora do intervalo: falha abaixo do mínimo e inclui o máximo. A avaliação de fórmulas também depende do contexto ativo.",
+    "action": "Confirmar chamadas por fórmulas e botões e testar mínimo-1, mínimo, meio, máximo e máximo+1 contra a formatação do Excel antes de corrigir o utilitário. Nenhum UDF foi removido."
+  },
+  {
+    "id": "A20",
+    "severity": "Baixa",
+    "status": "Pendente",
+    "file": "MDL/modSeleniumCommon.bas",
+    "line": 86,
+    "title": "Logs e caminhos operacionais fora da pasta do projeto",
+    "evidence": "WriteLog usa C:\\Temp; o driver tem caminho fixo em Program Files. Logs de consultas podem conter identificadores pessoais.",
+    "action": "Definir destino e retenção locais autorizados e avaliar sanitização. As consultas de Detran, rede, clipboard e gravação desses logs não foram executadas."
+  }
+]

@@ -1,0 +1,367 @@
+{
+  "captured": "2026-11-02T20:26:07.282Z",
+  "originals": [
+    {
+      "path": "Excel\\Estoque Fera Veículos 2026.xlsm",
+      "sha256": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "matches": true
+    },
+    {
+      "path": "Form\\Cad_NCM.frm",
+      "sha256": "c5aa276b7e1ad1da01a0d54a9faceb93c095d480806e83813db02b1a981c78a9",
+      "matches": true
+    },
+    {
+      "path": "Form\\Cad_NCM.frx",
+      "sha256": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "matches": true
+    },
+    {
+      "path": "Form\\Cad_NFE.frm",
+      "sha256": "7c36590ff7e7f513e8396564e80d991f1ceb33602c16a07deba13598270176ee",
+      "matches": true
+    },
+    {
+      "path": "Form\\Cad_NFE.frx",
+      "sha256": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "matches": true
+    },
+    {
+      "path": "Form\\Cad_NFE_Saida.frm",
+      "sha256": "b3262a8af0a8c97342daa50cb1bca03b3cb23b5cf387f9abd3973697fa14ad32",
+      "matches": true
+    },
+    {
+      "path": "Form\\Cad_NFE_Saida.frx",
+      "sha256": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "matches": true
+    },
+    {
+      "path": "Form\\frmRelatorioXML.frm",
+      "sha256": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "matches": true
+    },
+    {
+      "path": "Form\\frmRelatorioXML.frx",
+      "sha256": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "matches": true
+    },
+    {
+      "path": "Form\\UserFormFiltro.frm",
+      "sha256": "72104ed848f1c883a7ba8cfe1fbf0e3580877dca42a93750350db28fbce912c5",
+      "matches": true
+    },
+    {
+      "path": "Form\\UserFormFiltro.frx",
+      "sha256": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlChamarFiltro.bas",
+      "sha256": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlChamarForm.bas",
+      "sha256": "f1a50ae2170e8d91fe64d7eff748009a86afb13deb5f4f0afc12a4e4f905aa36",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlChamarFormDocFora.bas",
+      "sha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlChamarFormNCM.bas",
+      "sha256": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlChamarFormSaida.bas",
+      "sha256": "738e72244780dbf0342c18d9688f0bf929dc8d609e1b4788dabc2aaf7d2cd403",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlChamarFormVeículos.bas",
+      "sha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlChamarTabCan.bas",
+      "sha256": "c476162d14a48d47b27abf29fcb1a265be1146cabf770e1b7ba5baa6845215ed",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlChamarTabEnt.bas",
+      "sha256": "6aa6e174c4eaeedeebb8054ba5f989f27b679e4cd9d716554d7209cb05be27ed",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlChamarTabSai.bas",
+      "sha256": "8ecd5f302438f49849bf0ede7bc5be6fcc62792f8ca845a9d155b70daed19f3d",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlCondCel.bas",
+      "sha256": "eb898b196b26f6360615cf503030c2b20eb8d345e277550e07df46ede111f60c",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlCopiar.bas",
+      "sha256": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlCriaBackup.bas",
+      "sha256": "8477beee7a2be221e2daf6ba6b8a805412fecf638f67e38f5a7654aa052148ff",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlCursor.bas",
+      "sha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlMacroConexão.bas",
+      "sha256": "38ef9f12fac5df53037a3e0fef4d5039c0c87c939dbd20667e2cf6bc890cd405",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlMacroConexãoClientes.bas",
+      "sha256": "0933295f65ca204d94633c1b6bf640299e18f0d04b033f2044c0f013bf2643e7",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlMacroDocFora.bas",
+      "sha256": "2675a05d8126ec68039565153e67bd3e51afad76e885e540cd09df5fd4676f01",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlOcultarTítulo.bas",
+      "sha256": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "matches": true
+    },
+    {
+      "path": "MDL\\mdlTelaCheia.bas",
+      "sha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "matches": true
+    },
+    {
+      "path": "MDL\\modPreencherFormulario.bas",
+      "sha256": "716b2d1388e29aee6e2f71aea45e68ae65641b3b00c7f59463151a860a97179f",
+      "matches": true
+    },
+    {
+      "path": "MDL\\modSeleniumCommon.bas",
+      "sha256": "f38c55ae5cf11320a7864286b706094cfd7686f6d01669519aafe67d974091b2",
+      "matches": true
+    },
+    {
+      "path": "MDL\\modSeleniumConsultaNFE.bas",
+      "sha256": "a6b6045c0179684ee54fb30ff7c0340917e7ca0736e5f9249fb78808193cdbf2",
+      "matches": true
+    },
+    {
+      "path": "MDL\\modSeleniumRenavamConsulta.bas",
+      "sha256": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "matches": true
+    },
+    {
+      "path": "MDL\\modSelTest.bas",
+      "sha256": "1bd9a034503af0479bed5f7fd38fea83e5a2b693459c2e731de98ccf50e2b3a0",
+      "matches": true
+    },
+    {
+      "path": "MDL\\modValidacaoXML.bas",
+      "sha256": "8b79d34333a47ba1b5fe98f3641d79eb7075127b9967d7072e3041e94b4c3548",
+      "matches": true
+    },
+    {
+      "path": "MDL\\MóduloOfficeRibbonEditor.bas",
+      "sha256": "2d8aed2ec79ba3e825e782c2391d08f112d0d98b48475d0a7a02ab4ae97a2ed4",
+      "matches": true
+    },
+    {
+      "path": "MDL\\MóduloPesquisa.bas",
+      "sha256": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "matches": true
+    },
+    {
+      "path": "MDL\\MóduloRemoveFechar.bas",
+      "sha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "matches": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "matches": true
+    }
+  ],
+  "backupPrefix": [
+    {
+      "file": "AGENTS.md",
+      "historicalBytesPreserved": true
+    },
+    {
+      "file": ".gitignore",
+      "historicalBytesPreserved": true
+    },
+    {
+      "file": "HISTORICO_ALTERACOES.md",
+      "historicalBytesPreserved": true
+    },
+    {
+      "file": "RELATORIO_AUDITORIA.md",
+      "historicalBytesPreserved": true
+    },
+    {
+      "file": "MAPA_PROJETO.md",
+      "historicalBytesPreserved": true
+    },
+    {
+      "file": "TESTES_VBA.md",
+      "historicalBytesPreserved": true
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+      "sha256": "9b24bec50e588551a744128912c062bdbb020905bccd41b40f62c0aee89dbad2",
+      "expected": "9b24bec50e588551a744128912c062bdbb020905bccd41b40f62c0aee89dbad2",
+      "matches": true
+    },
+    {
+      "file": "Banco_Candidato_Sintetico.accdb",
+      "sha256": "3198e07699f644f64c325a9fb517470b64950aa5a262cc354629ed61f1503dc3",
+      "expected": "3198e07699f644f64c325a9fb517470b64950aa5a262cc354629ed61f1503dc3",
+      "matches": true
+    }
+  ],
+  "links": [
+    {
+      "doc": "ENTREGA_1_CANDIDATO_INTEGRADO.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/entrega/Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+      "exists": true
+    },
+    {
+      "doc": "ENTREGA_1_CANDIDATO_INTEGRADO.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/evidencias/compilacao-final-menu.txt",
+      "exists": true
+    },
+    {
+      "doc": "ENTREGA_1_CANDIDATO_INTEGRADO.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/entrega/Banco_Candidato_Sintetico.accdb",
+      "exists": true
+    },
+    {
+      "doc": "ENTREGA_1_CANDIDATO_INTEGRADO.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/evidencias/ace-final-revisao8.json",
+      "exists": true
+    },
+    {
+      "doc": "ENTREGA_1_CANDIDATO_INTEGRADO.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/fontes/",
+      "exists": true
+    },
+    {
+      "doc": "ENTREGA_1_CANDIDATO_INTEGRADO.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/entrega/manifesto_artefatos.json",
+      "exists": true
+    },
+    {
+      "doc": "ENTREGA_1_CANDIDATO_INTEGRADO.md",
+      "target": "./MANUAL_INSTALACAO_RESTAURACAO.md",
+      "exists": true
+    },
+    {
+      "doc": "ENTREGA_1_CANDIDATO_INTEGRADO.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/evidencias/execucao/resultados_entrega1.tsv",
+      "exists": true
+    },
+    {
+      "doc": "ENTREGA_1_CANDIDATO_INTEGRADO.md",
+      "target": "./MATRIZ_REGRESSAO_ENTREGA.md",
+      "exists": true
+    },
+    {
+      "doc": "ENTREGA_1_CANDIDATO_INTEGRADO.md",
+      "target": "./REGISTRO_DEFEITOS_ABERTOS.md",
+      "exists": true
+    },
+    {
+      "doc": "ENTREGA_1_CANDIDATO_INTEGRADO.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/evidencias/inventario_integracao.json",
+      "exists": true
+    },
+    {
+      "doc": "MATRIZ_REGRESSAO_ENTREGA.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/checkpoints/10_base_revisao8_sem_pendencias.accdb",
+      "exists": true
+    },
+    {
+      "doc": "MATRIZ_REGRESSAO_ENTREGA.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/evidencias/execucao/resultados_entrega1.tsv",
+      "exists": true
+    },
+    {
+      "doc": "MATRIZ_REGRESSAO_ENTREGA.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/evidencias/resultados_estruturados.json",
+      "exists": true
+    },
+    {
+      "doc": "MATRIZ_REGRESSAO_ENTREGA.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/evidencias/execucao/",
+      "exists": true
+    },
+    {
+      "doc": "MATRIZ_REGRESSAO_ENTREGA.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/fontes/MDL/modTestesEntrega1.bas",
+      "exists": true
+    },
+    {
+      "doc": "REGISTRO_DEFEITOS_ABERTOS.md",
+      "target": "./MATRIZ_REGRESSAO_ENTREGA.md",
+      "exists": true
+    },
+    {
+      "doc": "MANUAL_INSTALACAO_RESTAURACAO.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/entrega/",
+      "exists": true
+    },
+    {
+      "doc": "MANUAL_INSTALACAO_RESTAURACAO.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/entrega/manifesto_artefatos.json",
+      "exists": true
+    },
+    {
+      "doc": "MANUAL_INSTALACAO_RESTAURACAO.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/checkpoints/",
+      "exists": true
+    },
+    {
+      "doc": "MANUAL_INSTALACAO_RESTAURACAO.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/backup/",
+      "exists": true
+    },
+    {
+      "doc": "MANUAL_INSTALACAO_RESTAURACAO.md",
+      "target": "./MATRIZ_REGRESSAO_ENTREGA.md",
+      "exists": true
+    },
+    {
+      "doc": "MANUAL_INSTALACAO_RESTAURACAO.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/entrega/Preparar-CopiaSintetica.ps1",
+      "exists": true
+    },
+    {
+      "doc": "MANUAL_INSTALACAO_RESTAURACAO.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/backup/Fixture_F10_Referencia.xlsm",
+      "exists": true
+    },
+    {
+      "doc": "MANUAL_INSTALACAO_RESTAURACAO.md",
+      "target": "./_desenvolvimento/entrega1_20261102T182823Z/fontes/",
+      "exists": true
+    }
+  ]
+}

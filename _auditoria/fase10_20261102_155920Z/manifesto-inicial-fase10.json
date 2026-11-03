@@ -1,0 +1,377 @@
+{
+  "phase": 10,
+  "stamp": "20261102_155920Z",
+  "checkedPrevious": 2417,
+  "mismatches": [],
+  "previousManifestSHA256": "5e4103212d07255be4b540093f61da74bd1d0adee891f9d06278d0b989d16539",
+  "deliverySHA256": "fbb127500d504e6ac9bf3f857dfc936f1f0e43449b3549a2473fff2a5b56386d",
+  "backups": [
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\.gitignore",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\.gitignore",
+      "sha256": "0e4ed863854d3ef23193ae90b3ccf7c939213a181faeee232c01fd34477e9af5",
+      "bytes": 1221,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\AGENTS.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\AGENTS.md",
+      "sha256": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7",
+      "bytes": 3409,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\ARQUITETURA_IDENTIDADE_FASE6.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\ARQUITETURA_IDENTIDADE_FASE6.md",
+      "sha256": "502e9f0204adea71c403afe4f8643584ff86f783ca561381cc100423831a5d90",
+      "bytes": 9235,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\ARQUITETURA_RECUPERACAO_FASE6.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\ARQUITETURA_RECUPERACAO_FASE6.md",
+      "sha256": "9040f97027087c57e8be492f8febe5fcc6373664eb73c3fca61eb08fa95dd187",
+      "bytes": 9907,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\COMPARATIVO_ARMAZENAMENTO_FASE9.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\COMPARATIVO_ARMAZENAMENTO_FASE9.md",
+      "sha256": "128292928379af25dbd827246c339064ef4f1003cbff30c0657e5cbf7996c2be",
+      "bytes": 6697,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\COMPILACAO_VBA_FASE4.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\COMPILACAO_VBA_FASE4.md",
+      "sha256": "7e579eeb2c503556c98bf18c75a464431f2dbf49e11bf47a2d2d8f1dd3d63cde",
+      "bytes": 27042,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\CONTRATO_IDENTIDADE_FASE7.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\CONTRATO_IDENTIDADE_FASE7.md",
+      "sha256": "bf1674ff4ff23f2220eab0f0380d377c3c7928addc8c941c09f6fe8326a34e59",
+      "bytes": 6435,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\CONTRATO_PERSISTENCIA_FASE8.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\CONTRATO_PERSISTENCIA_FASE8.md",
+      "sha256": "3b4d84a0e16903c882fdaea0d65190b30b2d9680cb436b00cf56e52e3b99656d",
+      "bytes": 7778,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\CORRECOES_PROTOTIPOS_FASE8.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\CORRECOES_PROTOTIPOS_FASE8.md",
+      "sha256": "bd1a8d9552245e23ac2565370f3ae89fc42786ef948edc7b27881b5415d46e7e",
+      "bytes": 7936,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\DECISOES_ARQUITETURA_FASE6.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\DECISOES_ARQUITETURA_FASE6.md",
+      "sha256": "cea9887d1d55a994aa5ebbc2a34b8b62ca47d36235b3bdf35d8e8190b7566ffd",
+      "bytes": 4848,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\DECISOES_PENDENTES_FASE9.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\DECISOES_PENDENTES_FASE9.md",
+      "sha256": "cd4f4748d4176812d912dc2e6425b9350fe443a19888ea8b1ea1c98d8e644a15",
+      "bytes": 3711,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\ESQUEMA_TRANSACIONAL_FASE9.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\ESQUEMA_TRANSACIONAL_FASE9.md",
+      "sha256": "1ee117106430bb5bc4fdbaa3194f0f12064e84d1a61371269aa2967974d621ff",
+      "bytes": 5267,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\HISTORICO_ALTERACOES.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\HISTORICO_ALTERACOES.md",
+      "sha256": "cb2c7516d78a3e0c9f8898d90b9dd53d70fa761b16cc5d3102c4ab2deb4caf38",
+      "bytes": 29378,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\MAPA_INTEGRIDADE_ESTOQUE.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\MAPA_INTEGRIDADE_ESTOQUE.md",
+      "sha256": "d11572f132a81db3dc72c30d3182ca77f8a7688a3672d90240040265c0e47385",
+      "bytes": 10746,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\MAPA_MIGRACAO_LEITORES_FASE7.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\MAPA_MIGRACAO_LEITORES_FASE7.md",
+      "sha256": "19856489ebcfd668c451bd50390fb729cb00b8be948fc2d7eefaa936eea44255",
+      "bytes": 37058,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\MAPA_PROJETO.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\MAPA_PROJETO.md",
+      "sha256": "d1052f1451ccfd2863ce9e9292e1d54f73afbc4c50edeb3c02203621d8a6c6f3",
+      "bytes": 83455,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\MATRIZ_IMPACTO_BAIXA_FASE6.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\MATRIZ_IMPACTO_BAIXA_FASE6.md",
+      "sha256": "d980618c6fc5ec8bf54c490079de03cf581b0db5dbe1a7aac8c746ed30e22028",
+      "bytes": 18314,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\MATRIZ_REGRESSAO_FASE5.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\MATRIZ_REGRESSAO_FASE5.md",
+      "sha256": "a224f9337cc1c792ab7253b80e1b034f5fbaf26ca8ef59b77cc2f099541d1c53",
+      "bytes": 14430,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\MATRIZ_REGRESSAO_FASE6.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\MATRIZ_REGRESSAO_FASE6.md",
+      "sha256": "0c2b3418a211213df1eae309b2a1573c6997df43fd8c724e98fbda652153e72d",
+      "bytes": 19807,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\MATRIZ_REGRESSAO_FASE7.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\MATRIZ_REGRESSAO_FASE7.md",
+      "sha256": "0505bb9dd0a67b2e82fc80e65d214daa6660151aaf24e34fd0e77329ff6d60fa",
+      "bytes": 14776,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\MATRIZ_REGRESSAO_FASE8.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\MATRIZ_REGRESSAO_FASE8.md",
+      "sha256": "13d3cd6a3bde02bf2f7efd9d48f9e7973f97c91143fd6093b32fca72eafcd571",
+      "bytes": 18545,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\MATRIZ_REGRESSAO_FASE9.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\MATRIZ_REGRESSAO_FASE9.md",
+      "sha256": "32ac7dd9223d978cba9e139a8de8d3a3109fce0ccabc84c3b463a7acf0cba042",
+      "bytes": 18641,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\MATRIZ_REGRESSAO_VBA_FASE4.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\MATRIZ_REGRESSAO_VBA_FASE4.md",
+      "sha256": "92aca0a199eceb84d52bcc9bbb8f4987cf31affdfa2c94b67b28bf3bae2eb10f",
+      "bytes": 13712,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\MATRIZ_TESTES_FASE3.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\MATRIZ_TESTES_FASE3.md",
+      "sha256": "c349a18275f739901ceefa11e113b1c108cad3d1c0951fb3a0044cc92ea3575c",
+      "bytes": 8368,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\PACOTE_APROVACAO_PORTAO2.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\PACOTE_APROVACAO_PORTAO2.md",
+      "sha256": "7d6764f96b098254a1a9625a29f1fbf4e33a392b22133157fccf414cebaa876a",
+      "bytes": 8258,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\PACOTE_DECISOES_FASE7.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\PACOTE_DECISOES_FASE7.md",
+      "sha256": "19bcb05c7716727eb0c26b8e8e0523abeb750a480d8dcd6fc14f29f54f8ef628",
+      "bytes": 7070,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\PENDENCIAS_DECISAO.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\PENDENCIAS_DECISAO.md",
+      "sha256": "096925345789f325873969f453f7617adf4239cb5bb2e53be37e3464d602ab9f",
+      "bytes": 15104,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\PLANO_CORRECAO_FASE2.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\PLANO_CORRECAO_FASE2.md",
+      "sha256": "8e05cd97a52279fe80a48a3c65471cbd17dbc49a5038c094538e2a875739813f",
+      "bytes": 28770,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\PLANO_CORRECAO_FASE3.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\PLANO_CORRECAO_FASE3.md",
+      "sha256": "31020aae11ccd42e70f25331d73f452851b37d5e1a4971f6a16116468be48090",
+      "bytes": 6583,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\PLANO_IDENTIDADE_REGISTROS.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\PLANO_IDENTIDADE_REGISTROS.md",
+      "sha256": "6752e541e52776bd9c711d8ff5008eede32d6950de2fd109cfc715317e32d4f0",
+      "bytes": 11491,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\PLANO_IMPLANTACAO_FASE8.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\PLANO_IMPLANTACAO_FASE8.md",
+      "sha256": "19eec14080b925e328d48cfec754ce495be444849243f221d318ca6443f347dc",
+      "bytes": 6966,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\PLANO_MIGRACAO_M0_M4_FASE9.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\PLANO_MIGRACAO_M0_M4_FASE9.md",
+      "sha256": "97608f54ae7965ea007bcc94b6513ba9d7832950226d4b52acfc8c7936d55de4",
+      "bytes": 3682,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\PLANO_MIGRACAO_REVERSIVEL_FASE7.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\PLANO_MIGRACAO_REVERSIVEL_FASE7.md",
+      "sha256": "f7f540f5d10e502c15a912ff57fcb46d750adaf1afdf060b53d853bf5b3cfae6",
+      "bytes": 7551,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\PLANO_RECUPERACAO_FALHAS.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\PLANO_RECUPERACAO_FALHAS.md",
+      "sha256": "75078ec05798c1829139bb6ea27e747afc4e378a54b12cc17782e439857ebd8f",
+      "bytes": 7588,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\PROPOSTA_ARMAZENAMENTO_FASE8.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\PROPOSTA_ARMAZENAMENTO_FASE8.md",
+      "sha256": "f424d349e692a6d7755232a17c4f17183719446870e50516303dfb899f6a35b3",
+      "bytes": 5738,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\PROTOCOLO_PERSISTENCIA_CONCILIACAO_FASE7.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\PROTOCOLO_PERSISTENCIA_CONCILIACAO_FASE7.md",
+      "sha256": "495fed80a177c1c97fb5c8de77ebfce3e723ac4f710f1b1b233a4d34bdc470a7",
+      "bytes": 8214,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\PROTOCOLO_RECONSTRUCAO_EXCEL_FASE9.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\PROTOCOLO_RECONSTRUCAO_EXCEL_FASE9.md",
+      "sha256": "939bc3cb2542b6d08e676b10b1c5803d9c50e096d1594f174fe3aeb3ea953734",
+      "bytes": 4614,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\PROTOTIPOS_INTEGRIDADE_FASE6.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\PROTOTIPOS_INTEGRIDADE_FASE6.md",
+      "sha256": "11b9fa9438f9d1daa6de652c92b9434a3a6017e0ab89448058cdbf5522a06897",
+      "bytes": 12798,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\README.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\README.md",
+      "sha256": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "bytes": 7765,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\RELATORIO_AUDITORIA.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\RELATORIO_AUDITORIA.md",
+      "sha256": "22a3002bde5591e59be5fcdec130b840e73349faa7275dd5e250f25c57b26943",
+      "bytes": 37205,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\RELATORIO_HOMOLOGACAO_FASE3.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\RELATORIO_HOMOLOGACAO_FASE3.md",
+      "sha256": "a7436650eaced9bb5e7fed3bd4ebc6c85da588a76a7db6b77e7901433ab44e98",
+      "bytes": 15922,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\RELATORIO_INTEGRACAO_FASE4.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\RELATORIO_INTEGRACAO_FASE4.md",
+      "sha256": "f452540a9a585c7b7dab18d180869ab70cae718dfa86fd641364cbbacfee6b9a",
+      "bytes": 15268,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\RELATORIO_TECNICO_FASE7.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\RELATORIO_TECNICO_FASE7.md",
+      "sha256": "fe96883fad72b2e454099fd152da61bfcc19ad76a25e854e11fa09e9f4713c01",
+      "bytes": 11692,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\RELATORIO_TECNICO_FASE8.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\RELATORIO_TECNICO_FASE8.md",
+      "sha256": "9ff9828930cf095829f6e047717f5e7030ffc0085cb818917bc050be55b4bc79",
+      "bytes": 11782,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\RELATORIO_TECNICO_FASE9.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\RELATORIO_TECNICO_FASE9.md",
+      "sha256": "51e078b0e8cb305c18c7b327c177b981e6bd96d80c5b60550a51395f84d70634",
+      "bytes": 8722,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\RELATORIO_TESTES_INTEGRADOS_FASE5.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\RELATORIO_TESTES_INTEGRADOS_FASE5.md",
+      "sha256": "d2553f976dffbaf15209e7bfce25a0ddaf4b5e2096c3267effa56133a142373a",
+      "bytes": 11816,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\TESTES_CONCORRENCIA_FASE9.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\TESTES_CONCORRENCIA_FASE9.md",
+      "sha256": "5639ed309a9da948d26e82168ec6a73ff3fe2f39e60ff85d8be48d109bc67b7b",
+      "bytes": 3998,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\TESTES_DURABILIDADE_FASE9.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\TESTES_DURABILIDADE_FASE9.md",
+      "sha256": "3a8b14168638fb5546e24cc6fdadf09d4eab12de38c51a8c64a394b8d9ae7fb3",
+      "bytes": 4241,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\TESTES_VBA.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\documentacao\\TESTES_VBA.md",
+      "sha256": "ea9b37ba3781b6484e57dacaa9e632b8ca4b42a02d30166b2bbb03b331bee4d7",
+      "bytes": 34708,
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase9_20261102_142753Z\\entrega\\Fixture_Persistencia_Fase9_EXPERIMENTAL_NAO_HOMOLOGADA.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\backup\\Fixture_Fase9_Referencia.xlsm",
+      "sha256": "fbb127500d504e6ac9bf3f857dfc936f1f0e43449b3549a2473fff2a5b56386d",
+      "bytes": 2353250,
+      "verified": true
+    }
+  ],
+  "temp": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase10_20261102_155920Z",
+  "master": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase10_20261102_155920Z\\Fixture_Integridade_Fase10_Mestre.xlsm",
+  "read": [
+    "AGENTS.md",
+    "RELATORIO_TECNICO_FASE9.md",
+    "DECISOES_PENDENTES_FASE9.md",
+    "MATRIZ_REGRESSAO_FASE9.md",
+    "ESQUEMA_TRANSACIONAL_FASE9.md",
+    "TESTES_DURABILIDADE_FASE9.md",
+    "TESTES_CONCORRENCIA_FASE9.md",
+    "PROTOCOLO_RECONSTRUCAO_EXCEL_FASE9.md",
+    "COMPARATIVO_ARMAZENAMENTO_FASE9.md",
+    "PLANO_MIGRACAO_M0_M4_FASE9.md",
+    "PACOTE_APROVACAO_PORTAO2.md",
+    "CONTRATO_IDENTIDADE_FASE7.md",
+    "HISTORICO_ALTERACOES.md"
+  ]
+}

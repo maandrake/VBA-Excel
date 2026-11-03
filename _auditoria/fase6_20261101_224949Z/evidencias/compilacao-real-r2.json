@@ -1,0 +1,1131 @@
+{
+  "timestamp": "2026-11-01T23:34:04.546Z",
+  "modality": "Compilacao real VBA pelo menu Depurar > Compilar VBAProject no Editor nativo; importacao Ctrl+M; salvamento Ctrl+B",
+  "fixture": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase6_20261101_224949Z\\revisao2\\Fixture_Arquitetura_Fase6_MestreR2.xlsm",
+  "sha256": "7c0ab3d99cb02a99d1cee65bb31e001ae0876c155ee59c307327c2268e1ef878",
+  "components": 57,
+  "existingComponents": [
+    {
+      "module": "EstaPastaDeTrabalho",
+      "equal": true
+    },
+    {
+      "module": "Planilha12",
+      "equal": true
+    },
+    {
+      "module": "Planilha1",
+      "equal": true
+    },
+    {
+      "module": "Planilha13",
+      "equal": true
+    },
+    {
+      "module": "Planilha3",
+      "equal": true
+    },
+    {
+      "module": "Planilha4",
+      "equal": true
+    },
+    {
+      "module": "Planilha2",
+      "equal": true
+    },
+    {
+      "module": "Planilha17",
+      "equal": true
+    },
+    {
+      "module": "Planilha15",
+      "equal": true
+    },
+    {
+      "module": "Planilha10",
+      "equal": true
+    },
+    {
+      "module": "Planilha16",
+      "equal": true
+    },
+    {
+      "module": "Planilha18",
+      "equal": true
+    },
+    {
+      "module": "Planilha7",
+      "equal": true
+    },
+    {
+      "module": "Planilha6",
+      "equal": true
+    },
+    {
+      "module": "Planilha9",
+      "equal": true
+    },
+    {
+      "module": "Planilha11",
+      "equal": true
+    },
+    {
+      "module": "Planilha5",
+      "equal": true
+    },
+    {
+      "module": "Planilha8",
+      "equal": true
+    },
+    {
+      "module": "clsOperacaoPlanilha",
+      "equal": true
+    },
+    {
+      "module": "modIntegridadeOperacao",
+      "equal": false
+    },
+    {
+      "module": "mdlChamarFiltro",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarTabCan",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarTabEnt",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarTabSai",
+      "equal": true
+    },
+    {
+      "module": "mdlCondCel",
+      "equal": true
+    },
+    {
+      "module": "mdlCopiar",
+      "equal": true
+    },
+    {
+      "module": "mdlCriaBackup",
+      "equal": false
+    },
+    {
+      "module": "mdlCursor",
+      "equal": true
+    },
+    {
+      "module": "mdlMacroConexão",
+      "equal": true
+    },
+    {
+      "module": "mdlMacroConexãoClientes",
+      "equal": true
+    },
+    {
+      "module": "mdlMacroDocFora",
+      "equal": true
+    },
+    {
+      "module": "mdlOcultarTítulo",
+      "equal": true
+    },
+    {
+      "module": "mdlTelaCheia",
+      "equal": true
+    },
+    {
+      "module": "modSeleniumCommon",
+      "equal": false
+    },
+    {
+      "module": "modSeleniumConsultaNFE",
+      "equal": true
+    },
+    {
+      "module": "modSeleniumRenavamConsulta",
+      "equal": true
+    },
+    {
+      "module": "modSelTest",
+      "equal": false
+    },
+    {
+      "module": "MóduloOfficeRibbonEditor",
+      "equal": true
+    },
+    {
+      "module": "MóduloPesquisa",
+      "equal": false
+    },
+    {
+      "module": "MóduloRemoveFechar",
+      "equal": true
+    },
+    {
+      "module": "modValidacaoXML",
+      "equal": false
+    },
+    {
+      "module": "mdlChamarForm",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarFormDocFora",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarFormNCM",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarFormSaida",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarFormVeículos",
+      "equal": true
+    },
+    {
+      "module": "modPreencherFormulario",
+      "equal": true
+    },
+    {
+      "module": "Cad_NCM",
+      "equal": false
+    },
+    {
+      "module": "Cad_NFE",
+      "equal": false
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "equal": false
+    },
+    {
+      "module": "frmRelatorioXML",
+      "equal": false
+    },
+    {
+      "module": "UserFormFiltro",
+      "equal": false
+    },
+    {
+      "module": "AuditoriaListaFake",
+      "equal": true
+    },
+    {
+      "module": "modTestesAuditoria",
+      "equal": false
+    },
+    {
+      "module": "modTestesFase2",
+      "equal": false
+    },
+    {
+      "module": "modTestesIntegradosFase5",
+      "equal": false
+    }
+  ],
+  "added": [
+    "modPrototiposFase6"
+  ],
+  "uiObserved": "Compilar VBAProject desabilitado depois de executar compilacao; nenhuma mensagem de erro",
+  "actualSourceContains": [
+    {
+      "text": "DiarioCoerente6",
+      "found": true
+    },
+    {
+      "text": "VinculosConferem6",
+      "found": true
+    },
+    {
+      "text": "C_POSHIST_MUTACAO",
+      "found": true
+    },
+    {
+      "text": "C_VERSAO_OBSOLETA",
+      "found": true
+    }
+  ],
+  "incident": "Ao remover o modulo de R2, o foco voltou ao projeto R1; a primeira importacao entrou no R1 aberto, com nome automatico modPrototiposFase61. R1 foi fechado sem salvar. A importacao foi repetida no projeto R2 selecionado explicitamente. O disco R1 foi inspecionado: 57 componentes, sem modulo adicional. Nenhum projeto principal/original participou.",
+  "r1Modules": 57,
+  "r1Extra": [
+    "modPrototiposFase6"
+  ],
+  "canonicalComparison": {
+    "rule": "Ignora somente VB_Base gerado pelo VBE e recasing fora de literais; strings preservadas",
+    "modules": [
+      {
+        "module": "EstaPastaDeTrabalho",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha12",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha1",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha13",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha3",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha4",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha2",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha17",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha15",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha10",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha16",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha18",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha7",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha6",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha9",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha11",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha5",
+        "equalCanonical": true
+      },
+      {
+        "module": "Planilha8",
+        "equalCanonical": true
+      },
+      {
+        "module": "clsOperacaoPlanilha",
+        "equalCanonical": true
+      },
+      {
+        "module": "modIntegridadeOperacao",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlChamarFiltro",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlChamarTabCan",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlChamarTabEnt",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlChamarTabSai",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlCondCel",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlCopiar",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlCriaBackup",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlCursor",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlMacroConexão",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlMacroConexãoClientes",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlMacroDocFora",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlOcultarTítulo",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlTelaCheia",
+        "equalCanonical": true
+      },
+      {
+        "module": "modSeleniumCommon",
+        "equalCanonical": true
+      },
+      {
+        "module": "modSeleniumConsultaNFE",
+        "equalCanonical": true
+      },
+      {
+        "module": "modSeleniumRenavamConsulta",
+        "equalCanonical": true
+      },
+      {
+        "module": "modSelTest",
+        "equalCanonical": true
+      },
+      {
+        "module": "MóduloOfficeRibbonEditor",
+        "equalCanonical": true
+      },
+      {
+        "module": "MóduloPesquisa",
+        "equalCanonical": true
+      },
+      {
+        "module": "MóduloRemoveFechar",
+        "equalCanonical": true
+      },
+      {
+        "module": "modValidacaoXML",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlChamarForm",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlChamarFormDocFora",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlChamarFormNCM",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlChamarFormSaida",
+        "equalCanonical": true
+      },
+      {
+        "module": "mdlChamarFormVeículos",
+        "equalCanonical": true
+      },
+      {
+        "module": "modPreencherFormulario",
+        "equalCanonical": true
+      },
+      {
+        "module": "Cad_NCM",
+        "equalCanonical": true
+      },
+      {
+        "module": "Cad_NFE",
+        "equalCanonical": true
+      },
+      {
+        "module": "Cad_NFE_Saida",
+        "equalCanonical": true
+      },
+      {
+        "module": "frmRelatorioXML",
+        "equalCanonical": true
+      },
+      {
+        "module": "UserFormFiltro",
+        "equalCanonical": true
+      },
+      {
+        "module": "AuditoriaListaFake",
+        "equalCanonical": true
+      },
+      {
+        "module": "modTestesAuditoria",
+        "equalCanonical": true
+      },
+      {
+        "module": "modTestesFase2",
+        "equalCanonical": true
+      },
+      {
+        "module": "modTestesIntegradosFase5",
+        "equalCanonical": true
+      }
+    ]
+  },
+  "designerStreams": {
+    "examined": 127,
+    "byteChanged": 75,
+    "interpretation": "Reserializacao ao compilar/salvar; igualdade binaria dos designers da fixture nao demonstrada. FRM/FRX externos e referencia Fase5 permanecem intactos; nao houve edicao deliberada de controles nem regressao funcional de UserForms nesta fase.",
+    "details": [
+      {
+        "path": "/Cad_NCM/f",
+        "bytes": 287,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NCM/o",
+        "bytes": 42936,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NCM/i18/f",
+        "bytes": 102218,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NCM/i18/o",
+        "bytes": 260,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NCM/i18/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NCM/i254/f",
+        "bytes": 102298,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NCM/i254/o",
+        "bytes": 368,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NCM/i254/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NCM/\u0001CompObj",
+        "bytes": 97,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NCM/\u0003VBFrame",
+        "bytes": 295,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/f",
+        "bytes": 907,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/o",
+        "bytes": 559699,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/f",
+        "bytes": 192,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/o",
+        "bytes": 180,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/x",
+        "bytes": 48,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/f",
+        "bytes": 336,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/o",
+        "bytes": 0,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i12/f",
+        "bytes": 645,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i12/o",
+        "bytes": 620,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i12/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i46/f",
+        "bytes": 193,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i46/o",
+        "bytes": 132,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i46/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i50/f",
+        "bytes": 797,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i50/o",
+        "bytes": 509594,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i50/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i391/f",
+        "bytes": 677,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i391/o",
+        "bytes": 696,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i391/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i460/f",
+        "bytes": 209,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i460/o",
+        "bytes": 132,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i460/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i483/f",
+        "bytes": 245,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i483/o",
+        "bytes": 28266,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i483/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/\u0001CompObj",
+        "bytes": 110,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/f",
+        "bytes": 364,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/o",
+        "bytes": 0,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i547/f",
+        "bytes": 701,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i547/o",
+        "bytes": 620,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i547/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i567/f",
+        "bytes": 205,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i567/o",
+        "bytes": 132,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i567/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i570/f",
+        "bytes": 853,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i570/o",
+        "bytes": 832,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i570/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i582/f",
+        "bytes": 217,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i582/o",
+        "bytes": 132,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i582/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i585/f",
+        "bytes": 269,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i585/o",
+        "bytes": 28266,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i585/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i612/f",
+        "bytes": 905,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i612/o",
+        "bytes": 505438,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i612/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/\u0001CompObj",
+        "bytes": 110,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i98/\u0001CompObj",
+        "bytes": 115,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/i103/f",
+        "bytes": 102366,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i103/o",
+        "bytes": 92012,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE/i103/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/\u0001CompObj",
+        "bytes": 97,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE/\u0003VBFrame",
+        "bytes": 312,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/f",
+        "bytes": 439,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/o",
+        "bytes": 401944,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/f",
+        "bytes": 192,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/o",
+        "bytes": 172,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/x",
+        "bytes": 48,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/f",
+        "bytes": 336,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/o",
+        "bytes": 0,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i12/f",
+        "bytes": 649,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i12/o",
+        "bytes": 620,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i12/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i46/f",
+        "bytes": 201,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i46/o",
+        "bytes": 132,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i46/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i50/f",
+        "bytes": 593,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i50/o",
+        "bytes": 375723,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i50/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i391/f",
+        "bytes": 833,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i391/o",
+        "bytes": 864,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i391/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i460/f",
+        "bytes": 1045,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i460/o",
+        "bytes": 1180,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i460/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i483/f",
+        "bytes": 353,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i483/o",
+        "bytes": 556,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i483/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/\u0001CompObj",
+        "bytes": 110,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/f",
+        "bytes": 364,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/o",
+        "bytes": 0,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i242/f",
+        "bytes": 569,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i242/o",
+        "bytes": 338032,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i242/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i248/f",
+        "bytes": 849,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i248/o",
+        "bytes": 812,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i248/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i257/f",
+        "bytes": 709,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i257/o",
+        "bytes": 620,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i257/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i268/f",
+        "bytes": 1149,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i268/o",
+        "bytes": 1252,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i268/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i275/f",
+        "bytes": 213,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i275/o",
+        "bytes": 132,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i275/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i498/f",
+        "bytes": 381,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i498/o",
+        "bytes": 556,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i498/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/\u0001CompObj",
+        "bytes": 110,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/\u0001CompObj",
+        "bytes": 115,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i103/f",
+        "bytes": 102230,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i103/o",
+        "bytes": 86430,
+        "equal": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i103/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/\u0001CompObj",
+        "bytes": 97,
+        "equal": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/\u0003VBFrame",
+        "bytes": 313,
+        "equal": true
+      },
+      {
+        "path": "/UserFormFiltro/f",
+        "bytes": 131,
+        "equal": false
+      },
+      {
+        "path": "/UserFormFiltro/o",
+        "bytes": 0,
+        "equal": true
+      },
+      {
+        "path": "/UserFormFiltro/i02/f",
+        "bytes": 1181,
+        "equal": false
+      },
+      {
+        "path": "/UserFormFiltro/i02/o",
+        "bytes": 500902,
+        "equal": false
+      },
+      {
+        "path": "/UserFormFiltro/i02/\u0001CompObj",
+        "bytes": 112,
+        "equal": true
+      },
+      {
+        "path": "/UserFormFiltro/\u0001CompObj",
+        "bytes": 97,
+        "equal": true
+      },
+      {
+        "path": "/UserFormFiltro/\u0003VBFrame",
+        "bytes": 296,
+        "equal": true
+      },
+      {
+        "path": "/frmRelatorioXML/f",
+        "bytes": 339,
+        "equal": false
+      },
+      {
+        "path": "/frmRelatorioXML/o",
+        "bytes": 91024,
+        "equal": false
+      },
+      {
+        "path": "/frmRelatorioXML/\u0001CompObj",
+        "bytes": 97,
+        "equal": true
+      },
+      {
+        "path": "/frmRelatorioXML/\u0003VBFrame",
+        "bytes": 301,
+        "equal": true
+      }
+    ]
+  }
+}

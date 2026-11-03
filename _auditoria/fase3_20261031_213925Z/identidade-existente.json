@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-10-31T21:47:23.818Z",
+  "method": "Leitura local somente de OOXML; estatisticas agregadas, sem exportar valores de NF, chave ou placa. Nao executa Office.",
+  "warning": "Unicidade observada nao estabelece contrato de identidade. NNF isolado, placa ou linha nao sao presumidos como identificador estavel. Historicos nao armazenam a chave de origem nos campos de cadastro atuais.",
+  "sheets": [
+    {
+      "sheet": "Entradas",
+      "recordsWithA": 31,
+      "distinctA": 31,
+      "duplicateAGroups": 0,
+      "recordsWithBlankPlateF": 0,
+      "keyStorageInWriters": "Nao gravada como chave pelo cadastro correspondente",
+      "recordsWith44DigitRepresentationInL": null
+    },
+    {
+      "sheet": "Entradas Filial",
+      "recordsWithA": 42,
+      "distinctA": 42,
+      "duplicateAGroups": 0,
+      "recordsWithBlankPlateF": 0,
+      "keyStorageInWriters": "L opcional; pode ser chave da saida matriz transferida",
+      "recordsWith44DigitRepresentationInL": 17
+    },
+    {
+      "sheet": "Entradas Anual",
+      "recordsWithA": 1588,
+      "distinctA": 1570,
+      "duplicateAGroups": 18,
+      "recordsWithBlankPlateF": 3,
+      "keyStorageInWriters": "Nao gravada como chave pelo cadastro correspondente",
+      "recordsWith44DigitRepresentationInL": null
+    },
+    {
+      "sheet": "Entradas Anual Filial",
+      "recordsWithA": 170,
+      "distinctA": 169,
+      "duplicateAGroups": 1,
+      "recordsWithBlankPlateF": 0,
+      "keyStorageInWriters": "Nao gravada como chave pelo cadastro correspondente",
+      "recordsWith44DigitRepresentationInL": null
+    }
+  ],
+  "typeVerification": {
+    "keysWith44DigitsInL": 17,
+    "storedAsText": 17,
+    "serializedNumeric": 0,
+    "scope": "Tipo OOXML verificado sem exibir valores; nao define identidade de negocio."
+  }
+}

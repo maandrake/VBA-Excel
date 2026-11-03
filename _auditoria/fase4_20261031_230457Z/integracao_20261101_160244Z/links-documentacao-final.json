@@ -1,0 +1,652 @@
+[
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Entrega_Fase4_20261101/Fixture_Auditoria_Fase4_Integrada_Testada.xlsm",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/inventario-integracao.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/fontes-integradas-entrega.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/sondagem-com.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./COMPILACAO_VBA_FASE4.md",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/C4-01.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/C4-02.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/C4-03.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/C4-04.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/desenvolvimento/",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/scripts/",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/xml-vba.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/userforms-listbox-vba.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/backups-vba.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/reabertura-backups-com.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/ribbon-antes.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/ribbon-depois.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/regressao-pos-C4-04.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./PLANO_IDENTIDADE_REGISTROS.md",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/testes-vba-complementares.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/integridade-final.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/backups-fases1-2.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/manifesto-inicial.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/manifesto-backup-adicional.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/manifesto-documentos-antes-consolidacao.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/celula-vazia-vba.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/entradas-vba-real.json",
+    "exists": true
+  },
+  {
+    "document": "RELATORIO_INTEGRACAO_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/comparacao-invalidos-matriz.json",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Entrega_Fase4_20261101/Fixture_Auditoria_Fase4_Integrada_Testada.xlsm",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/inventario-integracao.json",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/fontes-integradas-entrega.json",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/resultado-final.json",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "./MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/documentos-antes-consolidacao/",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "./RELATORIO_INTEGRACAO_FASE4.md",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Fixture_Auditoria_Fase4.xlsm",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha12.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha1.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha13.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha3.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha4.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha2.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha17.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha15.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha10.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha16.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha18.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha7.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha6.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha9.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha11.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha5.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/Planilha8.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Documentos/EstaPastaDeTrabalho.txt",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/clsOperacaoPlanilha.cls",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/modIntegridadeOperacao.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlChamarFiltro.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlChamarTabCan.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlChamarTabEnt.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlChamarTabSai.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlCondCel.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlCopiar.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlCriaBackup.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlCursor.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlMacroConexão.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlMacroConexãoClientes.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlMacroDocFora.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlOcultarTítulo.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlTelaCheia.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/modSeleniumCommon.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/modSeleniumConsultaNFE.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/modSeleniumRenavamConsulta.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/modSelTest.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/MóduloOfficeRibbonEditor.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/MóduloPesquisa.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/MóduloRemoveFechar.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/modValidacaoXML.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Form/Cad_NCM.frm",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Form/Cad_NFE.frm",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Form/Cad_NFE_Saida.frm",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Form/frmRelatorioXML.frm",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlChamarForm.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlChamarFormDocFora.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlChamarFormNCM.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlChamarFormSaida.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/mdlChamarFormVeículos.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/modPreencherFormulario.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Form/UserFormFiltro.frm",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Testes/AuditoriaListaFake.cls",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Testes/modTestesAuditoria.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/Testes/modTestesFase2.bas",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/OneDrive - MARCOS DESPACHANTE/Marcos Despachante/Software/VBA-Excel/_auditoria/fase4_20261031_230457Z/inventario-integracao.json",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/OneDrive - MARCOS DESPACHANTE/Marcos Despachante/Software/VBA-Excel/_auditoria/fase3_20261031_213925Z/bibliotecas-registradas.json",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Exportados_VBE",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Documentos_Exportados_VBE",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/OneDrive - MARCOS DESPACHANTE/Marcos Despachante/Software/VBA-Excel/_auditoria/fase4_20261031_230457Z/backup/Fixture_Auditoria_Fase3.xlsm",
+    "exists": true
+  },
+  {
+    "document": "COMPILACAO_VBA_FASE4.md",
+    "target": "C:/Users/MARCOSALEXANDREPERDO/OneDrive - MARCOS DESPACHANTE/Marcos Despachante/Software/VBA-Excel/_auditoria/fase4_20261031_230457Z/backup",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./RELATORIO_INTEGRACAO_FASE4.md",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/inventario-integracao.json",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/fontes-integradas-entrega.json",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/testes-vba-complementares.json",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/preparacao-falha-individual.json",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/C4-04.json",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/regressao-pos-C4-04.json",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/userforms-listbox-vba.json",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/xml-vba.json",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/backups-vba.json",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/reabertura-backups-com.json",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/ribbon-antes.json",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/ribbon-depois.json",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/celula-vazia-vba.json",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/entradas-vba-real.json",
+    "exists": true
+  },
+  {
+    "document": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/comparacao-invalidos-matriz.json",
+    "exists": true
+  },
+  {
+    "document": "PENDENCIAS_DECISAO.md",
+    "target": "./RELATORIO_INTEGRACAO_FASE4.md",
+    "exists": true
+  },
+  {
+    "document": "PENDENCIAS_DECISAO.md",
+    "target": "./MATRIZ_REGRESSAO_VBA_FASE4.md",
+    "exists": true
+  },
+  {
+    "document": "PENDENCIAS_DECISAO.md",
+    "target": "./PLANO_IDENTIDADE_REGISTROS.md",
+    "exists": true
+  },
+  {
+    "document": "PENDENCIAS_DECISAO.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/C4-04.json",
+    "exists": true
+  },
+  {
+    "document": "PENDENCIAS_DECISAO.md",
+    "target": "./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/testes-vba-complementares.json",
+    "exists": true
+  },
+  {
+    "document": "PENDENCIAS_DECISAO.md",
+    "target": "./RELATORIO_INTEGRACAO_FASE4.md",
+    "exists": true
+  },
+  {
+    "document": "PENDENCIAS_DECISAO.md",
+    "target": "./PLANO_IDENTIDADE_REGISTROS.md",
+    "exists": true
+  },
+  {
+    "document": "PENDENCIAS_DECISAO.md",
+    "target": "./COMPILACAO_VBA_FASE4.md",
+    "exists": true
+  },
+  {
+    "document": "PENDENCIAS_DECISAO.md",
+    "target": "./_auditoria/fase3_20261031_213925Z/a08-estrategias-com.json",
+    "exists": true
+  },
+  {
+    "document": "PENDENCIAS_DECISAO.md",
+    "target": "./_auditoria/fase3_20261031_213925Z/identidade-existente.json",
+    "exists": true
+  },
+  {
+    "document": "PENDENCIAS_DECISAO.md",
+    "target": "./_auditoria/fase3_20261031_213925Z/a09-fronteiras-com.json",
+    "exists": true
+  },
+  {
+    "document": "PENDENCIAS_DECISAO.md",
+    "target": "./RELATORIO_HOMOLOGACAO_FASE3.md",
+    "exists": true
+  },
+  {
+    "document": "PENDENCIAS_DECISAO.md",
+    "target": "./_auditoria/fase3_20261031_213925Z/COMPILACAO_MANUAL.md",
+    "exists": true
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-11-02T00:09:04.542Z",
+  "freshSession": "R4: Workbooks.Count=1 e nome/caminho confirmados na Janela Imediata; Close False e Application.Quit na instancia criada com /x. Ausencia das janelas R3/R4 confirmada no inventario final.",
+  "oldSession": "Duas janelas antigas persistem apos 0x8000FFFF/Memoria insuficiente e tentativas de fechamento normal. O VBE antigo fechou. Nenhum encerramento forcado/processo global.",
+  "remaining": [
+    {
+      "windowId": 1316338,
+      "title": "Fixture_Arquitetura_Fase6_MestreR2.xlsm - Excel"
+    },
+    {
+      "windowId": 18615924,
+      "title": "Fixture_Arquitetura_Fase6_C_COLISAO.xlsm - Excel"
+    }
+  ],
+  "manualIfRequired": "Fechar somente essas duas fixtures de teste, sem salvar novas alteracoes; imagens/evidencias preservadas. Nao encerrar todas as instancias do Excel.",
+  "dataSafety": "Originais e referencia F5 nao participaram das instancias de teste."
+}

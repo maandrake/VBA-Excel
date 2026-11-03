@@ -1,0 +1,30 @@
+﻿{
+    "Timestamp":  "2026-10-31T17:23:03.6548210-03:00",
+    "Kind":  "Prototipos COM; nao integrados",
+    "Tests":  [
+                  {
+                      "Scenario":  "CompactarCampos",
+                      "Status":  "PASS",
+                      "A3":  "FICTICIO_4",
+                      "A4":  "FICTICIO_5",
+                      "N3Formula":  "=A3",
+                      "ExternalDirect":  "=Dados!A4",
+                      "ExternalValue":  "FICTICIO_5",
+                      "LateralT3":  "LATERAL_INDEPENDENTE",
+                      "ChaveLength":  44,
+                      "Limitation":  "Referencia direta A4 passa a FICTICIO_5"
+                  },
+                  {
+                      "Scenario":  "LimparCampos",
+                      "Status":  "PASS",
+                      "A3":  null,
+                      "A4":  "FICTICIO_4",
+                      "N3Formula":  "=A3",
+                      "ExternalDirect":  "=Dados!A4",
+                      "ExternalValue":  "FICTICIO_4",
+                      "LateralT3":  "LATERAL_INDEPENDENTE",
+                      "ChaveLength":  0,
+                      "Limitation":  "Lacuna faz filtros atuais pararem antes dos demais registros"
+                  }
+              ]
+}

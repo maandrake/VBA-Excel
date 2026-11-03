@@ -1,0 +1,100 @@
+[
+  {
+    "file": "AGENTS.md",
+    "previousSHA256": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7",
+    "currentSHA256": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7",
+    "previousPreservedAsPrefix": true,
+    "changed": false
+  },
+  {
+    "file": "RELATORIO_TESTES_INTEGRADOS_FASE5.md",
+    "previousSHA256": "d2553f976dffbaf15209e7bfce25a0ddaf4b5e2096c3267effa56133a142373a",
+    "currentSHA256": "d2553f976dffbaf15209e7bfce25a0ddaf4b5e2096c3267effa56133a142373a",
+    "previousPreservedAsPrefix": true,
+    "changed": false
+  },
+  {
+    "file": "MATRIZ_REGRESSAO_FASE5.md",
+    "previousSHA256": "a224f9337cc1c792ab7253b80e1b034f5fbaf26ca8ef59b77cc2f099541d1c53",
+    "currentSHA256": "a224f9337cc1c792ab7253b80e1b034f5fbaf26ca8ef59b77cc2f099541d1c53",
+    "previousPreservedAsPrefix": true,
+    "changed": false
+  },
+  {
+    "file": "MAPA_INTEGRIDADE_ESTOQUE.md",
+    "previousSHA256": "d11572f132a81db3dc72c30d3182ca77f8a7688a3672d90240040265c0e47385",
+    "currentSHA256": "d11572f132a81db3dc72c30d3182ca77f8a7688a3672d90240040265c0e47385",
+    "previousPreservedAsPrefix": true,
+    "changed": false
+  },
+  {
+    "file": "PLANO_RECUPERACAO_FALHAS.md",
+    "previousSHA256": "75078ec05798c1829139bb6ea27e747afc4e378a54b12cc17782e439857ebd8f",
+    "currentSHA256": "75078ec05798c1829139bb6ea27e747afc4e378a54b12cc17782e439857ebd8f",
+    "previousPreservedAsPrefix": true,
+    "changed": false
+  },
+  {
+    "file": "PLANO_IDENTIDADE_REGISTROS.md",
+    "previousSHA256": "6752e541e52776bd9c711d8ff5008eede32d6950de2fd109cfc715317e32d4f0",
+    "currentSHA256": "6752e541e52776bd9c711d8ff5008eede32d6950de2fd109cfc715317e32d4f0",
+    "previousPreservedAsPrefix": true,
+    "changed": false
+  },
+  {
+    "file": "PENDENCIAS_DECISAO.md",
+    "previousSHA256": "3a726919223d7b3eded35ceb635539919722b8bf10eddaad9a1bbd2aaa7532a0",
+    "currentSHA256": "f2075d3a36e9a2049d1f0ab1015633892ed2f00c99c4fb25ce4b10d400f46015",
+    "previousPreservedAsPrefix": true,
+    "changed": true
+  },
+  {
+    "file": "RELATORIO_HOMOLOGACAO_FASE3.md",
+    "previousSHA256": "a7436650eaced9bb5e7fed3bd4ebc6c85da588a76a7db6b77e7901433ab44e98",
+    "currentSHA256": "a7436650eaced9bb5e7fed3bd4ebc6c85da588a76a7db6b77e7901433ab44e98",
+    "previousPreservedAsPrefix": true,
+    "changed": false
+  },
+  {
+    "file": "RELATORIO_INTEGRACAO_FASE4.md",
+    "previousSHA256": "f452540a9a585c7b7dab18d180869ab70cae718dfa86fd641364cbbacfee6b9a",
+    "currentSHA256": "f452540a9a585c7b7dab18d180869ab70cae718dfa86fd641364cbbacfee6b9a",
+    "previousPreservedAsPrefix": true,
+    "changed": false
+  },
+  {
+    "file": "HISTORICO_ALTERACOES.md",
+    "previousSHA256": "e947b4e7b248b5288a9f843d120ed70232f595668764fada36466f8ae88d61ff",
+    "currentSHA256": "f0172d2ddcec3c18477e3de824d0f6d00158865c652956d8d03cd69057c57bd2",
+    "previousPreservedAsPrefix": true,
+    "changed": true
+  },
+  {
+    "file": "RELATORIO_AUDITORIA.md",
+    "previousSHA256": "20bf8d33a89c60dacc0f67e0e7bb64038787254225771603edf71d46c6b8c027",
+    "currentSHA256": "ea9f64c14770c1befb04797e947ed4f8ded86a29b13ee0039826b3f33139b13e",
+    "previousPreservedAsPrefix": true,
+    "changed": true
+  },
+  {
+    "file": "MAPA_PROJETO.md",
+    "previousSHA256": "e8dccbf465c1f174bfeb33ab3efca34bd28f024b77e5ea7e69ce070e46d5be5e",
+    "currentSHA256": "bda2b7bc725f95fc71e92953e7d95be3ef57665b02f8ea4997350d3f384b275b",
+    "previousPreservedAsPrefix": true,
+    "changed": true
+  },
+  {
+    "file": "TESTES_VBA.md",
+    "previousSHA256": "74bab396814693147f8d1328783d08d549c4efa378e9af257ef00d45b3842fbd",
+    "currentSHA256": "e6435d54bc2be5c3195c11953df1c89af4332d65543209ae9e423bc331266c05",
+    "previousPreservedAsPrefix": true,
+    "changed": true
+  },
+  {
+    "file": ".gitignore",
+    "previousSHA256": "c72ad74bb169c6137d5ba5d47d60e172366a454cc29e2d2b80c95ee7e1ab4c5b",
+    "currentSHA256": "bc4b5ef6a082642660fb717d8f38319f5691de4b922f8a8e700d412f85cd07b0",
+    "previousPreservedAsPrefix": true,
+    "changed": true
+  }
+]

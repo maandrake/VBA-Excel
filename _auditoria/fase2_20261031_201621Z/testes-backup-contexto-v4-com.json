@@ -1,0 +1,181 @@
+﻿{
+    "Timestamp":  "2026-10-31T17:41:04.5667333-03:00",
+    "Kind":  "Excel/MSXML/WScript COM equivalentes; nenhuma macro VBA executada",
+    "Tests":  [
+                  {
+                      "Name":  "Salvar proprietario com outra pasta ativa",
+                      "Pass":  true,
+                      "Details":  {
+                                      "SavedB":  false,
+                                      "SavedA":  true,
+                                      "Active":  "contexto_B.xlsx"
+                                  }
+                  },
+                  {
+                      "Name":  "Backup 1 tem pacote ZIP",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Bytes":  9359
+                                  }
+                  },
+                  {
+                      "Name":  "Restaurar backup 1",
+                      "Pass":  true,
+                      "Details":  {
+                                      "FormatAfter":  "#.000",
+                                      "Formula":  "=1+2",
+                                      "FormatBefore":  "#.000",
+                                      "KeyLength":  44
+                                  }
+                  },
+                  {
+                      "Name":  "Backup 2 tem pacote ZIP",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Bytes":  9360
+                                  }
+                  },
+                  {
+                      "Name":  "Restaurar backup 2",
+                      "Pass":  true,
+                      "Details":  {
+                                      "FormatAfter":  "#.000",
+                                      "Formula":  "=1+2",
+                                      "FormatBefore":  "#.000",
+                                      "KeyLength":  44
+                                  }
+                  },
+                  {
+                      "Name":  "Versionamento sem sobrescrita",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Paths":  [
+                                                    "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase2_20261031_201621Z\\BackupContextoV4\\Backups_Ficticios\\contexto_A_20261031_174107_001\\contexto_A.xlsx",
+                                                    "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase2_20261031_201621Z\\BackupContextoV4\\Backups_Ficticios\\contexto_A_20261031_174107_002\\contexto_A.xlsx"
+                                                ],
+                                      "Hashes":  [
+                                                     "0AC2BF5611B761C8838EFF583E9410BF7ECAB85ACFF86650CE9BD10BFD75CAB4",
+                                                     "F270FD5BCF93E9947075F274B06C48D5CD4277E01A83A06D773B95A2E805EFF5"
+                                                 ]
+                                  }
+                  },
+                  {
+                      "Name":  "SaveCopyAs nao salva nem modifica original em disco",
+                      "Pass":  true,
+                      "Details":  {
+                                      "DiskHash":  "D64E7309C545492B2246F299112E24E44F0EFC2DC46396048643E644B1F087D2",
+                                      "Saved":  false
+                                  }
+                  },
+                  {
+                      "Name":  "Leitura de limite =5",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Output":  "5"
+                                  }
+                  },
+                  {
+                      "Name":  "Leitura de limite =10",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Output":  "10"
+                                  }
+                  },
+                  {
+                      "Name":  "Leitura de limite =\"ABC\"",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Output":  "ABC"
+                                  }
+                  },
+                  {
+                      "Name":  "Leitura de limite =\"=ABC\"",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Output":  "=ABC"
+                                  }
+                  },
+                  {
+                      "Name":  "Leitura de limite =\"A\"\"B\"",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Output":  "A\"B"
+                                  }
+                  },
+                  {
+                      "Name":  "Leitura de limite ABC",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Output":  "ABC"
+                                  }
+                  },
+                  {
+                      "Name":  "Leitura de limite ",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Output":  ""
+                                  }
+                  },
+                  {
+                      "Name":  "xlNotBetween com limites lidos: 4",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Equivalent":  true,
+                                      "NativeExcel":  true,
+                                      "Formula2":  "=10",
+                                      "Formula1":  "=5"
+                                  }
+                  },
+                  {
+                      "Name":  "xlNotBetween com limites lidos: 5",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Equivalent":  false,
+                                      "NativeExcel":  false,
+                                      "Formula2":  "=10",
+                                      "Formula1":  "=5"
+                                  }
+                  },
+                  {
+                      "Name":  "xlNotBetween com limites lidos: 7",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Equivalent":  false,
+                                      "NativeExcel":  false,
+                                      "Formula2":  "=10",
+                                      "Formula1":  "=5"
+                                  }
+                  },
+                  {
+                      "Name":  "xlNotBetween com limites lidos: 10",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Equivalent":  false,
+                                      "NativeExcel":  false,
+                                      "Formula2":  "=10",
+                                      "Formula1":  "=5"
+                                  }
+                  },
+                  {
+                      "Name":  "xlNotBetween com limites lidos: 11",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Equivalent":  true,
+                                      "NativeExcel":  true,
+                                      "Formula2":  "=10",
+                                      "Formula1":  "=5"
+                                  }
+                  },
+                  {
+                      "Name":  "Timeout encerra somente subprocesso criado",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Milliseconds":  2418,
+                                      "PID":  26428
+                                  }
+                  }
+              ],
+    "TestRoot":  "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase2_20261031_201621Z\\BackupContextoV4",
+    "AutomationSecurityObserved":  1,
+    "NumberFormatObservedBeforeBackup":  "#.000"
+}

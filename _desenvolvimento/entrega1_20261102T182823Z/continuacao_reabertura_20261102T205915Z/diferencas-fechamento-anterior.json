@@ -1,0 +1,52 @@
+[
+  {
+    "relative": "entrega/ENTREGA_1_CANDIDATO_INTEGRADO.md",
+    "before": "e6ce9000b4939e1e2bdb0de2ad881d92a175e7bf948a1bd4912a671cead19483",
+    "after": "8bb9f625ce99052112fb69766ab5e7766c0310234e2150ebf28f7b91a53d8e58"
+  },
+  {
+    "relative": "entrega/Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "before": "9b24bec50e588551a744128912c062bdbb020905bccd41b40f62c0aee89dbad2",
+    "after": "5b2a0d55fcea077dd034ace4c4892bbc9fdd46c69760d7d318d2162f54771749"
+  },
+  {
+    "relative": "entrega/manifesto_artefatos.json",
+    "before": "1e72a411034a2691178a97020193395ce57ff45a39b432ebf3a61826ad5bfc53",
+    "after": "4fba2b36c03dc0c40464ff5632b3f2a7d3f4307b28d2ead134959c5c5a8af5d4"
+  },
+  {
+    "relative": "entrega/MANUAL_INSTALACAO_RESTAURACAO.md",
+    "before": "08c53c8c0fe9689a04669413782e856a89f4cb622f5820d64b7f35ec70e43017",
+    "after": "ebb7ebda0b9a152beee4610b58ec5197df6847f033e33d2952a77eca36f367eb"
+  },
+  {
+    "relative": "entrega/MATRIZ_REGRESSAO_ENTREGA.md",
+    "before": "3ffff10bf0e55c7ce90c41d12707dff624408bc55be8e038ef6bab3bdf6b1d06",
+    "after": "fd60735f53eb08a4d7107616d9666b9e8a4969c0c77835f3e9d9f8093e9c5c1b"
+  },
+  {
+    "relative": "entrega/REGISTRO_DEFEITOS_ABERTOS.md",
+    "before": "6d41aa6bb97016b6ef2180869f2dfc871023f227b2dcbadbcaa198dae266a2bc",
+    "after": "7386e0914d7c65e5843f809b0d65b8e0663a5704f7f1e39f6bf1a5d677ba1b1a"
+  },
+  {
+    "relative": "evidencias/execucao/resultados_entrega1.tsv",
+    "before": "f8e95b4650f5ac2510a9cdcb1639bb4df463eee5af3148d5ae606a7acdbadf39",
+    "after": "860175d29652db02eeb2ac09ac7b43dade22b88aa6da909c9a08665188fd30a8"
+  },
+  {
+    "relative": "evidencias/resultados_estruturados.json",
+    "before": "87002346d2dc053400e5f2d7ce9f3ac4645cb0102b3d1ab7ac54a63823226849",
+    "after": "4c4f50137d7c477ea6fac63d2a94080831680d2b4e13809de26bcc1384f0d3b9"
+  },
+  {
+    "relative": "fontes/MDL/modCandidatoIntegrado.bas",
+    "before": "5d9e44a3ee604d85e755a167b0f87f4d337622ba49728c843bb4c4d002cb7b23",
+    "after": "4d09709abf3d4541e3f017fe331e0ac4a7e85a94afa87892b5512b2d1e68f2c3"
+  },
+  {
+    "relative": "fontes/modCandidatoIntegrado.bas",
+    "before": "2d75b66e8660ef155b43c407d486e8a18d3517ac052a16003ac1ea9c5b7f855b",
+    "after": "4d09709abf3d4541e3f017fe331e0ac4a7e85a94afa87892b5512b2d1e68f2c3"
+  }
+]

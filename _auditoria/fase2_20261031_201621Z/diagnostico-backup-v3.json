@@ -1,0 +1,8 @@
+{
+  "kind": "Leitura real COM do backup ficticio; investigacao de duas assercoes FAIL",
+  "B4": "VERSAO_1",
+  "D4": "00000000000000000000000000000000000000000001",
+  "Formula": "=1+2",
+  "NumberFormatAfter": "#.000",
+  "note": "V3 supunha 0.00. V4 compara NumberFormat efetivamente retornado antes e depois da copia, preservando o FAIL anterior."
+}

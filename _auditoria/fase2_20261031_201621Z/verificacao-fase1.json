@@ -1,0 +1,484 @@
+{
+  "timestamp": "2026-10-31T20:16:21.799Z",
+  "integrity": [
+    {
+      "file": "Excel\\Estoque Fera Veículos 2026.xlsm",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "developmentDiffers": false
+    },
+    {
+      "file": "Form\\Cad_NCM.frm",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027",
+      "developmentDiffers": true
+    },
+    {
+      "file": "Form\\Cad_NCM.frx",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "developmentDiffers": false
+    },
+    {
+      "file": "Form\\Cad_NFE.frm",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "7ef27e1f90466a3c5488fa700d5de033c48ecb98b30c1a00d2b26aacd66e6a2d",
+      "developmentDiffers": true
+    },
+    {
+      "file": "Form\\Cad_NFE.frx",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "developmentDiffers": false
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frm",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "00fc3c4c7dfa9452826fec3013121815750998c0b73ab5c97addc5e7ecb5f458",
+      "developmentDiffers": true
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frx",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "developmentDiffers": false
+    },
+    {
+      "file": "Form\\frmRelatorioXML.frm",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "developmentDiffers": false
+    },
+    {
+      "file": "Form\\frmRelatorioXML.frx",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "developmentDiffers": false
+    },
+    {
+      "file": "Form\\UserFormFiltro.frm",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "72104ed848f1c883a7ba8cfe1fbf0e3580877dca42a93750350db28fbce912c5",
+      "developmentDiffers": false
+    },
+    {
+      "file": "Form\\UserFormFiltro.frx",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlChamarFiltro.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlChamarForm.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "f1a50ae2170e8d91fe64d7eff748009a86afb13deb5f4f0afc12a4e4f905aa36",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlChamarFormDocFora.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlChamarFormNCM.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlChamarFormSaida.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "738e72244780dbf0342c18d9688f0bf929dc8d609e1b4788dabc2aaf7d2cd403",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlChamarFormVeículos.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlChamarTabCan.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "c476162d14a48d47b27abf29fcb1a265be1146cabf770e1b7ba5baa6845215ed",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlChamarTabEnt.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "6aa6e174c4eaeedeebb8054ba5f989f27b679e4cd9d716554d7209cb05be27ed",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlChamarTabSai.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "8ecd5f302438f49849bf0ede7bc5be6fcc62792f8ca845a9d155b70daed19f3d",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlCondCel.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "eb898b196b26f6360615cf503030c2b20eb8d345e277550e07df46ede111f60c",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlCopiar.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlCriaBackup.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "8477beee7a2be221e2daf6ba6b8a805412fecf638f67e38f5a7654aa052148ff",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlCursor.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlMacroConexão.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "38ef9f12fac5df53037a3e0fef4d5039c0c87c939dbd20667e2cf6bc890cd405",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlMacroConexãoClientes.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "0933295f65ca204d94633c1b6bf640299e18f0d04b033f2044c0f013bf2643e7",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlMacroDocFora.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "2675a05d8126ec68039565153e67bd3e51afad76e885e540cd09df5fd4676f01",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlOcultarTítulo.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\mdlTelaCheia.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\modPreencherFormulario.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742",
+      "developmentDiffers": true
+    },
+    {
+      "file": "MDL\\modSeleniumCommon.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "f38c55ae5cf11320a7864286b706094cfd7686f6d01669519aafe67d974091b2",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\modSeleniumConsultaNFE.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "a6b6045c0179684ee54fb30ff7c0340917e7ca0736e5f9249fb78808193cdbf2",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\modSeleniumRenavamConsulta.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\modSelTest.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "1bd9a034503af0479bed5f7fd38fea83e5a2b693459c2e731de98ccf50e2b3a0",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\modValidacaoXML.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "8b79d34333a47ba1b5fe98f3641d79eb7075127b9967d7072e3041e94b4c3548",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\MóduloOfficeRibbonEditor.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2",
+      "developmentDiffers": true
+    },
+    {
+      "file": "MDL\\MóduloPesquisa.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "developmentDiffers": false
+    },
+    {
+      "file": "MDL\\MóduloRemoveFechar.bas",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "developmentDiffers": false
+    },
+    {
+      "file": "README.md",
+      "originalMatches": true,
+      "backupMatches": true,
+      "developmentSha256": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "developmentDiffers": false
+    }
+  ],
+  "replayResults": [
+    {
+      "file": "Form\\Cad_NCM.frm",
+      "recordedChangesPresent": true,
+      "subsequentChanges": false
+    },
+    {
+      "file": "Form\\Cad_NFE.frm",
+      "recordedChangesPresent": true,
+      "subsequentChanges": false
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frm",
+      "recordedChangesPresent": true,
+      "subsequentChanges": false
+    },
+    {
+      "file": "MDL\\modPreencherFormulario.bas",
+      "recordedChangesPresent": true,
+      "subsequentChanges": false
+    },
+    {
+      "file": "MDL\\MóduloOfficeRibbonEditor.bas",
+      "recordedChangesPresent": true,
+      "subsequentChanges": false
+    }
+  ],
+  "documentChanges": [
+    {
+      "file": "AGENTS.md",
+      "matchesPreviousDelivery": true
+    },
+    {
+      "file": "RELATORIO_AUDITORIA.md",
+      "matchesPreviousDelivery": true
+    },
+    {
+      "file": "MAPA_PROJETO.md",
+      "matchesPreviousDelivery": true
+    },
+    {
+      "file": "TESTES_VBA.md",
+      "matchesPreviousDelivery": true
+    },
+    {
+      "file": "HISTORICO_ALTERACOES.md",
+      "matchesPreviousDelivery": true
+    }
+  ],
+  "filesConfirmed": [
+    "achados.json",
+    "alteracoes.json",
+    "backup\\Excel\\Estoque Fera Veículos 2026.xlsm",
+    "backup\\Form\\Cad_NCM.frm",
+    "backup\\Form\\Cad_NCM.frx",
+    "backup\\Form\\Cad_NFE.frm",
+    "backup\\Form\\Cad_NFE.frx",
+    "backup\\Form\\Cad_NFE_Saida.frm",
+    "backup\\Form\\Cad_NFE_Saida.frx",
+    "backup\\Form\\frmRelatorioXML.frm",
+    "backup\\Form\\frmRelatorioXML.frx",
+    "backup\\Form\\UserFormFiltro.frm",
+    "backup\\Form\\UserFormFiltro.frx",
+    "backup\\MDL\\mdlChamarFiltro.bas",
+    "backup\\MDL\\mdlChamarForm.bas",
+    "backup\\MDL\\mdlChamarFormDocFora.bas",
+    "backup\\MDL\\mdlChamarFormNCM.bas",
+    "backup\\MDL\\mdlChamarFormSaida.bas",
+    "backup\\MDL\\mdlChamarFormVeículos.bas",
+    "backup\\MDL\\mdlChamarTabCan.bas",
+    "backup\\MDL\\mdlChamarTabEnt.bas",
+    "backup\\MDL\\mdlChamarTabSai.bas",
+    "backup\\MDL\\mdlCondCel.bas",
+    "backup\\MDL\\mdlCopiar.bas",
+    "backup\\MDL\\mdlCriaBackup.bas",
+    "backup\\MDL\\mdlCursor.bas",
+    "backup\\MDL\\mdlMacroConexão.bas",
+    "backup\\MDL\\mdlMacroConexãoClientes.bas",
+    "backup\\MDL\\mdlMacroDocFora.bas",
+    "backup\\MDL\\mdlOcultarTítulo.bas",
+    "backup\\MDL\\mdlTelaCheia.bas",
+    "backup\\MDL\\modPreencherFormulario.bas",
+    "backup\\MDL\\modSeleniumCommon.bas",
+    "backup\\MDL\\modSeleniumConsultaNFE.bas",
+    "backup\\MDL\\modSeleniumRenavamConsulta.bas",
+    "backup\\MDL\\modSelTest.bas",
+    "backup\\MDL\\modValidacaoXML.bas",
+    "backup\\MDL\\MóduloOfficeRibbonEditor.bas",
+    "backup\\MDL\\MóduloPesquisa.bas",
+    "backup\\MDL\\MóduloRemoveFechar.bas",
+    "backup\\README.md",
+    "chamadas-explicitas.json",
+    "comparacao-fontes-embutidos.json",
+    "desenvolvimento\\Excel\\Estoque Fera Veículos 2026.xlsm",
+    "desenvolvimento\\Form\\Cad_NCM.frm",
+    "desenvolvimento\\Form\\Cad_NCM.frx",
+    "desenvolvimento\\Form\\Cad_NFE.frm",
+    "desenvolvimento\\Form\\Cad_NFE.frx",
+    "desenvolvimento\\Form\\Cad_NFE_Saida.frm",
+    "desenvolvimento\\Form\\Cad_NFE_Saida.frx",
+    "desenvolvimento\\Form\\frmRelatorioXML.frm",
+    "desenvolvimento\\Form\\frmRelatorioXML.frx",
+    "desenvolvimento\\Form\\UserFormFiltro.frm",
+    "desenvolvimento\\Form\\UserFormFiltro.frx",
+    "desenvolvimento\\LEIA_ANTES_DE_USAR.md",
+    "desenvolvimento\\MDL\\mdlChamarFiltro.bas",
+    "desenvolvimento\\MDL\\mdlChamarForm.bas",
+    "desenvolvimento\\MDL\\mdlChamarFormDocFora.bas",
+    "desenvolvimento\\MDL\\mdlChamarFormNCM.bas",
+    "desenvolvimento\\MDL\\mdlChamarFormSaida.bas",
+    "desenvolvimento\\MDL\\mdlChamarFormVeículos.bas",
+    "desenvolvimento\\MDL\\mdlChamarTabCan.bas",
+    "desenvolvimento\\MDL\\mdlChamarTabEnt.bas",
+    "desenvolvimento\\MDL\\mdlChamarTabSai.bas",
+    "desenvolvimento\\MDL\\mdlCondCel.bas",
+    "desenvolvimento\\MDL\\mdlCopiar.bas",
+    "desenvolvimento\\MDL\\mdlCriaBackup.bas",
+    "desenvolvimento\\MDL\\mdlCursor.bas",
+    "desenvolvimento\\MDL\\mdlMacroConexão.bas",
+    "desenvolvimento\\MDL\\mdlMacroConexãoClientes.bas",
+    "desenvolvimento\\MDL\\mdlMacroDocFora.bas",
+    "desenvolvimento\\MDL\\mdlOcultarTítulo.bas",
+    "desenvolvimento\\MDL\\mdlTelaCheia.bas",
+    "desenvolvimento\\MDL\\modPreencherFormulario.bas",
+    "desenvolvimento\\MDL\\modSeleniumCommon.bas",
+    "desenvolvimento\\MDL\\modSeleniumConsultaNFE.bas",
+    "desenvolvimento\\MDL\\modSeleniumRenavamConsulta.bas",
+    "desenvolvimento\\MDL\\modSelTest.bas",
+    "desenvolvimento\\MDL\\modValidacaoXML.bas",
+    "desenvolvimento\\MDL\\MóduloOfficeRibbonEditor.bas",
+    "desenvolvimento\\MDL\\MóduloPesquisa.bas",
+    "desenvolvimento\\MDL\\MóduloRemoveFechar.bas",
+    "desenvolvimento\\README.md",
+    "embutido_original\\Cad_NCM.vba.txt",
+    "embutido_original\\Cad_NFE.vba.txt",
+    "embutido_original\\Cad_NFE_Saida.vba.txt",
+    "embutido_original\\EstaPastaDeTrabalho.vba.txt",
+    "embutido_original\\frmRelatorioXML.vba.txt",
+    "embutido_original\\mdlChamarFiltro.vba.txt",
+    "embutido_original\\mdlChamarForm.vba.txt",
+    "embutido_original\\mdlChamarFormDocFora.vba.txt",
+    "embutido_original\\mdlChamarFormNCM.vba.txt",
+    "embutido_original\\mdlChamarFormSaida.vba.txt",
+    "embutido_original\\mdlChamarFormVeículos.vba.txt",
+    "embutido_original\\mdlChamarTabCan.vba.txt",
+    "embutido_original\\mdlChamarTabEnt.vba.txt",
+    "embutido_original\\mdlChamarTabSai.vba.txt",
+    "embutido_original\\mdlCondCel.vba.txt",
+    "embutido_original\\mdlCopiar.vba.txt",
+    "embutido_original\\mdlCriaBackup.vba.txt",
+    "embutido_original\\mdlCursor.vba.txt",
+    "embutido_original\\mdlMacroConexão.vba.txt",
+    "embutido_original\\mdlMacroConexãoClientes.vba.txt",
+    "embutido_original\\mdlMacroDocFora.vba.txt",
+    "embutido_original\\mdlOcultarTítulo.vba.txt",
+    "embutido_original\\mdlTelaCheia.vba.txt",
+    "embutido_original\\modPreencherFormulario.vba.txt",
+    "embutido_original\\modSeleniumCommon.vba.txt",
+    "embutido_original\\modSeleniumConsultaNFE.vba.txt",
+    "embutido_original\\modSeleniumRenavamConsulta.vba.txt",
+    "embutido_original\\modSelTest.vba.txt",
+    "embutido_original\\modValidacaoXML.vba.txt",
+    "embutido_original\\MóduloOfficeRibbonEditor.vba.txt",
+    "embutido_original\\MóduloPesquisa.vba.txt",
+    "embutido_original\\MóduloRemoveFechar.vba.txt",
+    "embutido_original\\Planilha1.vba.txt",
+    "embutido_original\\Planilha10.vba.txt",
+    "embutido_original\\Planilha11.vba.txt",
+    "embutido_original\\Planilha12.vba.txt",
+    "embutido_original\\Planilha13.vba.txt",
+    "embutido_original\\Planilha15.vba.txt",
+    "embutido_original\\Planilha16.vba.txt",
+    "embutido_original\\Planilha17.vba.txt",
+    "embutido_original\\Planilha18.vba.txt",
+    "embutido_original\\Planilha2.vba.txt",
+    "embutido_original\\Planilha3.vba.txt",
+    "embutido_original\\Planilha4.vba.txt",
+    "embutido_original\\Planilha5.vba.txt",
+    "embutido_original\\Planilha6.vba.txt",
+    "embutido_original\\Planilha7.vba.txt",
+    "embutido_original\\Planilha8.vba.txt",
+    "embutido_original\\Planilha9.vba.txt",
+    "embutido_original\\UserFormFiltro.vba.txt",
+    "entrega.json",
+    "evidencias\\original\\analise-estatica.json",
+    "evidencias\\revisado\\analise-estatica.json",
+    "manifesto-original.json",
+    "office_excel_detail.json",
+    "office_probe.json",
+    "planilhas.json",
+    "processos_office_final.json",
+    "referencias-declaradas.json",
+    "scripts\\auditar-vba.mjs",
+    "scripts\\AuditoriaListaFake.cls",
+    "scripts\\modTestesAuditoria.bas",
+    "scripts\\Preparar-TestesVBA.ps1",
+    "scripts\\Test-ExcelCom.ps1",
+    "scripts\\Test-OfficeCapabilities.ps1",
+    "scripts\\Test-XMLCom.ps1",
+    "scripts\\testar-auditoria.mjs",
+    "sintaxe_powershell.json",
+    "tentativa_word.json",
+    "testes-estaticos.json",
+    "testes_excel_com.json",
+    "testes_xml_com.json"
+  ]
+}

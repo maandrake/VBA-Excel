@@ -1,0 +1,112 @@
+﻿{
+    "Timestamp":  "2026-10-31T17:34:57.3757390-03:00",
+    "Kind":  "Excel/MSXML COM equivalente; nao executa VBA",
+    "ConditionTests":  [
+                           {
+                               "Value":  4,
+                               "ExcelActual":  true,
+                               "OldBoolean":  false,
+                               "NewBoolean":  true,
+                               "Status":  "PASS"
+                           },
+                           {
+                               "Value":  5,
+                               "ExcelActual":  false,
+                               "OldBoolean":  false,
+                               "NewBoolean":  false,
+                               "Status":  "PASS"
+                           },
+                           {
+                               "Value":  7,
+                               "ExcelActual":  false,
+                               "OldBoolean":  false,
+                               "NewBoolean":  false,
+                               "Status":  "PASS"
+                           },
+                           {
+                               "Value":  10,
+                               "ExcelActual":  false,
+                               "OldBoolean":  true,
+                               "NewBoolean":  false,
+                               "Status":  "PASS"
+                           },
+                           {
+                               "Value":  11,
+                               "ExcelActual":  true,
+                               "OldBoolean":  true,
+                               "NewBoolean":  true,
+                               "Status":  "PASS"
+                           }
+                       ],
+    "XmlTests":  [
+                     {
+                         "Case":  "Valido",
+                         "Accepted":  true,
+                         "Status":  "PASS"
+                     },
+                     {
+                         "Case":  "DoisInfNFe",
+                         "Accepted":  false,
+                         "Status":  "PASS"
+                     },
+                     {
+                         "Case":  "SemInfNFe",
+                         "Accepted":  false,
+                         "Status":  "PASS"
+                     },
+                     {
+                         "Case":  "ChaveInvalida",
+                         "Accepted":  false,
+                         "Status":  "PASS"
+                     },
+                     {
+                         "Case":  "NumeroInvalido",
+                         "Accepted":  false,
+                         "Status":  "PASS"
+                     },
+                     {
+                         "Case":  "Numero_10.25",
+                         "Accepted":  true,
+                         "Status":  "PASS"
+                     },
+                     {
+                         "Case":  "Numero_0",
+                         "Accepted":  true,
+                         "Status":  "PASS"
+                     },
+                     {
+                         "Case":  "Numero_-1",
+                         "Accepted":  true,
+                         "Status":  "PASS"
+                     },
+                     {
+                         "Case":  "Numero_1,25",
+                         "Accepted":  false,
+                         "Status":  "PASS"
+                     },
+                     {
+                         "Case":  "Numero_ABC",
+                         "Accepted":  false,
+                         "Status":  "PASS"
+                     },
+                     {
+                         "Case":  "Numero_Vazio",
+                         "Accepted":  false,
+                         "Status":  "PASS"
+                     },
+                     {
+                         "Case":  "Numero_Overflow",
+                         "Accepted":  false,
+                         "Status":  "PASS"
+                     },
+                     {
+                         "Case":  "SomatorioItemInvalido",
+                         "OriginalSilentSum":  10,
+                         "NewInvalidCount":  1,
+                         "Status":  "PASS",
+                         "Scope":  "Modelo COM do criterio; relatorio VBA nao executado."
+                     }
+                 ],
+    "Threshold1":  "=5",
+    "Threshold2":  "=10"
+}

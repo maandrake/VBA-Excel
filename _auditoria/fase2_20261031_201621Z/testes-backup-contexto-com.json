@@ -1,0 +1,19 @@
+﻿{
+    "Timestamp":  "2026-10-31T17:39:36.1800207-03:00",
+    "Kind":  "Excel/MSXML/WScript COM equivalentes; nenhuma macro VBA executada",
+    "Tests":  [
+                  {
+                      "Name":  "Salvar proprietario com outra pasta ativa",
+                      "Pass":  true,
+                      "Details":  {
+                                      "SavedB":  false,
+                                      "SavedA":  true,
+                                      "Active":  "contexto_B.xlsx"
+                                  }
+                  }
+              ],
+    "TestRoot":  "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase2_20261031_201621Z",
+    "AutomationSecurityObserved":  1,
+    "Error":  "O arquivo \u0027C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase2_20261031_201621Z\\contexto_A.xlsx\u0027 não pode ser lido: O processo não pode acessar o arquivo \u0027C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase2_20261031_201621Z\\contexto_A.xlsx\u0027 porque ele está sendo usado por outro processo.",
+    "ErrorDetail":  "O arquivo \u0027C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase2_20261031_201621Z\\contexto_A.xlsx\u0027 não pode ser lido: O processo não pode acessar o arquivo \u0027C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase2_20261031_201621Z\\contexto_A.xlsx\u0027 porque ele está sendo usado por outro processo."
+}

@@ -1,0 +1,476 @@
+Window: "Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Excel", App: EXCEL.EXE.
+	0 janela (disabled) Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Excel Secondary Actions: Raise
+		310 janela Relatório de validação da NF-e Secondary Actions: Raise
+			311 painel Relatório de validação da NF-e
+				312 Lista Arquivo: C:\Users\MARCOS~1\AppData\Local\Temp\vscode-agent-codex-sandbox-JTJOQt\Entrega1_20261102T182823Z\valido.xml
+					313 item de lista (selectable) CAMPO
+					314 item de lista (selectable) Modelo do documento - mod
+					315 item de lista (selectable) Ambiente da NF-e - tpAmb
+					316 item de lista (selectable) Autorização da NF-e - cStat
+					317 item de lista (selectable) Chave de acesso
+					318 item de lista (selectable) Tipo da NF-e - tpNF
+					319 item de lista (selectable) Chave de acesso no formulário
+					320 item de lista (selectable) Número da NF-e - nNF
+					321 item de lista (selectable) Data de emissão - dhEmi
+					322 item de lista (selectable) Código do produto - cProd
+					323 item de lista (selectable) Placa na descrição - xProd
+					324 item de lista (selectable) CFOP da operação
+					325 item de lista (selectable) Natureza da operação - natOp
+					326 item de lista (selectable) Benefício fiscal - cBenef
+					327 item de lista (selectable) Valor do produto - vProd
+					328 item de lista (selectable) ICMS - CST
+					329 item de lista (selectable) ICMS - valores do item
+					330 item de lista (selectable) PIS - CST
+					331 item de lista (selectable) PIS - valores
+					332 item de lista (selectable) COFINS - CST
+					333 item de lista (selectable) COFINS - valores
+					334 item de lista (selectable) Total dos produtos
+					335 item de lista (selectable) Total da base do ICMS
+					336 item de lista (selectable) Total do ICMS
+					337 item de lista (selectable) Total do PIS
+					338 item de lista (selectable) Total da COFINS
+				339 botão
+				340 text XML VALIDADO | Todos os dados conferem
+				341 text Arquivo: C:\Users\MARCOS~1\AppData\Local\Temp\vscode-agent-codex-sandbox-JTJOQt\Entrega1_20261102T182823Z\valido.xml
+				342 botão Description: Salvar
+			343 barra de título (settable, string) Value: Relatório de validação da NF-e
+				344 botão Fechar
+			345 painel Relatório de validação da NF-e
+		346 janela (disabled) Cadastro de NFe Saída Secondary Actions: Raise
+			347 painel Cadastro de NFe Saída
+				348 grupo Menu
+					349 botão
+					350 botão
+				351 grupo
+					352 painel Saida Matriz
+						353 grupo Pesquisa
+							354 Lista
+							355 caixa de combinação (settable, string) Value: Nº Nfe Saida
+								356 editar (settable, string) Value: Nº Nfe Saida
+								357 botão Abrir
+							358 editar (settable, string)
+							359 text FILTRO:
+							360 text PESQUISA MATRIZ:
+						361 grupo Valores
+							362 caixa de combinação (settable, string) Value: 12
+								363 editar (settable, string) Value: 12
+								364 botão Abrir
+							365 editar (settable, string) Value: 90000000000,00
+							366 editar (settable, string) Value: 1000
+							367 editar (settable, string)
+							368 editar (settable, string) Value: 0
+							369 editar (settable, string) Value: 0
+							370 editar (settable, string) Value: 0
+							371 editar (settable, string) Value: 0
+							372 editar (settable, string) Value: 0
+							373 text VALOR DA ENTRADA:
+							374 text VALOR DA SAIDA:
+							375 text LUCRO:
+							376 text ALIQ. BASE:
+							377 text VALOR DO ICMS:
+							378 text VALOR DO PIS:
+							379 text VALOR DO COFINS:
+							380 text ALIQ. BASE:
+							381 text ALIQ. ICMS.:
+						382 grupo Dados da NFe
+							383 editar (settable, string) Value: 1
+							384 caixa de combinação (settable, string) Value: Venda
+								385 editar (settable, string) Value: Venda
+								386 botão Abrir
+							387 editar (settable, string) Value: 22001
+							388 editar (settable, string) Value: 11001
+							389 text Nº NFe DE ENTRADA:
+							390 text Nº NFe DE SAIDA:
+							391 text TIPO DE OPERAÇÃO:
+							392 text QUANT.:
+							393 text Quant.:
+						394 grupo DATA
+							395 editar (settable, string) Value: 01/11/2026
+							396 text DATA DA EMISSÃO:
+						397 grupo Dados do Veículo
+							398 editar (settable, string) Value: F5A
+							399 caixa de combinação (settable, string) Value: FICTICIO A
+								400 editar (settable, string) Value: FICTICIO A
+								401 botão Abrir
+							402 editar (settable, string) Value: FIC5A01
+							403 caixa de combinação (settable, string) Value: 2026
+								404 editar (settable, string) Value: 2026
+								405 botão Abrir
+							406 caixa de combinação (settable, string) Value: BRANCO
+								407 editar (settable, string) Value: BRANCO
+								408 botão Abrir
+							409 text PLACA:
+							410 text VEÍCULO:
+							411 text ANO MOD.:
+							412 text COR:
+							413 text COD.:
+						414 grupo Ações
+							415 botão Description: Salvar
+							416 botão Description: Limpar
+							417 botão Description: Excluir
+							418 botão Description: Tabela entradas
+							419 botão Description: Tabela saídas
+							420 botão Description: Pesquisar NCM
+							421 botão Description: Copiar
+					422 tabulação
+						423 item de tabulação (selectable) Saida Matriz
+						424 item de tabulação (selectable) Saida Filial
+				425 text Hora
+				426 text Data
+				427 text CANDIDATA SINTETICA - selecione pela entrada
+				428 botão
+			429 barra de título (settable, string) Value: Cadastro de NFe Saída
+				430 botão Fechar
+			431 painel Cadastro de NFe Saída
+		1 painel (disabled) DropShadowTop
+		2 painel (disabled)
+			3 barra de ferramentas Description: Barra de ferramentas Barra de Status
+				4 painel Barra de Status
+					5 painel (disabled)
+						6 Painel Secondary Actions: Raise
+							7 Barra de Status Barra de Status
+								432 Texto Modo de Célula Pronto
+								9 Botão Gravação de Macro Sem Gravação
+								10 Botão Verificador de Acessibilidade Acessibilidade: tudo certo
+								433 Texto Informações do Suplemento Vamos começar o runtime de suplementos, só um momento…
+								11 Botão Normal
+								12 Botão Layout de página
+								13 Botão Visualizar quebra de página
+								14 Botão Reduzir Value: 100
+								15 Controle Deslizante (settable, float) Zoom Value: 1000
+									16 Botão Reduzir
+									17 Miniatura Posição
+									18 Botão Ampliar
+								19 Botão Ampliar Value: 100
+								20 Texto Zoom 100%
+								21 Miniatura Dimensionar caixa
+		22 painel (disabled)
+			33 barra de ferramentas Description: Barra de ferramentas Ribbon
+				34 painel Ribbon
+					35 painel (disabled)
+						36 Painel Secondary Actions: Raise
+							37 Painel Ribbon
+								38 Barra de Ferramentas Barra de Ferramentas de Acesso Rápido
+									39 Ativar/Desativar Opção  Salvamento Automático ID: AutoSaveSwitch
+									40 Botão Salvar ID: FileSave
+									41 Botão de Divisão (disabled) Desfazer ID: Undo
+										42 Botão (disabled) Desfazer
+										43 Item de Menu (disabled) Mais Opções ID: Undo_Dropdown
+									44 Botão de Divisão (disabled) Refazer ID: Redo
+										45 Botão (disabled) Refazer
+										46 Item de Menu (disabled) Mais Opções ID: Redo_Dropdown
+									47 Item de Menu Personalizar Barra de Ferramentas de Acesso Rápido
+								48 Barra de Título ‪Estoque_Fera_Veiculos_Candidato_Integrado.xlsm‬
+									49 Item de Menu (disabled) ‪Estoque_Fera_Veiculos_Candidato_Integrado.xlsm‬
+								50 Item de Menu Digite para pesquisar e use as teclas de seta para cima e para baixo para navegar ID: TellMeControlAnchor
+									51 Caixa de Edição (settable, string) Microsoft search Value: Pesquisar ID: TellMeTextBoxAutomationId
+								52 Item de Menu MARCOS ALEXANDRE PERDONA ID: MeControlWidget
+								53 Botão Minimizar
+								54 Botão Maximizar
+								55 Botão Fechar
+								56 Botão Guia Arquivo ID: FileTabButton
+								57 Painel Guias da Faixa de Opções
+									58 Item de Guia (selectable) Página Inicial ID: TabHome
+									59 Item de Guia (selectable) Inserir ID: TabInsert
+									60 Item de Guia (selectable) Layout da Página ID: TabPageLayoutExcel
+									61 Item de Guia (selectable) Fórmulas ID: TabFormulas
+									62 Item de Guia (selectable) Dados ID: TabData
+									63 Item de Guia (selectable) Revisão ID: TabReview
+									64 Item de Guia (selectable) Exibir ID: TabView
+									65 Item de Guia (selectable) Automatizar ID: TabAutomate
+									66 Item de Guia (selectable) Desenvolvedor ID: TabDeveloper
+									67 Item de Guia (selectable) Ajuda ID: HelpTab
+									68 Item de Guia (selectable) Acrobat
+									69 Item de Guia (selectable) Script Lab
+									70 Botão Comentários
+									71 Item de Menu Compartilhamento
+								72 Painel Faixa de Opções Inferior
+									73 Agrupar Página Inicial
+										74 Agrupar Área de Transferência
+											75 Botão de Divisão (settable, string) Colar
+												76 Botão Colar ID: Paste
+												77 Item de Menu Mais Opções ID: PasteMenu_Dropdown
+											78 Botão Recortar ID: Cut
+											79 Botão de Divisão (settable, string) Copiar
+												80 Botão Copiar ID: Copy
+												81 Item de Menu Mais Opções ID: CopySplitButton_Dropdown
+											82 Botão Pincel de Formatação ID: FormatPainter
+											83 Botão Área de Transferência do Office... ID: ShowClipboard
+										84 Agrupar Fonte
+											85 Caixa de Combinação (settable, string) Fonte Value: Aptos Narrow ID: Font
+												86 Caixa de Edição (settable, string) Fonte Value: Aptos Narrow
+												87 Botão Abrir
+											88 Caixa de Combinação (settable, string) Tamanho da Fonte Value: 11 ID: FontSize
+												89 Caixa de Edição (settable, string) Tamanho da Fonte Value: 11
+												90 Botão Abrir
+											91 Botão (disabled) Aumentar Tamanho da Fonte ID: FontSizeIncrease
+											92 Botão (disabled) Diminuir Tamanho da Fonte ID: FontSizeDecrease
+											93 Botão (disabled) Negrito ID: Bold
+											94 Botão (disabled) Itálico ID: Italic
+											95 Botão de Divisão (disabled) Sublinhado
+												96 Botão (disabled) Sublinhado ID: Underline
+												97 Item de Menu (disabled) Mais Opções ID: UnderlineGallery_Dropdown
+											98 Botão de Divisão (disabled) Bordas
+												99 Botão (disabled) Borda Inferior ID: BorderBottomNoToggle
+												100 Item de Menu (disabled) Mais Opções ID: BordersGallery_Dropdown
+											101 Botão de Divisão (disabled) Cor do Preenchimento Value: RGB(255, 255, 0) ID: CellFillColorPicker
+												102 Botão (disabled) Cor do Preenchimento RGB(255, 255, 0)
+												103 Item de Menu (disabled) Mais Opções ID: CellFillColorPicker_Dropdown
+											104 Botão de Divisão (disabled) Cor da Fonte Value: RGB(255, 0, 0) ID: FontColorPicker
+												105 Botão (disabled) Cor da Fonte RGB(255, 0, 0)
+												106 Item de Menu (disabled) Mais Opções ID: FontColorPicker_Dropdown
+											107 Botão (disabled) Formatar Fonte da Célula ID: FormatCellsFontDialog
+										108 Agrupar Alinhamento
+											109 Botão (disabled) Alinhar em Cima ID: AlignTopExcel
+											110 Botão (disabled) Alinhar no Meio ID: AlignMiddleExcel
+											111 Botão (disabled) Alinhar Embaixo ID: AlignBottomExcel
+											112 Item de Menu (disabled) Orientação ID: OrientationMenu
+											113 Botão (disabled) Alinhar à Esquerda ID: AlignLeft
+											114 Botão (disabled) Centralizar ID: AlignCenter
+											115 Botão (disabled) Alinhar à Direita ID: AlignRight
+											116 Botão (disabled) Diminuir Recuo ID: IndentDecreaseExcel
+											117 Botão (disabled) Aumentar Recuo ID: IndentIncreaseExcel
+											118 Botão (disabled) Quebrar Texto Automaticamente ID: WrapText
+											119 Botão de Divisão (disabled) Mesclar e Centralizar
+												120 Botão (disabled) Mesclar e Centralizar ID: MergeCenter
+												121 Item de Menu (disabled) Mais Opções ID: MergeCenterMenu_Dropdown
+											122 Botão (disabled) Formatar Alinhamento de Célula ID: CellAlignmentOptions
+										123 Agrupar Número
+											124 Caixa de Combinação (disabled) Formato de Número Value: Geral ID: NumberFormatGallery
+												125 Caixa de Edição (disabled, settable, string) Formato de Número Value: Geral
+												126 Botão (disabled) Abrir
+											127 Botão de Divisão (settable, string) Formato de Número de Contabilização
+												128 Botão (disabled) Formato de Número de Contabilização ID: InternationalCurrency
+												129 Item de Menu Mais Opções ID: AccountingFormatMenu_Dropdown
+											130 Botão (disabled) Estilo de Porcentagem ID: PercentStyle
+											131 Botão (disabled) Separador de Milhares ID: CommaStyle
+											132 Botão (disabled) Aumentar Casas Decimais ID: DecimalsIncrease
+											133 Botão (disabled) Diminuir Casas Decimais ID: DecimalsDecrease
+											134 Botão (disabled) Formatar Número da Célula ID: FormatCellsNumberDialog
+										135 Agrupar Estilos
+											136 Item de Menu (disabled) Formatação Condicional ID: ConditionalFormattingMenu
+											137 Item de Menu (disabled) Formatar como Tabela ID: FormatAsTableGallery
+											138 Item de Menu (disabled) Estilos de Célula ID: CellStylesGallery
+										139 Agrupar Células
+											140 Botão de Divisão (settable, string) Inserir
+												141 Botão (disabled) Inserir Células ID: CellsInsertSmart
+												142 Item de Menu Mais Opções ID: InsertCellstMenu_Dropdown
+											143 Botão de Divisão (settable, string) Excluir
+												144 Botão (disabled) Excluir Células... ID: CellsDeleteSmart
+												145 Item de Menu Mais Opções ID: TableDeleteRowsAndColumnsMenu_Dropdown
+											146 Item de Menu Formatar ID: FormatCellsMenu
+										147 Agrupar Edição
+											148 Botão de Divisão (settable, string) AutoSoma
+												149 Botão (disabled) Soma ID: AutoSum
+												150 Item de Menu Mais Opções ID: AutoSumMenu_Dropdown
+											151 Item de Menu Preencher ID: FillMenu
+											152 Item de Menu (disabled) Limpar ID: ClearMenu
+											153 Item de Menu (disabled) Classificar e Filtrar ID: SortFilterMenu
+											154 Item de Menu Localizar e Selecionar ID: SelectMenuExcel
+										155 Agrupar Suplementos
+											156 Botão (disabled) Suplementos ID: OfficeExtensionsShowAddinFlyout
+										157 Agrupar Adobe Acrobat
+											158 Botão Criar PDF e compartilhar o link
+											159 Botão Criar PDF e compartilhar via Outlook
+								160 Item de Menu Opções de Exibição da Faixa de Opções
+		161 painel
+			162 caixa de combinação (settable, string) Caixa de nome ID: 13
+				163 editar (settable, string) Caixa de nome ID: 1001
+				164 botão Abrir ID: DropDown
+		165 editar Barra de Fórmulas ID: FormulaBar
+		166 painel
+			167 painel (disabled) Vertical ID: 1
+				168 Painel Secondary Actions: Raise
+					169 Barra de Rolagem (settable, float) Value: 58
+						170 Botão Uma Linha Acima
+						171 Botão Uma Página Acima
+						172 Miniatura
+						173 Botão Uma Página Abaixo
+						174 Botão Uma Linha Abaixo
+			175 painel (disabled) Horizontal ID: 3
+				176 Painel Secondary Actions: Raise
+					177 Barra de Rolagem (settable, float) Value: 0
+						178 Botão Uma Coluna à Esquerda
+						179 Botão Uma Página à Esquerda
+						180 Miniatura
+						181 Botão Uma Página à Direita
+						182 Botão Uma Coluna à Direita
+			183 painel ID: 7
+			184 painel Estoque_Fera_Veiculos_Candidato_Integrado ID: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm
+				185 Painel Secondary Actions: Raise
+					186 Agrupar
+						187 Agrupar
+							188 Botão Copilot Chat ID: dynamicActionButton
+				189 tabulação Estoque_Fera_Veiculos_Candidato_Integrado ID: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm
+					190 botão Rolar para a Esquerda ID: SheetTab
+					191 botão Rolar para a Direita ID: SheetTab
+					192 botão Adicionar Planilha ID: SheetTab
+					193 Guia de Planilha (selectable) Menu Principal ID: SheetTab
+					194 Guia de Planilha (selectable) Entradas ID: SheetTab
+					195 Guia de Planilha (selectable) Transferidos ID: SheetTab
+					196 Guia de Planilha (selectable) Entradas Anual ID: SheetTab
+					197 Guia de Planilha (selectable) Demonstração ID: SheetTab
+					198 Guia de Planilha (selectable) Saidas ID: SheetTab
+					199 Guia de Planilha (selectable) Todas Saidas ID: SheetTab
+					200 Guia de Planilha (selectable) Entradas Filial ID: SheetTab
+					201 Guia de Planilha (selectable) Entradas Anual Filial ID: SheetTab
+					202 Guia de Planilha (selectable) Saidas Filial ID: SheetTab
+					203 Guia de Planilha (selectable) Todas Saidas Filial ID: SheetTab
+					204 Guia de Planilha (selectable) Carros PF ID: SheetTab
+					205 Guia de Planilha (selectable) Clientes ID: SheetTab
+					206 Guia de Planilha (selectable) Veículos ID: SheetTab
+					207 Guia de Planilha (selectable) Doc. para fora ID: SheetTab
+					208 Guia de Planilha (selectable) NCM e CEST ID: SheetTab
+					209 Guia de Planilha (selectable) Listas ID: SheetTab
+				210 painel (selectable) Planilha Menu Principal ID: Menu Principal
+				211 painel (selectable) Planilha Entradas ID: Entradas
+					434 grade de dados Grade ID: Grid (truncated: child_limit, omitted 1170 children)
+				213 painel (selectable) Planilha Transferidos ID: Transferidos
+				214 painel (selectable) Planilha Entradas Anual ID: Entradas Anual
+				215 painel (selectable) Planilha Demonstração ID: Demonstração
+				216 painel (selectable) Planilha Saidas ID: Saidas
+				217 painel (selectable) Planilha Todas Saidas ID: Todas Saidas
+				218 painel (selectable) Planilha Entradas Filial ID: Entradas Filial
+				219 painel (selectable) Planilha Entradas Anual Filial ID: Entradas Anual Filial
+				220 painel (selectable) Planilha Saidas Filial ID: Saidas Filial
+				221 painel (selectable) Planilha Todas Saidas Filial ID: Todas Saidas Filial
+				222 painel (selectable) Planilha Carros PF ID: Carros PF
+				223 painel (selectable) Planilha Clientes ID: Clientes
+				224 painel (selectable) Planilha Veículos ID: Veículos
+				225 painel (selectable) Planilha Doc. para fora ID: Doc. para fora
+				226 painel (selectable) Planilha NCM e CEST ID: NCM e CEST
+				227 painel (selectable) Planilha Listas ID: Listas
+		228 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Excel
+			229 barra de menus Sistema ID: MenuBar
+				230 item de menu Sistema
+			231 botão Minimizar
+			232 botão Maximizar
+			233 botão Fechar
+		435 barra de menus Barra de menus da planilha Description: Barra de menus da planilha
+			436 caixa de combinação (settable, string) Fazer uma pergunta
+		310 janela Relatório de validação da NF-e Secondary Actions: Raise
+			311 painel Relatório de validação da NF-e
+				312 Lista Arquivo: C:\Users\MARCOS~1\AppData\Local\Temp\vscode-agent-codex-sandbox-JTJOQt\Entrega1_20261102T182823Z\valido.xml
+					437 item de lista (selectable) CAMPO
+					438 item de lista (selectable) Modelo do documento - mod
+					439 item de lista (selectable) Ambiente da NF-e - tpAmb
+					440 item de lista (selectable) Autorização da NF-e - cStat
+					441 item de lista (selectable) Chave de acesso
+					442 item de lista (selectable) Tipo da NF-e - tpNF
+					443 item de lista (selectable) Chave de acesso no formulário
+					444 item de lista (selectable) Número da NF-e - nNF
+					445 item de lista (selectable) Data de emissão - dhEmi
+					446 item de lista (selectable) Código do produto - cProd
+					447 item de lista (selectable) Placa na descrição - xProd
+					448 item de lista (selectable) CFOP da operação
+					449 item de lista (selectable) Natureza da operação - natOp
+					450 item de lista (selectable) Benefício fiscal - cBenef
+					451 item de lista (selectable) Valor do produto - vProd
+					452 item de lista (selectable) ICMS - CST
+					453 item de lista (selectable) ICMS - valores do item
+					454 item de lista (selectable) PIS - CST
+					455 item de lista (selectable) PIS - valores
+					456 item de lista (selectable) COFINS - CST
+					457 item de lista (selectable) COFINS - valores
+					458 item de lista (selectable) Total dos produtos
+					459 item de lista (selectable) Total da base do ICMS
+					460 item de lista (selectable) Total do ICMS
+					461 item de lista (selectable) Total do PIS
+					462 item de lista (selectable) Total da COFINS
+				463 botão
+				464 text XML VALIDADO | Todos os dados conferem
+				465 text Arquivo: C:\Users\MARCOS~1\AppData\Local\Temp\vscode-agent-codex-sandbox-JTJOQt\Entrega1_20261102T182823Z\valido.xml
+				466 botão Description: Salvar
+			343 barra de título (settable, string) Value: Relatório de validação da NF-e
+				344 botão Fechar
+			345 painel Relatório de validação da NF-e
+		346 janela (disabled) Cadastro de NFe Saída Secondary Actions: Raise
+			347 painel Cadastro de NFe Saída
+				348 grupo Menu
+					467 botão
+					468 botão
+				351 grupo
+					352 painel Saida Matriz
+						353 grupo Pesquisa
+							354 Lista
+							469 caixa de combinação (settable, string) Value: Nº Nfe Saida
+								470 editar (settable, string) Value: Nº Nfe Saida
+								471 botão Abrir
+							472 editar (settable, string)
+							473 text FILTRO:
+							474 text PESQUISA MATRIZ:
+						361 grupo Valores
+							475 caixa de combinação (settable, string) Value: 12
+								476 editar (settable, string) Value: 12
+								477 botão Abrir
+							478 editar (settable, string) Value: 90000000000,00
+							479 editar (settable, string) Value: 1000
+							480 editar (settable, string)
+							481 editar (settable, string) Value: 0
+							482 editar (settable, string) Value: 0
+							483 editar (settable, string) Value: 0
+							484 editar (settable, string) Value: 0
+							485 editar (settable, string) Value: 0
+							486 text VALOR DA ENTRADA:
+							487 text VALOR DA SAIDA:
+							488 text LUCRO:
+							489 text ALIQ. BASE:
+							490 text VALOR DO ICMS:
+							491 text VALOR DO PIS:
+							492 text VALOR DO COFINS:
+							493 text ALIQ. BASE:
+							494 text ALIQ. ICMS.:
+						382 grupo Dados da NFe
+							495 editar (settable, string) Value: 1
+							496 caixa de combinação (settable, string) Value: Venda
+								497 editar (settable, string) Value: Venda
+								498 botão Abrir
+							499 editar (settable, string) Value: 22001
+							500 editar (settable, string) Value: 11001
+							501 text Nº NFe DE ENTRADA:
+							502 text Nº NFe DE SAIDA:
+							503 text TIPO DE OPERAÇÃO:
+							504 text QUANT.:
+							505 text Quant.:
+						394 grupo DATA
+							506 editar (settable, string) Value: 01/11/2026
+							507 text DATA DA EMISSÃO:
+						397 grupo Dados do Veículo
+							508 editar (settable, string) Value: F5A
+							509 caixa de combinação (settable, string) Value: FICTICIO A
+								510 editar (settable, string) Value: FICTICIO A
+								511 botão Abrir
+							512 editar (settable, string) Value: FIC5A01
+							513 caixa de combinação (settable, string) Value: 2026
+								514 editar (settable, string) Value: 2026
+								515 botão Abrir
+							516 caixa de combinação (settable, string) Value: BRANCO
+								517 editar (settable, string) Value: BRANCO
+								518 botão Abrir
+							519 text PLACA:
+							520 text VEÍCULO:
+							521 text ANO MOD.:
+							522 text COR:
+							523 text COD.:
+						414 grupo Ações
+							524 botão Description: Salvar
+							525 botão Description: Limpar
+							526 botão Description: Excluir
+							527 botão Description: Tabela entradas
+							528 botão Description: Tabela saídas
+							529 botão Description: Pesquisar NCM
+							530 botão Description: Copiar
+					531 tabulação
+						532 item de tabulação (selectable) Saida Matriz
+						533 item de tabulação (selectable) Saida Filial
+				534 text Hora
+				535 text Data
+				536 text CANDIDATA SINTETICA - selecione pela entrada
+				537 botão
+			429 barra de título (settable, string) Value: Cadastro de NFe Saída
+				430 botão Fechar
+			431 painel Cadastro de NFe Saída
+
+Document text: ```
+TESTE_2
+```

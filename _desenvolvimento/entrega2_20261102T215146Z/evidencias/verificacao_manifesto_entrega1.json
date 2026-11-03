@@ -1,0 +1,1448 @@
+[
+  {
+    "relative": "backup/.gitignore",
+    "expected": "0e4ed863854d3ef23193ae90b3ccf7c939213a181faeee232c01fd34477e9af5",
+    "actual": "0e4ed863854d3ef23193ae90b3ccf7c939213a181faeee232c01fd34477e9af5",
+    "ok": true
+  },
+  {
+    "relative": "backup/AGENTS.md",
+    "expected": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7",
+    "actual": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7",
+    "ok": true
+  },
+  {
+    "relative": "backup/Fixture_F10_Referencia.xlsm",
+    "expected": "7d1f119124e71a3314601e8c41475db22de9429010aa5424b1652d655b38b7e2",
+    "actual": "7d1f119124e71a3314601e8c41475db22de9429010aa5424b1652d655b38b7e2",
+    "ok": true
+  },
+  {
+    "relative": "backup/HISTORICO_ALTERACOES.md",
+    "expected": "5c5a452aa5f3a2ed61c01dd4850019271884510d763708056f0f368a9818c93a",
+    "actual": "5c5a452aa5f3a2ed61c01dd4850019271884510d763708056f0f368a9818c93a",
+    "ok": true
+  },
+  {
+    "relative": "backup/MAPA_PROJETO.md",
+    "expected": "88607328b41c56c20d6cb549aeedc92653f84df79c62ea99e76f3daa84312e00",
+    "actual": "88607328b41c56c20d6cb549aeedc92653f84df79c62ea99e76f3daa84312e00",
+    "ok": true
+  },
+  {
+    "relative": "backup/RELATORIO_AUDITORIA.md",
+    "expected": "a62e6bab3651177fdba8fdf9f7cb7f1a3e04f1889f4673fd0b2a994cdfa1190b",
+    "actual": "a62e6bab3651177fdba8fdf9f7cb7f1a3e04f1889f4673fd0b2a994cdfa1190b",
+    "ok": true
+  },
+  {
+    "relative": "backup/TESTES_VBA.md",
+    "expected": "fb2fca6f787a95d0c4cc70142e34aab8f6b76be86a368d19db9f791f935f85bf",
+    "actual": "fb2fca6f787a95d0c4cc70142e34aab8f6b76be86a368d19db9f791f935f85bf",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/01_integrada_compilada_antes_dados.xlsm",
+    "expected": "ceb162a6330aa94bd2f810e2efde1a4d47398b38da8a4acdfefe0cc194e7aba2",
+    "actual": "ceb162a6330aa94bd2f810e2efde1a4d47398b38da8a4acdfefe0cc194e7aba2",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/02_banco_valor_incorreto_forense.accdb",
+    "expected": "b5a8b3ecf9a8254dbd1dab7aee8441b7b190eb88a85e29c6ac6bd9f2fa34df91",
+    "actual": "b5a8b3ecf9a8254dbd1dab7aee8441b7b190eb88a85e29c6ac6bd9f2fa34df91",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/03_banco_schema5_vazio.accdb",
+    "expected": "58345d58c1e6d45958d3e8454df1cc6af6267f3ae1621c97ff3c58e06071b2c3",
+    "actual": "58345d58c1e6d45958d3e8454df1cc6af6267f3ae1621c97ff3c58e06071b2c3",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/04_banco_r2_venda_confirmada_projecao_pendente.accdb",
+    "expected": "06122cd995ded5e2810690ea27376aed66d9ccf2e38416d7ad55d207397a869f",
+    "actual": "06122cd995ded5e2810690ea27376aed66d9ccf2e38416d7ad55d207397a869f",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/05_banco_fluxos_entrada_venda_transferencia_devolucao.accdb",
+    "expected": "7c878ddc738e50dd1d583536eb6713ea8e6691bb9571edf490d7221cde0befbd",
+    "actual": "7c878ddc738e50dd1d583536eb6713ea8e6691bb9571edf490d7221cde0befbd",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/05_xlsm_fluxos_aprovados.xlsm",
+    "expected": "1a584f4a82b44591ac6acd8af31ac839f43d903571964ec110b8934a6aba21a4",
+    "actual": "1a584f4a82b44591ac6acd8af31ac839f43d903571964ec110b8934a6aba21a4",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/06_modCandidato_antes_backup.bas",
+    "expected": "2f36a7930523a6dd3723ec6a8e6adb25370f4633cbeb6446953d3e978538221a",
+    "actual": "2f36a7930523a6dd3723ec6a8e6adb25370f4633cbeb6446953d3e978538221a",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/06_modTestes_antes_seguranca.bas",
+    "expected": "81329c7a5b0ed7f98038a0d2a173b3d637082d84e708616939ecbea684977383",
+    "actual": "81329c7a5b0ed7f98038a0d2a173b3d637082d84e708616939ecbea684977383",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/07_base_apos_seguranca_sem_pendencias.accdb",
+    "expected": "aef1e447219992fc3871c0910d520a549eef90060a519c97314c758cbc302d59",
+    "actual": "aef1e447219992fc3871c0910d520a549eef90060a519c97314c758cbc302d59",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/07_testes_antes_fluxos_falha.bas",
+    "expected": "a168441f4780a219531ce9d43a4de07689699534f5eca77ac37fd7e9c362453f",
+    "actual": "a168441f4780a219531ce9d43a4de07689699534f5eca77ac37fd7e9c362453f",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/08_c1_antes_diagnostico.bas",
+    "expected": "359b565cb35384eddacc657f01170c39879467cc9fccf13e465439f20d5372cb",
+    "actual": "359b565cb35384eddacc657f01170c39879467cc9fccf13e465439f20d5372cb",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/08_core_antes_chave_opcional.bas",
+    "expected": "0258bc543228c30acc56057d3cdbec27cdf67aef30cee9b3eb2f3d86deeedee6",
+    "actual": "0258bc543228c30acc56057d3cdbec27cdf67aef30cee9b3eb2f3d86deeedee6",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/09_c1_antes_ordem_formulario.bas",
+    "expected": "7a6f219b872f5467814d0b5561628226784af8ff5846a2cadf48a1c764024e47",
+    "actual": "7a6f219b872f5467814d0b5561628226784af8ff5846a2cadf48a1c764024e47",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/10_base_revisao8_sem_pendencias.accdb",
+    "expected": "31aee14a9df741c901d3c97cdd85c020ea16f29007bee49dcd17013aeee6eb89",
+    "actual": "31aee14a9df741c901d3c97cdd85c020ea16f29007bee49dcd17013aeee6eb89",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/10_xlsm_revisao8.xlsm",
+    "expected": "ed07b067df5bb7ac0afd50276f29b24df2bb29b214ef394a1547dce4073444a3",
+    "actual": "ed07b067df5bb7ac0afd50276f29b24df2bb29b214ef394a1547dce4073444a3",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/11_falha_devolucao_pendente_forense.accdb",
+    "expected": "18fbd7df36bdd6c86a96b9337900b33745444d5dea47010ff4bd2df452691d62",
+    "actual": "18fbd7df36bdd6c86a96b9337900b33745444d5dea47010ff4bd2df452691d62",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/12_falhas_entrada_pendentes_forense.accdb",
+    "expected": "e92e0938bdce73280748e6da1fb2f7be18dfad9024927caa9be077cba66798cb",
+    "actual": "e92e0938bdce73280748e6da1fb2f7be18dfad9024927caa9be077cba66798cb",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/13_backup_real_revision5/Banco_Candidato_Sintetico.accdb",
+    "expected": "aef1e447219992fc3871c0910d520a549eef90060a519c97314c758cbc302d59",
+    "actual": "aef1e447219992fc3871c0910d520a549eef90060a519c97314c758cbc302d59",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/13_backup_real_revision5/Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "expected": "b03dea1db1c4ebd4d604330c0cfaaac7f9e884027b80e9ef0ff8246d29524e79",
+    "actual": "b03dea1db1c4ebd4d604330c0cfaaac7f9e884027b80e9ef0ff8246d29524e79",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/13_backup_real_revision5/manifesto_backup.tsv",
+    "expected": "3af1c3b1d483ec0e0aa95f527e19bdb537e1d21775def9db1c604df020191c15",
+    "actual": "3af1c3b1d483ec0e0aa95f527e19bdb537e1d21775def9db1c604df020191c15",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/docs_pre_fechamento/ENTREGA_1_CANDIDATO_INTEGRADO.md",
+    "expected": "270103f0e6c5b73008c2776fdc9ccb9d79e43b6921583eaa72f7001988004efd",
+    "actual": "270103f0e6c5b73008c2776fdc9ccb9d79e43b6921583eaa72f7001988004efd",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/docs_pre_fechamento/MANUAL_INSTALACAO_RESTAURACAO.md",
+    "expected": "b03db89744be8c0bb6d4cdd93f7e5416073757b19ec5feb52f2d2f992ec3c816",
+    "actual": "b03db89744be8c0bb6d4cdd93f7e5416073757b19ec5feb52f2d2f992ec3c816",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/docs_pre_fechamento/MATRIZ_REGRESSAO_ENTREGA.md",
+    "expected": "82114da5a6e08a4fd215ed0dbd3e047aad8af626e7c3c4f1bb731b119a949aac",
+    "actual": "82114da5a6e08a4fd215ed0dbd3e047aad8af626e7c3c4f1bb731b119a949aac",
+    "ok": true
+  },
+  {
+    "relative": "checkpoints/docs_pre_fechamento/REGISTRO_DEFEITOS_ABERTOS.md",
+    "expected": "6d41aa6bb97016b6ef2180869f2dfc871023f227b2dcbadbcaa198dae266a2bc",
+    "actual": "6d41aa6bb97016b6ef2180869f2dfc871023f227b2dcbadbcaa198dae266a2bc",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/aliases-vba-interface.txt",
+    "expected": "ae03a0403bf0cbf5657cb4c34abf5443b207af1751d46cf37df4e52638c2215b",
+    "actual": "ae03a0403bf0cbf5657cb4c34abf5443b207af1751d46cf37df4e52638c2215b",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/aliases-vba.jpg",
+    "expected": "39ad087c24a4ae7542719f486b46483d87f25e60bf58adb9d98553db442e861c",
+    "actual": "39ad087c24a4ae7542719f486b46483d87f25e60bf58adb9d98553db442e861c",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup/Banco_Candidato_Sintetico.accdb",
+    "expected": "3198e07699f644f64c325a9fb517470b64950aa5a262cc354629ed61f1503dc3",
+    "actual": "3198e07699f644f64c325a9fb517470b64950aa5a262cc354629ed61f1503dc3",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup/ENTREGA_1_CANDIDATO_INTEGRADO.md",
+    "expected": "270103f0e6c5b73008c2776fdc9ccb9d79e43b6921583eaa72f7001988004efd",
+    "actual": "270103f0e6c5b73008c2776fdc9ccb9d79e43b6921583eaa72f7001988004efd",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup/Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "expected": "9b24bec50e588551a744128912c062bdbb020905bccd41b40f62c0aee89dbad2",
+    "actual": "9b24bec50e588551a744128912c062bdbb020905bccd41b40f62c0aee89dbad2",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup/HISTORICO_ALTERACOES.md",
+    "expected": "5ff74db4886e4af766f9ba9a618edae8607346aedcf1a68f6787432327a8626a",
+    "actual": "5ff74db4886e4af766f9ba9a618edae8607346aedcf1a68f6787432327a8626a",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup/MANUAL_INSTALACAO_RESTAURACAO.md",
+    "expected": "4c5d60ae95d71cf3a6c06447e0f73afdcde4288a98c68b40f50ea2217b6a710d",
+    "actual": "4c5d60ae95d71cf3a6c06447e0f73afdcde4288a98c68b40f50ea2217b6a710d",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup/MAPA_PROJETO.md",
+    "expected": "7f303d75df0c005740d6030c05e4350ab3df2276b8df7b10313fac86e517a78a",
+    "actual": "7f303d75df0c005740d6030c05e4350ab3df2276b8df7b10313fac86e517a78a",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup/MATRIZ_REGRESSAO_ENTREGA.md",
+    "expected": "82114da5a6e08a4fd215ed0dbd3e047aad8af626e7c3c4f1bb731b119a949aac",
+    "actual": "82114da5a6e08a4fd215ed0dbd3e047aad8af626e7c3c4f1bb731b119a949aac",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup/modCandidatoIntegrado.bas",
+    "expected": "5d9e44a3ee604d85e755a167b0f87f4d337622ba49728c843bb4c4d002cb7b23",
+    "actual": "5d9e44a3ee604d85e755a167b0f87f4d337622ba49728c843bb4c4d002cb7b23",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup/REGISTRO_DEFEITOS_ABERTOS.md",
+    "expected": "6d41aa6bb97016b6ef2180869f2dfc871023f227b2dcbadbcaa198dae266a2bc",
+    "actual": "6d41aa6bb97016b6ef2180869f2dfc871023f227b2dcbadbcaa198dae266a2bc",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup/RELATORIO_AUDITORIA.md",
+    "expected": "c8bb204f35f7e7d3ae491349b96d1d3460af82479a8db423affd093254fada90",
+    "actual": "c8bb204f35f7e7d3ae491349b96d1d3460af82479a8db423affd093254fada90",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup/resultados_entrega1.tsv",
+    "expected": "f8e95b4650f5ac2510a9cdcb1639bb4df463eee5af3148d5ae606a7acdbadf39",
+    "actual": "f8e95b4650f5ac2510a9cdcb1639bb4df463eee5af3148d5ae606a7acdbadf39",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup/TESTES_VBA.md",
+    "expected": "452c8233bcb9d80872a7a9813f775ec9a94648350e3590d131f8c97bd84afb85",
+    "actual": "452c8233bcb9d80872a7a9813f775ec9a94648350e3590d131f8c97bd84afb85",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup-work/entrega/ENTREGA_1_CANDIDATO_INTEGRADO.md",
+    "expected": "e6ce9000b4939e1e2bdb0de2ad881d92a175e7bf948a1bd4912a671cead19483",
+    "actual": "e6ce9000b4939e1e2bdb0de2ad881d92a175e7bf948a1bd4912a671cead19483",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup-work/entrega/Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "expected": "9b24bec50e588551a744128912c062bdbb020905bccd41b40f62c0aee89dbad2",
+    "actual": "9b24bec50e588551a744128912c062bdbb020905bccd41b40f62c0aee89dbad2",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup-work/entrega/manifesto_artefatos.json",
+    "expected": "1e72a411034a2691178a97020193395ce57ff45a39b432ebf3a61826ad5bfc53",
+    "actual": "1e72a411034a2691178a97020193395ce57ff45a39b432ebf3a61826ad5bfc53",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup-work/entrega/MANUAL_INSTALACAO_RESTAURACAO.md",
+    "expected": "08c53c8c0fe9689a04669413782e856a89f4cb622f5820d64b7f35ec70e43017",
+    "actual": "08c53c8c0fe9689a04669413782e856a89f4cb622f5820d64b7f35ec70e43017",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup-work/entrega/MATRIZ_REGRESSAO_ENTREGA.md",
+    "expected": "3ffff10bf0e55c7ce90c41d12707dff624408bc55be8e038ef6bab3bdf6b1d06",
+    "actual": "3ffff10bf0e55c7ce90c41d12707dff624408bc55be8e038ef6bab3bdf6b1d06",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup-work/entrega/REGISTRO_DEFEITOS_ABERTOS.md",
+    "expected": "6d41aa6bb97016b6ef2180869f2dfc871023f227b2dcbadbcaa198dae266a2bc",
+    "actual": "6d41aa6bb97016b6ef2180869f2dfc871023f227b2dcbadbcaa198dae266a2bc",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup-work/evidencias/execucao/resultados_entrega1.tsv",
+    "expected": "f8e95b4650f5ac2510a9cdcb1639bb4df463eee5af3148d5ae606a7acdbadf39",
+    "actual": "f8e95b4650f5ac2510a9cdcb1639bb4df463eee5af3148d5ae606a7acdbadf39",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup-work/evidencias/resultados_estruturados.json",
+    "expected": "87002346d2dc053400e5f2d7ce9f3ac4645cb0102b3d1ab7ac54a63823226849",
+    "actual": "87002346d2dc053400e5f2d7ce9f3ac4645cb0102b3d1ab7ac54a63823226849",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup-work/fontes/MDL/modCandidatoIntegrado.bas",
+    "expected": "5d9e44a3ee604d85e755a167b0f87f4d337622ba49728c843bb4c4d002cb7b23",
+    "actual": "5d9e44a3ee604d85e755a167b0f87f4d337622ba49728c843bb4c4d002cb7b23",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup-work/fontes/modCandidatoIntegrado.bas",
+    "expected": "2d75b66e8660ef155b43c407d486e8a18d3517ac052a16003ac1ea9c5b7f855b",
+    "actual": "2d75b66e8660ef155b43c407d486e8a18d3517ac052a16003ac1ea9c5b7f855b",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup-work/manifesto-final.json",
+    "expected": "eeb2e5f8495858f7956df5121bfde9691a6f7cbec76d2efbaf3fca948e557726",
+    "actual": "eeb2e5f8495858f7956df5121bfde9691a6f7cbec76d2efbaf3fca948e557726",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/backup-work/manifesto-final.sha256",
+    "expected": "eda63bb160fa19f4b3eefd8d3222ae14773a403ca5b4f7560cd019484889d437",
+    "actual": "eda63bb160fa19f4b3eefd8d3222ae14773a403ca5b4f7560cd019484889d437",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/compilacao-caminhos.txt",
+    "expected": "1e11e88da7521eecc89c9b1cfe6679688b4a6d65a830f646d75b3f06eea99683",
+    "actual": "1e11e88da7521eecc89c9b1cfe6679688b4a6d65a830f646d75b3f06eea99683",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/diferencas-fechamento-anterior.json",
+    "expected": "648e91249c4a8a27da635592bf425b967e6ad0f84c6f44674be6f49c6db495ff",
+    "actual": "648e91249c4a8a27da635592bf425b967e6ad0f84c6f44674be6f49c6db495ff",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/evidencias-reabertura.json",
+    "expected": "f26165d852ff84487210f7c21713aa246ccd95f6992c259041b31a3b4c25c35d",
+    "actual": "f26165d852ff84487210f7c21713aa246ccd95f6992c259041b31a3b4c25c35d",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/manifesto-backup-documentos-pacote.json",
+    "expected": "cb870cc1e550ac9830d5570d911657eeb62eafb96233d5f668dd34b856892746",
+    "actual": "cb870cc1e550ac9830d5570d911657eeb62eafb96233d5f668dd34b856892746",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/manifesto-backup-work.json",
+    "expected": "f77e4aa8e539fc7adc5e1f328be00903715cfedb4e342e690620011a9b7638a4",
+    "actual": "f77e4aa8e539fc7adc5e1f328be00903715cfedb4e342e690620011a9b7638a4",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/manifesto-inicial.json",
+    "expected": "69e70781836e70472c3e562da64891db997e8703181a84d86b6fd3c2db1a0e40",
+    "actual": "69e70781836e70472c3e562da64891db997e8703181a84d86b6fd3c2db1a0e40",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/modCandidatoIntegrado_revisado.bas",
+    "expected": "7a875a36f7c5e37f9d3178b522502a4bbeb63048879153cf006e37d8ee3ac97b",
+    "actual": "7a875a36f7c5e37f9d3178b522502a4bbeb63048879153cf006e37d8ee3ac97b",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/resultados_apos_correcao.tsv",
+    "expected": "2a761b13cbdb138d55d17ae7fbc841a31e3f9f0d3c386bc60cfb376ba756b71b",
+    "actual": "2a761b13cbdb138d55d17ae7fbc841a31e3f9f0d3c386bc60cfb376ba756b71b",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/resultados_sessao_fria.tsv",
+    "expected": "860175d29652db02eeb2ac09ac7b43dade22b88aa6da909c9a08665188fd30a8",
+    "actual": "860175d29652db02eeb2ac09ac7b43dade22b88aa6da909c9a08665188fd30a8",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/resultado_antes_correcao.tsv",
+    "expected": "0c9e2bc2fd4d5df3c4cf439fae4bac38b8f408d60a5fba451043910832ce981b",
+    "actual": "0c9e2bc2fd4d5df3c4cf439fae4bac38b8f408d60a5fba451043910832ce981b",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/sessao-fria-inicializacao.jpg",
+    "expected": "7aa9a1242f361db13492a6afa21ac968e3768170ea25b28718139c664680bfa8",
+    "actual": "7aa9a1242f361db13492a6afa21ac968e3768170ea25b28718139c664680bfa8",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/sessao-fria-interface.txt",
+    "expected": "2e4cafc8d40298a82ec63339806a15dc95a896f2787755a695a57e4ab087cc2e",
+    "actual": "2e4cafc8d40298a82ec63339806a15dc95a896f2787755a695a57e4ab087cc2e",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/sessao-fria-resultado.jpg",
+    "expected": "edf296e6c4de75a339fa43b383d8b2a6f3965ce18a1508ac632da55ab262f9ae",
+    "actual": "edf296e6c4de75a339fa43b383d8b2a6f3965ce18a1508ac632da55ab262f9ae",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/vbe-falha-caminho.txt",
+    "expected": "f52003a69adb43303559c79ad4dcb7c8e1b531150afffd1336a86cfcf5e18613",
+    "actual": "f52003a69adb43303559c79ad4dcb7c8e1b531150afffd1336a86cfcf5e18613",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/verificacao-integracao.json",
+    "expected": "89f6f186ae78aa2d2f236b82088cdbfb9f9d6cb70681c24b8f2b40ab4d54636f",
+    "actual": "89f6f186ae78aa2d2f236b82088cdbfb9f9d6cb70681c24b8f2b40ab4d54636f",
+    "ok": true
+  },
+  {
+    "relative": "continuacao_reabertura_20261102T205915Z/verificacao-originais.json",
+    "expected": "c9dff55ae7e0c46d288f936d52d95e333c408c00f8c79680e053ca4d92e6bf94",
+    "actual": "c9dff55ae7e0c46d288f936d52d95e333c408c00f8c79680e053ca4d92e6bf94",
+    "ok": true
+  },
+  {
+    "relative": "entrega/Banco_Candidato_Sintetico.accdb",
+    "expected": "3198e07699f644f64c325a9fb517470b64950aa5a262cc354629ed61f1503dc3",
+    "actual": "3198e07699f644f64c325a9fb517470b64950aa5a262cc354629ed61f1503dc3",
+    "ok": true
+  },
+  {
+    "relative": "entrega/ENTREGA_1_CANDIDATO_INTEGRADO.md",
+    "expected": "8bb9f625ce99052112fb69766ab5e7766c0310234e2150ebf28f7b91a53d8e58",
+    "actual": "8bb9f625ce99052112fb69766ab5e7766c0310234e2150ebf28f7b91a53d8e58",
+    "ok": true
+  },
+  {
+    "relative": "entrega/Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "expected": "5b2a0d55fcea077dd034ace4c4892bbc9fdd46c69760d7d318d2162f54771749",
+    "actual": "5b2a0d55fcea077dd034ace4c4892bbc9fdd46c69760d7d318d2162f54771749",
+    "ok": true
+  },
+  {
+    "relative": "entrega/manifesto_artefatos.json",
+    "expected": "4fba2b36c03dc0c40464ff5632b3f2a7d3f4307b28d2ead134959c5c5a8af5d4",
+    "actual": "4fba2b36c03dc0c40464ff5632b3f2a7d3f4307b28d2ead134959c5c5a8af5d4",
+    "ok": true
+  },
+  {
+    "relative": "entrega/MANUAL_INSTALACAO_RESTAURACAO.md",
+    "expected": "ebb7ebda0b9a152beee4610b58ec5197df6847f033e33d2952a77eca36f367eb",
+    "actual": "ebb7ebda0b9a152beee4610b58ec5197df6847f033e33d2952a77eca36f367eb",
+    "ok": true
+  },
+  {
+    "relative": "entrega/MATRIZ_REGRESSAO_ENTREGA.md",
+    "expected": "fd60735f53eb08a4d7107616d9666b9e8a4969c0c77835f3e9d9f8093e9c5c1b",
+    "actual": "fd60735f53eb08a4d7107616d9666b9e8a4969c0c77835f3e9d9f8093e9c5c1b",
+    "ok": true
+  },
+  {
+    "relative": "entrega/Preparar-CopiaSintetica.ps1",
+    "expected": "1e1c7b40fb1ca6897db96e7d7f6726bc44330d61e0416c199310796f2c13ad37",
+    "actual": "1e1c7b40fb1ca6897db96e7d7f6726bc44330d61e0416c199310796f2c13ad37",
+    "ok": true
+  },
+  {
+    "relative": "entrega/REGISTRO_DEFEITOS_ABERTOS.md",
+    "expected": "7386e0914d7c65e5843f809b0d65b8e0663a5704f7f1e39f6bf1a5d677ba1b1a",
+    "actual": "7386e0914d7c65e5843f809b0d65b8e0663a5704f7f1e39f6bf1a5d677ba1b1a",
+    "ok": true
+  },
+  {
+    "relative": "entrega/transferencia_b.xml",
+    "expected": "9504243baeaeea10a265af9a6a448d411814cd763374fa27f92e8fbe9a4a832d",
+    "actual": "9504243baeaeea10a265af9a6a448d411814cd763374fa27f92e8fbe9a4a832d",
+    "ok": true
+  },
+  {
+    "relative": "entrega/transferencia_b2.xml",
+    "expected": "9d50e578c2304483978bf2fa70a3384b735782794c0c8fddb54f2ff46835810f",
+    "actual": "9d50e578c2304483978bf2fa70a3384b735782794c0c8fddb54f2ff46835810f",
+    "ok": true
+  },
+  {
+    "relative": "entrega/transferencia_duplicada.xml",
+    "expected": "d1f703bc903fcd9c2602b05fca0181129cf5899316fb5fa2538233d286379004",
+    "actual": "d1f703bc903fcd9c2602b05fca0181129cf5899316fb5fa2538233d286379004",
+    "ok": true
+  },
+  {
+    "relative": "entrega/valido.xml",
+    "expected": "726c1c67b67a4be608cdd1e59127c79fae91fe861bfde4ce369eec68420d9e28",
+    "actual": "726c1c67b67a4be608cdd1e59127c79fae91fe861bfde4ce369eec68420d9e28",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/ace-final-revisao8.json",
+    "expected": "d016a247479cc7f054b54843e6b8caaebfba6e650a60891d1ec4d04b9661797a",
+    "actual": "d016a247479cc7f054b54843e6b8caaebfba6e650a60891d1ec4d04b9661797a",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/bloqueio_preparacao_ps1.txt",
+    "expected": "0ca4a93798a0eda5c28e8462316a47ecb6f5dd12b15928f8053e2adf4239f5d6",
+    "actual": "0ca4a93798a0eda5c28e8462316a47ecb6f5dd12b15928f8053e2adf4239f5d6",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/compilacao-final-menu.txt",
+    "expected": "5dfce8ee5c2f62bbdc1848553b94c0b4088baa08f25d198e1349c740931e5574",
+    "actual": "5dfce8ee5c2f62bbdc1848553b94c0b4088baa08f25d198e1349c740931e5574",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/compilacao-inicial.jpg",
+    "expected": "2d5e623bdb4c0824478acc78a21bdff795f54152377b835f8ce4015be3943ce0",
+    "actual": "2d5e623bdb4c0824478acc78a21bdff795f54152377b835f8ce4015be3943ce0",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/compilacao-inicial.json",
+    "expected": "bd56de1ae20055b8f94a1fef306063c23368394cb930062fe3d9779941e2c2e8",
+    "actual": "bd56de1ae20055b8f94a1fef306063c23368394cb930062fe3d9779941e2c2e8",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_A_antes.tsv",
+    "expected": "3e4f3ff216ae6fbea7aac7c204cc802a8f6512927627f6e374a685c432123b6d",
+    "actual": "3e4f3ff216ae6fbea7aac7c204cc802a8f6512927627f6e374a685c432123b6d",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_A_depois_entrada.tsv",
+    "expected": "db3972df600cdf1db8b422837f26703d1d71b6137473491f184b14075bd37d7a",
+    "actual": "db3972df600cdf1db8b422837f26703d1d71b6137473491f184b14075bd37d7a",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r2_A_antes.tsv",
+    "expected": "c8fa7b23caf31b0676d3b6b87601de37f787bc8865d98eb985971df7eebc3630",
+    "actual": "c8fa7b23caf31b0676d3b6b87601de37f787bc8865d98eb985971df7eebc3630",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r2_A_depois_entrada.tsv",
+    "expected": "76e161c3d626e4205f12923bf5f419e1f4dfefff207153553d2d095b27c424e4",
+    "actual": "76e161c3d626e4205f12923bf5f419e1f4dfefff207153553d2d095b27c424e4",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r2_V_antes.tsv",
+    "expected": "76e161c3d626e4205f12923bf5f419e1f4dfefff207153553d2d095b27c424e4",
+    "actual": "76e161c3d626e4205f12923bf5f419e1f4dfefff207153553d2d095b27c424e4",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r2_V_depois.tsv",
+    "expected": "be0d07a44f42310f300bb8c6ed7bb8c58a2cbf7463058006468fcd59a7573760",
+    "actual": "be0d07a44f42310f300bb8c6ed7bb8c58a2cbf7463058006468fcd59a7573760",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_A_antes.tsv",
+    "expected": "2882716a87e40d0415f5bd78a92724c1d4bedd56fc29d2a66dba32bc676fd8a2",
+    "actual": "2882716a87e40d0415f5bd78a92724c1d4bedd56fc29d2a66dba32bc676fd8a2",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_A_depois_entrada.tsv",
+    "expected": "7bb734b6282ad64ffed956a31fcf7fe34b9b7e0b74fffa419d348cdf2ffffa60",
+    "actual": "7bb734b6282ad64ffed956a31fcf7fe34b9b7e0b74fffa419d348cdf2ffffa60",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_duplicidade_depois.tsv",
+    "expected": "4ce6f9dedaad55f2b9984e5e06cf9927239e5c59f04d15259a49405810339c61",
+    "actual": "4ce6f9dedaad55f2b9984e5e06cf9927239e5c59f04d15259a49405810339c61",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_D_antes.tsv",
+    "expected": "97099c32c3b9efafd3921c83100e393e5a61ad9f1624a6c1b81d905d8c02fd08",
+    "actual": "97099c32c3b9efafd3921c83100e393e5a61ad9f1624a6c1b81d905d8c02fd08",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_D_depois.tsv",
+    "expected": "bfa6159c2688f3aaa5c573d8b66c20b3563e91edb116e35c3e903c47f7130306",
+    "actual": "bfa6159c2688f3aaa5c573d8b66c20b3563e91edb116e35c3e903c47f7130306",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_falhas_entrada_depois.tsv",
+    "expected": "374103375659a003df0c0eb63490281c403f1d33b2c2ddf375fd64d9ee66d7f8",
+    "actual": "374103375659a003df0c0eb63490281c403f1d33b2c2ddf375fd64d9ee66d7f8",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_falha_devolucao_antes.tsv",
+    "expected": "aa1556c2398abd700c7ee4188037d90b8379b0695921b2b3e4fd14217ab5eca3",
+    "actual": "aa1556c2398abd700c7ee4188037d90b8379b0695921b2b3e4fd14217ab5eca3",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_falha_devolucao_depois.tsv",
+    "expected": "901f87372beb2968bf1146555da09e9abc6b465fbc21025e467e5f9d499b08fb",
+    "actual": "901f87372beb2968bf1146555da09e9abc6b465fbc21025e467e5f9d499b08fb",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_reentrada_depois.tsv",
+    "expected": "78142af57cea47e1bfb8dcc3c01ac6a6e458f76370224049a20d77328a8e667b",
+    "actual": "78142af57cea47e1bfb8dcc3c01ac6a6e458f76370224049a20d77328a8e667b",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_seguranca_depois.tsv",
+    "expected": "8da419577bdcb732a6595a47526dfaf51929139920ce0a7e4f769182c21ea5e8",
+    "actual": "8da419577bdcb732a6595a47526dfaf51929139920ce0a7e4f769182c21ea5e8",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_transferencia2_depois.tsv",
+    "expected": "aa1556c2398abd700c7ee4188037d90b8379b0695921b2b3e4fd14217ab5eca3",
+    "actual": "aa1556c2398abd700c7ee4188037d90b8379b0695921b2b3e4fd14217ab5eca3",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_transferencia2_tentativa1_FAIL.tsv",
+    "expected": "4ce6f9dedaad55f2b9984e5e06cf9927239e5c59f04d15259a49405810339c61",
+    "actual": "4ce6f9dedaad55f2b9984e5e06cf9927239e5c59f04d15259a49405810339c61",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_T_antes.tsv",
+    "expected": "1cbdabee4cd114a57f0f3461b859b72491c91a736ec6e48a19e8ed1500b174cb",
+    "actual": "1cbdabee4cd114a57f0f3461b859b72491c91a736ec6e48a19e8ed1500b174cb",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_T_depois.tsv",
+    "expected": "97099c32c3b9efafd3921c83100e393e5a61ad9f1624a6c1b81d905d8c02fd08",
+    "actual": "97099c32c3b9efafd3921c83100e393e5a61ad9f1624a6c1b81d905d8c02fd08",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_V_antes.tsv",
+    "expected": "7bb734b6282ad64ffed956a31fcf7fe34b9b7e0b74fffa419d348cdf2ffffa60",
+    "actual": "7bb734b6282ad64ffed956a31fcf7fe34b9b7e0b74fffa419d348cdf2ffffa60",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_r3_V_depois.tsv",
+    "expected": "0e943c6ffe65dad712529d9f75b6c1b9d5de19ead315ae5cac7f196f848b76cf",
+    "actual": "0e943c6ffe65dad712529d9f75b6c1b9d5de19ead315ae5cac7f196f848b76cf",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_V_antes.tsv",
+    "expected": "f3f4a5209c324e373b61ef48be5208a87011aadc07a3c6c154c71b6fac3d34be",
+    "actual": "f3f4a5209c324e373b61ef48be5208a87011aadc07a3c6c154c71b6fac3d34be",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/estado_V_depois.tsv",
+    "expected": "f3f4a5209c324e373b61ef48be5208a87011aadc07a3c6c154c71b6fac3d34be",
+    "actual": "f3f4a5209c324e373b61ef48be5208a87011aadc07a3c6c154c71b6fac3d34be",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/resultados_entrega1.tsv",
+    "expected": "860175d29652db02eeb2ac09ac7b43dade22b88aa6da909c9a08665188fd30a8",
+    "actual": "860175d29652db02eeb2ac09ac7b43dade22b88aa6da909c9a08665188fd30a8",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/transferencia.xml",
+    "expected": "c8e5a0c3f1ecee3648c3865f3989794d10460e880000fba6a46ed62fec6295b3",
+    "actual": "c8e5a0c3f1ecee3648c3865f3989794d10460e880000fba6a46ed62fec6295b3",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/transferencia_b.xml",
+    "expected": "9504243baeaeea10a265af9a6a448d411814cd763374fa27f92e8fbe9a4a832d",
+    "actual": "9504243baeaeea10a265af9a6a448d411814cd763374fa27f92e8fbe9a4a832d",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/transferencia_b2.xml",
+    "expected": "9d50e578c2304483978bf2fa70a3384b735782794c0c8fddb54f2ff46835810f",
+    "actual": "9d50e578c2304483978bf2fa70a3384b735782794c0c8fddb54f2ff46835810f",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/transferencia_duplicada.xml",
+    "expected": "d1f703bc903fcd9c2602b05fca0181129cf5899316fb5fa2538233d286379004",
+    "actual": "d1f703bc903fcd9c2602b05fca0181129cf5899316fb5fa2538233d286379004",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/execucao/valido.xml",
+    "expected": "726c1c67b67a4be608cdd1e59127c79fae91fe861bfde4ce369eec68420d9e28",
+    "actual": "726c1c67b67a4be608cdd1e59127c79fae91fe861bfde4ce369eec68420d9e28",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_19DE97B7-9E4C-4BB1-8D8B-F676E43AA14F.xlsm",
+    "expected": "55a5b01628f8cb4b5e82730ff9273c6ba1214343867463cab750fb49cb81519b",
+    "actual": "55a5b01628f8cb4b5e82730ff9273c6ba1214343867463cab750fb49cb81519b",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_31948DF2-629B-4DE4-AA26-876E9D8FCDC8.xlsm",
+    "expected": "862d5b07432c49d089653403df1c186637cf50d4f7ff4731e9d442d4653bef3e",
+    "actual": "862d5b07432c49d089653403df1c186637cf50d4f7ff4731e9d442d4653bef3e",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_4AFB5714-4046-478C-BB8C-384245539A3D.xlsm",
+    "expected": "16d6dd1b64ef3ee67ce75746c74a862daa09bf54d19d0fcd21f0b332a4c4e00a",
+    "actual": "16d6dd1b64ef3ee67ce75746c74a862daa09bf54d19d0fcd21f0b332a4c4e00a",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_5CCC7A7C-BBB8-4CD3-BB80-494E68BB8055.xlsm",
+    "expected": "ef75edac84675949fc47963a0fd852efa1e79a694b68b89ef7ea00ed04d18abc",
+    "actual": "ef75edac84675949fc47963a0fd852efa1e79a694b68b89ef7ea00ed04d18abc",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_6111EF20-D2E1-4885-B39A-7F13507A8B0F.xlsm",
+    "expected": "438c305f757f44a9eb529c050e9d902802d4edb7131afa3a62f66347674775d0",
+    "actual": "438c305f757f44a9eb529c050e9d902802d4edb7131afa3a62f66347674775d0",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_61DD02C0-0DB9-45BD-91A4-5EA8A6281A36.xlsm",
+    "expected": "fc63f5ebea7f705dfc4a360dd27ba110a04b90b42a612ee17ed5c4a2467deb6f",
+    "actual": "fc63f5ebea7f705dfc4a360dd27ba110a04b90b42a612ee17ed5c4a2467deb6f",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_64A19838-5A07-40EC-BEEE-54AD14870884.xlsm",
+    "expected": "922a3c734c9029ab44ac991bc3aa0238bf62fbbab2baa81f9361f8eddc1891b1",
+    "actual": "922a3c734c9029ab44ac991bc3aa0238bf62fbbab2baa81f9361f8eddc1891b1",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_70AEF65F-3F5C-484A-9251-E80BDBCCDEA6.xlsm",
+    "expected": "563a03d0b20fffaec19a39c23fba80aa0469df9a0b740fa1c9d0ab01a3070289",
+    "actual": "563a03d0b20fffaec19a39c23fba80aa0469df9a0b740fa1c9d0ab01a3070289",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_7F9FB807-EC54-4AB7-ACBD-23695DA7445B.xlsm",
+    "expected": "c3030e8aa086831f94ea3cd7741aea943c04b860b6db457021224fdea424b256",
+    "actual": "c3030e8aa086831f94ea3cd7741aea943c04b860b6db457021224fdea424b256",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_8ED89C85-853F-4485-8120-CD66DE6486B7.xlsm",
+    "expected": "8ac03067b85fe35e12b4b50c626cb3084f9acf2cc593e48f529edc8c0ff44e56",
+    "actual": "8ac03067b85fe35e12b4b50c626cb3084f9acf2cc593e48f529edc8c0ff44e56",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_8FF7FD9F-25D9-478F-8D97-01F147AE7234.xlsm",
+    "expected": "2146785dbe9f42d8f3c89be1cbf13ed5f69ccd9a7a683188e2f370738f0e6493",
+    "actual": "2146785dbe9f42d8f3c89be1cbf13ed5f69ccd9a7a683188e2f370738f0e6493",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_95954554-F9B0-4157-8BD9-A0B1EE39FB4D.xlsm",
+    "expected": "90e5e3b2b69399aa21734f2e8ec36cee2fbb431893957ad9f974bcf47d5f0f2e",
+    "actual": "90e5e3b2b69399aa21734f2e8ec36cee2fbb431893957ad9f974bcf47d5f0f2e",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_A9589152-040F-4040-8E6A-2499ED0BEC5C.xlsm",
+    "expected": "91b630cc4b93feeab7b8c653bccde6f52442d9bd541b7ee598cc121258310274",
+    "actual": "91b630cc4b93feeab7b8c653bccde6f52442d9bd541b7ee598cc121258310274",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_B730FE1A-42B2-4D9C-9B52-6B588087C433.xlsm",
+    "expected": "d66fd1c6045ae9192b8022575abf8e9f93d4dda1276c82bec0e3e1a61688e7e3",
+    "actual": "d66fd1c6045ae9192b8022575abf8e9f93d4dda1276c82bec0e3e1a61688e7e3",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_BBE12D87-D2A8-45FB-9FC3-6885D377F17F.xlsm",
+    "expected": "62f72e337c70a7f9351a5923f657bdc4cb017ee23e375357d9a35f83ed1bb038",
+    "actual": "62f72e337c70a7f9351a5923f657bdc4cb017ee23e375357d9a35f83ed1bb038",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_C547224D-5427-4027-97EC-4FD49185637B.xlsm",
+    "expected": "cf9fb06d524f8d76c89cca81f53352ffa062c97329bada30c193561774854d36",
+    "actual": "cf9fb06d524f8d76c89cca81f53352ffa062c97329bada30c193561774854d36",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_DB3D8D94-CB83-4250-BA20-F3E6F2258B5D.xlsm",
+    "expected": "b65306d9ac027faeec48a05761115b7ae7c0dc14cf40d541f5b703acdebd34ff",
+    "actual": "b65306d9ac027faeec48a05761115b7ae7c0dc14cf40d541f5b703acdebd34ff",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/geracoes/Projecao_C1_FC77DF22-25B6-4A92-8E12-718837E0A679.xlsm",
+    "expected": "925ecfc61faef177a9526751550289aec609ad92ed630c8fb27496d8b68bd851",
+    "actual": "925ecfc61faef177a9526751550289aec609ad92ed630c8fb27496d8b68bd851",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/instalacao-01-guarda-temp.jpg",
+    "expected": "f3f323541c4a43cf736d38c335488768efb48bfd0046553e7f1a4794a19c07f6",
+    "actual": "f3f323541c4a43cf736d38c335488768efb48bfd0046553e7f1a4794a19c07f6",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/instalacao-02-transacao.jpg",
+    "expected": "1858dec10e259b0a40b40469ef3b06f20c2a842e9caf7c44641ee960fa2bbdd7",
+    "actual": "1858dec10e259b0a40b40469ef3b06f20c2a842e9caf7c44641ee960fa2bbdd7",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/inventario_integracao.json",
+    "expected": "79a513764c52ae98e947f72ecf1b7c3b60ae0239a94db663d977230ab61f70cd",
+    "actual": "79a513764c52ae98e947f72ecf1b7c3b60ae0239a94db663d977230ab61f70cd",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/limites_execucao.json",
+    "expected": "7b498c67ac6c6f9e2d77fdb3edcd37723b8d907040624daaea99c18c6af6e1f0",
+    "actual": "7b498c67ac6c6f9e2d77fdb3edcd37723b8d907040624daaea99c18c6af6e1f0",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/manifesto_execucao.json",
+    "expected": "ec08aae6b74568f93696f05b2d84a81a3929f32176c8479ba9ae0694f87eb48c",
+    "actual": "ec08aae6b74568f93696f05b2d84a81a3929f32176c8479ba9ae0694f87eb48c",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/reconstrucao-formula-1004.jpg",
+    "expected": "f4f926ffe50c02c80e1d962bb4de1465c8a6cc717e03dfa0c9c32e7ee4ae160c",
+    "actual": "f4f926ffe50c02c80e1d962bb4de1465c8a6cc717e03dfa0c9c32e7ee4ae160c",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/recuperacao-projecao-rev1.txt",
+    "expected": "8a52f5bf965bc5c42be6771fb35422be4ad536efd77b727a5ddb45c820ed2c33",
+    "actual": "8a52f5bf965bc5c42be6771fb35422be4ad536efd77b727a5ddb45c820ed2c33",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/resultados_antes_correcao_monetaria.tsv",
+    "expected": "1fe96ee687f347d4af3add2b8df9eafde0ed1f7ca20f726641c06b7fa1b3a902",
+    "actual": "1fe96ee687f347d4af3add2b8df9eafde0ed1f7ca20f726641c06b7fa1b3a902",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/resultados_estruturados.json",
+    "expected": "4c4f50137d7c477ea6fac63d2a94080831680d2b4e13809de26bcc1384f0d3b9",
+    "actual": "4c4f50137d7c477ea6fac63d2a94080831680d2b4e13809de26bcc1384f0d3b9",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/resultados_primeira_execucao.tsv",
+    "expected": "f374d863c28a8ae567e861d18964dc807f5254114d95295440a48e210301a090",
+    "actual": "f374d863c28a8ae567e861d18964dc807f5254114d95295440a48e210301a090",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/verificacao_fechamento.json",
+    "expected": "3a7e6d4ad74dfdd8418be79a8fa6d368da000bcf7f43b38815e6223478a2b6af",
+    "actual": "3a7e6d4ad74dfdd8418be79a8fa6d368da000bcf7f43b38815e6223478a2b6af",
+    "ok": true
+  },
+  {
+    "relative": "evidencias/xml-venda-real.txt",
+    "expected": "71f522d9709e275e91034b51572530d4dc873b0e85a65e7dc97e050d89ebaa3a",
+    "actual": "71f522d9709e275e91034b51572530d4dc873b0e85a65e7dc97e050d89ebaa3a",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Cad_NFE.corpo.vba.txt",
+    "expected": "8c22b35b7be1501519ceb95ad2e96f31de55d4b9f8275c53a06590ba6c25e462",
+    "actual": "8c22b35b7be1501519ceb95ad2e96f31de55d4b9f8275c53a06590ba6c25e462",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Cad_NFE_Saida.corpo.vba.txt",
+    "expected": "a6e484598039244eb8b57c5d130a7ce63ed6305d709272e9e7d28030abd95469",
+    "actual": "a6e484598039244eb8b57c5d130a7ce63ed6305d709272e9e7d28030abd95469",
+    "ok": true
+  },
+  {
+    "relative": "fontes/clsTesteCandidato.cls",
+    "expected": "6b735e163a19cd0700c76b2143e1d4770a16a379df8177a473c0740396791a52",
+    "actual": "6b735e163a19cd0700c76b2143e1d4770a16a379df8177a473c0740396791a52",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/EstaPastaDeTrabalho.vba.txt",
+    "expected": "dd7c91609fc00199c34785a85ded9463006bb672432513ecc172e2684958d398",
+    "actual": "dd7c91609fc00199c34785a85ded9463006bb672432513ecc172e2684958d398",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha1.vba.txt",
+    "expected": "68d11dc3a3a0ae5e1c82f733b83c5400981ab807cace78596bae7fcc0082e42c",
+    "actual": "68d11dc3a3a0ae5e1c82f733b83c5400981ab807cace78596bae7fcc0082e42c",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha10.vba.txt",
+    "expected": "fee0778ae47eccc07450f16aa8a1939546fa3cfbabc321a4e471389854b26507",
+    "actual": "fee0778ae47eccc07450f16aa8a1939546fa3cfbabc321a4e471389854b26507",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha11.vba.txt",
+    "expected": "c2cfbda4a3141096ebc73d066977d4bfedeeb8e590358c4b4cd06781cbdcb285",
+    "actual": "c2cfbda4a3141096ebc73d066977d4bfedeeb8e590358c4b4cd06781cbdcb285",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha12.vba.txt",
+    "expected": "56e6d5b771e910fd03c2768cae879539d8781cedb8b2b6d3d5d4c3e9db8ba7d8",
+    "actual": "56e6d5b771e910fd03c2768cae879539d8781cedb8b2b6d3d5d4c3e9db8ba7d8",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha13.vba.txt",
+    "expected": "a2c715fba024d244247ee640d8429c51e15db72f2a190eba1250c4524e6009ed",
+    "actual": "a2c715fba024d244247ee640d8429c51e15db72f2a190eba1250c4524e6009ed",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha15.vba.txt",
+    "expected": "b72b5012d6b83aa93fad4fe4f481d47f68a8d59af33b957c6cb851b374a41f0b",
+    "actual": "b72b5012d6b83aa93fad4fe4f481d47f68a8d59af33b957c6cb851b374a41f0b",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha16.vba.txt",
+    "expected": "582270e08b4101e72751cd854b15fd1fd23bbbc0247f1c1a5ba38aa178e568e6",
+    "actual": "582270e08b4101e72751cd854b15fd1fd23bbbc0247f1c1a5ba38aa178e568e6",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha17.vba.txt",
+    "expected": "bdb292d0640c367e9ce4de4c55ec00384ba7524f198daf46f3d4389d8d846fa3",
+    "actual": "bdb292d0640c367e9ce4de4c55ec00384ba7524f198daf46f3d4389d8d846fa3",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha18.vba.txt",
+    "expected": "e1148f4b17cd0c90a9911c31f3b4976a53d04387ccd4414979e821bd1e8d7d9e",
+    "actual": "e1148f4b17cd0c90a9911c31f3b4976a53d04387ccd4414979e821bd1e8d7d9e",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha2.vba.txt",
+    "expected": "85d6c1b4a2396eb27a9f34e394733013ab79c04e72bc04ef2caa5bf5635ba70e",
+    "actual": "85d6c1b4a2396eb27a9f34e394733013ab79c04e72bc04ef2caa5bf5635ba70e",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha3.vba.txt",
+    "expected": "ece5fe4f860168fe26cab235b8e67ba0d009898867e791ffa7e201d746abf405",
+    "actual": "ece5fe4f860168fe26cab235b8e67ba0d009898867e791ffa7e201d746abf405",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha4.vba.txt",
+    "expected": "b29c63bd9ae5b6b6eb29920c5b01ef64ed41198f9b3daf3f1fd004a637e7b098",
+    "actual": "b29c63bd9ae5b6b6eb29920c5b01ef64ed41198f9b3daf3f1fd004a637e7b098",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha5.vba.txt",
+    "expected": "54070719a0832718879428270900bb9fe0458d1a5a9cb456ed64d39ffaabba1b",
+    "actual": "54070719a0832718879428270900bb9fe0458d1a5a9cb456ed64d39ffaabba1b",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha6.vba.txt",
+    "expected": "2ae2ce91b562b745173393395abf6bc77aca10d8ac574cafb1c9b469b4662461",
+    "actual": "2ae2ce91b562b745173393395abf6bc77aca10d8ac574cafb1c9b469b4662461",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha7.vba.txt",
+    "expected": "d299515e81638f7edc9e789251bf117ed262879eab7afb9a31e618765d0362f5",
+    "actual": "d299515e81638f7edc9e789251bf117ed262879eab7afb9a31e618765d0362f5",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha8.vba.txt",
+    "expected": "d733ac71b42220f6ea90d56de39eeef8f7a4137acaade4cb53f2a007881b1dcf",
+    "actual": "d733ac71b42220f6ea90d56de39eeef8f7a4137acaade4cb53f2a007881b1dcf",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Documento/Planilha9.vba.txt",
+    "expected": "5ba1086b6cde38fead1cc40cdbb0acd27235abc7f0406b631629de8692920833",
+    "actual": "5ba1086b6cde38fead1cc40cdbb0acd27235abc7f0406b631629de8692920833",
+    "ok": true
+  },
+  {
+    "relative": "fontes/EstaPastaDeTrabalho.corpo.vba.txt",
+    "expected": "471876753c169d23436af3ea2bab55ae5b7ecfa36475b0182eeb26b71fbb3a5a",
+    "actual": "471876753c169d23436af3ea2bab55ae5b7ecfa36475b0182eeb26b71fbb3a5a",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Form/Cad_NCM.frm",
+    "expected": "6bbfd1bed68d2b9d38eeedc14c1dbe617140b6250eec91bd2944a83f5e4524d3",
+    "actual": "6bbfd1bed68d2b9d38eeedc14c1dbe617140b6250eec91bd2944a83f5e4524d3",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Form/Cad_NCM.frx",
+    "expected": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+    "actual": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Form/Cad_NFE.frm",
+    "expected": "23ad3db388ffc46a6d0be487fcd9747370d787e0ea665d484a71a60b1bfc5611",
+    "actual": "23ad3db388ffc46a6d0be487fcd9747370d787e0ea665d484a71a60b1bfc5611",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Form/Cad_NFE.frx",
+    "expected": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+    "actual": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Form/Cad_NFE_Saida.frm",
+    "expected": "6893cbd37546d6f349ead80bccad8b698898d09b9d689059ccabf93db3667700",
+    "actual": "6893cbd37546d6f349ead80bccad8b698898d09b9d689059ccabf93db3667700",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Form/Cad_NFE_Saida.frx",
+    "expected": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+    "actual": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Form/frmRelatorioXML.frm",
+    "expected": "77da0abc91d783f7674ee8d7b7311f4991d828c68cecd2e292f76e9eac590d97",
+    "actual": "77da0abc91d783f7674ee8d7b7311f4991d828c68cecd2e292f76e9eac590d97",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Form/frmRelatorioXML.frx",
+    "expected": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+    "actual": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Form/UserFormFiltro.frm",
+    "expected": "778161e85ec2d9c751384101c21527c4662cf12cf88727f68d999a7c1ddd2805",
+    "actual": "778161e85ec2d9c751384101c21527c4662cf12cf88727f68d999a7c1ddd2805",
+    "ok": true
+  },
+  {
+    "relative": "fontes/Form/UserFormFiltro.frx",
+    "expected": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+    "actual": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+    "ok": true
+  },
+  {
+    "relative": "fontes/LEIA_ME.md",
+    "expected": "c2ae8c9f89e10e95bf74cbbd6db0a110c71ef6b9f1acd57e7e1ab1535c6caf66",
+    "actual": "c2ae8c9f89e10e95bf74cbbd6db0a110c71ef6b9f1acd57e7e1ab1535c6caf66",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/AuditoriaListaFake.cls",
+    "expected": "2a210ea2d17c2490b9b71b2b45db8683ce5c25df23e79279bfb9f21a82ff299c",
+    "actual": "2a210ea2d17c2490b9b71b2b45db8683ce5c25df23e79279bfb9f21a82ff299c",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/clsOperacaoPlanilha.cls",
+    "expected": "ce1fa68a4b341e240eab39bab5382f0d3647c09e7dbe2868762e18d8bd1be2df",
+    "actual": "ce1fa68a4b341e240eab39bab5382f0d3647c09e7dbe2868762e18d8bd1be2df",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/clsRepositorioFase8.cls",
+    "expected": "5f6cdd38f3d2c346a31b360b09ef2db2b6fdaaacfc63003388a29116acdfc655",
+    "actual": "5f6cdd38f3d2c346a31b360b09ef2db2b6fdaaacfc63003388a29116acdfc655",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/clsSaveFase9.cls",
+    "expected": "5bda3945c125efd149250d3e88af1ea6bf06e7d2691ee65ce2b256570028e7ba",
+    "actual": "5bda3945c125efd149250d3e88af1ea6bf06e7d2691ee65ce2b256570028e7ba",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/clsTesteCandidato.cls",
+    "expected": "3b00c6411a1951aef62b7f9d8b58e171f54b19acb402e73c945b5a3dee10a03f",
+    "actual": "3b00c6411a1951aef62b7f9d8b58e171f54b19acb402e73c945b5a3dee10a03f",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlChamarFiltro.bas",
+    "expected": "ebfb40a8da1b8d144edb29781f2b59e620a9cb00876032b5147a788aa57c8958",
+    "actual": "ebfb40a8da1b8d144edb29781f2b59e620a9cb00876032b5147a788aa57c8958",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlChamarForm.bas",
+    "expected": "888b82877a4e95317ccabb52553d1df052b6f7677cf4c25b680439eccd4884f1",
+    "actual": "888b82877a4e95317ccabb52553d1df052b6f7677cf4c25b680439eccd4884f1",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlChamarFormDocFora.bas",
+    "expected": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+    "actual": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlChamarFormNCM.bas",
+    "expected": "beec72a9412eac03765526c76056e7e9097133ff0c85d433a1d9c36974064dc9",
+    "actual": "beec72a9412eac03765526c76056e7e9097133ff0c85d433a1d9c36974064dc9",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlChamarFormSaida.bas",
+    "expected": "7938d0c4831374750e4b173b61f9c1de309a08af69decdb9688cec6c1ee1d3c7",
+    "actual": "7938d0c4831374750e4b173b61f9c1de309a08af69decdb9688cec6c1ee1d3c7",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlChamarFormVeículos.bas",
+    "expected": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+    "actual": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlChamarTabCan.bas",
+    "expected": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+    "actual": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlChamarTabEnt.bas",
+    "expected": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+    "actual": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlChamarTabSai.bas",
+    "expected": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+    "actual": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlCondCel.bas",
+    "expected": "9d157cb6bc41cd6f02d3008d482ad4e486a740da7f8883c04bb13ac1beb9ca6f",
+    "actual": "9d157cb6bc41cd6f02d3008d482ad4e486a740da7f8883c04bb13ac1beb9ca6f",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlCopiar.bas",
+    "expected": "1c63a3d8eb85a8ab60137ec5304a6d9c5cedf6fab82b0c2894a20e5d9c5b49d4",
+    "actual": "1c63a3d8eb85a8ab60137ec5304a6d9c5cedf6fab82b0c2894a20e5d9c5b49d4",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlCriaBackup.bas",
+    "expected": "28096fb13f08b75afb26ca1358813b12dec95493c7bfaad73feaae99a92fcc61",
+    "actual": "28096fb13f08b75afb26ca1358813b12dec95493c7bfaad73feaae99a92fcc61",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlCursor.bas",
+    "expected": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+    "actual": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlMacroConexão.bas",
+    "expected": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+    "actual": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlMacroConexãoClientes.bas",
+    "expected": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+    "actual": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlMacroDocFora.bas",
+    "expected": "85caa0cac4b69c53f13c58e9ac4ca4e6a474d23271bcaff1f969f8fb91e340ee",
+    "actual": "85caa0cac4b69c53f13c58e9ac4ca4e6a474d23271bcaff1f969f8fb91e340ee",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlOcultarTítulo.bas",
+    "expected": "62fbaac7301177886ee0a9ab91024b1f8c0bee597ebf891def1bb91f697eedef",
+    "actual": "62fbaac7301177886ee0a9ab91024b1f8c0bee597ebf891def1bb91f697eedef",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/mdlTelaCheia.bas",
+    "expected": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+    "actual": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modCandidatoIntegrado.bas",
+    "expected": "4d09709abf3d4541e3f017fe331e0ac4a7e85a94afa87892b5512b2d1e68f2c3",
+    "actual": "4d09709abf3d4541e3f017fe331e0ac4a7e85a94afa87892b5512b2d1e68f2c3",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modCenariosFase10.bas",
+    "expected": "fc68b471c5e5551814ab3ec83c423fb42805db65773d97a1181543b51db1021c",
+    "actual": "fc68b471c5e5551814ab3ec83c423fb42805db65773d97a1181543b51db1021c",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modExperimentosFase8.bas",
+    "expected": "3ac9af2712588a15790133aa60babf9eae27f7cd533a9143d419c43bf79c7afd",
+    "actual": "3ac9af2712588a15790133aa60babf9eae27f7cd533a9143d419c43bf79c7afd",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modFronteirasFase10.bas",
+    "expected": "a70b4e9c3e1fbe525f576bfd0938e30a7214fff0f83f337c2a1afe24783542d3",
+    "actual": "a70b4e9c3e1fbe525f576bfd0938e30a7214fff0f83f337c2a1afe24783542d3",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modIntegridadeOperacao.bas",
+    "expected": "9c38f1e123ef3fc7b67eba789610e70e5ede1f9c68d3eda31e901b08a7d21993",
+    "actual": "9c38f1e123ef3fc7b67eba789610e70e5ede1f9c68d3eda31e901b08a7d21993",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modPersistenciaFase10.bas",
+    "expected": "b8e9a1c82dd76e522ae0c2a448685b2cda2110fa1e78f68d2eb53633825918e4",
+    "actual": "b8e9a1c82dd76e522ae0c2a448685b2cda2110fa1e78f68d2eb53633825918e4",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modPersistenciaFase9.bas",
+    "expected": "f276b7fc222f9c824c57cea24666da3e97a16f713747629b11e1c6c293ccb821",
+    "actual": "f276b7fc222f9c824c57cea24666da3e97a16f713747629b11e1c6c293ccb821",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modPreencherFormulario.bas",
+    "expected": "e1de7c7c399e6c4b6a80fc04468d151b3b47267ef350805d74876d7907b280f8",
+    "actual": "e1de7c7c399e6c4b6a80fc04468d151b3b47267ef350805d74876d7907b280f8",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modPrototiposFase6.bas",
+    "expected": "13a22fafaf85ed58fc6229443e64c86bd1de91028541c187022bb7adc6e25a2f",
+    "actual": "13a22fafaf85ed58fc6229443e64c86bd1de91028541c187022bb7adc6e25a2f",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modPrototiposFase7.bas",
+    "expected": "e9aa897ce0d6697d7c70781b41f6619816578cc114ae89712bac31f41d7fea16",
+    "actual": "e9aa897ce0d6697d7c70781b41f6619816578cc114ae89712bac31f41d7fea16",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modSeleniumCommon.bas",
+    "expected": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+    "actual": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modSeleniumConsultaNFE.bas",
+    "expected": "1c8c25747415565867b50d8d1158acbc4e6ca15ce6107adbb655bac283126156",
+    "actual": "1c8c25747415565867b50d8d1158acbc4e6ca15ce6107adbb655bac283126156",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modSeleniumRenavamConsulta.bas",
+    "expected": "19c3ce8723050ec14ffdc2d92c16fa49f34e6fc520a5bb8e6fe31dde11130658",
+    "actual": "19c3ce8723050ec14ffdc2d92c16fa49f34e6fc520a5bb8e6fe31dde11130658",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modSelTest.bas",
+    "expected": "894840fc367c1cf7fef45a4fb06911912c61b90b2e32dcf338c23713464fa896",
+    "actual": "894840fc367c1cf7fef45a4fb06911912c61b90b2e32dcf338c23713464fa896",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modTestesAuditoria.bas",
+    "expected": "516d590a1d3294b1983f7358c329bfe761122fc924788e80d5e202c668213f3f",
+    "actual": "516d590a1d3294b1983f7358c329bfe761122fc924788e80d5e202c668213f3f",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modTestesEntrega1.bas",
+    "expected": "09801f2871658573604956de2aa6dc7f1b834a51cdad7a491571df737ca4c0db",
+    "actual": "09801f2871658573604956de2aa6dc7f1b834a51cdad7a491571df737ca4c0db",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modTestesFase2.bas",
+    "expected": "1b81bd27828d0a529d4c083ef8c3e322bf11e433bee47897482b18298650eb41",
+    "actual": "1b81bd27828d0a529d4c083ef8c3e322bf11e433bee47897482b18298650eb41",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modTestesIntegradosFase5.bas",
+    "expected": "5125e27762d9eb5cf50a80391a46a2050cb4d8a863dc9e4cdc65192285a84a5b",
+    "actual": "5125e27762d9eb5cf50a80391a46a2050cb4d8a863dc9e4cdc65192285a84a5b",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modValidacaoXML.bas",
+    "expected": "cc3c441d36ca2c84b33eed9038bb8dd740d990ebd9b6aa0564222efd8d0dd5e2",
+    "actual": "cc3c441d36ca2c84b33eed9038bb8dd740d990ebd9b6aa0564222efd8d0dd5e2",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/modVerificacaoFase9.bas",
+    "expected": "d22d5a8276abd173414e94684875c964aa852d234e06331a680fd09dc1ef8b98",
+    "actual": "d22d5a8276abd173414e94684875c964aa852d234e06331a680fd09dc1ef8b98",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/MóduloOfficeRibbonEditor.bas",
+    "expected": "725894623f0f7e883c8c16cd5311853427423859dd176428b084099a419c0777",
+    "actual": "725894623f0f7e883c8c16cd5311853427423859dd176428b084099a419c0777",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/MóduloPesquisa.bas",
+    "expected": "8e63e0173d91b7431935c86acb22d1556590db9e898f419c1bd913e56ffe2eff",
+    "actual": "8e63e0173d91b7431935c86acb22d1556590db9e898f419c1bd913e56ffe2eff",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MDL/MóduloRemoveFechar.bas",
+    "expected": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+    "actual": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+    "ok": true
+  },
+  {
+    "relative": "fontes/modCandidatoIntegrado.bas",
+    "expected": "4d09709abf3d4541e3f017fe331e0ac4a7e85a94afa87892b5512b2d1e68f2c3",
+    "actual": "4d09709abf3d4541e3f017fe331e0ac4a7e85a94afa87892b5512b2d1e68f2c3",
+    "ok": true
+  },
+  {
+    "relative": "fontes/modCenariosFase10.bas",
+    "expected": "ce02a2c58aee15e23f14d9fb51b9ff5b67c98da0eff5cd249215257a87c84880",
+    "actual": "ce02a2c58aee15e23f14d9fb51b9ff5b67c98da0eff5cd249215257a87c84880",
+    "ok": true
+  },
+  {
+    "relative": "fontes/modPersistenciaFase10.bas",
+    "expected": "7f431bc437e3deccc4d85b7b3556238c01a8fbf02a8878f25e8fd16624276e30",
+    "actual": "7f431bc437e3deccc4d85b7b3556238c01a8fbf02a8878f25e8fd16624276e30",
+    "ok": true
+  },
+  {
+    "relative": "fontes/modPreencherFormulario.bas",
+    "expected": "2fd46df37c7721df43afc27e927aefe2b372cb2c2a4520290b59eb247caa11dc",
+    "actual": "2fd46df37c7721df43afc27e927aefe2b372cb2c2a4520290b59eb247caa11dc",
+    "ok": true
+  },
+  {
+    "relative": "fontes/modTestesEntrega1.bas",
+    "expected": "41dc8fd40b1f5b557f041a4fbca1dd7644bfed8f575edb6e05fad30ca34f12fa",
+    "actual": "41dc8fd40b1f5b557f041a4fbca1dd7644bfed8f575edb6e05fad30ca34f12fa",
+    "ok": true
+  },
+  {
+    "relative": "fontes/modValidacaoXML.bas",
+    "expected": "2606b4428589a80e2432c10854e8e13d8376cf5e46979202c4d0f64e7e007c70",
+    "actual": "2606b4428589a80e2432c10854e8e13d8376cf5e46979202c4d0f64e7e007c70",
+    "ok": true
+  },
+  {
+    "relative": "fontes/MóduloPesquisa.bas",
+    "expected": "e41eb9d79e20a118cbc8d2368d8371a4b48a1fe8444d4aed695365182a8f1def",
+    "actual": "e41eb9d79e20a118cbc8d2368d8371a4b48a1fe8444d4aed695365182a8f1def",
+    "ok": true
+  },
+  {
+    "relative": "fontes/UserFormFiltro.corpo.vba.txt",
+    "expected": "fee7433bed27619304419293f956ee871889157f4d1d218ea51f2e4f91069e9c",
+    "actual": "fee7433bed27619304419293f956ee871889157f4d1d218ea51f2e4f91069e9c",
+    "ok": true
+  },
+  {
+    "relative": "manifesto-final.json",
+    "expected": "eeb2e5f8495858f7956df5121bfde9691a6f7cbec76d2efbaf3fca948e557726",
+    "actual": "eeb2e5f8495858f7956df5121bfde9691a6f7cbec76d2efbaf3fca948e557726",
+    "ok": true
+  },
+  {
+    "relative": "manifesto-final.sha256",
+    "expected": "eda63bb160fa19f4b3eefd8d3222ae14773a403ca5b4f7560cd019484889d437",
+    "actual": "eda63bb160fa19f4b3eefd8d3222ae14773a403ca5b4f7560cd019484889d437",
+    "ok": true
+  },
+  {
+    "relative": "manifesto-inicial.json",
+    "expected": "0a66800157540c4e55e871bcb7ca485a2fae6fbab9ffd085c1a947c0ba4ace2f",
+    "actual": "0a66800157540c4e55e871bcb7ca485a2fae6fbab9ffd085c1a947c0ba4ace2f",
+    "ok": true
+  },
+  {
+    "relative": "verificacao-manifesto-final.json",
+    "expected": "93b1585b6896893a53602babe6b90d2030d5e25e4099e77ab45354fae6638f36",
+    "actual": "93b1585b6896893a53602babe6b90d2030d5e25e4099e77ab45354fae6638f36",
+    "ok": true
+  }
+]

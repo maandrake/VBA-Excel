@@ -1,0 +1,121 @@
+{
+  "timestamp": "2026-11-02T03:11:17.273Z",
+  "files": [
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_AUSENTE\\Fixture_Fria.xlsm",
+      "sha256": "ebda48171c5694aa4c350b9ec20ff786e0ff985e304557bbd76e239f565f2e03",
+      "bytes": 2077179
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_BAIXA\\diario-f7.tsv",
+      "sha256": "8593b2c5eae2262c5ebbed73b57ae08ab3728da6ed8fbd3f82123ca3c9e5333a",
+      "bytes": 264
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_BAIXA\\Fixture_Fria.xlsm",
+      "sha256": "bb14ec93dbc1f82a4b299e1e74564be2295c9cc4a344f8890c2fdc159756851f",
+      "bytes": 1911513
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_COMPENSACAO\\diario-f7.tsv",
+      "sha256": "05af81c72e8eb51dec60c0476c04eb9492712a301f2cfcde06a471912cd59edd",
+      "bytes": 264
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_COMPENSACAO\\Fixture_Fria.xlsm",
+      "sha256": "ca4af70961b964e72a7d942c4f89a9c5407b942d06b20fdbf7ba8e7bde103b79",
+      "bytes": 1910078
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_DIVERGENTE\\diario-f7.tsv",
+      "sha256": "c3eb62e7e45045e4fd56349fe4caf59786b4e2fd3f1b73b0b3d66e220ceacbfa",
+      "bytes": 228
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_DIVERGENTE\\Fixture_Fria.xlsm",
+      "sha256": "0a091ac09e814239765a9f260bfbae6732551565522c251abab1507327e3c3a9",
+      "bytes": 2077315
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_HISTORICO\\diario-f7.tsv",
+      "sha256": "601a89aa29b9ded59d2c5d4907c88a613644b2e40d2d79c2c7b00a6ccd08bed0",
+      "bytes": 242
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_HISTORICO\\Fixture_Fria.xlsm",
+      "sha256": "ae45fe45620da9ca3a768b8e069b280d7c0aae2ec2148a33f4679547255c37f9",
+      "bytes": 2077186
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_OK\\diario-f7.tsv",
+      "sha256": "601a89aa29b9ded59d2c5d4907c88a613644b2e40d2d79c2c7b00a6ccd08bed0",
+      "bytes": 242
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_OK\\Fixture_Fria.xlsm",
+      "sha256": "76b8ee3bfda140e6110356ae0b144a4782deb76b83bf61044c92226a453f4565",
+      "bytes": 2076948
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_ORFAO\\diario-f7.tsv",
+      "sha256": "ce4723c679a2b663e6baad77bcc31032844ce97360c781c8a4566b5b71898268",
+      "bytes": 246
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_ORFAO\\Fixture_Fria.xlsm",
+      "sha256": "13fba5aa869bb61652d1c552d29eec85241a82e6bb1a1fdeeb265ac000b45a8b",
+      "bytes": 2077189
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_PAYLOAD\\diario-f7.tsv",
+      "sha256": "601a89aa29b9ded59d2c5d4907c88a613644b2e40d2d79c2c7b00a6ccd08bed0",
+      "bytes": 242
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_PAYLOAD\\Fixture_Fria.xlsm",
+      "sha256": "05e5ebb90668233ef8625771520f700542d2fb847fc8a4a90a2f77b00d6e32b7",
+      "bytes": 2077332
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_PENDENTE\\diario-f7.tsv",
+      "sha256": "ea614b178167b88df13453ff8f23aaab039b9697b67bcd53cb79cb769fd1a61e",
+      "bytes": 264
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_PENDENTE\\Fixture_Fria.xlsm",
+      "sha256": "d218e40de31ec0337a3991f1af8701814a2960019a424be2882dad9477307eeb",
+      "bytes": 2077040
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_POS_SAVE\\diario-f7.tsv",
+      "sha256": "bdbf93ba535c81b520443c6eedff9595c71ab9c67ee77a6322d68659c9dff1f9",
+      "bytes": 250
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_POS_SAVE\\Fixture_Fria.xlsm",
+      "sha256": "852f9db40a2a83734eba9eeaf3c08b815ae74d7a1108ec7900312faf7c3fcba9",
+      "bytes": 2076946
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_TRUNCADO\\diario-f7.tsv",
+      "sha256": "457d2a6bfe9c6e0ec16332b49a77eee2984b2b761663d6e53f2ff2b696c528d6",
+      "bytes": 30
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_TRUNCADO\\Fixture_Fria.xlsm",
+      "sha256": "ca3233c87966c6c5639780358a5829ff3a2534fbca2166d041074d52c2cec0bd",
+      "bytes": 2077066
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_VERSAO\\diario-f7.tsv",
+      "sha256": "601a89aa29b9ded59d2c5d4907c88a613644b2e40d2d79c2c7b00a6ccd08bed0",
+      "bytes": 242
+    },
+    {
+      "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\frio_VERSAO\\Fixture_Fria.xlsm",
+      "sha256": "828f4c848010e79b0324d6a10d2c935628b2964f7d2432901e9fd6c04d36bae4",
+      "bytes": 2077183
+    }
+  ],
+  "statement": "Preparacao pelo VBA em sessao1; verificacao somente depois de encerrar normalmente e abrir nova instancia /x"
+}

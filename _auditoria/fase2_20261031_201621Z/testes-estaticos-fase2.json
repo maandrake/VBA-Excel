@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-10-31T21:01:27.859Z",
+  "kind": "Analise estatica/JavaScript; NAO e compilacao VBA",
+  "checks": [
+    {
+      "name": "39 originais e backups da fase 1 intactos",
+      "status": "PASS",
+      "details": 39
+    },
+    {
+      "name": "155 arquivos da execucao anterior intactos",
+      "status": "PASS",
+      "details": 155
+    },
+    {
+      "name": "46 backups novos conferidos",
+      "status": "PASS",
+      "details": 46
+    },
+    {
+      "name": "Cinco pares FRM/FRX e XLSM preservados",
+      "status": "PASS",
+      "details": "Designers e FRX identicos; binario XLSM NAO incorpora revisao."
+    },
+    {
+      "name": "647 assinaturas exportadas existentes preservadas",
+      "status": "PASS",
+      "details": 647
+    },
+    {
+      "name": "Codificacao e CRLF existentes mantidos",
+      "status": "PASS",
+      "details": 32
+    },
+    {
+      "name": "Sete comandos Delete preservados literalmente",
+      "status": "PASS",
+      "details": 7
+    },
+    {
+      "name": "Rotinas fiscais especializadas identicas",
+      "status": "PASS",
+      "details": [
+        "ValidarOperacaoECFOP",
+        "ValidarBeneficioFiscal",
+        "ValidarICMSPorCST",
+        "ValidarPISeCOFINSPorCST",
+        "ValidarPISPorCST",
+        "DescricaoCSTSemIncidencia",
+        "ValidarCOFINSPorCST",
+        "NormalizarCST",
+        "DescricaoCSTPISCOFINS"
+      ]
+    },
+    {
+      "name": "A01 A02 A03 A04 A05 A06 A07 permanecem nos fontes",
+      "status": "PASS",
+      "details": "Presenca estatica; suite anterior valida filtros por 35 cenarios JS, nao executa VBA."
+    },
+    {
+      "name": "Novos auxiliares e prevalidacoes antes das escritas",
+      "status": "PASS",
+      "details": 4
+    },
+    {
+      "name": "Sem novas aspas VBA abertas nos arquivos alterados",
+      "status": "PASS",
+      "details": "34 fontes; verificacao lexical nao substitui compilacao."
+    },
+    {
+      "name": "Inventario final sem duplicidade publica global",
+      "status": "PASS",
+      "details": {
+        "files": 34,
+        "exportedProcedures": 665,
+        "existingEmbeddedWorkbookComponents": 50,
+        "prospectiveComponentsWithoutTestModules": 52,
+        "prospectiveTotalProcedures": 666,
+        "unqualifiedSheets": 0,
+        "activeWorkbook": 3
+      }
+    }
+  ],
+  "pass": 12,
+  "fail": 0
+}

@@ -1,0 +1,1111 @@
+{
+  "mode": "Analise estatica direcionada; candidatos nao equivalem a defeitos; Offset por mapeamento de coluna e uso contextual podem ser intencionais.",
+  "procedures": [
+    {
+      "module": "modIntegridadeOperacao",
+      "procedure": "PrimeiraVagaGravacao",
+      "start": 4,
+      "hits": [
+        {
+          "line": 4,
+          "text": "Public Function PrimeiraVagaGravacao(ByVal ws As Worksheet, ByVal primeiraLinha As Long) As Range"
+        },
+        {
+          "line": 12,
+          "text": "            Set PrimeiraVagaGravacao = ws.Cells(linha, 1)"
+        }
+      ]
+    },
+    {
+      "module": "modIntegridadeOperacao",
+      "procedure": "ProximaLinhaGravacao",
+      "start": 19,
+      "hits": [
+        {
+          "line": 19,
+          "text": "Public Function ProximaLinhaGravacao(ByVal ws As Worksheet) As Range"
+        },
+        {
+          "line": 21,
+          "text": "    linha = ws.Cells(ws.rows.count, 1).End(xlUp).Row + 1"
+        },
+        {
+          "line": 24,
+          "text": "    Set ProximaLinhaGravacao = ws.Cells(linha, 1)"
+        }
+      ]
+    },
+    {
+      "module": "mdlCopiar",
+      "procedure": "MoveActiveCell",
+      "start": 111,
+      "hits": [
+        {
+          "line": 118,
+          "text": "    r = ActiveCell.Row + dRow"
+        }
+      ]
+    },
+    {
+      "module": "MóduloPesquisa",
+      "procedure": "UltimaLinhaUsada",
+      "start": 260,
+      "hits": [
+        {
+          "line": 266,
+          "text": "    ).End(xlUp).Row"
+        }
+      ]
+    },
+    {
+      "module": "MóduloPesquisa",
+      "procedure": "IrParaCelulaNFe",
+      "start": 303,
+      "hits": [
+        {
+          "line": 315,
+          "text": "    Set celEncontrada = ws.Cells.Find( _"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NCM",
+      "procedure": "PreencheCampos",
+      "start": 169,
+      "hits": [
+        {
+          "line": 178,
+          "text": "        While .Cells(linha, coluna).value <> Empty"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NCM",
+      "procedure": "PreencheCabecalho",
+      "start": 185,
+      "hits": [
+        {
+          "line": 194,
+          "text": "        While .Cells(linha, coluna).value <> Empty"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NCM",
+      "procedure": "PreencheLista",
+      "start": 201,
+      "hits": [
+        {
+          "line": 223,
+          "text": "        While .Cells(i, coluna).value <> Empty"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE",
+      "procedure": "CommandButton_Excluir_Click",
+      "start": 117,
+      "hits": [
+        {
+          "line": 127,
+          "text": "Set c = .Find(N_Nfe.value, LookIn:=xlValues, LookAt:=xlWhole)"
+        },
+        {
+          "line": 139,
+          "text": "         ActiveCell.Resize(1, 14).Select"
+        },
+        {
+          "line": 140,
+          "text": "         Selection.Delete Shift:=xlUp"
+        },
+        {
+          "line": 164,
+          "text": "         Selection.End(xlDown).Select"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE",
+      "procedure": "CommandButton_ExcluirFilial_Click",
+      "start": 189,
+      "hits": [
+        {
+          "line": 202,
+          "text": "        Set c = .Find(What:=nfeKey, LookIn:=xlValues, LookAt:=xlWhole)"
+        },
+        {
+          "line": 211,
+          "text": "                c.Resize(1, 13).Delete Shift:=xlUp"
+        },
+        {
+          "line": 215,
+          "text": "                    Set cAnual = .Find(What:=nfeKey, LookIn:=xlValues, LookAt:=xlWhole)"
+        },
+        {
+          "line": 217,
+          "text": "                        cAnual.Resize(1, 16).Delete Shift:=xlUp"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE",
+      "procedure": "CommandButton_Gravar_Click",
+      "start": 267,
+      "hits": [
+        {
+          "line": 302,
+          "text": "Set destino = PrimeiraVagaGravacao(ThisWorkbook.Worksheets(\"Entradas\"), 4)"
+        },
+        {
+          "line": 303,
+          "text": "operacao.RegistrarDestino destino.Resize(1, 11)"
+        },
+        {
+          "line": 304,
+          "text": "Set destino = PrimeiraVagaGravacao(ThisWorkbook.Worksheets(\"Entradas Anual\"), 4)"
+        },
+        {
+          "line": 305,
+          "text": "operacao.RegistrarDestino destino.Resize(1, 10)"
+        },
+        {
+          "line": 316,
+          "text": "      ActiveCell.Offset(1, 0).Select"
+        },
+        {
+          "line": 322,
+          "text": "ActiveCell.Offset(0, 1).value = ComboBox_Operação.value"
+        },
+        {
+          "line": 323,
+          "text": "ActiveCell.Offset(0, 2).value = UN.value"
+        },
+        {
+          "line": 324,
+          "text": "ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULO.value"
+        },
+        {
+          "line": 325,
+          "text": "ActiveCell.Offset(0, 4).value = COD.value"
+        },
+        {
+          "line": 326,
+          "text": "ActiveCell.Offset(0, 5).value = PLACA.value"
+        },
+        {
+          "line": 327,
+          "text": "ActiveCell.Offset(0, 6).value = Combo_ANO_MOD.value"
+        },
+        {
+          "line": 328,
+          "text": "ActiveCell.Offset(0, 7).value = ComboBox_COR.value"
+        },
+        {
+          "line": 329,
+          "text": "ActiveCell.Offset(0, 8).value = CDbl(txt_Valor.value)"
+        },
+        {
+          "line": 330,
+          "text": "ActiveCell.Offset(0, 9).value = CDate(Data.value)"
+        },
+        {
+          "line": 331,
+          "text": "ActiveCell.Offset(0, 10).value = ComboBox_OutroEnvio.value"
+        },
+        {
+          "line": 341,
+          "text": "      ActiveCell.Offset(1, 0).Select"
+        },
+        {
+          "line": 347,
+          "text": "ActiveCell.Offset(0, 1).value = ComboBox_Operação.value"
+        },
+        {
+          "line": 348,
+          "text": "ActiveCell.Offset(0, 2).value = UN.value"
+        },
+        {
+          "line": 349,
+          "text": "ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULO.value"
+        },
+        {
+          "line": 350,
+          "text": "ActiveCell.Offset(0, 4).value = COD.value"
+        },
+        {
+          "line": 351,
+          "text": "ActiveCell.Offset(0, 5).value = PLACA.value"
+        },
+        {
+          "line": 352,
+          "text": "ActiveCell.Offset(0, 6).value = Combo_ANO_MOD.value"
+        },
+        {
+          "line": 353,
+          "text": "ActiveCell.Offset(0, 7).value = ComboBox_COR.value"
+        },
+        {
+          "line": 354,
+          "text": "ActiveCell.Offset(0, 8).value = CDbl(txt_Valor.value)"
+        },
+        {
+          "line": 355,
+          "text": "ActiveCell.Offset(0, 9).value = CDate(Data.value)"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE",
+      "procedure": "CommandButton_GravarFilial_Click",
+      "start": 404,
+      "hits": [
+        {
+          "line": 437,
+          "text": "Set destino = PrimeiraVagaGravacao(ThisWorkbook.Worksheets(\"Entradas Filial\"), 4)"
+        },
+        {
+          "line": 438,
+          "text": "operacao.RegistrarDestino destino.Resize(1, 12)"
+        },
+        {
+          "line": 439,
+          "text": "Set destino = PrimeiraVagaGravacao(ThisWorkbook.Worksheets(\"Entradas Anual Filial\"), 4)"
+        },
+        {
+          "line": 440,
+          "text": "operacao.RegistrarDestino destino.Resize(1, 10)"
+        },
+        {
+          "line": 450,
+          "text": "      ActiveCell.Offset(1, 0).Select"
+        },
+        {
+          "line": 456,
+          "text": "ActiveCell.Offset(0, 1).value = ComboBox_OperaçãoFilial.value"
+        },
+        {
+          "line": 457,
+          "text": "ActiveCell.Offset(0, 2).value = UNFilial.value"
+        },
+        {
+          "line": 458,
+          "text": "ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULOFilial.value"
+        },
+        {
+          "line": 459,
+          "text": "ActiveCell.Offset(0, 4).value = CODFilial.value"
+        },
+        {
+          "line": 460,
+          "text": "ActiveCell.Offset(0, 5).value = PLACAFilial.value"
+        },
+        {
+          "line": 461,
+          "text": "ActiveCell.Offset(0, 6).value = Combo_ANO_MODFilial.value"
+        },
+        {
+          "line": 462,
+          "text": "ActiveCell.Offset(0, 7).value = ComboBox_CORFilial.value"
+        },
+        {
+          "line": 463,
+          "text": "ActiveCell.Offset(0, 8).value = CDbl(txt_ValorFilial.value)"
+        },
+        {
+          "line": 464,
+          "text": "ActiveCell.Offset(0, 9).value = CDate(DataFilial.value)"
+        },
+        {
+          "line": 465,
+          "text": "ActiveCell.Offset(0, 10).value = ComboBox_OutroEnvioFilial.value"
+        },
+        {
+          "line": 467,
+          "text": "ActiveCell.Offset(0, 11).NumberFormat = \"@\""
+        },
+        {
+          "line": 468,
+          "text": "ActiveCell.Offset(0, 11).value = CStr(TextBoxChaveDeAcessoFilial.value)"
+        },
+        {
+          "line": 478,
+          "text": "      ActiveCell.Offset(1, 0).Select"
+        },
+        {
+          "line": 484,
+          "text": "ActiveCell.Offset(0, 1).value = ComboBox_OperaçãoFilial.value"
+        },
+        {
+          "line": 485,
+          "text": "ActiveCell.Offset(0, 2).value = UNFilial.value"
+        },
+        {
+          "line": 486,
+          "text": "ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULOFilial.value"
+        },
+        {
+          "line": 487,
+          "text": "ActiveCell.Offset(0, 4).value = CODFilial.value"
+        },
+        {
+          "line": 488,
+          "text": "ActiveCell.Offset(0, 5).value = PLACAFilial.value"
+        },
+        {
+          "line": 489,
+          "text": "ActiveCell.Offset(0, 6).value = Combo_ANO_MODFilial.value"
+        },
+        {
+          "line": 490,
+          "text": "ActiveCell.Offset(0, 7).value = ComboBox_CORFilial.value"
+        },
+        {
+          "line": 491,
+          "text": "ActiveCell.Offset(0, 8).value = CDbl(txt_ValorFilial.value)"
+        },
+        {
+          "line": 492,
+          "text": "ActiveCell.Offset(0, 9).value = CDate(DataFilial.value)"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE",
+      "procedure": "CommandButtonAlterar_Click",
+      "start": 663,
+      "hits": [
+        {
+          "line": 672,
+          "text": "Set c = .Find(TextBoxPesquisa, LookIn:=xlValues, LookAt:=xlWhole)"
+        },
+        {
+          "line": 683,
+          "text": "        ActiveCell.Resize(1, 11).Select"
+        },
+        {
+          "line": 684,
+          "text": "        Selection.ClearContents 'Shift:=xlUp"
+        },
+        {
+          "line": 695,
+          "text": "                      ActiveCell.Offset(1, 0).Select"
+        },
+        {
+          "line": 701,
+          "text": "                ActiveCell.Offset(0, 1).value = ComboBox_Operação.value"
+        },
+        {
+          "line": 702,
+          "text": "                ActiveCell.Offset(0, 2).value = UN.value"
+        },
+        {
+          "line": 703,
+          "text": "                ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULO.value"
+        },
+        {
+          "line": 704,
+          "text": "                ActiveCell.Offset(0, 4).value = COD.value"
+        },
+        {
+          "line": 705,
+          "text": "                ActiveCell.Offset(0, 5).value = PLACA.value"
+        },
+        {
+          "line": 706,
+          "text": "                ActiveCell.Offset(0, 6).value = Combo_ANO_MOD.value"
+        },
+        {
+          "line": 707,
+          "text": "                ActiveCell.Offset(0, 7).value = ComboBox_COR.value"
+        },
+        {
+          "line": 708,
+          "text": "                ActiveCell.Offset(0, 8).value = CDbl(txt_Valor.value)"
+        },
+        {
+          "line": 709,
+          "text": "                ActiveCell.Offset(0, 9).value = CDate(Data.value)"
+        },
+        {
+          "line": 710,
+          "text": "                ActiveCell.Offset(0, 10).value = ComboBox_OutroEnvio.value"
+        },
+        {
+          "line": 715,
+          "text": "                        ActiveCell.Resize(1, 10).Select"
+        },
+        {
+          "line": 716,
+          "text": "                        Selection.ClearContents 'Shift:=xlUp"
+        },
+        {
+          "line": 725,
+          "text": "                      ActiveCell.Offset(1, 0).Select"
+        },
+        {
+          "line": 731,
+          "text": "                ActiveCell.Offset(0, 1).value = ComboBox_Operação.value"
+        },
+        {
+          "line": 732,
+          "text": "                ActiveCell.Offset(0, 2).value = UN.value"
+        },
+        {
+          "line": 733,
+          "text": "                ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULO.value"
+        },
+        {
+          "line": 734,
+          "text": "                ActiveCell.Offset(0, 4).value = COD.value"
+        },
+        {
+          "line": 735,
+          "text": "                ActiveCell.Offset(0, 5).value = PLACA.value"
+        },
+        {
+          "line": 736,
+          "text": "                ActiveCell.Offset(0, 6).value = Combo_ANO_MOD.value"
+        },
+        {
+          "line": 737,
+          "text": "                ActiveCell.Offset(0, 7).value = ComboBox_COR.value"
+        },
+        {
+          "line": 738,
+          "text": "                ActiveCell.Offset(0, 8).value = CDbl(txt_Valor.value)"
+        },
+        {
+          "line": 739,
+          "text": "                ActiveCell.Offset(0, 9).value = CDate(Data.value)"
+        },
+        {
+          "line": 766,
+          "text": "    Range(\"A3\").End(xlDown).Offset(1, 0).Select"
+        },
+        {
+          "line": 772,
+          "text": "        Range(\"A3\").End(xlDown).Offset(1, 0).Select"
+        },
+        {
+          "line": 783,
+          "text": "        Range(\"A3\").End(xlDown).Offset(1, 0).Select"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE",
+      "procedure": "CommandButtonCopiarAutoEntradaFilial_Click",
+      "start": 840,
+      "hits": [
+        {
+          "line": 853,
+          "text": "    Set celula = ws.Columns(\"B\").Find( _"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE",
+      "procedure": "CommandButtonChaveR_Click",
+      "start": 1051,
+      "hits": [
+        {
+          "line": 1072,
+          "text": "    ultimaLinha = ws.Cells(ws.rows.count, \"L\").End(xlUp).Row"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE",
+      "procedure": "ListBoxLista_Change",
+      "start": 1642,
+      "hits": [
+        {
+          "line": 1645,
+          "text": "    Dim NumeroLinhaPlanilha As Long"
+        },
+        {
+          "line": 1663,
+          "text": "    NumeroLinhaPlanilha = CLng(Val(Me.ListBoxLista.List(linha, 12)))"
+        },
+        {
+          "line": 1665,
+          "text": "    If NumeroLinhaPlanilha < 2 Then Exit Sub"
+        },
+        {
+          "line": 1741,
+          "text": "        Reference:=ws.Cells(NumeroLinhaPlanilha, 1), _"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE",
+      "procedure": "ListBoxLista2_Change",
+      "start": 1768,
+      "hits": [
+        {
+          "line": 1771,
+          "text": "    Dim NumeroLinhaPlanilha As Long"
+        },
+        {
+          "line": 1789,
+          "text": "    NumeroLinhaPlanilha = CLng(Val(Me.ListBoxLista2.List(linha, 12)))"
+        },
+        {
+          "line": 1791,
+          "text": "    If NumeroLinhaPlanilha < 2 Then Exit Sub"
+        },
+        {
+          "line": 1867,
+          "text": "        Reference:=ws.Cells(NumeroLinhaPlanilha, 1), _"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "procedure": "CommandButton_ExcluirFilial_Click",
+      "start": 44,
+      "hits": [
+        {
+          "line": 54,
+          "text": "Set c = .Find(TextBox_N_SaidaFilial.value, LookIn:=xlValues, LookAt:=xlWhole)"
+        },
+        {
+          "line": 60,
+          "text": "         Selection.EntireRow.Delete"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "procedure": "CommandButton_GravarFilial_Click",
+      "start": 93,
+      "hits": [
+        {
+          "line": 126,
+          "text": "        Set origem = .Find(What:=TextBox_N_EntradaFilial.value, LookIn:=xlValues, LookAt:=xlWhole)"
+        },
+        {
+          "line": 131,
+          "text": "    VerificarDestinoGravacao origem.Resize(1, 13)"
+        },
+        {
+          "line": 134,
+          "text": "    Set destino = PrimeiraVagaGravacao(ThisWorkbook.Worksheets(\"Saidas Filial\"), 2)"
+        },
+        {
+          "line": 135,
+          "text": "    operacao.RegistrarDestino destino.Resize(1, 16)"
+        },
+        {
+          "line": 136,
+          "text": "    Set destino = PrimeiraVagaGravacao(ThisWorkbook.Worksheets(\"Todas Saidas Filial\"), 2)"
+        },
+        {
+          "line": 137,
+          "text": "    operacao.RegistrarDestino destino.Resize(1, 16)"
+        },
+        {
+          "line": 138,
+          "text": "    Set destino = ProximaLinhaGravacao(ThisWorkbook.Worksheets(\"Entradas\"))"
+        },
+        {
+          "line": 139,
+          "text": "    operacao.RegistrarDestino destino.Resize(1, 11)"
+        },
+        {
+          "line": 140,
+          "text": "    Set destino = ProximaLinhaGravacao(ThisWorkbook.Worksheets(\"Entradas Anual\"))"
+        },
+        {
+          "line": 141,
+          "text": "    operacao.RegistrarDestino destino.Resize(1, 10)"
+        },
+        {
+          "line": 151,
+          "text": "      ActiveCell.Offset(1, 0).Select"
+        },
+        {
+          "line": 157,
+          "text": "    ActiveCell.Offset(0, 1).value = TextBox_N_EntradaFilial.value"
+        },
+        {
+          "line": 158,
+          "text": "    ActiveCell.Offset(0, 2).value = ComboBox_OperaçãoFilial.value"
+        },
+        {
+          "line": 159,
+          "text": "    ActiveCell.Offset(0, 3).value = TextBox_ESTOQUEFilial.value"
+        },
+        {
+          "line": 160,
+          "text": "    ActiveCell.Offset(0, 4).value = ComboBox_VEÍCULOFilial.value"
+        },
+        {
+          "line": 161,
+          "text": "    ActiveCell.Offset(0, 5).value = TextBox_PLACAFilial.value"
+        },
+        {
+          "line": 162,
+          "text": "    ActiveCell.Offset(0, 6).value = ComboBox_AnoFilial.value"
+        },
+        {
+          "line": 163,
+          "text": "    ActiveCell.Offset(0, 7).value = ComboBox_CORFilial.value"
+        },
+        {
+          "line": 164,
+          "text": "    ActiveCell.Offset(0, 8).value = CDbl(TextBox_Valor_EntradaFilial.value)"
+        },
+        {
+          "line": 165,
+          "text": "    ActiveCell.Offset(0, 9).value = CDbl(TextBox_Valor_SaidaFilial.value)"
+        },
+        {
+          "line": 166,
+          "text": "    ActiveCell.Offset(0, 11).value = CDate(TextBox_DataFilial.value)"
+        },
+        {
+          "line": 167,
+          "text": "    ActiveCell.Offset(0, 12).value = ComboBox_PorFilial.value"
+        },
+        {
+          "line": 168,
+          "text": "    ActiveCell.Offset(0, 13).value = CDbl(TextBox_ICMSFilial.value)"
+        },
+        {
+          "line": 169,
+          "text": "    ActiveCell.Offset(0, 14).value = CDbl(TextBox_PISFilial.value)"
+        },
+        {
+          "line": 170,
+          "text": "    ActiveCell.Offset(0, 15).value = CDbl(TextBox_COFINSFilial.value)"
+        },
+        {
+          "line": 180,
+          "text": "      ActiveCell.Offset(1, 0).Select"
+        },
+        {
+          "line": 186,
+          "text": "    ActiveCell.Offset(0, 1).value = TextBox_N_EntradaFilial.value"
+        },
+        {
+          "line": 187,
+          "text": "    ActiveCell.Offset(0, 2).value = ComboBox_OperaçãoFilial.value"
+        },
+        {
+          "line": 188,
+          "text": "    ActiveCell.Offset(0, 3).value = TextBox_ESTOQUEFilial.value"
+        },
+        {
+          "line": 189,
+          "text": "    ActiveCell.Offset(0, 4).value = ComboBox_VEÍCULOFilial.value"
+        },
+        {
+          "line": 190,
+          "text": "    ActiveCell.Offset(0, 5).value = TextBox_PLACAFilial.value"
+        },
+        {
+          "line": 191,
+          "text": "    ActiveCell.Offset(0, 6).value = ComboBox_AnoFilial.value"
+        },
+        {
+          "line": 192,
+          "text": "    ActiveCell.Offset(0, 7).value = ComboBox_CORFilial.value"
+        },
+        {
+          "line": 193,
+          "text": "    ActiveCell.Offset(0, 8).value = CDbl(TextBox_Valor_EntradaFilial.value)"
+        },
+        {
+          "line": 194,
+          "text": "    ActiveCell.Offset(0, 9).value = CDbl(TextBox_Valor_SaidaFilial.value)"
+        },
+        {
+          "line": 195,
+          "text": "    ActiveCell.Offset(0, 11).value = CDate(TextBox_DataFilial.value)"
+        },
+        {
+          "line": 196,
+          "text": "    ActiveCell.Offset(0, 12).value = ComboBox_PorFilial.value"
+        },
+        {
+          "line": 197,
+          "text": "    ActiveCell.Offset(0, 13).value = CDbl(TextBox_ICMSFilial.value)"
+        },
+        {
+          "line": 198,
+          "text": "    ActiveCell.Offset(0, 14).value = CDbl(TextBox_PISFilial.value)"
+        },
+        {
+          "line": 199,
+          "text": "    ActiveCell.Offset(0, 15).value = CDbl(TextBox_COFINSFilial.value)"
+        },
+        {
+          "line": 210,
+          "text": "    proxLinha = .Cells(.rows.count, \"A\").End(xlUp).Row"
+        },
+        {
+          "line": 234,
+          "text": "    proxLinha = .Cells(.rows.count, \"A\").End(xlUp).Row"
+        },
+        {
+          "line": 259,
+          "text": "    Set c = .Find(TextBox_N_EntradaFilial.value, LookIn:=xlValues, LookAt:=xlWhole)"
+        },
+        {
+          "line": 264,
+          "text": "        c.Resize(1, 13).Delete Shift:=xlUp"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "procedure": "CommandButton_Excluir_Click",
+      "start": 478,
+      "hits": [
+        {
+          "line": 488,
+          "text": "Set c = .Find(TextBox_N_Saida.value, LookIn:=xlValues, LookAt:=xlWhole)"
+        },
+        {
+          "line": 494,
+          "text": "         Selection.EntireRow.Delete"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "procedure": "CommandButton_Gravar_Click",
+      "start": 565,
+      "hits": [
+        {
+          "line": 665,
+          "text": "            Set c = .Find( _"
+        },
+        {
+          "line": 696,
+          "text": "        VerificarDestinoGravacao c.Resize(1, 14)"
+        },
+        {
+          "line": 703,
+          "text": "    Set destino = PrimeiraVagaGravacao(ThisWorkbook.Worksheets(\"Saidas\"), 2)"
+        },
+        {
+          "line": 704,
+          "text": "    operacao.RegistrarDestino destino.Resize(1, 16)"
+        },
+        {
+          "line": 705,
+          "text": "    Set destino = PrimeiraVagaGravacao(ThisWorkbook.Worksheets(\"Todas Saidas\"), 2)"
+        },
+        {
+          "line": 706,
+          "text": "    operacao.RegistrarDestino destino.Resize(1, 16)"
+        },
+        {
+          "line": 708,
+          "text": "        Set destino = ProximaLinhaGravacao(ThisWorkbook.Worksheets(\"Demonstração\"))"
+        },
+        {
+          "line": 709,
+          "text": "        operacao.RegistrarDestino destino.Resize(1, 10)"
+        },
+        {
+          "line": 712,
+          "text": "        Set destino = ProximaLinhaGravacao(ThisWorkbook.Worksheets(\"Entradas Filial\"))"
+        },
+        {
+          "line": 713,
+          "text": "        operacao.RegistrarDestino destino.Resize(1, 12)"
+        },
+        {
+          "line": 714,
+          "text": "        Set destino = ProximaLinhaGravacao(ThisWorkbook.Worksheets(\"Entradas Anual Filial\"))"
+        },
+        {
+          "line": 715,
+          "text": "        operacao.RegistrarDestino destino.Resize(1, 10)"
+        },
+        {
+          "line": 725,
+          "text": "        ActiveCell.Offset(1, 0).Select"
+        },
+        {
+          "line": 729,
+          "text": "    ActiveCell.Offset(0, 1).value = TextBox_N_Entrada.value"
+        },
+        {
+          "line": 730,
+          "text": "    ActiveCell.Offset(0, 2).value = ComboBox_Operação.value"
+        },
+        {
+          "line": 731,
+          "text": "    ActiveCell.Offset(0, 3).value = TextBox_ESTOQUE.value"
+        },
+        {
+          "line": 732,
+          "text": "    ActiveCell.Offset(0, 4).value = ComboBox_VEÍCULO.value"
+        },
+        {
+          "line": 733,
+          "text": "    ActiveCell.Offset(0, 5).value = TextBox_PLACA.value"
+        },
+        {
+          "line": 734,
+          "text": "    ActiveCell.Offset(0, 6).value = ComboBox_Ano.value"
+        },
+        {
+          "line": 735,
+          "text": "    ActiveCell.Offset(0, 7).value = ComboBox_COR.value"
+        },
+        {
+          "line": 736,
+          "text": "    ActiveCell.Offset(0, 8).value = CDbl(TextBox_Valor_Entrada.value)"
+        },
+        {
+          "line": 737,
+          "text": "    ActiveCell.Offset(0, 9).value = CDbl(TextBox_Valor_Saida.value)"
+        },
+        {
+          "line": 738,
+          "text": "    ActiveCell.Offset(0, 11).value = CDate(TextBox_Data.value)"
+        },
+        {
+          "line": 739,
+          "text": "    ActiveCell.Offset(0, 12).value = CDbl(ComboBox_Por.value) / 100"
+        },
+        {
+          "line": 740,
+          "text": "    ActiveCell.Offset(0, 13).value = CDbl(TextBox_ICMS.value)"
+        },
+        {
+          "line": 741,
+          "text": "    ActiveCell.Offset(0, 14).value = CDbl(TextBox_PIS.value)"
+        },
+        {
+          "line": 742,
+          "text": "    ActiveCell.Offset(0, 15).value = CDbl(TextBox_COFINS.value)"
+        },
+        {
+          "line": 753,
+          "text": "            wsDemo.Cells(wsDemo.rows.count, \"A\").End(xlUp).Row + 1"
+        },
+        {
+          "line": 794,
+          "text": "            wsDemo.Cells(wsDemo.rows.count, \"A\").End(xlUp).Row + 1"
+        },
+        {
+          "line": 828,
+          "text": "            wsDemo.Cells(wsDemo.rows.count, \"A\").End(xlUp).Row + 1"
+        },
+        {
+          "line": 861,
+          "text": "        ActiveCell.Offset(1, 0).Select"
+        },
+        {
+          "line": 865,
+          "text": "    ActiveCell.Offset(0, 1).value = TextBox_N_Entrada.value"
+        },
+        {
+          "line": 866,
+          "text": "    ActiveCell.Offset(0, 2).value = ComboBox_Operação.value"
+        },
+        {
+          "line": 867,
+          "text": "    ActiveCell.Offset(0, 3).value = TextBox_ESTOQUE.value"
+        },
+        {
+          "line": 868,
+          "text": "    ActiveCell.Offset(0, 4).value = ComboBox_VEÍCULO.value"
+        },
+        {
+          "line": 869,
+          "text": "    ActiveCell.Offset(0, 5).value = TextBox_PLACA.value"
+        },
+        {
+          "line": 870,
+          "text": "    ActiveCell.Offset(0, 6).value = ComboBox_Ano.value"
+        },
+        {
+          "line": 871,
+          "text": "    ActiveCell.Offset(0, 7).value = ComboBox_COR.value"
+        },
+        {
+          "line": 872,
+          "text": "    ActiveCell.Offset(0, 8).value = CDbl(TextBox_Valor_Entrada.value)"
+        },
+        {
+          "line": 873,
+          "text": "    ActiveCell.Offset(0, 9).value = CDbl(TextBox_Valor_Saida.value)"
+        },
+        {
+          "line": 874,
+          "text": "    ActiveCell.Offset(0, 11).value = CDate(TextBox_Data.value)"
+        },
+        {
+          "line": 875,
+          "text": "    ActiveCell.Offset(0, 12).value = CDbl(ComboBox_Por.value) / 100"
+        },
+        {
+          "line": 876,
+          "text": "    ActiveCell.Offset(0, 13).value = CDbl(TextBox_ICMS.value)"
+        },
+        {
+          "line": 877,
+          "text": "    ActiveCell.Offset(0, 14).value = CDbl(TextBox_PIS.value)"
+        },
+        {
+          "line": 878,
+          "text": "    ActiveCell.Offset(0, 15).value = CDbl(TextBox_COFINS.value)"
+        },
+        {
+          "line": 890,
+          "text": "        c.Resize(1, 14).Delete Shift:=xlUp"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "procedure": "PreencheCampos",
+      "start": 2453,
+      "hits": [
+        {
+          "line": 2462,
+          "text": "        While .Cells(linha, coluna).value <> Empty"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "procedure": "PreencheCabecalho",
+      "start": 2469,
+      "hits": [
+        {
+          "line": 2478,
+          "text": "        While .Cells(linha, coluna).value <> Empty"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "procedure": "PreencheLista",
+      "start": 2485,
+      "hits": [
+        {
+          "line": 2507,
+          "text": "        While .Cells(i, coluna).value <> Empty"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "procedure": "PreencheCampos2",
+      "start": 2623,
+      "hits": [
+        {
+          "line": 2632,
+          "text": "        While .Cells(linha, coluna).value <> Empty"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "procedure": "PreencheCabecalho2",
+      "start": 2639,
+      "hits": [
+        {
+          "line": 2648,
+          "text": "        While .Cells(linha, coluna).value <> Empty"
+        }
+      ]
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "procedure": "PreencheLista2",
+      "start": 2655,
+      "hits": [
+        {
+          "line": 2677,
+          "text": "        While .Cells(i, coluna).value <> Empty"
+        }
+      ]
+    },
+    {
+      "module": "UserFormFiltro",
+      "procedure": "CommandButtonFiltroCompra_Click",
+      "start": 22,
+      "hits": [
+        {
+          "line": 26,
+          "text": "    Selection.End(xlDown).Select"
+        }
+      ]
+    },
+    {
+      "module": "UserFormFiltro",
+      "procedure": "Command_Entrada_Click",
+      "start": 48,
+      "hits": [
+        {
+          "line": 52,
+          "text": "    Selection.End(xlDown).Select"
+        }
+      ]
+    },
+    {
+      "module": "UserFormFiltro",
+      "procedure": "CommandButtonFiltroAguardando_Click",
+      "start": 61,
+      "hits": [
+        {
+          "line": 65,
+          "text": "    Selection.End(xlDown).Select"
+        }
+      ]
+    },
+    {
+      "module": "UserFormFiltro",
+      "procedure": "CommandButtonRepasse_Click",
+      "start": 74,
+      "hits": [
+        {
+          "line": 78,
+          "text": "    Selection.End(xlDown).Select"
+        }
+      ]
+    },
+    {
+      "module": "UserFormFiltro",
+      "procedure": "CommandButtonVenda_Click",
+      "start": 87,
+      "hits": [
+        {
+          "line": 91,
+          "text": "    Selection.End(xlDown).Select"
+        }
+      ]
+    },
+    {
+      "module": "UserFormFiltro",
+      "procedure": "CommandButtonTransferência_Click",
+      "start": 100,
+      "hits": [
+        {
+          "line": 104,
+          "text": "    Selection.End(xlDown).Select"
+        }
+      ]
+    },
+    {
+      "module": "UserFormFiltro",
+      "procedure": "CommandButtonDevolução_Click",
+      "start": 113,
+      "hits": [
+        {
+          "line": 117,
+          "text": "    Selection.End(xlDown).Select"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "time": "2026-11-02T18:55:03.188Z",
+  "command": "Depurar > Compilar VBAProject",
+  "observed": [
+    "\t\t\t\t11380 item de menu (disabled) Compilar VBAProject",
+    "\t\t\t11402 item de menu (disabled) Compilar VBAProject"
+  ],
+  "scope": "Candidata integrada antes dos testes"
+}

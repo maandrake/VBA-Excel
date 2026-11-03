@@ -1,0 +1,11 @@
+{
+  "mode": "Inspeção editorial e de versionamento; não é compilação VBA",
+  "problems": {
+    "files": [
+      "desenvolvimento/MDL/clsOperacaoPlanilha.cls",
+      "scripts/modTestesFase2.bas"
+    ],
+    "result": "No errors found"
+  },
+  "gitStatus": "Arquivos de documentação e _auditoria não rastreados; nenhuma operação de commit/push executada"
+}

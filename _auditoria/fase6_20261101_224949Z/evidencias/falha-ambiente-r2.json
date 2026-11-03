@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-11-01T23:41:30.464Z",
+  "case": "C_COLISAO",
+  "point": "Apos F6_Caso concluir com FALHAS=0 e antes de completar verificador de reabertura no lote 32:41",
+  "messages": [
+    "Erro de sistema &H8000FFFF (-2147418113). Falha catastrofica",
+    "Erro em tempo de execucao 1004: O metodo Run do objeto Application falhou",
+    "Memoria insuficiente"
+  ],
+  "observed": "Projetos de fixtures fechadas permaneciam na arvore do VBE. A falta de memoria foi confirmada por dialogo; a origem exata da retencao nao foi isolada.",
+  "classification": "BLOQUEADO para a reabertura desta tentativa; demais casos 34:41 nao executados neste lote",
+  "action": "Lote interrompido pelo editor; sem kill global. Preparada nova instancia via Excel /x para continuar com novas fixtures R3. Resultados R2 parciais preservados."
+}

@@ -1,0 +1,891 @@
+{
+  "vba": [
+    {
+      "Cenario": "F9_LEASE_PRIMEIRO",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "Primeiro escritor recebe fence1",
+      "Observado": "1",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_LEASE_SEGUNDO",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "Segundo nao adquire",
+      "Observado": "Lease ativo",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_SESSAO_LEITURA",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "Gravacao recusada pelo provedor",
+      "Observado": "-2147467259:A operação deve usar uma consulta atualizável.",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_GUID_LOCAL",
+      "Resultado": "PASS",
+      "Tratamento": "VERIFICADO",
+      "Esperado": "100 GUIDs unicos gerados; sem garantia matematica universal",
+      "Observado": "100",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_ENTRADA_A1",
+      "Resultado": "PASS",
+      "Tratamento": "CONFIRMADO",
+      "Esperado": "Entrada confirmada",
+      "Observado": "EP_A1",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_ENTRADA_B1",
+      "Resultado": "PASS",
+      "Tratamento": "CONFIRMADO",
+      "Esperado": "Entrada distinta",
+      "Observado": "EP_B1",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_VENDA_A1",
+      "Resultado": "PASS",
+      "Tratamento": "CONFIRMADO",
+      "Esperado": "Venda encerra episodio",
+      "Observado": "CLOSED",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_REENTRADA",
+      "Resultado": "PASS",
+      "Tratamento": "CONFIRMADO",
+      "Esperado": "Novo EP, mesmo VehicleID",
+      "Observado": "VID_A",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_TRANSFERENCIA",
+      "Resultado": "PASS",
+      "Tratamento": "CONFIRMADO",
+      "Esperado": "Mesmo EP / FILIAL",
+      "Observado": "FILIAL",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_DEVOLUCAO",
+      "Resultado": "PASS",
+      "Tratamento": "CONFIRMADO",
+      "Esperado": "Mesmo EP / MATRIZ",
+      "Observado": "MATRIZ",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_NOVA_TRANSFERENCIA",
+      "Resultado": "PASS",
+      "Tratamento": "CONFIRMADO",
+      "Esperado": "Mesmo EP versao4",
+      "Observado": "4",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_IDEMPOTENCIA",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "Recibo original sem repetir efeitos",
+      "Observado": "JA_CONCLUIDA",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_PAYLOAD",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "Payload diferente recusado",
+      "Observado": "RECUSADO_PAYLOAD",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_VERSAO",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "Versao obsoleta recusada",
+      "Observado": "RECUSADO_VERSAO",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_COPIA_DIVERGENTE",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "BaseID divergente nao escreve",
+      "Observado": "RECUSADO_BASE",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_PK_VEICULO",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "PK recusa duplicado",
+      "Observado": "-2147467259:As alterações solicitadas para a tabela não foram bem-sucedidas, já que criariam valores duplicados de índice, chave primária ou relação. Altere os dados no campo ou nos campos que contêm dados duplicados, remova o índice, ou redefina-o para permitir entradas duplicadas, e tente novamente.",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FK_EPISODIO",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "FK recusa orfao",
+      "Observado": "-2147467259:Não é possível adicionar ou alterar registros, pois é necessário que eles tenham um registro relacionado na tabela 'Vehicles'.",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_PK_PROJECAO",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "ProjectionID duplicado recusado",
+      "Observado": "-2147467259:As alterações solicitadas para a tabela não foram bem-sucedidas, já que criariam valores duplicados de índice, chave primária ou relação. Altere os dados no campo ou nos campos que contêm dados duplicados, remova o índice, ou redefina-o para permitir entradas duplicadas, e tente novamente.",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_PRECISAO_TEXTO",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Currency4 e chave String44",
+      "Observado": "1000,1234;String",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_M3_AMBIGUO",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Legado ambiguo nao vinculado",
+      "Observado": "AMBIGUO;NULL",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_SAVE_RECUSADO",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Save recusado nao desfaz commit / recibo duravel no banco",
+      "Observado": "Saved=Falso;BeforeSave=Verdadeiro",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_DISCO_VS_MEMORIA",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Alteracao cancelada ausente em disco",
+      "Observado": "",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_RECONSTRUCAO",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "7 projecoes/2 ativos reconstruidos",
+      "Observado": "2",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_REORDENACAO",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Contagem por PID mantida apos sort",
+      "Observado": "2",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_REABERTURA_CONEXAO",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "7 recibos e registros verificados apos fechar/reabrir",
+      "Observado": "7",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FENCING",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "Escritor antigo perde autoridade",
+      "Observado": "RECUSADO_FENCE",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Core",
+      "evidence": "core_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FALHA_1",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Efeitos transacionais revertidos; intencao pendente conservada",
+      "Observado": "PENDENTE_ERRO:7001:Falha apos movimento;IGUAL=Verdadeiro",
+      "Fixture": "falha_1.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FALHA_REPLAY_1",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Novo ID nao contorna intencao",
+      "Observado": "PENDENTE_CONCILIACAO",
+      "Fixture": "falha_1.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FALHA_2",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Efeitos transacionais revertidos; intencao pendente conservada",
+      "Observado": "PENDENTE_ERRO:7002:Falha apos projecao;IGUAL=Verdadeiro",
+      "Fixture": "falha_2.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FALHA_REPLAY_2",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Novo ID nao contorna intencao",
+      "Observado": "PENDENTE_CONCILIACAO",
+      "Fixture": "falha_2.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FALHA_3",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Efeitos transacionais revertidos; intencao pendente conservada",
+      "Observado": "PENDENTE_ERRO:7003:Falha durante baixa logica;IGUAL=Verdadeiro",
+      "Fixture": "falha_3.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FALHA_REPLAY_3",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Novo ID nao contorna intencao",
+      "Observado": "PENDENTE_CONCILIACAO",
+      "Fixture": "falha_3.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FALHA_4",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Efeitos transacionais revertidos; intencao pendente conservada",
+      "Observado": "PENDENTE_ERRO:-2147467259:Não é possível adicionar ou alterar registros, pois é necessário que eles tenham um registro relacionado na tabela 'Operations'.;IGUAL=Verdadeiro",
+      "Fixture": "falha_4.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FALHA_REPLAY_4",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Novo ID nao contorna intencao",
+      "Observado": "PENDENTE_CONCILIACAO",
+      "Fixture": "falha_4.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FALHA_5",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Efeitos transacionais revertidos; intencao pendente conservada",
+      "Observado": "PENDENTE_ERRO:7005:Antes do recibo;IGUAL=Verdadeiro",
+      "Fixture": "falha_5.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FALHA_REPLAY_5",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Novo ID nao contorna intencao",
+      "Observado": "PENDENTE_CONCILIACAO",
+      "Fixture": "falha_5.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FALHA_6",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Efeitos transacionais revertidos; intencao pendente conservada",
+      "Observado": "PENDENTE_ERRO:7006:Antes do commit;IGUAL=Verdadeiro",
+      "Fixture": "falha_6.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FALHA_REPLAY_6",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Novo ID nao contorna intencao",
+      "Observado": "PENDENTE_CONCILIACAO",
+      "Fixture": "falha_6.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FALHA_7",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Efeitos transacionais revertidos; intencao pendente conservada",
+      "Observado": "PENDENTE_ERRO:3246:Um objeto de conexão não pode ser fechado explicitamente durante uma transação.;IGUAL=Verdadeiro",
+      "Fixture": "falha_7.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FALHA_REPLAY_7",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Novo ID nao contorna intencao",
+      "Observado": "PENDENTE_CONCILIACAO",
+      "Fixture": "falha_7.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_APOS_COMMIT",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Commit e recibo persistem; Excel ainda desatualizado",
+      "Observado": "COMMIT_CONFIRMADO_PROJECAO_PENDENTE",
+      "Fixture": "falha_8.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_ORIGEM_ALTERADA",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Origem mudou apos preparar; sem efeitos novos",
+      "Observado": "PENDENTE_ORIGEM_ALTERADA",
+      "Fixture": "origem_alterada.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_HISTORICO_ALTERADO",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Recibo antigo nao valida historico alterado",
+      "Observado": "PENDENTE_HISTORICO",
+      "Fixture": "historico_alterado.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_LEASE_ORFAO",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Conexao encerrada nao libera lease persistido; sem TTL",
+      "Observado": "07A302A5-BD12-471E-B04A-2F51BA8730BA",
+      "Fixture": "lease_orfao.accdb",
+      "Procedimento": "F9_Faults",
+      "evidence": "falhas_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_PROJECAO_INTERROMPIDA",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Autoridade integra; projecao parcial nao autoriza",
+      "Observado": "7100:Falha de projecao apos cabecalho",
+      "Fixture": "falha_8.accdb",
+      "Procedimento": "F9_ProjectionFaults",
+      "evidence": "projecao_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_RECONSTRUIR_APOS_COMMIT",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "8 projecoes e2 ativos apos reconstruir",
+      "Observado": "8;2",
+      "Fixture": "falha_8.accdb",
+      "Procedimento": "F9_ProjectionFaults",
+      "evidence": "projecao_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_SORT_VALORES_DISTINTOS",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "PID/EP/VID/valores/formulas discriminantes preservados",
+      "Observado": "8",
+      "Fixture": "falha_8.accdb",
+      "Procedimento": "F9_ProjectionFaults",
+      "evidence": "projecao_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_TOKEN_LISTBOX_OBSOLETO",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "Tokenversao3 nao autoriza4",
+      "Observado": "VERSAO_OBSOLETA",
+      "Fixture": "falha_8.accdb",
+      "Procedimento": "F9_ProjectionFaults",
+      "evidence": "projecao_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_SAVE_CAMINHO_INVALIDO",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Erro real de Save nao desfaz autoridade",
+      "Observado": "1004:O Microsoft Excel não pode acessar o arquivo 'C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase9_20261102_142753Z\\PAI_INEXISTENTE\\4DEB0E00'. Há várias razões possíveis:<CR><LF><CR><LF>• O nome do arquivo ou caminho não existe.<CR><LF>• O arquivo está sendo usado por outro programa.<CR><LF>• A pasta de trabalho que você está tentando salvar tem o mesmo nome de outra <CR><LF>pasta de trabalho aberta no momento.",
+      "Fixture": "falha_8.accdb",
+      "Procedimento": "F9_ProjectionFaults",
+      "evidence": "projecao_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_M0_M4_PROVENIENCIA",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Duas correspondencias explicitas euma ambigua sem vinculo",
+      "Observado": "2 CONFIRMADO;1 AMBIGUO;SHA256=38de109d962cb44f45cab4934ea957be1480c362cad00da4b7d9538ddddc2218",
+      "Fixture": "migracao.accdb",
+      "Procedimento": "F9_Complemento",
+      "evidence": "complemento_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FK_COMPOSTA_EP_MOV",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "Movimento de A1 nao pode projetar episodio B1",
+      "Observado": "-2147467259:Não é possível adicionar ou alterar registros, pois é necessário que eles tenham um registro relacionado na tabela 'Movements'.",
+      "Fixture": "migracao.accdb",
+      "Procedimento": "F9_Complemento",
+      "evidence": "complemento_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_PROJECAO_REVISAO_DIVERGENTE",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "Revisao de outra autoridade nao autoriza",
+      "Observado": "RECUSADO_REVISAO",
+      "Fixture": "Projecao_Inspecao_Metadata.xlsm",
+      "Procedimento": "F9_Complemento",
+      "evidence": "complemento_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_METADATA_APOS_SORT_ANTES",
+      "Resultado": "FAIL",
+      "Tratamento": "FAIL",
+      "Esperado": "Ignore/formato preservados alem da associacao",
+      "Observado": "RECUSADO_IGNORE",
+      "Fixture": "Projecao_Inspecao_Metadata.xlsm",
+      "Procedimento": "F9_Complemento",
+      "evidence": "complemento_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_METADATA_RECONSTRUIDO",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Metadado reparado; identidade e valores conferidos",
+      "Observado": "VERIFICADA",
+      "Fixture": "Projecao_Inspecao_Metadata.xlsm",
+      "Procedimento": "F9_Complemento",
+      "evidence": "complemento_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_EDICAO_PROJECAO_RECUSADA",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "Edicao local divergente nao autoriza",
+      "Observado": "RECUSADO_CONTEUDO",
+      "Fixture": "Projecao_Inspecao_Metadata.xlsm",
+      "Procedimento": "F9_Complemento",
+      "evidence": "complemento_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_COMMIT_CONEXAO_FECHADA",
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Esperado": "API recusa commit sem conexao; I/O commit nao exercitado",
+      "Observado": "3704:Operação não permitida quando o objeto está fechado.",
+      "Fixture": "falha_8.accdb",
+      "Procedimento": "F9_Complemento",
+      "evidence": "complemento_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FRIO_CICLO",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "7 efeitos/recibos persistidos em novo processo",
+      "Observado": "7",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Cold",
+      "evidence": "sessao_fria_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FRIO_EPISODIOS",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "A1 encerrado; A2 ativo4; mesmo VID",
+      "Observado": "CLOSED/ACTIVE/4",
+      "Fixture": "ciclo.accdb",
+      "Procedimento": "F9_Cold",
+      "evidence": "sessao_fria_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FRIO_BENCH_100",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Reconstruir do banco frio sem usar XLSM salvo",
+      "Observado": "COUNT=100;SECONDS=0,481664000020828;FMT=@",
+      "Fixture": "bench_100.accdb",
+      "Procedimento": "F9_Cold",
+      "evidence": "sessao_fria_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FRIO_BENCH_1000",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Reconstruir do banco frio sem usar XLSM salvo",
+      "Observado": "COUNT=1000;SECONDS=0,61371129998588;FMT=@",
+      "Fixture": "bench_1000.accdb",
+      "Procedimento": "F9_Cold",
+      "evidence": "sessao_fria_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FRIO_BENCH_5000",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Reconstruir do banco frio sem usar XLSM salvo",
+      "Observado": "COUNT=5000;SECONDS=1,13452700001653;FMT=@",
+      "Fixture": "bench_5000.accdb",
+      "Procedimento": "F9_Cold",
+      "evidence": "sessao_fria_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FRIO_BENCH_10000",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Reconstruir do banco frio sem usar XLSM salvo",
+      "Observado": "COUNT=10000;SECONDS=1,91194749998976;FMT=@",
+      "Fixture": "bench_10000.accdb",
+      "Procedimento": "F9_Cold",
+      "evidence": "sessao_fria_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FRIO_BACKUP",
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Esperado": "Backup fechado reaberto integro",
+      "Observado": "7",
+      "Fixture": "backup_ciclo.accdb",
+      "Procedimento": "F9_Cold",
+      "evidence": "sessao_fria_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FRIO_ORFAO",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Lease orfao persiste; sem remocao por tempo",
+      "Observado": "ACTIVE",
+      "Fixture": "lease_orfao.accdb",
+      "Procedimento": "F9_Cold",
+      "evidence": "sessao_fria_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    },
+    {
+      "Cenario": "F9_FRIO_INTENCAO",
+      "Resultado": "PASS",
+      "Tratamento": "PENDENTE_CONCILIACAO",
+      "Esperado": "Intencao confirmada antes de falha permanece",
+      "Observado": "PREPARED/PENDING",
+      "Fixture": "falha_1.accdb",
+      "Procedimento": "F9_Cold",
+      "evidence": "sessao_fria_f9.tsv",
+      "modality": "Execucao funcional VBA experimental no Excel real"
+    }
+  ],
+  "benchmarks": [
+    {
+      "n": 100,
+      "metrics": {
+        "SEED": 0.0951953000039794,
+        "QUERY": 0.00601250000181608,
+        "VALIDATE": 0.00423059999593534,
+        "INDEX_BUILD": 0.000833700003568083,
+        "CANDIDATE200": 0.000172200001543388,
+        "VERIFIED200": 1.6615200000233,
+        "LIST_ALL": 0.00894480000715703,
+        "MSFORMS": 0.0044523999968078,
+        "REBUILD": 0.0491818000155035,
+        "CALC_ALL": 0.000323799991747364,
+        "SAVE": 0.0831121999945026,
+        "REOPEN": 0.430675100011285,
+        "COMMIT_META": 0.00411050001275726,
+        "TOTAL": 2.95806919998722
+      },
+      "row": {
+        "Cenario": "F9_BENCH_100",
+        "Resultado": "PASS",
+        "Tratamento": "VERIFICADO",
+        "Esperado": "n registros eativos; tempos segundos",
+        "Observado": "SEED=9,51953000039794E-02;QUERY=6,01250000181608E-03;VALIDATE=4,23059999593534E-03;INDEX_BUILD=8,33700003568083E-04;CANDIDATE200=1,72200001543388E-04;VERIFIED200=1,6615200000233;LIST_ALL=8,94480000715703E-03;MSFORMS=4,4523999968078E-03;REBUILD=4,91818000155035E-02;CALC_ALL=3,23799991747364E-04;SAVE=8,31121999945026E-02;REOPEN=0,430675100011285;COMMIT_META=4,11050001275726E-03;TOTAL=2,95806919998722",
+        "Fixture": "bench_100.accdb",
+        "Procedimento": "F9_Benchmark"
+      }
+    },
+    {
+      "n": 1000,
+      "metrics": {
+        "SEED": 0.798621199995978,
+        "QUERY": 0.0142166999867186,
+        "VALIDATE": 0.0364236999885179,
+        "INDEX_BUILD": 0.00198919998365454,
+        "CANDIDATE200": 0.000546499999472871,
+        "VERIFIED200": 1.66503629999352,
+        "LIST_ALL": 0.0497218999953475,
+        "MSFORMS": 0.00636530001065694,
+        "REBUILD": 0.127622799976962,
+        "CALC_ALL": 0.000377599993953481,
+        "SAVE": 0.112011899997015,
+        "REOPEN": 0.442337599990424,
+        "COMMIT_META": 0.00446070000180043,
+        "TOTAL": 3.85935379998409
+      },
+      "row": {
+        "Cenario": "F9_BENCH_1000",
+        "Resultado": "PASS",
+        "Tratamento": "VERIFICADO",
+        "Esperado": "n registros eativos; tempos segundos",
+        "Observado": "SEED=0,798621199995978;QUERY=1,42166999867186E-02;VALIDATE=3,64236999885179E-02;INDEX_BUILD=1,98919998365454E-03;CANDIDATE200=5,46499999472871E-04;VERIFIED200=1,66503629999352;LIST_ALL=4,97218999953475E-02;MSFORMS=6,36530001065694E-03;REBUILD=0,127622799976962;CALC_ALL=3,77599993953481E-04;SAVE=0,112011899997015;REOPEN=0,442337599990424;COMMIT_META=4,46070000180043E-03;TOTAL=3,85935379998409",
+        "Fixture": "bench_1000.accdb",
+        "Procedimento": "F9_Benchmark"
+      }
+    },
+    {
+      "n": 5000,
+      "metrics": {
+        "SEED": 3.96966289999546,
+        "QUERY": 0.0490055000118446,
+        "VALIDATE": 0.171705400018254,
+        "INDEX_BUILD": 0.00773080001818016,
+        "CANDIDATE200": 0.000567700015380979,
+        "VERIFIED200": 1.66106089999084,
+        "LIST_ALL": 0.229651800007559,
+        "MSFORMS": 0.021082600025693,
+        "REBUILD": 0.54304069999489,
+        "CALC_ALL": 0.000790999998571351,
+        "SAVE": 0.162553200003458,
+        "REOPEN": 0.529953799996292,
+        "COMMIT_META": 0.00397720001637936,
+        "TOTAL": 7.98542479999014
+      },
+      "row": {
+        "Cenario": "F9_BENCH_5000",
+        "Resultado": "PASS",
+        "Tratamento": "VERIFICADO",
+        "Esperado": "n registros eativos; tempos segundos",
+        "Observado": "SEED=3,96966289999546;QUERY=4,90055000118446E-02;VALIDATE=0,171705400018254;INDEX_BUILD=7,73080001818016E-03;CANDIDATE200=5,67700015380979E-04;VERIFIED200=1,66106089999084;LIST_ALL=0,229651800007559;MSFORMS=0,021082600025693;REBUILD=0,54304069999489;CALC_ALL=7,90999998571351E-04;SAVE=0,162553200003458;REOPEN=0,529953799996292;COMMIT_META=3,97720001637936E-03;TOTAL=7,98542479999014",
+        "Fixture": "bench_5000.accdb",
+        "Procedimento": "F9_Benchmark"
+      }
+    },
+    {
+      "n": 10000,
+      "metrics": {
+        "SEED": 7.91051039999002,
+        "QUERY": 0.158954299986362,
+        "VALIDATE": 0.340021599986358,
+        "INDEX_BUILD": 0.0154860999900848,
+        "CANDIDATE200": 0.000704299978679046,
+        "VERIFIED200": 1.7161868000112,
+        "LIST_ALL": 0.504128000000492,
+        "MSFORMS": 0.0365323000005446,
+        "REBUILD": 0.99634509999305,
+        "CALC_ALL": 0.00115480000386015,
+        "SAVE": 0.242600300000049,
+        "REOPEN": 0.609623600001214,
+        "COMMIT_META": 0.00410120000015013,
+        "TOTAL": 13.1592674000131
+      },
+      "row": {
+        "Cenario": "F9_BENCH_10000",
+        "Resultado": "PASS",
+        "Tratamento": "VERIFICADO",
+        "Esperado": "n registros eativos; tempos segundos",
+        "Observado": "SEED=7,91051039999002;QUERY=0,158954299986362;VALIDATE=0,340021599986358;INDEX_BUILD=1,54860999900848E-02;CANDIDATE200=7,04299978679046E-04;VERIFIED200=1,7161868000112;LIST_ALL=0,504128000000492;MSFORMS=3,65323000005446E-02;REBUILD=0,99634509999305;CALC_ALL=1,15480000386015E-03;SAVE=0,242600300000049;REOPEN=0,609623600001214;COMMIT_META=4,10120000015013E-03;TOTAL=13,1592674000131",
+        "Fixture": "bench_10000.accdb",
+        "Procedimento": "F9_Benchmark"
+      }
+    }
+  ],
+  "comIndependentProcesses": [
+    {
+      "ID": "F9_PROCESSO_SEGUNDO",
+      "PID": 26732,
+      "ExcelPID": 45652,
+      "Modalidade": "COM ADO em processo PowerShell concorrente com sessao VBA aberta",
+      "OwnerObserved": "C216A4D0-3242-4EF4-B459-C55CF483C1D5",
+      "FenceObserved": 1,
+      "Affected": 0,
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "evidence": "concorrencia_segundo_processo.json"
+    },
+    {
+      "ID": "F9_PROCESSO_LOCK_REAL",
+      "PID": 49412,
+      "ExcelPID": 45652,
+      "Modalidade": "COM ADO em processo independente; Excel mantem transacao sem commit",
+      "Opened": true,
+      "Observado": "Não foi possível atualizar; atualmente bloqueado.",
+      "Errors": [
+        {
+          "Number": -2147467259,
+          "NativeError": -72156238,
+          "Description": "Não foi possível atualizar; atualmente bloqueado."
+        }
+      ],
+      "Resultado": "PASS",
+      "Tratamento": "RECUSADO",
+      "Seconds": 2.2662931,
+      "evidence": "concorrencia_lock_real_corrigido.json"
+    },
+    {
+      "ID": "F9_RECONEXAO_APOS_LIBERACAO",
+      "PID": 42856,
+      "Affected": 1,
+      "Fence": 2,
+      "RevisionAfterRollback": 0,
+      "Resultado": "PASS",
+      "Tratamento": "RECUPERADO",
+      "Modalidade": "COM ADO PowerShell; retomada depois da liberacao VBA",
+      "evidence": "concorrencia_reconexao.json"
+    }
+  ],
+  "invalidAttempt": {
+    "file": "concorrencia_lock_real.json",
+    "classification": "INVALIDO; PASS do auxiliar descartado por conexao nao aberta",
+    "replacement": "concorrencia_lock_real_corrigido.json"
+  },
+  "knownProductFailures": [
+    "V_VALIDO",
+    "T_VALIDO",
+    "D_VALIDO",
+    "D_FALHA_BAIXA",
+    "T_DUP_DESTINO",
+    "C_FALHA_BAIXA",
+    "C_FALHA_COMPENSACAO"
+  ]
+}

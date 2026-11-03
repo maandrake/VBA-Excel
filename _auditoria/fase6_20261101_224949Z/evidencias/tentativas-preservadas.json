@@ -1,0 +1,1600 @@
+[
+  {
+    "revision": "R1",
+    "cases": [
+      {
+        "id": "A_D_FALHA_BAIXA",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "A_D_FALHA_BAIXA",
+            "Teste": "Recuperacao_integral",
+            "Resultado": "FAIL",
+            "Esperado": "True",
+            "Observado": "Falso"
+          },
+          {
+            "Cenario": "A_D_FALHA_BAIXA",
+            "Teste": "Erro_inesperado",
+            "Resultado": "FAIL",
+            "Esperado": "execucao completa",
+            "Observado": "1004:Erro de definição de aplicativo ou de definição de objeto"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 6720,
+          "complete": false,
+          "ignoreUnread": 0,
+          "differences": 30
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/A_D_FALHA_BAIXA"
+      },
+      {
+        "id": "A_D_VALIDO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "A_D_VALIDO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "FIC6E01"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 189
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/A_D_VALIDO"
+      },
+      {
+        "id": "A_T_DUP_DESTINO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "A_T_DUP_DESTINO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "FIC6B01"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 189
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/A_T_DUP_DESTINO"
+      },
+      {
+        "id": "A_T_VALIDO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "A_T_VALIDO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "FIC6B01"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 189
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/A_T_VALIDO"
+      },
+      {
+        "id": "A_V_VALIDO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "A_V_VALIDO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "FIC6B01"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 126
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/A_V_VALIDO"
+      },
+      {
+        "id": "B_D_VALIDO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "B_D_VALIDO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "0"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 177
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/B_D_VALIDO"
+      },
+      {
+        "id": "B_LACUNAS",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "B_LACUNAS",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "0"
+          },
+          {
+            "Cenario": "B_LACUNAS",
+            "Teste": "Leitor_legado_atravessa_lacuna",
+            "Resultado": "FAIL",
+            "Esperado": "leitor chega aos registros B/C",
+            "Observado": "4"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 116
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/B_LACUNAS"
+      },
+      {
+        "id": "B_REUSO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "B_REUSO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "0"
+          },
+          {
+            "Cenario": "B_REUSO",
+            "Teste": "Reuso_sem_troca_silenciosa",
+            "Resultado": "FAIL",
+            "Esperado": "referencias historicas A",
+            "Observado": "FIC6G01"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 115
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/B_REUSO"
+      },
+      {
+        "id": "B_T_VALIDO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "B_T_VALIDO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "0"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 179
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/B_T_VALIDO"
+      },
+      {
+        "id": "B_V_VALIDO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "B_V_VALIDO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "0"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 116
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/B_V_VALIDO"
+      },
+      {
+        "id": "C_ANTES_BAIXA",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 52
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_ANTES_BAIXA"
+      },
+      {
+        "id": "C_ANTES_SAVE",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 59
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_ANTES_SAVE"
+      },
+      {
+        "id": "C_APOS_SAVE",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 163
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_APOS_SAVE"
+      },
+      {
+        "id": "C_CANCELADO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 98
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_CANCELADO"
+      },
+      {
+        "id": "C_CHAVE_AUSENTE",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 162
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_CHAVE_AUSENTE"
+      },
+      {
+        "id": "C_COLISAO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 0
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_COLISAO"
+      },
+      {
+        "id": "C_D_VALIDO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 160
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_D_VALIDO"
+      },
+      {
+        "id": "C_FALHA_1",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 31
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_FALHA_1"
+      },
+      {
+        "id": "C_FALHA_2",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 38
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_FALHA_2"
+      },
+      {
+        "id": "C_FALHA_3",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 45
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_FALHA_3"
+      },
+      {
+        "id": "C_FALHA_4",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 52
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_FALHA_4"
+      },
+      {
+        "id": "C_FALHA_ANTES",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 24
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_FALHA_ANTES"
+      },
+      {
+        "id": "C_FALHA_BAIXA",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "C_FALHA_BAIXA",
+            "Teste": "Recuperacao_integral",
+            "Resultado": "FAIL",
+            "Esperado": "True",
+            "Observado": "Falso"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 2400,
+          "differences": 2452
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_FALHA_BAIXA"
+      },
+      {
+        "id": "C_FALHA_COMPENSACAO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "C_FALHA_COMPENSACAO",
+            "Teste": "Recuperacao_integral",
+            "Resultado": "FAIL",
+            "Esperado": "True",
+            "Observado": "Falso"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 960,
+          "differences": 991
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_FALHA_COMPENSACAO"
+      },
+      {
+        "id": "C_FALHA_SAVE",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 163
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_FALHA_SAVE"
+      },
+      {
+        "id": "C_HISTORICO_AMBIGUO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 0
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_HISTORICO_AMBIGUO"
+      },
+      {
+        "id": "C_MESMA_OP",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 99
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_MESMA_OP"
+      },
+      {
+        "id": "C_PAYLOAD_DIVERGENTE",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 99
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_PAYLOAD_DIVERGENTE"
+      },
+      {
+        "id": "C_PROJECAO_DUPLICADA",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 0
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_PROJECAO_DUPLICADA"
+      },
+      {
+        "id": "C_REENTRADA",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 155
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_REENTRADA"
+      },
+      {
+        "id": "C_REORDENACAO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "C_REORDENACAO",
+            "Teste": "Referencia_fisica_nao_migrada",
+            "Resultado": "FAIL",
+            "Esperado": "todas as referencias ainda A",
+            "Observado": "FIC6C01"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 27
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_REORDENACAO"
+      },
+      {
+        "id": "C_REPETIR_RECUPERADA",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 190
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_REPETIR_RECUPERADA"
+      },
+      {
+        "id": "C_TRANSFERENCIAS",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 628
+        },
+        "reopenAssertions": 4,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_TRANSFERENCIAS"
+      },
+      {
+        "id": "C_T_DUP_DESTINO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 162
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_T_DUP_DESTINO"
+      },
+      {
+        "id": "C_T_VALIDO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 162
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_T_VALIDO"
+      },
+      {
+        "id": "C_V_VALIDO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 99
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/C_V_VALIDO"
+      }
+    ]
+  },
+  {
+    "revision": "R2",
+    "cases": [
+      {
+        "id": "A_D_FALHA_BAIXA",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "A_D_FALHA_BAIXA",
+            "Teste": "Recuperacao_integral",
+            "Resultado": "FAIL",
+            "Esperado": "True",
+            "Observado": "Falso"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 960,
+          "differences": 1109
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/A_D_FALHA_BAIXA"
+      },
+      {
+        "id": "A_D_VALIDO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "A_D_VALIDO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "FIC6E01"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 193
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/A_D_VALIDO"
+      },
+      {
+        "id": "A_T_DUP_DESTINO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "A_T_DUP_DESTINO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "FIC6B01"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 193
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/A_T_DUP_DESTINO"
+      },
+      {
+        "id": "A_T_VALIDO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "A_T_VALIDO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "FIC6B01"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 193
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/A_T_VALIDO"
+      },
+      {
+        "id": "A_V_VALIDO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "A_V_VALIDO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "FIC6B01"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 128
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/A_V_VALIDO"
+      },
+      {
+        "id": "B_D_VALIDO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "B_D_VALIDO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "0"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 181
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/B_D_VALIDO"
+      },
+      {
+        "id": "B_LACUNAS",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "B_LACUNAS",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "0"
+          },
+          {
+            "Cenario": "B_LACUNAS",
+            "Teste": "Leitor_legado_atravessa_lacuna",
+            "Resultado": "FAIL",
+            "Esperado": "leitor chega aos registros B/C",
+            "Observado": "4"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 118
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/B_LACUNAS"
+      },
+      {
+        "id": "B_REUSO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "B_REUSO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "0"
+          },
+          {
+            "Cenario": "B_REUSO",
+            "Teste": "Reuso_sem_troca_silenciosa",
+            "Resultado": "FAIL",
+            "Esperado": "referencias historicas A",
+            "Observado": "FIC6G01"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 117
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/B_REUSO"
+      },
+      {
+        "id": "B_T_VALIDO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "B_T_VALIDO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "0"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 183
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/B_T_VALIDO"
+      },
+      {
+        "id": "B_V_VALIDO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "B_V_VALIDO",
+            "Teste": "Vinculo_sent inela",
+            "Resultado": "FAIL",
+            "Esperado": "referencias preservam veiculo original",
+            "Observado": "0"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 118
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/B_V_VALIDO"
+      },
+      {
+        "id": "C_ANTES_BAIXA",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 52
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_ANTES_BAIXA"
+      },
+      {
+        "id": "C_ANTES_SAVE",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 59
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_ANTES_SAVE"
+      },
+      {
+        "id": "C_APOS_SAVE",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 167
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_APOS_SAVE"
+      },
+      {
+        "id": "C_CHAVE_AUSENTE",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 166
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_CHAVE_AUSENTE"
+      },
+      {
+        "id": "C_COLISAO",
+        "classification": "BLOQUEADO",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 0
+        },
+        "reopenAssertions": null,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_COLISAO"
+      },
+      {
+        "id": "C_D_VALIDO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 164
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_D_VALIDO"
+      },
+      {
+        "id": "C_FALHA_1",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 31
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_FALHA_1"
+      },
+      {
+        "id": "C_FALHA_2",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 38
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_FALHA_2"
+      },
+      {
+        "id": "C_FALHA_3",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 45
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_FALHA_3"
+      },
+      {
+        "id": "C_FALHA_4",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 52
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_FALHA_4"
+      },
+      {
+        "id": "C_FALHA_ANTES",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 24
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_FALHA_ANTES"
+      },
+      {
+        "id": "C_FALHA_BAIXA",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "C_FALHA_BAIXA",
+            "Teste": "Recuperacao_integral",
+            "Resultado": "FAIL",
+            "Esperado": "True",
+            "Observado": "Falso"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 2400,
+          "differences": 2452
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_FALHA_BAIXA"
+      },
+      {
+        "id": "C_FALHA_COMPENSACAO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "C_FALHA_COMPENSACAO",
+            "Teste": "Recuperacao_integral",
+            "Resultado": "FAIL",
+            "Esperado": "True",
+            "Observado": "Falso"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 960,
+          "differences": 991
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_FALHA_COMPENSACAO"
+      },
+      {
+        "id": "C_FALHA_SAVE",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 167
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_FALHA_SAVE"
+      },
+      {
+        "id": "C_HISTORICO_AMBIGUO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 0
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_HISTORICO_AMBIGUO"
+      },
+      {
+        "id": "C_MESMA_OP",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 101
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_MESMA_OP"
+      },
+      {
+        "id": "C_PAYLOAD_DIVERGENTE",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 101
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_PAYLOAD_DIVERGENTE"
+      },
+      {
+        "id": "C_PROJECAO_DUPLICADA",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 0
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_PROJECAO_DUPLICADA"
+      },
+      {
+        "id": "C_REENTRADA",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 159
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_REENTRADA"
+      },
+      {
+        "id": "C_REPETIR_RECUPERADA",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 194
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_REPETIR_RECUPERADA"
+      },
+      {
+        "id": "C_TRANSFERENCIAS",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 644
+        },
+        "reopenAssertions": 4,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_TRANSFERENCIAS"
+      },
+      {
+        "id": "C_T_DUP_DESTINO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 166
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_T_DUP_DESTINO"
+      },
+      {
+        "id": "C_T_VALIDO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 166
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_T_VALIDO"
+      },
+      {
+        "id": "C_V_VALIDO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 101
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao2/C_V_VALIDO"
+      }
+    ]
+  },
+  {
+    "revision": "R3",
+    "cases": [
+      {
+        "id": "C_CANCELADO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 100
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao3/C_CANCELADO"
+      },
+      {
+        "id": "C_COLISAO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 0
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao3/C_COLISAO"
+      },
+      {
+        "id": "C_DIARIO_ORFAO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 0
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao3/C_DIARIO_ORFAO"
+      },
+      {
+        "id": "C_DIARIO_TRUNCADO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 0
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao3/C_DIARIO_TRUNCADO"
+      },
+      {
+        "id": "C_D_VALIDO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 164
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao3/C_D_VALIDO"
+      },
+      {
+        "id": "C_LEITOR_LEGADO",
+        "classification": "NÃO EXECUTADO",
+        "missingAssertions": [
+          "Pesquisa_legada_exclui_baixado",
+          "Contagem_fisica_igual_ativa",
+          "Formula_placa_nao_encerra_reentrada"
+        ],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 101
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao3/C_LEITOR_LEGADO"
+      },
+      {
+        "id": "C_MUTACAO_ORIGEM",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 0
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao3/C_MUTACAO_ORIGEM"
+      },
+      {
+        "id": "C_POSHIST_MUTACAO",
+        "classification": "NÃO EXECUTADO",
+        "missingAssertions": [
+          "Historico_mutado_exige_conciliacao"
+        ],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 101
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao3/C_POSHIST_MUTACAO"
+      },
+      {
+        "id": "C_REORDENACAO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "C_REORDENACAO",
+            "Teste": "Leitor_por_ID_apos_reordenar",
+            "Resultado": "FAIL",
+            "Esperado": "A resolvido na linha 6",
+            "Observado": "6"
+          },
+          {
+            "Cenario": "C_REORDENACAO",
+            "Teste": "Referencia_fisica_nao_migrada",
+            "Resultado": "FAIL",
+            "Esperado": "todas as referencias ainda A",
+            "Observado": "FIC6C01"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 27
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao3/C_REORDENACAO"
+      },
+      {
+        "id": "C_T_VALIDO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 166
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao3/C_T_VALIDO"
+      },
+      {
+        "id": "C_VERSAO_OBSOLETA",
+        "classification": "NÃO EXECUTADO",
+        "missingAssertions": [
+          "Versao_obsoleta_recusada"
+        ],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 166
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao3/C_VERSAO_OBSOLETA"
+      },
+      {
+        "id": "C_V_VALIDO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 101
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao3/C_V_VALIDO"
+      }
+    ]
+  },
+  {
+    "revision": "R4",
+    "cases": [
+      {
+        "id": "C_LEITOR_LEGADO",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "C_LEITOR_LEGADO",
+            "Teste": "Pesquisa_legada_exclui_baixado",
+            "Resultado": "FAIL",
+            "Esperado": "0 episodios ativos de A",
+            "Observado": "1"
+          },
+          {
+            "Cenario": "C_LEITOR_LEGADO",
+            "Teste": "Contagem_fisica_igual_ativa",
+            "Resultado": "FAIL",
+            "Esperado": "somente 2 ativos matriz",
+            "Observado": "3"
+          },
+          {
+            "Cenario": "C_LEITOR_LEGADO",
+            "Teste": "Formula_placa_nao_encerra_reentrada",
+            "Resultado": "FAIL",
+            "Esperado": "NAO para novo episodio sem saida",
+            "Observado": "SIM"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 160
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao4/C_LEITOR_LEGADO"
+      },
+      {
+        "id": "C_POSHIST_MUTACAO",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 108
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao4/C_POSHIST_MUTACAO"
+      },
+      {
+        "id": "C_REORDENACAO_TIPOS",
+        "classification": "FAIL",
+        "missingAssertions": [],
+        "failures": [
+          {
+            "Cenario": "C_REORDENACAO_TIPOS",
+            "Teste": "Referencia_fisica_nao_migrada",
+            "Resultado": "FAIL",
+            "Esperado": "todas as referencias ainda A",
+            "Observado": "FIC6C01"
+          }
+        ],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 25
+        },
+        "reopenAssertions": 0,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao4/C_REORDENACAO_TIPOS"
+      },
+      {
+        "id": "C_VERSAO_OBSOLETA",
+        "classification": "PASS",
+        "missingAssertions": [],
+        "failures": [],
+        "snapshot": {
+          "before": 28320,
+          "after": 28320,
+          "complete": true,
+          "ignoreUnread": 0,
+          "differences": 166
+        },
+        "reopenAssertions": 1,
+        "evidence": "_auditoria/fase6_20261101_224949Z/evidencias/execucoes/revisao4/C_VERSAO_OBSOLETA"
+      }
+    ]
+  }
+]

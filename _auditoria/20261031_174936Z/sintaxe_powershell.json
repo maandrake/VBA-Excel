@@ -1,0 +1,30 @@
+﻿[
+    {
+        "File":  "Preparar-TestesVBA.ps1",
+        "Errors":  [
+
+                   ],
+        "Pass":  true
+    },
+    {
+        "File":  "Test-ExcelCom.ps1",
+        "Errors":  [
+
+                   ],
+        "Pass":  true
+    },
+    {
+        "File":  "Test-OfficeCapabilities.ps1",
+        "Errors":  [
+
+                   ],
+        "Pass":  true
+    },
+    {
+        "File":  "Test-XMLCom.ps1",
+        "Errors":  [
+
+                   ],
+        "Pass":  true
+    }
+]

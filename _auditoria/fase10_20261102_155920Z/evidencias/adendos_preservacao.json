@@ -1,0 +1,44 @@
+[
+  {
+    "file": "DECISOES_PENDENTES_FASE9.md",
+    "prefixBytes": 3711,
+    "prefixSHA256": "cd4f4748d4176812d912dc2e6425b9350fe443a19888ea8b1ea1c98d8e644a15",
+    "afterSHA256": "2674c6249fa2a80cae3c6dbb498790958c431ac53569783e672b0276a9292cee",
+    "prefixPreserved": true
+  },
+  {
+    "file": "PACOTE_APROVACAO_PORTAO2.md",
+    "prefixBytes": 8258,
+    "prefixSHA256": "7d6764f96b098254a1a9625a29f1fbf4e33a392b22133157fccf414cebaa876a",
+    "afterSHA256": "3b4e75b85d5d9f7bd15fc40d7af626abe570b3a1f4ff87e14e0dddb9842df5c6",
+    "prefixPreserved": true
+  },
+  {
+    "file": "HISTORICO_ALTERACOES.md",
+    "prefixBytes": 29378,
+    "prefixSHA256": "cb2c7516d78a3e0c9f8898d90b9dd53d70fa761b16cc5d3102c4ab2deb4caf38",
+    "afterSHA256": "5c5a452aa5f3a2ed61c01dd4850019271884510d763708056f0f368a9818c93a",
+    "prefixPreserved": true
+  },
+  {
+    "file": "RELATORIO_AUDITORIA.md",
+    "prefixBytes": 37205,
+    "prefixSHA256": "22a3002bde5591e59be5fcdec130b840e73349faa7275dd5e250f25c57b26943",
+    "afterSHA256": "a62e6bab3651177fdba8fdf9f7cb7f1a3e04f1889f4673fd0b2a994cdfa1190b",
+    "prefixPreserved": true
+  },
+  {
+    "file": "MAPA_PROJETO.md",
+    "prefixBytes": 83455,
+    "prefixSHA256": "d1052f1451ccfd2863ce9e9292e1d54f73afbc4c50edeb3c02203621d8a6c6f3",
+    "afterSHA256": "88607328b41c56c20d6cb549aeedc92653f84df79c62ea99e76f3daa84312e00",
+    "prefixPreserved": true
+  },
+  {
+    "file": "TESTES_VBA.md",
+    "prefixBytes": 34708,
+    "prefixSHA256": "ea9b37ba3781b6484e57dacaa9e632b8ca4b42a02d30166b2bbb03b331bee4d7",
+    "afterSHA256": "fb2fca6f787a95d0c4cc70142e34aab8f6b76be86a368d19db9f791f935f85bf",
+    "prefixPreserved": true
+  }
+]

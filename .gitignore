@@ -1,0 +1,37 @@
+# Backups e copias de dados privados da auditoria
+_auditoria/**/backup/
+_auditoria/**/desenvolvimento/Excel/
+_auditoria/**/embutido_original/
+
+# Fixtures sinteticas Fase 5: preservar localmente, fora de commits
+_auditoria/fase5_20261101_202114Z/evidencias/cenarios/**/*.xlsm
+_auditoria/fase5_20261101_202114Z/entrega/*.xlsm
+
+# Fixtures e imagens de memoria sinteticas Fase 6: somente preservacao local
+_auditoria/fase6_20261101_224949Z/evidencias/execucoes/**/*.xlsm
+_auditoria/fase6_20261101_224949Z/entrega/*.xlsm
+
+# Fixtures sinteticas Fase 7: evidencias locais, nao incluir em commits
+_auditoria/fase7_20261102_025115Z/evidencias/**/*.xlsm
+_auditoria/fase7_20261102_025115Z/entrega/*.xlsm
+
+# Fixtures, checkpoints e snapshots sinteticos Fase 8: preservacao local
+_auditoria/fase8_20261102_121422Z/evidencias/**/*.xlsm
+_auditoria/fase8_20261102_121422Z/checkpoint/*.xlsm
+_auditoria/fase8_20261102_121422Z/entrega/*.xlsm
+
+# Fase 9: bancos e fixtures sinteticos preservados fora do versionamento
+_auditoria/fase9_20261102_142753Z/evidencias/execucao/*.accdb
+_auditoria/fase9_20261102_142753Z/evidencias/execucao/*.xlsm
+_auditoria/fase9_20261102_142753Z/entrega/*.xlsm
+_auditoria/fase9_20261102_142753Z/checkpoint/*.xlsm
+
+# Entrega 1: binarios sinteticos e checkpoints somente locais
+_desenvolvimento/entrega1_20261102T182823Z/backup/
+_desenvolvimento/entrega1_20261102T182823Z/checkpoints/
+_desenvolvimento/entrega1_20261102T182823Z/**/*.xlsm
+_desenvolvimento/entrega1_20261102T182823Z/**/*.accdb
+
+/_auditoria/**/execucao_temp/
+
+/_auditoria/**/execucao_temp/

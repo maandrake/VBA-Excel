@@ -1,0 +1,6 @@
+{
+  "cause": "NumberFormat dd/mm/yyyy normalizado para m/d/yyyy ao reabrir; guard estrito recusa",
+  "firstAttempt": "ERRO_EXECUCAO FAIL 5 Projecao ausente ou divergente",
+  "sourceReferenceUnchanged": true,
+  "correction": "Somente fixture experimental: restaurar formato selado sem atualizar selo; manter guarda integral e resultado legado FAIL"
+}

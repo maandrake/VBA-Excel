@@ -1,0 +1,9 @@
+$ErrorActionPreference='Stop'
+$lab10='C:\Users\MARCOS~1\AppData\Local\Temp\vscode-agent-codex-sandbox-JTJOQt\VBA_Fase10_20261102_155920Z'
+$stage10='snapshot'
+$r10=[ordered]@{test=('F10_DISPUTA_'+$stage10);pid=$PID;opened=$false;attempted=$false;affected=-1;error='';seconds=0;status='FAIL'}
+$deadline10=[DateTime]::UtcNow.AddSeconds(45)
+while(!(Test-Path -LiteralPath "$lab10\prepare_locked.marker")){if([DateTime]::UtcNow -gt $deadline10){throw 'Handshake ausente'};Start-Sleep -Milliseconds 100}
+$c10=New-Object -ComObject ADODB.Connection
+try{$c10.Open("Provider=Microsoft.ACE.OLEDB.16.0;Data Source=$lab10\fronteira_${stage10}_f10.accdb;");$r10.opened=$true;$c10.BeginTrans()|Out-Null;$timer10=[Diagnostics.Stopwatch]::StartNew();$r10.attempted=$true;try{$n10=0;$c10.Execute("UPDATE WriterLease SET OwnerID='B_DISPUTA',FenceNo=FenceNo+1 WHERE ID=1 AND StatusText='ACTIVE'",[ref]$n10,128)|Out-Null;$r10.affected=$n10}catch{$r10.error=$_.Exception.Message};$timer10.Stop();$r10.seconds=$timer10.Elapsed.TotalSeconds;$c10.RollbackTrans();if($r10.error -match 'bloquead|locked'){$r10.status='PASS'}}catch{$r10.error=$_.Exception.Message}finally{if($c10.State -eq 1){$c10.Close()};$r10|ConvertTo-Json|Set-Content -LiteralPath "$lab10\worker_prepare_done.json" -Encoding UTF8}
+$r10|ConvertTo-Json

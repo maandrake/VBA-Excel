@@ -1,0 +1,54 @@
+{
+  "modality": "Analise estatica ZIP/CFB, nao compilacao",
+  "inheritedComponents": 58,
+  "currentComponents": 60,
+  "comparison": "ignora VB_Base gerado, caixa fora de strings e espacos finais; preserva literais",
+  "differences": [],
+  "deleteOccurrences": [
+    {
+      "module": "Cad_NFE",
+      "line": 140,
+      "text": "         Selection.Delete Shift:=xlUp"
+    },
+    {
+      "module": "Cad_NFE",
+      "line": 211,
+      "text": "                c.Resize(1, 13).Delete Shift:=xlUp"
+    },
+    {
+      "module": "Cad_NFE",
+      "line": 217,
+      "text": "                        cAnual.Resize(1, 16).Delete Shift:=xlUp"
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "line": 60,
+      "text": "         Selection.EntireRow.Delete"
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "line": 264,
+      "text": "        c.Resize(1, 13).Delete Shift:=xlUp"
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "line": 494,
+      "text": "         Selection.EntireRow.Delete"
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "line": 890,
+      "text": "        c.Resize(1, 14).Delete Shift:=xlUp"
+    },
+    {
+      "module": "modTestesFase2",
+      "line": 53,
+      "text": "    WS.Range(\"F4\").FormatConditions.Delete"
+    },
+    {
+      "module": "modPrototiposFase6",
+      "line": 346,
+      "text": "            src.Cells(origem, 1).Resize(1, IIf(tipo = \"Devolucao\", 13, 14)).Delete Shift:=xlUp"
+    }
+  ]
+}

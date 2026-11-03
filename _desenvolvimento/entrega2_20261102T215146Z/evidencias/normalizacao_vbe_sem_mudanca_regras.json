@@ -1,0 +1,26 @@
+[
+  {
+    "name": "mdlCriaBackup",
+    "unchangedStringsAndCodeExceptIdentifierCaseAndVBBase": true
+  },
+  {
+    "name": "modSeleniumConsultaNFE",
+    "unchangedStringsAndCodeExceptIdentifierCaseAndVBBase": true
+  },
+  {
+    "name": "modValidacaoXML",
+    "unchangedStringsAndCodeExceptIdentifierCaseAndVBBase": true
+  },
+  {
+    "name": "Cad_NCM",
+    "unchangedStringsAndCodeExceptIdentifierCaseAndVBBase": true
+  },
+  {
+    "name": "frmRelatorioXML",
+    "unchangedStringsAndCodeExceptIdentifierCaseAndVBBase": true
+  },
+  {
+    "name": "modPersistenciaFase9",
+    "unchangedStringsAndCodeExceptIdentifierCaseAndVBBase": true
+  }
+]

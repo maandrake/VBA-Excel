@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-11-01T15:58:34.9309436Z",
+  "mode": "Sondagem COM em instância exclusiva",
+  "ownHwnd": 1053244,
+  "version": "16.0",
+  "build": "20527",
+  "architecture": "x64",
+  "vbProject": "BLOQUEADO",
+  "hresult": "0x800A03EC",
+  "outerHResult": "0x80131501",
+  "message": "O acesso de programação ao projeto do Visual Basic não é confiável.",
+  "imported": 0,
+  "compiled": false,
+  "ownInstanceClosed": true,
+  "securityChanged": false,
+  "origin": "Transcrição da saída COM efetivamente observada; uma sondagem nesta retomada, não repetida"
+}

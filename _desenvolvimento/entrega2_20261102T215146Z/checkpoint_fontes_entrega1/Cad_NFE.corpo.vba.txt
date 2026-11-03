@@ -1,0 +1,1378 @@
+Attribute VB_Name = "Cad_NFE"
+Attribute VB_Base = "0{5DECAC34-889D-40E7-9509-72B75F9F55E7}{20DB6DE0-D162-422D-89E7-90EDFD8FF88F}"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Attribute VB_TemplateDerived = False
+Attribute VB_Customizable = False
+
+Option Explicit
+Private Const NomePlanilha As String = "Entradas"
+Private Const NomePlanilha2 As String = "Entradas Filial"
+Private Const LinhaCabecalho As Integer = 3
+
+Private Sub UserForm_Initialize()
+    Me.data.Value = Format$(Date, "dd/mm/yyyy")
+    Me.DataFilial.Value = Format$(Date, "dd/mm/yyyy")
+    Me.LabelData.Caption = Format$(Date, "dd/mm/yyyy")
+    Me.LabelHora.Caption = Format$(Time, "hh:mm")
+    Me.LabelStatus.Caption = "CANDIDATA SINTETICA - ACE autoritativo"
+    C1_ConfigLista Me.ListBoxLista
+    C1_ConfigLista Me.ListBoxLista2
+End Sub
+
+Private Sub TextBoxPesquisa_Change()
+    C1_Pesquisar Me.TextBoxPesquisa.Text, Me.ListBoxLista, "MATRIZ"
+End Sub
+
+Private Sub TextBoxPesquisaFilial_Change()
+    C1_Pesquisar Me.TextBoxPesquisaFilial.Text, Me.ListBoxLista2, "FILIAL"
+End Sub
+
+Private Sub CommandButtonCopiarEntradaPFilial_Click()
+    
+    On Error GoTo TrataErro
+
+    'Copia Filial -> Campos principais
+    UN.text = UNFilial.text
+    COD.text = CODFilial.text
+    
+    ComboBox_VEÍCULO.value = ComboBox_VEÍCULOFilial.value
+    
+    PLACA.text = PLACAFilial.text
+    ComboBox_COR.value = ComboBox_CORFilial.value
+    Combo_ANO_MOD.value = Combo_ANO_MODFilial.value
+    txt_Valor.text = txt_ValorFilial.text
+    
+    DataFilial = Format(Now, "dd/mm/yyyy")
+
+    Exit Sub
+
+TrataErro:
+    MsgBox "Erro ao copiar a entrada: " & Err.Number & " - " & Err.Description, vbExclamation, "CommandButtonCopiarEntrada"
+End Sub
+
+Private Sub CommandButtonDetranNet_Click()
+    C1_Bloqueado "Consulta externa nao autorizada no laboratorio"
+End Sub
+
+Private Sub CommandButtonDetranNet_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    CommandButtonDetranNet.PicturePosition = fmPicturePositionRightTop
+End Sub
+
+Private Sub CommandButtonDetranNet_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+    LabelConsulta.Visible = True
+    
+    Label_N_Nfe.ForeColor = &H80000012
+    FrameMenu.BorderColor = &H8000000D
+End Sub
+
+Private Sub CommandButtonDetranNet_MouseUp(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+        
+    CommandButtonDetranNet.PicturePosition = fmPicturePositionCenter
+End Sub
+
+Private Sub CommandButtonDetranNetBIN_Click()
+    
+    Call CommandButtonDetranNetBIN_Handler
+End Sub
+
+Private Sub CommandButton_Excluir_Click()
+    C1_Bloqueado "Exclusao de entrada: requer retificacao identificada"
+End Sub
+
+Private Sub CommandButton_Excluir_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+    
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_ExcluirFilial_Click()
+    C1_Bloqueado "Exclusao filial: requer retificacao identificada"
+End Sub
+
+Private Sub CommandButton_ExcluirFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+    
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_Gravar_Click()
+    C1_GravarEntrada Me, False
+End Sub
+
+Private Sub CommandButton_Gravar_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+    
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_GravarFilial_Click()
+    C1_GravarEntrada Me, True
+End Sub
+
+Private Sub CommandButton_GravarFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+    
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_Limpar_Click()
+    C1_LimparContexto Me
+
+Me.N_Nfe.value = ""
+Me.ComboBox_Operação = "Compra"
+Me.ComboBox_OutroEnvio.value = ""
+Me.UN.value = "1"
+Me.ComboBox_OutroEnvio.text = ""
+Me.LabelTabela1.CAPTION = ""
+    Me.LabelTabela1.BorderStyle = fmBorderStyleNone
+    Me.LabelTabela1.BorderColor = &H80000006
+    Me.LabelTabela.ForeColor = &H80000006
+Me.COD.value = ""
+Me.ComboBox_VEÍCULO.value = ""
+Me.PLACA.value = ""
+Me.Combo_ANO_MOD.value = ""
+Me.ComboBox_COR.value = ""
+Me.txt_Valor.value = ""
+Me.data.value = Format(Now, "dd/mm/yyyy")
+ListBoxLista.Clear
+Me.N_Nfe.SetFocus
+Me.TextBoxPesquisa.value = ""
+
+
+    ThisWorkbook.Worksheets("Entradas").Select
+    Range("A3").Select
+    LabelStatus = "Todos os campos limpos..."
+End Sub
+
+Private Sub CommandButton_Limpar_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+    
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_LimparFilial_Click()
+    C1_LimparContexto Me
+
+Me.N_NfeFilial.value = ""
+Me.ComboBox_OperaçãoFilial = "Compra"
+Me.ComboBox_OutroEnvioFilial.value = ""
+Me.TextBoxChaveDeAcessoFilial.value = ""
+Me.UNFilial.value = "1"
+Me.LabelTabelaFilial1.CAPTION = ""
+    Me.LabelTabelaFilial1.BorderStyle = fmBorderStyleNone
+    Me.LabelTabelaFilial1.BorderColor = &H80000006
+    Me.LabelTabelaFilial.ForeColor = &H80000006
+Me.CODFilial.value = ""
+Me.ComboBox_VEÍCULOFilial.value = ""
+Me.PLACAFilial.value = ""
+Me.Combo_ANO_MODFilial.value = ""
+Me.ComboBox_CORFilial.value = ""
+Me.txt_ValorFilial.value = ""
+Me.DataFilial.value = Format(Now, "dd/mm/yyyy")
+Me.ListBoxLista2.Clear
+Me.N_NfeFilial.SetFocus
+Me.TextBoxPesquisaFilial.value = ""
+
+    ThisWorkbook.Worksheets("Entradas Filial").Select
+    Range("A3").Select
+    LabelStatus = "Todos os campos limpos..."
+End Sub
+
+Private Sub CommandButton_LimparFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+    
+    MouseCursor (32649)
+End Sub
+
+Private Sub MultiPage1_Change()
+
+    Dim WS As Worksheet
+
+    If MultiPage1.SelectedItem.Index = 0 Then
+        Set WS = ThisWorkbook.Worksheets("Entradas")
+        WS.Activate
+        Application.GoTo Reference:=WS.Range("A3"), Scroll:=True
+    ElseIf MultiPage1.SelectedItem.Index = 1 Then
+        Set WS = ThisWorkbook.Worksheets("Entradas Filial")
+        WS.Activate
+        Application.GoTo Reference:=WS.Range("A3"), Scroll:=True
+    End If
+End Sub
+
+Private Sub CommandButtonCadNFESaida_Click()
+
+    Cad_NFE.Hide
+        ThisWorkbook.Worksheets("Saidas").Select
+    Cad_NFE_Saida.Show
+End Sub
+
+Private Sub CommandButtonCadNFESaida_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+    
+    MouseCursor (32649)
+    LabelSaidas.Visible = True
+End Sub
+
+Private Sub CommandButtonCadNFESaida_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    CommandButtonCadNFESaida.PicturePosition = fmPicturePositionRightTop
+End Sub
+
+Private Sub CommandButtonCadNFESaida_MouseUp(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+        
+    CommandButtonCadNFESaida.PicturePosition = fmPicturePositionCenter
+End Sub
+
+Private Sub CommandButtonFechar_Click()
+
+    Cad_NFE.Hide
+    EncerrarSessaoDetranNFE
+End Sub
+
+Private Sub CommandButtonFechar_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+    
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonFechar_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    CommandButtonFechar.PicturePosition = fmPicturePositionRightTop
+End Sub
+
+Private Sub CommandButtonFechar_MouseUp(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+        
+    CommandButtonFechar.PicturePosition = fmPicturePositionCenter
+End Sub
+
+Private Sub CommandButtonAlterar_Click()
+    C1_Bloqueado "Alteracao de cadastro e historicos"
+End Sub
+
+Private Sub CommandButtonCopiarEntrada_Click()
+    C1_EnviarSaida Me, False
+End Sub
+
+Private Sub CommandButtonCopiarEntradaFilial_Click()
+    C1_EnviarSaida Me, True
+End Sub
+
+Private Sub CommandButtonCopiarEntradaFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+    
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonCopiarAutoEntradaFilial_Click()
+    C1_EnviarSaida Me, True
+End Sub
+
+Private Sub CommandButtonCopiarAutoEntradaFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+    
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonFiltroCompra_Click()
+    C1_Pesquisar "", Me.ListBoxLista, "MATRIZ"
+End Sub
+
+Private Sub CommandButtonFiltroCompra_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonAlterar_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+Private Sub CommandButtonLerXML_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonFiltroCompraFilial_Click()
+    C1_Pesquisar "", Me.ListBoxLista2, "FILIAL"
+End Sub
+
+Private Sub CommandButtonFiltroCompraFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonNCM_Click()
+    
+    LabelStatus = "Pesquisa NCM..."
+    Cad_NCM.Show
+End Sub
+
+Private Sub Command_EntradaFilial_Click()
+
+    LabelStatus = "Planilha Entradas filial..."
+    ThisWorkbook.Worksheets("Entradas Filial").Select
+End Sub
+
+Private Sub CommandButton_SaidasFilial_Click()
+    
+    LabelStatus = "Planilha Saidas filial..."
+    ThisWorkbook.Worksheets("Saidas Filial").Select
+End Sub
+
+Private Sub Command_EntradaFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_SaidasFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonCopiarEntrada_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonNCM_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonNCMFilial_Click()
+
+    Cad_NCM.Show
+End Sub
+
+Private Sub CommandButtonNCMFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonChaveR_Click()
+    CandidatoReconstruir
+End Sub
+
+Private Sub CommandButtonChaveR_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub FrameMenu_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    LabelBakupBakup.Visible = False
+    LabelSaidas.Visible = False
+    LabelConsulta.Visible = False
+End Sub
+
+Private Sub Command_Entrada_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_Saidas_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub Command_Entrada_Click()
+    
+    LabelStatus = "Planilha Entradas matriz..."
+    ThisWorkbook.Worksheets("Entradas").Select
+End Sub
+
+Private Sub CommandButton_Saidas_Click()
+    
+    LabelStatus = "Planilha Saidas matriz..."
+    ThisWorkbook.Worksheets("Saidas").Select
+End Sub
+
+Private Sub CommandButtonSalvarTudo_Click()
+    CandidatoBackup
+End Sub
+
+Private Sub CommandButtonSalvarTudo_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+    LabelBakupBakup.Visible = True
+End Sub
+
+Private Sub CommandButtonSalvarTudo_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    CommandButtonSalvarTudo.PicturePosition = fmPicturePositionRightTop
+End Sub
+
+Private Sub CommandButtonSalvarTudo_MouseUp(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+        
+    CommandButtonSalvarTudo.PicturePosition = fmPicturePositionCenter
+End Sub
+
+Private Sub Data_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+    
+data.MaxLength = 10 '10/10/2014
+    Select Case KeyAscii
+      Case 8       'Aceita o BACK SPACE
+      Case 13: SendKeys "{TAB}"    'Emula o TAB
+      Case 48 To 57
+         If data.SelStart = 2 Then data.SelText = "/"
+         If data.SelStart = 5 Then data.SelText = "/"
+      Case Else: KeyAscii = 0     'Ignora os outros caracteres
+   
+   End Select
+End Sub
+
+Private Sub DataFilial_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+    
+data.MaxLength = 10 '10/10/2014
+    Select Case KeyAscii
+      Case 8       'Aceita o BACK SPACE
+      Case 13: SendKeys "{TAB}"    'Emula o TAB
+      Case 48 To 57
+         If DataFilial.SelStart = 2 Then DataFilial.SelText = "/"
+         If DataFilial.SelStart = 5 Then DataFilial.SelText = "/"
+      Case Else: KeyAscii = 0     'Ignora os outros caracteres
+   
+   End Select
+End Sub
+
+Private Sub txt_Valor_AfterUpdate()
+    
+    txt_Valor.text = Format(txt_Valor.text, "Currency")
+    txt_Valor.ForeColor = &HFF
+End Sub
+
+Private Sub UserForm_QueryClose(Cancel As Integer, CloseMode As Integer)
+
+  If CloseMode = vbFormControlMenu Then
+    Cancel = True
+    Range("u1") = Range("u1") + 1
+    Dim msg, Style, Title, Help, Ctxt, Response, MyString
+    msg = "Por favor, use o botão Fechar em Ações" ' Define a mensagem.
+    Style = vbOKOnly + vbInformation + vbDefaultButton2 ' Define os botões.
+    Title = "Fechar Cadastro" ' Define o título.
+    Response = MsgBox(msg, Style, Title)
+  End If
+End Sub
+
+Private Sub CommandButtonLerXML_Click()
+    C1_Bloqueado "Importacao de entrada XML ainda nao integrada"
+End Sub
+
+Private Sub txt_ValorFilial_AfterUpdate()
+    
+    txt_ValorFilial.text = Format(txt_ValorFilial.text, "Currency")
+    txt_ValorFilial.ForeColor = &HFF
+End Sub
+
+Private Sub ComboBox_Operação_Enter()
+
+    ComboBox_Operação.BorderColor = &H8000000D
+    ComboBox_Operação.BackColor = &H80000002
+    Label_Operação.ForeColor = &H80000012
+    Frame_Dados_da_NFe.BorderColor = &H8000000D
+End Sub
+
+Private Sub ComboBox_Operação_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_Operação.BorderColor = &H8000000A
+    ComboBox_Operação.BackColor = &H80000005
+    Label_Operação.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_OutroEnvio_Enter()
+
+    ComboBox_OutroEnvio.BorderColor = &H8000000D
+    ComboBox_OutroEnvio.BackColor = &H80000002
+    Label_OutroEnvio.ForeColor = &H80000012
+    Frame_Dados_da_NFe.BorderColor = &H8000000D
+End Sub
+
+Private Sub ComboBox_OutroEnvio_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_OutroEnvio.BorderColor = &H8000000A
+    ComboBox_OutroEnvio.BackColor = &H80000005
+    Label_OutroEnvio.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_OutroEnvioFilial_Enter()
+
+    ComboBox_OutroEnvioFilial.BorderColor = &H8000000D
+    ComboBox_OutroEnvioFilial.BackColor = &H80000002
+    Label_OutroEnvioFilial.ForeColor = &H80000012
+    Frame_Dados_da_NFeFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub ComboBox_OutroEnvioFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_OutroEnvioFilial.BorderColor = &H8000000A
+    ComboBox_OutroEnvioFilial.BackColor = &H80000005
+    Label_OutroEnvioFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBoxChaveDeAcessoFilial_Enter()
+
+    TextBoxChaveDeAcessoFilial.BorderColor = &H8000000D
+    TextBoxChaveDeAcessoFilial.BackColor = &H80000002
+    LabelChaveDeAcessoFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBoxChaveDeAcessoFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBoxChaveDeAcessoFilial.BorderColor = &H8000000A
+    TextBoxChaveDeAcessoFilial.BackColor = &H80000005
+    LabelChaveDeAcessoFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub N_Nfe_Enter()
+
+    N_Nfe.BorderColor = &H8000000D
+    N_Nfe.BackColor = &H80000002
+    Label_N_Nfe.ForeColor = &H80000012
+    Frame_Dados_da_NFe.BorderColor = &H8000000D
+End Sub
+
+Private Sub N_Nfe_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+    
+'Verifica se existe células com o mesmo valor
+Dim vernumeronfe As Double
+Dim planilha As Worksheet
+Set planilha = ThisWorkbook.Worksheets("Entradas")
+vernumeronfe = WorksheetFunction.CountIf(planilha.Range("A:A"), N_Nfe.text)
+
+If N_Nfe.text = "" Then
+        Exit Sub
+End If
+
+If vernumeronfe > 0 Then
+        MsgBox "Numero da NFe já cadastrado!", vbCritical, "Numero da NFe"
+        LabelStatus = "Numero da NFe já cadastrado!"
+        N_Nfe.BorderColor = &HFF&
+        N_Nfe.BackColor = &H8080FF
+        Label_N_Nfe.ForeColor = &HC0&
+        Exit Sub
+End If
+    
+    N_Nfe.BorderColor = &H8000000A
+    N_Nfe.BackColor = &H80000005
+    Label_N_Nfe.ForeColor = &H80000011
+End Sub
+
+Private Sub UN_Enter()
+
+    UN.BorderColor = &H8000000D
+    UN.BackColor = &H80000002
+    Label_UN.ForeColor = &H80000012
+    Frame_Dados_da_NFe.BorderColor = &H8000000D
+End Sub
+
+Private Sub UN_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    UN.BorderColor = &H8000000A
+    UN.BackColor = &H80000005
+    Label_UN.ForeColor = &H80000011
+End Sub
+
+Private Sub Frame_Dados_da_NFe_Enter()
+
+    Frame_Dados_da_NFe.ForeColor = &H8000000D
+    Frame_Dados_da_NFe.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_Dados_da_NFe_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_Operação.BorderColor = &H8000000A
+    ComboBox_Operação.BackColor = &H80000005
+    Label_Operação.ForeColor = &H80000011
+    
+    ComboBox_OutroEnvio.BorderColor = &H8000000A
+    ComboBox_OutroEnvio.BackColor = &H80000005
+    Label_OutroEnvio.ForeColor = &H80000011
+
+    N_Nfe.BorderColor = &H8000000A
+    N_Nfe.BackColor = &H80000005
+    Label_N_Nfe.ForeColor = &H80000011
+    
+    UN.BorderColor = &H8000000A
+    UN.BackColor = &H80000005
+    Label_UN.ForeColor = &H80000011
+    
+    Frame_Dados_da_NFe.BorderColor = &H8000000A
+    Frame_Dados_da_NFe.ForeColor = &H8000000A
+End Sub
+
+Private Sub PLACA_Enter()
+
+    PLACA.BorderColor = &H8000000D
+    PLACA.BackColor = &H80000002
+    Label_PLACA.ForeColor = &H80000012
+    Frame_Veículo.BorderColor = &H8000000D
+End Sub
+
+Private Sub PLACA_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    PLACA.BorderColor = &H8000000A
+    PLACA.BackColor = &H80000005
+    Label_PLACA.ForeColor = &H80000011
+End Sub
+
+Private Sub COD_Enter()
+
+    COD.BorderColor = &H8000000D
+    COD.BackColor = &H80000002
+    Label_COD.ForeColor = &H80000012
+    Frame_Veículo.BorderColor = &H8000000D
+End Sub
+
+Private Sub COD_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    COD.BorderColor = &H8000000A
+    COD.BackColor = &H80000005
+    Label_COD.ForeColor = &H80000011
+End Sub
+
+Private Sub Combo_ANO_MOD_Enter()
+
+    Combo_ANO_MOD.BorderColor = &H8000000D
+    Combo_ANO_MOD.BackColor = &H80000002
+    Label_ANO_MOD.ForeColor = &H80000012
+    Frame_Veículo.BorderColor = &H8000000D
+End Sub
+
+Private Sub Combo_ANO_MOD_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    Combo_ANO_MOD.BorderColor = &H8000000A
+    Combo_ANO_MOD.BackColor = &H80000005
+    Label_ANO_MOD.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_COR_Enter()
+
+    ComboBox_COR.BorderColor = &H8000000D
+    ComboBox_COR.BackColor = &H80000002
+    Label_COR.ForeColor = &H80000012
+    Frame_Veículo.BorderColor = &H8000000D
+End Sub
+
+Private Sub ComboBox_COR_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_COR.BorderColor = &H8000000A
+    ComboBox_COR.BackColor = &H80000005
+    Label_COR.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_VEÍCULO_Enter()
+
+    ComboBox_VEÍCULO.BorderColor = &H8000000D
+    ComboBox_VEÍCULO.BackColor = &H80000002
+    Label_VEÍCULO.ForeColor = &H80000012
+    Frame_Veículo.BorderColor = &H8000000D
+End Sub
+
+Private Sub ComboBox_VEÍCULO_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_VEÍCULO.BorderColor = &H8000000A
+    ComboBox_VEÍCULO.BackColor = &H80000005
+    Label_VEÍCULO.ForeColor = &H80000011
+End Sub
+
+Private Sub ListBoxLista_Change()
+    C1_SelecionarEntrada Me, Me.ListBoxLista, False
+End Sub
+
+Private Sub ListBoxLista_Enter()
+
+    ListBoxLista.BorderColor = &H8000000D
+End Sub
+
+Private Sub ListBoxLista_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ListBoxLista.BorderColor = &H8000000A
+End Sub
+
+Private Sub ListBoxLista2_Change()
+    C1_SelecionarEntrada Me, Me.ListBoxLista2, True
+End Sub
+
+Private Sub Frame_Veículo_Enter()
+
+    Frame_Veículo.ForeColor = &H8000000D
+    Frame_Veículo.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_Veículo_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    COD.BorderColor = &H8000000A
+    COD.BackColor = &H80000005
+    Label_COD.ForeColor = &H80000011
+        
+    ComboBox_VEÍCULO.BorderColor = &H8000000A
+    ComboBox_VEÍCULO.BackColor = &H80000005
+    Label_VEÍCULO.ForeColor = &H80000011
+    
+    PLACA.BorderColor = &H8000000A
+    PLACA.BackColor = &H80000005
+    Label_PLACA.ForeColor = &H80000011
+    
+    ComboBox_COR.BorderColor = &H8000000A
+    ComboBox_COR.BackColor = &H80000005
+    Label_COR.ForeColor = &H80000011
+        
+    Combo_ANO_MOD.BorderColor = &H8000000A
+    Combo_ANO_MOD.BackColor = &H80000005
+    Label_ANO_MOD.ForeColor = &H80000011
+    
+    Frame_Veículo.BorderColor = &H8000000A
+    Frame_Veículo.ForeColor = &H8000000A
+End Sub
+
+Private Sub Data_Enter()
+
+    data.BorderColor = &H8000000D
+    data.BackColor = &H80000002
+    Label_Data.ForeColor = &H80000012
+    
+    Frame_Data.ForeColor = &H8000000D
+    Frame_Data.BorderColor = &H8000000D
+End Sub
+
+Private Sub Data_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    data.BorderColor = &H8000000A
+    data.BackColor = &H80000005
+    Label_Data.ForeColor = &H80000011
+End Sub
+
+Private Sub Frame_Data_Enter()
+
+    data.BorderColor = &H8000000D
+    data.BackColor = &H80000002
+    Label_Data.ForeColor = &H80000012
+    
+    Frame_Data.ForeColor = &H8000000D
+    Frame_Data.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_Data_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    data.BorderColor = &H8000000A
+    data.BackColor = &H80000005
+    Label_Data.ForeColor = &H80000011
+    
+    Frame_Data.ForeColor = &H8000000A
+    Frame_Data.BorderColor = &H8000000A
+End Sub
+
+Private Sub txt_Valor_Enter()
+
+    txt_Valor.BorderColor = &H8000000D
+    txt_Valor.BackColor = &H80000002
+    Label_Valores.ForeColor = &H80000012
+    Frame_Valores.BorderColor = &H8000000D
+End Sub
+
+Private Sub txt_Valor_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    txt_Valor.BorderColor = &H8000000A
+    txt_Valor.BackColor = &H80000005
+    Label_Valores.ForeColor = &H80000011
+End Sub
+
+Private Sub Frame_Valores_Enter()
+
+    txt_Valor.BorderColor = &H8000000D
+    txt_Valor.BackColor = &H80000002
+    Label_Valores.ForeColor = &H80000012
+    
+    Frame_Valores.ForeColor = &H8000000D
+    Frame_Valores.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_Valores_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    txt_Valor.BorderColor = &H8000000A
+    txt_Valor.BackColor = &H80000005
+    Label_Valores.ForeColor = &H80000011
+    
+    Frame_Valores.ForeColor = &H8000000A
+    Frame_Valores.BorderColor = &H8000000A
+End Sub
+
+Private Sub TextBoxPesquisa_Enter()
+
+    TextBoxPesquisa.BorderColor = &H8000000D
+    TextBoxPesquisa.BackColor = &H80000002
+    Frame_Pesquisa.BorderColor = &H8000000D
+End Sub
+
+Private Sub TextBoxPesquisa_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBoxPesquisa.BorderColor = &H8000000A
+    TextBoxPesquisa.BackColor = &H80000005
+End Sub
+
+Private Sub TextBoxPesquisaFilial_Enter()
+
+    TextBoxPesquisaFilial.BorderColor = &H8000000D
+    TextBoxPesquisaFilial.BackColor = &H80000002
+    Fame_PesquisaFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub TextBoxPesquisaFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBoxPesquisaFilial.BorderColor = &H8000000A
+    TextBoxPesquisaFilial.BackColor = &H80000005
+End Sub
+
+Private Sub ListBoxLista2_Enter()
+
+    ListBoxLista2.BorderColor = &H8000000D
+End Sub
+
+Private Sub ListBoxLista2_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ListBoxLista2.BorderColor = &H8000000A
+End Sub
+
+Private Sub Fame_PesquisaFilial_Enter()
+
+    Fame_PesquisaFilial.ForeColor = &H8000000D
+    Fame_PesquisaFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub Fame_PesquisaFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+  
+    Fame_PesquisaFilial.ForeColor = &H80000011
+    Fame_PesquisaFilial.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_Pesquisa_Enter()
+
+    Frame_Pesquisa.ForeColor = &H8000000D
+    Frame_Pesquisa.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_Pesquisa_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+  
+    Frame_Pesquisa.ForeColor = &H80000011
+    Frame_Pesquisa.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_Ações_Enter()
+
+    Frame_Ações.ForeColor = &H8000000D
+    Frame_Ações.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_Ações_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    Frame_Ações.ForeColor = &H8000000A
+    Frame_Ações.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_AçõesFilial_Enter()
+
+    Frame_AçõesFilial.ForeColor = &H8000000D
+    Frame_AçõesFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_AçõesFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    Frame_AçõesFilial.ForeColor = &H8000000A
+    Frame_AçõesFilial.BorderColor = &H8000000A
+End Sub
+
+Private Sub FrameMenu_Enter()
+
+    FrameMenu.ForeColor = &H8000000D
+    FrameMenu.BorderColor = &H8000000D
+        
+    ListBoxLista.BorderColor = &H8000000A
+    ListBoxLista.BackColor = &H80000005
+      
+    ListBoxLista2.BorderColor = &H8000000A
+    ListBoxLista2.BackColor = &H80000005
+          
+    Frame_Pesquisa.ForeColor = &H80000011
+    Frame_Pesquisa.BorderColor = &H8000000A
+      
+    Fame_PesquisaFilial.ForeColor = &H80000011
+    Fame_PesquisaFilial.BorderColor = &H8000000A
+End Sub
+
+Private Sub FrameMenu_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+    
+    FrameMenu.ForeColor = &H8000000A
+    FrameMenu.BorderColor = &H8000000A
+        
+    ListBoxLista2.BorderColor = &H8000000A
+    ListBoxLista2.BackColor = &H80000005
+End Sub
+
+Private Sub ComboBox_OperaçãoFilial_Enter()
+
+    ComboBox_OperaçãoFilial.BorderColor = &H8000000D
+    ComboBox_OperaçãoFilial.BackColor = &H80000002
+    Label_OperaçãoFilial.ForeColor = &H80000012
+    Frame_Dados_da_NFeFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub ComboBox_OperaçãoFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_OperaçãoFilial.BorderColor = &H8000000A
+    ComboBox_OperaçãoFilial.BackColor = &H80000005
+    Label_OperaçãoFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub N_NfeFilial_Enter()
+
+    N_NfeFilial.BorderColor = &H8000000D
+    N_NfeFilial.BackColor = &H80000002
+    Label_N_NfeFilial.ForeColor = &H80000012
+    Frame_Dados_da_NFeFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub N_NfeFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+'Verifica se existe células com o mesmo valor
+Dim vernumeronfe As Double
+Dim planilha As Worksheet
+Set planilha = ThisWorkbook.Worksheets("Entradas Filial")
+vernumeronfe = WorksheetFunction.CountIf(planilha.Range("A:A"), N_NfeFilial.text)
+
+If N_NfeFilial.text = "" Then
+        Exit Sub
+End If
+
+If vernumeronfe > 0 Then
+        MsgBox "Numero da NFe já cadastrado!", vbCritical, "Numero da NFe"
+        LabelStatus = "Numero da NFe já cadastrado!"
+        N_NfeFilial.BorderColor = &HFF&
+        N_NfeFilial.BackColor = &H8080FF
+        N_NfeFilial.ForeColor = &HC0&
+        Exit Sub
+End If
+
+    N_NfeFilial.BorderColor = &H8000000A
+    N_NfeFilial.BackColor = &H80000005
+    Label_N_NfeFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub UNFilial_Enter()
+
+    UNFilial.BorderColor = &H8000000D
+    UNFilial.BackColor = &H80000002
+    Label_UNFilial.ForeColor = &H80000012
+    Frame_Dados_da_NFeFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub UNFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    UNFilial.BorderColor = &H8000000A
+    UNFilial.BackColor = &H80000005
+    Label_UNFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub Frame_Dados_da_NFeFilial_Enter()
+
+    Frame_Dados_da_NFeFilial.ForeColor = &H8000000D
+    Frame_Dados_da_NFeFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_Dados_da_NFeFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_OperaçãoFilial.BorderColor = &H8000000A
+    ComboBox_OperaçãoFilial.BackColor = &H80000005
+    Label_OperaçãoFilial.ForeColor = &H80000011
+
+    N_NfeFilial.BorderColor = &H8000000A
+    N_NfeFilial.BackColor = &H80000005
+    Label_N_NfeFilial.ForeColor = &H80000011
+    
+    UNFilial.BorderColor = &H8000000A
+    UNFilial.BackColor = &H80000005
+    Label_UNFilial.ForeColor = &H80000011
+    
+    Frame_Dados_da_NFeFilial.BorderColor = &H8000000A
+    Frame_Dados_da_NFeFilial.ForeColor = &H8000000A
+End Sub
+
+Private Sub PLACAFilial_Enter()
+
+    PLACAFilial.BorderColor = &H8000000D
+    PLACAFilial.BackColor = &H80000002
+    Label_PLACAFilial.ForeColor = &H80000012
+    Frame_VeículoFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub PLACAFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    PLACAFilial.BorderColor = &H8000000A
+    PLACAFilial.BackColor = &H80000005
+    Label_PLACAFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub CODFilial_Enter()
+
+    CODFilial.BorderColor = &H8000000D
+    CODFilial.BackColor = &H80000002
+    Label_CODFilial.ForeColor = &H80000012
+    Frame_VeículoFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub CODFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    CODFilial.BorderColor = &H8000000A
+    CODFilial.BackColor = &H80000005
+    Label_CODFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub Combo_ANO_MODFilial_Enter()
+
+    Combo_ANO_MODFilial.BorderColor = &H8000000D
+    Combo_ANO_MODFilial.BackColor = &H80000002
+    Label_ANO_MODFilial.ForeColor = &H80000012
+    Frame_VeículoFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub Combo_ANO_MODFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    Combo_ANO_MODFilial.BorderColor = &H8000000A
+    Combo_ANO_MODFilial.BackColor = &H80000005
+    Label_ANO_MODFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_CORFilial_Enter()
+
+    ComboBox_CORFilial.BorderColor = &H8000000D
+    ComboBox_CORFilial.BackColor = &H80000002
+    Label_CORFilial.ForeColor = &H80000012
+    Frame_VeículoFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub ComboBox_CORFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_CORFilial.BorderColor = &H8000000A
+    ComboBox_CORFilial.BackColor = &H80000005
+    Label_CORFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_VEÍCULOFilial_Enter()
+
+    ComboBox_VEÍCULOFilial.BorderColor = &H8000000D
+    ComboBox_VEÍCULOFilial.BackColor = &H80000002
+    Label_VEÍCULOFilial.ForeColor = &H80000012
+    Frame_VeículoFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub ComboBox_VEÍCULOFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_VEÍCULOFilial.BorderColor = &H8000000A
+    ComboBox_VEÍCULOFilial.BackColor = &H80000005
+    Label_VEÍCULOFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub Frame_VeículoFilial_Enter()
+
+    Frame_VeículoFilial.ForeColor = &H8000000D
+    Frame_VeículoFilial.BorderColor = &H8000000D
+    
+    TextBoxChaveDeAcessoFilial.BorderColor = &H8000000A
+    TextBoxChaveDeAcessoFilial.BackColor = &H80000005
+    LabelChaveDeAcessoFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub Frame_VeículoFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    CODFilial.BorderColor = &H8000000A
+    CODFilial.BackColor = &H80000005
+    Label_CODFilial.ForeColor = &H80000011
+        
+    ComboBox_VEÍCULOFilial.BorderColor = &H8000000A
+    ComboBox_VEÍCULOFilial.BackColor = &H80000005
+    Label_VEÍCULOFilial.ForeColor = &H80000011
+    
+    PLACAFilial.BorderColor = &H8000000A
+    PLACAFilial.BackColor = &H80000005
+    Label_PLACAFilial.ForeColor = &H80000011
+    
+    ComboBox_CORFilial.BorderColor = &H8000000A
+    ComboBox_CORFilial.BackColor = &H80000005
+    Label_CORFilial.ForeColor = &H80000011
+        
+    Combo_ANO_MODFilial.BorderColor = &H8000000A
+    Combo_ANO_MODFilial.BackColor = &H80000005
+    Label_ANO_MODFilial.ForeColor = &H80000011
+    
+    Frame_VeículoFilial.BorderColor = &H8000000A
+    Frame_VeículoFilial.ForeColor = &H8000000A
+End Sub
+
+Private Sub DataFilial_Enter()
+
+    DataFilial.BorderColor = &H8000000D
+    DataFilial.BackColor = &H80000002
+    Label_DataFilial.ForeColor = &H80000012
+    
+    Frame_DataFilial.ForeColor = &H8000000D
+    Frame_DataFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub DataFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    DataFilial.BorderColor = &H8000000A
+    DataFilial.BackColor = &H80000005
+    Label_DataFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub Frame_DataFilial_Enter()
+
+    DataFilial.BorderColor = &H8000000D
+    DataFilial.BackColor = &H80000002
+    Label_DataFilial.ForeColor = &H80000012
+    
+    Frame_DataFilial.ForeColor = &H8000000D
+    Frame_DataFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_DataFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    DataFilial.BorderColor = &H8000000A
+    DataFilial.BackColor = &H80000005
+    Label_DataFilial.ForeColor = &H80000011
+    
+    Frame_DataFilial.ForeColor = &H8000000A
+    Frame_DataFilial.BorderColor = &H8000000A
+End Sub
+
+Private Sub txt_ValorFilial_Enter()
+
+    txt_ValorFilial.BorderColor = &H8000000D
+    txt_ValorFilial.BackColor = &H80000002
+    Label_ValoresFilial.ForeColor = &H80000012
+    Frame_ValoresFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub txt_ValorFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    txt_ValorFilial.BorderColor = &H8000000A
+    txt_ValorFilial.BackColor = &H80000005
+    Label_ValoresFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub Frame_ValoresFilial_Enter()
+
+    txt_ValorFilial.BorderColor = &H8000000D
+    txt_ValorFilial.BackColor = &H80000002
+    Label_ValoresFilial.ForeColor = &H80000012
+    
+    Frame_ValoresFilial.ForeColor = &H8000000D
+    Frame_ValoresFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_ValoresFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    txt_ValorFilial.BorderColor = &H8000000A
+    txt_ValorFilial.BackColor = &H80000005
+    Label_ValoresFilial.ForeColor = &H80000011
+    
+    Frame_ValoresFilial.ForeColor = &H8000000A
+    Frame_ValoresFilial.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_PesquisaFilial_Enter()
+
+    Fame_PesquisaFilial.ForeColor = &H8000000D
+    Fame_PesquisaFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_PesquisaFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBoxPesquisaFilial.BorderColor = &H8000000A
+    TextBoxPesquisaFilial.BackColor = &H80000005
+  
+    Fame_PesquisaFilial.ForeColor = &H80000011
+    Fame_PesquisaFilial.BorderColor = &H8000000A
+End Sub
+
+Private Sub PLACA_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = Asc(UCase(Chr(KeyAscii)))
+End Sub
+
+Private Sub PLACA_AfterUpdate()
+    
+    Me.PLACA = UCase(Me.PLACA)
+End Sub
+
+Private Function SóNúmeros(l As IReturnInteger)
+    Select Case l
+        Case Asc("0") To Asc("9")
+            SóNúmeros = l
+        Case Else
+            SóNúmeros = 0
+            MsgBox "Favor inserir apenas números!", vbExclamation, "CAMPO TIPO NÚMERO"
+    End Select
+End Function
+
+Private Sub N_Nfe_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub UN_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub COD_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub txt_Valor_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub N_NfeFilial_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub UNFilial_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub CODFilial_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub txt_ValorFilial_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub CommandButtonCelEsquerda_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonCelEsquerda_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    CommandButtonCelEsquerda.PicturePosition = fmPicturePositionRightTop
+End Sub
+
+Private Sub CommandButtonCelEsquerda_MouseUp(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+        
+    CommandButtonCelEsquerda.PicturePosition = fmPicturePositionCenter
+End Sub
+
+Private Sub CommandButtonCelDireita_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonCelDireita_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    CommandButtonCelDireita.PicturePosition = fmPicturePositionRightTop
+End Sub
+
+Private Sub CommandButtonCelDireita_MouseUp(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+        
+    CommandButtonCelDireita.PicturePosition = fmPicturePositionCenter
+End Sub
+
+Private Sub CommandButtonCelAcima_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonCelAcima_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    CommandButtonCelAcima.PicturePosition = fmPicturePositionRightTop
+End Sub
+
+Private Sub CommandButtonCelAcima_MouseUp(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+        
+    CommandButtonCelAcima.PicturePosition = fmPicturePositionCenter
+End Sub
+
+Private Sub CommandButtonCelAbaixo_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonCelAbaixo_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    CommandButtonCelAbaixo.PicturePosition = fmPicturePositionRightTop
+End Sub
+
+Private Sub CommandButtonCelAbaixo_MouseUp(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+        
+    CommandButtonCelAbaixo.PicturePosition = fmPicturePositionCenter
+End Sub
+
+Private Sub CommandButtonCelCopiar_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonCelCopiar_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    CommandButtonCelCopiar.PicturePosition = fmPicturePositionRightTop
+End Sub
+
+Private Sub CommandButtonCelCopiar_MouseUp(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+        
+    CommandButtonCelCopiar.PicturePosition = fmPicturePositionCenter
+End Sub
+
+Private Sub CommandButtonCelEsquerda_Click()
+    UF_NavegarCelula Me, 0, -1
+    Me.LabelConteudoCélula.BorderStyle = fmBorderStyleSingle
+    Me.LabelConteudoCélula.BorderColor = &HFF&
+End Sub
+
+Private Sub CommandButtonCelDireita_Click()
+    UF_NavegarCelula Me, 0, 1
+    Me.LabelConteudoCélula.BorderStyle = fmBorderStyleSingle
+    Me.LabelConteudoCélula.BorderColor = &HFF&
+End Sub
+
+Private Sub CommandButtonCelAcima_Click()
+    UF_NavegarCelula Me, -1, 0
+    Me.LabelConteudoCélula.BorderStyle = fmBorderStyleSingle
+    Me.LabelConteudoCélula.BorderColor = &HFF&
+End Sub
+
+Private Sub CommandButtonCelAbaixo_Click()
+    UF_NavegarCelula Me, 1, 0
+    Me.LabelConteudoCélula.BorderStyle = fmBorderStyleSingle
+    Me.LabelConteudoCélula.BorderColor = &HFF&
+End Sub
+
+Private Sub CommandButtonCelCopiar_Click()
+    UF_CopiarCelula Me, True 'True = copia como aparece (ActiveCell.Text)
+End Sub
+
+Private Sub AtualizaPainelCelula()
+    On Error Resume Next
+    If Not ActiveCell Is Nothing Then
+        If ControleExiste(Me, "LabelCelAtual") Then Me.Controls("LabelCelAtual").CAPTION = ActiveCell.Address(False, False)
+        If ControleExiste(Me, "LabelCelValor") Then Me.Controls("LabelCelValor").CAPTION = CStr(ActiveCell.text)
+    End If
+End Sub
+
+Private Function ControleExiste(frm As Object, ByVal nome As String) As Boolean
+    On Error GoTo FIM
+    Dim tmp As Object
+    Set tmp = frm.Controls(nome)
+    ControleExiste = True
+    Exit Function
+FIM:
+    ControleExiste = False
+End Function
+
+
+

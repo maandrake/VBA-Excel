@@ -1,0 +1,17 @@
+﻿{
+    "Timestamp":  "2026-10-31T17:16:51.0956417-03:00",
+    "Status":  "BLOQUEADO",
+    "SecurityChanged":  false,
+    "ImportedModules":  0,
+    "VbaCompiled":  false,
+    "VbaExecuted":  false,
+    "ExcelVersion":  "16.0",
+    "ExcelBuild":  20527,
+    "AutomationSecurityObserved":  1,
+    "ExcelMachine":  "0x8664",
+    "ExcelArchitecture":  "x64",
+    "FixtureWorkbook":  "Pasta1",
+    "ErrorOriginal":  "System.Management.Automation.MethodInvocationException: Exceção ao chamar \"InvokeMember\" com \"5\" argumento(s): \"O acesso de programação ao projeto do Visual Basic não é confiável\n\" ---\u003e System.Runtime.InteropServices.COMException: O acesso de programação ao projeto do Visual Basic não é confiável\n\r\n   --- Fim do rastreamento de pilha de exceções internas ---\r\n   em System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   em System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)\r\n   em System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)\r\n   em System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)",
+    "RootMessage":  "O acesso de programação ao projeto do Visual Basic não é confiável\n",
+    "HResult":  "0x800A03EC"
+}

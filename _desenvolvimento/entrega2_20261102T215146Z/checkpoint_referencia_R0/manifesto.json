@@ -1,0 +1,22 @@
+{
+  "at": "2026-11-02T22:28:03.703Z",
+  "revision": 5,
+  "evidence": "resultados_entrega2_referencia.tsv",
+  "files": [
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_referencia_R0\\Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "sha256": "5dab2d5291a8baf5837a378b6077162ae09fb0f254491c838e508cfdc2b7f2ef"
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_referencia_R0\\Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "sha256": "445475e5cc0df8a7d53b02af5a27be8f5e54ea304185958736750a94c8d8c349"
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\resultados_entrega2_referencia.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_referencia_R0\\resultados_entrega2_referencia.tsv",
+      "sha256": "a1e328d85e6c9330e18c9b4ff636f9f7924102bd1f88c638b6fe3ff4750755bb"
+    }
+  ]
+}

@@ -1,0 +1,631 @@
+﻿{
+    "Provider":  "Microsoft.ACE.OLEDB.16.0",
+    "Architecture":  64,
+    "CapturedUTC":  "2026-11-02T20:11:55.2259782Z",
+    "Database":  "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Banco_Candidato_Sintetico.accdb",
+    "Meta":  [
+                 {
+                     "ID":  1,
+                     "BaseID":  "69C72E8F-65EF-4904-8433-A1B2006CC968",
+                     "SchemaNo":  5,
+                     "RevisionNo":  8,
+                     "WriteState":  "READY",
+                     "IntegrityReason":  "NONE",
+                     "LineageID":  "69C72E8F-65EF-4904-8433-A1B2006CC968",
+                     "SchemaHash":  "5541366b16c06378def7c9e29a067696a43246e14e0567a57c0509ad0816c114"
+                 }
+             ],
+    "CandidateSettings":  [
+                              {
+                                  "ID":  1,
+                                  "BaseID":  "69C72E8F-65EF-4904-8433-A1B2006CC968",
+                                  "AuthorityPath":  "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Banco_Candidato_Sintetico.accdb",
+                                  "WorkbookID":  "82672856-FF25-46D4-8200-BD962421F587",
+                                  "ContractVersion":  1,
+                                  "ProjectionState":  "VERIFIED"
+                              }
+                          ],
+    "WriterLease":  [
+                        {
+                            "ID":  1,
+                            "OwnerID":  "",
+                            "FenceNo":  26,
+                            "StatusText":  "FREE"
+                        }
+                    ],
+    "Vehicles":  [
+                     {
+                         "VehicleID":  "4C90AD75-3147-4A52-BA59-2CE40CCB3AC5",
+                         "Plate":  "FIC5A01"
+                     },
+                     {
+                         "VehicleID":  "E9561304-9342-497F-9552-796576ACC5CA",
+                         "Plate":  "FIC5B02"
+                     },
+                     {
+                         "VehicleID":  "43FA911A-6763-4F6F-B0DF-62DABCDF2602",
+                         "Plate":  "FIC5C03"
+                     }
+                 ],
+    "Episodes":  [
+                     {
+                         "EpisodeID":  "E1277937-01B1-424E-AA90-F47536A2F756",
+                         "VehicleID":  "4C90AD75-3147-4A52-BA59-2CE40CCB3AC5",
+                         "VersionNo":  2,
+                         "StatusText":  "CLOSED",
+                         "CurrentPID":  "260597A6-B08D-4936-B2D7-6A547CE48F8D",
+                         "PlaceCode":  "MATRIZ",
+                         "CurrentEpisodeID":  "E1277937-01B1-424E-AA90-F47536A2F756"
+                     },
+                     {
+                         "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                         "VehicleID":  "E9561304-9342-497F-9552-796576ACC5CA",
+                         "VersionNo":  4,
+                         "StatusText":  "ACTIVE",
+                         "CurrentPID":  "3D4A7B2F-A60C-4401-B629-8212FD094E80",
+                         "PlaceCode":  "FILIAL",
+                         "CurrentEpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4"
+                     },
+                     {
+                         "EpisodeID":  "946421AC-FDB7-4697-A73D-A3B767741805",
+                         "VehicleID":  "4C90AD75-3147-4A52-BA59-2CE40CCB3AC5",
+                         "VersionNo":  1,
+                         "StatusText":  "ACTIVE",
+                         "CurrentPID":  "B7D21E76-F860-4BFB-A485-ED44695D08AD",
+                         "PlaceCode":  "MATRIZ",
+                         "CurrentEpisodeID":  "946421AC-FDB7-4697-A73D-A3B767741805"
+                     },
+                     {
+                         "EpisodeID":  "605B816B-B20E-4B0D-B3EA-6983A3C1FDD5",
+                         "VehicleID":  "43FA911A-6763-4F6F-B0DF-62DABCDF2602",
+                         "VersionNo":  1,
+                         "StatusText":  "ACTIVE",
+                         "CurrentPID":  "97BFB344-6484-43D9-97A7-A09829F234E9",
+                         "PlaceCode":  "FILIAL",
+                         "CurrentEpisodeID":  "605B816B-B20E-4B0D-B3EA-6983A3C1FDD5"
+                     }
+                 ],
+    "Movements":  [
+                      {
+                          "MovementID":  "7DDDE4AD-1372-4FFE-A2BE-D298F2ABAE49",
+                          "OperationID":  "7651663B-DE5F-4E77-9EAA-BF8BD7D6A5B4",
+                          "EpisodeID":  "E1277937-01B1-424E-AA90-F47536A2F756",
+                          "KindText":  "ENTRY"
+                      },
+                      {
+                          "MovementID":  "16ABF54B-774D-4524-8F58-7C53FEC342F7",
+                          "OperationID":  "1DC32E56-2E6D-4995-8252-1DF6DDCD491E",
+                          "EpisodeID":  "E1277937-01B1-424E-AA90-F47536A2F756",
+                          "KindText":  "SALE"
+                      },
+                      {
+                          "MovementID":  "E74BBE08-E97C-4675-99E1-4EF263FBF75B",
+                          "OperationID":  "272C4CBB-7562-4A92-ABF7-5A66FB8A6D49",
+                          "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                          "KindText":  "ENTRY"
+                      },
+                      {
+                          "MovementID":  "789B7B7D-D475-4DBF-AFF3-76A13C1FE920",
+                          "OperationID":  "61B8991E-80FF-43A9-8A51-2D80ED2405D6",
+                          "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                          "KindText":  "TRANSFER"
+                      },
+                      {
+                          "MovementID":  "45F06BBD-01A7-4E06-98AC-2A0BFDCDD42E",
+                          "OperationID":  "C81C3462-AF9F-49C5-BBC5-B9EE5E05B2C8",
+                          "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                          "KindText":  "RETURN"
+                      },
+                      {
+                          "MovementID":  "2D556F2C-A5AA-478C-8BA7-D5BDAC1C97EC",
+                          "OperationID":  "C6482E33-C91B-4A94-AAB1-9AC0015319C0",
+                          "EpisodeID":  "946421AC-FDB7-4697-A73D-A3B767741805",
+                          "KindText":  "ENTRY"
+                      },
+                      {
+                          "MovementID":  "7841E25B-6599-409A-A6B5-6718832BA61E",
+                          "OperationID":  "EFEE68AC-572B-443F-BDD7-CD9F36653591",
+                          "EpisodeID":  "605B816B-B20E-4B0D-B3EA-6983A3C1FDD5",
+                          "KindText":  "ENTRY"
+                      },
+                      {
+                          "MovementID":  "F704EF8A-BC17-43AA-A6D5-63D1F96E4770",
+                          "OperationID":  "7B2B1ECF-42A9-4A47-8EA9-4DD970DEEAD4",
+                          "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                          "KindText":  "TRANSFER"
+                      }
+                  ],
+    "Operations":  [
+                       {
+                           "OperationID":  "7651663B-DE5F-4E77-9EAA-BF8BD7D6A5B4",
+                           "EpisodeID":  "E1277937-01B1-424E-AA90-F47536A2F756",
+                           "ExpectedVersion":  0,
+                           "KindText":  "ENTRY",
+                           "AmountIn":  900,
+                           "AmountOut":  0.0000,
+                           "CommandCanon":  "14:String:SCHEMA243:String:69C72E8F-65EF-4904-8433-A1B2006CC96843:String:7651663B-DE5F-4E77-9EAA-BF8BD7D6A5B443:String:E1277937-01B1-424E-AA90-F47536A2F7566:Long:012:String:ENTRY10:M4:90000004:M4:017:String:2026-11-0112:String:1100151:String:01234567890123456789012345678901234567890123500:String:\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5A\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5A01\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e11001\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VALOR\"\u003e900.0000\u003c/f\u003e\u003cf n=\"VIN\"\u003e900.0000\u003c/f\u003e\u003cf n=\"VOUT\"\u003e0.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e01234567890123456789012345678901234567890123\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eCompra\u003c/f\u003e\u003cf n=\"KIND\"\u003eENTRY\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e11001\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n43:String:3CE806EA-CE6B-45CA-901E-57E1279E680543:String:7DDDE4AD-1372-4FFE-A2BE-D298F2ABAE49",
+                           "SourceCanon":  "43:String:E1277937-01B1-424E-AA90-F47536A2F7566:Long:010:String:NEW",
+                           "PlannedPID":  "3CE806EA-CE6B-45CA-901E-57E1279E6805",
+                           "PlannedMID":  "7DDDE4AD-1372-4FFE-A2BE-D298F2ABAE49",
+                           "StatusText":  "CONFIRMED",
+                           "CivilDate":  "2026-11-01",
+                           "DocNumber":  "11001",
+                           "AccessKey":  "01234567890123456789012345678901234567890123",
+                           "PayloadText":  "\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5A\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5A01\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e11001\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VALOR\"\u003e900.0000\u003c/f\u003e\u003cf n=\"VIN\"\u003e900.0000\u003c/f\u003e\u003cf n=\"VOUT\"\u003e0.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e01234567890123456789012345678901234567890123\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eCompra\u003c/f\u003e\u003cf n=\"KIND\"\u003eENTRY\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e11001\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n",
+                           "CommandVersion":  2,
+                           "CommandHash":  "da95864707bf2b0467848aca9e29478b5520a9c8e67a6c3a486d58518c137a73",
+                           "SourceHash":  "638a2712f61ebff8c8c0be38e79fc90e4800cc7de78ebbd8fd52356ef35a857b"
+                       },
+                       {
+                           "OperationID":  "1DC32E56-2E6D-4995-8252-1DF6DDCD491E",
+                           "EpisodeID":  "E1277937-01B1-424E-AA90-F47536A2F756",
+                           "ExpectedVersion":  1,
+                           "KindText":  "SALE",
+                           "AmountIn":  900,
+                           "AmountOut":  1000,
+                           "CommandCanon":  "14:String:SCHEMA243:String:69C72E8F-65EF-4904-8433-A1B2006CC96843:String:1DC32E56-2E6D-4995-8252-1DF6DDCD491E43:String:E1277937-01B1-424E-AA90-F47536A2F7566:Long:111:String:SALE10:M4:900000011:M4:1000000017:String:2026-11-0112:String:2200151:String:01234567890123456789012345678901234567890123648:String:\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5A\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5A01\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e22001\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e11001\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VIN\"\u003e900.0000\u003c/f\u003e\u003cf n=\"VOUT\"\u003e1000.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e01234567890123456789012345678901234567890123\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eVenda\u003c/f\u003e\u003cf n=\"KIND\"\u003eSALE\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"ICMS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"PIS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"COFINS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"POR\"\u003e12.0000\u003c/f\u003e\u003cf n=\"XMLHASH\"\u003e726c1c67b67a4be608cdd1e59127c79fae91fe861bfde4ce369eec68420d9e28\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n43:String:260597A6-B08D-4936-B2D7-6A547CE48F8D43:String:16ABF54B-774D-4524-8F58-7C53FEC342F7",
+                           "SourceCanon":  "43:String:E1277937-01B1-424E-AA90-F47536A2F7566:Long:113:String:ACTIVE43:String:3CE806EA-CE6B-45CA-901E-57E1279E680543:String:E1277937-01B1-424E-AA90-F47536A2F75643:String:7DDDE4AD-1372-4FFE-A2BE-D298F2ABAE4910:M4:90000004:M4:017:String:2026-11-0112:String:1100151:String:0123456789012345678901234567890123456789012313:String:MATRIZ",
+                           "PlannedPID":  "260597A6-B08D-4936-B2D7-6A547CE48F8D",
+                           "PlannedMID":  "16ABF54B-774D-4524-8F58-7C53FEC342F7",
+                           "StatusText":  "CONFIRMED",
+                           "CivilDate":  "2026-11-01",
+                           "DocNumber":  "22001",
+                           "AccessKey":  "01234567890123456789012345678901234567890123",
+                           "PayloadText":  "\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5A\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5A01\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e22001\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e11001\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VIN\"\u003e900.0000\u003c/f\u003e\u003cf n=\"VOUT\"\u003e1000.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e01234567890123456789012345678901234567890123\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eVenda\u003c/f\u003e\u003cf n=\"KIND\"\u003eSALE\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"ICMS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"PIS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"COFINS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"POR\"\u003e12.0000\u003c/f\u003e\u003cf n=\"XMLHASH\"\u003e726c1c67b67a4be608cdd1e59127c79fae91fe861bfde4ce369eec68420d9e28\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n",
+                           "CommandVersion":  2,
+                           "CommandHash":  "19b32a7769f31ee0fd880018ea15e4f281f8416247bcc0037c6d7ffb51aa2996",
+                           "SourceHash":  "33dc32856f6144dd02e7a9e9f208edc3248458c6643911346d89568d89456e40"
+                       },
+                       {
+                           "OperationID":  "272C4CBB-7562-4A92-ABF7-5A66FB8A6D49",
+                           "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                           "ExpectedVersion":  0,
+                           "KindText":  "ENTRY",
+                           "AmountIn":  700,
+                           "AmountOut":  0.0000,
+                           "CommandCanon":  "14:String:SCHEMA243:String:69C72E8F-65EF-4904-8433-A1B2006CC96843:String:272C4CBB-7562-4A92-ABF7-5A66FB8A6D4943:String:0DED827A-C183-4FDB-8F70-4CBB022BA0D46:Long:012:String:ENTRY10:M4:70000004:M4:017:String:2026-11-0112:String:1100251:String:01234567890123456789012345678901234567890123500:String:\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5B\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5B02\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e11002\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VALOR\"\u003e700.0000\u003c/f\u003e\u003cf n=\"VIN\"\u003e700.0000\u003c/f\u003e\u003cf n=\"VOUT\"\u003e0.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e01234567890123456789012345678901234567890123\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eCompra\u003c/f\u003e\u003cf n=\"KIND\"\u003eENTRY\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e11002\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n43:String:65EC2C09-5C5A-41D9-B387-04339059B14843:String:E74BBE08-E97C-4675-99E1-4EF263FBF75B",
+                           "SourceCanon":  "43:String:0DED827A-C183-4FDB-8F70-4CBB022BA0D46:Long:010:String:NEW",
+                           "PlannedPID":  "65EC2C09-5C5A-41D9-B387-04339059B148",
+                           "PlannedMID":  "E74BBE08-E97C-4675-99E1-4EF263FBF75B",
+                           "StatusText":  "CONFIRMED",
+                           "CivilDate":  "2026-11-01",
+                           "DocNumber":  "11002",
+                           "AccessKey":  "01234567890123456789012345678901234567890123",
+                           "PayloadText":  "\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5B\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5B02\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e11002\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VALOR\"\u003e700.0000\u003c/f\u003e\u003cf n=\"VIN\"\u003e700.0000\u003c/f\u003e\u003cf n=\"VOUT\"\u003e0.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e01234567890123456789012345678901234567890123\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eCompra\u003c/f\u003e\u003cf n=\"KIND\"\u003eENTRY\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e11002\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n",
+                           "CommandVersion":  2,
+                           "CommandHash":  "c4f70931fbc48c9ac529a25ec7d857b87d42b17ada028f788c145c63837888cf",
+                           "SourceHash":  "84deb40c8db97dc9643d7129a7bb9d7558b9b108ee2a829eed1bd6b510abd9ff"
+                       },
+                       {
+                           "OperationID":  "61B8991E-80FF-43A9-8A51-2D80ED2405D6",
+                           "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                           "ExpectedVersion":  1,
+                           "KindText":  "TRANSFER",
+                           "AmountIn":  700,
+                           "AmountOut":  800,
+                           "CommandCanon":  "14:String:SCHEMA243:String:69C72E8F-65EF-4904-8433-A1B2006CC96843:String:61B8991E-80FF-43A9-8A51-2D80ED2405D643:String:0DED827A-C183-4FDB-8F70-4CBB022BA0D46:Long:115:String:TRANSFER10:M4:700000010:M4:800000017:String:2026-11-0112:String:2200251:String:01234567890123456789012345678901234567890123659:String:\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5B\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5B02\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e22002\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e11002\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VIN\"\u003e700.0000\u003c/f\u003e\u003cf n=\"VOUT\"\u003e800.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e01234567890123456789012345678901234567890123\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eTransferência\u003c/f\u003e\u003cf n=\"KIND\"\u003eTRANSFER\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eFILIAL\u003c/f\u003e\u003cf n=\"ICMS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"PIS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"COFINS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"POR\"\u003e12.0000\u003c/f\u003e\u003cf n=\"XMLHASH\"\u003e9504243baeaeea10a265af9a6a448d411814cd763374fa27f92e8fbe9a4a832d\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n43:String:B5AF0714-F8D3-4128-8F74-10E86ED8F8FF43:String:789B7B7D-D475-4DBF-AFF3-76A13C1FE920",
+                           "SourceCanon":  "43:String:0DED827A-C183-4FDB-8F70-4CBB022BA0D46:Long:113:String:ACTIVE43:String:65EC2C09-5C5A-41D9-B387-04339059B14843:String:0DED827A-C183-4FDB-8F70-4CBB022BA0D443:String:E74BBE08-E97C-4675-99E1-4EF263FBF75B10:M4:70000004:M4:017:String:2026-11-0112:String:1100251:String:0123456789012345678901234567890123456789012313:String:MATRIZ",
+                           "PlannedPID":  "B5AF0714-F8D3-4128-8F74-10E86ED8F8FF",
+                           "PlannedMID":  "789B7B7D-D475-4DBF-AFF3-76A13C1FE920",
+                           "StatusText":  "CONFIRMED",
+                           "CivilDate":  "2026-11-01",
+                           "DocNumber":  "22002",
+                           "AccessKey":  "01234567890123456789012345678901234567890123",
+                           "PayloadText":  "\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5B\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5B02\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e22002\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e11002\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VIN\"\u003e700.0000\u003c/f\u003e\u003cf n=\"VOUT\"\u003e800.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e01234567890123456789012345678901234567890123\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eTransferência\u003c/f\u003e\u003cf n=\"KIND\"\u003eTRANSFER\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eFILIAL\u003c/f\u003e\u003cf n=\"ICMS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"PIS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"COFINS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"POR\"\u003e12.0000\u003c/f\u003e\u003cf n=\"XMLHASH\"\u003e9504243baeaeea10a265af9a6a448d411814cd763374fa27f92e8fbe9a4a832d\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n",
+                           "CommandVersion":  2,
+                           "CommandHash":  "af7e38e274ab36f1d19f61722b6065b3337ba3d4ccc617a4b000c72b413c95a8",
+                           "SourceHash":  "42df888ffa6ef8cf22125f266638777374403e3ea88572e49192c705318ad076"
+                       },
+                       {
+                           "OperationID":  "C81C3462-AF9F-49C5-BBC5-B9EE5E05B2C8",
+                           "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                           "ExpectedVersion":  2,
+                           "KindText":  "RETURN",
+                           "AmountIn":  800,
+                           "AmountOut":  800,
+                           "CommandCanon":  "14:String:SCHEMA243:String:69C72E8F-65EF-4904-8433-A1B2006CC96843:String:C81C3462-AF9F-49C5-BBC5-B9EE5E05B2C843:String:0DED827A-C183-4FDB-8F70-4CBB022BA0D46:Long:213:String:RETURN10:M4:800000010:M4:800000017:String:2026-11-0112:String:3300151:String:01234567890123456789012345678901234567890123618:String:\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5B\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5B02\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e33001\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e22002\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VIN\"\u003e800.0000\u003c/f\u003e\u003cf n=\"VOUT\"\u003e800.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e01234567890123456789012345678901234567890123\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eDevolução\u003c/f\u003e\u003cf n=\"KIND\"\u003eRETURN\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eFILIAL\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"ICMS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"PIS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"COFINS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"POR\"\u003e12.0000\u003c/f\u003e\u003cf n=\"XMLHASH\"\u003eNAO_EXIGIDO_PELO_FLUXO_LEGADO\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n43:String:0F7F9C8C-FC20-4655-A7BE-4CF9D3678BC943:String:45F06BBD-01A7-4E06-98AC-2A0BFDCDD42E",
+                           "SourceCanon":  "43:String:0DED827A-C183-4FDB-8F70-4CBB022BA0D46:Long:213:String:ACTIVE43:String:B5AF0714-F8D3-4128-8F74-10E86ED8F8FF43:String:0DED827A-C183-4FDB-8F70-4CBB022BA0D443:String:789B7B7D-D475-4DBF-AFF3-76A13C1FE92010:M4:700000010:M4:800000017:String:2026-11-0112:String:2200251:String:0123456789012345678901234567890123456789012313:String:FILIAL",
+                           "PlannedPID":  "0F7F9C8C-FC20-4655-A7BE-4CF9D3678BC9",
+                           "PlannedMID":  "45F06BBD-01A7-4E06-98AC-2A0BFDCDD42E",
+                           "StatusText":  "CONFIRMED",
+                           "CivilDate":  "2026-11-01",
+                           "DocNumber":  "33001",
+                           "AccessKey":  "01234567890123456789012345678901234567890123",
+                           "PayloadText":  "\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5B\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5B02\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e33001\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e22002\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VIN\"\u003e800.0000\u003c/f\u003e\u003cf n=\"VOUT\"\u003e800.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e01234567890123456789012345678901234567890123\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eDevolução\u003c/f\u003e\u003cf n=\"KIND\"\u003eRETURN\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eFILIAL\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"ICMS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"PIS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"COFINS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"POR\"\u003e12.0000\u003c/f\u003e\u003cf n=\"XMLHASH\"\u003eNAO_EXIGIDO_PELO_FLUXO_LEGADO\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n",
+                           "CommandVersion":  2,
+                           "CommandHash":  "5704d839ce9fdf6ec99f405c63271146c69e8fc61c9286b734a19e826dc2e77a",
+                           "SourceHash":  "08d08d3d6e91db923622d1cb6682d0c9d1568cb7c42206fc1ce64c9b521c88c6"
+                       },
+                       {
+                           "OperationID":  "C6482E33-C91B-4A94-AAB1-9AC0015319C0",
+                           "EpisodeID":  "946421AC-FDB7-4697-A73D-A3B767741805",
+                           "ExpectedVersion":  0,
+                           "KindText":  "ENTRY",
+                           "AmountIn":  650.25,
+                           "AmountOut":  0.0000,
+                           "CommandCanon":  "14:String:SCHEMA243:String:69C72E8F-65EF-4904-8433-A1B2006CC96843:String:C6482E33-C91B-4A94-AAB1-9AC0015319C043:String:946421AC-FDB7-4697-A73D-A3B7677418056:Long:012:String:ENTRY10:M4:65025004:M4:017:String:2026-11-0112:String:110037:String:456:String:\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5A\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5A01\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e11003\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VALOR\"\u003e650.2500\u003c/f\u003e\u003cf n=\"VIN\"\u003e650.2500\u003c/f\u003e\u003cf n=\"VOUT\"\u003e0.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eCompra\u003c/f\u003e\u003cf n=\"KIND\"\u003eENTRY\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e11003\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n43:String:B7D21E76-F860-4BFB-A485-ED44695D08AD43:String:2D556F2C-A5AA-478C-8BA7-D5BDAC1C97EC",
+                           "SourceCanon":  "43:String:946421AC-FDB7-4697-A73D-A3B7677418056:Long:010:String:NEW",
+                           "PlannedPID":  "B7D21E76-F860-4BFB-A485-ED44695D08AD",
+                           "PlannedMID":  "2D556F2C-A5AA-478C-8BA7-D5BDAC1C97EC",
+                           "StatusText":  "CONFIRMED",
+                           "CivilDate":  "2026-11-01",
+                           "DocNumber":  "11003",
+                           "AccessKey":  "",
+                           "PayloadText":  "\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5A\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5A01\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e11003\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VALOR\"\u003e650.2500\u003c/f\u003e\u003cf n=\"VIN\"\u003e650.2500\u003c/f\u003e\u003cf n=\"VOUT\"\u003e0.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eCompra\u003c/f\u003e\u003cf n=\"KIND\"\u003eENTRY\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e11003\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n",
+                           "CommandVersion":  2,
+                           "CommandHash":  "2cb482958d0211f9b1b5b25abbff297d3a7b52013e7c962126cb00831b9e20cf",
+                           "SourceHash":  "2834c3114f080bae1188efb75e199f3834dd27cb62378d302478127665b48776"
+                       },
+                       {
+                           "OperationID":  "EFEE68AC-572B-443F-BDD7-CD9F36653591",
+                           "EpisodeID":  "605B816B-B20E-4B0D-B3EA-6983A3C1FDD5",
+                           "ExpectedVersion":  0,
+                           "KindText":  "ENTRY",
+                           "AmountIn":  450,
+                           "AmountOut":  0.0000,
+                           "CommandCanon":  "14:String:SCHEMA243:String:69C72E8F-65EF-4904-8433-A1B2006CC96843:String:EFEE68AC-572B-443F-BDD7-CD9F3665359143:String:605B816B-B20E-4B0D-B3EA-6983A3C1FDD56:Long:012:String:ENTRY10:M4:45000004:M4:017:String:2026-11-0112:String:2200451:String:01234567890123456789012345678901234567890123500:String:\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5C\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5C03\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e22004\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VALOR\"\u003e450.0000\u003c/f\u003e\u003cf n=\"VIN\"\u003e450.0000\u003c/f\u003e\u003cf n=\"VOUT\"\u003e0.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e01234567890123456789012345678901234567890123\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eFILIAL\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eFILIAL\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eCompra\u003c/f\u003e\u003cf n=\"KIND\"\u003eENTRY\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e22004\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n43:String:97BFB344-6484-43D9-97A7-A09829F234E943:String:7841E25B-6599-409A-A6B5-6718832BA61E",
+                           "SourceCanon":  "43:String:605B816B-B20E-4B0D-B3EA-6983A3C1FDD56:Long:010:String:NEW",
+                           "PlannedPID":  "97BFB344-6484-43D9-97A7-A09829F234E9",
+                           "PlannedMID":  "7841E25B-6599-409A-A6B5-6718832BA61E",
+                           "StatusText":  "CONFIRMED",
+                           "CivilDate":  "2026-11-01",
+                           "DocNumber":  "22004",
+                           "AccessKey":  "01234567890123456789012345678901234567890123",
+                           "PayloadText":  "\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5C\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5C03\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e22004\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VALOR\"\u003e450.0000\u003c/f\u003e\u003cf n=\"VIN\"\u003e450.0000\u003c/f\u003e\u003cf n=\"VOUT\"\u003e0.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e01234567890123456789012345678901234567890123\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eFILIAL\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eFILIAL\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eCompra\u003c/f\u003e\u003cf n=\"KIND\"\u003eENTRY\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e22004\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n",
+                           "CommandVersion":  2,
+                           "CommandHash":  "003868a5791c2bfff0636d23b575dd4ae78e808b6a047bae120093211cc8b388",
+                           "SourceHash":  "a9ada8610d388470a2bea6d1aaadd973545df4b7f92dd38d76f31cde894c9998"
+                       },
+                       {
+                           "OperationID":  "7B2B1ECF-42A9-4A47-8EA9-4DD970DEEAD4",
+                           "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                           "ExpectedVersion":  3,
+                           "KindText":  "TRANSFER",
+                           "AmountIn":  800,
+                           "AmountOut":  800,
+                           "CommandCanon":  "14:String:SCHEMA243:String:69C72E8F-65EF-4904-8433-A1B2006CC96843:String:7B2B1ECF-42A9-4A47-8EA9-4DD970DEEAD443:String:0DED827A-C183-4FDB-8F70-4CBB022BA0D46:Long:315:String:TRANSFER10:M4:800000010:M4:800000017:String:2026-11-0112:String:2200351:String:01234567890123456789012345678901234567890123659:String:\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5B\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5B02\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e22003\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e33001\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VIN\"\u003e800.0000\u003c/f\u003e\u003cf n=\"VOUT\"\u003e800.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e01234567890123456789012345678901234567890123\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eTransferência\u003c/f\u003e\u003cf n=\"KIND\"\u003eTRANSFER\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eFILIAL\u003c/f\u003e\u003cf n=\"ICMS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"PIS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"COFINS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"POR\"\u003e12.0000\u003c/f\u003e\u003cf n=\"XMLHASH\"\u003e9d50e578c2304483978bf2fa70a3384b735782794c0c8fddb54f2ff46835810f\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n43:String:3D4A7B2F-A60C-4401-B629-8212FD094E8043:String:F704EF8A-BC17-43AA-A6D5-63D1F96E4770",
+                           "SourceCanon":  "43:String:0DED827A-C183-4FDB-8F70-4CBB022BA0D46:Long:313:String:ACTIVE43:String:0F7F9C8C-FC20-4655-A7BE-4CF9D3678BC943:String:0DED827A-C183-4FDB-8F70-4CBB022BA0D443:String:45F06BBD-01A7-4E06-98AC-2A0BFDCDD42E10:M4:800000010:M4:800000017:String:2026-11-0112:String:3300151:String:0123456789012345678901234567890123456789012313:String:MATRIZ",
+                           "PlannedPID":  "3D4A7B2F-A60C-4401-B629-8212FD094E80",
+                           "PlannedMID":  "F704EF8A-BC17-43AA-A6D5-63D1F96E4770",
+                           "StatusText":  "CONFIRMED",
+                           "CivilDate":  "2026-11-01",
+                           "DocNumber":  "22003",
+                           "AccessKey":  "01234567890123456789012345678901234567890123",
+                           "PayloadText":  "\u003cCandidatePayload version=\"1\"\u003e\u003cf n=\"MODEL\"\u003eFICTICIO A\u003c/f\u003e\u003cf n=\"COD\"\u003eF5B\u003c/f\u003e\u003cf n=\"PLATE\"\u003eFIC5B02\u003c/f\u003e\u003cf n=\"ANO\"\u003e2026\u003c/f\u003e\u003cf n=\"COR\"\u003eBRANCO\u003c/f\u003e\u003cf n=\"UN\"\u003e1\u003c/f\u003e\u003cf n=\"OUTRO\"\u003eTESTE\u003c/f\u003e\u003cf n=\"NFE\"\u003e22003\u003c/f\u003e\u003cf n=\"ENTRYDOC\"\u003e33001\u003c/f\u003e\u003cf n=\"DATA\"\u003e2026-11-01\u003c/f\u003e\u003cf n=\"VIN\"\u003e800.0000\u003c/f\u003e\u003cf n=\"VOUT\"\u003e800.0000\u003c/f\u003e\u003cf n=\"KEY\"\u003e01234567890123456789012345678901234567890123\u003c/f\u003e\u003cf n=\"OPERACAO\"\u003eTransferência\u003c/f\u003e\u003cf n=\"KIND\"\u003eTRANSFER\u003c/f\u003e\u003cf n=\"SOURCE\"\u003eMATRIZ\u003c/f\u003e\u003cf n=\"DESTINO\"\u003eFILIAL\u003c/f\u003e\u003cf n=\"ICMS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"PIS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"COFINS\"\u003e0.0000\u003c/f\u003e\u003cf n=\"POR\"\u003e12.0000\u003c/f\u003e\u003cf n=\"XMLHASH\"\u003e9d50e578c2304483978bf2fa70a3384b735782794c0c8fddb54f2ff46835810f\u003c/f\u003e\u003c/CandidatePayload\u003e\r\n",
+                           "CommandVersion":  2,
+                           "CommandHash":  "7ca1882e8be82c9ff1da924289d0c6d1de040371aa9fa91cc1213b89156c2930",
+                           "SourceHash":  "d00a615cdbe79b35f03093f2ac17eed3328d34052e93afe32b92d5eb43ce03aa"
+                       }
+                   ],
+    "Receipts":  [
+                     {
+                         "ReceiptID":  "97299F3C-A354-4752-AB3F-9896739FAFF1",
+                         "OperationID":  "7651663B-DE5F-4E77-9EAA-BF8BD7D6A5B4",
+                         "RevisionNo":  1,
+                         "EffectCanon":  "43:String:3CE806EA-CE6B-45CA-901E-57E1279E680543:String:E1277937-01B1-424E-AA90-F47536A2F75643:String:7DDDE4AD-1372-4FFE-A2BE-D298F2ABAE4910:M4:90000004:M4:017:String:2026-11-0112:String:1100151:String:0123456789012345678901234567890123456789012313:String:MATRIZ",
+                         "EpisodeID":  "E1277937-01B1-424E-AA90-F47536A2F756",
+                         "VehicleID":  "4C90AD75-3147-4A52-BA59-2CE40CCB3AC5",
+                         "BaseID":  "69C72E8F-65EF-4904-8433-A1B2006CC968",
+                         "MovementID":  "7DDDE4AD-1372-4FFE-A2BE-D298F2ABAE49",
+                         "ProjectionID":  "3CE806EA-CE6B-45CA-901E-57E1279E6805",
+                         "PreviousHash":  "GENESIS",
+                         "ReceiptHash":  "e56f9367f96ca73236530ae0d4133a08180670369592ba60d804916ede671a7a"
+                     },
+                     {
+                         "ReceiptID":  "2C31CCB2-E261-4B22-A9C8-03418250CD3A",
+                         "OperationID":  "1DC32E56-2E6D-4995-8252-1DF6DDCD491E",
+                         "RevisionNo":  2,
+                         "EffectCanon":  "43:String:260597A6-B08D-4936-B2D7-6A547CE48F8D43:String:E1277937-01B1-424E-AA90-F47536A2F75643:String:16ABF54B-774D-4524-8F58-7C53FEC342F710:M4:900000011:M4:1000000017:String:2026-11-0112:String:2200151:String:0123456789012345678901234567890123456789012313:String:MATRIZ",
+                         "EpisodeID":  "E1277937-01B1-424E-AA90-F47536A2F756",
+                         "VehicleID":  "4C90AD75-3147-4A52-BA59-2CE40CCB3AC5",
+                         "BaseID":  "69C72E8F-65EF-4904-8433-A1B2006CC968",
+                         "MovementID":  "16ABF54B-774D-4524-8F58-7C53FEC342F7",
+                         "ProjectionID":  "260597A6-B08D-4936-B2D7-6A547CE48F8D",
+                         "PreviousHash":  "e56f9367f96ca73236530ae0d4133a08180670369592ba60d804916ede671a7a",
+                         "ReceiptHash":  "f94d49a061e53264398a1a82d57c2bb8793bf6cf2e14718bde1a54b06c998ef6"
+                     },
+                     {
+                         "ReceiptID":  "A1353350-E72F-47F7-B660-8EE6FC7DCCBE",
+                         "OperationID":  "272C4CBB-7562-4A92-ABF7-5A66FB8A6D49",
+                         "RevisionNo":  3,
+                         "EffectCanon":  "43:String:65EC2C09-5C5A-41D9-B387-04339059B14843:String:0DED827A-C183-4FDB-8F70-4CBB022BA0D443:String:E74BBE08-E97C-4675-99E1-4EF263FBF75B10:M4:70000004:M4:017:String:2026-11-0112:String:1100251:String:0123456789012345678901234567890123456789012313:String:MATRIZ",
+                         "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                         "VehicleID":  "E9561304-9342-497F-9552-796576ACC5CA",
+                         "BaseID":  "69C72E8F-65EF-4904-8433-A1B2006CC968",
+                         "MovementID":  "E74BBE08-E97C-4675-99E1-4EF263FBF75B",
+                         "ProjectionID":  "65EC2C09-5C5A-41D9-B387-04339059B148",
+                         "PreviousHash":  "f94d49a061e53264398a1a82d57c2bb8793bf6cf2e14718bde1a54b06c998ef6",
+                         "ReceiptHash":  "ae98063b65f7dab1a8beb1fd639174a5af70a1c31c63ed7e1418e513a6f8b488"
+                     },
+                     {
+                         "ReceiptID":  "108C5634-95F1-4D5B-847E-8FBBBEF51582",
+                         "OperationID":  "61B8991E-80FF-43A9-8A51-2D80ED2405D6",
+                         "RevisionNo":  4,
+                         "EffectCanon":  "43:String:B5AF0714-F8D3-4128-8F74-10E86ED8F8FF43:String:0DED827A-C183-4FDB-8F70-4CBB022BA0D443:String:789B7B7D-D475-4DBF-AFF3-76A13C1FE92010:M4:700000010:M4:800000017:String:2026-11-0112:String:2200251:String:0123456789012345678901234567890123456789012313:String:FILIAL",
+                         "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                         "VehicleID":  "E9561304-9342-497F-9552-796576ACC5CA",
+                         "BaseID":  "69C72E8F-65EF-4904-8433-A1B2006CC968",
+                         "MovementID":  "789B7B7D-D475-4DBF-AFF3-76A13C1FE920",
+                         "ProjectionID":  "B5AF0714-F8D3-4128-8F74-10E86ED8F8FF",
+                         "PreviousHash":  "ae98063b65f7dab1a8beb1fd639174a5af70a1c31c63ed7e1418e513a6f8b488",
+                         "ReceiptHash":  "0e3715d2723d1c4b644e79bfc1be32f82206244881d9efb0332cdb8c754e68c2"
+                     },
+                     {
+                         "ReceiptID":  "F38E268D-0687-453F-9FCE-0D1967B85C4E",
+                         "OperationID":  "C81C3462-AF9F-49C5-BBC5-B9EE5E05B2C8",
+                         "RevisionNo":  5,
+                         "EffectCanon":  "43:String:0F7F9C8C-FC20-4655-A7BE-4CF9D3678BC943:String:0DED827A-C183-4FDB-8F70-4CBB022BA0D443:String:45F06BBD-01A7-4E06-98AC-2A0BFDCDD42E10:M4:800000010:M4:800000017:String:2026-11-0112:String:3300151:String:0123456789012345678901234567890123456789012313:String:MATRIZ",
+                         "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                         "VehicleID":  "E9561304-9342-497F-9552-796576ACC5CA",
+                         "BaseID":  "69C72E8F-65EF-4904-8433-A1B2006CC968",
+                         "MovementID":  "45F06BBD-01A7-4E06-98AC-2A0BFDCDD42E",
+                         "ProjectionID":  "0F7F9C8C-FC20-4655-A7BE-4CF9D3678BC9",
+                         "PreviousHash":  "0e3715d2723d1c4b644e79bfc1be32f82206244881d9efb0332cdb8c754e68c2",
+                         "ReceiptHash":  "7eb4e8f241f3a4e90d40f3ebc648d406e650a0ca81a2a392ae165f13627a2175"
+                     },
+                     {
+                         "ReceiptID":  "25F97AC3-AC5D-404B-AE85-302D12E5A108",
+                         "OperationID":  "C6482E33-C91B-4A94-AAB1-9AC0015319C0",
+                         "RevisionNo":  6,
+                         "EffectCanon":  "43:String:B7D21E76-F860-4BFB-A485-ED44695D08AD43:String:946421AC-FDB7-4697-A73D-A3B76774180543:String:2D556F2C-A5AA-478C-8BA7-D5BDAC1C97EC10:M4:65025004:M4:017:String:2026-11-0112:String:110037:String:13:String:MATRIZ",
+                         "EpisodeID":  "946421AC-FDB7-4697-A73D-A3B767741805",
+                         "VehicleID":  "4C90AD75-3147-4A52-BA59-2CE40CCB3AC5",
+                         "BaseID":  "69C72E8F-65EF-4904-8433-A1B2006CC968",
+                         "MovementID":  "2D556F2C-A5AA-478C-8BA7-D5BDAC1C97EC",
+                         "ProjectionID":  "B7D21E76-F860-4BFB-A485-ED44695D08AD",
+                         "PreviousHash":  "7eb4e8f241f3a4e90d40f3ebc648d406e650a0ca81a2a392ae165f13627a2175",
+                         "ReceiptHash":  "9d7151d013c6032ebdd7664d0c1e52f4b3ca3e794ae3c597a13021c8f21dc070"
+                     },
+                     {
+                         "ReceiptID":  "2557961E-C159-4CC3-92F8-B7B228144667",
+                         "OperationID":  "EFEE68AC-572B-443F-BDD7-CD9F36653591",
+                         "RevisionNo":  7,
+                         "EffectCanon":  "43:String:97BFB344-6484-43D9-97A7-A09829F234E943:String:605B816B-B20E-4B0D-B3EA-6983A3C1FDD543:String:7841E25B-6599-409A-A6B5-6718832BA61E10:M4:45000004:M4:017:String:2026-11-0112:String:2200451:String:0123456789012345678901234567890123456789012313:String:FILIAL",
+                         "EpisodeID":  "605B816B-B20E-4B0D-B3EA-6983A3C1FDD5",
+                         "VehicleID":  "43FA911A-6763-4F6F-B0DF-62DABCDF2602",
+                         "BaseID":  "69C72E8F-65EF-4904-8433-A1B2006CC968",
+                         "MovementID":  "7841E25B-6599-409A-A6B5-6718832BA61E",
+                         "ProjectionID":  "97BFB344-6484-43D9-97A7-A09829F234E9",
+                         "PreviousHash":  "9d7151d013c6032ebdd7664d0c1e52f4b3ca3e794ae3c597a13021c8f21dc070",
+                         "ReceiptHash":  "b6ac349a96690647337e71422704820cef9930bd834aa421c3b75e4db7030e32"
+                     },
+                     {
+                         "ReceiptID":  "E4CDDA92-9609-427A-8767-BB61C3844B84",
+                         "OperationID":  "7B2B1ECF-42A9-4A47-8EA9-4DD970DEEAD4",
+                         "RevisionNo":  8,
+                         "EffectCanon":  "43:String:3D4A7B2F-A60C-4401-B629-8212FD094E8043:String:0DED827A-C183-4FDB-8F70-4CBB022BA0D443:String:F704EF8A-BC17-43AA-A6D5-63D1F96E477010:M4:800000010:M4:800000017:String:2026-11-0112:String:2200351:String:0123456789012345678901234567890123456789012313:String:FILIAL",
+                         "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                         "VehicleID":  "E9561304-9342-497F-9552-796576ACC5CA",
+                         "BaseID":  "69C72E8F-65EF-4904-8433-A1B2006CC968",
+                         "MovementID":  "F704EF8A-BC17-43AA-A6D5-63D1F96E4770",
+                         "ProjectionID":  "3D4A7B2F-A60C-4401-B629-8212FD094E80",
+                         "PreviousHash":  "b6ac349a96690647337e71422704820cef9930bd834aa421c3b75e4db7030e32",
+                         "ReceiptHash":  "2b99fc0f6595531d4dfe4ad5a6d639ee3d33e161f3a127cad8c3df1a3f7d3b93"
+                     }
+                 ],
+    "SheetProjections":  [
+                             {
+                                 "ViewID":  "66542D91-A146-4D6E-AC0A-1E59DDF23D40",
+                                 "ProjectionID":  "3CE806EA-CE6B-45CA-901E-57E1279E6805",
+                                 "EpisodeID":  "E1277937-01B1-424E-AA90-F47536A2F756",
+                                 "MovementID":  "7DDDE4AD-1372-4FFE-A2BE-D298F2ABAE49",
+                                 "SheetKey":  "Entradas",
+                                 "RoleText":  "CUSTODY",
+                                 "ViewNo":  1,
+                                 "ViewHash":  "ef1a1e623959699b339adbe7dfef369547672f11c1d57fc8e65645a19855b96c"
+                             },
+                             {
+                                 "ViewID":  "AD48D575-5A94-479A-A095-1C772AB97CDC",
+                                 "ProjectionID":  "3CE806EA-CE6B-45CA-901E-57E1279E6805",
+                                 "EpisodeID":  "E1277937-01B1-424E-AA90-F47536A2F756",
+                                 "MovementID":  "7DDDE4AD-1372-4FFE-A2BE-D298F2ABAE49",
+                                 "SheetKey":  "Entradas Anual",
+                                 "RoleText":  "HISTORY_IN",
+                                 "ViewNo":  2,
+                                 "ViewHash":  "d2ddaec5784e26911476a2316dcd387c725244576789eaa275a493572cd7edbb"
+                             },
+                             {
+                                 "ViewID":  "6B42B739-D386-41D3-8622-A943AC100C5E",
+                                 "ProjectionID":  "260597A6-B08D-4936-B2D7-6A547CE48F8D",
+                                 "EpisodeID":  "E1277937-01B1-424E-AA90-F47536A2F756",
+                                 "MovementID":  "16ABF54B-774D-4524-8F58-7C53FEC342F7",
+                                 "SheetKey":  "Saidas",
+                                 "RoleText":  "EXIT",
+                                 "ViewNo":  3,
+                                 "ViewHash":  "1e53ba6f49c5dd6684bc664896aacdbca3e454eb499f9cdca214edbf466e0e58"
+                             },
+                             {
+                                 "ViewID":  "3FB50A94-DA00-4AB6-B16F-E6612B91598D",
+                                 "ProjectionID":  "260597A6-B08D-4936-B2D7-6A547CE48F8D",
+                                 "EpisodeID":  "E1277937-01B1-424E-AA90-F47536A2F756",
+                                 "MovementID":  "16ABF54B-774D-4524-8F58-7C53FEC342F7",
+                                 "SheetKey":  "Todas Saidas",
+                                 "RoleText":  "HISTORY_OUT",
+                                 "ViewNo":  4,
+                                 "ViewHash":  "8e5c4297740af7445e5dd777df0f7a207f89b4ccc860e54269295df89f4de331"
+                             },
+                             {
+                                 "ViewID":  "E2A3BD0E-F531-4E27-A6DA-1D2337E0B464",
+                                 "ProjectionID":  "65EC2C09-5C5A-41D9-B387-04339059B148",
+                                 "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                                 "MovementID":  "E74BBE08-E97C-4675-99E1-4EF263FBF75B",
+                                 "SheetKey":  "Entradas",
+                                 "RoleText":  "CUSTODY",
+                                 "ViewNo":  5,
+                                 "ViewHash":  "569e00e17b4f4915babe2b62bab9fe6eeca812bc5aa5072035a6deddf21e3a87"
+                             },
+                             {
+                                 "ViewID":  "7BD526E5-CEBA-4AED-B88F-226F6210EC06",
+                                 "ProjectionID":  "65EC2C09-5C5A-41D9-B387-04339059B148",
+                                 "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                                 "MovementID":  "E74BBE08-E97C-4675-99E1-4EF263FBF75B",
+                                 "SheetKey":  "Entradas Anual",
+                                 "RoleText":  "HISTORY_IN",
+                                 "ViewNo":  6,
+                                 "ViewHash":  "af051825a5133ede6009be4894f37a9e7c8538528f5824b33de8ebf4c0e7a2f4"
+                             },
+                             {
+                                 "ViewID":  "ACA2126C-951D-4D7C-A5F8-FA683D1EF6FE",
+                                 "ProjectionID":  "B5AF0714-F8D3-4128-8F74-10E86ED8F8FF",
+                                 "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                                 "MovementID":  "789B7B7D-D475-4DBF-AFF3-76A13C1FE920",
+                                 "SheetKey":  "Saidas",
+                                 "RoleText":  "EXIT",
+                                 "ViewNo":  7,
+                                 "ViewHash":  "7a25918e30968642488ae2e58e0b04895b141a789c70b4522ce606a6d6c3b66a"
+                             },
+                             {
+                                 "ViewID":  "C29D8FAC-9ADC-4BE4-AEAB-B2FBC12B6C3D",
+                                 "ProjectionID":  "B5AF0714-F8D3-4128-8F74-10E86ED8F8FF",
+                                 "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                                 "MovementID":  "789B7B7D-D475-4DBF-AFF3-76A13C1FE920",
+                                 "SheetKey":  "Todas Saidas",
+                                 "RoleText":  "HISTORY_OUT",
+                                 "ViewNo":  8,
+                                 "ViewHash":  "f918f5dd5d77eac8aa7e6324e6fcbbf7bab83d655470193ab96b03e2d642feea"
+                             },
+                             {
+                                 "ViewID":  "C04D16C2-9255-44BC-BE17-69DE27A90F15",
+                                 "ProjectionID":  "B5AF0714-F8D3-4128-8F74-10E86ED8F8FF",
+                                 "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                                 "MovementID":  "789B7B7D-D475-4DBF-AFF3-76A13C1FE920",
+                                 "SheetKey":  "Entradas Filial",
+                                 "RoleText":  "CUSTODY",
+                                 "ViewNo":  9,
+                                 "ViewHash":  "59571d20955f05b2dd861deb47fa3dc8ad70970057bba4dcdfffdecb997df51f"
+                             },
+                             {
+                                 "ViewID":  "243C9908-F2B3-4256-924F-A285E2BD7CE3",
+                                 "ProjectionID":  "B5AF0714-F8D3-4128-8F74-10E86ED8F8FF",
+                                 "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                                 "MovementID":  "789B7B7D-D475-4DBF-AFF3-76A13C1FE920",
+                                 "SheetKey":  "Entradas Anual Filial",
+                                 "RoleText":  "HISTORY_IN",
+                                 "ViewNo":  10,
+                                 "ViewHash":  "c5dd84d408b30c3efa1d4c5081a4cbb727e89a2035c3daf2780cfb7ac16804fd"
+                             },
+                             {
+                                 "ViewID":  "51B5CF17-1C18-4F47-BAC4-96E71B2640FE",
+                                 "ProjectionID":  "0F7F9C8C-FC20-4655-A7BE-4CF9D3678BC9",
+                                 "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                                 "MovementID":  "45F06BBD-01A7-4E06-98AC-2A0BFDCDD42E",
+                                 "SheetKey":  "Saidas Filial",
+                                 "RoleText":  "EXIT",
+                                 "ViewNo":  11,
+                                 "ViewHash":  "d1686d2ff0a272ac2569a2f686f3fa5024b79caafc6c426e54c7e56ca6a9ff8f"
+                             },
+                             {
+                                 "ViewID":  "616F002A-129B-4866-B209-4E764E95C86C",
+                                 "ProjectionID":  "0F7F9C8C-FC20-4655-A7BE-4CF9D3678BC9",
+                                 "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                                 "MovementID":  "45F06BBD-01A7-4E06-98AC-2A0BFDCDD42E",
+                                 "SheetKey":  "Todas Saidas Filial",
+                                 "RoleText":  "HISTORY_OUT",
+                                 "ViewNo":  12,
+                                 "ViewHash":  "cfcdec7eee49e492f0b7773987b9c7e138b216ec12306922f3f0e2c41ef6d7fa"
+                             },
+                             {
+                                 "ViewID":  "6C519F43-573F-4E3C-9C6A-8B68C5343607",
+                                 "ProjectionID":  "0F7F9C8C-FC20-4655-A7BE-4CF9D3678BC9",
+                                 "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                                 "MovementID":  "45F06BBD-01A7-4E06-98AC-2A0BFDCDD42E",
+                                 "SheetKey":  "Entradas",
+                                 "RoleText":  "CUSTODY",
+                                 "ViewNo":  13,
+                                 "ViewHash":  "e0d0251d7785f36fe6c3c26125c71462880d73c86d59b701db8158ef2776dda8"
+                             },
+                             {
+                                 "ViewID":  "F0AA5AB9-16CF-49C8-8C6F-189BBD330E9B",
+                                 "ProjectionID":  "0F7F9C8C-FC20-4655-A7BE-4CF9D3678BC9",
+                                 "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                                 "MovementID":  "45F06BBD-01A7-4E06-98AC-2A0BFDCDD42E",
+                                 "SheetKey":  "Entradas Anual",
+                                 "RoleText":  "HISTORY_IN",
+                                 "ViewNo":  14,
+                                 "ViewHash":  "3587be05a809c52cd6670d90ebbf720045deb08973bcb38925de6891d91edf9d"
+                             },
+                             {
+                                 "ViewID":  "5147BB31-0B05-43CB-B4EC-DB794DE2D97E",
+                                 "ProjectionID":  "B7D21E76-F860-4BFB-A485-ED44695D08AD",
+                                 "EpisodeID":  "946421AC-FDB7-4697-A73D-A3B767741805",
+                                 "MovementID":  "2D556F2C-A5AA-478C-8BA7-D5BDAC1C97EC",
+                                 "SheetKey":  "Entradas",
+                                 "RoleText":  "CUSTODY",
+                                 "ViewNo":  15,
+                                 "ViewHash":  "a2f652b4be392597669de13ebcdcdf2a7de2897cd9302c529c8859714024a92e"
+                             },
+                             {
+                                 "ViewID":  "5F472907-C41F-41D4-9969-B5F914F31BBA",
+                                 "ProjectionID":  "B7D21E76-F860-4BFB-A485-ED44695D08AD",
+                                 "EpisodeID":  "946421AC-FDB7-4697-A73D-A3B767741805",
+                                 "MovementID":  "2D556F2C-A5AA-478C-8BA7-D5BDAC1C97EC",
+                                 "SheetKey":  "Entradas Anual",
+                                 "RoleText":  "HISTORY_IN",
+                                 "ViewNo":  16,
+                                 "ViewHash":  "8fd92e6487f695847f929f8533170d759ac81c3f87cbf8a3a5be013afe7ea0dc"
+                             },
+                             {
+                                 "ViewID":  "ADA095A9-F255-43FE-8EAB-BD8F496BBC5E",
+                                 "ProjectionID":  "97BFB344-6484-43D9-97A7-A09829F234E9",
+                                 "EpisodeID":  "605B816B-B20E-4B0D-B3EA-6983A3C1FDD5",
+                                 "MovementID":  "7841E25B-6599-409A-A6B5-6718832BA61E",
+                                 "SheetKey":  "Entradas Filial",
+                                 "RoleText":  "CUSTODY",
+                                 "ViewNo":  17,
+                                 "ViewHash":  "df5cb30db83db0ff4e6a82c550dcb8b958cbff67168b1996a7b7fdf97ed7799a"
+                             },
+                             {
+                                 "ViewID":  "C5A17B89-A2B4-4101-BA49-8CD243CE03F6",
+                                 "ProjectionID":  "97BFB344-6484-43D9-97A7-A09829F234E9",
+                                 "EpisodeID":  "605B816B-B20E-4B0D-B3EA-6983A3C1FDD5",
+                                 "MovementID":  "7841E25B-6599-409A-A6B5-6718832BA61E",
+                                 "SheetKey":  "Entradas Anual Filial",
+                                 "RoleText":  "HISTORY_IN",
+                                 "ViewNo":  18,
+                                 "ViewHash":  "fdfcdd31afbfc31e598c42cac17f6ee9599a80a3930c120402bf9eb97859a5bf"
+                             },
+                             {
+                                 "ViewID":  "A85B9969-D0DB-4A20-801E-F6350CDEB766",
+                                 "ProjectionID":  "3D4A7B2F-A60C-4401-B629-8212FD094E80",
+                                 "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                                 "MovementID":  "F704EF8A-BC17-43AA-A6D5-63D1F96E4770",
+                                 "SheetKey":  "Saidas",
+                                 "RoleText":  "EXIT",
+                                 "ViewNo":  19,
+                                 "ViewHash":  "70c1bc63e36cfd7bd8c29bb235e5fe669bbdc1916a5c65d9fb778052566245e7"
+                             },
+                             {
+                                 "ViewID":  "14146F06-4D1D-4033-8545-64221D96A40B",
+                                 "ProjectionID":  "3D4A7B2F-A60C-4401-B629-8212FD094E80",
+                                 "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                                 "MovementID":  "F704EF8A-BC17-43AA-A6D5-63D1F96E4770",
+                                 "SheetKey":  "Todas Saidas",
+                                 "RoleText":  "HISTORY_OUT",
+                                 "ViewNo":  20,
+                                 "ViewHash":  "7f92e6ed822e81dbafe85da0828fa3b7a58a56ba83ffafe9fb11e826a0068358"
+                             },
+                             {
+                                 "ViewID":  "5D84CE56-F195-4960-8DA1-D59334DDA6E4",
+                                 "ProjectionID":  "3D4A7B2F-A60C-4401-B629-8212FD094E80",
+                                 "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                                 "MovementID":  "F704EF8A-BC17-43AA-A6D5-63D1F96E4770",
+                                 "SheetKey":  "Entradas Filial",
+                                 "RoleText":  "CUSTODY",
+                                 "ViewNo":  21,
+                                 "ViewHash":  "d994e53374d7e6d2852095125743723288b53f600bf5ff61a04ad11db6dfe992"
+                             },
+                             {
+                                 "ViewID":  "903F6C1B-1947-4A9F-9938-502B4C1DA070",
+                                 "ProjectionID":  "3D4A7B2F-A60C-4401-B629-8212FD094E80",
+                                 "EpisodeID":  "0DED827A-C183-4FDB-8F70-4CBB022BA0D4",
+                                 "MovementID":  "F704EF8A-BC17-43AA-A6D5-63D1F96E4770",
+                                 "SheetKey":  "Entradas Anual Filial",
+                                 "RoleText":  "HISTORY_IN",
+                                 "ViewNo":  22,
+                                 "ViewHash":  "8628324829df9531692ba424c6c1111ff1193b929d99394c19f4b49341cd5a2e"
+                             }
+                         ],
+    "Pending":  [
+
+                ]
+}

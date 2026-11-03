@@ -1,0 +1,22 @@
+{
+  "id": "C4-02",
+  "cause": "TEMP 8.3 versus nome longo; falso bloqueio de fixture segura",
+  "guardOld": "InStr(1, ThisWorkbook.FullName, Environ$(\"TEMP\") & \"\\\", vbTextCompare)",
+  "guardNew": "InStr(1, CreateObject(\"Scripting.FileSystemObject\").GetFile(ThisWorkbook.FullName).ShortPath, CreateObject(\"Scripting.FileSystemObject\").GetFolder(Environ$(\"TEMP\")).ShortPath & \"\\\", vbTextCompare)",
+  "changes": [
+    {
+      "module": "modTestesAuditoria",
+      "file": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\Importar_No_VBE\\Testes\\modTestesAuditoria.bas",
+      "count": 1,
+      "before": "6df2e7d514a3e2a1a1f3cb8fd2df69f34f97a4beefe69207bd44736dbb3fb95b",
+      "after": "e966f2ac5cf2eb0ded8f5bd950e6cd56710a9579e61baeccfa853cba28ef34e2"
+    },
+    {
+      "module": "modTestesFase2",
+      "file": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\Importar_No_VBE\\Testes\\modTestesFase2.bas",
+      "count": 2,
+      "before": "96b20af3986f7f368fbfcb4f5ee26234dd5dd052d66a64588e4a96ceb11c2998",
+      "after": "f947a569565b983ffb1df9748fc489cf8152f54a4f193205d77575b48e0de139"
+    }
+  ]
+}

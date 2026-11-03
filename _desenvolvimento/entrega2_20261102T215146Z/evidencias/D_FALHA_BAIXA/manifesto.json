@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\evidencias\\D_FALHA_BAIXA\\Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "sha256": "3c32f1f9d9cae5d891b112508e9f4dd9df49923563d6f8f49c746a94dc3dc212"
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\evidencias\\D_FALHA_BAIXA\\Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "sha256": "76b9dcfd578364373402fc83bc6076509d7cfae98737e6a16df32fe2f79894ae"
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\resultados_entrega2.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\evidencias\\D_FALHA_BAIXA\\resultados_entrega2.tsv",
+      "sha256": "c8a249ca414c89bf20e54fd2ca98ba113aede63fc0bce33a8f4087bd07622dab"
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\Pendencias_E2_B3C7C6AF0B5342C0960D32C6E7616D9A.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\evidencias\\D_FALHA_BAIXA\\Pendencias_E2_B3C7C6AF0B5342C0960D32C6E7616D9A.tsv",
+      "sha256": "f3f3a50334ed4d267037b93a2fc52f39328846246e5e5b851a1806e68fbe5c84"
+    }
+  ],
+  "scope": "Fixture descartavel; nenhuma conciliacao automatica; reset exclusivo do laboratorio para checkpoint rev10 sem fatos posteriores confirmados"
+}

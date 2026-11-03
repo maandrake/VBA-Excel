@@ -1,0 +1,83 @@
+﻿{
+    "ErrorCount":  33,
+    "Items":  [
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Preparar-TestesVBA.ps1",
+                      "Count":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Reexecutar-ExcelCom.ps1",
+                      "Count":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Reexecutar-XMLCom.ps1",
+                      "Count":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-ExcelCom.ps1",
+                      "Count":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-Fase2BackupContexto.ps1",
+                      "Count":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-Fase2BackupContextoV2.ps1",
+                      "Count":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-Fase2BackupContextoV3.ps1",
+                      "Count":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-Fase2BackupContextoV4.ps1",
+                      "Count":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-Fase2Recuperacao.ps1",
+                      "Count":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-OfficeCapabilities.ps1",
+                      "Count":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-XMLCom.ps1",
+                      "Count":  0
+                  }
+              ],
+    "Kind":  "Parser PowerShell, sem executar os arquivos ps1 nem mudar ExecutionPolicy"
+}

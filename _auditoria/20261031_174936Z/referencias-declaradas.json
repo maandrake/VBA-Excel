@@ -1,0 +1,90 @@
+{
+  "method": "Entradas de bibliotecas, controles e extensores nos metadados dir; nao e consulta VBIDE resolvida; caminhos nao acessados; IsBroken indisponivel",
+  "placeholderRecordsExcluded": 3,
+  "references": [
+    {
+      "guid": "{00020430-0000-0000-C000-000000000046}",
+      "version": "2.0",
+      "locale": "0",
+      "declaredPath": "C:\\Windows\\System32\\stdole2.tlb",
+      "description": "OLE Automation"
+    },
+    {
+      "guid": "{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}",
+      "version": "2.0",
+      "locale": "0",
+      "declaredPath": "C:\\Program Files\\Common Files\\Microsoft Shared\\OFFICE16\\MSO.DLL",
+      "description": "Microsoft Office 16.0 Object Library"
+    },
+    {
+      "guid": "{0D452EE1-E08F-101A-852E-02608C4D0BB4}",
+      "version": "2.0",
+      "locale": "0",
+      "declaredPath": "C:\\WINDOWS\\system32\\FM20.DLL",
+      "description": "Microsoft Forms 2.0 Object Library"
+    },
+    {
+      "guid": "{00970784-EAEA-4AE7-85DC-9267351126F4}",
+      "version": "2.0",
+      "locale": "0",
+      "declaredPath": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\Excel8.0\\MSForms.exd",
+      "description": "Microsoft Forms 2.0 Object Library"
+    },
+    {
+      "guid": "{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}",
+      "version": "1.1",
+      "locale": "0",
+      "declaredPath": "C:\\Windows\\System32\\ieframe.dll",
+      "description": "Microsoft Internet Controls"
+    },
+    {
+      "guid": "{79EC79A7-0F60-4A4B-99C7-C79526815F93}",
+      "version": "1.1",
+      "locale": "0",
+      "declaredPath": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\VBE\\SHDocVw.exd",
+      "description": "Microsoft Internet Controls"
+    },
+    {
+      "guid": "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}",
+      "version": "2.2",
+      "locale": "0",
+      "declaredPath": "C:\\WINDOWS\\system32\\MSCOMCTL.OCX",
+      "description": "Microsoft Windows Common Controls 6.0 (SP6)"
+    },
+    {
+      "guid": "{E6E1ED26-D766-4196-8B5E-B98E0A7DD6DE}",
+      "version": "2.2",
+      "locale": "0",
+      "declaredPath": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\VBE\\MSComctlLib.exd",
+      "description": "Microsoft Windows Common Controls 6.0 (SP6)"
+    },
+    {
+      "guid": "{9E175B60-F52A-11D8-B9A5-505054503030}",
+      "version": "1.0",
+      "locale": "0",
+      "declaredPath": "C:\\WINDOWS\\system32\\mssrch.dll",
+      "description": "Microsoft Search CoClasses Type Library"
+    },
+    {
+      "guid": "{9E175B61-F52A-11D8-B9A5-505054503030}",
+      "version": "1.0",
+      "locale": "0",
+      "declaredPath": "C:\\WINDOWS\\system32\\mssitlb.dll",
+      "description": "Microsoft Search Interface Type Library"
+    },
+    {
+      "guid": "{F5078F18-C551-11D3-89B9-0000F81FE221}",
+      "version": "6.0",
+      "locale": "0",
+      "declaredPath": "C:\\Windows\\System32\\msxml6.dll",
+      "description": "Microsoft XML, v6.0"
+    },
+    {
+      "guid": "{0277FC34-FD1B-4616-BB19-A9AABCAF2A70}",
+      "version": "2.0",
+      "locale": "0",
+      "declaredPath": "C:\\Program Files\\SeleniumBasic\\Selenium64.tlb",
+      "description": "Selenium Type Library"
+    }
+  ]
+}

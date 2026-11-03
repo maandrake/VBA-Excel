@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-10-31T18:09:21.831Z",
+  "method": "Testes estaticos e modelo JS; nao compila nem executa VBA.",
+  "passed": 10,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "39 originais e backups preservados por SHA-256",
+      "status": "PASS",
+      "details": 39
+    },
+    {
+      "name": "Somente os cinco fontes previstos foram modificados na copia",
+      "status": "PASS",
+      "details": [
+        "Form/Cad_NCM.frm",
+        "Form/Cad_NFE.frm",
+        "Form/Cad_NFE_Saida.frm",
+        "MDL/MóduloOfficeRibbonEditor.bas",
+        "MDL/modPreencherFormulario.bas"
+      ]
+    },
+    {
+      "name": "Cinco FRX e pasta XLSM da copia continuam identicos",
+      "status": "PASS",
+      "details": "O XLSM ainda nao incorpora as correcoes; importacao bloqueada."
+    },
+    {
+      "name": "Modulos, assinaturas e eventos preservados; ramos VBA7 de 32 e 64 bits analisados",
+      "status": "PASS",
+      "details": 647
+    },
+    {
+      "name": "Regras XML intactas byte a byte e calculos tributarios dos formularios preservados",
+      "status": "PASS",
+      "details": "Sem atestado de validade fiscal; apenas preservacao tecnica."
+    },
+    {
+      "name": "Guardas ListIndex antes de ler listas NCM, saidas matriz e filial",
+      "status": "PASS"
+    },
+    {
+      "name": "Referencia celula e referencias invalidas de Frame removidas do codigo executavel",
+      "status": "PASS"
+    },
+    {
+      "name": "Callback Ribbon salva a propria pasta",
+      "status": "PASS"
+    },
+    {
+      "name": "Modelo JS da alteracao de alocacao: listas equivalentes em 35 cenarios",
+      "status": "PASS",
+      "details": {
+        "scenarios": 35,
+        "kind": "Simulacao JS dos lacos; nao e execucao VBA nem benchmark do Office."
+      }
+    },
+    {
+      "name": "Sem duplicidade publica e mesmo total de procedimentos",
+      "status": "PASS",
+      "details": {
+        "before": 647,
+        "after": 647
+      }
+    }
+  ]
+}

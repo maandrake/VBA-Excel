@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-11-02T00:03:32.764Z",
+  "origin": "Transcricao da interface nativa; resultados de cenarios permanecem TSV escritos pelo VBA",
+  "environmentQuery": {
+    "command": "Debug.Print Application.Version; Application.Build; Application.OperatingSystem",
+    "observed": "16.0 | 20527 | Windows (64-bit) NT 10.00",
+    "excelArchitecture": "x64 registrada na Fase4; nao foi feita nova sondagem COM nem deduzida arquitetura do Excel apenas do Windows"
+  },
+  "diagnosticQueryError": {
+    "command": "LenB(CLngPtr(0)) na janela imediata",
+    "message": "A variavel e obrigatoria - nao e possivel atribuir a esta expressao",
+    "scope": "Consulta de diagnostico da janela imediata; nenhum fonte modificado; consulta simples posterior executou corretamente"
+  },
+  "execution": "Lotes R1 0:35; R2 0:33 com bloqueio na reabertura de C_COLISAO; R3 10:12 e33:41; R4 36:37 e41:42",
+  "security": "Execucao habilitada somente para fixtures sinteticas revisadas, sem modificacoes de politicas globais"
+}

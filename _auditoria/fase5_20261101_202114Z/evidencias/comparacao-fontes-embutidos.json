@@ -1,0 +1,89 @@
+[
+  {
+    "modulo": "modValidacaoXML",
+    "linhasOriginais": 2067,
+    "linhasNovas": 2067,
+    "diferencas": [
+      {
+        "linha": 53,
+        "antes": "        .SetProperty \"ProhibitDTD\", True",
+        "depois": "        .setProperty \"ProhibitDTD\", True"
+      },
+      {
+        "linha": 54,
+        "antes": "        .SetProperty \"SelectionLanguage\", \"XPath\"",
+        "depois": "        .setProperty \"SelectionLanguage\", \"XPath\""
+      }
+    ]
+  },
+  {
+    "modulo": "Cad_NCM",
+    "linhasOriginais": 282,
+    "linhasNovas": 282,
+    "diferencas": [
+      {
+        "linha": 2,
+        "antes": "Attribute VB_Base = \"0{66FF14F0-4C26-4A42-B7FB-00FFDE2CB067}{9114D6F6-CB07-4B18-87F0-9ECC839ED0A0}\"",
+        "depois": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\""
+      }
+    ]
+  },
+  {
+    "modulo": "Cad_NFE",
+    "linhasOriginais": 2568,
+    "linhasNovas": 2568,
+    "diferencas": [
+      {
+        "linha": 2,
+        "antes": "Attribute VB_Base = \"0{9AE009F1-88EE-447B-9B48-EBE776676353}{D8720C3B-83F5-44E8-86A6-2AA9A0D62027}\"",
+        "depois": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\""
+      },
+      {
+        "linha": 1311,
+        "antes": "    If xmlDoc.parseError.ErrorCode <> 0 Then",
+        "depois": "    If xmlDoc.parseError.errorCode <> 0 Then"
+      },
+      {
+        "linha": 1318,
+        "antes": "    xmlDoc.SetProperty \"SelectionNamespaces\", \"xmlns:ns='http://www.portalfiscal.inf.br/nfe'\"",
+        "depois": "    xmlDoc.setProperty \"SelectionNamespaces\", \"xmlns:ns='http://www.portalfiscal.inf.br/nfe'\""
+      }
+    ]
+  },
+  {
+    "modulo": "Cad_NFE_Saida",
+    "linhasOriginais": 2830,
+    "linhasNovas": 2830,
+    "diferencas": [
+      {
+        "linha": 2,
+        "antes": "Attribute VB_Base = \"0{794A5A96-9AEE-4A1A-8465-8A2F3BE37C74}{8D50838E-6749-46A2-873A-C3892539BF3B}\"",
+        "depois": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\""
+      }
+    ]
+  },
+  {
+    "modulo": "frmRelatorioXML",
+    "linhasOriginais": 229,
+    "linhasNovas": 229,
+    "diferencas": [
+      {
+        "linha": 2,
+        "antes": "Attribute VB_Base = \"0{05895738-2F46-4B5E-A4E1-1F9005826DAB}{3E0144A9-2836-4325-9B7E-00776EB15877}\"",
+        "depois": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\""
+      }
+    ]
+  },
+  {
+    "modulo": "UserFormFiltro",
+    "linhasOriginais": 148,
+    "linhasNovas": 148,
+    "diferencas": [
+      {
+        "linha": 2,
+        "antes": "Attribute VB_Base = \"0{568D07DE-2225-49BA-B20C-FD20A8A43C0A}{D8C80A1C-C658-4F4D-A639-089DA8079213}\"",
+        "depois": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\""
+      }
+    ]
+  }
+]

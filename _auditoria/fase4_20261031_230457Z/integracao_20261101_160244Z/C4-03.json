@@ -1,0 +1,9 @@
+{
+  "id": "C4-03",
+  "type": "Completude de integração do documento",
+  "module": "Planilha5",
+  "sheet": "NCM e CEST",
+  "expected": "Option Explicit",
+  "observed": "Corpo vazio no arquivo salvo",
+  "action": "Inserir o corpo já previsto no esquema; nenhuma lógica nova"
+}

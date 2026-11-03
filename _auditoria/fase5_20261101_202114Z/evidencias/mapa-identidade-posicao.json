@@ -1,0 +1,1908 @@
+{
+  "modalidade": "Análise estática direcionada; candidatos exigem revisão semântica",
+  "registros": [
+    {
+      "modulo": "modIntegridadeOperacao",
+      "procedimento": "PrimeiraVagaGravacao",
+      "linha": 11,
+      "categorias": [
+        "limite_ou_lacuna"
+      ],
+      "trecho": "If IsEmpty(ws.Cells(linha, 1).Value2) Then"
+    },
+    {
+      "modulo": "modIntegridadeOperacao",
+      "procedimento": "ProximaLinhaGravacao",
+      "linha": 21,
+      "categorias": [
+        "linha_fisica",
+        "limite_ou_lacuna"
+      ],
+      "trecho": "linha = ws.Cells(ws.rows.count, 1).End(xlUp).Row + 1"
+    },
+    {
+      "modulo": "mdlCopiar",
+      "procedimento": "UF_NavegarCelula",
+      "linha": 29,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "MoveActiveCell dRow, dCol"
+    },
+    {
+      "modulo": "mdlCopiar",
+      "procedimento": "MoveActiveCell",
+      "linha": 118,
+      "categorias": [
+        "linha_fisica"
+      ],
+      "trecho": "r = ActiveCell.Row + dRow"
+    },
+    {
+      "modulo": "MóduloPesquisa",
+      "procedimento": "PesquisarEntradasRapido",
+      "linha": 173,
+      "categorias": [
+        "linha_fisica"
+      ],
+      "trecho": "resultado(12, IndiceResultado) = _"
+    },
+    {
+      "modulo": "MóduloPesquisa",
+      "procedimento": "AbrirRegistroDaLista",
+      "linha": 231,
+      "categorias": [
+        "linha_fisica"
+      ],
+      "trecho": "NumeroLinha = CLng(Val(Lst.List(Lst.ListIndex, 12)))"
+    },
+    {
+      "modulo": "MóduloPesquisa",
+      "procedimento": "UltimaLinhaUsada",
+      "linha": 266,
+      "categorias": [
+        "linha_fisica",
+        "limite_ou_lacuna"
+      ],
+      "trecho": ").End(xlUp).Row"
+    },
+    {
+      "modulo": "MóduloPesquisa",
+      "procedimento": "IrParaCelulaNFe",
+      "linha": 315,
+      "categorias": [
+        "busca_por_conteudo"
+      ],
+      "trecho": "Set celEncontrada = ws.Cells.Find( _"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Excluir_Click",
+      "linha": 127,
+      "categorias": [
+        "busca_por_conteudo"
+      ],
+      "trecho": "Set c = .Find(N_Nfe.value, LookIn:=xlValues, LookAt:=xlWhole)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Excluir_Click",
+      "linha": 139,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Resize(1, 14).Select"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Excluir_Click",
+      "linha": 140,
+      "categorias": [
+        "exclusao",
+        "posicao_contextual"
+      ],
+      "trecho": "Selection.Delete Shift:=xlUp"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Excluir_Click",
+      "linha": 164,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Selection.End(xlDown).Select"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_ExcluirFilial_Click",
+      "linha": 202,
+      "categorias": [
+        "busca_por_conteudo"
+      ],
+      "trecho": "Set c = .Find(What:=nfeKey, LookIn:=xlValues, LookAt:=xlWhole)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_ExcluirFilial_Click",
+      "linha": 211,
+      "categorias": [
+        "exclusao"
+      ],
+      "trecho": "c.Resize(1, 13).Delete Shift:=xlUp"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_ExcluirFilial_Click",
+      "linha": 215,
+      "categorias": [
+        "busca_por_conteudo"
+      ],
+      "trecho": "Set cAnual = .Find(What:=nfeKey, LookIn:=xlValues, LookAt:=xlWhole)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_ExcluirFilial_Click",
+      "linha": 217,
+      "categorias": [
+        "exclusao"
+      ],
+      "trecho": "cAnual.Resize(1, 16).Delete Shift:=xlUp"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 315,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "If Not (IsEmpty(ActiveCell)) Then"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 316,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(1, 0).Select"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 318,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Loop Until IsEmpty(ActiveCell) = True"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 321,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.value = N_Nfe.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 322,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 1).value = ComboBox_Operação.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 323,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 2).value = UN.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 324,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULO.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 325,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 4).value = COD.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 326,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 5).value = PLACA.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 327,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 6).value = Combo_ANO_MOD.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 328,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 7).value = ComboBox_COR.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 329,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 8).value = CDbl(txt_Valor.value)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 330,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 9).value = CDate(Data.value)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 331,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 10).value = ComboBox_OutroEnvio.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 340,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "If Not (IsEmpty(ActiveCell)) Then"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 341,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(1, 0).Select"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 343,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Loop Until IsEmpty(ActiveCell) = True"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 346,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.value = N_Nfe.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 347,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 1).value = ComboBox_Operação.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 348,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 2).value = UN.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 349,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULO.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 350,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 4).value = COD.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 351,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 5).value = PLACA.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 352,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 6).value = Combo_ANO_MOD.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 353,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 7).value = ComboBox_COR.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 354,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 8).value = CDbl(txt_Valor.value)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 355,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 9).value = CDate(Data.value)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 449,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "If Not (IsEmpty(ActiveCell)) Then"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 450,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(1, 0).Select"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 452,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Loop Until IsEmpty(ActiveCell) = True"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 455,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.value = N_NfeFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 456,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 1).value = ComboBox_OperaçãoFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 457,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 2).value = UNFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 458,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULOFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 459,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 4).value = CODFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 460,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 5).value = PLACAFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 461,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 6).value = Combo_ANO_MODFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 462,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 7).value = ComboBox_CORFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 463,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 8).value = CDbl(txt_ValorFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 464,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 9).value = CDate(DataFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 465,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 10).value = ComboBox_OutroEnvioFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 467,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 11).NumberFormat = \"@\""
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 468,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 11).value = CStr(TextBoxChaveDeAcessoFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 477,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "If Not (IsEmpty(ActiveCell)) Then"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 478,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(1, 0).Select"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 480,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Loop Until IsEmpty(ActiveCell) = True"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 483,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.value = N_NfeFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 484,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 1).value = ComboBox_OperaçãoFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 485,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 2).value = UNFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 486,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULOFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 487,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 4).value = CODFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 488,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 5).value = PLACAFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 489,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 6).value = Combo_ANO_MODFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 490,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 7).value = ComboBox_CORFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 491,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 8).value = CDbl(txt_ValorFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 492,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 9).value = CDate(DataFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 672,
+      "categorias": [
+        "busca_por_conteudo"
+      ],
+      "trecho": "Set c = .Find(TextBoxPesquisa, LookIn:=xlValues, LookAt:=xlWhole)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 683,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Resize(1, 11).Select"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 684,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "Selection.ClearContents 'Shift:=xlUp"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 694,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "If Not (IsEmpty(ActiveCell)) Then"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 695,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(1, 0).Select"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 697,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Loop Until IsEmpty(ActiveCell) = True"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 700,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.value = N_Nfe.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 701,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 1).value = ComboBox_Operação.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 702,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 2).value = UN.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 703,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULO.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 704,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 4).value = COD.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 705,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 5).value = PLACA.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 706,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 6).value = Combo_ANO_MOD.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 707,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 7).value = ComboBox_COR.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 708,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 8).value = CDbl(txt_Valor.value)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 709,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 9).value = CDate(Data.value)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 710,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 10).value = ComboBox_OutroEnvio.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 715,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Resize(1, 10).Select"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 716,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "Selection.ClearContents 'Shift:=xlUp"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 724,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "If Not (IsEmpty(ActiveCell)) Then"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 725,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(1, 0).Select"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 727,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Loop Until IsEmpty(ActiveCell) = True"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 730,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.value = N_Nfe.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 731,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 1).value = ComboBox_Operação.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 732,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 2).value = UN.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 733,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULO.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 734,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 4).value = COD.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 735,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 5).value = PLACA.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 736,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 6).value = Combo_ANO_MOD.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 737,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 7).value = ComboBox_COR.value"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 738,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 8).value = CDbl(txt_Valor.value)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 739,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 9).value = CDate(Data.value)"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 766,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Range(\"A3\").End(xlDown).Offset(1, 0).Select"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 772,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Range(\"A3\").End(xlDown).Offset(1, 0).Select"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonAlterar_Click",
+      "linha": 783,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Range(\"A3\").End(xlDown).Offset(1, 0).Select"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonCopiarAutoEntradaFilial_Click",
+      "linha": 853,
+      "categorias": [
+        "busca_por_conteudo"
+      ],
+      "trecho": "Set celula = ws.Columns(\"B\").Find( _"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonCopiarAutoEntradaFilial_Click",
+      "linha": 870,
+      "categorias": [
+        "linha_fisica"
+      ],
+      "trecho": "linha = celula.Row"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonChaveR_Click",
+      "linha": 1072,
+      "categorias": [
+        "linha_fisica",
+        "limite_ou_lacuna"
+      ],
+      "trecho": "ultimaLinha = ws.Cells(ws.rows.count, \"L\").End(xlUp).Row"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "ListBoxLista_Change",
+      "linha": 1663,
+      "categorias": [
+        "linha_fisica"
+      ],
+      "trecho": "NumeroLinhaPlanilha = CLng(Val(Me.ListBoxLista.List(linha, 12)))"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "ListBoxLista2_Change",
+      "linha": 1789,
+      "categorias": [
+        "linha_fisica"
+      ],
+      "trecho": "NumeroLinhaPlanilha = CLng(Val(Me.ListBoxLista2.List(linha, 12)))"
+    },
+    {
+      "modulo": "Cad_NFE",
+      "procedimento": "CommandButtonCelCopiar_Click",
+      "linha": 2545,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "UF_CopiarCelula Me, True 'True = copia como aparece (ActiveCell.Text)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_ExcluirFilial_Click",
+      "linha": 54,
+      "categorias": [
+        "busca_por_conteudo"
+      ],
+      "trecho": "Set c = .Find(TextBox_N_SaidaFilial.value, LookIn:=xlValues, LookAt:=xlWhole)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_ExcluirFilial_Click",
+      "linha": 60,
+      "categorias": [
+        "exclusao",
+        "posicao_contextual"
+      ],
+      "trecho": "Selection.EntireRow.Delete"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 126,
+      "categorias": [
+        "busca_por_conteudo"
+      ],
+      "trecho": "Set origem = .Find(What:=TextBox_N_EntradaFilial.value, LookIn:=xlValues, LookAt:=xlWhole)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 150,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "If Not (IsEmpty(ActiveCell)) Then"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 151,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(1, 0).Select"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 153,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Loop Until IsEmpty(ActiveCell) = True"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 156,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.value = TextBox_N_SaidaFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 157,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 1).value = TextBox_N_EntradaFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 158,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 2).value = ComboBox_OperaçãoFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 159,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 3).value = TextBox_ESTOQUEFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 160,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 4).value = ComboBox_VEÍCULOFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 161,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 5).value = TextBox_PLACAFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 162,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 6).value = ComboBox_AnoFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 163,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 7).value = ComboBox_CORFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 164,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 8).value = CDbl(TextBox_Valor_EntradaFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 165,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 9).value = CDbl(TextBox_Valor_SaidaFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 166,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 11).value = CDate(TextBox_DataFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 167,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 12).value = ComboBox_PorFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 168,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 13).value = CDbl(TextBox_ICMSFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 169,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 14).value = CDbl(TextBox_PISFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 170,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 15).value = CDbl(TextBox_COFINSFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 179,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "If Not (IsEmpty(ActiveCell)) Then"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 180,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(1, 0).Select"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 182,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Loop Until IsEmpty(ActiveCell) = True"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 185,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.value = TextBox_N_SaidaFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 186,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 1).value = TextBox_N_EntradaFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 187,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 2).value = ComboBox_OperaçãoFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 188,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 3).value = TextBox_ESTOQUEFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 189,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 4).value = ComboBox_VEÍCULOFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 190,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 5).value = TextBox_PLACAFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 191,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 6).value = ComboBox_AnoFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 192,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 7).value = ComboBox_CORFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 193,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 8).value = CDbl(TextBox_Valor_EntradaFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 194,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 9).value = CDbl(TextBox_Valor_SaidaFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 195,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 11).value = CDate(TextBox_DataFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 196,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 12).value = ComboBox_PorFilial.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 197,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 13).value = CDbl(TextBox_ICMSFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 198,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 14).value = CDbl(TextBox_PISFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 199,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 15).value = CDbl(TextBox_COFINSFilial.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 210,
+      "categorias": [
+        "linha_fisica",
+        "limite_ou_lacuna"
+      ],
+      "trecho": "proxLinha = .Cells(.rows.count, \"A\").End(xlUp).Row"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 234,
+      "categorias": [
+        "linha_fisica",
+        "limite_ou_lacuna"
+      ],
+      "trecho": "proxLinha = .Cells(.rows.count, \"A\").End(xlUp).Row"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 259,
+      "categorias": [
+        "busca_por_conteudo"
+      ],
+      "trecho": "Set c = .Find(TextBox_N_EntradaFilial.value, LookIn:=xlValues, LookAt:=xlWhole)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_GravarFilial_Click",
+      "linha": 264,
+      "categorias": [
+        "exclusao"
+      ],
+      "trecho": "c.Resize(1, 13).Delete Shift:=xlUp"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Excluir_Click",
+      "linha": 488,
+      "categorias": [
+        "busca_por_conteudo"
+      ],
+      "trecho": "Set c = .Find(TextBox_N_Saida.value, LookIn:=xlValues, LookAt:=xlWhole)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Excluir_Click",
+      "linha": 494,
+      "categorias": [
+        "exclusao",
+        "posicao_contextual"
+      ],
+      "trecho": "Selection.EntireRow.Delete"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 665,
+      "categorias": [
+        "busca_por_conteudo"
+      ],
+      "trecho": "Set c = .Find( _"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 724,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Do While Not IsEmpty(ActiveCell)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 725,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(1, 0).Select"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 728,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.value = TextBox_N_Saida.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 729,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 1).value = TextBox_N_Entrada.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 730,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 2).value = ComboBox_Operação.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 731,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 3).value = TextBox_ESTOQUE.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 732,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 4).value = ComboBox_VEÍCULO.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 733,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 5).value = TextBox_PLACA.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 734,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 6).value = ComboBox_Ano.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 735,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 7).value = ComboBox_COR.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 736,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 8).value = CDbl(TextBox_Valor_Entrada.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 737,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 9).value = CDbl(TextBox_Valor_Saida.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 738,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 11).value = CDate(TextBox_Data.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 739,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 12).value = CDbl(ComboBox_Por.value) / 100"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 740,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 13).value = CDbl(TextBox_ICMS.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 741,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 14).value = CDbl(TextBox_PIS.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 742,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 15).value = CDbl(TextBox_COFINS.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 753,
+      "categorias": [
+        "linha_fisica",
+        "limite_ou_lacuna"
+      ],
+      "trecho": "wsDemo.Cells(wsDemo.rows.count, \"A\").End(xlUp).Row + 1"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 794,
+      "categorias": [
+        "linha_fisica",
+        "limite_ou_lacuna"
+      ],
+      "trecho": "wsDemo.Cells(wsDemo.rows.count, \"A\").End(xlUp).Row + 1"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 828,
+      "categorias": [
+        "linha_fisica",
+        "limite_ou_lacuna"
+      ],
+      "trecho": "wsDemo.Cells(wsDemo.rows.count, \"A\").End(xlUp).Row + 1"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 860,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Do While Not IsEmpty(ActiveCell)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 861,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(1, 0).Select"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 864,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.value = TextBox_N_Saida.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 865,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 1).value = TextBox_N_Entrada.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 866,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 2).value = ComboBox_Operação.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 867,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 3).value = TextBox_ESTOQUE.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 868,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 4).value = ComboBox_VEÍCULO.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 869,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 5).value = TextBox_PLACA.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 870,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 6).value = ComboBox_Ano.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 871,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 7).value = ComboBox_COR.value"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 872,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 8).value = CDbl(TextBox_Valor_Entrada.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 873,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 9).value = CDbl(TextBox_Valor_Saida.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 874,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 11).value = CDate(TextBox_Data.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 875,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 12).value = CDbl(ComboBox_Por.value) / 100"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 876,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 13).value = CDbl(TextBox_ICMS.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 877,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 14).value = CDbl(TextBox_PIS.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 878,
+      "categorias": [
+        "posicao_contextual"
+      ],
+      "trecho": "ActiveCell.Offset(0, 15).value = CDbl(TextBox_COFINS.value)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "CommandButton_Gravar_Click",
+      "linha": 890,
+      "categorias": [
+        "exclusao"
+      ],
+      "trecho": "c.Resize(1, 14).Delete Shift:=xlUp"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "ListBoxLista_Change",
+      "linha": 2576,
+      "categorias": [
+        "linha_fisica"
+      ],
+      "trecho": "ComboBox_Por.value = ListBoxLista.List(ListBoxLista.ListIndex, 12)"
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "procedimento": "ListBoxListaFilial_Change",
+      "linha": 2718,
+      "categorias": [
+        "linha_fisica"
+      ],
+      "trecho": "ComboBox_PorFilial.value = ListBoxListaFilial.List(ListBoxListaFilial.ListIndex, 12)"
+    },
+    {
+      "modulo": "frmRelatorioXML",
+      "procedimento": "TextoSeguroListBox",
+      "linha": 200,
+      "categorias": [
+        "limite_ou_lacuna"
+      ],
+      "trecho": "If IsNull(valor) Or IsEmpty(valor) Then"
+    },
+    {
+      "modulo": "UserFormFiltro",
+      "procedimento": "CommandButtonFiltroCompra_Click",
+      "linha": 26,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Selection.End(xlDown).Select"
+    },
+    {
+      "modulo": "UserFormFiltro",
+      "procedimento": "Command_Entrada_Click",
+      "linha": 52,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Selection.End(xlDown).Select"
+    },
+    {
+      "modulo": "UserFormFiltro",
+      "procedimento": "CommandButtonFiltroAguardando_Click",
+      "linha": 65,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Selection.End(xlDown).Select"
+    },
+    {
+      "modulo": "UserFormFiltro",
+      "procedimento": "CommandButtonRepasse_Click",
+      "linha": 78,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Selection.End(xlDown).Select"
+    },
+    {
+      "modulo": "UserFormFiltro",
+      "procedimento": "CommandButtonVenda_Click",
+      "linha": 91,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Selection.End(xlDown).Select"
+    },
+    {
+      "modulo": "UserFormFiltro",
+      "procedimento": "CommandButtonTransferência_Click",
+      "linha": 104,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Selection.End(xlDown).Select"
+    },
+    {
+      "modulo": "UserFormFiltro",
+      "procedimento": "CommandButtonDevolução_Click",
+      "linha": 117,
+      "categorias": [
+        "limite_ou_lacuna",
+        "posicao_contextual"
+      ],
+      "trecho": "Selection.End(xlDown).Select"
+    }
+  ]
+}

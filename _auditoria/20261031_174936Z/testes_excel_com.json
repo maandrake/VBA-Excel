@@ -1,0 +1,40 @@
+﻿{
+    "Timestamp":  "2026-10-31T15:03:56.1571649-03:00",
+    "Kind":  "Excel COM ficticio",
+    "Tests":  [
+                  {
+                      "Name":  "Perda de chave no formato padrao",
+                      "Pass":  true,
+                      "Type":  "System.Double",
+                      "Format":  "Geral"
+                  },
+                  {
+                      "Name":  "Chave texto A2",
+                      "Pass":  true,
+                      "Type":  "System.String",
+                      "Length":  44,
+                      "Format":  "@"
+                  },
+                  {
+                      "Name":  "Chave texto A3",
+                      "Pass":  true,
+                      "Type":  "System.String",
+                      "Length":  44,
+                      "Format":  "@"
+                  },
+                  {
+                      "Name":  "Chave apos reabrir",
+                      "Pass":  true
+                  },
+                  {
+                      "Name":  "Formula e formato apos reabrir",
+                      "Pass":  true
+                  },
+                  {
+                      "Name":  "Risco de exclusao parcial A:M",
+                      "Pass":  true,
+                      "FormulaN2":  "=#REF!",
+                      "Note":  "Operacao COM equivalente; rotina VBA nao executada."
+                  }
+              ]
+}

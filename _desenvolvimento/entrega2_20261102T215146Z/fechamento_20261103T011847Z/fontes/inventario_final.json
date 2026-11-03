@@ -1,0 +1,416 @@
+[
+  {
+    "module": "EstaPastaDeTrabalho",
+    "path": "Documento/EstaPastaDeTrabalho.cls",
+    "exact": "extraidos_exatos/EstaPastaDeTrabalho.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "Planilha12",
+    "path": "Documento/Planilha12.cls",
+    "exact": "extraidos_exatos/Planilha12.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "Planilha1",
+    "path": "Documento/Planilha1.cls",
+    "exact": "extraidos_exatos/Planilha1.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "Planilha13",
+    "path": "Documento/Planilha13.cls",
+    "exact": "extraidos_exatos/Planilha13.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "Planilha3",
+    "path": "Documento/Planilha3.cls",
+    "exact": "extraidos_exatos/Planilha3.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "Planilha4",
+    "path": "Documento/Planilha4.cls",
+    "exact": "extraidos_exatos/Planilha4.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "Planilha2",
+    "path": "Documento/Planilha2.cls",
+    "exact": "extraidos_exatos/Planilha2.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "Planilha17",
+    "path": "Documento/Planilha17.cls",
+    "exact": "extraidos_exatos/Planilha17.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "Planilha15",
+    "path": "Documento/Planilha15.cls",
+    "exact": "extraidos_exatos/Planilha15.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "Planilha10",
+    "path": "Documento/Planilha10.cls",
+    "exact": "extraidos_exatos/Planilha10.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "Planilha16",
+    "path": "Documento/Planilha16.cls",
+    "exact": "extraidos_exatos/Planilha16.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "Planilha18",
+    "path": "Documento/Planilha18.cls",
+    "exact": "extraidos_exatos/Planilha18.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "Planilha7",
+    "path": "Documento/Planilha7.cls",
+    "exact": "extraidos_exatos/Planilha7.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "Planilha6",
+    "path": "Documento/Planilha6.cls",
+    "exact": "extraidos_exatos/Planilha6.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "Planilha9",
+    "path": "Documento/Planilha9.cls",
+    "exact": "extraidos_exatos/Planilha9.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "Planilha11",
+    "path": "Documento/Planilha11.cls",
+    "exact": "extraidos_exatos/Planilha11.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "Planilha5",
+    "path": "Documento/Planilha5.cls",
+    "exact": "extraidos_exatos/Planilha5.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "Planilha8",
+    "path": "Documento/Planilha8.cls",
+    "exact": "extraidos_exatos/Planilha8.vba.txt",
+    "procedures": 0
+  },
+  {
+    "module": "clsOperacaoPlanilha",
+    "path": "MDL/clsOperacaoPlanilha.cls",
+    "exact": "extraidos_exatos/clsOperacaoPlanilha.vba.txt",
+    "procedures": 10
+  },
+  {
+    "module": "modIntegridadeOperacao",
+    "path": "MDL/modIntegridadeOperacao.bas",
+    "exact": "extraidos_exatos/modIntegridadeOperacao.vba.txt",
+    "procedures": 5
+  },
+  {
+    "module": "mdlChamarFiltro",
+    "path": "MDL/mdlChamarFiltro.bas",
+    "exact": "extraidos_exatos/mdlChamarFiltro.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "mdlChamarTabCan",
+    "path": "MDL/mdlChamarTabCan.bas",
+    "exact": "extraidos_exatos/mdlChamarTabCan.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "mdlChamarTabEnt",
+    "path": "MDL/mdlChamarTabEnt.bas",
+    "exact": "extraidos_exatos/mdlChamarTabEnt.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "mdlChamarTabSai",
+    "path": "MDL/mdlChamarTabSai.bas",
+    "exact": "extraidos_exatos/mdlChamarTabSai.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "mdlCondCel",
+    "path": "MDL/mdlCondCel.bas",
+    "exact": "extraidos_exatos/mdlCondCel.vba.txt",
+    "procedures": 6
+  },
+  {
+    "module": "mdlCopiar",
+    "path": "MDL/mdlCopiar.bas",
+    "exact": "extraidos_exatos/mdlCopiar.vba.txt",
+    "procedures": 8
+  },
+  {
+    "module": "mdlCriaBackup",
+    "path": "MDL/mdlCriaBackup.bas",
+    "exact": "extraidos_exatos/mdlCriaBackup.vba.txt",
+    "procedures": 4
+  },
+  {
+    "module": "mdlCursor",
+    "path": "MDL/mdlCursor.bas",
+    "exact": "extraidos_exatos/mdlCursor.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "mdlMacroConexão",
+    "path": "MDL/mdlMacroConexão.bas",
+    "exact": "extraidos_exatos/mdlMacroConexão.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "mdlMacroConexãoClientes",
+    "path": "MDL/mdlMacroConexãoClientes.bas",
+    "exact": "extraidos_exatos/mdlMacroConexãoClientes.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "mdlMacroDocFora",
+    "path": "MDL/mdlMacroDocFora.bas",
+    "exact": "extraidos_exatos/mdlMacroDocFora.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "mdlOcultarTítulo",
+    "path": "MDL/mdlOcultarTítulo.bas",
+    "exact": "extraidos_exatos/mdlOcultarTítulo.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "mdlTelaCheia",
+    "path": "MDL/mdlTelaCheia.bas",
+    "exact": "extraidos_exatos/mdlTelaCheia.vba.txt",
+    "procedures": 2
+  },
+  {
+    "module": "modSeleniumCommon",
+    "path": "MDL/modSeleniumCommon.bas",
+    "exact": "extraidos_exatos/modSeleniumCommon.vba.txt",
+    "procedures": 7
+  },
+  {
+    "module": "modSeleniumConsultaNFE",
+    "path": "MDL/modSeleniumConsultaNFE.bas",
+    "exact": "extraidos_exatos/modSeleniumConsultaNFE.vba.txt",
+    "procedures": 55
+  },
+  {
+    "module": "modSeleniumRenavamConsulta",
+    "path": "MDL/modSeleniumRenavamConsulta.bas",
+    "exact": "extraidos_exatos/modSeleniumRenavamConsulta.vba.txt",
+    "procedures": 23
+  },
+  {
+    "module": "modSelTest",
+    "path": "MDL/modSelTest.bas",
+    "exact": "extraidos_exatos/modSelTest.vba.txt",
+    "procedures": 36
+  },
+  {
+    "module": "MóduloOfficeRibbonEditor",
+    "path": "MDL/MóduloOfficeRibbonEditor.bas",
+    "exact": "extraidos_exatos/MóduloOfficeRibbonEditor.vba.txt",
+    "procedures": 3
+  },
+  {
+    "module": "MóduloPesquisa",
+    "path": "MDL/MóduloPesquisa.bas",
+    "exact": "extraidos_exatos/MóduloPesquisa.vba.txt",
+    "procedures": 6
+  },
+  {
+    "module": "MóduloRemoveFechar",
+    "path": "MDL/MóduloRemoveFechar.bas",
+    "exact": "extraidos_exatos/MóduloRemoveFechar.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "modValidacaoXML",
+    "path": "MDL/modValidacaoXML.bas",
+    "exact": "extraidos_exatos/modValidacaoXML.vba.txt",
+    "procedures": 47
+  },
+  {
+    "module": "mdlChamarForm",
+    "path": "MDL/mdlChamarForm.bas",
+    "exact": "extraidos_exatos/mdlChamarForm.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "mdlChamarFormDocFora",
+    "path": "MDL/mdlChamarFormDocFora.bas",
+    "exact": "extraidos_exatos/mdlChamarFormDocFora.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "mdlChamarFormNCM",
+    "path": "MDL/mdlChamarFormNCM.bas",
+    "exact": "extraidos_exatos/mdlChamarFormNCM.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "mdlChamarFormSaida",
+    "path": "MDL/mdlChamarFormSaida.bas",
+    "exact": "extraidos_exatos/mdlChamarFormSaida.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "mdlChamarFormVeículos",
+    "path": "MDL/mdlChamarFormVeículos.bas",
+    "exact": "extraidos_exatos/mdlChamarFormVeículos.vba.txt",
+    "procedures": 1
+  },
+  {
+    "module": "modPreencherFormulario",
+    "path": "MDL/modPreencherFormulario.bas",
+    "exact": "extraidos_exatos/modPreencherFormulario.vba.txt",
+    "procedures": 2
+  },
+  {
+    "module": "Cad_NCM",
+    "path": "Form/Cad_NCM.frm",
+    "exact": "extraidos_exatos/Cad_NCM.vba.txt",
+    "procedures": 25
+  },
+  {
+    "module": "Cad_NFE",
+    "path": "Form/Cad_NFE.frm",
+    "exact": "extraidos_exatos/Cad_NFE.vba.txt",
+    "procedures": 185
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "path": "Form/Cad_NFE_Saida.frm",
+    "exact": "extraidos_exatos/Cad_NFE_Saida.vba.txt",
+    "procedures": 197
+  },
+  {
+    "module": "frmRelatorioXML",
+    "path": "Form/frmRelatorioXML.frm",
+    "exact": "extraidos_exatos/frmRelatorioXML.vba.txt",
+    "procedures": 8
+  },
+  {
+    "module": "UserFormFiltro",
+    "path": "Form/UserFormFiltro.frm",
+    "exact": "extraidos_exatos/UserFormFiltro.vba.txt",
+    "procedures": 21
+  },
+  {
+    "module": "AuditoriaListaFake",
+    "path": "MDL/AuditoriaListaFake.cls",
+    "exact": "extraidos_exatos/AuditoriaListaFake.vba.txt",
+    "procedures": 4
+  },
+  {
+    "module": "modTestesAuditoria",
+    "path": "MDL/modTestesAuditoria.bas",
+    "exact": "extraidos_exatos/modTestesAuditoria.vba.txt",
+    "procedures": 2
+  },
+  {
+    "module": "modTestesFase2",
+    "path": "MDL/modTestesFase2.bas",
+    "exact": "extraidos_exatos/modTestesFase2.vba.txt",
+    "procedures": 7
+  },
+  {
+    "module": "modTestesIntegradosFase5",
+    "path": "MDL/modTestesIntegradosFase5.bas",
+    "exact": "extraidos_exatos/modTestesIntegradosFase5.vba.txt",
+    "procedures": 10
+  },
+  {
+    "module": "modPrototiposFase6",
+    "path": "MDL/modPrototiposFase6.bas",
+    "exact": "extraidos_exatos/modPrototiposFase6.vba.txt",
+    "procedures": 36
+  },
+  {
+    "module": "modPrototiposFase7",
+    "path": "MDL/modPrototiposFase7.bas",
+    "exact": "extraidos_exatos/modPrototiposFase7.vba.txt",
+    "procedures": 27
+  },
+  {
+    "module": "clsRepositorioFase8",
+    "path": "MDL/clsRepositorioFase8.cls",
+    "exact": "extraidos_exatos/clsRepositorioFase8.vba.txt",
+    "procedures": 16
+  },
+  {
+    "module": "modExperimentosFase8",
+    "path": "MDL/modExperimentosFase8.bas",
+    "exact": "extraidos_exatos/modExperimentosFase8.vba.txt",
+    "procedures": 38
+  },
+  {
+    "module": "clsSaveFase9",
+    "path": "MDL/clsSaveFase9.cls",
+    "exact": "extraidos_exatos/clsSaveFase9.vba.txt",
+    "procedures": 4
+  },
+  {
+    "module": "modPersistenciaFase9",
+    "path": "MDL/modPersistenciaFase9.bas",
+    "exact": "extraidos_exatos/modPersistenciaFase9.vba.txt",
+    "procedures": 40
+  },
+  {
+    "module": "modVerificacaoFase9",
+    "path": "MDL/modVerificacaoFase9.bas",
+    "exact": "extraidos_exatos/modVerificacaoFase9.vba.txt",
+    "procedures": 6
+  },
+  {
+    "module": "modPersistenciaFase10",
+    "path": "MDL/modPersistenciaFase10.bas",
+    "exact": "extraidos_exatos/modPersistenciaFase10.vba.txt",
+    "procedures": 59
+  },
+  {
+    "module": "modCenariosFase10",
+    "path": "MDL/modCenariosFase10.bas",
+    "exact": "extraidos_exatos/modCenariosFase10.vba.txt",
+    "procedures": 23
+  },
+  {
+    "module": "modFronteirasFase10",
+    "path": "MDL/modFronteirasFase10.bas",
+    "exact": "extraidos_exatos/modFronteirasFase10.vba.txt",
+    "procedures": 5
+  },
+  {
+    "module": "modCandidatoIntegrado",
+    "path": "MDL/modCandidatoIntegrado.bas",
+    "exact": "extraidos_exatos/modCandidatoIntegrado.vba.txt",
+    "procedures": 66
+  },
+  {
+    "module": "clsTesteCandidato",
+    "path": "MDL/clsTesteCandidato.cls",
+    "exact": "extraidos_exatos/clsTesteCandidato.vba.txt",
+    "procedures": 3
+  },
+  {
+    "module": "modTestesEntrega1",
+    "path": "MDL/modTestesEntrega1.bas",
+    "exact": "extraidos_exatos/modTestesEntrega1.vba.txt",
+    "procedures": 38
+  }
+]

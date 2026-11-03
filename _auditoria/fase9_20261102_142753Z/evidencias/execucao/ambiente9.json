@@ -1,0 +1,121 @@
+﻿{
+    "Office":  {
+                   "Version":  "16.0.20527.20112",
+                   "Platform":  "x64",
+                   "ProductReleaseIds":  "O365BusinessRetail"
+               },
+    "ODBC":  [
+                 {
+                     "Name":  "Driver da Microsoft para arquivos texto (*.txt; *.csv)",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "Driver do Microsoft Access (*.mdb)",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "Driver do Microsoft dBase (*.dbf)",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "Driver do Microsoft Excel(*.xls)",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "Driver do Microsoft Paradox (*.db )",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "Microsoft Access Driver (*.mdb)",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "Microsoft Access-Treiber (*.mdb)",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "Microsoft dBase Driver (*.dbf)",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "Microsoft dBase-Treiber (*.dbf)",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "Microsoft Excel Driver (*.xls)",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "Microsoft Excel-Treiber (*.xls)",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "Microsoft ODBC for Oracle",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "Microsoft Paradox Driver (*.db )",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "Microsoft Paradox-Treiber (*.db )",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "Microsoft Text Driver (*.txt; *.csv)",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "Microsoft Text-Treiber (*.txt; *.csv)",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "SQL Server",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "ODBC Driver 17 for SQL Server",
+                     "Platform":  "32-bit"
+                 },
+                 {
+                     "Name":  "SQL Server",
+                     "Platform":  "64-bit"
+                 },
+                 {
+                     "Name":  "ODBC Driver 17 for SQL Server",
+                     "Platform":  "64-bit"
+                 },
+                 {
+                     "Name":  "Microsoft Access Driver (*.mdb, *.accdb)",
+                     "Platform":  "64-bit"
+                 },
+                 {
+                     "Name":  "Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb)",
+                     "Platform":  "64-bit"
+                 },
+                 {
+                     "Name":  "Microsoft Access Text Driver (*.txt, *.csv)",
+                     "Platform":  "64-bit"
+                 },
+                 {
+                     "Name":  "Microsoft Access dBASE Driver (*.dbf, *.ndx, *.mdx)",
+                     "Platform":  "64-bit"
+                 }
+             ],
+    "WindowsSQLite":  {
+                          "Exists":  true,
+                          "Version":  "3.53.4"
+                      },
+    "OtherProviders":  [
+                           {
+                               "Provider":  "Microsoft.ACE.OLEDB.12.0",
+                               "Version":  "10.0",
+                               "Opened":  true
+                           },
+                           {
+                               "Provider":  "Microsoft.Jet.OLEDB.4.0",
+                               "Error":  "Provedor não encontrado. É possível que ele não esteja instalado corretamente.",
+                               "Opened":  false
+                           }
+                       ]
+}

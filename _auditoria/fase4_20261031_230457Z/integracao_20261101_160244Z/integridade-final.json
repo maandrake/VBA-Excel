@@ -1,0 +1,1443 @@
+{
+  "timestamp": "2026-11-01T17:18:24.124Z",
+  "originals": [
+    {
+      "relative": "Excel\\Estoque Fera Veículos 2026.xlsm",
+      "expected": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "actual": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "pass": true
+    },
+    {
+      "relative": "Form\\Cad_NCM.frm",
+      "expected": "c5aa276b7e1ad1da01a0d54a9faceb93c095d480806e83813db02b1a981c78a9",
+      "actual": "c5aa276b7e1ad1da01a0d54a9faceb93c095d480806e83813db02b1a981c78a9",
+      "pass": true
+    },
+    {
+      "relative": "Form\\Cad_NCM.frx",
+      "expected": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "actual": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "pass": true
+    },
+    {
+      "relative": "Form\\Cad_NFE.frm",
+      "expected": "7c36590ff7e7f513e8396564e80d991f1ceb33602c16a07deba13598270176ee",
+      "actual": "7c36590ff7e7f513e8396564e80d991f1ceb33602c16a07deba13598270176ee",
+      "pass": true
+    },
+    {
+      "relative": "Form\\Cad_NFE.frx",
+      "expected": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "actual": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "pass": true
+    },
+    {
+      "relative": "Form\\Cad_NFE_Saida.frm",
+      "expected": "b3262a8af0a8c97342daa50cb1bca03b3cb23b5cf387f9abd3973697fa14ad32",
+      "actual": "b3262a8af0a8c97342daa50cb1bca03b3cb23b5cf387f9abd3973697fa14ad32",
+      "pass": true
+    },
+    {
+      "relative": "Form\\Cad_NFE_Saida.frx",
+      "expected": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "actual": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "pass": true
+    },
+    {
+      "relative": "Form\\frmRelatorioXML.frm",
+      "expected": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "actual": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "pass": true
+    },
+    {
+      "relative": "Form\\frmRelatorioXML.frx",
+      "expected": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "actual": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "pass": true
+    },
+    {
+      "relative": "Form\\UserFormFiltro.frm",
+      "expected": "72104ed848f1c883a7ba8cfe1fbf0e3580877dca42a93750350db28fbce912c5",
+      "actual": "72104ed848f1c883a7ba8cfe1fbf0e3580877dca42a93750350db28fbce912c5",
+      "pass": true
+    },
+    {
+      "relative": "Form\\UserFormFiltro.frx",
+      "expected": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "actual": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlChamarFiltro.bas",
+      "expected": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "actual": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlChamarForm.bas",
+      "expected": "f1a50ae2170e8d91fe64d7eff748009a86afb13deb5f4f0afc12a4e4f905aa36",
+      "actual": "f1a50ae2170e8d91fe64d7eff748009a86afb13deb5f4f0afc12a4e4f905aa36",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlChamarFormDocFora.bas",
+      "expected": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "actual": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlChamarFormNCM.bas",
+      "expected": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "actual": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlChamarFormSaida.bas",
+      "expected": "738e72244780dbf0342c18d9688f0bf929dc8d609e1b4788dabc2aaf7d2cd403",
+      "actual": "738e72244780dbf0342c18d9688f0bf929dc8d609e1b4788dabc2aaf7d2cd403",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlChamarFormVeículos.bas",
+      "expected": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "actual": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlChamarTabCan.bas",
+      "expected": "c476162d14a48d47b27abf29fcb1a265be1146cabf770e1b7ba5baa6845215ed",
+      "actual": "c476162d14a48d47b27abf29fcb1a265be1146cabf770e1b7ba5baa6845215ed",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlChamarTabEnt.bas",
+      "expected": "6aa6e174c4eaeedeebb8054ba5f989f27b679e4cd9d716554d7209cb05be27ed",
+      "actual": "6aa6e174c4eaeedeebb8054ba5f989f27b679e4cd9d716554d7209cb05be27ed",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlChamarTabSai.bas",
+      "expected": "8ecd5f302438f49849bf0ede7bc5be6fcc62792f8ca845a9d155b70daed19f3d",
+      "actual": "8ecd5f302438f49849bf0ede7bc5be6fcc62792f8ca845a9d155b70daed19f3d",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlCondCel.bas",
+      "expected": "eb898b196b26f6360615cf503030c2b20eb8d345e277550e07df46ede111f60c",
+      "actual": "eb898b196b26f6360615cf503030c2b20eb8d345e277550e07df46ede111f60c",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlCopiar.bas",
+      "expected": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "actual": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlCriaBackup.bas",
+      "expected": "8477beee7a2be221e2daf6ba6b8a805412fecf638f67e38f5a7654aa052148ff",
+      "actual": "8477beee7a2be221e2daf6ba6b8a805412fecf638f67e38f5a7654aa052148ff",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlCursor.bas",
+      "expected": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "actual": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlMacroConexão.bas",
+      "expected": "38ef9f12fac5df53037a3e0fef4d5039c0c87c939dbd20667e2cf6bc890cd405",
+      "actual": "38ef9f12fac5df53037a3e0fef4d5039c0c87c939dbd20667e2cf6bc890cd405",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlMacroConexãoClientes.bas",
+      "expected": "0933295f65ca204d94633c1b6bf640299e18f0d04b033f2044c0f013bf2643e7",
+      "actual": "0933295f65ca204d94633c1b6bf640299e18f0d04b033f2044c0f013bf2643e7",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlMacroDocFora.bas",
+      "expected": "2675a05d8126ec68039565153e67bd3e51afad76e885e540cd09df5fd4676f01",
+      "actual": "2675a05d8126ec68039565153e67bd3e51afad76e885e540cd09df5fd4676f01",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlOcultarTítulo.bas",
+      "expected": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "actual": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\mdlTelaCheia.bas",
+      "expected": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "actual": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\modPreencherFormulario.bas",
+      "expected": "716b2d1388e29aee6e2f71aea45e68ae65641b3b00c7f59463151a860a97179f",
+      "actual": "716b2d1388e29aee6e2f71aea45e68ae65641b3b00c7f59463151a860a97179f",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\modSeleniumCommon.bas",
+      "expected": "f38c55ae5cf11320a7864286b706094cfd7686f6d01669519aafe67d974091b2",
+      "actual": "f38c55ae5cf11320a7864286b706094cfd7686f6d01669519aafe67d974091b2",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\modSeleniumConsultaNFE.bas",
+      "expected": "a6b6045c0179684ee54fb30ff7c0340917e7ca0736e5f9249fb78808193cdbf2",
+      "actual": "a6b6045c0179684ee54fb30ff7c0340917e7ca0736e5f9249fb78808193cdbf2",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\modSeleniumRenavamConsulta.bas",
+      "expected": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "actual": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\modSelTest.bas",
+      "expected": "1bd9a034503af0479bed5f7fd38fea83e5a2b693459c2e731de98ccf50e2b3a0",
+      "actual": "1bd9a034503af0479bed5f7fd38fea83e5a2b693459c2e731de98ccf50e2b3a0",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\modValidacaoXML.bas",
+      "expected": "8b79d34333a47ba1b5fe98f3641d79eb7075127b9967d7072e3041e94b4c3548",
+      "actual": "8b79d34333a47ba1b5fe98f3641d79eb7075127b9967d7072e3041e94b4c3548",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\MóduloOfficeRibbonEditor.bas",
+      "expected": "2d8aed2ec79ba3e825e782c2391d08f112d0d98b48475d0a7a02ab4ae97a2ed4",
+      "actual": "2d8aed2ec79ba3e825e782c2391d08f112d0d98b48475d0a7a02ab4ae97a2ed4",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\MóduloPesquisa.bas",
+      "expected": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "actual": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "pass": true
+    },
+    {
+      "relative": "MDL\\MóduloRemoveFechar.bas",
+      "expected": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "actual": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "pass": true
+    },
+    {
+      "relative": "README.md",
+      "expected": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "actual": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "pass": true
+    }
+  ],
+  "phase3": [
+    {
+      "relative": "a08-estrategias-com.json",
+      "pass": true
+    },
+    {
+      "relative": "a09-fronteiras-com.json",
+      "pass": true
+    },
+    {
+      "relative": "a09-metadado-corrigido-com.json",
+      "pass": true
+    },
+    {
+      "relative": "a09-metadado-ignore-com.json",
+      "pass": true
+    },
+    {
+      "relative": "alteracoes-fase3.json",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/Excel/Estoque Fera Veículos 2026.xlsm",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/Cad_NCM.frm",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/Cad_NCM.frx",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/Cad_NFE.frm",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/Cad_NFE.frx",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/Cad_NFE_Saida.frm",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/Cad_NFE_Saida.frx",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/frmRelatorioXML.frm",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/frmRelatorioXML.frx",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/UserFormFiltro.frm",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/UserFormFiltro.frx",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/LEIA_ANTES_DE_USAR.md",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/clsOperacaoPlanilha.cls",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarFiltro.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarForm.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarFormDocFora.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarFormNCM.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarFormSaida.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarFormVeículos.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarTabCan.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarTabEnt.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarTabSai.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlCondCel.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlCopiar.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlCriaBackup.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlCursor.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlMacroConexão.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlMacroConexãoClientes.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlMacroDocFora.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlOcultarTítulo.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlTelaCheia.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/modIntegridadeOperacao.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/modPreencherFormulario.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/modSeleniumCommon.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/modSeleniumConsultaNFE.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/modSeleniumRenavamConsulta.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/modSelTest.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/modValidacaoXML.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/MóduloOfficeRibbonEditor.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/MóduloPesquisa.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/MóduloRemoveFechar.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/desenvolvimento/README.md",
+      "pass": true
+    },
+    {
+      "relative": "backup/documentacao/AGENTS.md",
+      "pass": true
+    },
+    {
+      "relative": "backup/documentacao/COMPILACAO_MANUAL_FASE2.md",
+      "pass": true
+    },
+    {
+      "relative": "backup/documentacao/HISTORICO_ALTERACOES.md",
+      "pass": true
+    },
+    {
+      "relative": "backup/documentacao/MAPA_PROJETO.md",
+      "pass": true
+    },
+    {
+      "relative": "backup/documentacao/PLANO_CORRECAO_FASE2.md",
+      "pass": true
+    },
+    {
+      "relative": "backup/documentacao/README.md",
+      "pass": true
+    },
+    {
+      "relative": "backup/documentacao/RELATORIO_AUDITORIA.md",
+      "pass": true
+    },
+    {
+      "relative": "backup/documentacao/TESTES_VBA.md",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/auditar-vba.mjs",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/AuditoriaListaFake.cls",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/fixture-esquema.json",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/modTestesAuditoria.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/modTestesFase2.bas",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/Preparar-TestesVBA.ps1",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/Reexecutar-ExcelCom.ps1",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/Reexecutar-XMLCom.ps1",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/Reproduzir-A08.ps1",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/Test-ExcelCom.ps1",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/Test-Fase2BackupContexto.ps1",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/Test-Fase2BackupContextoV2.ps1",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/Test-Fase2BackupContextoV3.ps1",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/Test-Fase2BackupContextoV4.ps1",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/Test-Fase2Recuperacao.ps1",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/Test-OfficeCapabilities.ps1",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/Test-XMLCom.ps1",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/testar-auditoria.mjs",
+      "pass": true
+    },
+    {
+      "relative": "backup/scripts/verificar-fase2.mjs",
+      "pass": true
+    },
+    {
+      "relative": "backup-fase3-com.json",
+      "pass": true
+    },
+    {
+      "relative": "bibliotecas-registradas.json",
+      "pass": true
+    },
+    {
+      "relative": "comparacao-tres-versoes.json",
+      "pass": true
+    },
+    {
+      "relative": "COMPILACAO_MANUAL.md",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/Excel/Estoque Fera Veículos 2026.xlsm",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NCM.frm",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NCM.frx",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NFE.frm",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NFE.frx",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NFE_Saida.frm",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NFE_Saida.frx",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/Form/frmRelatorioXML.frm",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/Form/frmRelatorioXML.frx",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/Form/UserFormFiltro.frm",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/Form/UserFormFiltro.frx",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/LEIA_ANTES_DE_USAR.md",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/clsOperacaoPlanilha.cls",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarFiltro.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarForm.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarFormDocFora.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarFormNCM.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarFormSaida.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarFormVeículos.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarTabCan.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarTabEnt.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarTabSai.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlCondCel.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlCopiar.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlCriaBackup.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlCursor.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlMacroConexão.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlMacroConexãoClientes.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlMacroDocFora.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlOcultarTítulo.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlTelaCheia.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/modIntegridadeOperacao.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/modPreencherFormulario.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/modSeleniumCommon.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/modSeleniumConsultaNFE.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/modSeleniumRenavamConsulta.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/modSelTest.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/modValidacaoXML.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/MóduloOfficeRibbonEditor.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/MóduloPesquisa.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/MDL/MóduloRemoveFechar.bas",
+      "pass": true
+    },
+    {
+      "relative": "desenvolvimento/README.md",
+      "pass": true
+    },
+    {
+      "relative": "entrega-fase3.json",
+      "pass": true
+    },
+    {
+      "relative": "evidencias/estatica/analise-estatica.json",
+      "pass": true
+    },
+    {
+      "relative": "evidencias/estatica-final/analise-estatica.json",
+      "pass": true
+    },
+    {
+      "relative": "git-inspecao.json",
+      "pass": true
+    },
+    {
+      "relative": "identidade-existente.json",
+      "pass": true
+    },
+    {
+      "relative": "links-documentacao.json",
+      "pass": true
+    },
+    {
+      "relative": "manifesto-desenvolvimento-final.json",
+      "pass": true
+    },
+    {
+      "relative": "manifesto-inicial-fase3.json",
+      "pass": true
+    },
+    {
+      "relative": "office-fase3.json",
+      "pass": true
+    },
+    {
+      "relative": "pacote-importacao.json",
+      "pass": true
+    },
+    {
+      "relative": "scripts/auditar-vba.mjs",
+      "pass": true
+    },
+    {
+      "relative": "scripts/AuditoriaListaFake.cls",
+      "pass": true
+    },
+    {
+      "relative": "scripts/fixture-esquema.json",
+      "pass": true
+    },
+    {
+      "relative": "scripts/modTestesAuditoria.bas",
+      "pass": true
+    },
+    {
+      "relative": "scripts/modTestesFase2.bas",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Preparar-TestesVBA.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Reexecutar-ExcelCom.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Reexecutar-XMLCom.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Reproduzir-A08.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Sondar-OfficeFase3.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Test-BackupFase3.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Test-EstrategiasA08.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Test-ExcelCom.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Test-Fase2BackupContexto.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Test-Fase2BackupContextoV2.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Test-Fase2BackupContextoV3.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Test-Fase2BackupContextoV4.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Test-Fase2Recuperacao.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Test-FronteirasA09.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Test-MetadadoA09.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Test-OfficeCapabilities.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Test-XMLCom.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/Test-XMLFase3.ps1",
+      "pass": true
+    },
+    {
+      "relative": "scripts/testar-auditoria.mjs",
+      "pass": true
+    },
+    {
+      "relative": "scripts/verificar-fase2.mjs",
+      "pass": true
+    },
+    {
+      "relative": "scripts/verificar-fase3.mjs",
+      "pass": true
+    },
+    {
+      "relative": "sintaxe-powershell.json",
+      "pass": true
+    },
+    {
+      "relative": "verificacao-estatica-fase3.json",
+      "pass": true
+    },
+    {
+      "relative": "verificacao-pacote.json",
+      "pass": true
+    },
+    {
+      "relative": "xml-fase3-com.json",
+      "pass": true
+    }
+  ],
+  "initialPhase4Backups": [
+    {
+      "relative": "documentacao/AGENTS.md",
+      "pass": true
+    },
+    {
+      "relative": "documentacao/RELATORIO_HOMOLOGACAO_FASE3.md",
+      "pass": true
+    },
+    {
+      "relative": "documentacao/MATRIZ_TESTES_FASE3.md",
+      "pass": true
+    },
+    {
+      "relative": "documentacao/PENDENCIAS_DECISAO.md",
+      "pass": true
+    },
+    {
+      "relative": "documentacao/PLANO_CORRECAO_FASE2.md",
+      "pass": true
+    },
+    {
+      "relative": "documentacao/RELATORIO_AUDITORIA.md",
+      "pass": true
+    },
+    {
+      "relative": "documentacao/TESTES_VBA.md",
+      "pass": true
+    },
+    {
+      "relative": "documentacao/MAPA_PROJETO.md",
+      "pass": true
+    },
+    {
+      "relative": "documentacao/HISTORICO_ALTERACOES.md",
+      "pass": true
+    },
+    {
+      "relative": "fontes/Form/Cad_NCM.frm",
+      "pass": true
+    },
+    {
+      "relative": "fontes/Form/Cad_NCM.frx",
+      "pass": true
+    },
+    {
+      "relative": "fontes/Form/Cad_NFE.frm",
+      "pass": true
+    },
+    {
+      "relative": "fontes/Form/Cad_NFE.frx",
+      "pass": true
+    },
+    {
+      "relative": "fontes/Form/Cad_NFE_Saida.frm",
+      "pass": true
+    },
+    {
+      "relative": "fontes/Form/Cad_NFE_Saida.frx",
+      "pass": true
+    },
+    {
+      "relative": "fontes/Form/frmRelatorioXML.frm",
+      "pass": true
+    },
+    {
+      "relative": "fontes/Form/frmRelatorioXML.frx",
+      "pass": true
+    },
+    {
+      "relative": "fontes/Form/UserFormFiltro.frm",
+      "pass": true
+    },
+    {
+      "relative": "fontes/Form/UserFormFiltro.frx",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/clsOperacaoPlanilha.cls",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarFiltro.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarForm.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarFormDocFora.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarFormNCM.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarFormSaida.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarFormVeículos.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarTabCan.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarTabEnt.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarTabSai.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlCondCel.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlCopiar.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlCriaBackup.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlCursor.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlMacroConexão.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlMacroConexãoClientes.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlMacroDocFora.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlOcultarTítulo.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/mdlTelaCheia.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/modIntegridadeOperacao.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/modPreencherFormulario.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/modSeleniumCommon.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/modSeleniumConsultaNFE.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/modSeleniumRenavamConsulta.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/modSelTest.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/modValidacaoXML.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/MóduloOfficeRibbonEditor.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/MóduloPesquisa.bas",
+      "pass": true
+    },
+    {
+      "relative": "fontes/MDL/MóduloRemoveFechar.bas",
+      "pass": true
+    },
+    {
+      "relative": "scripts/modTestesAuditoria.bas",
+      "pass": true
+    },
+    {
+      "relative": "scripts/AuditoriaListaFake.cls",
+      "pass": true
+    },
+    {
+      "relative": "scripts/modTestesFase2.bas",
+      "pass": true
+    },
+    {
+      "relative": "scripts/fixture-esquema.json",
+      "pass": true
+    },
+    {
+      "relative": "COMPILACAO_MANUAL_FASE3.md",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/EstaPastaDeTrabalho.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha1.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha10.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha11.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha12.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha13.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha15.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha16.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha17.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha18.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha2.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha3.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha4.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha5.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha6.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha7.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha8.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Documentos/Planilha9.txt",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Form/Cad_NCM.frm",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Form/Cad_NCM.frx",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Form/Cad_NFE.frm",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Form/Cad_NFE.frx",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Form/Cad_NFE_Saida.frm",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Form/Cad_NFE_Saida.frx",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Form/frmRelatorioXML.frm",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Form/frmRelatorioXML.frx",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Form/UserFormFiltro.frm",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Form/UserFormFiltro.frx",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/clsOperacaoPlanilha.cls",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlChamarFiltro.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlChamarForm.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlChamarFormDocFora.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlChamarFormNCM.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlChamarFormSaida.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlChamarFormVeículos.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlChamarTabCan.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlChamarTabEnt.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlChamarTabSai.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlCondCel.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlCopiar.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlCriaBackup.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlCursor.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlMacroConexão.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlMacroConexãoClientes.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlMacroDocFora.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlOcultarTítulo.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/mdlTelaCheia.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/modIntegridadeOperacao.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/modPreencherFormulario.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/modSeleniumCommon.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/modSeleniumConsultaNFE.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/modSeleniumRenavamConsulta.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/modSelTest.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/modValidacaoXML.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/MóduloOfficeRibbonEditor.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/MóduloPesquisa.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/MDL/MóduloRemoveFechar.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Testes/AuditoriaListaFake.cls",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Testes/modTestesAuditoria.bas",
+      "pass": true
+    },
+    {
+      "relative": "pacote/Testes/modTestesFase2.bas",
+      "pass": true
+    },
+    {
+      "relative": "Fixture_Auditoria_Fase3.xlsm",
+      "pass": true
+    }
+  ],
+  "sheets": [
+    {
+      "name": "Menu Principal",
+      "codeName": "Planilha12",
+      "xml": "xl/worksheets/sheet1.xml",
+      "pass": true
+    },
+    {
+      "name": "Entradas",
+      "codeName": "Planilha1",
+      "xml": "xl/worksheets/sheet2.xml",
+      "pass": true
+    },
+    {
+      "name": "Transferidos",
+      "codeName": "Planilha13",
+      "xml": "xl/worksheets/sheet3.xml",
+      "pass": true
+    },
+    {
+      "name": "Entradas Anual",
+      "codeName": "Planilha3",
+      "xml": "xl/worksheets/sheet4.xml",
+      "pass": true
+    },
+    {
+      "name": "Demonstração",
+      "codeName": "Planilha4",
+      "xml": "xl/worksheets/sheet5.xml",
+      "pass": true
+    },
+    {
+      "name": "Saidas",
+      "codeName": "Planilha2",
+      "xml": "xl/worksheets/sheet6.xml",
+      "pass": true
+    },
+    {
+      "name": "Todas Saidas",
+      "codeName": "Planilha17",
+      "xml": "xl/worksheets/sheet7.xml",
+      "pass": true
+    },
+    {
+      "name": "Entradas Filial",
+      "codeName": "Planilha15",
+      "xml": "xl/worksheets/sheet8.xml",
+      "pass": true
+    },
+    {
+      "name": "Entradas Anual Filial",
+      "codeName": "Planilha10",
+      "xml": "xl/worksheets/sheet9.xml",
+      "pass": true
+    },
+    {
+      "name": "Saidas Filial",
+      "codeName": "Planilha16",
+      "xml": "xl/worksheets/sheet10.xml",
+      "pass": true
+    },
+    {
+      "name": "Todas Saidas Filial",
+      "codeName": "Planilha18",
+      "xml": "xl/worksheets/sheet11.xml",
+      "pass": true
+    },
+    {
+      "name": "Carros PF",
+      "codeName": "Planilha7",
+      "xml": "xl/worksheets/sheet12.xml",
+      "pass": true
+    },
+    {
+      "name": "Clientes",
+      "codeName": "Planilha6",
+      "xml": "xl/worksheets/sheet13.xml",
+      "pass": true
+    },
+    {
+      "name": "Veículos",
+      "codeName": "Planilha9",
+      "xml": "xl/worksheets/sheet14.xml",
+      "pass": true
+    },
+    {
+      "name": "Doc. para fora",
+      "codeName": "Planilha11",
+      "xml": "xl/worksheets/sheet15.xml",
+      "pass": true
+    },
+    {
+      "name": "NCM e CEST",
+      "codeName": "Planilha5",
+      "xml": "xl/worksheets/sheet16.xml",
+      "pass": true
+    },
+    {
+      "name": "Listas",
+      "codeName": "Planilha8",
+      "xml": "xl/worksheets/sheet17.xml",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+2026-11-03T01:05:44.716Z
+Origem: janela Imediata VBE; consulta, sem mutacao dessas propriedades.
+? C1_UltimoResultado, ThisWorkbook.FullName
+CACHE_AUDITADO              C:\Users\MARCOSALEXANDREPERDO\AppData\Local\Temp\vscode-agent-codex-sandbox-JTJOQt\Entrega1_20261102T182823Z\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm
+Call E1_SessaoReaberta
+E1_SESSAO_REABERTA PASS AUDIT=OK;PROJECTION=VERIFIED;REV=8;MOV=8;RECEIPTS=8;ACTIVE=3;PENDING=0
+? C1_UltimoResultado, ThisWorkbook.FullName
+CACHE_AUDITADO              C:\Users\MARCOSALEXANDREPERDO\AppData\Local\Temp\vscode-agent-codex-sandbox-JTJOQt\Entrega2_20261102T215146Z\Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm
+? C1_Diagnostico()
+AUDIT=OK;PROJECTION=VERIFIED;REV=16;MOV=16;RECEIPTS=16;ACTIVE=5;PENDING=0
+? ThisWorkbook.Worksheets.Count, Application.EnableEvents, Application.ScreenUpdating, Application.Calculation, Application.DisplayAlerts, ThisWorkbook.Saved
+ 17           Verdadeiro    Verdadeiro    -4105         Verdadeiro    Falso

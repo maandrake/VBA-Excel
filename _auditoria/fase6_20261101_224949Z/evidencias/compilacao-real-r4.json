@@ -1,0 +1,235 @@
+{
+  "timestamp": "2026-11-01T23:56:49.927Z",
+  "fixture": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase6_20261101_224949Z\\revisao4\\Fixture_Arquitetura_Fase6_MestreR4.xlsm",
+  "sha256": "7f0f41f7336ebae8f7cfea2b698335be4ef346e78743cde34d899299dd848de1",
+  "components": 57,
+  "modality": "Compilacao real no Editor VBA, menu Compilar desabilitado depois da compilacao; Ctrl+B e codigo embutido conferido",
+  "sourceEquivalent": true,
+  "principalComponents": [
+    {
+      "module": "EstaPastaDeTrabalho",
+      "equal": true
+    },
+    {
+      "module": "Planilha12",
+      "equal": true
+    },
+    {
+      "module": "Planilha1",
+      "equal": true
+    },
+    {
+      "module": "Planilha13",
+      "equal": true
+    },
+    {
+      "module": "Planilha3",
+      "equal": true
+    },
+    {
+      "module": "Planilha4",
+      "equal": true
+    },
+    {
+      "module": "Planilha2",
+      "equal": true
+    },
+    {
+      "module": "Planilha17",
+      "equal": true
+    },
+    {
+      "module": "Planilha15",
+      "equal": true
+    },
+    {
+      "module": "Planilha10",
+      "equal": true
+    },
+    {
+      "module": "Planilha16",
+      "equal": true
+    },
+    {
+      "module": "Planilha18",
+      "equal": true
+    },
+    {
+      "module": "Planilha7",
+      "equal": true
+    },
+    {
+      "module": "Planilha6",
+      "equal": true
+    },
+    {
+      "module": "Planilha9",
+      "equal": true
+    },
+    {
+      "module": "Planilha11",
+      "equal": true
+    },
+    {
+      "module": "Planilha5",
+      "equal": true
+    },
+    {
+      "module": "Planilha8",
+      "equal": true
+    },
+    {
+      "module": "clsOperacaoPlanilha",
+      "equal": true
+    },
+    {
+      "module": "modIntegridadeOperacao",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarFiltro",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarTabCan",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarTabEnt",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarTabSai",
+      "equal": true
+    },
+    {
+      "module": "mdlCondCel",
+      "equal": true
+    },
+    {
+      "module": "mdlCopiar",
+      "equal": true
+    },
+    {
+      "module": "mdlCriaBackup",
+      "equal": true
+    },
+    {
+      "module": "mdlCursor",
+      "equal": true
+    },
+    {
+      "module": "mdlMacroConexão",
+      "equal": true
+    },
+    {
+      "module": "mdlMacroConexãoClientes",
+      "equal": true
+    },
+    {
+      "module": "mdlMacroDocFora",
+      "equal": true
+    },
+    {
+      "module": "mdlOcultarTítulo",
+      "equal": true
+    },
+    {
+      "module": "mdlTelaCheia",
+      "equal": true
+    },
+    {
+      "module": "modSeleniumCommon",
+      "equal": true
+    },
+    {
+      "module": "modSeleniumConsultaNFE",
+      "equal": true
+    },
+    {
+      "module": "modSeleniumRenavamConsulta",
+      "equal": true
+    },
+    {
+      "module": "modSelTest",
+      "equal": true
+    },
+    {
+      "module": "MóduloOfficeRibbonEditor",
+      "equal": true
+    },
+    {
+      "module": "MóduloPesquisa",
+      "equal": true
+    },
+    {
+      "module": "MóduloRemoveFechar",
+      "equal": true
+    },
+    {
+      "module": "modValidacaoXML",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarForm",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarFormDocFora",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarFormNCM",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarFormSaida",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarFormVeículos",
+      "equal": true
+    },
+    {
+      "module": "modPreencherFormulario",
+      "equal": true
+    },
+    {
+      "module": "Cad_NCM",
+      "equal": true
+    },
+    {
+      "module": "Cad_NFE",
+      "equal": true
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "equal": true
+    },
+    {
+      "module": "frmRelatorioXML",
+      "equal": true
+    },
+    {
+      "module": "UserFormFiltro",
+      "equal": true
+    },
+    {
+      "module": "AuditoriaListaFake",
+      "equal": true
+    },
+    {
+      "module": "modTestesAuditoria",
+      "equal": true
+    },
+    {
+      "module": "modTestesFase2",
+      "equal": true
+    },
+    {
+      "module": "modTestesIntegradosFase5",
+      "equal": true
+    }
+  ],
+  "onlyChange": "Instrumentacao complementar; motor experimental inalterado R3/R2; nenhuma mudanca de regra de produto."
+}

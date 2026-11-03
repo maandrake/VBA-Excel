@@ -1,0 +1,18 @@
+﻿{
+    "ID":  "F9_PROCESSO_LOCK_REAL",
+    "PID":  49412,
+    "ExcelPID":  45652,
+    "Modalidade":  "COM ADO em processo independente; Excel mantem transacao sem commit",
+    "Opened":  true,
+    "Observado":  "Não foi possível atualizar; atualmente bloqueado.",
+    "Errors":  [
+                   {
+                       "Number":  -2147467259,
+                       "NativeError":  -72156238,
+                       "Description":  "Não foi possível atualizar; atualmente bloqueado."
+                   }
+               ],
+    "Resultado":  "PASS",
+    "Tratamento":  "RECUSADO",
+    "Seconds":  2.2662931
+}

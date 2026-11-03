@@ -1,0 +1,268 @@
+{
+  "timestamp": "2026-10-31T18:26:56.526Z",
+  "audit": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\20261031_174936Z",
+  "backup": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\20261031_174936Z\\backup",
+  "dev": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\20261031_174936Z\\desenvolvimento",
+  "originalFiles": 39,
+  "allOriginalsUnchanged": true,
+  "allBackupsMatch": true,
+  "project": {
+    "components": 50,
+    "worksheets": 17,
+    "exportedProcedures": 647,
+    "embeddedProcedures": 648
+  },
+  "findings": {
+    "total": 20,
+    "fixedSourceGroups": 7,
+    "pending": 13,
+    "severities": {
+      "Crítica": 2,
+      "Alta": 7,
+      "Média": 7,
+      "Baixa": 4
+    }
+  },
+  "tests": {
+    "excelCOM": {
+      "executed": 6,
+      "passed": 6
+    },
+    "msxmlCOM": {
+      "executed": 6,
+      "passed": 6
+    },
+    "staticJS": {
+      "executed": 10,
+      "passed": 10,
+      "modelScenarios": 35
+    },
+    "powershellSyntax": {
+      "files": 4,
+      "errors": 0
+    },
+    "vbaCompilation": "BLOQUEADA",
+    "vbaRuntime": "NAO_EXECUTADO",
+    "word": "INCOMPLETO"
+  },
+  "documents": [
+    {
+      "file": "AGENTS.md",
+      "sha256": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7"
+    },
+    {
+      "file": "RELATORIO_AUDITORIA.md",
+      "sha256": "22cbb70f3be3eb658ee88dd872f08ae23a4376550b260b9823d92945e19654be"
+    },
+    {
+      "file": "MAPA_PROJETO.md",
+      "sha256": "d534bec9508ff091934d62fc1b9dd7afadb9ba7c14c9941d37de237cb514f00b"
+    },
+    {
+      "file": "TESTES_VBA.md",
+      "sha256": "c953bf404f8c33cc69b28463c66a51da42dd327a50d88e98cab15e6cce25a6d1"
+    },
+    {
+      "file": "HISTORICO_ALTERACOES.md",
+      "sha256": "05e39fa73d60cc2bd109ae399af826ea0b37f1f9dae229269c01e89f57988d5a"
+    }
+  ],
+  "brokenDocumentLinks": [],
+  "integrity": [
+    {
+      "file": "Excel\\Estoque Fera Veículos 2026.xlsm",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "Form\\Cad_NCM.frm",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "Form\\Cad_NCM.frx",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "Form\\Cad_NFE.frm",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "Form\\Cad_NFE.frx",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frm",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frx",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "Form\\frmRelatorioXML.frm",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "Form\\frmRelatorioXML.frx",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "Form\\UserFormFiltro.frm",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "Form\\UserFormFiltro.frx",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlChamarFiltro.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlChamarForm.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlChamarFormDocFora.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlChamarFormNCM.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlChamarFormSaida.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlChamarFormVeículos.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlChamarTabCan.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlChamarTabEnt.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlChamarTabSai.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlCondCel.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlCopiar.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlCriaBackup.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlCursor.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlMacroConexão.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlMacroConexãoClientes.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlMacroDocFora.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlOcultarTítulo.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\mdlTelaCheia.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\modPreencherFormulario.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\modSeleniumCommon.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\modSeleniumConsultaNFE.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\modSeleniumRenavamConsulta.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\modSelTest.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\modValidacaoXML.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\MóduloOfficeRibbonEditor.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\MóduloPesquisa.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "MDL\\MóduloRemoveFechar.bas",
+      "originalUnchanged": true,
+      "backupMatches": true
+    },
+    {
+      "file": "README.md",
+      "originalUnchanged": true,
+      "backupMatches": true
+    }
+  ]
+}

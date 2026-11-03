@@ -1,0 +1,212 @@
+﻿{
+    "Timestamp":  "2026-10-31T18:42:42.3479438-03:00",
+    "Kind":  "Sondagem Office COM e registro somente leitura",
+    "SecurityChanged":  false,
+    "Imported":  0,
+    "VbaCompiled":  false,
+    "VbaExecuted":  false,
+    "Dependencies":  [
+                         {
+                             "Registered64":  false,
+                             "Instantiated":  false,
+                             "ProgID":  "Forms.UserForm.1",
+                             "CLSID":  null
+                         },
+                         {
+                             "Registered64":  false,
+                             "Instantiated":  false,
+                             "ProgID":  "MSComctlLib.TreeCtrl.2",
+                             "CLSID":  null
+                         },
+                         {
+                             "Registered64":  true,
+                             "Instantiated":  false,
+                             "ProgID":  "Shell.Explorer.2",
+                             "CLSID":  "{8856F961-340A-11D0-A96B-00C04FD705A2}"
+                         },
+                         {
+                             "Registered64":  true,
+                             "Instantiated":  false,
+                             "ProgID":  "Selenium.ChromeDriver",
+                             "CLSID":  "{0277FC34-FD1B-4616-BB19-5D556733E8C9}"
+                         },
+                         {
+                             "Registered64":  true,
+                             "Instantiated":  false,
+                             "ProgID":  "MSXML2.DOMDocument.6.0",
+                             "CLSID":  "{88d96a05-f192-11d4-a65f-0040963251e5}"
+                         },
+                         {
+                             "Registered64":  true,
+                             "Instantiated":  false,
+                             "ProgID":  "VBScript.RegExp",
+                             "CLSID":  "{3F4DACA4-160D-11D2-A8E9-00104B365C9F}"
+                         }
+                     ],
+    "DeclaredLibraries":  [
+                              {
+                                  "DeclaredFileExists":  true,
+                                  "Guid":  "{00020430-0000-0000-C000-000000000046}",
+                                  "Name":  "OLE Automation",
+                                  "Version":  "2.0",
+                                  "TypeLibVersionRegistered64":  true
+                              },
+                              {
+                                  "DeclaredFileExists":  false,
+                                  "Guid":  "{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}",
+                                  "Name":  "Microsoft Office 16.0 Object Library",
+                                  "Version":  "2.0",
+                                  "TypeLibVersionRegistered64":  false
+                              },
+                              {
+                                  "DeclaredFileExists":  false,
+                                  "Guid":  "{0D452EE1-E08F-101A-852E-02608C4D0BB4}",
+                                  "Name":  "Microsoft Forms 2.0 Object Library",
+                                  "Version":  "2.0",
+                                  "TypeLibVersionRegistered64":  true
+                              },
+                              {
+                                  "DeclaredFileExists":  true,
+                                  "Guid":  "{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}",
+                                  "Name":  "Microsoft Internet Controls",
+                                  "Version":  "1.1",
+                                  "TypeLibVersionRegistered64":  true
+                              },
+                              {
+                                  "DeclaredFileExists":  false,
+                                  "Guid":  "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}",
+                                  "Name":  "Microsoft Windows Common Controls 6.0 (SP6)",
+                                  "Version":  "2.2",
+                                  "TypeLibVersionRegistered64":  true
+                              },
+                              {
+                                  "DeclaredFileExists":  true,
+                                  "Guid":  "{9E175B60-F52A-11D8-B9A5-505054503030}",
+                                  "Name":  "Microsoft Search CoClasses Type Library",
+                                  "Version":  "1.0",
+                                  "TypeLibVersionRegistered64":  true
+                              },
+                              {
+                                  "DeclaredFileExists":  true,
+                                  "Guid":  "{9E175B61-F52A-11D8-B9A5-505054503030}",
+                                  "Name":  "Microsoft Search Interface Type Library",
+                                  "Version":  "1.0",
+                                  "TypeLibVersionRegistered64":  true
+                              },
+                              {
+                                  "DeclaredFileExists":  true,
+                                  "Guid":  "{F5078F18-C551-11D3-89B9-0000F81FE221}",
+                                  "Name":  "Microsoft XML, v6.0",
+                                  "Version":  "6.0",
+                                  "TypeLibVersionRegistered64":  true
+                              },
+                              {
+                                  "DeclaredFileExists":  true,
+                                  "Guid":  "{0277FC34-FD1B-4616-BB19-A9AABCAF2A70}",
+                                  "Name":  "Selenium Type Library",
+                                  "Version":  "2.0",
+                                  "TypeLibVersionRegistered64":  true
+                              }
+                          ],
+    "Status":  "BLOQUEADO",
+    "ExcelVersion":  "16.0",
+    "ExcelBuild":  20527,
+    "ExcelPath":  "C:\\Program Files\\Microsoft Office\\Root\\Office16",
+    "OwnHwnd":  3542742,
+    "AutomationSecurityObserved":  1,
+    "ExcelMachine":  "0x8664",
+    "ExcelArchitecture":  "x64",
+    "ErrorOriginal":  "System.Management.Automation.MethodInvocationException: Exceção ao chamar \"InvokeMember\" com \"5\" argumento(s): \"O acesso de programação ao projeto do Visual Basic não é confiável\n\" ---\u003e System.Runtime.InteropServices.COMException: O acesso de programação ao projeto do Visual Basic não é confiável\n\r\n   --- Fim do rastreamento de pilha de exceções internas ---\r\n   em System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   em System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)\r\n   em System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)\r\n   em System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)",
+    "RootMessage":  "O acesso de programação ao projeto do Visual Basic não é confiável\n",
+    "HResult":  "0x800A03EC",
+    "SkeletonSheets":  [
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Menu Principal",
+                               "RequiredCodeName":  "Planilha12"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Entradas",
+                               "RequiredCodeName":  "Planilha1"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Transferidos",
+                               "RequiredCodeName":  "Planilha13"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Entradas Anual",
+                               "RequiredCodeName":  "Planilha3"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Demonstração",
+                               "RequiredCodeName":  "Planilha4"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Saidas",
+                               "RequiredCodeName":  "Planilha2"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Todas Saidas",
+                               "RequiredCodeName":  "Planilha17"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Entradas Filial",
+                               "RequiredCodeName":  "Planilha15"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Entradas Anual Filial",
+                               "RequiredCodeName":  "Planilha10"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Saidas Filial",
+                               "RequiredCodeName":  "Planilha16"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Todas Saidas Filial",
+                               "RequiredCodeName":  "Planilha18"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Carros PF",
+                               "RequiredCodeName":  "Planilha7"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Clientes",
+                               "RequiredCodeName":  "Planilha6"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Veículos",
+                               "RequiredCodeName":  "Planilha9"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Doc. para fora",
+                               "RequiredCodeName":  "Planilha11"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "NCM e CEST",
+                               "RequiredCodeName":  "Planilha5"
+                           },
+                           {
+                               "ActualCodeName":  "",
+                               "Name":  "Listas",
+                               "RequiredCodeName":  "Planilha8"
+                           }
+                       ],
+    "Skeleton":  "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase3_20261031_213925Z\\Fixture_Auditoria_Fase3.xlsm",
+    "SkeletonStatus":  "ESQUELETO_SEM_FONTES_NAO_COMPILADO",
+    "SkeletonSHA256":  "FF4F6B37D529E7404AE31BC65CEB1AEB3BA8F54AEB007B71C1E47C9BB9B9585D"
+}

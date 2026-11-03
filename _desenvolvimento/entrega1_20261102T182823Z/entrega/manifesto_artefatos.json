@@ -1,0 +1,18 @@
+{
+  "baseId": "69C72E8F-65EF-4904-8433-A1B2006CC968",
+  "schema": 5,
+  "revision": 8,
+  "syntheticOnly": true,
+  "files": [
+    {
+      "name": "Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+      "sha256": "5b2a0d55fcea077dd034ace4c4892bbc9fdd46c69760d7d318d2162f54771749"
+    },
+    {
+      "name": "Banco_Candidato_Sintetico.accdb",
+      "sha256": "3198e07699f644f64c325a9fb517470b64950aa5a262cc354629ed61f1503dc3"
+    }
+  ],
+  "updated": "2026-11-02T21:11:36.929Z",
+  "continuation": "continuacao_reabertura_20261102T205915Z"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "C4-01",
+  "module": "modTestesFase2",
+  "procedure": "AuditoriaFase2_Executar",
+  "error": "Erro de compilação: Erro de sintaxe",
+  "oldLine": "    ExigirF2 (ActiveCondition(ws.Range(\"F4\")) > 0) = (fluxo < 5 Or fluxo > 10), \"xlNotBetween\"",
+  "newLine": "    Call ExigirF2((ActiveCondition(ws.Range(\"F4\")) > 0) = (fluxo < 5 Or fluxo > 10), \"xlNotBetween\")",
+  "before": "4074237d5d2058a66b9c303dfb1628caf182f04ac2ab3db21de8835bbb7eed18",
+  "after": "96b20af3986f7f368fbfcb4f5ee26234dd5dd052d66a64588e4a96ceb11c2998",
+  "backupVerified": true
+}

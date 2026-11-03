@@ -1,0 +1,4 @@
+﻿{
+    "Timestamp":  "2026-10-31T14:56:29.2518262-03:00",
+    "Error":  "Falha na recuperação de fábrica de classes COM do componente com CLSID {00024500-0000-0000-C000-000000000046} devido ao seguinte erro: 80070520 A sessão de logon especificada não existe. Talvez ela já tenha sido finalizada. (Exceção de HRESULT: 0x80070520)."
+}

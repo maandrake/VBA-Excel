@@ -1,0 +1,2022 @@
+{
+  "createdAt": "2026-11-03T00:58:42.344Z",
+  "files": [
+    {
+      "relative": "manifesto-fontes-iniciais.json",
+      "size": 11814,
+      "sha256": "97824796ebf364c591d123c42688c9a252f2a43d1513d304f847a79fe81d8285"
+    },
+    {
+      "relative": "manifesto-inicial.json",
+      "size": 7092,
+      "sha256": "0e667666b428e329400684c837f8edde5980f9237abfce1523077e679e802ed3"
+    },
+    {
+      "relative": "staging_referencia/modCandidatoIntegrado.bas",
+      "size": 51366,
+      "sha256": "73dd743bf89b506385d3806bcf1b6dfda7018f169e44eb7d276b55d44cad2751"
+    },
+    {
+      "relative": "staging_referencia/modPersistenciaFase10.bas",
+      "size": 66054,
+      "sha256": "48be345d8cf423815cdfe9054438db04221952a64b56522013b29131cdc83a3b"
+    },
+    {
+      "relative": "staging_referencia/modTestesEntrega1.bas",
+      "size": 23250,
+      "sha256": "f85cdd715ae2e1e7f2609eaa7b1e04746a67426e0d84e9474c8f392462f287c6"
+    },
+    {
+      "relative": "staging_implementacao/Cad_NFE.corpo.vba.txt",
+      "size": 42016,
+      "sha256": "88cb8441eb628e30f96882459582c4f5a4a066256d96b174e063eb37b92131de"
+    },
+    {
+      "relative": "staging_implementacao/Cad_NFE_Saida.corpo.vba.txt",
+      "size": 57827,
+      "sha256": "a9c132261ca647310c83f08d45c6617c88f82e0ac3c4c7d32172bc2838106501"
+    },
+    {
+      "relative": "staging_implementacao/clsTesteCandidato.cls",
+      "size": 878,
+      "sha256": "55b9d9478ba4237fad4573e70860df5fdd8bfe6db0ecdae8c9c825356b2d4f8a"
+    },
+    {
+      "relative": "staging_implementacao/modCandidatoIntegrado.bas",
+      "size": 71793,
+      "sha256": "329896883adccee035047184c4dd9c0cceee5f59082de880a0558fc7038ab93f"
+    },
+    {
+      "relative": "staging_implementacao/modCenariosFase10.bas",
+      "size": 49029,
+      "sha256": "63fb53be9fb26665290c4ecffd76c6ea3ce64e2fd3f6cb873a061501df3295ae"
+    },
+    {
+      "relative": "staging_implementacao/modPersistenciaFase10.bas",
+      "size": 65637,
+      "sha256": "8dcc434a57b03029ef66155d745503d38a7a060c167880b34927f5fa2d401fd4"
+    },
+    {
+      "relative": "staging_implementacao/modTestesEntrega1.bas",
+      "size": 52129,
+      "sha256": "1f5115eb122e368c4cf9afe1197cdf2908ed68e5d82fc7c5c81f4c758eac9147"
+    },
+    {
+      "relative": "staging_implementacao/UserFormFiltro.corpo.vba.txt",
+      "size": 3956,
+      "sha256": "235fcb016981e5e9eda5448f89a8b47631c78893fda1d1d956ea66794b0dbe82"
+    },
+    {
+      "relative": "fontes/Cad_NFE.corpo.vba.txt",
+      "size": 41676,
+      "sha256": "1b0195c0d34e987a07b7bbfbc240da71e8aa0ca1c4aa98dba4f0530eec21ded1"
+    },
+    {
+      "relative": "fontes/Cad_NFE_Saida.corpo.vba.txt",
+      "size": 57481,
+      "sha256": "057c11761a578542cac7f69e26bc5f1e84c0668889bfffaf2ff9aeae23a0b328"
+    },
+    {
+      "relative": "fontes/clsTesteCandidato.cls",
+      "size": 1016,
+      "sha256": "ece002c33ac52c02f19d4f73353ea857ad230b4a35c1ae71ba4db0713e47497a"
+    },
+    {
+      "relative": "fontes/EstaPastaDeTrabalho.corpo.vba.txt",
+      "size": 91,
+      "sha256": "eecb0a021cb458e936c2d61f793e5aaa0811004c0e03ee884f1c0f322cb47149"
+    },
+    {
+      "relative": "fontes/inventario_final.json",
+      "size": 11035,
+      "sha256": "590ef16b667227aa19adaea30855a007810b2d59e4dc12a872bde6bd7805533d"
+    },
+    {
+      "relative": "fontes/LEIA_ME.md",
+      "size": 1261,
+      "sha256": "01df4605c39e9dfc163642329bdb52ea7e0436555ca5805bbbd1f25c16b9eca0"
+    },
+    {
+      "relative": "fontes/modCandidatoIntegrado.bas",
+      "size": 71795,
+      "sha256": "9fd81767c4e890e729ccd96a40e71e6310d2cd8a85a4433859c7802cc8d32359"
+    },
+    {
+      "relative": "fontes/modCenariosFase10.bas",
+      "size": 49031,
+      "sha256": "f03232e1ac265cb9eaa1e0e1aeca1887c446f41862469b5229b1557f549147b9"
+    },
+    {
+      "relative": "fontes/modPersistenciaFase10.bas",
+      "size": 65641,
+      "sha256": "3eeafd33bbb9c71eefae04fbf983403db55eb6bd814e9f7c5a14e4d6e91613c9"
+    },
+    {
+      "relative": "fontes/modPreencherFormulario.bas",
+      "size": 426,
+      "sha256": "e1de7c7c399e6c4b6a80fc04468d151b3b47267ef350805d74876d7907b280f8"
+    },
+    {
+      "relative": "fontes/modTestesEntrega1.bas",
+      "size": 52131,
+      "sha256": "e19ac416aa6afea4328da3dd6808214c869cfb68804b9d11b3de0932e466f45c"
+    },
+    {
+      "relative": "fontes/modValidacaoXML.bas",
+      "size": 62305,
+      "sha256": "7a6cf55e0532b02b5d06f940c5195fff1b6fb831f125fbf4cb4c65d69c3c3493"
+    },
+    {
+      "relative": "fontes/MóduloPesquisa.bas",
+      "size": 2444,
+      "sha256": "8e63e0173d91b7431935c86acb22d1556590db9e898f419c1bd913e56ffe2eff"
+    },
+    {
+      "relative": "fontes/REVISAO_LEITORES_ENTREGA2.md",
+      "size": 10843,
+      "sha256": "6d9925548699eba3b5ce6e30385f2ce4b3c9ab4f30b70e559f7b881372cf309d"
+    },
+    {
+      "relative": "fontes/UserFormFiltro.corpo.vba.txt",
+      "size": 3609,
+      "sha256": "8b242c3c74bb3cb97fdbd6bf0ca3643aa3b81a4ffb62ec8d196d88f9da53a37b"
+    },
+    {
+      "relative": "fontes/vbaProject.bin",
+      "size": 8223744,
+      "sha256": "68c5f36c2eeb24ce466ad8e8e17a30515bd63b3ba3bf267a7de31071a9227aef"
+    },
+    {
+      "relative": "fontes/MDL/AuditoriaListaFake.cls",
+      "size": 941,
+      "sha256": "6d4be92cac2f916d192f9e7ef08e7aeead6dcd7cf20e7c2c58fe7cc6f2d01d07"
+    },
+    {
+      "relative": "fontes/MDL/clsOperacaoPlanilha.cls",
+      "size": 6027,
+      "sha256": "3ccb97998035c43485c8c2fcd47964411d49e27419008d5056a9cbf1df4e2ec4"
+    },
+    {
+      "relative": "fontes/MDL/clsRepositorioFase8.cls",
+      "size": 11185,
+      "sha256": "c99c2fff639d89565fc19bd4658d4d29a7a14a47d755f780c5fb4dacda2aea0f"
+    },
+    {
+      "relative": "fontes/MDL/clsSaveFase9.cls",
+      "size": 960,
+      "sha256": "cee595c0a6a1e8d1c0ea0dffd09a9c97c7d3a0f81525436bde5ac7cae29ea3f4"
+    },
+    {
+      "relative": "fontes/MDL/clsTesteCandidato.cls",
+      "size": 1016,
+      "sha256": "ece002c33ac52c02f19d4f73353ea857ad230b4a35c1ae71ba4db0713e47497a"
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarFiltro.bas",
+      "size": 122,
+      "sha256": "ebfb40a8da1b8d144edb29781f2b59e620a9cb00876032b5147a788aa57c8958"
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarForm.bas",
+      "size": 155,
+      "sha256": "888b82877a4e95317ccabb52553d1df052b6f7677cf4c25b680439eccd4884f1"
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarFormDocFora.bas",
+      "size": 272,
+      "sha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0"
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarFormNCM.bas",
+      "size": 116,
+      "sha256": "beec72a9412eac03765526c76056e7e9097133ff0c85d433a1d9c36974064dc9"
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarFormSaida.bas",
+      "size": 169,
+      "sha256": "7938d0c4831374750e4b173b61f9c1de309a08af69decdb9688cec6c1ee1d3c7"
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarFormVeículos.bas",
+      "size": 274,
+      "sha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a"
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarTabCan.bas",
+      "size": 499,
+      "sha256": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634"
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarTabEnt.bas",
+      "size": 137,
+      "sha256": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c"
+    },
+    {
+      "relative": "fontes/MDL/mdlChamarTabSai.bas",
+      "size": 135,
+      "sha256": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b"
+    },
+    {
+      "relative": "fontes/MDL/mdlCondCel.bas",
+      "size": 7828,
+      "sha256": "9d157cb6bc41cd6f02d3008d482ad4e486a740da7f8883c04bb13ac1beb9ca6f"
+    },
+    {
+      "relative": "fontes/MDL/mdlCopiar.bas",
+      "size": 5969,
+      "sha256": "1c63a3d8eb85a8ab60137ec5304a6d9c5cedf6fab82b0c2894a20e5d9c5b49d4"
+    },
+    {
+      "relative": "fontes/MDL/mdlCriaBackup.bas",
+      "size": 4316,
+      "sha256": "ad223e660418bec76062d5d0c7a26dbe821766c808a841129e9bb0dd6d4523c4"
+    },
+    {
+      "relative": "fontes/MDL/mdlCursor.bas",
+      "size": 1025,
+      "sha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348"
+    },
+    {
+      "relative": "fontes/MDL/mdlMacroConexão.bas",
+      "size": 659,
+      "sha256": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f"
+    },
+    {
+      "relative": "fontes/MDL/mdlMacroConexãoClientes.bas",
+      "size": 676,
+      "sha256": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941"
+    },
+    {
+      "relative": "fontes/MDL/mdlMacroDocFora.bas",
+      "size": 685,
+      "sha256": "85caa0cac4b69c53f13c58e9ac4ca4e6a474d23271bcaff1f969f8fb91e340ee"
+    },
+    {
+      "relative": "fontes/MDL/mdlOcultarTítulo.bas",
+      "size": 1404,
+      "sha256": "62fbaac7301177886ee0a9ab91024b1f8c0bee597ebf891def1bb91f697eedef"
+    },
+    {
+      "relative": "fontes/MDL/mdlTelaCheia.bas",
+      "size": 2098,
+      "sha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc"
+    },
+    {
+      "relative": "fontes/MDL/modCandidatoIntegrado.bas",
+      "size": 71795,
+      "sha256": "9fd81767c4e890e729ccd96a40e71e6310d2cd8a85a4433859c7802cc8d32359"
+    },
+    {
+      "relative": "fontes/MDL/modCenariosFase10.bas",
+      "size": 49031,
+      "sha256": "f03232e1ac265cb9eaa1e0e1aeca1887c446f41862469b5229b1557f549147b9"
+    },
+    {
+      "relative": "fontes/MDL/modExperimentosFase8.bas",
+      "size": 48730,
+      "sha256": "3ac9af2712588a15790133aa60babf9eae27f7cd533a9143d419c43bf79c7afd"
+    },
+    {
+      "relative": "fontes/MDL/modFronteirasFase10.bas",
+      "size": 7272,
+      "sha256": "a70b4e9c3e1fbe525f576bfd0938e30a7214fff0f83f337c2a1afe24783542d3"
+    },
+    {
+      "relative": "fontes/MDL/modIntegridadeOperacao.bas",
+      "size": 2100,
+      "sha256": "9c38f1e123ef3fc7b67eba789610e70e5ede1f9c68d3eda31e901b08a7d21993"
+    },
+    {
+      "relative": "fontes/MDL/modPersistenciaFase10.bas",
+      "size": 65641,
+      "sha256": "3eeafd33bbb9c71eefae04fbf983403db55eb6bd814e9f7c5a14e4d6e91613c9"
+    },
+    {
+      "relative": "fontes/MDL/modPersistenciaFase9.bas",
+      "size": 49408,
+      "sha256": "298b6234d3837493a04d480a70bb28d1c624a55ffbf5a5076fc5ea7ebf4ff6ba"
+    },
+    {
+      "relative": "fontes/MDL/modPreencherFormulario.bas",
+      "size": 426,
+      "sha256": "e1de7c7c399e6c4b6a80fc04468d151b3b47267ef350805d74876d7907b280f8"
+    },
+    {
+      "relative": "fontes/MDL/modPrototiposFase6.bas",
+      "size": 45586,
+      "sha256": "13a22fafaf85ed58fc6229443e64c86bd1de91028541c187022bb7adc6e25a2f"
+    },
+    {
+      "relative": "fontes/MDL/modPrototiposFase7.bas",
+      "size": 28310,
+      "sha256": "e9aa897ce0d6697d7c70781b41f6619816578cc114ae89712bac31f41d7fea16"
+    },
+    {
+      "relative": "fontes/MDL/modSeleniumCommon.bas",
+      "size": 4959,
+      "sha256": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6"
+    },
+    {
+      "relative": "fontes/MDL/modSeleniumConsultaNFE.bas",
+      "size": 43076,
+      "sha256": "b4b59146037a9d2fe04f653587c25c8b0fd762db7eff5f7b6b4f1722710a50a0"
+    },
+    {
+      "relative": "fontes/MDL/modSeleniumRenavamConsulta.bas",
+      "size": 18900,
+      "sha256": "19c3ce8723050ec14ffdc2d92c16fa49f34e6fc520a5bb8e6fe31dde11130658"
+    },
+    {
+      "relative": "fontes/MDL/modSelTest.bas",
+      "size": 43113,
+      "sha256": "894840fc367c1cf7fef45a4fb06911912c61b90b2e32dcf338c23713464fa896"
+    },
+    {
+      "relative": "fontes/MDL/modTestesAuditoria.bas",
+      "size": 3279,
+      "sha256": "516d590a1d3294b1983f7358c329bfe761122fc924788e80d5e202c668213f3f"
+    },
+    {
+      "relative": "fontes/MDL/modTestesEntrega1.bas",
+      "size": 52131,
+      "sha256": "e19ac416aa6afea4328da3dd6808214c869cfb68804b9d11b3de0932e466f45c"
+    },
+    {
+      "relative": "fontes/MDL/modTestesFase2.bas",
+      "size": 12979,
+      "sha256": "1b81bd27828d0a529d4c083ef8c3e322bf11e433bee47897482b18298650eb41"
+    },
+    {
+      "relative": "fontes/MDL/modTestesIntegradosFase5.bas",
+      "size": 11062,
+      "sha256": "5125e27762d9eb5cf50a80391a46a2050cb4d8a863dc9e4cdc65192285a84a5b"
+    },
+    {
+      "relative": "fontes/MDL/modValidacaoXML.bas",
+      "size": 62305,
+      "sha256": "7a6cf55e0532b02b5d06f940c5195fff1b6fb831f125fbf4cb4c65d69c3c3493"
+    },
+    {
+      "relative": "fontes/MDL/modVerificacaoFase9.bas",
+      "size": 8994,
+      "sha256": "d22d5a8276abd173414e94684875c964aa852d234e06331a680fd09dc1ef8b98"
+    },
+    {
+      "relative": "fontes/MDL/MóduloOfficeRibbonEditor.bas",
+      "size": 455,
+      "sha256": "725894623f0f7e883c8c16cd5311853427423859dd176428b084099a419c0777"
+    },
+    {
+      "relative": "fontes/MDL/MóduloPesquisa.bas",
+      "size": 2444,
+      "sha256": "8e63e0173d91b7431935c86acb22d1556590db9e898f419c1bd913e56ffe2eff"
+    },
+    {
+      "relative": "fontes/MDL/MóduloRemoveFechar.bas",
+      "size": 1243,
+      "sha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd"
+    },
+    {
+      "relative": "fontes/Form/Cad_NCM.frm",
+      "size": 8118,
+      "sha256": "c292f4dbee26d7c8f8b0e118140c9afbc16589818a1fde42b6ba4b031cc88ae5"
+    },
+    {
+      "relative": "fontes/Form/Cad_NCM.frx",
+      "size": 257048,
+      "sha256": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a"
+    },
+    {
+      "relative": "fontes/Form/Cad_NFE.frm",
+      "size": 42168,
+      "sha256": "e023c90566b23482f9378e24c8b84e094968fde69f10b01b4992dd1ef2677c0f"
+    },
+    {
+      "relative": "fontes/Form/Cad_NFE.frx",
+      "size": 1867800,
+      "sha256": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df"
+    },
+    {
+      "relative": "fontes/Form/Cad_NFE_Saida.frm",
+      "size": 57986,
+      "sha256": "547362b709523a4cb0b7c02a1e0c6d036482d50b3300e2ea9171b4b53b286a98"
+    },
+    {
+      "relative": "fontes/Form/Cad_NFE_Saida.frx",
+      "size": 1346584,
+      "sha256": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23"
+    },
+    {
+      "relative": "fontes/Form/frmRelatorioXML.frm",
+      "size": 6025,
+      "sha256": "e64dceeff6cc78e355853bd37100317ad5809c4ccaae28f141ffbb466def24c6"
+    },
+    {
+      "relative": "fontes/Form/frmRelatorioXML.frx",
+      "size": 94232,
+      "sha256": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b"
+    },
+    {
+      "relative": "fontes/Form/UserFormFiltro.frm",
+      "size": 4101,
+      "sha256": "3fbefaf2dfcecc3f4d603f911a9e0c382a7cd0c377886e75899470e6c80941b1"
+    },
+    {
+      "relative": "fontes/Form/UserFormFiltro.frx",
+      "size": 511000,
+      "sha256": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/AuditoriaListaFake.vba.txt",
+      "size": 893,
+      "sha256": "f97b99d922bbe209ad0f1306fab12804738a9fcb943e75b78343b6e7e421a7ab"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Cad_NCM.vba.txt",
+      "size": 7981,
+      "sha256": "55506c15209af3525044e9220435e3e1556126e23e2bfd9f48f9b749ec66ac99"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Cad_NFE.vba.txt",
+      "size": 42016,
+      "sha256": "575c063225b039f604c44a90612b6c69323790a5c63554a4bf6bf25952c6ed60"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Cad_NFE_Saida.vba.txt",
+      "size": 57827,
+      "sha256": "c3abb2b6d543ac2d604596ffa7b0ee1d3100bcf3003db6126bda9cd80b36d31a"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/clsOperacaoPlanilha.vba.txt",
+      "size": 5979,
+      "sha256": "beb196d4d1389301520070e0a5c01b9735aec280e395a9459e3e4e10d8e0dafc"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/clsRepositorioFase8.vba.txt",
+      "size": 11137,
+      "sha256": "0de0af699a1de921f447869b743a12773d05466b65472f6a0380af9266979896"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/clsSaveFase9.vba.txt",
+      "size": 912,
+      "sha256": "5bdaa5cb2329eb261dabf74ea98821c09109a17f535a6705523ebc2ffa3b55e6"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/clsTesteCandidato.vba.txt",
+      "size": 968,
+      "sha256": "349feb16f5c2db4020d6e5a36db0ea8d07c29f2374e3b538028ac420565666b8"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/EstaPastaDeTrabalho.vba.txt",
+      "size": 403,
+      "sha256": "dd7c91609fc00199c34785a85ded9463006bb672432513ecc172e2684958d398"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/frmRelatorioXML.vba.txt",
+      "size": 5874,
+      "sha256": "3bd495bb9116ad9415e8e441d2df272bf02e0da8621ed2e01726a8d2cca64d7c"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlChamarFiltro.vba.txt",
+      "size": 122,
+      "sha256": "ebfb40a8da1b8d144edb29781f2b59e620a9cb00876032b5147a788aa57c8958"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlChamarForm.vba.txt",
+      "size": 155,
+      "sha256": "888b82877a4e95317ccabb52553d1df052b6f7677cf4c25b680439eccd4884f1"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlChamarFormDocFora.vba.txt",
+      "size": 272,
+      "sha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlChamarFormNCM.vba.txt",
+      "size": 116,
+      "sha256": "beec72a9412eac03765526c76056e7e9097133ff0c85d433a1d9c36974064dc9"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlChamarFormSaida.vba.txt",
+      "size": 169,
+      "sha256": "7938d0c4831374750e4b173b61f9c1de309a08af69decdb9688cec6c1ee1d3c7"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlChamarFormVeículos.vba.txt",
+      "size": 274,
+      "sha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlChamarTabCan.vba.txt",
+      "size": 499,
+      "sha256": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlChamarTabEnt.vba.txt",
+      "size": 137,
+      "sha256": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlChamarTabSai.vba.txt",
+      "size": 135,
+      "sha256": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlCondCel.vba.txt",
+      "size": 7828,
+      "sha256": "9d157cb6bc41cd6f02d3008d482ad4e486a740da7f8883c04bb13ac1beb9ca6f"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlCopiar.vba.txt",
+      "size": 5969,
+      "sha256": "1c63a3d8eb85a8ab60137ec5304a6d9c5cedf6fab82b0c2894a20e5d9c5b49d4"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlCriaBackup.vba.txt",
+      "size": 4316,
+      "sha256": "ad223e660418bec76062d5d0c7a26dbe821766c808a841129e9bb0dd6d4523c4"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlCursor.vba.txt",
+      "size": 1025,
+      "sha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlMacroConexão.vba.txt",
+      "size": 659,
+      "sha256": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlMacroConexãoClientes.vba.txt",
+      "size": 676,
+      "sha256": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlMacroDocFora.vba.txt",
+      "size": 685,
+      "sha256": "85caa0cac4b69c53f13c58e9ac4ca4e6a474d23271bcaff1f969f8fb91e340ee"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlOcultarTítulo.vba.txt",
+      "size": 1404,
+      "sha256": "62fbaac7301177886ee0a9ab91024b1f8c0bee597ebf891def1bb91f697eedef"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/mdlTelaCheia.vba.txt",
+      "size": 2098,
+      "sha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modCandidatoIntegrado.vba.txt",
+      "size": 71795,
+      "sha256": "9fd81767c4e890e729ccd96a40e71e6310d2cd8a85a4433859c7802cc8d32359"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modCenariosFase10.vba.txt",
+      "size": 49031,
+      "sha256": "f03232e1ac265cb9eaa1e0e1aeca1887c446f41862469b5229b1557f549147b9"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modExperimentosFase8.vba.txt",
+      "size": 48730,
+      "sha256": "3ac9af2712588a15790133aa60babf9eae27f7cd533a9143d419c43bf79c7afd"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modFronteirasFase10.vba.txt",
+      "size": 7272,
+      "sha256": "a70b4e9c3e1fbe525f576bfd0938e30a7214fff0f83f337c2a1afe24783542d3"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modIntegridadeOperacao.vba.txt",
+      "size": 2100,
+      "sha256": "9c38f1e123ef3fc7b67eba789610e70e5ede1f9c68d3eda31e901b08a7d21993"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modPersistenciaFase10.vba.txt",
+      "size": 65641,
+      "sha256": "3eeafd33bbb9c71eefae04fbf983403db55eb6bd814e9f7c5a14e4d6e91613c9"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modPersistenciaFase9.vba.txt",
+      "size": 49408,
+      "sha256": "298b6234d3837493a04d480a70bb28d1c624a55ffbf5a5076fc5ea7ebf4ff6ba"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modPreencherFormulario.vba.txt",
+      "size": 426,
+      "sha256": "e1de7c7c399e6c4b6a80fc04468d151b3b47267ef350805d74876d7907b280f8"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modPrototiposFase6.vba.txt",
+      "size": 45586,
+      "sha256": "13a22fafaf85ed58fc6229443e64c86bd1de91028541c187022bb7adc6e25a2f"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modPrototiposFase7.vba.txt",
+      "size": 28310,
+      "sha256": "e9aa897ce0d6697d7c70781b41f6619816578cc114ae89712bac31f41d7fea16"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modSeleniumCommon.vba.txt",
+      "size": 4959,
+      "sha256": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modSeleniumConsultaNFE.vba.txt",
+      "size": 43076,
+      "sha256": "b4b59146037a9d2fe04f653587c25c8b0fd762db7eff5f7b6b4f1722710a50a0"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modSeleniumRenavamConsulta.vba.txt",
+      "size": 18900,
+      "sha256": "19c3ce8723050ec14ffdc2d92c16fa49f34e6fc520a5bb8e6fe31dde11130658"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modSelTest.vba.txt",
+      "size": 43113,
+      "sha256": "894840fc367c1cf7fef45a4fb06911912c61b90b2e32dcf338c23713464fa896"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modTestesAuditoria.vba.txt",
+      "size": 3279,
+      "sha256": "516d590a1d3294b1983f7358c329bfe761122fc924788e80d5e202c668213f3f"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modTestesEntrega1.vba.txt",
+      "size": 52131,
+      "sha256": "e19ac416aa6afea4328da3dd6808214c869cfb68804b9d11b3de0932e466f45c"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modTestesFase2.vba.txt",
+      "size": 12979,
+      "sha256": "1b81bd27828d0a529d4c083ef8c3e322bf11e433bee47897482b18298650eb41"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modTestesIntegradosFase5.vba.txt",
+      "size": 11062,
+      "sha256": "5125e27762d9eb5cf50a80391a46a2050cb4d8a863dc9e4cdc65192285a84a5b"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modValidacaoXML.vba.txt",
+      "size": 62305,
+      "sha256": "7a6cf55e0532b02b5d06f940c5195fff1b6fb831f125fbf4cb4c65d69c3c3493"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/modVerificacaoFase9.vba.txt",
+      "size": 8994,
+      "sha256": "d22d5a8276abd173414e94684875c964aa852d234e06331a680fd09dc1ef8b98"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/MóduloOfficeRibbonEditor.vba.txt",
+      "size": 455,
+      "sha256": "725894623f0f7e883c8c16cd5311853427423859dd176428b084099a419c0777"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/MóduloPesquisa.vba.txt",
+      "size": 2444,
+      "sha256": "8e63e0173d91b7431935c86acb22d1556590db9e898f419c1bd913e56ffe2eff"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/MóduloRemoveFechar.vba.txt",
+      "size": 1243,
+      "sha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha1.vba.txt",
+      "size": 323,
+      "sha256": "68d11dc3a3a0ae5e1c82f733b83c5400981ab807cace78596bae7fcc0082e42c"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha10.vba.txt",
+      "size": 324,
+      "sha256": "fee0778ae47eccc07450f16aa8a1939546fa3cfbabc321a4e471389854b26507"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha11.vba.txt",
+      "size": 324,
+      "sha256": "c2cfbda4a3141096ebc73d066977d4bfedeeb8e590358c4b4cd06781cbdcb285"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha12.vba.txt",
+      "size": 324,
+      "sha256": "56e6d5b771e910fd03c2768cae879539d8781cedb8b2b6d3d5d4c3e9db8ba7d8"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha13.vba.txt",
+      "size": 324,
+      "sha256": "a2c715fba024d244247ee640d8429c51e15db72f2a190eba1250c4524e6009ed"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha15.vba.txt",
+      "size": 604,
+      "sha256": "b72b5012d6b83aa93fad4fe4f481d47f68a8d59af33b957c6cb851b374a41f0b"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha16.vba.txt",
+      "size": 324,
+      "sha256": "582270e08b4101e72751cd854b15fd1fd23bbbc0247f1c1a5ba38aa178e568e6"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha17.vba.txt",
+      "size": 324,
+      "sha256": "bdb292d0640c367e9ce4de4c55ec00384ba7524f198daf46f3d4389d8d846fa3"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha18.vba.txt",
+      "size": 324,
+      "sha256": "e1148f4b17cd0c90a9911c31f3b4976a53d04387ccd4414979e821bd1e8d7d9e"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha2.vba.txt",
+      "size": 323,
+      "sha256": "85d6c1b4a2396eb27a9f34e394733013ab79c04e72bc04ef2caa5bf5635ba70e"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha3.vba.txt",
+      "size": 323,
+      "sha256": "ece5fe4f860168fe26cab235b8e67ba0d009898867e791ffa7e201d746abf405"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha4.vba.txt",
+      "size": 323,
+      "sha256": "b29c63bd9ae5b6b6eb29920c5b01ef64ed41198f9b3daf3f1fd004a637e7b098"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha5.vba.txt",
+      "size": 323,
+      "sha256": "54070719a0832718879428270900bb9fe0458d1a5a9cb456ed64d39ffaabba1b"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha6.vba.txt",
+      "size": 323,
+      "sha256": "2ae2ce91b562b745173393395abf6bc77aca10d8ac574cafb1c9b469b4662461"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha7.vba.txt",
+      "size": 323,
+      "sha256": "d299515e81638f7edc9e789251bf117ed262879eab7afb9a31e618765d0362f5"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha8.vba.txt",
+      "size": 323,
+      "sha256": "d733ac71b42220f6ea90d56de39eeef8f7a4137acaade4cb53f2a007881b1dcf"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/Planilha9.vba.txt",
+      "size": 323,
+      "sha256": "5ba1086b6cde38fead1cc40cdbb0acd27235abc7f0406b631629de8692920833"
+    },
+    {
+      "relative": "fontes/extraidos_exatos/UserFormFiltro.vba.txt",
+      "size": 3956,
+      "sha256": "e983b36826a59b68fce60237efdb115ac9695ac93158a32f6a8951eca83b5b8c"
+    },
+    {
+      "relative": "fontes/Documento/EstaPastaDeTrabalho.cls",
+      "size": 403,
+      "sha256": "dd7c91609fc00199c34785a85ded9463006bb672432513ecc172e2684958d398"
+    },
+    {
+      "relative": "fontes/Documento/EstaPastaDeTrabalho.vba.txt",
+      "size": 403,
+      "sha256": "dd7c91609fc00199c34785a85ded9463006bb672432513ecc172e2684958d398"
+    },
+    {
+      "relative": "fontes/Documento/Planilha1.cls",
+      "size": 323,
+      "sha256": "68d11dc3a3a0ae5e1c82f733b83c5400981ab807cace78596bae7fcc0082e42c"
+    },
+    {
+      "relative": "fontes/Documento/Planilha1.vba.txt",
+      "size": 323,
+      "sha256": "68d11dc3a3a0ae5e1c82f733b83c5400981ab807cace78596bae7fcc0082e42c"
+    },
+    {
+      "relative": "fontes/Documento/Planilha10.cls",
+      "size": 324,
+      "sha256": "fee0778ae47eccc07450f16aa8a1939546fa3cfbabc321a4e471389854b26507"
+    },
+    {
+      "relative": "fontes/Documento/Planilha10.vba.txt",
+      "size": 324,
+      "sha256": "fee0778ae47eccc07450f16aa8a1939546fa3cfbabc321a4e471389854b26507"
+    },
+    {
+      "relative": "fontes/Documento/Planilha11.cls",
+      "size": 324,
+      "sha256": "c2cfbda4a3141096ebc73d066977d4bfedeeb8e590358c4b4cd06781cbdcb285"
+    },
+    {
+      "relative": "fontes/Documento/Planilha11.vba.txt",
+      "size": 324,
+      "sha256": "c2cfbda4a3141096ebc73d066977d4bfedeeb8e590358c4b4cd06781cbdcb285"
+    },
+    {
+      "relative": "fontes/Documento/Planilha12.cls",
+      "size": 324,
+      "sha256": "56e6d5b771e910fd03c2768cae879539d8781cedb8b2b6d3d5d4c3e9db8ba7d8"
+    },
+    {
+      "relative": "fontes/Documento/Planilha12.vba.txt",
+      "size": 324,
+      "sha256": "56e6d5b771e910fd03c2768cae879539d8781cedb8b2b6d3d5d4c3e9db8ba7d8"
+    },
+    {
+      "relative": "fontes/Documento/Planilha13.cls",
+      "size": 324,
+      "sha256": "a2c715fba024d244247ee640d8429c51e15db72f2a190eba1250c4524e6009ed"
+    },
+    {
+      "relative": "fontes/Documento/Planilha13.vba.txt",
+      "size": 324,
+      "sha256": "a2c715fba024d244247ee640d8429c51e15db72f2a190eba1250c4524e6009ed"
+    },
+    {
+      "relative": "fontes/Documento/Planilha15.cls",
+      "size": 604,
+      "sha256": "b72b5012d6b83aa93fad4fe4f481d47f68a8d59af33b957c6cb851b374a41f0b"
+    },
+    {
+      "relative": "fontes/Documento/Planilha15.vba.txt",
+      "size": 604,
+      "sha256": "b72b5012d6b83aa93fad4fe4f481d47f68a8d59af33b957c6cb851b374a41f0b"
+    },
+    {
+      "relative": "fontes/Documento/Planilha16.cls",
+      "size": 324,
+      "sha256": "582270e08b4101e72751cd854b15fd1fd23bbbc0247f1c1a5ba38aa178e568e6"
+    },
+    {
+      "relative": "fontes/Documento/Planilha16.vba.txt",
+      "size": 324,
+      "sha256": "582270e08b4101e72751cd854b15fd1fd23bbbc0247f1c1a5ba38aa178e568e6"
+    },
+    {
+      "relative": "fontes/Documento/Planilha17.cls",
+      "size": 324,
+      "sha256": "bdb292d0640c367e9ce4de4c55ec00384ba7524f198daf46f3d4389d8d846fa3"
+    },
+    {
+      "relative": "fontes/Documento/Planilha17.vba.txt",
+      "size": 324,
+      "sha256": "bdb292d0640c367e9ce4de4c55ec00384ba7524f198daf46f3d4389d8d846fa3"
+    },
+    {
+      "relative": "fontes/Documento/Planilha18.cls",
+      "size": 324,
+      "sha256": "e1148f4b17cd0c90a9911c31f3b4976a53d04387ccd4414979e821bd1e8d7d9e"
+    },
+    {
+      "relative": "fontes/Documento/Planilha18.vba.txt",
+      "size": 324,
+      "sha256": "e1148f4b17cd0c90a9911c31f3b4976a53d04387ccd4414979e821bd1e8d7d9e"
+    },
+    {
+      "relative": "fontes/Documento/Planilha2.cls",
+      "size": 323,
+      "sha256": "85d6c1b4a2396eb27a9f34e394733013ab79c04e72bc04ef2caa5bf5635ba70e"
+    },
+    {
+      "relative": "fontes/Documento/Planilha2.vba.txt",
+      "size": 323,
+      "sha256": "85d6c1b4a2396eb27a9f34e394733013ab79c04e72bc04ef2caa5bf5635ba70e"
+    },
+    {
+      "relative": "fontes/Documento/Planilha3.cls",
+      "size": 323,
+      "sha256": "ece5fe4f860168fe26cab235b8e67ba0d009898867e791ffa7e201d746abf405"
+    },
+    {
+      "relative": "fontes/Documento/Planilha3.vba.txt",
+      "size": 323,
+      "sha256": "ece5fe4f860168fe26cab235b8e67ba0d009898867e791ffa7e201d746abf405"
+    },
+    {
+      "relative": "fontes/Documento/Planilha4.cls",
+      "size": 323,
+      "sha256": "b29c63bd9ae5b6b6eb29920c5b01ef64ed41198f9b3daf3f1fd004a637e7b098"
+    },
+    {
+      "relative": "fontes/Documento/Planilha4.vba.txt",
+      "size": 323,
+      "sha256": "b29c63bd9ae5b6b6eb29920c5b01ef64ed41198f9b3daf3f1fd004a637e7b098"
+    },
+    {
+      "relative": "fontes/Documento/Planilha5.cls",
+      "size": 323,
+      "sha256": "54070719a0832718879428270900bb9fe0458d1a5a9cb456ed64d39ffaabba1b"
+    },
+    {
+      "relative": "fontes/Documento/Planilha5.vba.txt",
+      "size": 323,
+      "sha256": "54070719a0832718879428270900bb9fe0458d1a5a9cb456ed64d39ffaabba1b"
+    },
+    {
+      "relative": "fontes/Documento/Planilha6.cls",
+      "size": 323,
+      "sha256": "2ae2ce91b562b745173393395abf6bc77aca10d8ac574cafb1c9b469b4662461"
+    },
+    {
+      "relative": "fontes/Documento/Planilha6.vba.txt",
+      "size": 323,
+      "sha256": "2ae2ce91b562b745173393395abf6bc77aca10d8ac574cafb1c9b469b4662461"
+    },
+    {
+      "relative": "fontes/Documento/Planilha7.cls",
+      "size": 323,
+      "sha256": "d299515e81638f7edc9e789251bf117ed262879eab7afb9a31e618765d0362f5"
+    },
+    {
+      "relative": "fontes/Documento/Planilha7.vba.txt",
+      "size": 323,
+      "sha256": "d299515e81638f7edc9e789251bf117ed262879eab7afb9a31e618765d0362f5"
+    },
+    {
+      "relative": "fontes/Documento/Planilha8.cls",
+      "size": 323,
+      "sha256": "d733ac71b42220f6ea90d56de39eeef8f7a4137acaade4cb53f2a007881b1dcf"
+    },
+    {
+      "relative": "fontes/Documento/Planilha8.vba.txt",
+      "size": 323,
+      "sha256": "d733ac71b42220f6ea90d56de39eeef8f7a4137acaade4cb53f2a007881b1dcf"
+    },
+    {
+      "relative": "fontes/Documento/Planilha9.cls",
+      "size": 323,
+      "sha256": "5ba1086b6cde38fead1cc40cdbb0acd27235abc7f0406b631629de8692920833"
+    },
+    {
+      "relative": "fontes/Documento/Planilha9.vba.txt",
+      "size": 323,
+      "sha256": "5ba1086b6cde38fead1cc40cdbb0acd27235abc7f0406b631629de8692920833"
+    },
+    {
+      "relative": "evidencias/ace_final_revisao16.json",
+      "size": 1254,
+      "sha256": "4acc7c892ce3382dc45956791e5627e5ec6a20e78b62c51faf3960fbd0421e39"
+    },
+    {
+      "relative": "evidencias/assinaturas_eventos.json",
+      "size": 42426,
+      "sha256": "71accc640ca23bd3d85c14e62a6a8ffe9334c9f1f8be3a3428c8c52c6baf437c"
+    },
+    {
+      "relative": "evidencias/comparacao_final_fontes.json",
+      "size": 802,
+      "sha256": "f8bb6e12d098439e3c17b1f117de07bdf69d4309d78204e305f34fb3849670b3"
+    },
+    {
+      "relative": "evidencias/compilacao_final_R4.txt",
+      "size": 71836,
+      "sha256": "930dbd1455311fc7fc8c7e99918ac4c82bf91e34d65e80b6c694e879dd2c3db9"
+    },
+    {
+      "relative": "evidencias/compilacao_R1.txt",
+      "size": 67732,
+      "sha256": "4df09bd7a082fec0d0b5350cddfbfdb704b9f0474cefe107b99722e4dcdde0c3"
+    },
+    {
+      "relative": "evidencias/falha_migracao_R1.txt",
+      "size": 337,
+      "sha256": "1ffdd388c7e4ddb84db6bfaafdfe7f09e726a7c98eed4a24d81c1d376e48b481"
+    },
+    {
+      "relative": "evidencias/frx_referencia_preservados.json",
+      "size": 1113,
+      "sha256": "b228361c1d40f1b2b714d28d6ee62a14d8921aadf85692453710f7fceec274bf"
+    },
+    {
+      "relative": "evidencias/inventario_integrado_final.json",
+      "size": 36341,
+      "sha256": "fbd76d54da76e2fafb62b8f96b62389347ec1b2eab30db1b7669bd320dd07dfa"
+    },
+    {
+      "relative": "evidencias/macro-bloqueada-inicial.txt",
+      "size": 210,
+      "sha256": "1c91829648a054e71905115bf938a3183d41875030a47e480c3ef59fdc09fd0f"
+    },
+    {
+      "relative": "evidencias/manifesto_copias_execucao.json",
+      "size": 21879,
+      "sha256": "517183894dfeb351322221f2bd9c8499c32a24b82a8e8094eb7e38b1e95f21a8"
+    },
+    {
+      "relative": "evidencias/normalizacao_vbe_sem_mudanca_regras.json",
+      "size": 634,
+      "sha256": "b549c4c0e90ad4ac757f1a2b3f6d18195007b65f8c99fdb30dde8cd3ef4b01a9"
+    },
+    {
+      "relative": "evidencias/preservacao_originais_final.json",
+      "size": 14432,
+      "sha256": "f164b627151282f336992db3fb5bb8373b28e3ebeff2cc4f5649749714dc587e"
+    },
+    {
+      "relative": "evidencias/recuperacao_formato_R2.txt",
+      "size": 224,
+      "sha256": "57b44b6a0f9dd28502b91fac87a8826abf84a25c314b330433b37049b30a3b15"
+    },
+    {
+      "relative": "evidencias/resultados_estruturados.json",
+      "size": 32482,
+      "sha256": "c90b42be88c79cf6375eea70fdaaef4f14057f4852d5600409d1f3d7cbbb0139"
+    },
+    {
+      "relative": "evidencias/resultados_pre_correcao_label.tsv",
+      "size": 2982,
+      "sha256": "f6393e2f4ec9643ca259da35649f471e16e753a5289495cb0713a94e85267901"
+    },
+    {
+      "relative": "evidencias/revisao_57_leitores.json",
+      "size": 33787,
+      "sha256": "a73c1c7f2b1be868594d7d3a6996aa8a81ca769f68027d1202bfcc35036b4c55"
+    },
+    {
+      "relative": "evidencias/verificacao_manifesto_entrega1.json",
+      "size": 61778,
+      "sha256": "f28d8988293aebb2fc6d933bf259273d4addd5eadf921e979d5e6a234e3613f2"
+    },
+    {
+      "relative": "evidencias/referencia_R0/estado_e2_referencia_A_antes.tsv",
+      "size": 7956,
+      "sha256": "b7e6110bea474b7d9d06270b109f866ae22edfcb6c0e2b23e430b8b0559bf4bf"
+    },
+    {
+      "relative": "evidencias/referencia_R0/estado_e2_referencia_A_depois_entrada.tsv",
+      "size": 25196,
+      "sha256": "548bf1e6ec34402d02f070f890e1cb6ab5c5ebdc7a1c532d4413b4c4a77dc654"
+    },
+    {
+      "relative": "evidencias/referencia_R0/estado_e2_referencia_D_antes.tsv",
+      "size": 87304,
+      "sha256": "f746e91fd7629779a382a66a935d63ee66b67d18b7e499a98b065e23408ffa84"
+    },
+    {
+      "relative": "evidencias/referencia_R0/estado_e2_referencia_D_depois.tsv",
+      "size": 113522,
+      "sha256": "7907f13fa760610b034430dda35a44baabb61136aeeb3cabbd93d9525a22f652"
+    },
+    {
+      "relative": "evidencias/referencia_R0/estado_e2_referencia_T_antes.tsv",
+      "size": 60712,
+      "sha256": "a453bc240084cb3fad552f86788efd0029346f387d7fb13b7be1928dd827b3e6"
+    },
+    {
+      "relative": "evidencias/referencia_R0/estado_e2_referencia_T_depois.tsv",
+      "size": 87304,
+      "sha256": "f746e91fd7629779a382a66a935d63ee66b67d18b7e499a98b065e23408ffa84"
+    },
+    {
+      "relative": "evidencias/referencia_R0/estado_e2_referencia_V_antes.tsv",
+      "size": 25196,
+      "sha256": "548bf1e6ec34402d02f070f890e1cb6ab5c5ebdc7a1c532d4413b4c4a77dc654"
+    },
+    {
+      "relative": "evidencias/referencia_R0/estado_e2_referencia_V_depois.tsv",
+      "size": 43358,
+      "sha256": "9e490545c3a5bb967adad42b7c099faa1167c3d79a6cbc17f40eee4d38042c47"
+    },
+    {
+      "relative": "evidencias/RECIBO_AUSENTE/Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "size": 827392,
+      "sha256": "3e3939149abc3c04795ce94bd8c0a4812ce455bf263eb8be6792d66616c02ffa"
+    },
+    {
+      "relative": "evidencias/RECIBO_AUSENTE/Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "size": 2363684,
+      "sha256": "5af8340d6375216cf716beb9d9d48f012af8544eea1f483ebf21a6f1d2fbbcd2"
+    },
+    {
+      "relative": "evidencias/RECIBO_AUSENTE/manifesto.json",
+      "size": 1642,
+      "sha256": "e7e5922176d31a78bd4b3c3a7e79a921200abbfe9bef3b419ffaf6c8c9715a17"
+    },
+    {
+      "relative": "evidencias/RECIBO_AUSENTE/resultados_entrega2.tsv",
+      "size": 45692,
+      "sha256": "f299891507ed8362edcd3c671df9a40fcbaeae64c21fd3d43d8c1e1e95215afe"
+    },
+    {
+      "relative": "evidencias/execucao/Checkpoint_E2_Schema5_816CD24DC08F46E2AFFA05C503EBAEF5.accdb",
+      "size": 659456,
+      "sha256": "445475e5cc0df8a7d53b02af5a27be8f5e54ea304185958736750a94c8d8c349"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_alteracao_712C02A2A2F74C33874072C31A0265D2.tsv",
+      "size": 126278,
+      "sha256": "ac99629f7b3aedce7db97662d3b4a2d9b1ed0b5f74f2dd27f59c5e4f0b904ba3"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_alteracao_A3B975FE2AAE474EBACE56D156608DA0.tsv",
+      "size": 152200,
+      "sha256": "e2311a043ea25d26300c2d1bbad0c17ee8decf00b9ee55aa58751f93494a77d5"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_antes_commit_pendente_3DA56922051C47778D2450EDBCF97D12.tsv",
+      "size": 320446,
+      "sha256": "b9792d5ec1e44dee0131997663ab5f3d6bd66e0a4da6abc11c65fda9f64b8c98"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_cancelado_6F096D68472B416C9264935D0795DFC3.tsv",
+      "size": 212962,
+      "sha256": "d5f2a1c524bb6ea4791ca0a153c8c762803fbb3496b17896def4456b09a053ec"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_destinos_conferidos_3A903F60B7FE4991ACA10AA37FB2AB0E.tsv",
+      "size": 257748,
+      "sha256": "8123c9078e09aa88bc88612c417b47e86887b6b9463297b8cf334d4a6343ad6b"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_devolucao_sucessiva_antes_1C8E1E61E51D4B439B47E0DBAADBEF0D.tsv",
+      "size": 212962,
+      "sha256": "d5f2a1c524bb6ea4791ca0a153c8c762803fbb3496b17896def4456b09a053ec"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_duplicidade_depois_5E751FFE894B4ECCAEA51D8D72F5694A.tsv",
+      "size": 257748,
+      "sha256": "8123c9078e09aa88bc88612c417b47e86887b6b9463297b8cf334d4a6343ad6b"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_erro_apos_commit_FB8FF3DB236644E5A97334BE11ECC325.tsv",
+      "size": 332740,
+      "sha256": "8e9da47ac1012f4c2c7e6df2b377bfd2ed246375752e2dda86dbe110a048fc73"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_falha_devolucao_antes_6CD7CA32639B4FBE987431D0736DE5D1.tsv",
+      "size": 212962,
+      "sha256": "d5f2a1c524bb6ea4791ca0a153c8c762803fbb3496b17896def4456b09a053ec"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_falha_devolucao_depois_701F8D84C6A046C2A6EE9816D1B018B1.tsv",
+      "size": 218350,
+      "sha256": "f7fc462aaabcf129d15c26324a92af9e4adeaad0719129c70fd5986449ea5461"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_falha_projecao_recuperada_8F24D72D3FBC4571BD5596ECFE953D52.tsv",
+      "size": 294116,
+      "sha256": "d1e43712db6aab31a736dcec78fa139d13eaf04cb20310f657705a513d43f949"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_invalidos_FD2DB32DAE21452388D02C6F89ABF3B2.tsv",
+      "size": 212962,
+      "sha256": "d5f2a1c524bb6ea4791ca0a153c8c762803fbb3496b17896def4456b09a053ec"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_leitores_3EC7420EC3BA420FBE8D61BBD72DBB2E.tsv",
+      "size": 212962,
+      "sha256": "d5f2a1c524bb6ea4791ca0a153c8c762803fbb3496b17896def4456b09a053ec"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_recibo_ausente_forense_334C257164A04644BCAD7771A6ED198C.tsv",
+      "size": 313624,
+      "sha256": "f8af291a66922ab7a5545c840160b1efdd2267f517070d38d510a1740b61ec01"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_reentrada_interface_58DE4ACF8A95430792D49D3059E8053C.tsv",
+      "size": 168652,
+      "sha256": "f1eeb1f2465b89838683e18ef2c782485a2452cdc7bae7007f69d37ea8d0f4a0"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_referencia_A_antes.tsv",
+      "size": 7956,
+      "sha256": "b7e6110bea474b7d9d06270b109f866ae22edfcb6c0e2b23e430b8b0559bf4bf"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_referencia_A_depois_entrada.tsv",
+      "size": 25196,
+      "sha256": "548bf1e6ec34402d02f070f890e1cb6ab5c5ebdc7a1c532d4413b4c4a77dc654"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_referencia_D_antes.tsv",
+      "size": 87304,
+      "sha256": "f746e91fd7629779a382a66a935d63ee66b67d18b7e499a98b065e23408ffa84"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_referencia_D_depois.tsv",
+      "size": 113522,
+      "sha256": "7907f13fa760610b034430dda35a44baabb61136aeeb3cabbd93d9525a22f652"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_referencia_T_antes.tsv",
+      "size": 60712,
+      "sha256": "a453bc240084cb3fad552f86788efd0029346f387d7fb13b7be1928dd827b3e6"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_referencia_T_depois.tsv",
+      "size": 87304,
+      "sha256": "f746e91fd7629779a382a66a935d63ee66b67d18b7e499a98b065e23408ffa84"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_referencia_V_antes.tsv",
+      "size": 25196,
+      "sha256": "548bf1e6ec34402d02f070f890e1cb6ab5c5ebdc7a1c532d4413b4c4a77dc654"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_referencia_V_depois.tsv",
+      "size": 43358,
+      "sha256": "9e490545c3a5bb967adad42b7c099faa1167c3d79a6cbc17f40eee4d38042c47"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_reordenacao_saveas_054F468AB19F460E8AD021F1369788F0.tsv",
+      "size": 297066,
+      "sha256": "c7a5b42164bda77cbe8ed056014c23852bb8cd22bf1de69fc33f96d3ee63f4a4"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_save_backup_76B202F4FD9F422484DC07548FD32D53.tsv",
+      "size": 296042,
+      "sha256": "9b61add9170bad07b708c758af6a80b062c82c105f48ab78f9290a1df2185ab8"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_transferencia2_depois_D765014BDA80495C8C96AE6C43AB1762.tsv",
+      "size": 195282,
+      "sha256": "2f58f1527bc93b9109cad3bd0ed249a4075f9b9a892e2fee9e303916ecc4f462"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_venda_reentrada_antes_84896B441A5F4808933185BA356CAE11.tsv",
+      "size": 297066,
+      "sha256": "c7a5b42164bda77cbe8ed056014c23852bb8cd22bf1de69fc33f96d3ee63f4a4"
+    },
+    {
+      "relative": "evidencias/execucao/estado_e2_venda_reentrada_depois_EB79307502F34320A2422F71A538F7DE.tsv",
+      "size": 315080,
+      "sha256": "01c2aa318f374ea22970f734fd52048ed67cc24a7afa81bdeef389537b76e57f"
+    },
+    {
+      "relative": "evidencias/execucao/Pendencias_E2_7B979EE47B1F4BA3885217550A98BFFD.tsv",
+      "size": 84,
+      "sha256": "7eec5a084f76177d793fb31c3994ce02e9ec5e723e019be7ee77c49fd995b4f2"
+    },
+    {
+      "relative": "evidencias/execucao/Pendencias_E2_B3C7C6AF0B5342C0960D32C6E7616D9A.tsv",
+      "size": 740,
+      "sha256": "f3f3a50334ed4d267037b93a2fc52f39328846246e5e5b851a1806e68fbe5c84"
+    },
+    {
+      "relative": "evidencias/execucao/Pendencias_E2_EC376B1AD4E8497F807DEF2C1D58FF0F.tsv",
+      "size": 740,
+      "sha256": "646a6bf7e528b34d6e98bc578fb0373e24c6958f2b47aebdb70fcaf311e4cf5d"
+    },
+    {
+      "relative": "evidencias/execucao/Projecao_C1_2598EE1D-2A55-495B-83F1-7F2FD75B0CAC.xlsm",
+      "size": 2350740,
+      "sha256": "ec70eaf5202ebba33afaeabc1555fcadfb89bab7bb8fb87e42a7e5871955e3fd"
+    },
+    {
+      "relative": "evidencias/execucao/resultados_entrega2.tsv",
+      "size": 46570,
+      "sha256": "1cbe8e8a82ef7c3a3614ccfd2580949860156796276c0e5c59198462dd72531c"
+    },
+    {
+      "relative": "evidencias/execucao/resultados_entrega2_referencia.tsv",
+      "size": 7606,
+      "sha256": "a1e328d85e6c9330e18c9b4ff636f9f7924102bd1f88c638b6fe3ff4750755bb"
+    },
+    {
+      "relative": "evidencias/execucao/transferencia_b.xml",
+      "size": 1153,
+      "sha256": "9504243baeaeea10a265af9a6a448d411814cd763374fa27f92e8fbe9a4a832d"
+    },
+    {
+      "relative": "evidencias/execucao/transferencia_b2.xml",
+      "size": 1153,
+      "sha256": "9d50e578c2304483978bf2fa70a3384b735782794c0c8fddb54f2ff46835810f"
+    },
+    {
+      "relative": "evidencias/execucao/transferencia_duplicada.xml",
+      "size": 1153,
+      "sha256": "d1f703bc903fcd9c2602b05fca0181129cf5899316fb5fa2538233d286379004"
+    },
+    {
+      "relative": "evidencias/execucao/valido.xml",
+      "size": 1147,
+      "sha256": "726c1c67b67a4be608cdd1e59127c79fae91fe861bfde4ce369eec68420d9e28"
+    },
+    {
+      "relative": "evidencias/execucao/venda_reentrada.xml",
+      "size": 1145,
+      "sha256": "f213d5c78e8b3c9aeb004388979ddaf4a6e817aa347593f5eafb7450bfaeb3c3"
+    },
+    {
+      "relative": "evidencias/D_FALHA_BAIXA/Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "size": 753664,
+      "sha256": "76b9dcfd578364373402fc83bc6076509d7cfae98737e6a16df32fe2f79894ae"
+    },
+    {
+      "relative": "evidencias/D_FALHA_BAIXA/Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "size": 2323959,
+      "sha256": "3c32f1f9d9cae5d891b112508e9f4dd9df49923563d6f8f49c746a94dc3dc212"
+    },
+    {
+      "relative": "evidencias/D_FALHA_BAIXA/manifesto.json",
+      "size": 2209,
+      "sha256": "c88980e068f6f7715ff8eb9e66e33e17626d47fa0871abab97ae0d47c487b8bb"
+    },
+    {
+      "relative": "evidencias/D_FALHA_BAIXA/Pendencias_E2_B3C7C6AF0B5342C0960D32C6E7616D9A.tsv",
+      "size": 740,
+      "sha256": "f3f3a50334ed4d267037b93a2fc52f39328846246e5e5b851a1806e68fbe5c84"
+    },
+    {
+      "relative": "evidencias/D_FALHA_BAIXA/resultados_entrega2.tsv",
+      "size": 20764,
+      "sha256": "c8a249ca414c89bf20e54fd2ca98ba113aede63fc0bce33a8f4087bd07622dab"
+    },
+    {
+      "relative": "evidencias/backup_verificado/Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "size": 815104,
+      "sha256": "fc6817c1a159b3b5528e42eb243377fc8295f2f639c3556ae41a08eee2fa28d7"
+    },
+    {
+      "relative": "evidencias/backup_verificado/Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "size": 2339268,
+      "sha256": "8209c1794d39adb474c1bad9ba722804670b18c970dcd98a04a93e029ad0977f"
+    },
+    {
+      "relative": "evidencias/backup_verificado/manifesto_backup.tsv",
+      "size": 858,
+      "sha256": "651810368e723c4fee4ac7efd20ff4e83dde5d6c267a9b989a7c0fee663f6879"
+    },
+    {
+      "relative": "evidencias/ANTES_COMMIT/Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "size": 843776,
+      "sha256": "51a5a61705d8dc117ec10444d12d42ec82ad63af83e604834029fc257263d8f7"
+    },
+    {
+      "relative": "evidencias/ANTES_COMMIT/Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "size": 2363684,
+      "sha256": "5af8340d6375216cf716beb9d9d48f012af8544eea1f483ebf21a6f1d2fbbcd2"
+    },
+    {
+      "relative": "evidencias/ANTES_COMMIT/manifesto.json",
+      "size": 1649,
+      "sha256": "7dd97e314adedcc51fb14b6871f1b6b6b07e1b56e5b5c9d67d9d1072ec46cc58"
+    },
+    {
+      "relative": "evidencias/ANTES_COMMIT/resultados_entrega2.tsv",
+      "size": 44944,
+      "sha256": "71c85199c5c33f576a8d7f55b32245c4951e5825e0f08288a1093926c5c4bc8a"
+    },
+    {
+      "relative": "evidencias/analise_estatica_final/analise-estatica.json",
+      "size": 345305,
+      "sha256": "cf1ae1185694e0e06b484c715799da8a1c4dd5f358c535bf2cf790d9207cd99c"
+    },
+    {
+      "relative": "entrega/Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "size": 847872,
+      "sha256": "1390a79c2b36fcea13843bb211dcb56ffbfe3fe8523e2200f70f32e1dbc35581"
+    },
+    {
+      "relative": "entrega/Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "size": 2712589,
+      "sha256": "856c1c148451bae188d5539b3a344371579275268d7475dd535e1ade89ee39d0"
+    },
+    {
+      "relative": "entrega/LEIA_PRIMEIRO.md",
+      "size": 807,
+      "sha256": "b73913f251f1b6a8df1b5dcfde320f1543642b11062bea9bc27a0339a9c2391d"
+    },
+    {
+      "relative": "entrega/manifesto_artefatos.json",
+      "size": 33079,
+      "sha256": "fea508c06eaf2e5e26ff70b44180f383ab0aacd8f0848f491c17634ac245d6be"
+    },
+    {
+      "relative": "checkpoint_referencia_R0/Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "size": 659456,
+      "sha256": "445475e5cc0df8a7d53b02af5a27be8f5e54ea304185958736750a94c8d8c349"
+    },
+    {
+      "relative": "checkpoint_referencia_R0/Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "size": 2605043,
+      "sha256": "5dab2d5291a8baf5837a378b6077162ae09fb0f254491c838e508cfdc2b7f2ef"
+    },
+    {
+      "relative": "checkpoint_referencia_R0/manifesto.json",
+      "size": 1656,
+      "sha256": "a86b4543efc6eccf52a8e89fdf8e92fc59318eb06b67345ba4a651321000411d"
+    },
+    {
+      "relative": "checkpoint_referencia_R0/resultados_entrega2_referencia.tsv",
+      "size": 7606,
+      "sha256": "a1e328d85e6c9330e18c9b4ff636f9f7924102bd1f88c638b6fe3ff4750755bb"
+    },
+    {
+      "relative": "checkpoint_R4_rev15/Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "size": 827392,
+      "sha256": "95a7c815c9da22b07b59a2cc00edfe42508efc065850fa4372d33c4d5d83c94d"
+    },
+    {
+      "relative": "checkpoint_R4_rev15/Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "size": 2363684,
+      "sha256": "5af8340d6375216cf716beb9d9d48f012af8544eea1f483ebf21a6f1d2fbbcd2"
+    },
+    {
+      "relative": "checkpoint_R4_rev15/manifesto.json",
+      "size": 1143,
+      "sha256": "a5d68a89d900bbf14804d48890c1a7f7e82a7d37a7ca3fb0cdb659ce9f6469e8"
+    },
+    {
+      "relative": "checkpoint_R3_rev10/Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "size": 749568,
+      "sha256": "d786c6b11b3bf81b60c71a640ca964d8d8b3b2a320950c0c0b7d54732bf5df69"
+    },
+    {
+      "relative": "checkpoint_R3_rev10/Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "size": 2323959,
+      "sha256": "3c32f1f9d9cae5d891b112508e9f4dd9df49923563d6f8f49c746a94dc3dc212"
+    },
+    {
+      "relative": "checkpoint_R3_rev10/manifesto.json",
+      "size": 1167,
+      "sha256": "0f90fd3403a230f194909b34395250fe8a1b3eb23281ccbd1b524215a98ef26a"
+    },
+    {
+      "relative": "checkpoint_R3_precisao/Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "size": 806912,
+      "sha256": "19222d443ad7abeb7f3226f48554c9184c3a11d1d3d1a502ed24c990baa34f6a"
+    },
+    {
+      "relative": "checkpoint_R3_precisao/Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "size": 2316454,
+      "sha256": "8c27c4c99595a88db9ed817e9463ab55dbbf6d2f0dedcb3fc8a1b1cc385640f2"
+    },
+    {
+      "relative": "checkpoint_R3_precisao/manifesto.json",
+      "size": 1020,
+      "sha256": "977b4474bac10e1e0a327b34ab95558fa2d8c326f406018ea6bde70ee4c2c48d"
+    },
+    {
+      "relative": "checkpoint_R3_precisao/modCandidatoIntegrado.bas",
+      "size": 71787,
+      "sha256": "188b1085137531cfcaf6dd5866183b9f017cf9a05e787453ca42eb534890edab"
+    },
+    {
+      "relative": "checkpoint_R1_falha_formato/Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "size": 663552,
+      "sha256": "c8f5855c3badee3c0ffee7089ed1d24072c4144a48dc23c8e00ed9ec2e21827a"
+    },
+    {
+      "relative": "checkpoint_R1_falha_formato/Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "size": 2657561,
+      "sha256": "a6164e9d3ad52f88fc82f10d0095b957c7ccb28469b1e8833897c8ebcbd2455d"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Cad_NFE.corpo.vba.txt",
+      "size": 42216,
+      "sha256": "8c22b35b7be1501519ceb95ad2e96f31de55d4b9f8275c53a06590ba6c25e462"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Cad_NFE_Saida.corpo.vba.txt",
+      "size": 58595,
+      "sha256": "a6e484598039244eb8b57c5d130a7ce63ed6305d709272e9e7d28030abd95469"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/clsTesteCandidato.cls",
+      "size": 503,
+      "sha256": "6b735e163a19cd0700c76b2143e1d4770a16a379df8177a473c0740396791a52"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/EstaPastaDeTrabalho.corpo.vba.txt",
+      "size": 401,
+      "sha256": "471876753c169d23436af3ea2bab55ae5b7ecfa36475b0182eeb26b71fbb3a5a"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/LEIA_ME.md",
+      "size": 716,
+      "sha256": "c2ae8c9f89e10e95bf74cbbd6db0a110c71ef6b9f1acd57e7e1ab1535c6caf66"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/manifesto.json",
+      "size": 45115,
+      "sha256": "750e25c2e025902bbfc7c97602111ed4a1622aa4a4213535eb34eda0a0833230"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/modCandidatoIntegrado.bas",
+      "size": 51355,
+      "sha256": "4d09709abf3d4541e3f017fe331e0ac4a7e85a94afa87892b5512b2d1e68f2c3"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/modCenariosFase10.bas",
+      "size": 48437,
+      "sha256": "ce02a2c58aee15e23f14d9fb51b9ff5b67c98da0eff5cd249215257a87c84880"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/modPersistenciaFase10.bas",
+      "size": 66039,
+      "sha256": "7f431bc437e3deccc4d85b7b3556238c01a8fbf02a8878f25e8fd16624276e30"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/modPreencherFormulario.bas",
+      "size": 422,
+      "sha256": "2fd46df37c7721df43afc27e927aefe2b372cb2c2a4520290b59eb247caa11dc"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/modTestesEntrega1.bas",
+      "size": 23193,
+      "sha256": "41dc8fd40b1f5b557f041a4fbca1dd7644bfed8f575edb6e05fad30ca34f12fa"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/modValidacaoXML.bas",
+      "size": 62301,
+      "sha256": "2606b4428589a80e2432c10854e8e13d8376cf5e46979202c4d0f64e7e007c70"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MóduloPesquisa.bas",
+      "size": 2440,
+      "sha256": "e41eb9d79e20a118cbc8d2368d8371a4b48a1fe8444d4aed695365182a8f1def"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/UserFormFiltro.corpo.vba.txt",
+      "size": 4115,
+      "sha256": "fee7433bed27619304419293f956ee871889157f4d1d218ea51f2e4f91069e9c"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/AuditoriaListaFake.cls",
+      "size": 878,
+      "sha256": "2a210ea2d17c2490b9b71b2b45db8683ce5c25df23e79279bfb9f21a82ff299c"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/clsOperacaoPlanilha.cls",
+      "size": 5964,
+      "sha256": "ce1fa68a4b341e240eab39bab5382f0d3647c09e7dbe2868762e18d8bd1be2df"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/clsRepositorioFase8.cls",
+      "size": 11122,
+      "sha256": "5f6cdd38f3d2c346a31b360b09ef2db2b6fdaaacfc63003388a29116acdfc655"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/clsSaveFase9.cls",
+      "size": 897,
+      "sha256": "5bda3945c125efd149250d3e88af1ea6bf06e7d2691ee65ce2b256570028e7ba"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/clsTesteCandidato.cls",
+      "size": 576,
+      "sha256": "3b00c6411a1951aef62b7f9d8b58e171f54b19acb402e73c945b5a3dee10a03f"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlChamarFiltro.bas",
+      "size": 122,
+      "sha256": "ebfb40a8da1b8d144edb29781f2b59e620a9cb00876032b5147a788aa57c8958"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlChamarForm.bas",
+      "size": 155,
+      "sha256": "888b82877a4e95317ccabb52553d1df052b6f7677cf4c25b680439eccd4884f1"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlChamarFormDocFora.bas",
+      "size": 272,
+      "sha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlChamarFormNCM.bas",
+      "size": 116,
+      "sha256": "beec72a9412eac03765526c76056e7e9097133ff0c85d433a1d9c36974064dc9"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlChamarFormSaida.bas",
+      "size": 169,
+      "sha256": "7938d0c4831374750e4b173b61f9c1de309a08af69decdb9688cec6c1ee1d3c7"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlChamarFormVeículos.bas",
+      "size": 274,
+      "sha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlChamarTabCan.bas",
+      "size": 499,
+      "sha256": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlChamarTabEnt.bas",
+      "size": 137,
+      "sha256": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlChamarTabSai.bas",
+      "size": 135,
+      "sha256": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlCondCel.bas",
+      "size": 7828,
+      "sha256": "9d157cb6bc41cd6f02d3008d482ad4e486a740da7f8883c04bb13ac1beb9ca6f"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlCopiar.bas",
+      "size": 5969,
+      "sha256": "1c63a3d8eb85a8ab60137ec5304a6d9c5cedf6fab82b0c2894a20e5d9c5b49d4"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlCriaBackup.bas",
+      "size": 4316,
+      "sha256": "28096fb13f08b75afb26ca1358813b12dec95493c7bfaad73feaae99a92fcc61"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlCursor.bas",
+      "size": 1025,
+      "sha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlMacroConexão.bas",
+      "size": 659,
+      "sha256": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlMacroConexãoClientes.bas",
+      "size": 676,
+      "sha256": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlMacroDocFora.bas",
+      "size": 685,
+      "sha256": "85caa0cac4b69c53f13c58e9ac4ca4e6a474d23271bcaff1f969f8fb91e340ee"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlOcultarTítulo.bas",
+      "size": 1404,
+      "sha256": "62fbaac7301177886ee0a9ab91024b1f8c0bee597ebf891def1bb91f697eedef"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/mdlTelaCheia.bas",
+      "size": 2098,
+      "sha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modCandidatoIntegrado.bas",
+      "size": 51355,
+      "sha256": "4d09709abf3d4541e3f017fe331e0ac4a7e85a94afa87892b5512b2d1e68f2c3"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modCenariosFase10.bas",
+      "size": 48439,
+      "sha256": "fc68b471c5e5551814ab3ec83c423fb42805db65773d97a1181543b51db1021c"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modExperimentosFase8.bas",
+      "size": 48730,
+      "sha256": "3ac9af2712588a15790133aa60babf9eae27f7cd533a9143d419c43bf79c7afd"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modFronteirasFase10.bas",
+      "size": 7272,
+      "sha256": "a70b4e9c3e1fbe525f576bfd0938e30a7214fff0f83f337c2a1afe24783542d3"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modIntegridadeOperacao.bas",
+      "size": 2100,
+      "sha256": "9c38f1e123ef3fc7b67eba789610e70e5ede1f9c68d3eda31e901b08a7d21993"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modPersistenciaFase10.bas",
+      "size": 66043,
+      "sha256": "b8e9a1c82dd76e522ae0c2a448685b2cda2110fa1e78f68d2eb53633825918e4"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modPersistenciaFase9.bas",
+      "size": 49408,
+      "sha256": "f276b7fc222f9c824c57cea24666da3e97a16f713747629b11e1c6c293ccb821"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modPreencherFormulario.bas",
+      "size": 426,
+      "sha256": "e1de7c7c399e6c4b6a80fc04468d151b3b47267ef350805d74876d7907b280f8"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modPrototiposFase6.bas",
+      "size": 45586,
+      "sha256": "13a22fafaf85ed58fc6229443e64c86bd1de91028541c187022bb7adc6e25a2f"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modPrototiposFase7.bas",
+      "size": 28310,
+      "sha256": "e9aa897ce0d6697d7c70781b41f6619816578cc114ae89712bac31f41d7fea16"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modSeleniumCommon.bas",
+      "size": 4959,
+      "sha256": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modSeleniumConsultaNFE.bas",
+      "size": 43076,
+      "sha256": "1c8c25747415565867b50d8d1158acbc4e6ca15ce6107adbb655bac283126156"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modSeleniumRenavamConsulta.bas",
+      "size": 18900,
+      "sha256": "19c3ce8723050ec14ffdc2d92c16fa49f34e6fc520a5bb8e6fe31dde11130658"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modSelTest.bas",
+      "size": 43113,
+      "sha256": "894840fc367c1cf7fef45a4fb06911912c61b90b2e32dcf338c23713464fa896"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modTestesAuditoria.bas",
+      "size": 3279,
+      "sha256": "516d590a1d3294b1983f7358c329bfe761122fc924788e80d5e202c668213f3f"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modTestesEntrega1.bas",
+      "size": 23195,
+      "sha256": "09801f2871658573604956de2aa6dc7f1b834a51cdad7a491571df737ca4c0db"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modTestesFase2.bas",
+      "size": 12979,
+      "sha256": "1b81bd27828d0a529d4c083ef8c3e322bf11e433bee47897482b18298650eb41"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modTestesIntegradosFase5.bas",
+      "size": 11062,
+      "sha256": "5125e27762d9eb5cf50a80391a46a2050cb4d8a863dc9e4cdc65192285a84a5b"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modValidacaoXML.bas",
+      "size": 62305,
+      "sha256": "cc3c441d36ca2c84b33eed9038bb8dd740d990ebd9b6aa0564222efd8d0dd5e2"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/modVerificacaoFase9.bas",
+      "size": 8994,
+      "sha256": "d22d5a8276abd173414e94684875c964aa852d234e06331a680fd09dc1ef8b98"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/MóduloOfficeRibbonEditor.bas",
+      "size": 455,
+      "sha256": "725894623f0f7e883c8c16cd5311853427423859dd176428b084099a419c0777"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/MóduloPesquisa.bas",
+      "size": 2444,
+      "sha256": "8e63e0173d91b7431935c86acb22d1556590db9e898f419c1bd913e56ffe2eff"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/MDL/MóduloRemoveFechar.bas",
+      "size": 1243,
+      "sha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Form/Cad_NCM.frm",
+      "size": 8296,
+      "sha256": "6bbfd1bed68d2b9d38eeedc14c1dbe617140b6250eec91bd2944a83f5e4524d3"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Form/Cad_NCM.frx",
+      "size": 257048,
+      "sha256": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Form/Cad_NFE.frm",
+      "size": 42370,
+      "sha256": "23ad3db388ffc46a6d0be487fcd9747370d787e0ea665d484a71a60b1bfc5611"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Form/Cad_NFE.frx",
+      "size": 1867800,
+      "sha256": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Form/Cad_NFE_Saida.frm",
+      "size": 58756,
+      "sha256": "6893cbd37546d6f349ead80bccad8b698898d09b9d689059ccabf93db3667700"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Form/Cad_NFE_Saida.frx",
+      "size": 1346584,
+      "sha256": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Form/frmRelatorioXML.frm",
+      "size": 6025,
+      "sha256": "77da0abc91d783f7674ee8d7b7311f4991d828c68cecd2e292f76e9eac590d97"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Form/frmRelatorioXML.frx",
+      "size": 94232,
+      "sha256": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Form/UserFormFiltro.frm",
+      "size": 4262,
+      "sha256": "778161e85ec2d9c751384101c21527c4662cf12cf88727f68d999a7c1ddd2805"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Form/UserFormFiltro.frx",
+      "size": 511000,
+      "sha256": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/EstaPastaDeTrabalho.vba.txt",
+      "size": 403,
+      "sha256": "dd7c91609fc00199c34785a85ded9463006bb672432513ecc172e2684958d398"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha1.vba.txt",
+      "size": 323,
+      "sha256": "68d11dc3a3a0ae5e1c82f733b83c5400981ab807cace78596bae7fcc0082e42c"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha10.vba.txt",
+      "size": 324,
+      "sha256": "fee0778ae47eccc07450f16aa8a1939546fa3cfbabc321a4e471389854b26507"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha11.vba.txt",
+      "size": 324,
+      "sha256": "c2cfbda4a3141096ebc73d066977d4bfedeeb8e590358c4b4cd06781cbdcb285"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha12.vba.txt",
+      "size": 324,
+      "sha256": "56e6d5b771e910fd03c2768cae879539d8781cedb8b2b6d3d5d4c3e9db8ba7d8"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha13.vba.txt",
+      "size": 324,
+      "sha256": "a2c715fba024d244247ee640d8429c51e15db72f2a190eba1250c4524e6009ed"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha15.vba.txt",
+      "size": 604,
+      "sha256": "b72b5012d6b83aa93fad4fe4f481d47f68a8d59af33b957c6cb851b374a41f0b"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha16.vba.txt",
+      "size": 324,
+      "sha256": "582270e08b4101e72751cd854b15fd1fd23bbbc0247f1c1a5ba38aa178e568e6"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha17.vba.txt",
+      "size": 324,
+      "sha256": "bdb292d0640c367e9ce4de4c55ec00384ba7524f198daf46f3d4389d8d846fa3"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha18.vba.txt",
+      "size": 324,
+      "sha256": "e1148f4b17cd0c90a9911c31f3b4976a53d04387ccd4414979e821bd1e8d7d9e"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha2.vba.txt",
+      "size": 323,
+      "sha256": "85d6c1b4a2396eb27a9f34e394733013ab79c04e72bc04ef2caa5bf5635ba70e"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha3.vba.txt",
+      "size": 323,
+      "sha256": "ece5fe4f860168fe26cab235b8e67ba0d009898867e791ffa7e201d746abf405"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha4.vba.txt",
+      "size": 323,
+      "sha256": "b29c63bd9ae5b6b6eb29920c5b01ef64ed41198f9b3daf3f1fd004a637e7b098"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha5.vba.txt",
+      "size": 323,
+      "sha256": "54070719a0832718879428270900bb9fe0458d1a5a9cb456ed64d39ffaabba1b"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha6.vba.txt",
+      "size": 323,
+      "sha256": "2ae2ce91b562b745173393395abf6bc77aca10d8ac574cafb1c9b469b4662461"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha7.vba.txt",
+      "size": 323,
+      "sha256": "d299515e81638f7edc9e789251bf117ed262879eab7afb9a31e618765d0362f5"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha8.vba.txt",
+      "size": 323,
+      "sha256": "d733ac71b42220f6ea90d56de39eeef8f7a4137acaade4cb53f2a007881b1dcf"
+    },
+    {
+      "relative": "checkpoint_fontes_entrega1/Documento/Planilha9.vba.txt",
+      "size": 323,
+      "sha256": "5ba1086b6cde38fead1cc40cdbb0acd27235abc7f0406b631629de8692920833"
+    },
+    {
+      "relative": "checkpoint_entrega1/Banco_Candidato_Sintetico.accdb",
+      "size": 704512,
+      "sha256": "3198e07699f644f64c325a9fb517470b64950aa5a262cc354629ed61f1503dc3"
+    },
+    {
+      "relative": "checkpoint_entrega1/Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+      "size": 2652983,
+      "sha256": "5b2a0d55fcea077dd034ace4c4892bbc9fdd46c69760d7d318d2162f54771749"
+    },
+    {
+      "relative": "backup_documentacao/AGENTS.md",
+      "size": 3409,
+      "sha256": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7"
+    },
+    {
+      "relative": "backup_documentacao/CONTRATO_IDENTIDADE_FASE7.md",
+      "size": 6435,
+      "sha256": "bf1674ff4ff23f2220eab0f0380d377c3c7928addc8c941c09f6fe8326a34e59"
+    },
+    {
+      "relative": "backup_documentacao/ENTREGA_1_CANDIDATO_INTEGRADO.md",
+      "size": 11265,
+      "sha256": "8af5e0d3ea9dc7775526b3cbe6dd2e7a9cd6d92d069e43545add14e41673d95d"
+    },
+    {
+      "relative": "backup_documentacao/HISTORICO_ALTERACOES.md",
+      "size": 34566,
+      "sha256": "4e81feefcac986241d080e3c5cc7f8db81a970d6789a21a6eed42b48824e763f"
+    },
+    {
+      "relative": "backup_documentacao/MANUAL_INSTALACAO_RESTAURACAO.md",
+      "size": 8119,
+      "sha256": "9633ef1b9ef8b597cd88eafbfa7ee31c69013ce9d5c2bf106e0d68066c96b52d"
+    },
+    {
+      "relative": "backup_documentacao/MAPA_PROJETO.md",
+      "size": 87354,
+      "sha256": "1654ee028670a6172729ca3fd0a59deba3e15d26f5e47123aabe793ea4671438"
+    },
+    {
+      "relative": "backup_documentacao/MATRIZ_REGRESSAO_ENTREGA.md",
+      "size": 15418,
+      "sha256": "73cbd929cdd8b79b121a6e91dba4c3b7885cebeb704f68a9e304301ed1a659f2"
+    },
+    {
+      "relative": "backup_documentacao/MATRIZ_REGRESSAO_FASE10.md",
+      "size": 26322,
+      "sha256": "97cd2922b24a038628304dd30417ebc5cc1ca261f0fb6a45e58dbf0e77dea7e6"
+    },
+    {
+      "relative": "backup_documentacao/PACOTE_DECISAO_INTEGRACAO_FASE10.md",
+      "size": 6552,
+      "sha256": "6837867595afa7ab3d61a64eca07bd4df59de8a49df9c75f0b509a66e73d4f1a"
+    },
+    {
+      "relative": "backup_documentacao/REGISTRO_DEFEITOS_ABERTOS.md",
+      "size": 6924,
+      "sha256": "7386e0914d7c65e5843f809b0d65b8e0663a5704f7f1e39f6bf1a5d677ba1b1a"
+    },
+    {
+      "relative": "backup_documentacao/RELATORIO_AUDITORIA.md",
+      "size": 40330,
+      "sha256": "72c909bf4ae522d5caf5fba6d624a0d4d3dc1ff5844f85187f2fb7cfa009a103"
+    },
+    {
+      "relative": "backup_documentacao/TESTES_RECUPERACAO_FASE10.md",
+      "size": 4409,
+      "sha256": "40dbf1b761c12a3d3d5e1079764b56225f043e4aa42d1affc36b90e91f68b976"
+    },
+    {
+      "relative": "backup_documentacao/TESTES_VBA.md",
+      "size": 38429,
+      "sha256": "a5a6fa80121ed65a8d8f3b46bd5c97e9473dcdaccc1f80b1a37fc7655461cbc3"
+    }
+  ],
+  "rootDocuments": [
+    {
+      "path": "../../../ENTREGA_2_OPERACOES_CORRIGIDAS.md",
+      "size": 10222,
+      "sha256": "31604a90a7478f7d624decb4571a9efad59ce7990ca08da996f904e30ff79d77"
+    },
+    {
+      "path": "../../../MATRIZ_REGRESSAO_ENTREGA2.md",
+      "size": 28803,
+      "sha256": "607ffd0ecb567eface0c8752247570ad3fc79610d7fc820e297d551ae77aa9a3"
+    },
+    {
+      "path": "../../../REGISTRO_DEFEITOS_ABERTOS.md",
+      "size": 13524,
+      "sha256": "aa1d73c44552583300dd53bfbcab078dad3e7ea5535a14026c47ddbcc7f99730"
+    },
+    {
+      "path": "../../../MANUAL_INSTALACAO_RESTAURACAO.md",
+      "size": 14326,
+      "sha256": "0cdc3862f1e3fe4e4d39fc49e5fff0454dd167a3b6853f5fc2bd4164ec613c61"
+    },
+    {
+      "path": "../../../HISTORICO_ALTERACOES.md",
+      "size": 37256,
+      "sha256": "005a7ff91626a3d38a150d25e47230515457f6d3ab94b195495f630cc86bee7f"
+    },
+    {
+      "path": "../../../RELATORIO_AUDITORIA.md",
+      "size": 41567,
+      "sha256": "38e7c4bf36cf1713bdeef60e73bf1f6de1a4fd3f23cb31ffd6cbdd57b2b368d0"
+    },
+    {
+      "path": "../../../MAPA_PROJETO.md",
+      "size": 88591,
+      "sha256": "39e1c2ada86b02f171795676f23773cc506982ecb3f877e4c79f83b1dee55d28"
+    },
+    {
+      "path": "../../../TESTES_VBA.md",
+      "size": 39666,
+      "sha256": "81b974b747ee9d6bb2de8ae8b585dd0fd585ce68c9f24f52f2576be998d0b3fd"
+    }
+  ]
+}

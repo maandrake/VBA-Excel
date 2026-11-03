@@ -1,0 +1,37 @@
+﻿{
+    "Timestamp":  "2026-10-31T17:44:14.0975299-03:00",
+    "Kind":  "Excel COM ficticio; nao executa VBA",
+    "Tests":  [
+                  {
+                      "Name":  "Reproducao da perda no formato padrao",
+                      "Pass":  true,
+                      "Type":  "System.Double"
+                  },
+                  {
+                      "Name":  "Chave texto A2",
+                      "Pass":  true,
+                      "Type":  "System.String",
+                      "Length":  44
+                  },
+                  {
+                      "Name":  "Chave texto A3",
+                      "Pass":  true,
+                      "Type":  "System.String",
+                      "Length":  44
+                  },
+                  {
+                      "Name":  "Chave apos reabrir",
+                      "Pass":  true
+                  },
+                  {
+                      "Name":  "Formula e formato apos reabrir",
+                      "Pass":  true
+                  },
+                  {
+                      "Name":  "Reproducao do risco de exclusao parcial",
+                      "Pass":  true,
+                      "FormulaN2":  "=#REF!"
+                  }
+              ],
+    "TestRoot":  "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase2_20261031_201621Z\\RegressaoExcel"
+}

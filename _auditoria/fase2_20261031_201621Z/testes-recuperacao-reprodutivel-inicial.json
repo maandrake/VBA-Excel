@@ -1,0 +1,11 @@
+﻿{
+    "Timestamp":  "2026-10-31T17:46:56.4026953-03:00",
+    "Kind":  "Excel COM equivalente da compensacao por celula; nao executa clsOperacaoPlanilha nem eventos VBA",
+    "Tests":  [
+
+              ],
+    "TestRoot":  "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase2_20261031_201621Z\\RecuperacaoReprodutivel",
+    "AutomationSecurityObserved":  1,
+    "Error":  "Não é possível definir a propriedade NumberFormat da classe Range",
+    "Position":  "No linha:30 caractere:70\r\n+ ... ge(\u0027A4:D10\u0027).ClearContents();$s.Range(\u0027A4:D4\u0027).NumberFormat=\u0027General\u0027\r\n+                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+}

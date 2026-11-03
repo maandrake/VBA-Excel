@@ -1,0 +1,437 @@
+[
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Cad_NFE.corpo.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Cad_NFE.corpo.vba.txt",
+    "sha256": "8c22b35b7be1501519ceb95ad2e96f31de55d4b9f8275c53a06590ba6c25e462"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Cad_NFE_Saida.corpo.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Cad_NFE_Saida.corpo.vba.txt",
+    "sha256": "a6e484598039244eb8b57c5d130a7ce63ed6305d709272e9e7d28030abd95469"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\clsTesteCandidato.cls",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\clsTesteCandidato.cls",
+    "sha256": "6b735e163a19cd0700c76b2143e1d4770a16a379df8177a473c0740396791a52"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\EstaPastaDeTrabalho.corpo.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\EstaPastaDeTrabalho.corpo.vba.txt",
+    "sha256": "471876753c169d23436af3ea2bab55ae5b7ecfa36475b0182eeb26b71fbb3a5a"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\LEIA_ME.md",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\LEIA_ME.md",
+    "sha256": "c2ae8c9f89e10e95bf74cbbd6db0a110c71ef6b9f1acd57e7e1ab1535c6caf66"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\modCandidatoIntegrado.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\modCandidatoIntegrado.bas",
+    "sha256": "4d09709abf3d4541e3f017fe331e0ac4a7e85a94afa87892b5512b2d1e68f2c3"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\modCenariosFase10.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\modCenariosFase10.bas",
+    "sha256": "ce02a2c58aee15e23f14d9fb51b9ff5b67c98da0eff5cd249215257a87c84880"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\modPersistenciaFase10.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\modPersistenciaFase10.bas",
+    "sha256": "7f431bc437e3deccc4d85b7b3556238c01a8fbf02a8878f25e8fd16624276e30"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\modPreencherFormulario.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\modPreencherFormulario.bas",
+    "sha256": "2fd46df37c7721df43afc27e927aefe2b372cb2c2a4520290b59eb247caa11dc"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\modTestesEntrega1.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\modTestesEntrega1.bas",
+    "sha256": "41dc8fd40b1f5b557f041a4fbca1dd7644bfed8f575edb6e05fad30ca34f12fa"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\modValidacaoXML.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\modValidacaoXML.bas",
+    "sha256": "2606b4428589a80e2432c10854e8e13d8376cf5e46979202c4d0f64e7e007c70"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MóduloPesquisa.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MóduloPesquisa.bas",
+    "sha256": "e41eb9d79e20a118cbc8d2368d8371a4b48a1fe8444d4aed695365182a8f1def"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\UserFormFiltro.corpo.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\UserFormFiltro.corpo.vba.txt",
+    "sha256": "fee7433bed27619304419293f956ee871889157f4d1d218ea51f2e4f91069e9c"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\AuditoriaListaFake.cls",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\AuditoriaListaFake.cls",
+    "sha256": "2a210ea2d17c2490b9b71b2b45db8683ce5c25df23e79279bfb9f21a82ff299c"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\clsOperacaoPlanilha.cls",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\clsOperacaoPlanilha.cls",
+    "sha256": "ce1fa68a4b341e240eab39bab5382f0d3647c09e7dbe2868762e18d8bd1be2df"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\clsRepositorioFase8.cls",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\clsRepositorioFase8.cls",
+    "sha256": "5f6cdd38f3d2c346a31b360b09ef2db2b6fdaaacfc63003388a29116acdfc655"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\clsSaveFase9.cls",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\clsSaveFase9.cls",
+    "sha256": "5bda3945c125efd149250d3e88af1ea6bf06e7d2691ee65ce2b256570028e7ba"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\clsTesteCandidato.cls",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\clsTesteCandidato.cls",
+    "sha256": "3b00c6411a1951aef62b7f9d8b58e171f54b19acb402e73c945b5a3dee10a03f"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlChamarFiltro.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlChamarFiltro.bas",
+    "sha256": "ebfb40a8da1b8d144edb29781f2b59e620a9cb00876032b5147a788aa57c8958"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlChamarForm.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlChamarForm.bas",
+    "sha256": "888b82877a4e95317ccabb52553d1df052b6f7677cf4c25b680439eccd4884f1"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlChamarFormDocFora.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlChamarFormDocFora.bas",
+    "sha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlChamarFormNCM.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlChamarFormNCM.bas",
+    "sha256": "beec72a9412eac03765526c76056e7e9097133ff0c85d433a1d9c36974064dc9"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlChamarFormSaida.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlChamarFormSaida.bas",
+    "sha256": "7938d0c4831374750e4b173b61f9c1de309a08af69decdb9688cec6c1ee1d3c7"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlChamarFormVeículos.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlChamarFormVeículos.bas",
+    "sha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlChamarTabCan.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlChamarTabCan.bas",
+    "sha256": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlChamarTabEnt.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlChamarTabEnt.bas",
+    "sha256": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlChamarTabSai.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlChamarTabSai.bas",
+    "sha256": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlCondCel.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlCondCel.bas",
+    "sha256": "9d157cb6bc41cd6f02d3008d482ad4e486a740da7f8883c04bb13ac1beb9ca6f"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlCopiar.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlCopiar.bas",
+    "sha256": "1c63a3d8eb85a8ab60137ec5304a6d9c5cedf6fab82b0c2894a20e5d9c5b49d4"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlCriaBackup.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlCriaBackup.bas",
+    "sha256": "28096fb13f08b75afb26ca1358813b12dec95493c7bfaad73feaae99a92fcc61"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlCursor.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlCursor.bas",
+    "sha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlMacroConexão.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlMacroConexão.bas",
+    "sha256": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlMacroConexãoClientes.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlMacroConexãoClientes.bas",
+    "sha256": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlMacroDocFora.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlMacroDocFora.bas",
+    "sha256": "85caa0cac4b69c53f13c58e9ac4ca4e6a474d23271bcaff1f969f8fb91e340ee"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlOcultarTítulo.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlOcultarTítulo.bas",
+    "sha256": "62fbaac7301177886ee0a9ab91024b1f8c0bee597ebf891def1bb91f697eedef"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\mdlTelaCheia.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\mdlTelaCheia.bas",
+    "sha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modCandidatoIntegrado.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modCandidatoIntegrado.bas",
+    "sha256": "4d09709abf3d4541e3f017fe331e0ac4a7e85a94afa87892b5512b2d1e68f2c3"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modCenariosFase10.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modCenariosFase10.bas",
+    "sha256": "fc68b471c5e5551814ab3ec83c423fb42805db65773d97a1181543b51db1021c"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modExperimentosFase8.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modExperimentosFase8.bas",
+    "sha256": "3ac9af2712588a15790133aa60babf9eae27f7cd533a9143d419c43bf79c7afd"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modFronteirasFase10.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modFronteirasFase10.bas",
+    "sha256": "a70b4e9c3e1fbe525f576bfd0938e30a7214fff0f83f337c2a1afe24783542d3"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modIntegridadeOperacao.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modIntegridadeOperacao.bas",
+    "sha256": "9c38f1e123ef3fc7b67eba789610e70e5ede1f9c68d3eda31e901b08a7d21993"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modPersistenciaFase10.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modPersistenciaFase10.bas",
+    "sha256": "b8e9a1c82dd76e522ae0c2a448685b2cda2110fa1e78f68d2eb53633825918e4"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modPersistenciaFase9.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modPersistenciaFase9.bas",
+    "sha256": "f276b7fc222f9c824c57cea24666da3e97a16f713747629b11e1c6c293ccb821"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modPreencherFormulario.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modPreencherFormulario.bas",
+    "sha256": "e1de7c7c399e6c4b6a80fc04468d151b3b47267ef350805d74876d7907b280f8"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modPrototiposFase6.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modPrototiposFase6.bas",
+    "sha256": "13a22fafaf85ed58fc6229443e64c86bd1de91028541c187022bb7adc6e25a2f"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modPrototiposFase7.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modPrototiposFase7.bas",
+    "sha256": "e9aa897ce0d6697d7c70781b41f6619816578cc114ae89712bac31f41d7fea16"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modSeleniumCommon.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modSeleniumCommon.bas",
+    "sha256": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modSeleniumConsultaNFE.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modSeleniumConsultaNFE.bas",
+    "sha256": "1c8c25747415565867b50d8d1158acbc4e6ca15ce6107adbb655bac283126156"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modSeleniumRenavamConsulta.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modSeleniumRenavamConsulta.bas",
+    "sha256": "19c3ce8723050ec14ffdc2d92c16fa49f34e6fc520a5bb8e6fe31dde11130658"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modSelTest.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modSelTest.bas",
+    "sha256": "894840fc367c1cf7fef45a4fb06911912c61b90b2e32dcf338c23713464fa896"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modTestesAuditoria.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modTestesAuditoria.bas",
+    "sha256": "516d590a1d3294b1983f7358c329bfe761122fc924788e80d5e202c668213f3f"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modTestesEntrega1.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modTestesEntrega1.bas",
+    "sha256": "09801f2871658573604956de2aa6dc7f1b834a51cdad7a491571df737ca4c0db"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modTestesFase2.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modTestesFase2.bas",
+    "sha256": "1b81bd27828d0a529d4c083ef8c3e322bf11e433bee47897482b18298650eb41"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modTestesIntegradosFase5.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modTestesIntegradosFase5.bas",
+    "sha256": "5125e27762d9eb5cf50a80391a46a2050cb4d8a863dc9e4cdc65192285a84a5b"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modValidacaoXML.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modValidacaoXML.bas",
+    "sha256": "cc3c441d36ca2c84b33eed9038bb8dd740d990ebd9b6aa0564222efd8d0dd5e2"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\modVerificacaoFase9.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\modVerificacaoFase9.bas",
+    "sha256": "d22d5a8276abd173414e94684875c964aa852d234e06331a680fd09dc1ef8b98"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\MóduloOfficeRibbonEditor.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\MóduloOfficeRibbonEditor.bas",
+    "sha256": "725894623f0f7e883c8c16cd5311853427423859dd176428b084099a419c0777"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\MóduloPesquisa.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\MóduloPesquisa.bas",
+    "sha256": "8e63e0173d91b7431935c86acb22d1556590db9e898f419c1bd913e56ffe2eff"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\MDL\\MóduloRemoveFechar.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\MDL\\MóduloRemoveFechar.bas",
+    "sha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Form\\Cad_NCM.frm",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Form\\Cad_NCM.frm",
+    "sha256": "6bbfd1bed68d2b9d38eeedc14c1dbe617140b6250eec91bd2944a83f5e4524d3"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Form\\Cad_NCM.frx",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Form\\Cad_NCM.frx",
+    "sha256": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Form\\Cad_NFE.frm",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Form\\Cad_NFE.frm",
+    "sha256": "23ad3db388ffc46a6d0be487fcd9747370d787e0ea665d484a71a60b1bfc5611"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Form\\Cad_NFE.frx",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Form\\Cad_NFE.frx",
+    "sha256": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Form\\Cad_NFE_Saida.frm",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Form\\Cad_NFE_Saida.frm",
+    "sha256": "6893cbd37546d6f349ead80bccad8b698898d09b9d689059ccabf93db3667700"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Form\\Cad_NFE_Saida.frx",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Form\\Cad_NFE_Saida.frx",
+    "sha256": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Form\\frmRelatorioXML.frm",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Form\\frmRelatorioXML.frm",
+    "sha256": "77da0abc91d783f7674ee8d7b7311f4991d828c68cecd2e292f76e9eac590d97"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Form\\frmRelatorioXML.frx",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Form\\frmRelatorioXML.frx",
+    "sha256": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Form\\UserFormFiltro.frm",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Form\\UserFormFiltro.frm",
+    "sha256": "778161e85ec2d9c751384101c21527c4662cf12cf88727f68d999a7c1ddd2805"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Form\\UserFormFiltro.frx",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Form\\UserFormFiltro.frx",
+    "sha256": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\EstaPastaDeTrabalho.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\EstaPastaDeTrabalho.vba.txt",
+    "sha256": "dd7c91609fc00199c34785a85ded9463006bb672432513ecc172e2684958d398"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha1.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha1.vba.txt",
+    "sha256": "68d11dc3a3a0ae5e1c82f733b83c5400981ab807cace78596bae7fcc0082e42c"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha10.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha10.vba.txt",
+    "sha256": "fee0778ae47eccc07450f16aa8a1939546fa3cfbabc321a4e471389854b26507"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha11.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha11.vba.txt",
+    "sha256": "c2cfbda4a3141096ebc73d066977d4bfedeeb8e590358c4b4cd06781cbdcb285"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha12.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha12.vba.txt",
+    "sha256": "56e6d5b771e910fd03c2768cae879539d8781cedb8b2b6d3d5d4c3e9db8ba7d8"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha13.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha13.vba.txt",
+    "sha256": "a2c715fba024d244247ee640d8429c51e15db72f2a190eba1250c4524e6009ed"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha15.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha15.vba.txt",
+    "sha256": "b72b5012d6b83aa93fad4fe4f481d47f68a8d59af33b957c6cb851b374a41f0b"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha16.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha16.vba.txt",
+    "sha256": "582270e08b4101e72751cd854b15fd1fd23bbbc0247f1c1a5ba38aa178e568e6"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha17.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha17.vba.txt",
+    "sha256": "bdb292d0640c367e9ce4de4c55ec00384ba7524f198daf46f3d4389d8d846fa3"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha18.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha18.vba.txt",
+    "sha256": "e1148f4b17cd0c90a9911c31f3b4976a53d04387ccd4414979e821bd1e8d7d9e"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha2.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha2.vba.txt",
+    "sha256": "85d6c1b4a2396eb27a9f34e394733013ab79c04e72bc04ef2caa5bf5635ba70e"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha3.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha3.vba.txt",
+    "sha256": "ece5fe4f860168fe26cab235b8e67ba0d009898867e791ffa7e201d746abf405"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha4.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha4.vba.txt",
+    "sha256": "b29c63bd9ae5b6b6eb29920c5b01ef64ed41198f9b3daf3f1fd004a637e7b098"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha5.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha5.vba.txt",
+    "sha256": "54070719a0832718879428270900bb9fe0458d1a5a9cb456ed64d39ffaabba1b"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha6.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha6.vba.txt",
+    "sha256": "2ae2ce91b562b745173393395abf6bc77aca10d8ac574cafb1c9b469b4662461"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha7.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha7.vba.txt",
+    "sha256": "d299515e81638f7edc9e789251bf117ed262879eab7afb9a31e618765d0362f5"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha8.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha8.vba.txt",
+    "sha256": "d733ac71b42220f6ea90d56de39eeef8f7a4137acaade4cb53f2a007881b1dcf"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\fontes\\Documento\\Planilha9.vba.txt",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_fontes_entrega1\\Documento\\Planilha9.vba.txt",
+    "sha256": "5ba1086b6cde38fead1cc40cdbb0acd27235abc7f0406b631629de8692920833"
+  }
+]

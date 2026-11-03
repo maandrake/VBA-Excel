@@ -1,0 +1,474 @@
+{
+  "mode": "Leitura OOXML local direcionada a formulas; nenhum valor de estoque exportado nem macro original executada.",
+  "sourceSHA256": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+  "sheets": [
+    {
+      "sheet": "Menu Principal",
+      "formulaCount": 208,
+      "columns": {
+        "B": 1,
+        "C": 73,
+        "G": 55,
+        "D": 40,
+        "H": 39
+      },
+      "directOrIndirectReferences": [
+        {
+          "cell": "C3",
+          "attributes": "",
+          "formula": "SUMIF(Entradas!$B$3:$B$4132,\"Compra\",Entradas!$I$3:$I$4132)"
+        },
+        {
+          "cell": "G3",
+          "attributes": "",
+          "formula": "SUMIF('Entradas Filial'!B3:B4884,\"Compra\",'Entradas Filial'!I3:I4884)"
+        },
+        {
+          "cell": "C4",
+          "attributes": "",
+          "formula": "SUM('Entradas Anual'!$C$4:$C$4993)"
+        },
+        {
+          "cell": "G4",
+          "attributes": "",
+          "formula": "SUM('Todas Saidas Filial'!$D$4:$D$5001)"
+        },
+        {
+          "cell": "C5",
+          "attributes": " ca=\"1\"",
+          "formula": "SUMIF('Entradas Anual'!$P$4:$P$4993,\"SIM\",'Entradas Anual'!$C$4:$C$500)"
+        },
+        {
+          "cell": "G5",
+          "attributes": " ca=\"1\"",
+          "formula": "SUMIF('Entradas Anual Filial'!$P$4:$P$4998,\"SIM\",'Entradas Anual Filial'!$C$4:$C$4997)"
+        }
+      ]
+    },
+    {
+      "sheet": "Entradas",
+      "formulaCount": 2344,
+      "columns": {
+        "C": 1,
+        "G": 1,
+        "I": 1,
+        "J": 1,
+        "L": 32,
+        "M": 780,
+        "N": 780,
+        "P": 4,
+        "A": 743,
+        "O": 1
+      },
+      "directOrIndirectReferences": []
+    },
+    {
+      "sheet": "Transferidos",
+      "formulaCount": 3,
+      "columns": {
+        "C": 1,
+        "E": 1,
+        "J": 1
+      },
+      "directOrIndirectReferences": []
+    },
+    {
+      "sheet": "Entradas Anual",
+      "formulaCount": 17971,
+      "columns": {
+        "J": 1,
+        "A": 1409,
+        "D": 1,
+        "H": 1,
+        "K": 1587,
+        "L": 2993,
+        "M": 2994,
+        "N": 2995,
+        "O": 2995,
+        "P": 2995
+      },
+      "directOrIndirectReferences": [
+        {
+          "cell": "N4",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($B4)=0,\"\",ActiveCondition($B4))"
+        },
+        {
+          "cell": "O4",
+          "attributes": "",
+          "formula": "IF($D4=\"\",\"\",ActiveCondition($H4))"
+        },
+        {
+          "cell": "P4",
+          "attributes": "",
+          "formula": "IF($D4=\"\",\"\",IF(COUNTIF('Todas Saidas'!$F$3:$F$4998,'Entradas Anual'!$F4)&gt;=1,\"SIM\",\"NÃO\"))"
+        },
+        {
+          "cell": "N5",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($B5)=0,\"\",ActiveCondition($B5))"
+        },
+        {
+          "cell": "O5",
+          "attributes": "",
+          "formula": "IF($D5=\"\",\"\",ActiveCondition($H5))"
+        },
+        {
+          "cell": "P5",
+          "attributes": "",
+          "formula": "IF($D5=\"\",\"\",IF(COUNTIF('Todas Saidas'!$F$3:$F$4998,'Entradas Anual'!$F5)&gt;=1,\"SIM\",\"NÃO\"))"
+        }
+      ]
+    },
+    {
+      "sheet": "Demonstração",
+      "formulaCount": 154,
+      "columns": {
+        "J": 1,
+        "A": 25,
+        "D": 1,
+        "H": 1,
+        "P": 1,
+        "L": 50,
+        "M": 50,
+        "O": 23,
+        "N": 2
+      },
+      "directOrIndirectReferences": []
+    },
+    {
+      "sheet": "Saidas",
+      "formulaCount": 100,
+      "columns": {
+        "K": 16,
+        "Q": 16,
+        "A": 30,
+        "L": 31,
+        "D": 1,
+        "E": 2,
+        "H": 1,
+        "O": 2,
+        "P": 1
+      },
+      "directOrIndirectReferences": [
+        {
+          "cell": "Q2",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C2)=0,\"\",ActiveCondition($C2))"
+        },
+        {
+          "cell": "Q3",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C3)=0,\"\",ActiveCondition($C3))"
+        },
+        {
+          "cell": "Q4",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C4)=0,\"\",ActiveCondition($C4))"
+        },
+        {
+          "cell": "Q5",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C5)=0,\"\",ActiveCondition($C5))"
+        },
+        {
+          "cell": "Q6",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C6)=0,\"\",ActiveCondition($C6))"
+        },
+        {
+          "cell": "Q7",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C7)=0,\"\",ActiveCondition($C7))"
+        }
+      ]
+    },
+    {
+      "sheet": "Todas Saidas",
+      "formulaCount": 16673,
+      "columns": {
+        "D": 1,
+        "E": 1,
+        "K": 1633,
+        "O": 545,
+        "P": 545,
+        "N": 544,
+        "Q": 1632,
+        "R": 5012,
+        "A": 3380,
+        "L": 3380
+      },
+      "directOrIndirectReferences": [
+        {
+          "cell": "Q3",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C3)=0,\"\",ActiveCondition($C3))"
+        },
+        {
+          "cell": "Q4",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C4)=0,\"\",ActiveCondition($C4))"
+        },
+        {
+          "cell": "Q5",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C5)=0,\"\",ActiveCondition($C5))"
+        },
+        {
+          "cell": "Q6",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C6)=0,\"\",ActiveCondition($C6))"
+        },
+        {
+          "cell": "Q7",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C7)=0,\"\",ActiveCondition($C7))"
+        },
+        {
+          "cell": "Q8",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C8)=0,\"\",ActiveCondition($C8))"
+        }
+      ]
+    },
+    {
+      "sheet": "Entradas Filial",
+      "formulaCount": 1093,
+      "columns": {
+        "C": 1,
+        "G": 1,
+        "I": 1,
+        "J": 1,
+        "M": 18,
+        "N": 363,
+        "O": 363,
+        "L": 25,
+        "R": 1,
+        "Q": 9,
+        "A": 310
+      },
+      "directOrIndirectReferences": []
+    },
+    {
+      "sheet": "Entradas Anual Filial",
+      "formulaCount": 2974,
+      "columns": {
+        "J": 1,
+        "A": 326,
+        "D": 1,
+        "H": 1,
+        "K": 170,
+        "L": 495,
+        "M": 495,
+        "N": 495,
+        "O": 495,
+        "P": 495
+      },
+      "directOrIndirectReferences": [
+        {
+          "cell": "N4",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($B4)=0,\"\",ActiveCondition($B4))"
+        },
+        {
+          "cell": "O4",
+          "attributes": "",
+          "formula": "IF($D4=\"\",\"\",ActiveCondition($H4))"
+        },
+        {
+          "cell": "P4",
+          "attributes": "",
+          "formula": "IF($D4=\"\",\"\",IF(COUNTIF('Todas Saidas Filial'!$F$3:$F$501,'Entradas Anual Filial'!$F4)&gt;=1,\"SIM\",\"NÃO\"))"
+        },
+        {
+          "cell": "N5",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($B5)=0,\"\",ActiveCondition($B5))"
+        },
+        {
+          "cell": "O5",
+          "attributes": "",
+          "formula": "IF($D5=\"\",\"\",ActiveCondition($H5))"
+        },
+        {
+          "cell": "P5",
+          "attributes": "",
+          "formula": "IF($D5=\"\",\"\",IF(COUNTIF('Todas Saidas Filial'!$F$3:$F$501,'Entradas Anual Filial'!$F5)&gt;=1,\"SIM\",\"NÃO\"))"
+        }
+      ]
+    },
+    {
+      "sheet": "Saidas Filial",
+      "formulaCount": 64,
+      "columns": {
+        "K": 9,
+        "Q": 10,
+        "A": 19,
+        "L": 19,
+        "E": 1,
+        "H": 1,
+        "O": 2,
+        "P": 1,
+        "J": 1,
+        "N": 1
+      },
+      "directOrIndirectReferences": [
+        {
+          "cell": "Q2",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C2)=0,\"\",ActiveCondition($C2))"
+        },
+        {
+          "cell": "Q3",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C3)=0,\"\",ActiveCondition($C3))"
+        },
+        {
+          "cell": "Q4",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C4)=0,\"\",ActiveCondition($C4))"
+        },
+        {
+          "cell": "Q5",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C5)=0,\"\",ActiveCondition($C5))"
+        },
+        {
+          "cell": "Q6",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C6)=0,\"\",ActiveCondition($C6))"
+        },
+        {
+          "cell": "Q7",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C7)=0,\"\",ActiveCondition($C7))"
+        }
+      ]
+    },
+    {
+      "sheet": "Todas Saidas Filial",
+      "formulaCount": 1501,
+      "columns": {
+        "D": 1,
+        "E": 1,
+        "N": 1,
+        "O": 1,
+        "P": 1,
+        "K": 135,
+        "Q": 136,
+        "R": 499,
+        "A": 363,
+        "L": 363
+      },
+      "directOrIndirectReferences": [
+        {
+          "cell": "Q3",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C3)=0,\"\",ActiveCondition($C3))"
+        },
+        {
+          "cell": "Q4",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C4)=0,\"\",ActiveCondition($C4))"
+        },
+        {
+          "cell": "Q5",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C5)=0,\"\",ActiveCondition($C5))"
+        },
+        {
+          "cell": "Q6",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C6)=0,\"\",ActiveCondition($C6))"
+        },
+        {
+          "cell": "Q7",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C7)=0,\"\",ActiveCondition($C7))"
+        },
+        {
+          "cell": "Q8",
+          "attributes": "",
+          "formula": "IF(ActiveCondition($C8)=0,\"\",ActiveCondition($C8))"
+        }
+      ]
+    },
+    {
+      "sheet": "Carros PF",
+      "formulaCount": 130,
+      "columns": {
+        "H": 1,
+        "B": 1,
+        "U": 1,
+        "K": 32,
+        "N": 32,
+        "O": 32,
+        "A": 31
+      },
+      "directOrIndirectReferences": []
+    },
+    {
+      "sheet": "Clientes",
+      "formulaCount": 0,
+      "columns": {},
+      "directOrIndirectReferences": []
+    },
+    {
+      "sheet": "Veículos",
+      "formulaCount": 0,
+      "columns": {},
+      "directOrIndirectReferences": []
+    },
+    {
+      "sheet": "Doc. para fora",
+      "formulaCount": 0,
+      "columns": {},
+      "directOrIndirectReferences": []
+    },
+    {
+      "sheet": "NCM e CEST",
+      "formulaCount": 0,
+      "columns": {},
+      "directOrIndirectReferences": []
+    },
+    {
+      "sheet": "Listas",
+      "formulaCount": 17,
+      "columns": {
+        "J": 17
+      },
+      "directOrIndirectReferences": [
+        {
+          "cell": "J1",
+          "attributes": "",
+          "formula": "ActiveCondition(I1)"
+        },
+        {
+          "cell": "J2",
+          "attributes": "",
+          "formula": "ActiveCondition(I2)"
+        },
+        {
+          "cell": "J3",
+          "attributes": "",
+          "formula": "ActiveCondition(I3)"
+        },
+        {
+          "cell": "J4",
+          "attributes": "",
+          "formula": "ActiveCondition(I4)"
+        },
+        {
+          "cell": "J5",
+          "attributes": "",
+          "formula": "ActiveCondition(I5)"
+        },
+        {
+          "cell": "J6",
+          "attributes": "",
+          "formula": "ActiveCondition(I6)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "C3-01",
+    "file": "MDL/clsOperacaoPlanilha.cls",
+    "reason": "Ciclo de vida de uso unico, inclusive quando nenhum destino foi registrado.",
+    "before": "Private mAtiva As Boolean",
+    "after": "Private mAtiva As Boolean\r\nPrivate mIniciada As Boolean"
+  },
+  {
+    "id": "C3-01",
+    "file": "MDL/clsOperacaoPlanilha.cls",
+    "reason": "Impedir reutilizacao de contexto vazio apos Confirmar/Finalizar com flags antigas.",
+    "before": "    If mAtiva Or mItens.Count > 0 Then",
+    "after": "    If mIniciada Or mAtiva Or mItens.Count > 0 Then"
+  },
+  {
+    "id": "C3-01",
+    "file": "MDL/clsOperacaoPlanilha.cls",
+    "reason": "Marcar uso apos capturar estados e antes de alterar Application.",
+    "before": "    mAtiva = True\r\n",
+    "after": "    mIniciada = True\r\n    mAtiva = True\r\n"
+  },
+  {
+    "id": "C3-01",
+    "file": "MDL/clsOperacaoPlanilha.cls",
+    "reason": "Recusar falso sucesso em contexto nunca iniciado ou ja finalizado; os quatro consumidores usam recuperacao antes de Finalizar.",
+    "before": "    For i = mItens.Count To 1 Step -1",
+    "after": "    If Not mAtiva Then\r\n        diagnostico = \"Operacao inativa; nenhuma recuperacao executada.\"\r\n        Exit Function\r\n    End If\r\n    For i = mItens.Count To 1 Step -1"
+  },
+  {
+    "id": "T3-01",
+    "file": "scripts/modTestesFase2.bas",
+    "reason": "Reaproveita a suite existente e acrescenta regressao direta do ciclo de vida, sem executar ou renomear eventos de producao.",
+    "beforeSha256": "d8ff972e510acdcd7e11dee327604da0b2c7b5618504515d9bb54e82e2ee16a4",
+    "appended": "\n'Teste de regressao do ciclo de vida; PREPARADO, NAO EXECUTADO.\nPublic Function AuditoriaFase3_CicloVida() As String\n    Dim op As clsOperacaoPlanilha, diagnostico As String\n    If InStr(1, ThisWorkbook.FullName, Environ$(\"TEMP\") & \"\\\", vbTextCompare) <> 1 Then\n        Err.Raise vbObjectError + 2230, , \"Exige fixture em TEMP.\"\n    End If\n    If Left$(ThisWorkbook.Name, 18) <> \"Fixture_Auditoria_\" Then\n        Err.Raise vbObjectError + 2231, , \"Nome da fixture invalido.\"\n    End If\n    If ThisWorkbook.Worksheets(\"Menu Principal\").Range(\"Z1\").Value2 <> \"AUDITORIA_VBA_FICTICIO\" Then\n        Err.Raise vbObjectError + 2232, , \"Marcador ficticio ausente.\"\n    End If\n    Set op = New clsOperacaoPlanilha\n    ExigirF2 Not op.Recuperar(diagnostico), \"Nao recuperar contexto nunca iniciado\"\n    op.Iniciar ThisWorkbook\n    op.Finalizar\n    ExigirF2 Not op.Recuperar(diagnostico), \"Nao recuperar contexto finalizado\"\n    ExigirF2 InicioRepetidoRecusadoF3(op), \"Nao reutilizar contexto vazio finalizado\"\n    Set op = New clsOperacaoPlanilha\n    op.Iniciar ThisWorkbook\n    op.Confirmar\n    ExigirF2 InicioRepetidoRecusadoF3(op), \"Nao reutilizar contexto vazio confirmado\"\n    AuditoriaFase3_CicloVida = \"PASS: ciclo de vida verificado; eventos fiscais nao executados.\"\nEnd Function\n\nPrivate Function InicioRepetidoRecusadoF3(ByVal op As clsOperacaoPlanilha) As Boolean\n    On Error GoTo Recusado\n    op.Iniciar ThisWorkbook\n    op.Finalizar\n    Exit Function\nRecusado:\n    InicioRepetidoRecusadoF3 = (Err.Number = vbObjectError + 2100)\nEnd Function\n",
+    "status": "PREPARADO_NAO_IMPORTADO_NAO_EXECUTADO"
+  },
+  {
+    "id": "C3-02",
+    "file": "MDL/clsOperacaoPlanilha.cls",
+    "reason": "Preservar metadado de erro usado na gravacao da chave; o ensaio COM comprovou perda de Ignore=True na compensacao anterior.",
+    "before": "        item.Add CStr(celula.NumberFormat)\r\n",
+    "after": "        item.Add CStr(celula.NumberFormat)\r\n        item.Add CBool(celula.Errors(xlNumberAsText).Ignore)\r\n"
+  },
+  {
+    "id": "C3-02",
+    "file": "MDL/clsOperacaoPlanilha.cls",
+    "reason": "Restaurar Ignore somente depois de valor/formula/NumberFormat, pois ClearContents e atribuicao podem reseta-lo.",
+    "before": "    RestaurarCelula = True\r\n",
+    "after": "    celula.Errors(xlNumberAsText).Ignore = CBool(item(6))\r\n    RestaurarCelula = True\r\n"
+  },
+  {
+    "id": "T3-02",
+    "file": "scripts/modTestesFase2.bas",
+    "reason": "Estender fixture/assert da chave com Errors(xlNumberAsText).Ignore=True e verificar recuperacao no futuro runtime VBA.",
+    "beforeSha256": "6bfe261cd487d1c73581097a3da524a0beffc1ba84719af43e2d4a0fd4c0d33b",
+    "afterSha256": "4074237d5d2058a66b9c303dfb1628caf182f04ac2ab3db21de8835bbb7eed18",
+    "status": "PREPARADO_NAO_EXECUTADO"
+  }
+]

@@ -1,0 +1,8 @@
+﻿{
+    "Timestamp":  "2026-10-31T17:22:20.3634132-03:00",
+    "Kind":  "Prototipos COM nao integrados",
+    "Tests":  [
+
+              ],
+    "Error":  "Não é possível converter um objeto do tipo \u0027System.Double\u0027 no tipo \u0027System.String\u0027."
+}

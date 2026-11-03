@@ -1,0 +1,38 @@
+{
+  "capturedAt": "2026-11-03T00:51:32.309Z",
+  "origin": "Consulta ADO direta, somente leitura, Microsoft.ACE.OLEDB.16.0; transcricao estruturada do resultado executado",
+  "database": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\Banco_Candidato_Operacoes_Corrigidas.accdb",
+  "Meta": {
+    "BaseID": "143C55EC-132B-4839-8413-268B265117AF",
+    "SchemaNo": 6,
+    "RevisionNo": 16,
+    "WriteState": "READY",
+    "IntegrityReason": "NONE",
+    "LineageID": "143C55EC-132B-4839-8413-268B265117AF",
+    "SchemaHash": "6d55ae583fe99edbc06c44c665d274c9a4a2422812a1dce1d879f80c4dee5604"
+  },
+  "CandidateSettings": {
+    "ContractVersion": 2,
+    "ProjectionState": "VERIFIED",
+    "WorkbookID": "909BA8E5-7BCD-4722-A39C-B999293C4BA7"
+  },
+  "WriterLease": {
+    "StatusText": "FREE",
+    "OwnerID": "",
+    "FenceNo": 44
+  },
+  "Counts": {
+    "Vehicles": 6,
+    "Episodes": 7,
+    "Movements": 16,
+    "Projections": 16,
+    "Operations": 16,
+    "Attempts": 17,
+    "Receipts": 16,
+    "ChangeLog": 16,
+    "Pending": 0,
+    "SheetProjections": 40,
+    "ProjectionAcks": 22
+  },
+  "coldReopen": "BLOQUEADO: aviso de macros aguardando acao manual; nao equivale a falha da compilacao realizada"
+}

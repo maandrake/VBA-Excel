@@ -1,0 +1,181 @@
+{
+  "inherited": 63,
+  "final": 66,
+  "added": [
+    "modPersistenciaFase10",
+    "modCenariosFase10",
+    "modFronteirasFase10"
+  ],
+  "normalizedSourceDiff": [],
+  "normalization": "Preserva literais; ignora caixa de identificadores fora de strings e atributos VB_Base gerados; ignora CRLF e espaços finais",
+  "designerStreams": 129,
+  "designerDiff": [
+    "/Cad_NCM/f",
+    "/Cad_NCM/o",
+    "/Cad_NCM/i18/f",
+    "/Cad_NCM/i18/o",
+    "/Cad_NCM/i254/f",
+    "/Cad_NCM/i254/o",
+    "/Cad_NFE/f",
+    "/Cad_NFE/o",
+    "/Cad_NFE/i98/f",
+    "/Cad_NFE/i98/o",
+    "/Cad_NFE/i98/i100/f",
+    "/Cad_NFE/i98/i100/i12/f",
+    "/Cad_NFE/i98/i100/i12/o",
+    "/Cad_NFE/i98/i100/i46/f",
+    "/Cad_NFE/i98/i100/i46/o",
+    "/Cad_NFE/i98/i100/i50/f",
+    "/Cad_NFE/i98/i100/i50/o",
+    "/Cad_NFE/i98/i100/i391/f",
+    "/Cad_NFE/i98/i100/i391/o",
+    "/Cad_NFE/i98/i100/i460/f",
+    "/Cad_NFE/i98/i100/i460/o",
+    "/Cad_NFE/i98/i100/i483/f",
+    "/Cad_NFE/i98/i100/i483/o",
+    "/Cad_NFE/i98/i101/f",
+    "/Cad_NFE/i98/i101/i547/f",
+    "/Cad_NFE/i98/i101/i547/o",
+    "/Cad_NFE/i98/i101/i567/f",
+    "/Cad_NFE/i98/i101/i567/o",
+    "/Cad_NFE/i98/i101/i570/f",
+    "/Cad_NFE/i98/i101/i570/o",
+    "/Cad_NFE/i98/i101/i582/f",
+    "/Cad_NFE/i98/i101/i582/o",
+    "/Cad_NFE/i98/i101/i585/f",
+    "/Cad_NFE/i98/i101/i585/o",
+    "/Cad_NFE/i98/i101/i612/f",
+    "/Cad_NFE/i98/i101/i612/o",
+    "/Cad_NFE/i103/f",
+    "/Cad_NFE/i103/o",
+    "/PROJECT",
+    "/PROJECTwm",
+    "/Cad_NFE_Saida/f",
+    "/Cad_NFE_Saida/o",
+    "/Cad_NFE_Saida/i98/o",
+    "/Cad_NFE_Saida/i98/i100/f",
+    "/Cad_NFE_Saida/i98/i100/i12/f",
+    "/Cad_NFE_Saida/i98/i100/i12/o",
+    "/Cad_NFE_Saida/i98/i100/i46/f",
+    "/Cad_NFE_Saida/i98/i100/i46/o",
+    "/Cad_NFE_Saida/i98/i100/i50/f",
+    "/Cad_NFE_Saida/i98/i100/i50/o",
+    "/Cad_NFE_Saida/i98/i100/i391/f",
+    "/Cad_NFE_Saida/i98/i100/i391/o",
+    "/Cad_NFE_Saida/i98/i100/i460/f",
+    "/Cad_NFE_Saida/i98/i100/i460/o",
+    "/Cad_NFE_Saida/i98/i100/i483/f",
+    "/Cad_NFE_Saida/i98/i100/i483/o",
+    "/Cad_NFE_Saida/i98/i101/f",
+    "/Cad_NFE_Saida/i98/i101/i242/f",
+    "/Cad_NFE_Saida/i98/i101/i242/o",
+    "/Cad_NFE_Saida/i98/i101/i248/f",
+    "/Cad_NFE_Saida/i98/i101/i248/o",
+    "/Cad_NFE_Saida/i98/i101/i257/f",
+    "/Cad_NFE_Saida/i98/i101/i257/o",
+    "/Cad_NFE_Saida/i98/i101/i268/f",
+    "/Cad_NFE_Saida/i98/i101/i268/o",
+    "/Cad_NFE_Saida/i98/i101/i275/f",
+    "/Cad_NFE_Saida/i98/i101/i275/o",
+    "/Cad_NFE_Saida/i98/i101/i498/f",
+    "/Cad_NFE_Saida/i98/i101/i498/o",
+    "/Cad_NFE_Saida/i103/f",
+    "/Cad_NFE_Saida/i103/o",
+    "/UserFormFiltro/f",
+    "/UserFormFiltro/i02/f",
+    "/UserFormFiltro/i02/o",
+    "/frmRelatorioXML/f",
+    "/frmRelatorioXML/o"
+  ],
+  "sheets": [
+    {
+      "entry": "xl/worksheets/sheet1.xml",
+      "codeName": "Planilha12"
+    },
+    {
+      "entry": "xl/worksheets/sheet2.xml",
+      "codeName": "Planilha1"
+    },
+    {
+      "entry": "xl/worksheets/sheet3.xml",
+      "codeName": "Planilha13"
+    },
+    {
+      "entry": "xl/worksheets/sheet4.xml",
+      "codeName": "Planilha3"
+    },
+    {
+      "entry": "xl/worksheets/sheet5.xml",
+      "codeName": "Planilha4"
+    },
+    {
+      "entry": "xl/worksheets/sheet6.xml",
+      "codeName": "Planilha2"
+    },
+    {
+      "entry": "xl/worksheets/sheet7.xml",
+      "codeName": "Planilha17"
+    },
+    {
+      "entry": "xl/worksheets/sheet8.xml",
+      "codeName": "Planilha15"
+    },
+    {
+      "entry": "xl/worksheets/sheet9.xml",
+      "codeName": "Planilha10"
+    },
+    {
+      "entry": "xl/worksheets/sheet10.xml",
+      "codeName": "Planilha16"
+    },
+    {
+      "entry": "xl/worksheets/sheet11.xml",
+      "codeName": "Planilha18"
+    },
+    {
+      "entry": "xl/worksheets/sheet12.xml",
+      "codeName": "Planilha7"
+    },
+    {
+      "entry": "xl/worksheets/sheet13.xml",
+      "codeName": "Planilha6"
+    },
+    {
+      "entry": "xl/worksheets/sheet14.xml",
+      "codeName": "Planilha9"
+    },
+    {
+      "entry": "xl/worksheets/sheet15.xml",
+      "codeName": "Planilha11"
+    },
+    {
+      "entry": "xl/worksheets/sheet16.xml",
+      "codeName": "Planilha5"
+    },
+    {
+      "entry": "xl/worksheets/sheet17.xml",
+      "codeName": "Planilha8"
+    }
+  ],
+  "newSources": [
+    {
+      "name": "modPersistenciaFase10",
+      "file": "modLaboratorioFase10.bas",
+      "normalizedEqual": true,
+      "embeddedSourceSHA256": "c4aa8618ca5353fc6da63530c70ac39088f1d8b72ea350c5ce51d6f38a1221af"
+    },
+    {
+      "name": "modCenariosFase10",
+      "file": "modCenariosFase10.bas",
+      "normalizedEqual": true,
+      "embeddedSourceSHA256": "ae80d35eb9d3057c60390d6f1a619b932038e0eebfb7fa287257359fb03d2a13"
+    },
+    {
+      "name": "modFronteirasFase10",
+      "file": "modFronteirasFase10.bas",
+      "normalizedEqual": true,
+      "embeddedSourceSHA256": "a70b4e9c3e1fbe525f576bfd0938e30a7214fff0f83f337c2a1afe24783542d3"
+    }
+  ],
+  "designerInterpretation": "Serializacao interna pelo Office difere; nao se declara igualdade binaria do designer. Pares FRM/FRX externos originais verificados por hashes; nenhum controle foi editado intencionalmente. Carregamento MSForms real de Cad_NFE/ListBox no benchmark; demais layouts nao certificados nesta fase."
+}

@@ -1,0 +1,55 @@
+﻿[
+    {
+        "id":  "F10_COM_FRIO_DADOS",
+        "observed":  "Schema=4;Revision=7;Movements=7;Receipts=7",
+        "pid":  25576,
+        "expected":  "Schema4;Revision7;Movements7;Receipts7",
+        "mode":  "Operacao COM entre processos",
+        "status":  "PASS"
+    },
+    {
+        "id":  "F10_COM_FRIO_ACK_HASH",
+        "observed":  "Build=17167FE8-06DC-4D32-9113-A312200D397B;Hash=f98e65232ad0527fccaadee4f76ddaa9951b430acc863243ef97295c6f9efe71;Intent=1",
+        "pid":  25576,
+        "limitation":  "Nao executa VerifyFull10 nem valida formulas no Excel frio",
+        "expected":  "Hash persistido igual ao arquivo; INTENT separado",
+        "mode":  "Operacao COM entre processos; SHA256 .NET",
+        "status":  "PASS"
+    },
+    {
+        "id":  "F10_COM_FRIO_QUARENTENA",
+        "observed":  "RECONCILE",
+        "pid":  25576,
+        "fixture":  "audit_1.accdb",
+        "expected":  "RECONCILE",
+        "mode":  "Operacao COM entre processos",
+        "status":  "PASS"
+    },
+    {
+        "id":  "F10_COM_FRIO_INTENCAO",
+        "observed":  "1",
+        "pid":  25576,
+        "fixture":  "transacao_1.accdb",
+        "expected":  "1",
+        "mode":  "Operacao COM entre processos",
+        "status":  "PASS"
+    },
+    {
+        "id":  "F10_COM_FRIO_LEASE",
+        "observed":  "ACTIVE",
+        "pid":  25576,
+        "fixture":  "concorrencia_f10.accdb",
+        "expected":  "ACTIVE",
+        "mode":  "Operacao COM entre processos",
+        "status":  "PASS"
+    },
+    {
+        "id":  "F10_COM_FRIO_LINK_QUARENTENA",
+        "observed":  "RECONCILE",
+        "pid":  25576,
+        "fixture":  "intencao_1_f10.accdb",
+        "expected":  "RECONCILE",
+        "mode":  "Operacao COM entre processos",
+        "status":  "PASS"
+    }
+]

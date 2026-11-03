@@ -1,0 +1,42 @@
+[
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\fontes\\modCandidatoIntegrado.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\continuacao_reabertura_20261102T205915Z\\backup-work\\fontes\\modCandidatoIntegrado.bas",
+    "sha256": "2d75b66e8660ef155b43c407d486e8a18d3517ac052a16003ac1ea9c5b7f855b"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\fontes\\MDL\\modCandidatoIntegrado.bas",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\continuacao_reabertura_20261102T205915Z\\backup-work\\fontes\\MDL\\modCandidatoIntegrado.bas",
+    "sha256": "5d9e44a3ee604d85e755a167b0f87f4d337622ba49728c843bb4c4d002cb7b23"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\entrega\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\continuacao_reabertura_20261102T205915Z\\backup-work\\entrega\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "sha256": "9b24bec50e588551a744128912c062bdbb020905bccd41b40f62c0aee89dbad2"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\entrega\\manifesto_artefatos.json",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\continuacao_reabertura_20261102T205915Z\\backup-work\\entrega\\manifesto_artefatos.json",
+    "sha256": "1e72a411034a2691178a97020193395ce57ff45a39b432ebf3a61826ad5bfc53"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\evidencias\\execucao\\resultados_entrega1.tsv",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\continuacao_reabertura_20261102T205915Z\\backup-work\\evidencias\\execucao\\resultados_entrega1.tsv",
+    "sha256": "f8e95b4650f5ac2510a9cdcb1639bb4df463eee5af3148d5ae606a7acdbadf39"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\evidencias\\resultados_estruturados.json",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\continuacao_reabertura_20261102T205915Z\\backup-work\\evidencias\\resultados_estruturados.json",
+    "sha256": "87002346d2dc053400e5f2d7ce9f3ac4645cb0102b3d1ab7ac54a63823226849"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\manifesto-final.json",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\continuacao_reabertura_20261102T205915Z\\backup-work\\manifesto-final.json",
+    "sha256": "eeb2e5f8495858f7956df5121bfde9691a6f7cbec76d2efbaf3fca948e557726"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\manifesto-final.sha256",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\continuacao_reabertura_20261102T205915Z\\backup-work\\manifesto-final.sha256",
+    "sha256": "eda63bb160fa19f4b3eefd8d3222ae14773a403ca5b4f7560cd019484889d437"
+  }
+]

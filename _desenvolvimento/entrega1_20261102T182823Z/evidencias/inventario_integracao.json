@@ -1,0 +1,1229 @@
+{
+  "captured": "2026-11-02T20:12:50.523Z",
+  "mode": "INSPECAO_BINARIA_E_FONTES_NAO_SUBSTITUI_COMPILACAO",
+  "components": 69,
+  "designer": [
+    {
+      "form": "Cad_NCM",
+      "streams": 10,
+      "unchanged": false,
+      "details": [
+        {
+          "path": "/Cad_NCM/f",
+          "sha256": "27eb43bfa44afa2ee0b15bd558d06faaad2b736471f75790ba48d479f353f2d7",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NCM/o",
+          "sha256": "c36deabe59d500a7799f327d14a11f292fec6aeb38dc7d5d8889a911fa11c2ec",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NCM/i18/f",
+          "sha256": "d4a61ecf67013c1a8134ddf6c56391107d9974d079e6b7ebb5c12605b1ec3d7d",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NCM/i18/o",
+          "sha256": "ef71b25613df79ae97268dc34650d0c9b18f2ccbd173172575670a26bb9a6d75",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NCM/i18/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NCM/i254/f",
+          "sha256": "ffd346d6651489a9ab8dbbfef6d06472c5f8f88ccc558490c4e9396946ea4e2e",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NCM/i254/o",
+          "sha256": "0725dfd92c7684d3225258eeb0d7d860a6d51bf792137d56e24218a91af3c293",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NCM/i254/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NCM/\u0001CompObj",
+          "sha256": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NCM/\u0003VBFrame",
+          "sha256": "fdea07d72afd8f220531522f135799ba9d41cefecf75f30ca50e7fd0f7697764",
+          "sameF10": true
+        }
+      ]
+    },
+    {
+      "form": "Cad_NFE",
+      "streams": 53,
+      "unchanged": false,
+      "details": [
+        {
+          "path": "/Cad_NFE/f",
+          "sha256": "1f0250766099cee011358f1ec13a040ede7aa9968991a42e9c275dceed996a60",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/o",
+          "sha256": "812a303b5a4305771658c1fd3f76b058f39d7964ade59eb39d66a9be94d69718",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/f",
+          "sha256": "98c0b844ed4f8098854b5afac1a7cd912a9ed1e9dbfe9fb56774016ed5845433",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/o",
+          "sha256": "8d66737b152962dfc3338c3955ef0b53999e01955d719cf30a9f5042e7cfb4c7",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/x",
+          "sha256": "4bb3f21198637d3f094a8951404c0715daf8492729096ae7421e9872e36e66bd",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/f",
+          "sha256": "53b617d4a1c72cfcaa869946dc9adfad834adbb6269732e449f8e59d6e50403b",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/o",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i12/f",
+          "sha256": "cc48509f624f3cbfacd0ec233687596597efac496df0bb95db849e87a659ac45",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i12/o",
+          "sha256": "d8cf0970610ce46f0a07689621d6b4c1552dd6ec07b0831f636ce36fcc0932ed",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i12/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i46/f",
+          "sha256": "d1159c5aa21e33979e4a795f28f235440f8e612366bd79b9b5171fac36064035",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i46/o",
+          "sha256": "b593fc32a4650975aeea747f9ed0ba5725e967b169895a9b4dbe2c0993b994bf",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i46/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i50/f",
+          "sha256": "39a2db3546ef6c606211a94e9ec7eaf107300ea9886035b9806b66da6ad46a4a",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i50/o",
+          "sha256": "7c4c837910c45d36b9d89ddc83842b1ab83cc4e8eb42a510940c7a14db414953",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i50/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i391/f",
+          "sha256": "a1015db83063ee7a739a9b5daaca8902a8dc4fce1df04321c2a5ad6a44a99dce",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i391/o",
+          "sha256": "65d6a6c1066dd0ffa19b2f4993df794566de72a2000396425006a7e63ffb593d",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i391/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i460/f",
+          "sha256": "9e5470159f4e05aeab9bb6a073c4c1092b3e647ac7a10c527151d3b8ccb7e22c",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i460/o",
+          "sha256": "1a78e44b4ca25ce2e7a038b5e75bf123d8fedeb148eee7edfac2e531d8a4c5fb",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i460/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i483/f",
+          "sha256": "05ea1600ea0483771f0e10a24c680bc5a4f4f02a69f9d06cae87ca41e6567f86",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i483/o",
+          "sha256": "e5de2e28ec1b47e13ce049ec136d536203810e39cf8f3a5fe6c1dfb0ba3b3da5",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/i483/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i100/\u0001CompObj",
+          "sha256": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/f",
+          "sha256": "3fd5bba3a7ebe9bb24a2d89e9bb50fec821df4cbb31e786fd877ac814928373a",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/o",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i547/f",
+          "sha256": "e919bc10745472df0910ffe796291fd633e890166e131056aaf18197a18a215b",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i547/o",
+          "sha256": "f9e9bb9dce2e736e1d9741df5086ef2c61ae12bda9283138d0ab3f6e27f5c18d",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i547/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i567/f",
+          "sha256": "721d081e6b5328dff61ab8212d3c623c01f0b7f0e8f7f282cfa0672e999c164c",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i567/o",
+          "sha256": "b593fc32a4650975aeea747f9ed0ba5725e967b169895a9b4dbe2c0993b994bf",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i567/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i570/f",
+          "sha256": "e2a6493f74026a137b19bf327240bbf0734de2ab55834c2bf0af37edadc62df0",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i570/o",
+          "sha256": "d665fae63aa29ff3a1d34829fdd1480648ab097d1374bcc034d9f00c4ffbdc49",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i570/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i582/f",
+          "sha256": "508ebee65fe897f7e47a42b94bb754fea476a53da20115decbdfa1e4b0c00a68",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i582/o",
+          "sha256": "7b3c3c427afdb116c56ed5a32def380b6913921f31c1dc2b0953c31922bcce17",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i582/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i585/f",
+          "sha256": "8eb679c5bc6693a1e5d2ff4d158b5849592e5c7fb196dd04ff68ed4a609094d7",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i585/o",
+          "sha256": "0a94008e7f4cd358fcc0691218cfc45633d588ad824d461bf9c1ee0500f5bacd",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i585/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i612/f",
+          "sha256": "e7115db1e91c3a28865af34fb7c537711653146b729317b054ec378fbacf691e",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i612/o",
+          "sha256": "822f7eb676fa9f36a981753b1f262e8bc46c96f1b67910416e1fe8d1c2edf0e2",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/i612/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/i101/\u0001CompObj",
+          "sha256": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i98/\u0001CompObj",
+          "sha256": "81051ff4bf424aef18995fb1be348a111ae21371c8605eeb65d0e7603ab4af78",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/i103/f",
+          "sha256": "6e05573787fe7597a2dcd1233f87aa985f85a420f79526c0c344ad219071fac9",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i103/o",
+          "sha256": "64c810bb54dd429f3e86408dc02def2267798c03201c704a2438ca5f4b6a8f39",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE/i103/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/\u0001CompObj",
+          "sha256": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE/\u0003VBFrame",
+          "sha256": "460b04b204d1f06c3b10c8edfffb2fead356fd20800e0f1b957a3f4227e27a6a",
+          "sameF10": true
+        }
+      ]
+    },
+    {
+      "form": "Cad_NFE_Saida",
+      "streams": 53,
+      "unchanged": false,
+      "details": [
+        {
+          "path": "/Cad_NFE_Saida/f",
+          "sha256": "8875b7f3e47251d544e4db5ca6bb26cd9821baf21a34aad8e7e78fa07eeb1ca1",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/o",
+          "sha256": "97e57ef7ea5c8163b44751df66d44b9a1200cd1f15be6073a961adcc26d00728",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/f",
+          "sha256": "1d3760aa98294c1e0b45588436ee6b8a7e398e72283f6d9ffd77c9dcfe54c861",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/o",
+          "sha256": "2e49e0ac5b355898033d44419b6b9278a25b21e5e53ad048f09a05d6bf335c81",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/x",
+          "sha256": "4bb3f21198637d3f094a8951404c0715daf8492729096ae7421e9872e36e66bd",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/f",
+          "sha256": "2b0c39083afaf069724b045bb5e53278bb60133c0ee0a937995c16f33077dcef",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/o",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i12/f",
+          "sha256": "6750eb125005162d6658b82deb8e196f79d436a9a32331a7fad4cfb9b4f04757",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i12/o",
+          "sha256": "b9a85e7f82b3168c663af79d00f53e0ad1a411e75286ff161328f42b23c958ee",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i12/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i46/f",
+          "sha256": "5dfecc7da9dc3604f1ada36ba12700a9270d2475e484b6858fc01836a1d66232",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i46/o",
+          "sha256": "4482700445990cad61fe26cdaf03d9a30ec7a0be4e6ba3949c5f3d257b3b90d9",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i46/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i50/f",
+          "sha256": "cbc914f689df70ea8cff766021df38964a1e40ba649ecd9a529f48960bd1fecb",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i50/o",
+          "sha256": "7d344a3a47a60c4a43240d5f21f818b353d12d23dae1014b74786f57ba4afedf",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i50/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i391/f",
+          "sha256": "beeafa04c15e9c70c36fd95b8deee9c177f0a08869f3d5094ae733bfeca75227",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i391/o",
+          "sha256": "a5d9addfe1c1b2b234e5d1df8eaad7ba8f58711a2f88d377e4f307d49540a121",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i391/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i460/f",
+          "sha256": "70fa01a210237e543b60ba9c1d9382f0f74a59e08a6bd133e956827150e024a8",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i460/o",
+          "sha256": "e7933e3b2fadd66767581ee613dd97763a067c49f4370160b4b1155ad1c5e56b",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i460/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i483/f",
+          "sha256": "98af9c6c645b6637f97faf70a404c97e40984e6dfef87b8fe23abd0bbe4a5061",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i483/o",
+          "sha256": "cf9b5903b30e45d3b145e0e91db21a777d3b37903232b4d688e0812f0c5b4468",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/i483/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i100/\u0001CompObj",
+          "sha256": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/f",
+          "sha256": "92c04c6bb70a3607d765a85b49a3b05176b905138090781b543f9b80d622790f",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/o",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i242/f",
+          "sha256": "516a819e19032f5bfe0b02611cb610d0708f8cff67b4d257b910f6d99a8c3a0d",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i242/o",
+          "sha256": "c22003c5aaa319b0c437117c4ac1728c2abeeaa18641f1a0410d27f4b012805f",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i242/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i248/f",
+          "sha256": "e8c4972ac903fe84ef916e51463f65f6562fbb4f5906673f29e200a49d848f29",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i248/o",
+          "sha256": "5ca3ac1ad94e4e2936c94f693d3b9f136adc547d06c313ff6b3a224dc860d781",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i248/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i257/f",
+          "sha256": "183657a0dc5e61303f937a1427d775486b5696c758490520ecf66a50ab94e55f",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i257/o",
+          "sha256": "7c42dc5e8ea30b844bac4fa48f6e5c58d1b4954aaccdaa1eb389df40f412c504",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i257/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i268/f",
+          "sha256": "6df9429da1185ab6e37ee6f061896ec53a6baaea445043140f99929930361e5c",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i268/o",
+          "sha256": "2cf7801e6cef3402d6c83cc8ecc6976999efeefa0b28431dc6c5dee3267e95c4",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i268/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i275/f",
+          "sha256": "38ab1345ab3c97ee3bf60b96c494587e81651310907d46ff9e5aef1f59505670",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i275/o",
+          "sha256": "b593fc32a4650975aeea747f9ed0ba5725e967b169895a9b4dbe2c0993b994bf",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i275/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i498/f",
+          "sha256": "cf1a57361925c5eec23c766278b60541958b5324521dc4ed24049e4e4de27afd",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i498/o",
+          "sha256": "a27d4221894f4ccf56871ec42ed274968e90b33d463e03b34f00bd950c1b1e85",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/i498/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/i101/\u0001CompObj",
+          "sha256": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i98/\u0001CompObj",
+          "sha256": "81051ff4bf424aef18995fb1be348a111ae21371c8605eeb65d0e7603ab4af78",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/i103/f",
+          "sha256": "4b1d697383826198567b1259805e58954249d6013c95f1f0c7c1f9a8888a7623",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i103/o",
+          "sha256": "92248effdf09acafca8de05af71ecd0800f7e12e7bb8cda411fafaa9cba482e7",
+          "sameF10": false
+        },
+        {
+          "path": "/Cad_NFE_Saida/i103/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/\u0001CompObj",
+          "sha256": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+          "sameF10": true
+        },
+        {
+          "path": "/Cad_NFE_Saida/\u0003VBFrame",
+          "sha256": "0e234638137790ed6854729ffc59edbe92968b49ec1d999247651f8e9a8aa1c0",
+          "sameF10": true
+        }
+      ]
+    },
+    {
+      "form": "frmRelatorioXML",
+      "streams": 4,
+      "unchanged": false,
+      "details": [
+        {
+          "path": "/frmRelatorioXML/f",
+          "sha256": "b3ecbacd8292770c2dcce969665c46ae56c8d3b8e3532665e1963ed0ba4d0f37",
+          "sameF10": false
+        },
+        {
+          "path": "/frmRelatorioXML/o",
+          "sha256": "e359a3179859b844a9783c40262cbd3e778359def5ab6aed74f59e8bc07bed3c",
+          "sameF10": false
+        },
+        {
+          "path": "/frmRelatorioXML/\u0001CompObj",
+          "sha256": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+          "sameF10": true
+        },
+        {
+          "path": "/frmRelatorioXML/\u0003VBFrame",
+          "sha256": "581d536f3a6823c96349d296a707ba9ebabb3af840edc7a236e9158e73b8be1b",
+          "sameF10": true
+        }
+      ]
+    },
+    {
+      "form": "UserFormFiltro",
+      "streams": 7,
+      "unchanged": false,
+      "details": [
+        {
+          "path": "/UserFormFiltro/f",
+          "sha256": "a8596081e11a4c6e4c47c8bfb263cbbe57d7efa91ebf9f2ba16da2cf2378f994",
+          "sameF10": false
+        },
+        {
+          "path": "/UserFormFiltro/o",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sameF10": true
+        },
+        {
+          "path": "/UserFormFiltro/i02/f",
+          "sha256": "e0e9e63083a95bc6a281410adbca41befeeb8dd4cd6514fa5764da9c96cb2a90",
+          "sameF10": false
+        },
+        {
+          "path": "/UserFormFiltro/i02/o",
+          "sha256": "b47880733aadb1fc155527e0ffe536f7965e8430798625980b2990c63c91fb29",
+          "sameF10": false
+        },
+        {
+          "path": "/UserFormFiltro/i02/\u0001CompObj",
+          "sha256": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+          "sameF10": true
+        },
+        {
+          "path": "/UserFormFiltro/\u0001CompObj",
+          "sha256": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+          "sameF10": true
+        },
+        {
+          "path": "/UserFormFiltro/\u0003VBFrame",
+          "sha256": "197f78847b54876f81bf1ae3f5497bd80f5d89846f546ac900011a0a08073eab",
+          "sameF10": true
+        }
+      ]
+    }
+  ],
+  "originals": [
+    {
+      "relative": "Excel\\Estoque Fera Veículos 2026.xlsm",
+      "sha256": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "same": true
+    },
+    {
+      "relative": "Form\\Cad_NCM.frm",
+      "sha256": "c5aa276b7e1ad1da01a0d54a9faceb93c095d480806e83813db02b1a981c78a9",
+      "same": true
+    },
+    {
+      "relative": "Form\\Cad_NCM.frx",
+      "sha256": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "same": true
+    },
+    {
+      "relative": "Form\\Cad_NFE.frm",
+      "sha256": "7c36590ff7e7f513e8396564e80d991f1ceb33602c16a07deba13598270176ee",
+      "same": true
+    },
+    {
+      "relative": "Form\\Cad_NFE.frx",
+      "sha256": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "same": true
+    },
+    {
+      "relative": "Form\\Cad_NFE_Saida.frm",
+      "sha256": "b3262a8af0a8c97342daa50cb1bca03b3cb23b5cf387f9abd3973697fa14ad32",
+      "same": true
+    },
+    {
+      "relative": "Form\\Cad_NFE_Saida.frx",
+      "sha256": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "same": true
+    },
+    {
+      "relative": "Form\\frmRelatorioXML.frm",
+      "sha256": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "same": true
+    },
+    {
+      "relative": "Form\\frmRelatorioXML.frx",
+      "sha256": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "same": true
+    },
+    {
+      "relative": "Form\\UserFormFiltro.frm",
+      "sha256": "72104ed848f1c883a7ba8cfe1fbf0e3580877dca42a93750350db28fbce912c5",
+      "same": true
+    },
+    {
+      "relative": "Form\\UserFormFiltro.frx",
+      "sha256": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlChamarFiltro.bas",
+      "sha256": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlChamarForm.bas",
+      "sha256": "f1a50ae2170e8d91fe64d7eff748009a86afb13deb5f4f0afc12a4e4f905aa36",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlChamarFormDocFora.bas",
+      "sha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlChamarFormNCM.bas",
+      "sha256": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlChamarFormSaida.bas",
+      "sha256": "738e72244780dbf0342c18d9688f0bf929dc8d609e1b4788dabc2aaf7d2cd403",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlChamarFormVeículos.bas",
+      "sha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlChamarTabCan.bas",
+      "sha256": "c476162d14a48d47b27abf29fcb1a265be1146cabf770e1b7ba5baa6845215ed",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlChamarTabEnt.bas",
+      "sha256": "6aa6e174c4eaeedeebb8054ba5f989f27b679e4cd9d716554d7209cb05be27ed",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlChamarTabSai.bas",
+      "sha256": "8ecd5f302438f49849bf0ede7bc5be6fcc62792f8ca845a9d155b70daed19f3d",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlCondCel.bas",
+      "sha256": "eb898b196b26f6360615cf503030c2b20eb8d345e277550e07df46ede111f60c",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlCopiar.bas",
+      "sha256": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlCriaBackup.bas",
+      "sha256": "8477beee7a2be221e2daf6ba6b8a805412fecf638f67e38f5a7654aa052148ff",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlCursor.bas",
+      "sha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlMacroConexão.bas",
+      "sha256": "38ef9f12fac5df53037a3e0fef4d5039c0c87c939dbd20667e2cf6bc890cd405",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlMacroConexãoClientes.bas",
+      "sha256": "0933295f65ca204d94633c1b6bf640299e18f0d04b033f2044c0f013bf2643e7",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlMacroDocFora.bas",
+      "sha256": "2675a05d8126ec68039565153e67bd3e51afad76e885e540cd09df5fd4676f01",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlOcultarTítulo.bas",
+      "sha256": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "same": true
+    },
+    {
+      "relative": "MDL\\mdlTelaCheia.bas",
+      "sha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "same": true
+    },
+    {
+      "relative": "MDL\\modPreencherFormulario.bas",
+      "sha256": "716b2d1388e29aee6e2f71aea45e68ae65641b3b00c7f59463151a860a97179f",
+      "same": true
+    },
+    {
+      "relative": "MDL\\modSeleniumCommon.bas",
+      "sha256": "f38c55ae5cf11320a7864286b706094cfd7686f6d01669519aafe67d974091b2",
+      "same": true
+    },
+    {
+      "relative": "MDL\\modSeleniumConsultaNFE.bas",
+      "sha256": "a6b6045c0179684ee54fb30ff7c0340917e7ca0736e5f9249fb78808193cdbf2",
+      "same": true
+    },
+    {
+      "relative": "MDL\\modSeleniumRenavamConsulta.bas",
+      "sha256": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "same": true
+    },
+    {
+      "relative": "MDL\\modSelTest.bas",
+      "sha256": "1bd9a034503af0479bed5f7fd38fea83e5a2b693459c2e731de98ccf50e2b3a0",
+      "same": true
+    },
+    {
+      "relative": "MDL\\modValidacaoXML.bas",
+      "sha256": "8b79d34333a47ba1b5fe98f3641d79eb7075127b9967d7072e3041e94b4c3548",
+      "same": true
+    },
+    {
+      "relative": "MDL\\MóduloOfficeRibbonEditor.bas",
+      "sha256": "2d8aed2ec79ba3e825e782c2391d08f112d0d98b48475d0a7a02ab4ae97a2ed4",
+      "same": true
+    },
+    {
+      "relative": "MDL\\MóduloPesquisa.bas",
+      "sha256": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "same": true
+    },
+    {
+      "relative": "MDL\\MóduloRemoveFechar.bas",
+      "sha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "same": true
+    },
+    {
+      "relative": "README.md",
+      "sha256": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "same": true
+    }
+  ],
+  "changes": [
+    {
+      "name": "EstaPastaDeTrabalho",
+      "new": false,
+      "hash": "dd7c91609fc00199c34785a85ded9463006bb672432513ecc172e2684958d398",
+      "procedures": 1,
+      "substantive": true
+    },
+    {
+      "name": "mdlChamarFiltro",
+      "new": false,
+      "hash": "ebfb40a8da1b8d144edb29781f2b59e620a9cb00876032b5147a788aa57c8958",
+      "procedures": 1,
+      "substantive": false
+    },
+    {
+      "name": "mdlCriaBackup",
+      "new": false,
+      "hash": "28096fb13f08b75afb26ca1358813b12dec95493c7bfaad73feaae99a92fcc61",
+      "procedures": 4,
+      "substantive": false
+    },
+    {
+      "name": "modSeleniumRenavamConsulta",
+      "new": false,
+      "hash": "92169f5c4d071fbc0d117f687caa4cf6bd8dcba832ada198c13c4dee9da40343",
+      "procedures": 23,
+      "substantive": false
+    },
+    {
+      "name": "MóduloOfficeRibbonEditor",
+      "new": false,
+      "hash": "152c4b5d7d0cbc96af53a04c6f3d2d5d99374bd89d2375726e317ac19129c806",
+      "procedures": 3,
+      "substantive": false
+    },
+    {
+      "name": "MóduloPesquisa",
+      "new": false,
+      "hash": "59e18d31989a9a6f92a6229e21514e9703b0e9c8669fc9d420ae18aa5adbc35d",
+      "procedures": 6,
+      "substantive": true
+    },
+    {
+      "name": "modValidacaoXML",
+      "new": false,
+      "hash": "2d1a0c76acf76ee2470f67d03755dd9ba4a53ab90b51636943da7fa0c9b4e738",
+      "procedures": 47,
+      "substantive": true
+    },
+    {
+      "name": "mdlChamarForm",
+      "new": false,
+      "hash": "888b82877a4e95317ccabb52553d1df052b6f7677cf4c25b680439eccd4884f1",
+      "procedures": 1,
+      "substantive": false
+    },
+    {
+      "name": "mdlChamarFormNCM",
+      "new": false,
+      "hash": "beec72a9412eac03765526c76056e7e9097133ff0c85d433a1d9c36974064dc9",
+      "procedures": 1,
+      "substantive": false
+    },
+    {
+      "name": "mdlChamarFormSaida",
+      "new": false,
+      "hash": "7938d0c4831374750e4b173b61f9c1de309a08af69decdb9688cec6c1ee1d3c7",
+      "procedures": 1,
+      "substantive": false
+    },
+    {
+      "name": "modPreencherFormulario",
+      "new": false,
+      "hash": "e1de7c7c399e6c4b6a80fc04468d151b3b47267ef350805d74876d7907b280f8",
+      "procedures": 2,
+      "substantive": true
+    },
+    {
+      "name": "Cad_NCM",
+      "new": false,
+      "hash": "d7de5e66f3b48aba5502989a78142504cd97b952c919703848072feefb66620d",
+      "procedures": 25,
+      "substantive": false
+    },
+    {
+      "name": "Cad_NFE",
+      "new": false,
+      "hash": "93a9d9390912474d9f565387062b3b0f5117fbca2f283d189b46309effde8ab4",
+      "procedures": 185,
+      "substantive": true
+    },
+    {
+      "name": "Cad_NFE_Saida",
+      "new": false,
+      "hash": "6b2df5d0a916890f706170e7a3b4c964d19acd1309e3a3c9d280d1975808cd4c",
+      "procedures": 197,
+      "substantive": true
+    },
+    {
+      "name": "frmRelatorioXML",
+      "new": false,
+      "hash": "fc56b1765380f11c084831bb9879be92ada3acc92eccb35162149e85c51f5f4b",
+      "procedures": 8,
+      "substantive": false
+    },
+    {
+      "name": "UserFormFiltro",
+      "new": false,
+      "hash": "b88cafab4b0f1f11885f910099e41670a26d170e2cbec956310cfe4e0343375e",
+      "procedures": 21,
+      "substantive": true
+    },
+    {
+      "name": "modTestesFase2",
+      "new": false,
+      "hash": "1b81bd27828d0a529d4c083ef8c3e322bf11e433bee47897482b18298650eb41",
+      "procedures": 7,
+      "substantive": false
+    },
+    {
+      "name": "modTestesIntegradosFase5",
+      "new": false,
+      "hash": "93eb8ed8dcf6f62fcbf8e4d614fe9b6016e4e8d2618cdb87001ab56818e14fd7",
+      "procedures": 10,
+      "substantive": false
+    },
+    {
+      "name": "modPrototiposFase6",
+      "new": false,
+      "hash": "dd9e8c7ad902e963bf11dc9e61c1bf74fb80af843b191fa7547bcf8ce3a5f706",
+      "procedures": 36,
+      "substantive": false
+    },
+    {
+      "name": "modExperimentosFase8",
+      "new": false,
+      "hash": "9319b4949d67dc40074d7c4b9f3caaacf603248f283821cca48e05075ccfc934",
+      "procedures": 38,
+      "substantive": false
+    },
+    {
+      "name": "modPersistenciaFase10",
+      "new": false,
+      "hash": "b8e9a1c82dd76e522ae0c2a448685b2cda2110fa1e78f68d2eb53633825918e4",
+      "procedures": 59,
+      "substantive": true
+    },
+    {
+      "name": "modCenariosFase10",
+      "new": false,
+      "hash": "fc68b471c5e5551814ab3ec83c423fb42805db65773d97a1181543b51db1021c",
+      "procedures": 23,
+      "substantive": true
+    },
+    {
+      "name": "modCandidatoIntegrado",
+      "new": true,
+      "hash": "ecaf28a5a6247b31e0b35037605031cd547a32b51460f38fb074b057661f21bb",
+      "procedures": 51,
+      "substantive": true
+    },
+    {
+      "name": "clsTesteCandidato",
+      "new": true,
+      "hash": "426be9ed0e940e0ad4aaea92110923a17601b2fbc4b94643a0267a72c4816540",
+      "procedures": 2,
+      "substantive": true
+    },
+    {
+      "name": "modTestesEntrega1",
+      "new": true,
+      "hash": "e69a7818f168598435126c57f74dcb490fa14f92e5dc7988a76a3ab6b000e196",
+      "procedures": 19,
+      "substantive": true
+    }
+  ],
+  "sheets": [
+    {
+      "part": "xl/worksheets/sheet1.xml",
+      "codeName": "Planilha12"
+    },
+    {
+      "part": "xl/worksheets/sheet2.xml",
+      "codeName": "Planilha1"
+    },
+    {
+      "part": "xl/worksheets/sheet3.xml",
+      "codeName": "Planilha13"
+    },
+    {
+      "part": "xl/worksheets/sheet4.xml",
+      "codeName": "Planilha3"
+    },
+    {
+      "part": "xl/worksheets/sheet5.xml",
+      "codeName": "Planilha4"
+    },
+    {
+      "part": "xl/worksheets/sheet6.xml",
+      "codeName": "Planilha2"
+    },
+    {
+      "part": "xl/worksheets/sheet7.xml",
+      "codeName": "Planilha17"
+    },
+    {
+      "part": "xl/worksheets/sheet8.xml",
+      "codeName": "Planilha15"
+    },
+    {
+      "part": "xl/worksheets/sheet9.xml",
+      "codeName": "Planilha10"
+    },
+    {
+      "part": "xl/worksheets/sheet10.xml",
+      "codeName": "Planilha16"
+    },
+    {
+      "part": "xl/worksheets/sheet11.xml",
+      "codeName": "Planilha18"
+    },
+    {
+      "part": "xl/worksheets/sheet12.xml",
+      "codeName": "Planilha7"
+    },
+    {
+      "part": "xl/worksheets/sheet13.xml",
+      "codeName": "Planilha6"
+    },
+    {
+      "part": "xl/worksheets/sheet14.xml",
+      "codeName": "Planilha9"
+    },
+    {
+      "part": "xl/worksheets/sheet15.xml",
+      "codeName": "Planilha11"
+    },
+    {
+      "part": "xl/worksheets/sheet16.xml",
+      "codeName": "Planilha5"
+    },
+    {
+      "part": "xl/worksheets/sheet17.xml",
+      "codeName": "Planilha8"
+    }
+  ],
+  "events": [
+    {
+      "form": "Cad_NFE",
+      "countOld": 185,
+      "countNew": 185,
+      "sameSignatures": true
+    },
+    {
+      "form": "Cad_NFE_Saida",
+      "countOld": 197,
+      "countNew": 197,
+      "sameSignatures": true
+    },
+    {
+      "form": "Cad_NCM",
+      "countOld": 25,
+      "countNew": 25,
+      "sameSignatures": true
+    },
+    {
+      "form": "frmRelatorioXML",
+      "countOld": 8,
+      "countNew": 8,
+      "sameSignatures": true
+    },
+    {
+      "form": "UserFormFiltro",
+      "countOld": 21,
+      "countNew": 21,
+      "sameSignatures": true
+    }
+  ],
+  "xmlProceduresChanged": [
+    "SelecionarArquivoXML"
+  ],
+  "deleteMap": [
+    {
+      "form": "Cad_NFE",
+      "procedure": "CommandButton_Excluir_Click",
+      "legacyDeletes": [
+        {
+          "line": 140,
+          "text": "         Selection.Delete Shift:=xlUp"
+        }
+      ],
+      "candidate": "Private Sub CommandButton_Excluir_Click()\n    C1_Bloqueado \"Exclusao de entrada: requer retificacao identificada\"\nEnd Sub"
+    },
+    {
+      "form": "Cad_NFE",
+      "procedure": "CommandButton_ExcluirFilial_Click",
+      "legacyDeletes": [
+        {
+          "line": 211,
+          "text": "                c.Resize(1, 13).Delete Shift:=xlUp"
+        },
+        {
+          "line": 217,
+          "text": "                        cAnual.Resize(1, 16).Delete Shift:=xlUp"
+        }
+      ],
+      "candidate": "Private Sub CommandButton_ExcluirFilial_Click()\n    C1_Bloqueado \"Exclusao filial: requer retificacao identificada\"\nEnd Sub"
+    },
+    {
+      "form": "Cad_NFE_Saida",
+      "procedure": "CommandButton_ExcluirFilial_Click",
+      "legacyDeletes": [
+        {
+          "line": 60,
+          "text": "         Selection.EntireRow.Delete"
+        }
+      ],
+      "candidate": "Private Sub CommandButton_ExcluirFilial_Click()\n    C1_Bloqueado \"Exclusao de saida filial confirmada requer conciliacao\"\nEnd Sub"
+    },
+    {
+      "form": "Cad_NFE_Saida",
+      "procedure": "CommandButton_GravarFilial_Click",
+      "legacyDeletes": [
+        {
+          "line": 264,
+          "text": "        c.Resize(1, 13).Delete Shift:=xlUp"
+        }
+      ],
+      "candidate": "Private Sub CommandButton_GravarFilial_Click()\n    C1_GravarSaida Me, True\nEnd Sub"
+    },
+    {
+      "form": "Cad_NFE_Saida",
+      "procedure": "CommandButton_Excluir_Click",
+      "legacyDeletes": [
+        {
+          "line": 494,
+          "text": "         Selection.EntireRow.Delete"
+        }
+      ],
+      "candidate": "Private Sub CommandButton_Excluir_Click()\n    C1_Bloqueado \"Exclusao de saida confirmada requer conciliacao\"\nEnd Sub"
+    },
+    {
+      "form": "Cad_NFE_Saida",
+      "procedure": "CommandButton_Gravar_Click",
+      "legacyDeletes": [
+        {
+          "line": 890,
+          "text": "        c.Resize(1, 14).Delete Shift:=xlUp"
+        }
+      ],
+      "candidate": "Private Sub CommandButton_Gravar_Click()\n    C1_GravarSaida Me, False\nEnd Sub"
+    }
+  ],
+  "xmlLiteralsPreserved": true
+}

@@ -1,0 +1,10 @@
+﻿{
+    "test":  "F10_DISPUTA_snapshot",
+    "pid":  48224,
+    "opened":  true,
+    "attempted":  true,
+    "affected":  -1,
+    "error":  "Não foi possível atualizar; atualmente bloqueado.",
+    "seconds":  2.1467528,
+    "status":  "PASS"
+}

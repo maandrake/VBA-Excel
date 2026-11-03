@@ -1,0 +1,5 @@
+Origem: transcricao da janela imediata do VBA, 2026-11-02.
+Call CandidatoReconstruir
+? C1_Diagnostico()
+AUDIT=OK;PROJECTION=VERIFIED;REV=5;MOV=5;RECEIPTS=5;ACTIVE=1;PENDING=0
+O FAIL R1 permanece em falha_migracao_R1.txt.

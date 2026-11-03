@@ -1,0 +1,14 @@
+{
+  "mode": "Execução funcional VBA do callback ChamarSalvar via Application.Run; ligação XML do Ribbon não testada",
+  "before": {
+    "fixture": "8565f4bdc1bc408b49b4dff91b5a33d770d73e4bfe8866a259a42d2a57c6fd62",
+    "other": "00c0ae3fbbca2e672eadfee026a45e9ea79cdcf330f1f9d4476cba7920291247"
+  },
+  "after": {
+    "fixture": "a9b3b0b7c5b9f037d7ffa42609af050348d255786314dc32fefa12a2245e5b29",
+    "other": "00c0ae3fbbca2e672eadfee026a45e9ea79cdcf330f1f9d4476cba7920291247"
+  },
+  "fixtureSaved": true,
+  "otherNotSaved": true,
+  "sentinelSaved": true
+}

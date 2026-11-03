@@ -1,0 +1,619 @@
+{
+  "delivery": {
+    "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\Fixture_Integridade_Fase8_Mestre.xlsm",
+    "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\entrega\\Fixture_Integridade_Fase8_EXPERIMENTAL_NAO_HOMOLOGADA.xlsm",
+    "sha256": "e0908a24ed87adeee472f3a50ec93397b542804321cb690d37ef922d92be3867",
+    "bytes": 2237957
+  },
+  "modules": [
+    {
+      "name": "EstaPastaDeTrabalho",
+      "sha256Text": "abee5b2efbedd7c1577de97769d590ca0a1ca75fe486da185acfd2dc151381b0"
+    },
+    {
+      "name": "Planilha12",
+      "sha256Text": "56e6d5b771e910fd03c2768cae879539d8781cedb8b2b6d3d5d4c3e9db8ba7d8"
+    },
+    {
+      "name": "Planilha1",
+      "sha256Text": "68d11dc3a3a0ae5e1c82f733b83c5400981ab807cace78596bae7fcc0082e42c"
+    },
+    {
+      "name": "Planilha13",
+      "sha256Text": "a2c715fba024d244247ee640d8429c51e15db72f2a190eba1250c4524e6009ed"
+    },
+    {
+      "name": "Planilha3",
+      "sha256Text": "ece5fe4f860168fe26cab235b8e67ba0d009898867e791ffa7e201d746abf405"
+    },
+    {
+      "name": "Planilha4",
+      "sha256Text": "b29c63bd9ae5b6b6eb29920c5b01ef64ed41198f9b3daf3f1fd004a637e7b098"
+    },
+    {
+      "name": "Planilha2",
+      "sha256Text": "85d6c1b4a2396eb27a9f34e394733013ab79c04e72bc04ef2caa5bf5635ba70e"
+    },
+    {
+      "name": "Planilha17",
+      "sha256Text": "bdb292d0640c367e9ce4de4c55ec00384ba7524f198daf46f3d4389d8d846fa3"
+    },
+    {
+      "name": "Planilha15",
+      "sha256Text": "b72b5012d6b83aa93fad4fe4f481d47f68a8d59af33b957c6cb851b374a41f0b"
+    },
+    {
+      "name": "Planilha10",
+      "sha256Text": "fee0778ae47eccc07450f16aa8a1939546fa3cfbabc321a4e471389854b26507"
+    },
+    {
+      "name": "Planilha16",
+      "sha256Text": "582270e08b4101e72751cd854b15fd1fd23bbbc0247f1c1a5ba38aa178e568e6"
+    },
+    {
+      "name": "Planilha18",
+      "sha256Text": "e1148f4b17cd0c90a9911c31f3b4976a53d04387ccd4414979e821bd1e8d7d9e"
+    },
+    {
+      "name": "Planilha7",
+      "sha256Text": "d299515e81638f7edc9e789251bf117ed262879eab7afb9a31e618765d0362f5"
+    },
+    {
+      "name": "Planilha6",
+      "sha256Text": "2ae2ce91b562b745173393395abf6bc77aca10d8ac574cafb1c9b469b4662461"
+    },
+    {
+      "name": "Planilha9",
+      "sha256Text": "5ba1086b6cde38fead1cc40cdbb0acd27235abc7f0406b631629de8692920833"
+    },
+    {
+      "name": "Planilha11",
+      "sha256Text": "c2cfbda4a3141096ebc73d066977d4bfedeeb8e590358c4b4cd06781cbdcb285"
+    },
+    {
+      "name": "Planilha5",
+      "sha256Text": "54070719a0832718879428270900bb9fe0458d1a5a9cb456ed64d39ffaabba1b"
+    },
+    {
+      "name": "Planilha8",
+      "sha256Text": "d733ac71b42220f6ea90d56de39eeef8f7a4137acaade4cb53f2a007881b1dcf"
+    },
+    {
+      "name": "clsOperacaoPlanilha",
+      "sha256Text": "a6474790291c2f5af22250188c35dbaeffb674e2441312a349f1e38876b0835d"
+    },
+    {
+      "name": "modIntegridadeOperacao",
+      "sha256Text": "044f01915653f25653153e5ae7e220dce7c10b150b8bd4209b0bcd3845f87662"
+    },
+    {
+      "name": "mdlChamarFiltro",
+      "sha256Text": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4"
+    },
+    {
+      "name": "mdlChamarTabCan",
+      "sha256Text": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634"
+    },
+    {
+      "name": "mdlChamarTabEnt",
+      "sha256Text": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c"
+    },
+    {
+      "name": "mdlChamarTabSai",
+      "sha256Text": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b"
+    },
+    {
+      "name": "mdlCondCel",
+      "sha256Text": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88"
+    },
+    {
+      "name": "mdlCopiar",
+      "sha256Text": "89e7fc45da38c10d8755a851540106ec5f77d244581449c8c1470d7c7c34ed7c"
+    },
+    {
+      "name": "mdlCriaBackup",
+      "sha256Text": "748bca95c16f0d9113ee1af4412c54ba69dce497c6fd0b2f46406e6223295b95"
+    },
+    {
+      "name": "mdlCursor",
+      "sha256Text": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348"
+    },
+    {
+      "name": "mdlMacroConexão",
+      "sha256Text": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f"
+    },
+    {
+      "name": "mdlMacroConexãoClientes",
+      "sha256Text": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941"
+    },
+    {
+      "name": "mdlMacroDocFora",
+      "sha256Text": "85caa0cac4b69c53f13c58e9ac4ca4e6a474d23271bcaff1f969f8fb91e340ee"
+    },
+    {
+      "name": "mdlOcultarTítulo",
+      "sha256Text": "62fbaac7301177886ee0a9ab91024b1f8c0bee597ebf891def1bb91f697eedef"
+    },
+    {
+      "name": "mdlTelaCheia",
+      "sha256Text": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc"
+    },
+    {
+      "name": "modSeleniumCommon",
+      "sha256Text": "9f01ee36d0528635116ff21a29393234e20ea688ee6f70e1d5a8943c424f004c"
+    },
+    {
+      "name": "modSeleniumConsultaNFE",
+      "sha256Text": "1daef240b43b83208e5df337edf682f5526884bbb0907c5ceda76d69c7212fe1"
+    },
+    {
+      "name": "modSeleniumRenavamConsulta",
+      "sha256Text": "5a91f66a15f77a20604eef2dae3a1d7849511081eae1f33a471dc574e0663ced"
+    },
+    {
+      "name": "modSelTest",
+      "sha256Text": "4408e7d0e00d7554f665f932314cc5189c39504538aa03caefb971f9c23379f7"
+    },
+    {
+      "name": "MóduloOfficeRibbonEditor",
+      "sha256Text": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2"
+    },
+    {
+      "name": "MóduloPesquisa",
+      "sha256Text": "a63309402988f6c84f94c8b794bd2793dec528b3f671533c26798f386ca7b005"
+    },
+    {
+      "name": "MóduloRemoveFechar",
+      "sha256Text": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd"
+    },
+    {
+      "name": "modValidacaoXML",
+      "sha256Text": "17fa6b7cfbace83680fc4b1711fc404be83912744cefbe2a59c056430507b0b9"
+    },
+    {
+      "name": "mdlChamarForm",
+      "sha256Text": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1"
+    },
+    {
+      "name": "mdlChamarFormDocFora",
+      "sha256Text": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0"
+    },
+    {
+      "name": "mdlChamarFormNCM",
+      "sha256Text": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a"
+    },
+    {
+      "name": "mdlChamarFormSaida",
+      "sha256Text": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea"
+    },
+    {
+      "name": "mdlChamarFormVeículos",
+      "sha256Text": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a"
+    },
+    {
+      "name": "modPreencherFormulario",
+      "sha256Text": "fa9862f1ff070a0c779947fbc0eba128dae6c12cb81dc7c4b2d358415ad7c756"
+    },
+    {
+      "name": "Cad_NCM",
+      "sha256Text": "0e15f9f2bdfb08e0bc52dc28a1d037c8e8f3ad72ac1442c543ab358d7e24ec14"
+    },
+    {
+      "name": "Cad_NFE",
+      "sha256Text": "f203551a411ec0b2b68c27ec221ec0c9b751a9c1c29fa935f047a8e42008543e"
+    },
+    {
+      "name": "Cad_NFE_Saida",
+      "sha256Text": "ba381ea72f6067623f19dc82c64d23dceb53996c555c0a5e68bac69261d5dfdd"
+    },
+    {
+      "name": "frmRelatorioXML",
+      "sha256Text": "fdf0818b0624baae76ae88c9e7683dd6df7b77ccceeb3d5026235e2661e24405"
+    },
+    {
+      "name": "UserFormFiltro",
+      "sha256Text": "5c0eece721b0351a7dbcb5a8369c27fe259e96dfc175a746593b78cf459cd8fd"
+    },
+    {
+      "name": "AuditoriaListaFake",
+      "sha256Text": "b37e3f8b242a3bd5dec969680666830ebe2d3d003ef8a030c158aa915951cea7"
+    },
+    {
+      "name": "modTestesAuditoria",
+      "sha256Text": "a064169e2a69730201ca8610025bdfbe0296d431d4316a96d1284f1aa95fe4f4"
+    },
+    {
+      "name": "modTestesFase2",
+      "sha256Text": "62e6548692783a6a232c6cc9b9a07f090b0438d97a3cf86e772f4288ee8c0446"
+    },
+    {
+      "name": "modTestesIntegradosFase5",
+      "sha256Text": "d9410c822d7f7ca38ba2a440267fddaa4bcf53fb3a365b9cf357fd671ca3bbeb"
+    },
+    {
+      "name": "modPrototiposFase6",
+      "sha256Text": "a02464cdc38b15aa6bd6e4efce999de7e7ce5f666981ab6461cf4c08fc49d18e"
+    },
+    {
+      "name": "modPrototiposFase7",
+      "sha256Text": "63cb1f73384687cdedc871505f51011a6782fed741f658b14d51f0c5eee0737c"
+    },
+    {
+      "name": "clsRepositorioFase8",
+      "sha256Text": "82cbca57e7ae22a402d9880e8aae2f0e8282cdd9b43c9afa4f385d9232b32782"
+    },
+    {
+      "name": "modExperimentosFase8",
+      "sha256Text": "4da4ba83bbdf53bab93852433e9d9019141bd5ea7b12c2cd4d915beac130e88a"
+    }
+  ],
+  "inheritedSemanticDifferences": [],
+  "archive": [
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\baseline\\formula.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\baseline\\formula.xlsm",
+      "sha256": "8d843f24b6ec4425e7b863589b6fbbfecbbb8dfab3d37a624f97e00f4d38ec91",
+      "bytes": 2077125
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\baseline\\leitor.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\baseline\\leitor.xlsm",
+      "sha256": "bb1c02f0d6297894eab59127071db668c473709148653643c38a15c66dd1770c",
+      "bytes": 2084194
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\benchmark_100.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\benchmark_100.tsv",
+      "sha256": "7029882a511e5e3cdef203cf2328eaee221a69b05b31acbc0dd26f052c67ed4d",
+      "bytes": 1042
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\benchmark_1000.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\benchmark_1000.tsv",
+      "sha256": "0f102626d93987c1dffcc63da21971e8681d67e67c41934c149eb55c77eb4a23",
+      "bytes": 1034
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\benchmark_10000.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\benchmark_10000.tsv",
+      "sha256": "e6cb37f49bbb6f1c3155a5f8bfcdbc5330546741cd6195cf8dda64066e29b5f0",
+      "bytes": 1026
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\benchmark_5000.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\benchmark_5000.tsv",
+      "sha256": "9fea041f35c71feffc7362c9c58c7d5cc3c267f1a32f265f1da6940b6a6b27a5",
+      "bytes": 1032
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\benchmark_frio.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\benchmark_frio.tsv",
+      "sha256": "6ecd8236f050e41f7a0b4cede4b73f15b05dd39933154888e1bcf7717396e4ed",
+      "bytes": 1030
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\clsRepositorioFase8.cls",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\clsRepositorioFase8.cls",
+      "sha256": "2f0228a6e48f5ada9cec53523579025372123cdc5772bc8b0f5be8a879c2e5dc",
+      "bytes": 10943
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\datas_sessao1.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\datas_sessao1.tsv",
+      "sha256": "2bb590c457622749e49ea58c16e8b9c1b0b932469ce77796e2e6bded5010e91a",
+      "bytes": 1562
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\datas_sessao_fria.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\datas_sessao_fria.tsv",
+      "sha256": "acc1576bef57593e3830f7db55f3d41701852720a383a3a43dce7a37a0ec5ba1",
+      "bytes": 4228
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\falhas_primeira_execucao\\benchmark_falha_100.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\falhas_primeira_execucao\\benchmark_falha_100.tsv",
+      "sha256": "37b5e0ed244691ca139a96f76a66e59fb1f7f3add4fa2793865137a4eab2287f",
+      "bytes": 208
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\falhas_primeira_execucao\\bench_erro_100.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\falhas_primeira_execucao\\bench_erro_100.xlsm",
+      "sha256": "f029086171bada6d1792151ba8839b8539713882c589f0ace0f546288cdf69bd",
+      "bytes": 2256528
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\falhas_primeira_execucao\\Fixture_F8_Bench_100.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\falhas_primeira_execucao\\Fixture_F8_Bench_100.xlsm",
+      "sha256": "f8f816b5f269a51e8b081bb28bade87cf642c258b16b23ff30589b0c0c6555ce",
+      "bytes": 2236908
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\falhas_segunda_execucao\\benchmark_falha_100.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\falhas_segunda_execucao\\benchmark_falha_100.tsv",
+      "sha256": "f8fe66d47f3dcb3586a61e40883fff647ffc9aed1106a866a9551bc000821582",
+      "bytes": 218
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\falhas_segunda_execucao\\bench_erro_100.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\falhas_segunda_execucao\\bench_erro_100.xlsm",
+      "sha256": "eb07cf89e4f4662e4af60bb3b901fd47d6ec9fbd292158e167bf13a2908cc3e9",
+      "bytes": 2255224
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\falhas_segunda_execucao\\Fixture_F8_Bench_100.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\falhas_segunda_execucao\\Fixture_F8_Bench_100.xlsm",
+      "sha256": "154824e3c07fb48c91325c4c59dea043ae0eecff648436186e6e12900fbf8e6c",
+      "bytes": 2237770
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\Fixture_F8_Bench_100.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\Fixture_F8_Bench_100.xlsm",
+      "sha256": "46bfb62ea3ce4189e33759207a28bf44406854fab4712ac10709ef7f4af4b4c9",
+      "bytes": 2277173
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\Fixture_F8_Bench_1000.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\Fixture_F8_Bench_1000.xlsm",
+      "sha256": "2d941e76d9b9b5d06df27e0b8fc871c7b8867dc721d0cc6ec045abe1daeed39b",
+      "bytes": 2502809
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\Fixture_F8_Bench_10000.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\Fixture_F8_Bench_10000.xlsm",
+      "sha256": "e6de2af870774168cd5479952bddb79345431b4acf7177b067277ae219158e20",
+      "bytes": 4732284
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\Fixture_F8_Bench_5000.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\Fixture_F8_Bench_5000.xlsm",
+      "sha256": "d423844dd65071eefe81e0103b45f9b59fef1778f60bed45feb6afefe59d8c6f",
+      "bytes": 3494989
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\Fixture_F8_Datas.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\Fixture_F8_Datas.xlsm",
+      "sha256": "1c89a606c74b65564632e3ca1129b49a1a6bcfca5919c89ba3a922424f1aa90e",
+      "bytes": 2240037
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\Fixture_F8_Integrada.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\Fixture_F8_Integrada.xlsm",
+      "sha256": "5fed749ee3e53022e4709c8bd55aa55f102e5915d93ec5d43c2170fdbe8e6a4e",
+      "bytes": 2236357
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\Fixture_F8_Integrada_R2.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\Fixture_F8_Integrada_R2.xlsm",
+      "sha256": "2aa0820fb9594d2720635b93c88088d25b78a45be66b67d325ae73170051080d",
+      "bytes": 2251845
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\Fixture_F8_SaveRecusado.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\Fixture_F8_SaveRecusado.xlsm",
+      "sha256": "507fe0cc77d36074d0bdd037c6d3eff115463c6f313e8d61a0e7057fd61b667f",
+      "bytes": 2247791
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\Fixture_Integridade_Fase8_Mestre.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\Fixture_Integridade_Fase8_Mestre.xlsm",
+      "sha256": "e0908a24ed87adeee472f3a50ec93397b542804321cb690d37ef922d92be3867",
+      "bytes": 2237957
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\integrado_antes.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\integrado_antes.tsv",
+      "sha256": "be9b1a28886566bc1524279c7bb7d8417d66bfab83374315fb7545fa37c631f1",
+      "bytes": 491832
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\integrado_antes_r2.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\integrado_antes_r2.tsv",
+      "sha256": "be9b1a28886566bc1524279c7bb7d8417d66bfab83374315fb7545fa37c631f1",
+      "bytes": 491832
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\integrado_depois_r2.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\integrado_depois_r2.tsv",
+      "sha256": "b84afa6a526aab527651e07788707f58911896f55ddd31bc1241b0ff4b0d3447",
+      "bytes": 511228
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\integrado_f8.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\integrado_f8.tsv",
+      "sha256": "28a09c637e1ad542259b7ca12a07ad346afe23f800d94c23e87f117ff883675f",
+      "bytes": 794
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\integrado_f8_r2.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\integrado_f8_r2.tsv",
+      "sha256": "ae8b7b257fb2fe86787b5a5946ab5a93297df47efff5e966d9c51862227cd8fe",
+      "bytes": 3748
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\integrado_falha_memoria.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\integrado_falha_memoria.xlsm",
+      "sha256": "8da5ac3ae99a64afd0de98adb833e306bc98f0e9e7fdd797eed324693ccf106a",
+      "bytes": 2247262
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\integrado_frio.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\integrado_frio.tsv",
+      "sha256": "1a724d596115311d77fbfc1da3720745c5216b4ccf674a216d9624920efef463",
+      "bytes": 478
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\modExperimentosFase8.bas",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\modExperimentosFase8.bas",
+      "sha256": "8f7090eaa742f3b1c192b968d71db583cb01ab760e4bdbfb250b1f698b2415e2",
+      "bytes": 47433
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\Fixture_Arquitetura_Fase7_Mestre.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\Fixture_Arquitetura_Fase7_Mestre.xlsm",
+      "sha256": "c7858e3682403f719784db4f817dcd7810ee1ff617fb6c3a7d647d8050d16b1a",
+      "bytes": 2127836
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_AUSENTE\\Fixture_Fria.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_AUSENTE\\Fixture_Fria.xlsm",
+      "sha256": "ebda48171c5694aa4c350b9ec20ff786e0ff985e304557bbd76e239f565f2e03",
+      "bytes": 2077179
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_BAIXA\\diario-f7.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_BAIXA\\diario-f7.tsv",
+      "sha256": "8593b2c5eae2262c5ebbed73b57ae08ab3728da6ed8fbd3f82123ca3c9e5333a",
+      "bytes": 264
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_BAIXA\\Fixture_Fria.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_BAIXA\\Fixture_Fria.xlsm",
+      "sha256": "bb14ec93dbc1f82a4b299e1e74564be2295c9cc4a344f8890c2fdc159756851f",
+      "bytes": 1911513
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_COMPENSACAO\\diario-f7.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_COMPENSACAO\\diario-f7.tsv",
+      "sha256": "05af81c72e8eb51dec60c0476c04eb9492712a301f2cfcde06a471912cd59edd",
+      "bytes": 264
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_COMPENSACAO\\Fixture_Fria.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_COMPENSACAO\\Fixture_Fria.xlsm",
+      "sha256": "ca4af70961b964e72a7d942c4f89a9c5407b942d06b20fdbf7ba8e7bde103b79",
+      "bytes": 1910078
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_DIVERGENTE\\diario-f7.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_DIVERGENTE\\diario-f7.tsv",
+      "sha256": "c3eb62e7e45045e4fd56349fe4caf59786b4e2fd3f1b73b0b3d66e220ceacbfa",
+      "bytes": 228
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_DIVERGENTE\\Fixture_Fria.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_DIVERGENTE\\Fixture_Fria.xlsm",
+      "sha256": "0a091ac09e814239765a9f260bfbae6732551565522c251abab1507327e3c3a9",
+      "bytes": 2077315
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_HISTORICO\\diario-f7.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_HISTORICO\\diario-f7.tsv",
+      "sha256": "601a89aa29b9ded59d2c5d4907c88a613644b2e40d2d79c2c7b00a6ccd08bed0",
+      "bytes": 242
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_HISTORICO\\Fixture_Fria.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_HISTORICO\\Fixture_Fria.xlsm",
+      "sha256": "ae45fe45620da9ca3a768b8e069b280d7c0aae2ec2148a33f4679547255c37f9",
+      "bytes": 2077186
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_OK\\diario-f7.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_OK\\diario-f7.tsv",
+      "sha256": "601a89aa29b9ded59d2c5d4907c88a613644b2e40d2d79c2c7b00a6ccd08bed0",
+      "bytes": 242
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_OK\\Fixture_Fria.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_OK\\Fixture_Fria.xlsm",
+      "sha256": "76b8ee3bfda140e6110356ae0b144a4782deb76b83bf61044c92226a453f4565",
+      "bytes": 2076948
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_ORFAO\\diario-f7.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_ORFAO\\diario-f7.tsv",
+      "sha256": "ce4723c679a2b663e6baad77bcc31032844ce97360c781c8a4566b5b71898268",
+      "bytes": 246
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_ORFAO\\Fixture_Fria.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_ORFAO\\Fixture_Fria.xlsm",
+      "sha256": "13fba5aa869bb61652d1c552d29eec85241a82e6bb1a1fdeeb265ac000b45a8b",
+      "bytes": 2077189
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_PAYLOAD\\diario-f7.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_PAYLOAD\\diario-f7.tsv",
+      "sha256": "601a89aa29b9ded59d2c5d4907c88a613644b2e40d2d79c2c7b00a6ccd08bed0",
+      "bytes": 242
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_PAYLOAD\\Fixture_Fria.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_PAYLOAD\\Fixture_Fria.xlsm",
+      "sha256": "05e5ebb90668233ef8625771520f700542d2fb847fc8a4a90a2f77b00d6e32b7",
+      "bytes": 2077332
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_PENDENTE\\diario-f7.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_PENDENTE\\diario-f7.tsv",
+      "sha256": "ea614b178167b88df13453ff8f23aaab039b9697b67bcd53cb79cb769fd1a61e",
+      "bytes": 264
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_PENDENTE\\Fixture_Fria.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_PENDENTE\\Fixture_Fria.xlsm",
+      "sha256": "d218e40de31ec0337a3991f1af8701814a2960019a424be2882dad9477307eeb",
+      "bytes": 2077040
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_POS_SAVE\\diario-f7.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_POS_SAVE\\diario-f7.tsv",
+      "sha256": "bdbf93ba535c81b520443c6eedff9595c71ab9c67ee77a6322d68659c9dff1f9",
+      "bytes": 250
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_POS_SAVE\\Fixture_Fria.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_POS_SAVE\\Fixture_Fria.xlsm",
+      "sha256": "852f9db40a2a83734eba9eeaf3c08b815ae74d7a1108ec7900312faf7c3fcba9",
+      "bytes": 2076946
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_resultados.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_resultados.tsv",
+      "sha256": "9926f1381f3aeaf5576ae97aaa778c04eaf544009b2c985089d4ee9ec1e1d268",
+      "bytes": 2748
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_TRUNCADO\\diario-f7.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_TRUNCADO\\diario-f7.tsv",
+      "sha256": "457d2a6bfe9c6e0ec16332b49a77eee2984b2b761663d6e53f2ff2b696c528d6",
+      "bytes": 30
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_TRUNCADO\\Fixture_Fria.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_TRUNCADO\\Fixture_Fria.xlsm",
+      "sha256": "ca3233c87966c6c5639780358a5829ff3a2534fbca2166d041074d52c2cec0bd",
+      "bytes": 2077066
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_VERSAO\\diario-f7.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_VERSAO\\diario-f7.tsv",
+      "sha256": "601a89aa29b9ded59d2c5d4907c88a613644b2e40d2d79c2c7b00a6ccd08bed0",
+      "bytes": 242
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\regressao\\VBA_Fase7_20261102_025115Z\\frio_VERSAO\\Fixture_Fria.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\regressao\\VBA_Fase7_20261102_025115Z\\frio_VERSAO\\Fixture_Fria.xlsm",
+      "sha256": "828f4c848010e79b0324d6a10d2c935628b2964f7d2432901e9fd6c04d36bae4",
+      "bytes": 2077183
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\reproducao_f7.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\reproducao_f7.tsv",
+      "sha256": "fe0a0f32a6b11ecf53e6b71762df9490fe03ec0d0fe49f737ee52fe4ae2daa96",
+      "bytes": 494
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\save_recusado_f8.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\save_recusado_f8.tsv",
+      "sha256": "d330eafb193496ba91e4015f8ebb8b1223eba588029f5ae6934e9e83ea8e2c3c",
+      "bytes": 468
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase8_20261102_121422Z\\save_recusado_memoria_nao_promover.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase8_20261102_121422Z\\evidencias\\execucoes\\save_recusado_memoria_nao_promover.xlsm",
+      "sha256": "6f545e21a284bd9c4efbecee2fa98371b2cb1ea626108d996c50920fed505ba2",
+      "bytes": 2247698
+    }
+  ]
+}

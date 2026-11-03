@@ -1,0 +1,38 @@
+[
+  {
+    "caso": "V_DUP",
+    "celulas": 7560,
+    "diferencas": 0,
+    "resultado": "﻿Cenario=V_DUP\r\nWorkbook=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\V_DUP\\Fixture_Auditoria_Fase5_V_DUP.xlsm\r\nStatus=Número da NFe já cadastrado!\r\nEnableEvents=Verdadeiro\r\nScreenUpdating=Verdadeiro\r\nDisplayAlerts=Verdadeiro\r\nCalculation=-4105\r\n"
+  },
+  {
+    "caso": "V_VALOR",
+    "celulas": 7560,
+    "diferencas": 0,
+    "resultado": "﻿Cenario=V_VALOR\r\nWorkbook=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\V_VALOR\\Fixture_Auditoria_Fase5_V_VALOR.xlsm\r\nStatus=A gravação foi interrompida por um erro.\r\nEnableEvents=Verdadeiro\r\nScreenUpdating=Verdadeiro\r\nDisplayAlerts=Verdadeiro\r\nCalculation=-4105\r\n"
+  },
+  {
+    "caso": "V_DATA",
+    "celulas": 7560,
+    "diferencas": 0,
+    "resultado": "﻿Cenario=V_DATA\r\nWorkbook=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\V_DATA\\Fixture_Auditoria_Fase5_V_DATA.xlsm\r\nStatus=Gravação cancelada: existem divergências no XML.\r\nEnableEvents=Verdadeiro\r\nScreenUpdating=Verdadeiro\r\nDisplayAlerts=Verdadeiro\r\nCalculation=-4105\r\n"
+  },
+  {
+    "caso": "V_SEMORIGEM",
+    "celulas": 7560,
+    "diferencas": 0,
+    "resultado": "﻿Cenario=V_SEMORIGEM\r\nWorkbook=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\V_SEMORIGEM\\Fixture_Auditoria_Fase5_V_SEMORIGEM.xlsm\r\nStatus=NFe não encontrada...\r\nEnableEvents=Verdadeiro\r\nScreenUpdating=Verdadeiro\r\nDisplayAlerts=Verdadeiro\r\nCalculation=-4105\r\n"
+  },
+  {
+    "caso": "V_XML_DIVERGE",
+    "celulas": 7560,
+    "diferencas": 0,
+    "resultado": "﻿Cenario=V_XML_DIVERGE\r\nWorkbook=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\V_XML_DIVERGE\\Fixture_Auditoria_Fase5_V_XML_DIVERGE.xlsm\r\nStatus=Gravação cancelada: existem divergências no XML.\r\nEnableEvents=Verdadeiro\r\nScreenUpdating=Verdadeiro\r\nDisplayAlerts=Verdadeiro\r\nCalculation=-4105\r\n"
+  },
+  {
+    "caso": "V_FALHA_INTER",
+    "celulas": 7560,
+    "diferencas": 0,
+    "resultado": "﻿Cenario=V_FALHA_INTER\r\nWorkbook=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\V_FALHA_INTER\\Fixture_Auditoria_Fase5_V_FALHA_INTER.xlsm\r\nStatus=A gravação foi interrompida por um erro.\r\nEnableEvents=Verdadeiro\r\nScreenUpdating=Verdadeiro\r\nDisplayAlerts=Verdadeiro\r\nCalculation=-4105\r\n"
+  }
+]

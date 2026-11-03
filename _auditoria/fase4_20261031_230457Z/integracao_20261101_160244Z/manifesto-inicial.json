@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-11-01T16:02:44.563Z",
+  "records": [
+    {
+      "file": "RELATORIO_INTEGRACAO_FASE4.md",
+      "sha256": "895956f043f2dbd20f3c3775b07ffbb0cb44e27dbb24963f64fb1670da5bb993",
+      "verified": true
+    },
+    {
+      "file": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+      "sha256": "03104814e855e882f852c8b916a3f2da56d0a41e730f10ee12a99cab7529cf74",
+      "verified": true
+    },
+    {
+      "file": "HISTORICO_ALTERACOES.md",
+      "sha256": "5d055bff08f30f221b49ace33b4a784e5610844353d7c0a21c4a0bc0fb906889",
+      "verified": true
+    },
+    {
+      "file": "COMPILACAO_VBA_FASE4.md",
+      "sha256": "fd62a727d8e17a78ae6294576edaf78210d8198e41a6f99378c447360eccd25d",
+      "verified": true
+    },
+    {
+      "file": "TESTES_VBA.md",
+      "sha256": "b06d9b922b1d5c53e76e310ff479bc54e91f79e2cd1a41e92cf8d85e176011c7",
+      "verified": true
+    },
+    {
+      "file": "MAPA_PROJETO.md",
+      "sha256": "8535ca1b5fd9487390576c6ce19c575c687bfa382bc759a9aea811f555ba6d00",
+      "verified": true
+    },
+    {
+      "file": "RELATORIO_AUDITORIA.md",
+      "sha256": "72ea92a7293d53725c7019635ffe1034adfcdfa452ca4ef49f70a16dc7146678",
+      "verified": true
+    },
+    {
+      "file": "Fixture_Auditoria_Fase4.xlsm",
+      "sha256": "ff4f6b37d529e7404ae31bc65ceb1aeb3ba8f54aeb007b71c1e47c9bb9b9585d",
+      "verified": true
+    },
+    {
+      "file": "inventario-integracao.json",
+      "sha256": "4093828199ee77d3f78f82493c73697fedd4732530dcb4408fc7ed49ab7c2870",
+      "verified": true
+    }
+  ],
+  "notice": "Snapshot em disco antes de salvar integracao; memoria tem classe/helper importados pela interface"
+}

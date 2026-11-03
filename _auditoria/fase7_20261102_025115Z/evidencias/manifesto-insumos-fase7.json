@@ -1,0 +1,44 @@
+[
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase6_20261101_224949Z\\evidencias\\execucoes\\revisao4\\C_LEITOR_LEGADO\\estado_memoria_nao_promover.xlsm",
+    "destination": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\insumos\\leitor.xlsm",
+    "bytes": 2084194,
+    "sha256": "bb1c02f0d6297894eab59127071db668c473709148653643c38a15c66dd1770c"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase6_20261101_224949Z\\evidencias\\execucoes\\revisao3\\C_COLISAO\\estado_memoria_nao_promover.xlsm",
+    "destination": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\insumos\\semente.xlsm",
+    "bytes": 2075646,
+    "sha256": "1bf8d176503a9a6654baea33522a0b4fe6c042b8a9e2be0860eb2c94e53a1613"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase6_20261101_224949Z\\evidencias\\execucoes\\revisao3\\C_REORDENACAO\\estado_memoria_nao_promover.xlsm",
+    "destination": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\insumos\\tipos_perdidos.xlsm",
+    "bytes": 2075684,
+    "sha256": "fb76d49d9069a8084ba792d34cc9d9708abce81ccccfe5ef30dab606bd244af3"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase6_20261101_224949Z\\evidencias\\execucoes\\revisao2\\C_HISTORICO_AMBIGUO\\estado_memoria_nao_promover.xlsm",
+    "destination": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\insumos\\historico_ambiguo.xlsm",
+    "bytes": 1937841,
+    "sha256": "d58f39229d46fc2b69a519a76501c111a6826eeadeeae2ef20118f523440c760"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase6_20261101_224949Z\\evidencias\\execucoes\\revisao2\\C_TRANSFERENCIAS\\estado_memoria_nao_promover.xlsm",
+    "destination": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\insumos\\transferencias.xlsm",
+    "bytes": 1943700,
+    "sha256": "c24de46267e54f8649dfd47268c94298b36c6354f8864ffc512ff62fd6416f31"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase6_20261101_224949Z\\evidencias\\execucoes\\revisao2\\C_FALHA_BAIXA\\estado_memoria_nao_promover.xlsm",
+    "destination": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\insumos\\falha_baixa.xlsm",
+    "bytes": 1940232,
+    "sha256": "462ee5a1401d900ad945292a325857b125759334b5bf4b5fbd8951b4f083fe4b"
+  },
+  {
+    "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase6_20261101_224949Z\\evidencias\\execucoes\\revisao2\\C_FALHA_COMPENSACAO\\estado_memoria_nao_promover.xlsm",
+    "destination": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\insumos\\falha_compensacao.xlsm",
+    "bytes": 1940134,
+    "sha256": "0a881df9178dfb87d83177e80fc91893965296b9a9aab503b26d4b84fcb03e07"
+  }
+]

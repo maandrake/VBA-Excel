@@ -1,0 +1,55 @@
+{
+  "recordedAt": "2026-11-01T17:33:29.087Z",
+  "mode": "Execução funcional VBA pela janela Imediata; MSXML6 criado dentro do VBA",
+  "origin": "Transcrição das saídas e mensagens observadas no Excel nesta sessão",
+  "cases": [
+    {
+      "id": "XML-SEM-INF",
+      "input": "<raiz/>",
+      "function": "ValidarXMLNFe(Cad_NFE_Saida, f4Doc, \"FICTICIO_SEM_INF\")",
+      "result": false,
+      "status": "PASS",
+      "message": "O documento deve conter exatamente uma NF-e (grupo infNFe)."
+    },
+    {
+      "id": "XML-MULTIPLO",
+      "input": "<raiz><infNFe/><infNFe/></raiz>",
+      "function": "ValidarXMLNFe",
+      "result": false,
+      "status": "PASS",
+      "message": "O documento deve conter exatamente uma NF-e (grupo infNFe)."
+    },
+    {
+      "id": "XML-CHAVE",
+      "input": "<NFe><infNFe Id='NFe123'><ide><nNF>1</nNF></ide></infNFe></NFe>",
+      "function": "ValidarXMLNFe",
+      "result": false,
+      "status": "PASS",
+      "message": "O atributo infNFe/@Id deve conter NFe seguido de 44 dígitos."
+    },
+    {
+      "id": "XML-NNF",
+      "input": "<NFe><infNFe Id='NFe00000000000000000000000000000000000000000001'><ide><nNF>ABC</nNF></ide></infNFe></NFe>",
+      "function": "ValidarXMLNFe",
+      "result": false,
+      "status": "PASS",
+      "message": "O grupo ide/nNF está ausente ou contém um número inválido."
+    },
+    {
+      "id": "XML-MALFORMADO",
+      "input": "<raiz>",
+      "function": "f4Doc.LoadXML",
+      "result": false,
+      "parseError": -1072896685,
+      "status": "PASS",
+      "scope": "Parser MSXML chamado pelo VBA; não executou o fluxo completo de importação"
+    }
+  ],
+  "pending": [
+    "XML completo válido",
+    "Valores inválidos e overflow no validador real",
+    "Múltiplos itens e somas fiscais",
+    "Apresentação real do frmRelatorioXML"
+  ],
+  "note": "Nenhuma comprovação de autorização fiscal, autenticidade ou assinatura digital."
+}

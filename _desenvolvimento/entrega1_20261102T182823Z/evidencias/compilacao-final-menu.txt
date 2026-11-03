@@ -1,0 +1,1109 @@
+Window: "Microsoft Visual Basic for Applications - Estoque_Fera_Veiculos_Candidato_Integrado.xlsm", App: EXCEL.EXE.
+	0 janela Microsoft Visual Basic for Applications - Estoque_Fera_Veiculos_Candidato_Integrado.xlsm Secondary Actions: Raise
+		1 painel MsoDockTop
+			2 barra de ferramentas Padrão Description: Barra de ferramentas Padrão
+				71857 botão Microsoft Excel
+				71858 botão de divisão Inserir objeto
+				71859 botão Salvar Estoque_Fera_Veiculos_Candidato_Integrado.xlsm
+				71860 botão (disabled) Recortar
+				71861 botão (disabled) Copiar
+				71862 botão Colar
+				71863 botão (disabled) Localizar...
+				71864 botão Desfazer Colar
+				71865 botão (disabled) Não é possível refazer
+				71866 botão Executar macro
+				71867 botão Interromper
+				71868 botão Redefinir
+				71869 botão Modo de criação
+				71870 botão Project Explorer
+				71871 botão Janela 'Propriedades'
+				71872 botão Pesquisador de objeto
+				71873 botão (disabled) Caixa de ferramentas
+				71874 botão Ajuda do Microsoft Visual Basic for Applications
+				71875 text Bitola
+				71876 item de menu Opções da barra de ferramentas
+			23 barra de menus Barra de menus Description: Barra de menus
+				71877 item de menu Arquivo
+				71878 item de menu Editar
+				71879 item de menu Exibir
+				71880 item de menu Inserir
+				71881 item de menu Formatar
+				71882 item de menu Depurar
+				71883 item de menu Executar
+				71884 item de menu Ferramentas
+				71885 item de menu Suplementos
+				71886 item de menu Janela
+				71887 item de menu Ajuda
+				71888 caixa de combinação (settable, string) Fazer uma pergunta
+		36 painel Espaço de trabalho ID: 3244
+			14478 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modCandidatoIntegrado (Código) Secondary Actions: Raise ID: 32
+				14479 barra de rolagem (settable, float) Value: 0
+					14480 botão Uma coluna à esquerda ID: UpButton
+					14481 elevador Posição ID: ScrollbarThumb
+					14482 botão Uma página à direita ID: DownPageButton
+					14483 botão Uma coluna à direita ID: DownButton
+				14484 barra de rolagem (settable, float) Value: 99
+					14485 botão Uma linha acima ID: UpButton
+					14486 botão Uma página acima ID: UpPageButton
+					14487 elevador Posição ID: ScrollbarThumb
+					67550 botão Uma página abaixo ID: DownPageButton
+					14489 botão Uma linha abaixo ID: DownButton
+				14490 elevador (settable, float) Value: 0
+				14491 painel ID: 22
+				14492 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					14493 text (settable, string) Value: (Geral)
+					14494 botão Abrir ID: DropDown
+				14495 caixa de combinação (settable, string) Procedimento Value: IgnoredC1 ID: 2801
+					14496 text (settable, string) Value: IgnoredC1
+					14497 botão Abrir ID: DropDown
+				14498 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modCandidatoIntegrado (Código)
+					14499 barra de menus Sistema ID: MenuBar
+						14500 item de menu Janela Documento
+					14501 botão Minimizar
+					14502 botão Maximizar
+					14503 botão Fechar
+				14504 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modCandidatoIntegrado (Código) ID: Painel de Código Inferior do Editor do VBA
+			6146 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modPersistenciaFase10 (Código) Secondary Actions: Raise ID: 24
+				6147 barra de rolagem (settable, float) Value: 0
+					6148 botão Uma coluna à esquerda ID: UpButton
+					6149 elevador Posição ID: ScrollbarThumb
+					6150 botão Uma página à direita ID: DownPageButton
+					6151 botão Uma coluna à direita ID: DownButton
+				6152 barra de rolagem (settable, float) Value: 99
+					6153 botão Uma linha acima ID: UpButton
+					6364 botão Uma página acima ID: UpPageButton
+					6154 elevador Posição ID: ScrollbarThumb
+					63135 botão Uma página abaixo ID: DownPageButton
+					6156 botão Uma linha abaixo ID: DownButton
+				6157 elevador (settable, float) Value: 0
+				6158 painel ID: 22
+				6159 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					6160 text (settable, string) Value: (Geral)
+					6161 botão Abrir ID: DropDown
+				6162 caixa de combinação (settable, string) Procedimento Value: Audit10 ID: 2801
+					6163 text (settable, string) Value: Audit10
+					6164 botão Abrir ID: DropDown
+				6165 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modPersistenciaFase10 (Código)
+					6166 barra de menus Sistema ID: MenuBar
+						6167 item de menu Janela Documento
+					6168 botão Minimizar
+					6169 botão Maximizar
+					6170 botão Fechar
+				6171 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modPersistenciaFase10 (Código) ID: Painel de Código Inferior do Editor do VBA
+			34491 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modTestesEntrega1 (Código) Secondary Actions: Raise ID: 33
+				34492 barra de rolagem (settable, float) Value: 0
+					34493 botão Uma coluna à esquerda ID: UpButton
+					34494 elevador Posição ID: ScrollbarThumb
+					34495 botão Uma página à direita ID: DownPageButton
+					34496 botão Uma coluna à direita ID: DownButton
+				34497 barra de rolagem (settable, float) Value: 99
+					34498 botão Uma linha acima ID: UpButton
+					35141 botão Uma página acima ID: UpPageButton
+					34499 elevador Posição ID: ScrollbarThumb
+					60781 botão Uma página abaixo ID: DownPageButton
+					34501 botão Uma linha abaixo ID: DownButton
+				34502 elevador (settable, float) Value: 0
+				34503 painel ID: 22
+				34504 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					34505 text (settable, string) Value: (Geral)
+					34506 botão Abrir ID: DropDown
+				34507 caixa de combinação (settable, string) Procedimento Value: E1_SessaoReaberta ID: 2801
+					34508 text (settable, string) Value: E1_SessaoReaberta
+					34509 botão Abrir ID: DropDown
+				34510 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modTestesEntrega1 (Código)
+					34511 barra de menus Sistema ID: MenuBar
+						34512 item de menu Janela Documento
+					34513 botão Minimizar
+					34514 botão Maximizar
+					34515 botão Fechar
+				34516 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modTestesEntrega1 (Código) ID: Painel de Código Inferior do Editor do VBA
+			8850 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modValidacaoXML (Código) Secondary Actions: Raise ID: 28
+				8851 barra de rolagem (settable, float) Value: 0
+					8852 botão Uma coluna à esquerda ID: UpButton
+					8853 elevador Posição ID: ScrollbarThumb
+					8854 botão Uma página à direita ID: DownPageButton
+					8855 botão Uma coluna à direita ID: DownButton
+				8856 barra de rolagem (settable, float) Value: 98
+					8857 botão Uma linha acima ID: UpButton
+					8972 botão Uma página acima ID: UpPageButton
+					8858 elevador Posição ID: ScrollbarThumb
+					9069 botão Uma página abaixo ID: DownPageButton
+					8860 botão Uma linha abaixo ID: DownButton
+				8861 elevador (settable, float) Value: 0
+				8862 painel ID: 22
+				8863 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					8864 text (settable, string) Value: (Geral)
+					8865 botão Abrir ID: DropDown
+				8866 caixa de combinação (settable, string) Procedimento Value: IdentificacaoXMLValida ID: 2801
+					8867 text (settable, string) Value: IdentificacaoXMLValida
+					8868 botão Abrir ID: DropDown
+				8869 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modValidacaoXML (Código)
+					8870 barra de menus Sistema ID: MenuBar
+						8871 item de menu Janela Documento
+					8872 botão Minimizar
+					8873 botão Maximizar
+					8874 botão Fechar
+				8875 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modValidacaoXML (Código) ID: Painel de Código Inferior do Editor do VBA
+			10666 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - UserFormFiltro (Código) Secondary Actions: Raise ID: 31
+				10667 barra de rolagem (settable, float) Value: 0
+					10668 botão Uma coluna à esquerda ID: UpButton
+					10669 elevador Posição ID: ScrollbarThumb
+					10670 botão Uma página à direita ID: DownPageButton
+					10671 botão Uma coluna à direita ID: DownButton
+				10672 barra de rolagem (settable, float) Value: 98
+					10673 botão Uma linha acima ID: UpButton
+					10788 botão Uma página acima ID: UpPageButton
+					10674 elevador Posição ID: ScrollbarThumb
+					10885 botão Uma página abaixo ID: DownPageButton
+					10676 botão Uma linha abaixo ID: DownButton
+				10677 elevador (settable, float) Value: 0
+				10678 painel ID: 22
+				10679 caixa de combinação (settable, string) Objeto Value: CommandButtonDevolução ID: 2800
+					10680 text (settable, string) Value: CommandButtonDevolução
+					10681 botão Abrir ID: DropDown
+				10682 caixa de combinação (settable, string) Procedimento Value: MouseMove ID: 2801
+					10683 text (settable, string) Value: MouseMove
+					10684 botão Abrir ID: DropDown
+				10685 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - UserFormFiltro (Código)
+					10686 barra de menus Sistema ID: MenuBar
+						10687 item de menu Janela Documento
+					10688 botão Minimizar
+					10689 botão Maximizar
+					10690 botão Fechar
+				10691 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - UserFormFiltro (Código) ID: Painel de Código Inferior do Editor do VBA
+			10111 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Cad_NFE_Saida (Código) Secondary Actions: Raise ID: 30
+				10112 barra de rolagem (settable, float) Value: 0
+					10113 botão Uma coluna à esquerda ID: UpButton
+					10114 elevador Posição ID: ScrollbarThumb
+					10115 botão Uma página à direita ID: DownPageButton
+					10116 botão Uma coluna à direita ID: DownButton
+				10117 barra de rolagem (settable, float) Value: 99
+					10118 botão Uma linha acima ID: UpButton
+					10233 botão Uma página acima ID: UpPageButton
+					10119 elevador Posição ID: ScrollbarThumb
+					10121 botão Uma linha abaixo ID: DownButton
+				10122 elevador (settable, float) Value: 0
+				10123 painel ID: 22
+				10124 caixa de combinação (settable, string) Objeto Value: TextBox_Valor_SaidaFilial ID: 2800
+					10125 text (settable, string) Value: TextBox_Valor_SaidaFilial
+					10126 botão Abrir ID: DropDown
+				10127 caixa de combinação (settable, string) Procedimento Value: KeyPress ID: 2801
+					10128 text (settable, string) Value: KeyPress
+					10129 botão Abrir ID: DropDown
+				10130 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Cad_NFE_Saida (Código)
+					10131 barra de menus Sistema ID: MenuBar
+						10132 item de menu Janela Documento
+					10133 botão Minimizar
+					10134 botão Maximizar
+					10135 botão Fechar
+				10136 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Cad_NFE_Saida (Código) ID: Painel de Código Inferior do Editor do VBA
+			9603 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Cad_NFE (Código) Secondary Actions: Raise ID: 29
+				9604 barra de rolagem (settable, float) Value: 0
+					9605 botão Uma coluna à esquerda ID: UpButton
+					9606 elevador Posição ID: ScrollbarThumb
+					9607 botão Uma página à direita ID: DownPageButton
+					9608 botão Uma coluna à direita ID: DownButton
+				9609 barra de rolagem (settable, float) Value: 99
+					9610 botão Uma linha acima ID: UpButton
+					9773 botão Uma página acima ID: UpPageButton
+					9611 elevador Posição ID: ScrollbarThumb
+					9870 botão Uma página abaixo ID: DownPageButton
+					9613 botão Uma linha abaixo ID: DownButton
+				9614 elevador (settable, float) Value: 0
+				9615 painel ID: 22
+				9616 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					9617 text (settable, string) Value: (Geral)
+					9618 botão Abrir ID: DropDown
+				9619 caixa de combinação (settable, string) Procedimento Value: ControleExiste ID: 2801
+					9620 text (settable, string) Value: ControleExiste
+					9621 botão Abrir ID: DropDown
+				9622 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Cad_NFE (Código)
+					9623 barra de menus Sistema ID: MenuBar
+						9624 item de menu Janela Documento
+					9625 botão Minimizar
+					9626 botão Maximizar
+					9627 botão Fechar
+				9628 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Cad_NFE (Código) ID: Painel de Código Inferior do Editor do VBA
+			8534 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - MóduloPesquisa (Código) Secondary Actions: Raise ID: 27
+				8535 barra de rolagem (settable, float) Value: 0
+					8536 botão Uma coluna à esquerda ID: UpButton
+					8537 elevador Posição ID: ScrollbarThumb
+					8538 botão Uma página à direita ID: DownPageButton
+					8539 botão Uma coluna à direita ID: DownButton
+				8540 barra de rolagem (settable, float) Value: 95
+					8541 botão Uma linha acima ID: UpButton
+					8656 botão Uma página acima ID: UpPageButton
+					8542 elevador Posição ID: ScrollbarThumb
+					8753 botão Uma página abaixo ID: DownPageButton
+					8544 botão Uma linha abaixo ID: DownButton
+				8545 elevador (settable, float) Value: 0
+				8546 painel ID: 22
+				8547 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					8548 text (settable, string) Value: (Geral)
+					8549 botão Abrir ID: DropDown
+				8550 caixa de combinação (settable, string) Procedimento Value: IrParaCelulaNFe ID: 2801
+					8551 text (settable, string) Value: IrParaCelulaNFe
+					8552 botão Abrir ID: DropDown
+				8553 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - MóduloPesquisa (Código)
+					8554 barra de menus Sistema ID: MenuBar
+						8555 item de menu Janela Documento
+					8556 botão Minimizar
+					8557 botão Maximizar
+					8558 botão Fechar
+				8559 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - MóduloPesquisa (Código) ID: Painel de Código Inferior do Editor do VBA
+			7354 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modPreencherFormulario (Código) Secondary Actions: Raise ID: 26
+				7355 barra de rolagem (settable, float) Value: 0
+					7356 botão Uma coluna à esquerda ID: UpButton
+					7357 elevador Posição ID: ScrollbarThumb
+					7358 botão Uma página à direita ID: DownPageButton
+					7359 botão Uma coluna à direita ID: DownButton
+				7360 barra de rolagem (settable, float) Value: 0
+					7361 botão Uma linha acima ID: UpButton
+					7620 botão Uma página acima ID: UpPageButton
+					7362 elevador Posição ID: ScrollbarThumb
+					7861 botão Uma página abaixo ID: DownPageButton
+					7364 botão Uma linha abaixo ID: DownButton
+				7365 elevador (settable, float) Value: 0
+				7366 painel ID: 22
+				7367 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					7368 text (settable, string) Value: (Geral)
+					7369 botão Abrir ID: DropDown
+				7370 caixa de combinação (settable, string) Procedimento Value: PreencherDadosEntradasFilial ID: 2801
+					7371 text (settable, string) Value: PreencherDadosEntradasFilial
+					7372 botão Abrir ID: DropDown
+				7373 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modPreencherFormulario (Código)
+					7374 barra de menus Sistema ID: MenuBar
+						7375 item de menu Janela Documento
+					7376 botão Minimizar
+					7377 botão Maximizar
+					7378 botão Fechar
+				7379 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modPreencherFormulario (Código) ID: Painel de Código Inferior do Editor do VBA
+			6846 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modCenariosFase10 (Código) Secondary Actions: Raise ID: 25
+				6847 barra de rolagem (settable, float) Value: 0
+					6848 botão Uma coluna à esquerda ID: UpButton
+					6849 elevador Posição ID: ScrollbarThumb
+					6850 botão Uma página à direita ID: DownPageButton
+					6851 botão Uma coluna à direita ID: DownButton
+				6852 barra de rolagem (settable, float) Value: 99
+					6853 botão Uma linha acima ID: UpButton
+					6968 botão Uma página acima ID: UpPageButton
+					6854 elevador Posição ID: ScrollbarThumb
+					7065 botão Uma página abaixo ID: DownPageButton
+					6856 botão Uma linha abaixo ID: DownButton
+				6857 elevador (settable, float) Value: 0
+				6858 painel ID: 22
+				6859 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					6860 text (settable, string) Value: (Geral)
+					6861 botão Abrir ID: DropDown
+				6862 caixa de combinação (settable, string) Procedimento Value: F10_Benchmark ID: 2801
+					6863 text (settable, string) Value: F10_Benchmark
+					6864 botão Abrir ID: DropDown
+				6865 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modCenariosFase10 (Código)
+					6866 barra de menus Sistema ID: MenuBar
+						6867 item de menu Janela Documento
+					6868 botão Minimizar
+					6869 botão Maximizar
+					6870 botão Fechar
+				6871 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modCenariosFase10 (Código) ID: Painel de Código Inferior do Editor do VBA
+			37 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - EstaPastaDeTrabalho (Código) Secondary Actions: Raise ID: 1
+				38 barra de rolagem (settable, float) Value: 0
+					39 botão Uma coluna à esquerda ID: UpButton
+					40 elevador Posição ID: ScrollbarThumb
+					41 botão Uma página à direita ID: DownPageButton
+					42 botão Uma coluna à direita ID: DownButton
+				43 barra de rolagem (settable, float) Value: 0
+					44 botão Uma linha acima ID: UpButton
+					45 botão Uma página acima ID: UpPageButton
+					46 elevador Posição ID: ScrollbarThumb
+					47 botão Uma página abaixo ID: DownPageButton
+					48 botão Uma linha abaixo ID: DownButton
+				49 elevador (settable, float) Value: 0
+				50 painel ID: 22
+				51 caixa de combinação (settable, string) Objeto Value: Workbook ID: 2800
+					52 text (settable, string) Value: Workbook
+					53 botão Abrir ID: DropDown
+				54 caixa de combinação (settable, string) Procedimento Value: Open ID: 2801
+					55 text (settable, string) Value: Open
+					56 botão Abrir ID: DropDown
+				57 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - EstaPastaDeTrabalho (Código)
+					58 barra de menus Sistema ID: MenuBar
+						59 item de menu Janela Documento
+					60 botão Minimizar
+					61 botão Maximizar
+					62 botão Fechar
+				63 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - EstaPastaDeTrabalho (Código) ID: Painel de Código Inferior do Editor do VBA
+			64 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha12 (Código) Secondary Actions: Raise ID: 2
+				65 barra de rolagem (settable, float) Value: 0
+					66 botão Uma coluna à esquerda ID: UpButton
+					67 elevador Posição ID: ScrollbarThumb
+					68 botão Uma página à direita ID: DownPageButton
+					69 botão Uma coluna à direita ID: DownButton
+				70 barra de rolagem (settable, float) Value: 0
+					71 botão Uma linha acima ID: UpButton
+					72 botão Uma página acima ID: UpPageButton
+					73 elevador Posição ID: ScrollbarThumb
+					74 botão Uma página abaixo ID: DownPageButton
+					75 botão Uma linha abaixo ID: DownButton
+				76 elevador (settable, float) Value: 0
+				77 painel ID: 22
+				78 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					79 text (settable, string) Value: (Geral)
+					80 botão Abrir ID: DropDown
+				81 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					82 text (settable, string) Value: (Declaração)
+					83 botão Abrir ID: DropDown
+				84 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha12 (Código)
+					85 barra de menus Sistema ID: MenuBar
+						86 item de menu Janela Documento
+					87 botão Minimizar
+					88 botão Maximizar
+					89 botão Fechar
+				90 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha12 (Código) ID: Painel de Código Inferior do Editor do VBA
+			91 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha1 (Código) Secondary Actions: Raise ID: 3
+				92 barra de rolagem (settable, float) Value: 0
+					93 botão Uma coluna à esquerda ID: UpButton
+					94 elevador Posição ID: ScrollbarThumb
+					95 botão Uma página à direita ID: DownPageButton
+					96 botão Uma coluna à direita ID: DownButton
+				97 barra de rolagem (settable, float) Value: 0
+					98 botão Uma linha acima ID: UpButton
+					99 botão Uma página acima ID: UpPageButton
+					100 elevador Posição ID: ScrollbarThumb
+					101 botão Uma página abaixo ID: DownPageButton
+					102 botão Uma linha abaixo ID: DownButton
+				103 elevador (settable, float) Value: 0
+				104 painel ID: 22
+				105 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					106 text (settable, string) Value: (Geral)
+					107 botão Abrir ID: DropDown
+				108 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					109 text (settable, string) Value: (Declaração)
+					110 botão Abrir ID: DropDown
+				111 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha1 (Código)
+					112 barra de menus Sistema ID: MenuBar
+						113 item de menu Janela Documento
+					114 botão Minimizar
+					115 botão Maximizar
+					116 botão Fechar
+				117 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha1 (Código) ID: Painel de Código Inferior do Editor do VBA
+			118 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha13 (Código) Secondary Actions: Raise ID: 4
+				119 barra de rolagem (settable, float) Value: 0
+					120 botão Uma coluna à esquerda ID: UpButton
+					121 elevador Posição ID: ScrollbarThumb
+					122 botão Uma página à direita ID: DownPageButton
+					123 botão Uma coluna à direita ID: DownButton
+				124 barra de rolagem (settable, float) Value: 0
+					125 botão Uma linha acima ID: UpButton
+					126 botão Uma página acima ID: UpPageButton
+					127 elevador Posição ID: ScrollbarThumb
+					128 botão Uma página abaixo ID: DownPageButton
+					129 botão Uma linha abaixo ID: DownButton
+				130 elevador (settable, float) Value: 0
+				131 painel ID: 22
+				132 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					133 text (settable, string) Value: (Geral)
+					134 botão Abrir ID: DropDown
+				135 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					136 text (settable, string) Value: (Declaração)
+					137 botão Abrir ID: DropDown
+				138 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha13 (Código)
+					139 barra de menus Sistema ID: MenuBar
+						140 item de menu Janela Documento
+					141 botão Minimizar
+					142 botão Maximizar
+					143 botão Fechar
+				144 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha13 (Código) ID: Painel de Código Inferior do Editor do VBA
+			145 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha3 (Código) Secondary Actions: Raise ID: 5
+				146 barra de rolagem (settable, float) Value: 0
+					147 botão Uma coluna à esquerda ID: UpButton
+					148 elevador Posição ID: ScrollbarThumb
+					149 botão Uma página à direita ID: DownPageButton
+					150 botão Uma coluna à direita ID: DownButton
+				151 barra de rolagem (settable, float) Value: 0
+					152 botão Uma linha acima ID: UpButton
+					153 botão Uma página acima ID: UpPageButton
+					154 elevador Posição ID: ScrollbarThumb
+					155 botão Uma página abaixo ID: DownPageButton
+					156 botão Uma linha abaixo ID: DownButton
+				157 elevador (settable, float) Value: 0
+				158 painel ID: 22
+				159 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					160 text (settable, string) Value: (Geral)
+					161 botão Abrir ID: DropDown
+				162 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					163 text (settable, string) Value: (Declaração)
+					164 botão Abrir ID: DropDown
+				165 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha3 (Código)
+					166 barra de menus Sistema ID: MenuBar
+						167 item de menu Janela Documento
+					168 botão Minimizar
+					169 botão Maximizar
+					170 botão Fechar
+				171 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha3 (Código) ID: Painel de Código Inferior do Editor do VBA
+			172 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha4 (Código) Secondary Actions: Raise ID: 6
+				173 barra de rolagem (settable, float) Value: 0
+					174 botão Uma coluna à esquerda ID: UpButton
+					175 elevador Posição ID: ScrollbarThumb
+					176 botão Uma página à direita ID: DownPageButton
+					177 botão Uma coluna à direita ID: DownButton
+				178 barra de rolagem (settable, float) Value: 0
+					179 botão Uma linha acima ID: UpButton
+					180 botão Uma página acima ID: UpPageButton
+					181 elevador Posição ID: ScrollbarThumb
+					182 botão Uma página abaixo ID: DownPageButton
+					183 botão Uma linha abaixo ID: DownButton
+				184 elevador (settable, float) Value: 0
+				185 painel ID: 22
+				186 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					187 text (settable, string) Value: (Geral)
+					188 botão Abrir ID: DropDown
+				189 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					190 text (settable, string) Value: (Declaração)
+					191 botão Abrir ID: DropDown
+				192 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha4 (Código)
+					193 barra de menus Sistema ID: MenuBar
+						194 item de menu Janela Documento
+					195 botão Minimizar
+					196 botão Maximizar
+					197 botão Fechar
+				198 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha4 (Código) ID: Painel de Código Inferior do Editor do VBA
+			199 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha2 (Código) Secondary Actions: Raise ID: 7
+				200 barra de rolagem (settable, float) Value: 0
+					201 botão Uma coluna à esquerda ID: UpButton
+					202 elevador Posição ID: ScrollbarThumb
+					203 botão Uma página à direita ID: DownPageButton
+					204 botão Uma coluna à direita ID: DownButton
+				205 barra de rolagem (settable, float) Value: 0
+					206 botão Uma linha acima ID: UpButton
+					207 botão Uma página acima ID: UpPageButton
+					208 elevador Posição ID: ScrollbarThumb
+					209 botão Uma página abaixo ID: DownPageButton
+					210 botão Uma linha abaixo ID: DownButton
+				211 elevador (settable, float) Value: 0
+				212 painel ID: 22
+				213 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					214 text (settable, string) Value: (Geral)
+					215 botão Abrir ID: DropDown
+				216 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					217 text (settable, string) Value: (Declaração)
+					218 botão Abrir ID: DropDown
+				219 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha2 (Código)
+					220 barra de menus Sistema ID: MenuBar
+						221 item de menu Janela Documento
+					222 botão Minimizar
+					223 botão Maximizar
+					224 botão Fechar
+				225 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha2 (Código) ID: Painel de Código Inferior do Editor do VBA
+			226 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha17 (Código) Secondary Actions: Raise ID: 8
+				227 barra de rolagem (settable, float) Value: 0
+					228 botão Uma coluna à esquerda ID: UpButton
+					229 elevador Posição ID: ScrollbarThumb
+					230 botão Uma página à direita ID: DownPageButton
+					231 botão Uma coluna à direita ID: DownButton
+				232 barra de rolagem (settable, float) Value: 0
+					233 botão Uma linha acima ID: UpButton
+					234 botão Uma página acima ID: UpPageButton
+					235 elevador Posição ID: ScrollbarThumb
+					236 botão Uma página abaixo ID: DownPageButton
+					237 botão Uma linha abaixo ID: DownButton
+				238 elevador (settable, float) Value: 0
+				239 painel ID: 22
+				240 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					241 text (settable, string) Value: (Geral)
+					242 botão Abrir ID: DropDown
+				243 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					244 text (settable, string) Value: (Declaração)
+					245 botão Abrir ID: DropDown
+				246 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha17 (Código)
+					247 barra de menus Sistema ID: MenuBar
+						248 item de menu Janela Documento
+					249 botão Minimizar
+					250 botão Maximizar
+					251 botão Fechar
+				252 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha17 (Código) ID: Painel de Código Inferior do Editor do VBA
+			253 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha15 (Código) Secondary Actions: Raise ID: 9
+				254 barra de rolagem (settable, float) Value: 0
+					255 botão Uma coluna à esquerda ID: UpButton
+					256 elevador Posição ID: ScrollbarThumb
+					257 botão Uma página à direita ID: DownPageButton
+					258 botão Uma coluna à direita ID: DownButton
+				259 barra de rolagem (settable, float) Value: 0
+					260 botão Uma linha acima ID: UpButton
+					261 botão Uma página acima ID: UpPageButton
+					262 elevador Posição ID: ScrollbarThumb
+					263 botão Uma página abaixo ID: DownPageButton
+					264 botão Uma linha abaixo ID: DownButton
+				265 elevador (settable, float) Value: 0
+				266 painel ID: 22
+				267 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					268 text (settable, string) Value: (Geral)
+					269 botão Abrir ID: DropDown
+				270 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					271 text (settable, string) Value: (Declaração)
+					272 botão Abrir ID: DropDown
+				273 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha15 (Código)
+					274 barra de menus Sistema ID: MenuBar
+						275 item de menu Janela Documento
+					276 botão Minimizar
+					277 botão Maximizar
+					278 botão Fechar
+				279 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha15 (Código) ID: Painel de Código Inferior do Editor do VBA
+			280 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha10 (Código) Secondary Actions: Raise ID: 10
+				281 barra de rolagem (settable, float) Value: 0
+					282 botão Uma coluna à esquerda ID: UpButton
+					283 elevador Posição ID: ScrollbarThumb
+					284 botão Uma página à direita ID: DownPageButton
+					285 botão Uma coluna à direita ID: DownButton
+				286 barra de rolagem (settable, float) Value: 0
+					287 botão Uma linha acima ID: UpButton
+					288 botão Uma página acima ID: UpPageButton
+					289 elevador Posição ID: ScrollbarThumb
+					290 botão Uma página abaixo ID: DownPageButton
+					291 botão Uma linha abaixo ID: DownButton
+				292 elevador (settable, float) Value: 0
+				293 painel ID: 22
+				294 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					295 text (settable, string) Value: (Geral)
+					296 botão Abrir ID: DropDown
+				297 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					298 text (settable, string) Value: (Declaração)
+					299 botão Abrir ID: DropDown
+				300 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha10 (Código)
+					301 barra de menus Sistema ID: MenuBar
+						302 item de menu Janela Documento
+					303 botão Minimizar
+					304 botão Maximizar
+					305 botão Fechar
+				306 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha10 (Código) ID: Painel de Código Inferior do Editor do VBA
+			307 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha16 (Código) Secondary Actions: Raise ID: 11
+				308 barra de rolagem (settable, float) Value: 0
+					309 botão Uma coluna à esquerda ID: UpButton
+					310 elevador Posição ID: ScrollbarThumb
+					311 botão Uma página à direita ID: DownPageButton
+					312 botão Uma coluna à direita ID: DownButton
+				313 barra de rolagem (settable, float) Value: 0
+					314 botão Uma linha acima ID: UpButton
+					315 botão Uma página acima ID: UpPageButton
+					316 elevador Posição ID: ScrollbarThumb
+					317 botão Uma página abaixo ID: DownPageButton
+					318 botão Uma linha abaixo ID: DownButton
+				319 elevador (settable, float) Value: 0
+				320 painel ID: 22
+				321 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					322 text (settable, string) Value: (Geral)
+					323 botão Abrir ID: DropDown
+				324 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					325 text (settable, string) Value: (Declaração)
+					326 botão Abrir ID: DropDown
+				327 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha16 (Código)
+					328 barra de menus Sistema ID: MenuBar
+						329 item de menu Janela Documento
+					330 botão Minimizar
+					331 botão Maximizar
+					332 botão Fechar
+				333 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha16 (Código) ID: Painel de Código Inferior do Editor do VBA
+			334 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha18 (Código) Secondary Actions: Raise ID: 12
+				335 barra de rolagem (settable, float) Value: 0
+					336 botão Uma coluna à esquerda ID: UpButton
+					337 elevador Posição ID: ScrollbarThumb
+					338 botão Uma página à direita ID: DownPageButton
+					339 botão Uma coluna à direita ID: DownButton
+				340 barra de rolagem (settable, float) Value: 0
+					341 botão Uma linha acima ID: UpButton
+					342 botão Uma página acima ID: UpPageButton
+					343 elevador Posição ID: ScrollbarThumb
+					344 botão Uma página abaixo ID: DownPageButton
+					345 botão Uma linha abaixo ID: DownButton
+				346 elevador (settable, float) Value: 0
+				347 painel ID: 22
+				348 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					349 text (settable, string) Value: (Geral)
+					350 botão Abrir ID: DropDown
+				351 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					352 text (settable, string) Value: (Declaração)
+					353 botão Abrir ID: DropDown
+				354 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha18 (Código)
+					355 barra de menus Sistema ID: MenuBar
+						356 item de menu Janela Documento
+					357 botão Minimizar
+					358 botão Maximizar
+					359 botão Fechar
+				360 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha18 (Código) ID: Painel de Código Inferior do Editor do VBA
+			361 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha7 (Código) Secondary Actions: Raise ID: 13
+				362 barra de rolagem (settable, float) Value: 0
+					363 botão Uma coluna à esquerda ID: UpButton
+					364 elevador Posição ID: ScrollbarThumb
+					365 botão Uma página à direita ID: DownPageButton
+					366 botão Uma coluna à direita ID: DownButton
+				367 barra de rolagem (settable, float) Value: 0
+					368 botão Uma linha acima ID: UpButton
+					369 botão Uma página acima ID: UpPageButton
+					370 elevador Posição ID: ScrollbarThumb
+					371 botão Uma página abaixo ID: DownPageButton
+					372 botão Uma linha abaixo ID: DownButton
+				373 elevador (settable, float) Value: 0
+				374 painel ID: 22
+				375 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					376 text (settable, string) Value: (Geral)
+					377 botão Abrir ID: DropDown
+				378 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					379 text (settable, string) Value: (Declaração)
+					380 botão Abrir ID: DropDown
+				381 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha7 (Código)
+					382 barra de menus Sistema ID: MenuBar
+						383 item de menu Janela Documento
+					384 botão Minimizar
+					385 botão Maximizar
+					386 botão Fechar
+				387 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha7 (Código) ID: Painel de Código Inferior do Editor do VBA
+			388 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha6 (Código) Secondary Actions: Raise ID: 14
+				389 barra de rolagem (settable, float) Value: 0
+					390 botão Uma coluna à esquerda ID: UpButton
+					391 elevador Posição ID: ScrollbarThumb
+					392 botão Uma página à direita ID: DownPageButton
+					393 botão Uma coluna à direita ID: DownButton
+				394 barra de rolagem (settable, float) Value: 0
+					395 botão Uma linha acima ID: UpButton
+					396 botão Uma página acima ID: UpPageButton
+					397 elevador Posição ID: ScrollbarThumb
+					398 botão Uma página abaixo ID: DownPageButton
+					399 botão Uma linha abaixo ID: DownButton
+				400 elevador (settable, float) Value: 0
+				401 painel ID: 22
+				402 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					403 text (settable, string) Value: (Geral)
+					404 botão Abrir ID: DropDown
+				405 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					406 text (settable, string) Value: (Declaração)
+					407 botão Abrir ID: DropDown
+				408 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha6 (Código)
+					409 barra de menus Sistema ID: MenuBar
+						410 item de menu Janela Documento
+					411 botão Minimizar
+					412 botão Maximizar
+					413 botão Fechar
+				414 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha6 (Código) ID: Painel de Código Inferior do Editor do VBA
+			415 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha9 (Código) Secondary Actions: Raise ID: 15
+				416 barra de rolagem (settable, float) Value: 0
+					417 botão Uma coluna à esquerda ID: UpButton
+					418 elevador Posição ID: ScrollbarThumb
+					419 botão Uma página à direita ID: DownPageButton
+					420 botão Uma coluna à direita ID: DownButton
+				421 barra de rolagem (settable, float) Value: 0
+					422 botão Uma linha acima ID: UpButton
+					423 botão Uma página acima ID: UpPageButton
+					424 elevador Posição ID: ScrollbarThumb
+					425 botão Uma página abaixo ID: DownPageButton
+					426 botão Uma linha abaixo ID: DownButton
+				427 elevador (settable, float) Value: 0
+				428 painel ID: 22
+				429 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					430 text (settable, string) Value: (Geral)
+					431 botão Abrir ID: DropDown
+				432 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					433 text (settable, string) Value: (Declaração)
+					434 botão Abrir ID: DropDown
+				435 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha9 (Código)
+					436 barra de menus Sistema ID: MenuBar
+						437 item de menu Janela Documento
+					438 botão Minimizar
+					439 botão Maximizar
+					440 botão Fechar
+				441 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha9 (Código) ID: Painel de Código Inferior do Editor do VBA
+			442 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha11 (Código) Secondary Actions: Raise ID: 16
+				443 barra de rolagem (settable, float) Value: 0
+					444 botão Uma coluna à esquerda ID: UpButton
+					445 elevador Posição ID: ScrollbarThumb
+					446 botão Uma página à direita ID: DownPageButton
+					447 botão Uma coluna à direita ID: DownButton
+				448 barra de rolagem (settable, float) Value: 0
+					449 botão Uma linha acima ID: UpButton
+					450 botão Uma página acima ID: UpPageButton
+					451 elevador Posição ID: ScrollbarThumb
+					452 botão Uma página abaixo ID: DownPageButton
+					453 botão Uma linha abaixo ID: DownButton
+				454 elevador (settable, float) Value: 0
+				455 painel ID: 22
+				456 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					457 text (settable, string) Value: (Geral)
+					458 botão Abrir ID: DropDown
+				459 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					460 text (settable, string) Value: (Declaração)
+					461 botão Abrir ID: DropDown
+				462 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha11 (Código)
+					463 barra de menus Sistema ID: MenuBar
+						464 item de menu Janela Documento
+					465 botão Minimizar
+					466 botão Maximizar
+					467 botão Fechar
+				468 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha11 (Código) ID: Painel de Código Inferior do Editor do VBA
+			469 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha5 (Código) Secondary Actions: Raise ID: 17
+				470 barra de rolagem (settable, float) Value: 0
+					471 botão Uma coluna à esquerda ID: UpButton
+					472 elevador Posição ID: ScrollbarThumb
+					473 botão Uma página à direita ID: DownPageButton
+					474 botão Uma coluna à direita ID: DownButton
+				475 barra de rolagem (settable, float) Value: 0
+					476 botão Uma linha acima ID: UpButton
+					477 botão Uma página acima ID: UpPageButton
+					478 elevador Posição ID: ScrollbarThumb
+					479 botão Uma página abaixo ID: DownPageButton
+					480 botão Uma linha abaixo ID: DownButton
+				481 elevador (settable, float) Value: 0
+				482 painel ID: 22
+				483 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					484 text (settable, string) Value: (Geral)
+					485 botão Abrir ID: DropDown
+				486 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					487 text (settable, string) Value: (Declaração)
+					488 botão Abrir ID: DropDown
+				489 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha5 (Código)
+					490 barra de menus Sistema ID: MenuBar
+						491 item de menu Janela Documento
+					492 botão Minimizar
+					493 botão Maximizar
+					494 botão Fechar
+				495 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha5 (Código) ID: Painel de Código Inferior do Editor do VBA
+			496 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha8 (Código) Secondary Actions: Raise ID: 18
+				497 barra de rolagem (settable, float) Value: 0
+					498 botão Uma coluna à esquerda ID: UpButton
+					499 elevador Posição ID: ScrollbarThumb
+					500 botão Uma página à direita ID: DownPageButton
+					501 botão Uma coluna à direita ID: DownButton
+				502 barra de rolagem (settable, float) Value: 0
+					503 botão Uma linha acima ID: UpButton
+					504 botão Uma página acima ID: UpPageButton
+					505 elevador Posição ID: ScrollbarThumb
+					506 botão Uma página abaixo ID: DownPageButton
+					507 botão Uma linha abaixo ID: DownButton
+				508 elevador (settable, float) Value: 0
+				509 painel ID: 22
+				510 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					511 text (settable, string) Value: (Geral)
+					512 botão Abrir ID: DropDown
+				513 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					514 text (settable, string) Value: (Declaração)
+					515 botão Abrir ID: DropDown
+				516 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha8 (Código)
+					517 barra de menus Sistema ID: MenuBar
+						518 item de menu Janela Documento
+					519 botão Minimizar
+					520 botão Maximizar
+					521 botão Fechar
+				522 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - Planilha8 (Código) ID: Painel de Código Inferior do Editor do VBA
+			523 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - clsOperacaoPlanilha (Código) Secondary Actions: Raise ID: 19
+				524 barra de rolagem (settable, float) Value: 0
+					525 botão Uma coluna à esquerda ID: UpButton
+					526 elevador Posição ID: ScrollbarThumb
+					527 botão Uma página à direita ID: DownPageButton
+					528 botão Uma coluna à direita ID: DownButton
+				529 barra de rolagem (settable, float) Value: 0
+					530 botão Uma linha acima ID: UpButton
+					531 elevador Posição ID: ScrollbarThumb
+					532 botão Uma página abaixo ID: DownPageButton
+					533 botão Uma linha abaixo ID: DownButton
+				534 elevador (settable, float) Value: 0
+				535 painel ID: 22
+				536 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					537 text (settable, string) Value: (Geral)
+					538 botão Abrir ID: DropDown
+				539 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					540 text (settable, string) Value: (Declaração)
+					541 botão Abrir ID: DropDown
+				542 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - clsOperacaoPlanilha (Código)
+					543 barra de menus Sistema ID: MenuBar
+						544 item de menu Janela Documento
+					545 botão Minimizar
+					546 botão Maximizar
+					547 botão Fechar
+				548 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - clsOperacaoPlanilha (Código) ID: Painel de Código Inferior do Editor do VBA
+			549 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modPrototiposFase7 (Código) Secondary Actions: Raise ID: 20
+				550 barra de rolagem (settable, float) Value: 0
+					551 botão Uma coluna à esquerda ID: UpButton
+					552 elevador Posição ID: ScrollbarThumb
+					553 botão Uma página à direita ID: DownPageButton
+					554 botão Uma coluna à direita ID: DownButton
+				555 barra de rolagem (settable, float) Value: 0
+					556 botão Uma linha acima ID: UpButton
+					557 elevador Posição ID: ScrollbarThumb
+					558 botão Uma página abaixo ID: DownPageButton
+					559 botão Uma linha abaixo ID: DownButton
+				560 elevador (settable, float) Value: 0
+				561 painel ID: 22
+				562 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					563 text (settable, string) Value: (Geral)
+					564 botão Abrir ID: DropDown
+				565 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					566 text (settable, string) Value: (Declaração)
+					567 botão Abrir ID: DropDown
+				568 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modPrototiposFase7 (Código)
+					569 barra de menus Sistema ID: MenuBar
+						570 item de menu Janela Documento
+					571 botão Minimizar
+					572 botão Maximizar
+					573 botão Fechar
+				574 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modPrototiposFase7 (Código) ID: Painel de Código Inferior do Editor do VBA
+			575 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - clsRepositorioFase8 (Código) Secondary Actions: Raise ID: 21
+				576 barra de rolagem (settable, float) Value: 0
+					577 botão Uma coluna à esquerda ID: UpButton
+					578 elevador Posição ID: ScrollbarThumb
+					579 botão Uma página à direita ID: DownPageButton
+					580 botão Uma coluna à direita ID: DownButton
+				581 barra de rolagem (settable, float) Value: 0
+					582 botão Uma linha acima ID: UpButton
+					583 elevador Posição ID: ScrollbarThumb
+					584 botão Uma página abaixo ID: DownPageButton
+					585 botão Uma linha abaixo ID: DownButton
+				586 elevador (settable, float) Value: 0
+				587 painel ID: 22
+				588 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					589 text (settable, string) Value: (Geral)
+					590 botão Abrir ID: DropDown
+				591 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					592 text (settable, string) Value: (Declaração)
+					593 botão Abrir ID: DropDown
+				594 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - clsRepositorioFase8 (Código)
+					595 barra de menus Sistema ID: MenuBar
+						596 item de menu Janela Documento
+					597 botão Minimizar
+					598 botão Maximizar
+					599 botão Fechar
+				600 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - clsRepositorioFase8 (Código) ID: Painel de Código Inferior do Editor do VBA
+			601 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modExperimentosFase8 (Código) Secondary Actions: Raise ID: 22
+				602 barra de rolagem (settable, float) Value: 0
+					603 botão Uma coluna à esquerda ID: UpButton
+					604 elevador Posição ID: ScrollbarThumb
+					605 botão Uma página à direita ID: DownPageButton
+					606 botão Uma coluna à direita ID: DownButton
+				607 barra de rolagem (settable, float) Value: 0
+					608 botão Uma linha acima ID: UpButton
+					609 elevador Posição ID: ScrollbarThumb
+					610 botão Uma página abaixo ID: DownPageButton
+					611 botão Uma linha abaixo ID: DownButton
+				612 elevador (settable, float) Value: 0
+				613 painel ID: 22
+				614 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					615 text (settable, string) Value: (Geral)
+					616 botão Abrir ID: DropDown
+				617 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					618 text (settable, string) Value: (Declaração)
+					619 botão Abrir ID: DropDown
+				620 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modExperimentosFase8 (Código)
+					621 barra de menus Sistema ID: MenuBar
+						622 item de menu Janela Documento
+					623 botão Minimizar
+					624 botão Maximizar
+					625 botão Fechar
+				626 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modExperimentosFase8 (Código) ID: Painel de Código Inferior do Editor do VBA
+			627 janela Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modVerificacaoFase9 (Código) Secondary Actions: Raise ID: 23
+				628 barra de rolagem (settable, float) Value: 0
+					629 botão Uma coluna à esquerda ID: UpButton
+					630 elevador Posição ID: ScrollbarThumb
+					631 botão Uma página à direita ID: DownPageButton
+					632 botão Uma coluna à direita ID: DownButton
+				633 barra de rolagem (settable, float) Value: 0
+					634 botão Uma linha acima ID: UpButton
+					635 elevador Posição ID: ScrollbarThumb
+					636 botão Uma página abaixo ID: DownPageButton
+					637 botão Uma linha abaixo ID: DownButton
+				638 elevador (settable, float) Value: 0
+				639 painel ID: 22
+				640 caixa de combinação (settable, string) Objeto Value: (Geral) ID: 2800
+					641 text (settable, string) Value: (Geral)
+					642 botão Abrir ID: DropDown
+				643 caixa de combinação (settable, string) Procedimento Value: (Declaração) ID: 2801
+					644 text (settable, string) Value: (Declaração)
+					645 botão Abrir ID: DropDown
+				646 barra de título (settable, string) Value: Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modVerificacaoFase9 (Código)
+					647 barra de menus Sistema ID: MenuBar
+						648 item de menu Janela Documento
+					649 botão Minimizar
+					650 botão Maximizar
+					651 botão Fechar
+				652 documento Estoque_Fera_Veiculos_Candidato_Integrado.xlsm - modVerificacaoFase9 (Código) ID: Painel de Código Inferior do Editor do VBA
+		653 painel Projeto - VBAProject
+			654 painel MsoDockTop
+				655 barra de ferramentas Janela de projeto Description: Barra de ferramentas Janela de projeto
+					71889 botão Código
+					71890 botão Objeto
+					71891 botão Alternar pastas
+					71892 item de menu Opções da barra de ferramentas
+			660 árvore Projeto ID: 1
+				5719 barra de rolagem (settable, float) Vertical Value: 20 ID: NonClientVerticalScrollBar
+					5720 botão Uma linha acima ID: UpButton
+					13366 botão Uma página acima ID: UpPageButton
+					5722 elevador Posição ID: ScrollbarThumb
+					64726 botão Uma página abaixo ID: DownPageButton
+					5724 botão Uma linha abaixo ID: DownButton
+				661 barra de rolagem (settable, float) Horizontal Value: 0 ID: NonClientHorizontalScrollBar
+					662 botão Uma coluna à esquerda ID: UpButton
+					663 elevador Posição ID: ScrollbarThumb
+					664 botão Uma página à direita ID: DownPageButton
+					665 botão Uma coluna à direita ID: DownButton
+				5725 elevador (disabled)
+				666 item da árvore (selectable, settable, string) VBAProject (Estoque_Fera_Veiculos_Candidato_Integrad...) Value: VBAProject (Estoque_Fera_Veiculos_Candidato_Integrad...)
+					667 item da árvore (selectable, settable, string) Microsoft Excel Objetos Value: Microsoft Excel Objetos
+						668 item da árvore (selectable, settable, string) EstaPastaDeTrabalho Value: EstaPastaDeTrabalho
+						669 item da árvore (selectable, settable, string) Planilha1 (Entradas) Value: Planilha1 (Entradas)
+						670 item da árvore (selectable, settable, string) Planilha10 (Entradas Anual Filial) Value: Planilha10 (Entradas Anual Filial)
+						671 item da árvore (selectable, settable, string) Planilha11 (Doc. para fora) Value: Planilha11 (Doc. para fora)
+						672 item da árvore (selectable, settable, string) Planilha12 (Menu Principal) Value: Planilha12 (Menu Principal)
+						673 item da árvore (selectable, settable, string) Planilha13 (Transferidos) Value: Planilha13 (Transferidos)
+						674 item da árvore (selectable, settable, string) Planilha15 (Entradas Filial) Value: Planilha15 (Entradas Filial)
+						675 item da árvore (selectable, settable, string) Planilha16 (Saidas Filial) Value: Planilha16 (Saidas Filial)
+						676 item da árvore (selectable, settable, string) Planilha17 (Todas Saidas) Value: Planilha17 (Todas Saidas)
+						677 item da árvore (selectable, settable, string) Planilha18 (Todas Saidas Filial) Value: Planilha18 (Todas Saidas Filial)
+						678 item da árvore (selectable, settable, string) Planilha2 (Saidas) Value: Planilha2 (Saidas)
+						679 item da árvore (selectable, settable, string) Planilha3 (Entradas Anual) Value: Planilha3 (Entradas Anual)
+						680 item da árvore (selectable, settable, string) Planilha4 (Demonstração) Value: Planilha4 (Demonstração)
+						681 item da árvore (selectable, settable, string) Planilha5 (NCM e CEST) Value: Planilha5 (NCM e CEST)
+						682 item da árvore (selectable, settable, string) Planilha6 (Clientes) Value: Planilha6 (Clientes)
+						683 item da árvore (selectable, settable, string) Planilha7 (Carros PF) Value: Planilha7 (Carros PF)
+						684 item da árvore (selectable, settable, string) Planilha8 (Listas) Value: Planilha8 (Listas)
+						685 item da árvore (selectable, settable, string) Planilha9 (Veículos) Value: Planilha9 (Veículos)
+					686 item da árvore (selectable, settable, string) Formulários Value: Formulários
+						9362 item da árvore (selectable, settable, string) Cad_NCM Value: Cad_NCM
+						9363 item da árvore (selectable, settable, string) Cad_NFE Value: Cad_NFE
+						9364 item da árvore (selectable, settable, string) Cad_NFE_Saida Value: Cad_NFE_Saida
+						9365 item da árvore (selectable, settable, string) frmRelatorioXML Value: frmRelatorioXML
+						9366 item da árvore (selectable, settable, string) UserFormFiltro Value: UserFormFiltro
+					687 item da árvore (selectable, settable, string) Módulos Value: Módulos
+						5726 item da árvore (selectable, settable, string) mdlChamarFiltro Value: mdlChamarFiltro
+						5727 item da árvore (selectable, settable, string) mdlChamarForm Value: mdlChamarForm
+						5728 item da árvore (selectable, settable, string) mdlChamarFormDocFora Value: mdlChamarFormDocFora
+						5729 item da árvore (selectable, settable, string) mdlChamarFormNCM Value: mdlChamarFormNCM
+						5730 item da árvore (selectable, settable, string) mdlChamarFormSaida Value: mdlChamarFormSaida
+						5731 item da árvore (selectable, settable, string) mdlChamarFormVeículos Value: mdlChamarFormVeículos
+						5732 item da árvore (selectable, settable, string) mdlChamarTabCan Value: mdlChamarTabCan
+						5733 item da árvore (selectable, settable, string) mdlChamarTabEnt Value: mdlChamarTabEnt
+						5734 item da árvore (selectable, settable, string) mdlChamarTabSai Value: mdlChamarTabSai
+						5735 item da árvore (selectable, settable, string) mdlCondCel Value: mdlCondCel
+						5736 item da árvore (selectable, settable, string) mdlCopiar Value: mdlCopiar
+						5737 item da árvore (selectable, settable, string) mdlCriaBackup Value: mdlCriaBackup
+						5738 item da árvore (selectable, settable, string) mdlCursor Value: mdlCursor
+						5739 item da árvore (selectable, settable, string) mdlMacroConexão Value: mdlMacroConexão
+						5740 item da árvore (selectable, settable, string) mdlMacroConexãoClientes Value: mdlMacroConexãoClientes
+						5741 item da árvore (selectable, settable, string) mdlMacroDocFora Value: mdlMacroDocFora
+						5742 item da árvore (selectable, settable, string) mdlOcultarTítulo Value: mdlOcultarTítulo
+						5743 item da árvore (selectable, settable, string) mdlTelaCheia Value: mdlTelaCheia
+						5744 item da árvore (selectable, settable, string) modCandidatoIntegrado Value: modCandidatoIntegrado
+						5745 item da árvore (selectable, settable, string) modCenariosFase10 Value: modCenariosFase10
+						5746 item da árvore (selectable, settable, string) modExperimentosFase8 Value: modExperimentosFase8
+						5747 item da árvore (selectable, settable, string) modFronteirasFase10 Value: modFronteirasFase10
+						5748 item da árvore (selectable, settable, string) modIntegridadeOperacao Value: modIntegridadeOperacao
+						5749 item da árvore (selectable, settable, string) modPersistenciaFase10 Value: modPersistenciaFase10
+						5750 item da árvore (selectable, settable, string) modPersistenciaFase9 Value: modPersistenciaFase9
+						5751 item da árvore (selectable, settable, string) modPreencherFormulario Value: modPreencherFormulario
+						5752 item da árvore (selectable, settable, string) modPrototiposFase6 Value: modPrototiposFase6
+						5753 item da árvore (selectable, settable, string) modPrototiposFase7 Value: modPrototiposFase7
+						5754 item da árvore (selectable, settable, string) modSeleniumCommon Value: modSeleniumCommon
+						5755 item da árvore (selectable, settable, string) modSeleniumConsultaNFE Value: modSeleniumConsultaNFE
+						5756 item da árvore (selectable, settable, string) modSeleniumRenavamConsulta Value: modSeleniumRenavamConsulta
+						5757 item da árvore (selectable, settable, string) modSelTest Value: modSelTest
+						5758 item da árvore (selectable, settable, string) modTestesAuditoria Value: modTestesAuditoria
+						18439 item da árvore (selectable, settable, string) modTestesEntrega1 Value: modTestesEntrega1
+						5759 item da árvore (selectable, settable, string) modTestesFase2 Value: modTestesFase2
+						5760 item da árvore (selectable, settable, string) modTestesIntegradosFase5 Value: modTestesIntegradosFase5
+						5761 item da árvore (selectable, settable, string) MóduloOfficeRibbonEditor Value: MóduloOfficeRibbonEditor
+						5762 item da árvore (selectable, settable, string) MóduloPesquisa Value: MóduloPesquisa
+						5763 item da árvore (selectable, settable, string) MóduloRemoveFechar Value: MóduloRemoveFechar
+						5764 item da árvore (selectable, settable, string) modValidacaoXML Value: modValidacaoXML
+						5765 item da árvore (selectable, settable, string) modVerificacaoFase9 Value: modVerificacaoFase9
+					688 item da árvore (selectable, settable, string) Módulos de classe Value: Módulos de classe
+				69920 item da árvore (selectable, settable, string) VBAProject (Projecao_C1_19DE97B7-9E4C-4BB1-8D8B-F676...) Value: VBAProject (Projecao_C1_19DE97B7-9E4C-4BB1-8D8B-F676...)
+		689 painel Propriedades - Planilha16
+			65907 editar (settable, string) Value: Planilha16 ID: 4100
+			691 Lista Propriedades ID: Painel de Lista do VBA
+				65908 item de lista (selectable, disabled) (Name) Planilha16 Value: (Name) Planilha16 ID: Item de Lista do VBA
+				68516 item de lista (selectable, disabled) DisplayPageBreaks False Value: DisplayPageBreaks False ID: Item de Lista do VBA
+				68517 item de lista (selectable, disabled) DisplayRightToLeft False Value: DisplayRightToLeft False ID: Item de Lista do VBA
+				68518 item de lista (selectable, disabled) EnableAutoFilter False Value: EnableAutoFilter False ID: Item de Lista do VBA
+				68519 item de lista (selectable, disabled) EnableCalculation True Value: EnableCalculation True ID: Item de Lista do VBA
+				68520 item de lista (selectable, disabled) EnableFormatConditionsCalculation True Value: EnableFormatConditionsCalculation True ID: Item de Lista do VBA
+				68521 item de lista (selectable, disabled) EnableOutlining False Value: EnableOutlining False ID: Item de Lista do VBA
+				68522 item de lista (selectable, disabled) EnablePivotTable False Value: EnablePivotTable False ID: Item de Lista do VBA
+				68523 item de lista (selectable, disabled) EnableSelection 0 - xlNoRestrictions Value: EnableSelection 0 - xlNoRestrictions ID: Item de Lista do VBA
+				68524 item de lista (selectable, disabled) Name Saidas Filial Value: Name Saidas Filial ID: Item de Lista do VBA
+				68525 item de lista (selectable, disabled) ScrollArea Value: ScrollArea ID: Item de Lista do VBA
+				68526 item de lista (selectable, disabled) StandardWidth 8,09 Value: StandardWidth 8,09 ID: Item de Lista do VBA
+				68527 item de lista (selectable, disabled) Visible -1 - xlSheetVisible Value: Visible -1 - xlSheetVisible ID: Item de Lista do VBA
+			732 caixa de combinação (settable, string) Objeto Value: Planilha16 ID: 4096
+				733 text (settable, string) Value: Planilha16
+				734 botão Abrir ID: DropDown
+			735 tabulação Propriedades ID: 4097
+				736 item de tabulação (selectable) Alfabético
+				737 item de tabulação (selectable) Categorizado
+		738 janela Verificação imediata Secondary Actions: Raise
+			739 barra de rolagem (settable, float) Value: 0
+				740 botão Uma coluna à esquerda ID: UpButton
+				741 elevador Posição ID: ScrollbarThumb
+				742 botão Uma página à direita ID: DownPageButton
+				743 botão Uma coluna à direita ID: DownButton
+			744 barra de rolagem (settable, float) Value: 100
+				745 botão Uma linha acima ID: UpButton
+				40598 botão Uma página acima ID: UpPageButton
+				747 elevador Posição ID: ScrollbarThumb
+				749 botão Uma linha abaixo ID: DownButton
+			750 documento Verificação imediata ID: Painel de Código Inferior do Editor do VBA
+		751 painel
+		752 painel
+		753 painel
+		754 barra de título (settable, string) Value: Microsoft Visual Basic for Applications - Estoque_Fera_Veiculos_Candidato_Integrado.xlsm
+			755 barra de menus Sistema ID: MenuBar
+				756 item de menu Sistema
+			757 botão Minimizar
+			758 botão Maximizar
+			759 botão Fechar
+		760 barra de menus Barra de menus Description: Barra de menus
+			71893 item de menu Arquivo
+			71894 item de menu Editar
+			71895 item de menu Exibir
+			71896 item de menu Inserir
+			71897 item de menu Formatar
+			71898 item de menu Depurar
+			71899 item de menu Executar
+			71900 item de menu Ferramentas
+			71901 item de menu Suplementos
+			71902 item de menu Janela
+			71903 item de menu Ajuda
+			71904 caixa de combinação (settable, string) Fazer uma pergunta
+		71905 painel Debug
+		71906 painel Debug
+		71907 painel Debug
+		71908 Menu Debug Description: Menu pop-up Debug
+			71909 item de menu (disabled) Compilar VBAProject
+			71910 item de menu (disabled) Depuração total
+			71911 item de menu (disabled) Depuração parcial
+			71912 item de menu (disabled) Depuração circular
+			71913 item de menu (disabled) Executar até o cursor
+			71914 item de menu Adicionar inspeção de variáveis...
+			71915 item de menu (disabled) Editar inspeção de variáveis...
+			71916 item de menu Inspeção de variáveis rápida...
+			71917 item de menu (disabled) Ativar/desativar pontos de interrupção
+			71918 item de menu Limpar todos os pontos de interrupção
+			71919 item de menu (disabled) Definir próxima instrução
+			71920 item de menu (disabled) Mostrar próxima instrução
+
+Document text: ```
+Call CandidatoReconstruir
+? FormulaC1(4, "MES"), Application.International(xlListSeparator)
+=C1_Campo($AZ4,"MES",$BI$2) ;
+
+? C1_Diagnostico()
+AUDIT=OK;PROJECTION=ERROR:1004:Entradas:r=4:j=9:Erro de definição de aplicativo ou de definição de objeto;REV=1;MOV=1;RECEIPTS=1;ACTIVE=1;PENDING=0
+
+Call E1_Diagnostico
+AUDIT=OK;PROJECTION=VERIFIED;REV=1;MOV=1;RECEIPTS=1;ACTIVE=1;PENDING=0
+Call E1_Venda
+E1_V_VALIDO FAIL SAIDA_RECUSADA_OU_PENDENTE: Valor de origem diverge do banco;AUDIT=OK;PROJECTION=VERIFIED;REV=1;MOV=1;RECEIPTS=1;ACTIVE=1;PENDING=0
+E1_V_IDENTIDADE FAIL AUDIT=OK;PROJECTION=VERIFIED;REV=1;MOV=1;RECEIPTS=1;ACTIVE=1;PENDING=0
+E1_V_CHAVE_TEXTO PASS 01234567890123456789012345678901234567890123
+
+Call E1_IniciarBaseLimpa
+ENTREGA1_INSTALADA
+Call E1_Entrada
+E1_ENTRADA_ERRO FAIL 58:O arquivo já existe;PROJECAO_VERIFICADA; 7F9FB807-EC54-4AB7-ACBD-23695DA7445B
+
+Call E1_Entrada
+E1_ENTRADA_EVENTO PASS ENTRADA_CONFIRMADA; 58BD7A5F-ACE9-43EF-95AD-555CE72B0AA2;AUDIT=OK;PROJECTION=VERIFIED;REV=1;MOV=
+```

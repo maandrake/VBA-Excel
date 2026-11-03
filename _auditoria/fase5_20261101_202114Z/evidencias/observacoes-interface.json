@@ -1,0 +1,34 @@
+{
+  "source": "Transcricao de observacao direta da interface Excel/VBE por CUA, distinta de logs gerados pela suite",
+  "timestamp": "2026-11-01T21:40:14.539Z",
+  "observations": [
+    {
+      "case": "Compilacao final",
+      "observed": "Projeto Fixture_Auditoria_Fase5_Base.xlsm selecionado; menu Depurar > Compilar VBAProject desabilitado; sem erro de compilacao; apos compilacao inicial realizada no VBE."
+    },
+    {
+      "case": "D_FALHA_INTER",
+      "observed": "Pausa antes de Todas Saidas Filial.Activate: Saidas Filial A2=22001, destino historico ainda vazio; valor entrada alterado para ABC apenas pelo teste; erro 13 e mensagem de compensacao antes Delete."
+    },
+    {
+      "case": "T_FALHA_INTER",
+      "observed": "Pausa antes de Todas Saidas.Activate: Saidas A2=22001; Entradas Filial A7=22001; Entradas Anual Filial A7=22001; Todas Saidas A2 vazio."
+    },
+    {
+      "case": "D_FALHA_BAIXA",
+      "observed": "Erro 1004 em Delete com origem protegida pelo auxiliar de teste. Mensagem: Baixa estrutural iniciada: conciliacao manual obrigatoria antes de nova tentativa."
+    },
+    {
+      "case": "A09_CicloVida",
+      "observed": "Erro esperado -2147219404, Operacao ja iniciada, interrompido dentro da classe pelo depurador. Uma continuacao repetiu a parada; escolhido Fim; sem alteracao de configuracao e sem resultado PASS."
+    },
+    {
+      "case": "XML relatorios",
+      "observed": "vazio/numerico_invalido/overflow: Erros 3, Avisos 0; soma_divergente/tributos_divergentes: Erros 1, Avisos 0; valido/multiplos_itens/tributos: XML VALIDADO. Casos estruturais rejeitados por mensagem."
+    },
+    {
+      "case": "Encerramento",
+      "observed": "Base Fase5 fechada pela interface Excel Ctrl+W; janela Excel vazia com comandos de celulas desabilitados; nenhum encerramento global de instancia."
+    }
+  ]
+}

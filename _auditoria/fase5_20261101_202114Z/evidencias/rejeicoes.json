@@ -1,0 +1,50 @@
+[
+  {
+    "cenario": "C_DUP",
+    "cells": 7560,
+    "identico": true,
+    "result": "﻿Cenario=C_DUP\r\nWorkbook=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\C_DUP\\Fixture_Auditoria_Fase5_C_DUP.xlsm\r\nStatus=Número da NFe já cadastrado!\r\nEnableEvents=Verdadeiro\r\nScreenUpdating=Verdadeiro\r\nDisplayAlerts=Verdadeiro\r\nCalculation=-4105\r\n"
+  },
+  {
+    "cenario": "C_VAZIO",
+    "cells": 7560,
+    "identico": true,
+    "result": "﻿Cenario=C_VAZIO\r\nWorkbook=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\C_VAZIO\\Fixture_Auditoria_Fase5_C_VAZIO.xlsm\r\nStatus=Gravação cancelada: número não informado.\r\nEnableEvents=Verdadeiro\r\nScreenUpdating=Verdadeiro\r\nDisplayAlerts=Verdadeiro\r\nCalculation=-4105\r\n"
+  },
+  {
+    "cenario": "C_VALOR",
+    "cells": 7560,
+    "identico": true,
+    "result": "﻿Cenario=C_VALOR\r\nWorkbook=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\C_VALOR\\Fixture_Auditoria_Fase5_C_VALOR.xlsm\r\nStatus=A gravação foi interrompida por um erro.\r\nEnableEvents=Verdadeiro\r\nScreenUpdating=Verdadeiro\r\nDisplayAlerts=Verdadeiro\r\nCalculation=-4105\r\n"
+  },
+  {
+    "cenario": "C_DATA",
+    "cells": 7560,
+    "identico": true,
+    "result": "﻿Cenario=C_DATA\r\nWorkbook=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\C_DATA\\Fixture_Auditoria_Fase5_C_DATA.xlsm\r\nStatus=A gravação foi interrompida por um erro.\r\nEnableEvents=Verdadeiro\r\nScreenUpdating=Verdadeiro\r\nDisplayAlerts=Verdadeiro\r\nCalculation=-4105\r\n"
+  },
+  {
+    "cenario": "D_DUP",
+    "cells": 7560,
+    "identico": true,
+    "result": "﻿Cenario=D_DUP\r\nWorkbook=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\D_DUP\\Fixture_Auditoria_Fase5_D_DUP.xlsm\r\nStatus=Numero da NFe já cadastrado!\r\nEnableEvents=Verdadeiro\r\nScreenUpdating=Verdadeiro\r\nDisplayAlerts=Verdadeiro\r\nCalculation=-4105\r\n"
+  },
+  {
+    "cenario": "D_SEMORIGEM",
+    "cells": 7560,
+    "identico": true,
+    "result": "﻿Cenario=D_SEMORIGEM\r\nWorkbook=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\D_SEMORIGEM\\Fixture_Auditoria_Fase5_D_SEMORIGEM.xlsm\r\nStatus=Bem vindo...\r\nEnableEvents=Verdadeiro\r\nScreenUpdating=Verdadeiro\r\nDisplayAlerts=Verdadeiro\r\nCalculation=-4105\r\n"
+  },
+  {
+    "cenario": "D_VALOR",
+    "cells": 7560,
+    "identico": true,
+    "result": "﻿Cenario=D_VALOR\r\nWorkbook=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\D_VALOR\\Fixture_Auditoria_Fase5_D_VALOR.xlsm\r\nStatus=Bem vindo...\r\nEnableEvents=Verdadeiro\r\nScreenUpdating=Verdadeiro\r\nDisplayAlerts=Verdadeiro\r\nCalculation=-4105\r\n"
+  },
+  {
+    "cenario": "D_DATA",
+    "cells": 7560,
+    "identico": true,
+    "result": "﻿Cenario=D_DATA\r\nWorkbook=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\D_DATA\\Fixture_Auditoria_Fase5_D_DATA.xlsm\r\nStatus=Bem vindo...\r\nEnableEvents=Verdadeiro\r\nScreenUpdating=Verdadeiro\r\nDisplayAlerts=Verdadeiro\r\nCalculation=-4105\r\n"
+  }
+]

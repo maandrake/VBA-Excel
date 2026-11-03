@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-11-02T03:22:11.458Z",
+  "mechanism": "VBE nativo, Alt+D Compilar VBAProject; menu desabilitado apos compilar e reabrir, sem erro",
+  "source": "Transcricao de observacao direta da interface, sem screenshot persistido",
+  "components": 58,
+  "standardModules": 33,
+  "classes": 2,
+  "userForms": 5,
+  "documentModules": 18,
+  "sheets": [
+    "Menu Principal",
+    "Entradas",
+    "Transferidos",
+    "Entradas Anual",
+    "Demonstração",
+    "Saidas",
+    "Todas Saidas",
+    "Entradas Filial",
+    "Entradas Anual Filial",
+    "Saidas Filial",
+    "Todas Saidas Filial",
+    "Carros PF",
+    "Clientes",
+    "Veículos",
+    "Doc. para fora",
+    "NCM e CEST",
+    "Listas"
+  ],
+  "sha256": "c7858e3682403f719784db4f817dcd7810ee1ff617fb6c3a7d647d8050d16b1a",
+  "executed": [
+    "F7_Leitores",
+    "F7_PrepararFrio",
+    "F7_RetestarFormulas",
+    "F7_VerificarFrio"
+  ],
+  "readProbeCOM": false,
+  "securityModified": false,
+  "principalIntegrated": false,
+  "coldFixtureInventory": [
+    {
+      "case": "OK",
+      "components": 63,
+      "sheets": 23
+    },
+    {
+      "case": "BAIXA",
+      "components": 63,
+      "sheets": 23
+    },
+    {
+      "case": "COMPENSACAO",
+      "components": 63,
+      "sheets": 23
+    }
+  ]
+}

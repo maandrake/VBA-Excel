@@ -1,0 +1,812 @@
+{
+  "timestamp": "2026-11-01T17:54:39.809Z",
+  "attributes": [
+    {
+      "module": "clsOperacaoPlanilha",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"clsOperacaoPlanilha\"",
+          "actual": "\"clsOperacaoPlanilha\""
+        },
+        {
+          "name": "VB_GlobalNameSpace",
+          "expected": "False",
+          "actual": "False"
+        },
+        {
+          "name": "VB_Creatable",
+          "expected": "False",
+          "actual": "False"
+        },
+        {
+          "name": "VB_PredeclaredId",
+          "expected": "False",
+          "actual": "False"
+        },
+        {
+          "name": "VB_Exposed",
+          "expected": "False",
+          "actual": "False"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "modIntegridadeOperacao",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"modIntegridadeOperacao\"",
+          "actual": "\"modIntegridadeOperacao\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlChamarFiltro",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlChamarFiltro\"",
+          "actual": "\"mdlChamarFiltro\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlChamarTabCan",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlChamarTabCan\"",
+          "actual": "\"mdlChamarTabCan\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlChamarTabEnt",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlChamarTabEnt\"",
+          "actual": "\"mdlChamarTabEnt\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlChamarTabSai",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlChamarTabSai\"",
+          "actual": "\"mdlChamarTabSai\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlCondCel",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlCondCel\"",
+          "actual": "\"mdlCondCel\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlCopiar",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlCopiar\"",
+          "actual": "\"mdlCopiar\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlCriaBackup",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlCriaBackup\"",
+          "actual": "\"mdlCriaBackup\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlCursor",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlCursor\"",
+          "actual": "\"mdlCursor\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlMacroConexão",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlMacroConexão\"",
+          "actual": "\"mdlMacroConexão\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlMacroConexãoClientes",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlMacroConexãoClientes\"",
+          "actual": "\"mdlMacroConexãoClientes\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlMacroDocFora",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlMacroDocFora\"",
+          "actual": "\"mdlMacroDocFora\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlOcultarTítulo",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlOcultarTítulo\"",
+          "actual": "\"mdlOcultarTítulo\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlTelaCheia",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlTelaCheia\"",
+          "actual": "\"mdlTelaCheia\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "modSeleniumCommon",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"modSeleniumCommon\"",
+          "actual": "\"modSeleniumCommon\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "modSeleniumConsultaNFE",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"modSeleniumConsultaNFE\"",
+          "actual": "\"modSeleniumConsultaNFE\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "modSeleniumRenavamConsulta",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"modSeleniumRenavamConsulta\"",
+          "actual": "\"modSeleniumRenavamConsulta\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "modSelTest",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"modSelTest\"",
+          "actual": "\"modSelTest\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "MóduloOfficeRibbonEditor",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"MóduloOfficeRibbonEditor\"",
+          "actual": "\"MóduloOfficeRibbonEditor\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "MóduloPesquisa",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"MóduloPesquisa\"",
+          "actual": "\"MóduloPesquisa\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "MóduloRemoveFechar",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"MóduloRemoveFechar\"",
+          "actual": "\"MóduloRemoveFechar\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "modValidacaoXML",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"modValidacaoXML\"",
+          "actual": "\"modValidacaoXML\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "Cad_NCM",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"Cad_NCM\"",
+          "actual": "\"Cad_NCM\""
+        },
+        {
+          "name": "VB_GlobalNameSpace",
+          "expected": "False",
+          "actual": "False"
+        },
+        {
+          "name": "VB_Creatable",
+          "expected": "False",
+          "actual": "False"
+        },
+        {
+          "name": "VB_PredeclaredId",
+          "expected": "True",
+          "actual": "True"
+        },
+        {
+          "name": "VB_Exposed",
+          "expected": "False",
+          "actual": "False"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "Cad_NFE",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"Cad_NFE\"",
+          "actual": "\"Cad_NFE\""
+        },
+        {
+          "name": "VB_GlobalNameSpace",
+          "expected": "False",
+          "actual": "False"
+        },
+        {
+          "name": "VB_Creatable",
+          "expected": "False",
+          "actual": "False"
+        },
+        {
+          "name": "VB_PredeclaredId",
+          "expected": "True",
+          "actual": "True"
+        },
+        {
+          "name": "VB_Exposed",
+          "expected": "False",
+          "actual": "False"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"Cad_NFE_Saida\"",
+          "actual": "\"Cad_NFE_Saida\""
+        },
+        {
+          "name": "VB_GlobalNameSpace",
+          "expected": "False",
+          "actual": "False"
+        },
+        {
+          "name": "VB_Creatable",
+          "expected": "False",
+          "actual": "False"
+        },
+        {
+          "name": "VB_PredeclaredId",
+          "expected": "True",
+          "actual": "True"
+        },
+        {
+          "name": "VB_Exposed",
+          "expected": "False",
+          "actual": "False"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "frmRelatorioXML",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"frmRelatorioXML\"",
+          "actual": "\"frmRelatorioXML\""
+        },
+        {
+          "name": "VB_GlobalNameSpace",
+          "expected": "False",
+          "actual": "False"
+        },
+        {
+          "name": "VB_Creatable",
+          "expected": "False",
+          "actual": "False"
+        },
+        {
+          "name": "VB_PredeclaredId",
+          "expected": "True",
+          "actual": "True"
+        },
+        {
+          "name": "VB_Exposed",
+          "expected": "False",
+          "actual": "False"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlChamarForm",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlChamarForm\"",
+          "actual": "\"mdlChamarForm\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlChamarFormDocFora",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlChamarFormDocFora\"",
+          "actual": "\"mdlChamarFormDocFora\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlChamarFormNCM",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlChamarFormNCM\"",
+          "actual": "\"mdlChamarFormNCM\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlChamarFormSaida",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlChamarFormSaida\"",
+          "actual": "\"mdlChamarFormSaida\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "mdlChamarFormVeículos",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"mdlChamarFormVeículos\"",
+          "actual": "\"mdlChamarFormVeículos\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "modPreencherFormulario",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"modPreencherFormulario\"",
+          "actual": "\"modPreencherFormulario\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "UserFormFiltro",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"UserFormFiltro\"",
+          "actual": "\"UserFormFiltro\""
+        },
+        {
+          "name": "VB_GlobalNameSpace",
+          "expected": "False",
+          "actual": "False"
+        },
+        {
+          "name": "VB_Creatable",
+          "expected": "False",
+          "actual": "False"
+        },
+        {
+          "name": "VB_PredeclaredId",
+          "expected": "True",
+          "actual": "True"
+        },
+        {
+          "name": "VB_Exposed",
+          "expected": "False",
+          "actual": "False"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "AuditoriaListaFake",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"AuditoriaListaFake\"",
+          "actual": "\"AuditoriaListaFake\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "modTestesAuditoria",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"modTestesAuditoria\"",
+          "actual": "\"modTestesAuditoria\""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "module": "modTestesFase2",
+      "attributes": [
+        {
+          "name": "VB_Name",
+          "expected": "\"modTestesFase2\"",
+          "actual": "\"modTestesFase2\""
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "sourceDifferences": [
+    {
+      "relative": "MDL\\clsOperacaoPlanilha.cls",
+      "phase3": "a6621e394e9111ba3419cbb0b792b8f821bb8a003060baacb7d1d4fd2824b40e",
+      "phase4": "f7867223784bb49b966a81a87ac682b27af3886ff1e51bf4ee8942a8fb7de73f",
+      "same": false,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlChamarFiltro.bas",
+      "phase3": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "phase4": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlChamarForm.bas",
+      "phase3": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1",
+      "phase4": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlChamarFormDocFora.bas",
+      "phase3": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "phase4": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlChamarFormNCM.bas",
+      "phase3": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "phase4": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlChamarFormSaida.bas",
+      "phase3": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea",
+      "phase4": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlChamarFormVeículos.bas",
+      "phase3": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "phase4": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlChamarTabCan.bas",
+      "phase3": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+      "phase4": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlChamarTabEnt.bas",
+      "phase3": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+      "phase4": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlChamarTabSai.bas",
+      "phase3": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+      "phase4": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlCondCel.bas",
+      "phase3": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88",
+      "phase4": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlCopiar.bas",
+      "phase3": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "phase4": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlCriaBackup.bas",
+      "phase3": "252d5c896167a78649855a4480cf8b353315b834350ac19653789682958bd87e",
+      "phase4": "252d5c896167a78649855a4480cf8b353315b834350ac19653789682958bd87e",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlCursor.bas",
+      "phase3": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "phase4": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlMacroConexão.bas",
+      "phase3": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+      "phase4": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlMacroConexãoClientes.bas",
+      "phase3": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+      "phase4": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlMacroDocFora.bas",
+      "phase3": "efb80d365c274f0de6991f4110fe96f5f2017caffaeec0b94f07d0882e8838bc",
+      "phase4": "efb80d365c274f0de6991f4110fe96f5f2017caffaeec0b94f07d0882e8838bc",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlOcultarTítulo.bas",
+      "phase3": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "phase4": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\mdlTelaCheia.bas",
+      "phase3": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "phase4": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\modIntegridadeOperacao.bas",
+      "phase3": "3591b877a4b21a959ba5e77a7475e970aea8a8cbd1ea9a956bdd6ffc3c4d2d3f",
+      "phase4": "3591b877a4b21a959ba5e77a7475e970aea8a8cbd1ea9a956bdd6ffc3c4d2d3f",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\modPreencherFormulario.bas",
+      "phase3": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742",
+      "phase4": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\modSeleniumCommon.bas",
+      "phase3": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+      "phase4": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\modSeleniumConsultaNFE.bas",
+      "phase3": "1519876036a17fa65ea9407eff4b8b78aec9f7b1dc749fc5f5d77fba8fac35c1",
+      "phase4": "1519876036a17fa65ea9407eff4b8b78aec9f7b1dc749fc5f5d77fba8fac35c1",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\modSeleniumRenavamConsulta.bas",
+      "phase3": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "phase4": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\modSelTest.bas",
+      "phase3": "da8ccd8a4bf91350b1250b1b79602ee18ceabca03da7bafa3a694e1e17539ba5",
+      "phase4": "da8ccd8a4bf91350b1250b1b79602ee18ceabca03da7bafa3a694e1e17539ba5",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\modValidacaoXML.bas",
+      "phase3": "a9b10bc5d7a6dea0dd2bb854439147610aeaa5c16ff49bae325285d8fc37c264",
+      "phase4": "a9b10bc5d7a6dea0dd2bb854439147610aeaa5c16ff49bae325285d8fc37c264",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\MóduloOfficeRibbonEditor.bas",
+      "phase3": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2",
+      "phase4": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\MóduloPesquisa.bas",
+      "phase3": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "phase4": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "MDL\\MóduloRemoveFechar.bas",
+      "phase3": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "phase4": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "Form\\Cad_NCM.frm",
+      "phase3": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027",
+      "phase4": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "Form\\Cad_NCM.frx",
+      "phase3": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "phase4": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "same": true,
+      "crlfOnly": null,
+      "note": "Binário FRX: CRLF não se aplica"
+    },
+    {
+      "relative": "Form\\Cad_NFE.frm",
+      "phase3": "81b0ea767b26af67d0addff843b7f3dee412e359fc288c0fa1a6ef675f83f83f",
+      "phase4": "81b0ea767b26af67d0addff843b7f3dee412e359fc288c0fa1a6ef675f83f83f",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "Form\\Cad_NFE.frx",
+      "phase3": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "phase4": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "same": true,
+      "crlfOnly": null,
+      "note": "Binário FRX: CRLF não se aplica"
+    },
+    {
+      "relative": "Form\\Cad_NFE_Saida.frm",
+      "phase3": "495af9524850ba0b25031263ca0022c92313e7289da4ea42df5e17782b0bc726",
+      "phase4": "495af9524850ba0b25031263ca0022c92313e7289da4ea42df5e17782b0bc726",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "Form\\Cad_NFE_Saida.frx",
+      "phase3": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "phase4": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "same": true,
+      "crlfOnly": null,
+      "note": "Binário FRX: CRLF não se aplica"
+    },
+    {
+      "relative": "Form\\frmRelatorioXML.frm",
+      "phase3": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "phase4": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "Form\\frmRelatorioXML.frx",
+      "phase3": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "phase4": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "same": true,
+      "crlfOnly": null,
+      "note": "Binário FRX: CRLF não se aplica"
+    },
+    {
+      "relative": "Form\\UserFormFiltro.frm",
+      "phase3": "5b4786291a713de25452dd4ac4446c03a70db09b418d29b00dd57af311df1eb1",
+      "phase4": "5b4786291a713de25452dd4ac4446c03a70db09b418d29b00dd57af311df1eb1",
+      "same": true,
+      "crlfOnly": true
+    },
+    {
+      "relative": "Form\\UserFormFiltro.frx",
+      "phase3": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "phase4": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "same": true,
+      "crlfOnly": null,
+      "note": "Binário FRX: CRLF não se aplica"
+    }
+  ]
+}

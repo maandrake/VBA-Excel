@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-11-01T16:41:38.145Z",
+  "integrationSaved": true,
+  "components": 55,
+  "sourceComparison": 37,
+  "documentBodies": 18,
+  "compilation": "PASS: Depurar > Compilar, comando desabilitado após execução; após C4-01/C4-02",
+  "tests": [
+    {
+      "name": "Auditoria_ExecutarTestesSeguros",
+      "mode": "Execução funcional VBA",
+      "status": "PASS",
+      "assertions": 9
+    },
+    {
+      "name": "AuditoriaFase2_Executar",
+      "mode": "Execução funcional VBA",
+      "status": "PASS",
+      "assertions": 377
+    },
+    {
+      "name": "AuditoriaFase3_CicloVida",
+      "mode": "Execução funcional VBA",
+      "status": "BLOQUEADO",
+      "reason": "Erro intencional vbObjectError + 2100 interceptado pela opção VBE Interromper em módulo de classe; sem retorno PASS"
+    }
+  ],
+  "states": {
+    "EnableEvents": true,
+    "ScreenUpdating": true,
+    "DisplayAlerts": true,
+    "Calculation": -4105
+  },
+  "securityChanged": false
+}

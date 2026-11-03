@@ -1,0 +1,21 @@
+{
+  "provider": "Microsoft.ACE.OLEDB.16.0",
+  "ado": "10.0",
+  "excelVersion": "16.0.20527.20112",
+  "aceVersion": "16.0.20527.20016",
+  "architecture": "x64; ADODB em processo PowerShell64 e VBA PtrSafe",
+  "installation": false,
+  "securityChanges": false,
+  "userExcelPIDPreserved": 42180,
+  "testExcelPID": 52068,
+  "officialSources": [
+    {
+      "url": "https://support.microsoft.com/en-us/access/download-and-install-microsoft-365-access-runtime",
+      "note": "Runtime atual inclui ADE; distribuição requer verificação de termos e arquitetura no destino"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/download/details.aspx?id=54920",
+      "note": "Redistributable2016 encerrou suporte em14/10/2025; não confundir ACE16 C2R instalado com esse pacote legado"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "procedure": "Root9X",
+  "error": 5,
+  "message": "Fixture TEMP F9 exigida",
+  "cause": "Marker checked on 8.3 short folder name instead of original path",
+  "testExecuted": false,
+  "fix": "Check marker on ThisWorkbook.Path; retain normalized short path containment and OneDrive exclusion"
+}

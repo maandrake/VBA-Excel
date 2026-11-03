@@ -1,0 +1,113 @@
+{
+  "method": "Somente Call explicito; nao resolve todo VBA ou membros COM",
+  "calls": [
+    {
+      "file": "Form\\Cad_NCM.frm",
+      "line": 162,
+      "target": "PreencheLista",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "Form\\Cad_NCM.frm",
+      "line": 168,
+      "target": "PreencheCampos",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "Form\\Cad_NCM.frm",
+      "line": 219,
+      "target": "PreencheCabecalho",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "Form\\Cad_NFE.frm",
+      "line": 30,
+      "target": "RemoveBotao",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "Form\\Cad_NFE.frm",
+      "line": 120,
+      "target": "CommandButtonDetranNetBIN_Handler",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "Form\\Cad_NFE.frm",
+      "line": 1168,
+      "target": "SaveWorkbookBackup",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frm",
+      "line": 25,
+      "target": "PreencheCampos",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frm",
+      "line": 26,
+      "target": "PreencheCampos2",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frm",
+      "line": 397,
+      "target": "SaveWorkbookBackup",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frm",
+      "line": 2374,
+      "target": "PreencheLista",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frm",
+      "line": 2425,
+      "target": "PreencheCabecalho",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frm",
+      "line": 2538,
+      "target": "PreencheLista2",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frm",
+      "line": 2589,
+      "target": "PreencheCabecalho2",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "MDL\\mdlOcultarTítulo.bas",
+      "line": 30,
+      "target": "SetWindowLong",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "MDL\\mdlOcultarTítulo.bas",
+      "line": 31,
+      "target": "DrawMenuBar",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "MDL\\modSeleniumConsultaNFE.bas",
+      "line": 467,
+      "target": "ShowWindow",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "MDL\\modSelTest.bas",
+      "line": 713,
+      "target": "DetectSeleniumInstall",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    },
+    {
+      "file": "MDL\\modSelTest.bas",
+      "line": 1059,
+      "target": "DetectSeleniumInstall",
+      "status": "DEFINICAO_LOCAL_OU_API_ENCONTRADA"
+    }
+  ]
+}

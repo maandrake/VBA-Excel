@@ -1,0 +1,4 @@
+2026-11-02
+VBA real Candidato2_AtualizarContrato: schema6/revisao5 persistidos; CandidatoReconstruir falhou: Verificacao em memoria: MONEY_FORMAT.
+Mensagem original consultada: MIGRACAO_PENDENTE_CONCILIACAO: 5:Verificacao em memoria: MONEY_FORMAT.
+Erro secundario 3704 no fechamento de c ja fechado no handler. Fatos nao reexecutados.

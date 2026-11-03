@@ -1,0 +1,24 @@
+{
+  "process64": true,
+  "registered": [
+    "ADODB.Connection",
+    "ADOX.Catalog",
+    "DAO.DBEngine.120",
+    "Microsoft.ACE.OLEDB.12.0",
+    "Microsoft.ACE.OLEDB.16.0",
+    "Microsoft.Jet.OLEDB.4.0"
+  ],
+  "probe": {
+    "modality": "COM ADO PowerShell; nao VBA",
+    "path": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase9_20261102_142753Z\\sondagem_ace.accdb",
+    "provider": "Microsoft.ACE.OLEDB.16.0",
+    "adoVersion": "10.0",
+    "dbmsVersion": "04.00.0000",
+    "dll": "C:/Program Files/Microsoft Office/root/VFS/ProgramFilesCommonX64/Microsoft Shared/Office16/ACEOLEDB.DLL",
+    "fileVersion": "16.0.20527.20016",
+    "transactionLevel": 1,
+    "rowsAfterRollback": 0,
+    "result": "PASS"
+  },
+  "limits": "Registration is not runtime verification for untested providers. No installation, no security change."
+}

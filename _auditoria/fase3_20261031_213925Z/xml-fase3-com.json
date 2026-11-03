@@ -1,0 +1,287 @@
+﻿{
+    "Timestamp":  "2026-10-31T18:55:02.7253701-03:00",
+    "Modality":  "MSXML e RegExp COM; conversao/somatorio/erros modelados em .NET, nao e ValidarXMLNFe",
+    "FiscalRulesExecuted":  false,
+    "Results":  [
+                    {
+                        "ParserReason":  null,
+                        "StructureAccepted":  true,
+                        "Name":  "ValidoEstruturalDoisItens",
+                        "Parsed":  true,
+                        "ReportVbaExecuted":  false,
+                        "Status":  "PASS",
+                        "NumericErrors":  [
+
+                                          ],
+                        "Sums":  {
+                                     "vCOFINS":  {
+                                                     "Matches":  true,
+                                                     "XmlTotal":  1.5,
+                                                     "Sum":  1.5
+                                                 },
+                                     "vICMS":  {
+                                                   "Matches":  true,
+                                                   "XmlTotal":  3.3,
+                                                   "Sum":  3.3000000000000003
+                                               },
+                                     "vProd":  {
+                                                   "Matches":  true,
+                                                   "XmlTotal":  300,
+                                                   "Sum":  300
+                                               },
+                                     "vPIS":  {
+                                                  "Matches":  true,
+                                                  "XmlTotal":  0.3,
+                                                  "Sum":  0.30000000000000004
+                                              },
+                                     "vBC":  {
+                                                 "Matches":  true,
+                                                 "XmlTotal":  150,
+                                                 "Sum":  150
+                                             }
+                                 }
+                    },
+                    {
+                        "ParserReason":  "A marca de fim\u0027 NFe\u0027 não coincide com a marca de início \u0027infNFe\u0027.\r\n",
+                        "StructureAccepted":  false,
+                        "Name":  "Malformado",
+                        "Parsed":  false,
+                        "ReportVbaExecuted":  false,
+                        "Status":  "PASS",
+                        "NumericErrors":  [
+
+                                          ],
+                        "Sums":  {
+
+                                 }
+                    },
+                    {
+                        "ParserReason":  null,
+                        "StructureAccepted":  false,
+                        "Name":  "SemInfNFe",
+                        "Parsed":  true,
+                        "ReportVbaExecuted":  false,
+                        "Status":  "PASS",
+                        "NumericErrors":  [
+
+                                          ],
+                        "Sums":  {
+
+                                 }
+                    },
+                    {
+                        "ParserReason":  null,
+                        "StructureAccepted":  false,
+                        "Name":  "MultiplosInfNFe",
+                        "Parsed":  true,
+                        "ReportVbaExecuted":  false,
+                        "Status":  "PASS",
+                        "NumericErrors":  [
+
+                                          ],
+                        "Sums":  {
+
+                                 }
+                    },
+                    {
+                        "ParserReason":  null,
+                        "StructureAccepted":  false,
+                        "Name":  "ChaveInvalida",
+                        "Parsed":  true,
+                        "ReportVbaExecuted":  false,
+                        "Status":  "PASS",
+                        "NumericErrors":  [
+
+                                          ],
+                        "Sums":  {
+
+                                 }
+                    },
+                    {
+                        "ParserReason":  null,
+                        "StructureAccepted":  false,
+                        "Name":  "NumeroInvalido",
+                        "Parsed":  true,
+                        "ReportVbaExecuted":  false,
+                        "Status":  "PASS",
+                        "NumericErrors":  [
+
+                                          ],
+                        "Sums":  {
+
+                                 }
+                    },
+                    {
+                        "ParserReason":  null,
+                        "StructureAccepted":  false,
+                        "Name":  "NumeroZero",
+                        "Parsed":  true,
+                        "ReportVbaExecuted":  false,
+                        "Status":  "PASS",
+                        "NumericErrors":  [
+
+                                          ],
+                        "Sums":  {
+
+                                 }
+                    },
+                    {
+                        "ParserReason":  null,
+                        "StructureAccepted":  false,
+                        "Name":  "NumeroLongo",
+                        "Parsed":  true,
+                        "ReportVbaExecuted":  false,
+                        "Status":  "PASS",
+                        "NumericErrors":  [
+
+                                          ],
+                        "Sums":  {
+
+                                 }
+                    },
+                    {
+                        "ParserReason":  null,
+                        "StructureAccepted":  true,
+                        "Name":  "ValorInvalidoSegundoItem",
+                        "Parsed":  true,
+                        "ReportVbaExecuted":  false,
+                        "Status":  "PASS",
+                        "NumericErrors":  [
+                                              {
+                                                  "Field":  "vPIS",
+                                                  "Message":  "Valor numerico no somatorio",
+                                                  "ExpectedVbaState":  "INCORRETO (pendente de execucao real)",
+                                                  "Text":  "ABC"
+                                              }
+                                          ],
+                        "Sums":  {
+                                     "vCOFINS":  {
+                                                     "Matches":  true,
+                                                     "XmlTotal":  1.5,
+                                                     "Sum":  1.5
+                                                 },
+                                     "vICMS":  {
+                                                   "Matches":  true,
+                                                   "XmlTotal":  3.3,
+                                                   "Sum":  3.3000000000000003
+                                               },
+                                     "vProd":  {
+                                                   "Matches":  true,
+                                                   "XmlTotal":  300,
+                                                   "Sum":  300
+                                               },
+                                     "vPIS":  {
+                                                  "Matches":  false,
+                                                  "XmlTotal":  0.3,
+                                                  "Sum":  0.1
+                                              },
+                                     "vBC":  {
+                                                 "Matches":  true,
+                                                 "XmlTotal":  150,
+                                                 "Sum":  150
+                                             }
+                                 }
+                    },
+                    {
+                        "ParserReason":  null,
+                        "StructureAccepted":  true,
+                        "Name":  "ValorVazioSegundoItem",
+                        "Parsed":  true,
+                        "ReportVbaExecuted":  false,
+                        "Status":  "PASS",
+                        "NumericErrors":  [
+                                              {
+                                                  "Field":  "vPIS",
+                                                  "Message":  "Valor numerico no somatorio",
+                                                  "ExpectedVbaState":  "INCORRETO (pendente de execucao real)",
+                                                  "Text":  ""
+                                              }
+                                          ],
+                        "Sums":  {
+                                     "vCOFINS":  {
+                                                     "Matches":  true,
+                                                     "XmlTotal":  1.5,
+                                                     "Sum":  1.5
+                                                 },
+                                     "vICMS":  {
+                                                   "Matches":  true,
+                                                   "XmlTotal":  3.3,
+                                                   "Sum":  3.3000000000000003
+                                               },
+                                     "vProd":  {
+                                                   "Matches":  true,
+                                                   "XmlTotal":  300,
+                                                   "Sum":  300
+                                               },
+                                     "vPIS":  {
+                                                  "Matches":  false,
+                                                  "XmlTotal":  0.3,
+                                                  "Sum":  0.1
+                                              },
+                                     "vBC":  {
+                                                 "Matches":  true,
+                                                 "XmlTotal":  150,
+                                                 "Sum":  150
+                                             }
+                                 }
+                    },
+                    {
+                        "ParserReason":  null,
+                        "StructureAccepted":  true,
+                        "Name":  "OverflowSegundoItem",
+                        "Parsed":  true,
+                        "ReportVbaExecuted":  false,
+                        "Status":  "PASS",
+                        "NumericErrors":  [
+                                              {
+                                                  "Field":  "vPIS",
+                                                  "Message":  "Valor numerico no somatorio",
+                                                  "ExpectedVbaState":  "INCORRETO (pendente de execucao real)",
+                                                  "Text":  "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999"
+                                              }
+                                          ],
+                        "Sums":  {
+                                     "vCOFINS":  {
+                                                     "Matches":  true,
+                                                     "XmlTotal":  1.5,
+                                                     "Sum":  1.5
+                                                 },
+                                     "vICMS":  {
+                                                   "Matches":  true,
+                                                   "XmlTotal":  3.3,
+                                                   "Sum":  3.3000000000000003
+                                               },
+                                     "vProd":  {
+                                                   "Matches":  true,
+                                                   "XmlTotal":  300,
+                                                   "Sum":  300
+                                               },
+                                     "vPIS":  {
+                                                  "Matches":  false,
+                                                  "XmlTotal":  0.3,
+                                                  "Sum":  0.1
+                                              },
+                                     "vBC":  {
+                                                 "Matches":  true,
+                                                 "XmlTotal":  150,
+                                                 "Sum":  150
+                                             }
+                                 }
+                    },
+                    {
+                        "ParserReason":  "DTD proibido.\r\n",
+                        "StructureAccepted":  false,
+                        "Name":  "DTD",
+                        "Parsed":  false,
+                        "ReportVbaExecuted":  false,
+                        "Status":  "PASS",
+                        "NumericErrors":  [
+
+                                          ],
+                        "Sums":  {
+
+                                 }
+                    }
+                ],
+    "ToleranceExisting":  0.01
+}

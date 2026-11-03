@@ -1,0 +1,82 @@
+[
+  {
+    "file": "MDL\\modPreencherFormulario.bas",
+    "oldText": "Attribute VB_Name = \"modPreencherFormulario\"\r\n",
+    "newText": "Attribute VB_Name = \"modPreencherFormulario\"\r\nOption Explicit\r\n\r\n"
+  },
+  {
+    "file": "Form\\Cad_NCM.frm",
+    "oldText": "Private Sub ListBoxLista_Change()\r\n\r\n",
+    "newText": "Private Sub ListBoxLista_Change()\r\n\r\n    'Clear e a carga da lista podem disparar Change sem seleção.\r\n    If ListBoxLista.ListIndex < 0 Then Exit Sub\r\n\r\n"
+  },
+  {
+    "file": "Form\\Cad_NCM.frm",
+    "oldText": "    Dim TextoCelula As String\r\n    Set ws = ThisWorkbook.Worksheets(NomePlanilha)\r\n    Dim Lista()\r\n\r\n    ReDim Lista(ws.UsedRange.Columns.count, 0)",
+    "newText": "    Dim TextoCelula As String\r\n    Dim quantidadeColunas As Long\r\n    Dim Lista()\r\n\r\n    If Me.ComboBoxCampos.ListIndex < 0 Then Exit Sub\r\n    Set ws = ThisWorkbook.Worksheets(NomePlanilha)\r\n    quantidadeColunas = ws.UsedRange.Columns.count\r\n    ReDim Lista(quantidadeColunas, 0)"
+  },
+  {
+    "file": "Form\\Cad_NCM.frm",
+    "oldText": "                For x = 0 To ws.UsedRange.Columns.count - 1\r\n                    ReDim Preserve Lista(ws.UsedRange.Columns.count, indiceLista)",
+    "newText": "                'Uma expansão por registro, preservando as dimensões originais.\r\n                ReDim Preserve Lista(quantidadeColunas, indiceLista)\r\n                For x = 0 To quantidadeColunas - 1"
+  },
+  {
+    "file": "Form\\Cad_NFE.frm",
+    "oldText": "ActiveCell.Offset(0, 11).value = TextBoxChaveDeAcessoFilial.value",
+    "newText": "'Defina o formato antes do valor para preservar os 44 dígitos.\r\nActiveCell.Offset(0, 11).NumberFormat = \"@\"\r\nActiveCell.Offset(0, 11).value = CStr(TextBoxChaveDeAcessoFilial.value)"
+  },
+  {
+    "file": "Form\\Cad_NFE_Saida.frm",
+    "oldText": "            .Cells(linhaDemo, 12).value = TextBoxChaveDeAcesso.value",
+    "newText": "            'A chave de acesso não pode ser convertida em número pelo Excel.\r\n            .Cells(linhaDemo, 12).NumberFormat = \"@\"\r\n            .Cells(linhaDemo, 12).value = CStr(TextBoxChaveDeAcesso.value)"
+  },
+  {
+    "file": "MDL\\MóduloOfficeRibbonEditor.bas",
+    "oldText": "    ActiveWorkbook.Save",
+    "newText": "    'O callback pertence a esta pasta, mesmo com outro arquivo ativo.\r\n    ThisWorkbook.Save"
+  },
+  {
+    "file": "Form\\Cad_NFE_Saida.frm",
+    "oldText": "            celula.Errors(xlNumberAsText).Ignore = True",
+    "newText": "            .Cells(linhaDemo, 12).Errors(xlNumberAsText).Ignore = True"
+  },
+  {
+    "file": "Form\\Cad_NFE_Saida.frm",
+    "oldText": "    Frame_ImpostoFilial.ForeColor = &H8000000D",
+    "newText": "    'Referência legada inválida (controle ausente no FRX): Frame_ImpostoFilial.ForeColor = &H8000000D"
+  },
+  {
+    "file": "Form\\Cad_NFE_Saida.frm",
+    "oldText": "    Frame_ImpostoFilial.BorderColor = &H8000000D",
+    "newText": "    'Referência legada inválida (controle ausente no FRX): Frame_ImpostoFilial.BorderColor = &H8000000D"
+  },
+  {
+    "file": "Form\\Cad_NFE_Saida.frm",
+    "oldText": "    Frame_ImpostoFilial.ForeColor = &H8000000A",
+    "newText": "    'Referência legada inválida (controle ausente no FRX): Frame_ImpostoFilial.ForeColor = &H8000000A"
+  },
+  {
+    "file": "Form\\Cad_NFE_Saida.frm",
+    "oldText": "    Frame_ImpostoFilial.BorderColor = &H8000000A",
+    "newText": "    'Referência legada inválida (controle ausente no FRX): Frame_ImpostoFilial.BorderColor = &H8000000A"
+  },
+  {
+    "file": "Form\\Cad_NFE_Saida.frm",
+    "oldText": "Private Sub PreencheLista(ByVal TextoDigitado As String)\r\n    Dim ws As Worksheet\r\n    Dim i As Long\r\n    Dim x As Long\r\n    Dim indiceLista As Long\r\n    Dim coluna As Long\r\n    Dim TextoCelula As String\r\n    Set ws = ThisWorkbook.Worksheets(NomePlanilha)\r\n    Dim Lista()\r\n\r\n    ReDim Lista(ws.UsedRange.Columns.count, 0)\r\n\r\n    i = LinhaCabecalho + 1\r\n    indiceLista = 1\r\n    coluna = Me.ComboBoxCampos.ListIndex + 1\r\n    Call PreencheCabecalho(Lista)\r\n\r\n    ListBoxLista.Clear\r\n    With ws\r\n        While .Cells(i, coluna).value <> Empty\r\n            TextoCelula = .Cells(i, coluna).value\r\n            If UCase(Left(TextoCelula, Len(TextoDigitado))) = UCase(TextoDigitado) Then\r\n\r\n                For x = 0 To ws.UsedRange.Columns.count - 1\r\n                    ReDim Preserve Lista(ws.UsedRange.Columns.count, indiceLista)\r\n                    Lista(x, indiceLista) = .Cells(i, x + 1)\r\n                Next\r\n\r\n                indiceLista = indiceLista + 1\r\n            End If\r\n            i = i + 1\r\n        Wend\r\n    End With\r\n   \r\n    Lista = Array2DTranspose(Lista)\r\n\r\n    Me.ListBoxLista.List = Lista\r\nEnd Sub",
+    "newText": "Private Sub PreencheLista(ByVal TextoDigitado As String)\r\n    Dim ws As Worksheet\r\n    Dim i As Long\r\n    Dim x As Long\r\n    Dim indiceLista As Long\r\n    Dim coluna As Long\r\n    Dim TextoCelula As String\r\n    Dim quantidadeColunas As Long\r\n    Dim Lista()\r\n\r\n    If Me.ComboBoxCampos.ListIndex < 0 Then Exit Sub\r\n    Set ws = ThisWorkbook.Worksheets(NomePlanilha)\r\n    quantidadeColunas = ws.UsedRange.Columns.count\r\n    ReDim Lista(quantidadeColunas, 0)\r\n\r\n    i = LinhaCabecalho + 1\r\n    indiceLista = 1\r\n    coluna = Me.ComboBoxCampos.ListIndex + 1\r\n    Call PreencheCabecalho(Lista)\r\n\r\n    ListBoxLista.Clear\r\n    With ws\r\n        While .Cells(i, coluna).value <> Empty\r\n            TextoCelula = .Cells(i, coluna).value\r\n            If UCase(Left(TextoCelula, Len(TextoDigitado))) = UCase(TextoDigitado) Then\r\n\r\n                'Expande a matriz uma vez por registro encontrado.\r\n                ReDim Preserve Lista(quantidadeColunas, indiceLista)\r\n                For x = 0 To quantidadeColunas - 1\r\n                    Lista(x, indiceLista) = .Cells(i, x + 1)\r\n                Next\r\n\r\n                indiceLista = indiceLista + 1\r\n            End If\r\n            i = i + 1\r\n        Wend\r\n    End With\r\n   \r\n    Lista = Array2DTranspose(Lista)\r\n\r\n    Me.ListBoxLista.List = Lista\r\nEnd Sub"
+  },
+  {
+    "file": "Form\\Cad_NFE_Saida.frm",
+    "oldText": "Private Sub PreencheLista2(ByVal TextoDigitado As String)\r\n    Dim ws As Worksheet\r\n    Dim i As Long\r\n    Dim x As Long\r\n    Dim indiceLista As Long\r\n    Dim coluna As Long\r\n    Dim TextoCelula As String\r\n    Set ws = ThisWorkbook.Worksheets(NomePlanilha2)\r\n    Dim Lista()\r\n\r\n    ReDim Lista(ws.UsedRange.Columns.count, 0)\r\n\r\n    i = LinhaCabecalho + 1\r\n    indiceLista = 1\r\n    coluna = Me.ComboBoxCamposFilial.ListIndex + 1\r\n    Call PreencheCabecalho2(Lista)\r\n\r\n    ListBoxListaFilial.Clear\r\n    With ws\r\n        While .Cells(i, coluna).value <> Empty\r\n            TextoCelula = .Cells(i, coluna).value\r\n            If UCase(Left(TextoCelula, Len(TextoDigitado))) = UCase(TextoDigitado) Then\r\n\r\n                For x = 0 To ws.UsedRange.Columns.count - 1\r\n                    ReDim Preserve Lista(ws.UsedRange.Columns.count, indiceLista)\r\n                    Lista(x, indiceLista) = .Cells(i, x + 1)\r\n                Next\r\n\r\n                indiceLista = indiceLista + 1\r\n            End If\r\n            i = i + 1\r\n        Wend\r\n    End With\r\n   \r\n    Lista = Array2DTranspose(Lista)\r\n\r\n    Me.ListBoxListaFilial.List = Lista\r\nEnd Sub",
+    "newText": "Private Sub PreencheLista2(ByVal TextoDigitado As String)\r\n    Dim ws As Worksheet\r\n    Dim i As Long\r\n    Dim x As Long\r\n    Dim indiceLista As Long\r\n    Dim coluna As Long\r\n    Dim TextoCelula As String\r\n    Dim quantidadeColunas As Long\r\n    Dim Lista()\r\n\r\n    If Me.ComboBoxCamposFilial.ListIndex < 0 Then Exit Sub\r\n    Set ws = ThisWorkbook.Worksheets(NomePlanilha2)\r\n    quantidadeColunas = ws.UsedRange.Columns.count\r\n    ReDim Lista(quantidadeColunas, 0)\r\n\r\n    i = LinhaCabecalho + 1\r\n    indiceLista = 1\r\n    coluna = Me.ComboBoxCamposFilial.ListIndex + 1\r\n    Call PreencheCabecalho2(Lista)\r\n\r\n    ListBoxListaFilial.Clear\r\n    With ws\r\n        While .Cells(i, coluna).value <> Empty\r\n            TextoCelula = .Cells(i, coluna).value\r\n            If UCase(Left(TextoCelula, Len(TextoDigitado))) = UCase(TextoDigitado) Then\r\n\r\n                'Expande a matriz uma vez por registro encontrado.\r\n                ReDim Preserve Lista(quantidadeColunas, indiceLista)\r\n                For x = 0 To quantidadeColunas - 1\r\n                    Lista(x, indiceLista) = .Cells(i, x + 1)\r\n                Next\r\n\r\n                indiceLista = indiceLista + 1\r\n            End If\r\n            i = i + 1\r\n        Wend\r\n    End With\r\n   \r\n    Lista = Array2DTranspose(Lista)\r\n\r\n    Me.ListBoxListaFilial.List = Lista\r\nEnd Sub"
+  },
+  {
+    "file": "Form\\Cad_NFE_Saida.frm",
+    "oldText": "Private Sub ListBoxLista_Change()\r\n",
+    "newText": "Private Sub ListBoxLista_Change()\r\n    'Uma lista preenchida também pode estar sem linha selecionada.\r\n    If Me.ListBoxLista.ListIndex < 0 Then Exit Sub\r\n"
+  },
+  {
+    "file": "Form\\Cad_NFE_Saida.frm",
+    "oldText": "Private Sub ListBoxListaFilial_Change()\r\n",
+    "newText": "Private Sub ListBoxListaFilial_Change()\r\n    'Uma lista preenchida também pode estar sem linha selecionada.\r\n    If Me.ListBoxListaFilial.ListIndex < 0 Then Exit Sub\r\n"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-02T23:09:49.437Z",
+  "aceRead": "SchemaNo=6;RevisionNo=10;WriteState=READY;Lease=FREE;Pending=0",
+  "files": [
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_R3_rev10\\Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "sha256": "3c32f1f9d9cae5d891b112508e9f4dd9df49923563d6f8f49c746a94dc3dc212"
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\checkpoint_R3_rev10\\Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "sha256": "d786c6b11b3bf81b60c71a640ca964d8d8b3b2a320950c0c0b7d54732bf5df69"
+    }
+  ]
+}

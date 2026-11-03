@@ -1,0 +1,7 @@
+{
+  "cause": "VBE interpreta Guardar: como rotulo, nao chamada. Preparar continha Guardar em linha isolada e executou a guarda em todos os cenarios; porem entradas RodarLote/Caso/Operar/Verificar precisam chamada explicita.",
+  "change": "4 ocorrencias substituidas por Call Guardar: e teste de marcador invalido/restaurado acrescentado somente ao modulo experimental",
+  "scope": "Nenhuma regra de negocio ou componente principal alterado",
+  "beforeSHA": "661f0f6f778d655f90944191bf1f266cd8c5b585cddeedd73220574dfc4b42eb",
+  "afterSHA": "1e2191b779d07c492b01d57469e966e27a94fe50dbcd22851b28e9bc405b7c47"
+}

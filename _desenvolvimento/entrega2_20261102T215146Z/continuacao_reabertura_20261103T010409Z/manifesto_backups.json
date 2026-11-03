@@ -1,0 +1,50 @@
+[
+  {
+    "path": "backup_documentacao/ENTREGA_2_OPERACOES_CORRIGIDAS.md",
+    "sha256": "31604a90a7478f7d624decb4571a9efad59ce7990ca08da996f904e30ff79d77"
+  },
+  {
+    "path": "backup_documentacao/MATRIZ_REGRESSAO_ENTREGA2.md",
+    "sha256": "607ffd0ecb567eface0c8752247570ad3fc79610d7fc820e297d551ae77aa9a3"
+  },
+  {
+    "path": "backup_documentacao/REGISTRO_DEFEITOS_ABERTOS.md",
+    "sha256": "aa1d73c44552583300dd53bfbcab078dad3e7ea5535a14026c47ddbcc7f99730"
+  },
+  {
+    "path": "backup_documentacao/MANUAL_INSTALACAO_RESTAURACAO.md",
+    "sha256": "0cdc3862f1e3fe4e4d39fc49e5fff0454dd167a3b6853f5fc2bd4164ec613c61"
+  },
+  {
+    "path": "backup_documentacao/HISTORICO_ALTERACOES.md",
+    "sha256": "005a7ff91626a3d38a150d25e47230515457f6d3ab94b195495f630cc86bee7f"
+  },
+  {
+    "path": "backup_documentacao/RELATORIO_AUDITORIA.md",
+    "sha256": "38e7c4bf36cf1713bdeef60e73bf1f6de1a4fd3f23cb31ffd6cbdd57b2b368d0"
+  },
+  {
+    "path": "backup_documentacao/MAPA_PROJETO.md",
+    "sha256": "39e1c2ada86b02f171795676f23773cc506982ecb3f877e4c79f83b1dee55d28"
+  },
+  {
+    "path": "backup_documentacao/TESTES_VBA.md",
+    "sha256": "81b974b747ee9d6bb2de8ae8b585dd0fd585ce68c9f24f52f2576be998d0b3fd"
+  },
+  {
+    "path": "manifesto-final.json",
+    "sha256": "32d63d9d8d4381ea3ec454f628364c2f9b180befd3b9954b5e5245f8e14d8aa7"
+  },
+  {
+    "path": "manifesto-final-verificacao.json",
+    "sha256": "45728669b31da02351a787e15139a9731f6e211d6081feb2841e4bcdccdb9c67"
+  },
+  {
+    "path": "manifesto_artefatos.json",
+    "sha256": "fea508c06eaf2e5e26ff70b44180f383ab0aacd8f0848f491c17634ac245d6be"
+  },
+  {
+    "path": "LEIA_PRIMEIRO.md",
+    "sha256": "b73913f251f1b6a8df1b5dcfde320f1543642b11062bea9bc27a0339a9c2391d"
+  }
+]

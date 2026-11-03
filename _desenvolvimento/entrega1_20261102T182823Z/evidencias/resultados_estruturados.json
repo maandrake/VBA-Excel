@@ -1,0 +1,472 @@
+[
+  {
+    "run": 1,
+    "id": "E1_ENTRADA_EVENTO",
+    "status": "FAIL",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "1 recibo, entrada ativa e projecao persistida verificada",
+    "observed": "ENTRADA_RECUSADA_OU_PENDENTE: Erro de definição de aplicativo ou de definição de objeto;AUDIT=OK;PROJECTION=UNIDENTIFIED_ROW;REV=1;MOV=1;RECEIPTS=1;ACTIVE=1;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:02:25"
+  },
+  {
+    "run": 2,
+    "id": "E1_V_VALIDO",
+    "status": "FAIL",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Venda confirmada, origem preservada e inelegivel, 2 destinos vinculados",
+    "observed": "SAIDA_RECUSADA_OU_PENDENTE: Valor de origem diverge do banco;AUDIT=OK;PROJECTION=VERIFIED;REV=1;MOV=1;RECEIPTS=1;ACTIVE=1;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:18:41"
+  },
+  {
+    "run": 3,
+    "id": "E1_V_IDENTIDADE",
+    "status": "FAIL",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "4 registros de projecao do mesmo episodio e veiculo",
+    "observed": "AUDIT=OK;PROJECTION=VERIFIED;REV=1;MOV=1;RECEIPTS=1;ACTIVE=1;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:18:41"
+  },
+  {
+    "run": 4,
+    "id": "E1_V_CHAVE_TEXTO",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "44 digitos com zero inicial como String",
+    "observed": "01234567890123456789012345678901234567890123",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:18:41"
+  },
+  {
+    "run": 5,
+    "id": "E1_ENTRADA_ERRO_R2",
+    "status": "FAIL",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Concluir entrada pelo evento real",
+    "observed": "58:O arquivo já existe;PROJECAO_VERIFICADA; 7F9FB807-EC54-4AB7-ACBD-23695DA7445B",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:25:13"
+  },
+  {
+    "run": 6,
+    "id": "E1_ENTRADA_EVENTO_R2",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "1 recibo, entrada ativa e projecao persistida verificada",
+    "observed": "ENTRADA_CONFIRMADA; 58BD7A5F-ACE9-43EF-95AD-555CE72B0AA2;AUDIT=OK;PROJECTION=VERIFIED;REV=1;MOV=1;RECEIPTS=1;ACTIVE=1;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:28:48"
+  },
+  {
+    "run": 7,
+    "id": "E1_ENTRADA_VALOR_R2",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "900 exatos no ACE e na projecao",
+    "observed": "ACE=900;EXCEL=900",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:28:48"
+  },
+  {
+    "run": 8,
+    "id": "E1_V_VALIDO_R2",
+    "status": "FAIL",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Venda confirmada, origem preservada e inelegivel, 2 destinos vinculados",
+    "observed": "SAIDA_CONFIRMADA; 79F0BB27-489A-482F-A226-142EB62B1175;AUDIT=OK;PROJECTION=BASE_REVISION_BUILD;REV=2;MOV=2;RECEIPTS=2;ACTIVE=0;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:33:40"
+  },
+  {
+    "run": 9,
+    "id": "E1_V_IDENTIDADE_R2",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "4 registros de projecao do mesmo episodio e veiculo",
+    "observed": "AUDIT=OK;PROJECTION=BASE_REVISION_BUILD;REV=2;MOV=2;RECEIPTS=2;ACTIVE=0;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:33:40"
+  },
+  {
+    "run": 10,
+    "id": "E1_V_CHAVE_TEXTO_R2",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "44 digitos com zero inicial como String",
+    "observed": "01234567890123456789012345678901234567890123",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:33:40"
+  },
+  {
+    "run": 11,
+    "id": "E1_ENTRADA_EVENTO_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "1 recibo, entrada ativa e projecao persistida verificada",
+    "observed": "ENTRADA_CONFIRMADA; 7651663B-DE5F-4E77-9EAA-BF8BD7D6A5B4;AUDIT=OK;PROJECTION=VERIFIED;REV=1;MOV=1;RECEIPTS=1;ACTIVE=1;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:42:57"
+  },
+  {
+    "run": 12,
+    "id": "E1_ENTRADA_VALOR_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "900 exatos no ACE e na projecao",
+    "observed": "ACE=900;EXCEL=900",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:42:57"
+  },
+  {
+    "run": 13,
+    "id": "E1_V_VALIDO_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Venda confirmada, origem preservada e inelegivel, 2 destinos vinculados",
+    "observed": "SAIDA_CONFIRMADA; 1DC32E56-2E6D-4995-8252-1DF6DDCD491E;AUDIT=OK;PROJECTION=VERIFIED;REV=2;MOV=2;RECEIPTS=2;ACTIVE=0;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:43:30"
+  },
+  {
+    "run": 14,
+    "id": "E1_V_IDENTIDADE_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "4 registros de projecao do mesmo episodio e veiculo",
+    "observed": "AUDIT=OK;PROJECTION=VERIFIED;REV=2;MOV=2;RECEIPTS=2;ACTIVE=0;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:43:30"
+  },
+  {
+    "run": 15,
+    "id": "E1_V_CHAVE_TEXTO_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "44 digitos com zero inicial como String",
+    "observed": "01234567890123456789012345678901234567890123",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:43:30"
+  },
+  {
+    "run": 16,
+    "id": "E1_ENTRADA_B_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Nova entrada 700 exatos, 3 recibos",
+    "observed": "ENTRADA_CONFIRMADA; 272C4CBB-7562-4A92-ABF7-5A66FB8A6D49;AUDIT=OK;PROJECTION=VERIFIED;REV=3;MOV=3;RECEIPTS=3;ACTIVE=1;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:43:53"
+  },
+  {
+    "run": 17,
+    "id": "E1_T_VALIDO_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Custodia filial, 4 destinos, mesmo episodio e veiculo",
+    "observed": "SAIDA_CONFIRMADA; 61B8991E-80FF-43A9-8A51-2D80ED2405D6;AUDIT=OK;PROJECTION=VERIFIED;REV=4;MOV=4;RECEIPTS=4;ACTIVE=1;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:44:09"
+  },
+  {
+    "run": 18,
+    "id": "E1_T_FORMULAS_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "M/N/O por identidade e valor 800 distinto da entrada 700",
+    "observed": "AUDIT=OK;PROJECTION=VERIFIED;REV=4;MOV=4;RECEIPTS=4;ACTIVE=1;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:44:09"
+  },
+  {
+    "run": 19,
+    "id": "E1_D_VALIDO_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Retorno a matriz no mesmo episodio, quatro destinos preservados",
+    "observed": "SAIDA_CONFIRMADA; C81C3462-AF9F-49C5-BBC5-B9EE5E05B2C8;AUDIT=OK;PROJECTION=VERIFIED;REV=5;MOV=5;RECEIPTS=5;ACTIVE=1;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:44:34"
+  },
+  {
+    "run": 20,
+    "id": "E1_D_VINCULOS_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "10 projecoes historicas, uma custodia ativa",
+    "observed": "AUDIT=OK;PROJECTION=VERIFIED;REV=5;MOV=5;RECEIPTS=5;ACTIVE=1;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:44:34"
+  },
+  {
+    "run": 21,
+    "id": "E1_ENTRADA_NFE_VAZIA_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Recusa sem efeito",
+    "observed": "ENTRADA_RECUSADA_OU_PENDENTE: Numero da NF-e invalido",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:50:22"
+  },
+  {
+    "run": 22,
+    "id": "E1_ENTRADA_VALOR_INVALIDO_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Recusa sem efeito",
+    "observed": "ENTRADA_RECUSADA_OU_PENDENTE: Valor monetario invalido: abc",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:50:22"
+  },
+  {
+    "run": 23,
+    "id": "E1_ENTRADA_DATA_INVALIDA_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Recusa sem efeito",
+    "observed": "ENTRADA_RECUSADA_OU_PENDENTE: Data civil invalida",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:50:22"
+  },
+  {
+    "run": 24,
+    "id": "E1_ENTRADA_DUPLICADA_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Recusa de documento ativo duplicado",
+    "observed": "ENTRADA_RECUSADA_OU_PENDENTE: Numero da NFe ja cadastrado no estoque deste local",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:50:22"
+  },
+  {
+    "run": 25,
+    "id": "E1_PESQUISA_BAIXADO_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Venda nao aparece no estoque ativo",
+    "observed": "COUNT=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:50:23"
+  },
+  {
+    "run": 26,
+    "id": "E1_TOKEN_OBSOLETO_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Selecao antiga recusada antes de abrir gravador",
+    "observed": "ENVIO_RECUSADO: Selecao obsoleta; pesquise novamente",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:50:24"
+  },
+  {
+    "run": 27,
+    "id": "E1_LISTINDEX_NEGATIVO_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Indice negativo nao executa gravacao",
+    "observed": "ListIndex=-1",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:50:25"
+  },
+  {
+    "run": 28,
+    "id": "E1_REORDENACAO_DETECTADA_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Troca fisica sem metadados corretos nao e aprovada",
+    "observed": "AUDIT=OK;PROJECTION=FORMULA:Entradas:4:12;REV=5;MOV=5;RECEIPTS=5;ACTIVE=1;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:50:26"
+  },
+  {
+    "run": 29,
+    "id": "E1_REORDENACAO_RECONSTRUIDA_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Reconstrucao integral pela autoridade",
+    "observed": "AUDIT=OK;PROJECTION=VERIFIED;REV=5;MOV=5;RECEIPTS=5;ACTIVE=1;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:50:38"
+  },
+  {
+    "run": 30,
+    "id": "E1_SAVE_CANCELADO_REAL_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Evento BeforeSave cancela; ACE preservado e projecao pendente",
+    "observed": "5:Save recusado; autoridade preservada, projecao pendente",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:50:42"
+  },
+  {
+    "run": 31,
+    "id": "E1_RECONSTRUCAO_APOS_SAVE_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Recuperacao por reconstruir e reabrir geracao persistida",
+    "observed": "AUDIT=OK;PROJECTION=VERIFIED;REV=5;MOV=5;RECEIPTS=5;ACTIVE=1;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:50:54"
+  },
+  {
+    "run": 32,
+    "id": "E1_BACKUP_REABERTO_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Backup com conexoes fechadas, auditoria e recibos preservados",
+    "observed": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Backup_C1_DD7DBA137BAD453F95A7705CECA6B472;AUDIT=OK",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:50:55"
+  },
+  {
+    "run": 33,
+    "id": "E1_REENTRADA_EPISODIO_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "VehicleID explicito, episodio novo, episodio vendido preservado",
+    "observed": "ENTRADA_RECUSADA_OU_PENDENTE: Chave invalida;AUDIT=OK;PROJECTION=VERIFIED;REV=6;MOV=6;RECEIPTS=6;ACTIVE=2;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:53:57"
+  },
+  {
+    "run": 34,
+    "id": "E1_REENTRADA_VALOR_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Decimal brasileiro preservado com quatro casas",
+    "observed": "650,25",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:53:57"
+  },
+  {
+    "run": 35,
+    "id": "E1_HISTORICO_EPISODIO_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Reentrada nao reabre episodio anterior",
+    "observed": "CLOSED",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:53:57"
+  },
+  {
+    "run": 36,
+    "id": "E1_T_DUP_DESTINO_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Documento ativo no destino recusa transferencia inteira",
+    "observed": "SAIDA_RECUSADA_OU_PENDENTE: Destino filial ja possui documento ativo; identidade ambigua recusada;AUDIT=OK;PROJECTION=VERIFIED;REV=7;MOV=7;RECEIPTS=7;ACTIVE=3;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:58:22"
+  },
+  {
+    "run": 37,
+    "id": "E1_TRANSFERENCIA_SUCESSIVA_R3",
+    "status": "FAIL",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Novo movimento, mesmo episodio, projecao reconstruida",
+    "observed": "SAIDA_RECUSADA_OU_PENDENTE: Valor monetario invalido: ;AUDIT=OK;PROJECTION=VERIFIED;REV=7;MOV=7;RECEIPTS=7;ACTIVE=3;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 16:59:21"
+  },
+  {
+    "run": 38,
+    "id": "E1_TRANSFERENCIA_SUCESSIVA_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Novo movimento, mesmo episodio, projecao reconstruida",
+    "observed": "SAIDA_CONFIRMADA; 7B2B1ECF-42A9-4A47-8EA9-4DD970DEEAD4;AUDIT=OK;PROJECTION=VERIFIED;REV=8;MOV=8;RECEIPTS=8;ACTIVE=3;PENDING=0",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 17:02:30"
+  },
+  {
+    "run": 39,
+    "id": "E1_D_FALHA_BAIXA_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Rollback dos fatos e da baixa; intencao persistente exige conciliacao",
+    "observed": "SAIDA_RECUSADA_OU_PENDENTE: PENDENTE_ERRO:7003:Falha durante baixa logica;AUDIT=OK;PROJECTION=VERIFIED;REV=8;MOV=8;RECEIPTS=8;ACTIVE=3;PENDING=1",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 17:03:21"
+  },
+  {
+    "run": 40,
+    "id": "E1_D_REPETICAO_PENDENTE_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Nao repetir nem prometer recuperacao integral",
+    "observed": "SAIDA_RECUSADA_OU_PENDENTE: Episodio pendente de conciliacao",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 17:03:21"
+  },
+  {
+    "run": 41,
+    "id": "E1_TRANSACAO_FALHA_1_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Fatos revertidos; rascunho NEW e intencao pendente preservados",
+    "observed": "ENTRADA_RECUSADA_OU_PENDENTE: PENDENTE_ERRO:7001:Falha apos movimento;AUDIT=OK;PROJECTION=VERIFIED;REV=8;MOV=8;RECEIPTS=8;ACTIVE=3;PENDING=1",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 17:04:07"
+  },
+  {
+    "run": 42,
+    "id": "E1_TRANSACAO_FALHA_2_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Fatos revertidos; rascunho NEW e intencao pendente preservados",
+    "observed": "ENTRADA_RECUSADA_OU_PENDENTE: PENDENTE_ERRO:7002:Falha apos projecao;AUDIT=OK;PROJECTION=VERIFIED;REV=8;MOV=8;RECEIPTS=8;ACTIVE=3;PENDING=2",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 17:04:12"
+  },
+  {
+    "run": 43,
+    "id": "E1_TRANSACAO_FALHA_6_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Fatos revertidos; rascunho NEW e intencao pendente preservados",
+    "observed": "ENTRADA_RECUSADA_OU_PENDENTE: PENDENTE_ERRO:7006:Antes do commit;AUDIT=OK;PROJECTION=VERIFIED;REV=8;MOV=8;RECEIPTS=8;ACTIVE=3;PENDING=3",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 17:04:16"
+  },
+  {
+    "run": 44,
+    "id": "E1_POS_COMMIT_RECONSTRUIDO_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Commit confirmado e Excel reconstruido apesar de erro apos commit",
+    "observed": "ENTRADA_CONFIRMADA; 628C139F-205B-42CC-B17B-DAAC2F735DB6;AUDIT=OK;PROJECTION=VERIFIED;REV=9;MOV=9;RECEIPTS=9;ACTIVE=4;PENDING=3",
+    "file": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 17:04:35"
+  },
+  {
+    "run": 45,
+    "id": "E1_SESSAO_REABERTA_R3",
+    "status": "FAIL",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Cache e formulas apos fechar e reabrir o XLSM",
+    "observed": "ERROR:5:Copia divergente: caminho da autoridade nao confere",
+    "file": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 17:59:49"
+  },
+  {
+    "run": 46,
+    "id": "E1_SESSAO_REABERTA_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Cache e formulas apos fechar e reabrir o XLSM",
+    "observed": "AUDIT=OK;PROJECTION=VERIFIED;REV=8;MOV=8;RECEIPTS=8;ACTIVE=3;PENDING=0",
+    "file": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 18:06:30"
+  },
+  {
+    "run": 47,
+    "id": "E1_SESSAO_REABERTA_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Cache e formulas apos fechar e reabrir o XLSM",
+    "observed": "AUDIT=OK;PROJECTION=VERIFIED;REV=8;MOV=8;RECEIPTS=8;ACTIVE=3;PENDING=0",
+    "file": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 18:14:17"
+  }
+]

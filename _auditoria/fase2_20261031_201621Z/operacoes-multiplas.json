@@ -1,0 +1,100 @@
+{
+  "method": "Mapa estatico por referencias literais; chamadas indiretas e navegacao exigem leitura de corpo",
+  "procedures": [
+    {
+      "file": "Form/Cad_NFE.frm",
+      "procedure": "CommandButton_ExcluirFilial_Click",
+      "line": 195,
+      "sheets": [
+        "Entradas Filial",
+        "Entradas Anual Filial"
+      ],
+      "delete": true,
+      "writes": 0
+    },
+    {
+      "file": "Form/Cad_NFE.frm",
+      "procedure": "CommandButton_Gravar_Click",
+      "line": 273,
+      "sheets": [
+        "Entradas",
+        "Entradas Anual"
+      ],
+      "delete": false,
+      "writes": 21
+    },
+    {
+      "file": "Form/Cad_NFE.frm",
+      "procedure": "CommandButton_GravarFilial_Click",
+      "line": 410,
+      "sheets": [
+        "Entradas Filial",
+        "Entradas Anual Filial"
+      ],
+      "delete": false,
+      "writes": 22
+    },
+    {
+      "file": "Form/Cad_NFE.frm",
+      "procedure": "MultiPage1_Change",
+      "line": 610,
+      "sheets": [
+        "Entradas",
+        "Entradas Filial"
+      ],
+      "delete": false,
+      "writes": 0
+    },
+    {
+      "file": "Form/Cad_NFE.frm",
+      "procedure": "CommandButtonAlterar_Click",
+      "line": 669,
+      "sheets": [
+        "Entradas",
+        "Entradas Anual"
+      ],
+      "delete": false,
+      "writes": 21
+    },
+    {
+      "file": "Form/Cad_NFE_Saida.frm",
+      "procedure": "CommandButton_GravarFilial_Click",
+      "line": 99,
+      "sheets": [
+        "Saidas Filial",
+        "Entradas Filial",
+        "Todas Saidas Filial",
+        "Entradas",
+        "Entradas Anual"
+      ],
+      "delete": true,
+      "writes": 51
+    },
+    {
+      "file": "Form/Cad_NFE_Saida.frm",
+      "procedure": "MultiPage1_Change",
+      "line": 459,
+      "sheets": [
+        "Saidas",
+        "Saidas Filial"
+      ],
+      "delete": false,
+      "writes": 0
+    },
+    {
+      "file": "Form/Cad_NFE_Saida.frm",
+      "procedure": "CommandButton_Gravar_Click",
+      "line": 571,
+      "sheets": [
+        "Saidas",
+        "Entradas",
+        "Todas Saidas",
+        "Demonstração",
+        "Entradas Filial",
+        "Entradas Anual Filial"
+      ],
+      "delete": true,
+      "writes": 62
+    }
+  ]
+}

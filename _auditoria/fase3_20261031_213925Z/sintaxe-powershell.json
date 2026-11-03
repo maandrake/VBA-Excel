@@ -1,0 +1,133 @@
+﻿{
+    "Files":  [
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Preparar-TestesVBA.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Reexecutar-ExcelCom.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Reexecutar-XMLCom.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Reproduzir-A08.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Sondar-OfficeFase3.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-BackupFase3.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-EstrategiasA08.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-ExcelCom.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-Fase2BackupContexto.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-Fase2BackupContextoV2.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-Fase2BackupContextoV3.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-Fase2BackupContextoV4.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-Fase2Recuperacao.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-FronteirasA09.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-MetadadoA09.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-OfficeCapabilities.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-XMLCom.ps1",
+                      "ErrorCount":  0
+                  },
+                  {
+                      "Errors":  [
+
+                                 ],
+                      "File":  "Test-XMLFase3.ps1",
+                      "ErrorCount":  0
+                  }
+              ],
+    "Timestamp":  "2026-10-31T19:16:27.2719755-03:00",
+    "Modality":  "Parser PowerShell; nenhum arquivo ps1 executado",
+    "ErrorCount":  0
+}

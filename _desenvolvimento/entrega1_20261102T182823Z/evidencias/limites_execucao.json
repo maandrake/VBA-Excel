@@ -1,0 +1,29 @@
+{
+  "reopen": {
+    "status": "BLOQUEADO",
+    "cause": "Aviso de seguranca Habilitar Macros; requer acao manual, nao automatizada"
+  },
+  "copyPreparation": {
+    "status": "BLOQUEADO",
+    "cause": "PSSecurityException: execucao de scripts desabilitada; nao houve bypass nem alteracao de ExecutionPolicy"
+  },
+  "compilation": {
+    "status": "PASS",
+    "modality": "COMPILACAO_REAL_VBA",
+    "evidence": "compilacao-final-menu.txt",
+    "observed": "Depurar > Compilar concluido e comando desabilitado em seguida"
+  },
+  "originals": {
+    "status": "PASS",
+    "count": 39
+  },
+  "historicalFails": [
+    "V_VALIDO",
+    "T_VALIDO",
+    "D_VALIDO",
+    "D_FALHA_BAIXA",
+    "T_DUP_DESTINO",
+    "C_FALHA_BAIXA",
+    "C_FALHA_COMPENSACAO"
+  ]
+}

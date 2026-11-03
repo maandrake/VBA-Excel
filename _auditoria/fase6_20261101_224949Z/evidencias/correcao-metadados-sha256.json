@@ -1,0 +1,61 @@
+{
+  "cause": "Chamadas intermediarias sha6(caminho) calcularam hash do texto do caminho. Copias/manifesto inicial sempre usaram bytes e foram corretamente verificados. Conferencia final identificou e corrigiu campos de metadados, preservando as versoes anteriores.",
+  "method": "SHA-256(fs.readFile(file)); helper fileSha6; manifesto de copias e originais comparados por conteudo",
+  "corrections": [
+    {
+      "file": "_auditoria\\fase6_20261101_224949Z\\evidencias\\cobertura-corrigida-r4.json",
+      "changes": [
+        {
+          "field": "sourceSHA256",
+          "previous": "e47793769fb557571b4b6211a72b24dc34751d4d18faa2bd5877d60a578d9027",
+          "corrected": "49d11731cc1bd808d76a6909678e6d73d4d8e839e479fe6cabb9e390aaf55682"
+        }
+      ]
+    },
+    {
+      "file": "_auditoria\\fase6_20261101_224949Z\\evidencias\\compilacao-real-r2.json",
+      "changes": [
+        {
+          "field": "sha256",
+          "previous": "13b3ec6cf36371b4707a48d1ab26a8cc3eeb90a08f08487385f837aba97b38f9",
+          "corrected": "7c0ab3d99cb02a99d1cee65bb31e001ae0876c155ee59c307327c2268e1ef878"
+        }
+      ]
+    },
+    {
+      "file": "_auditoria\\fase6_20261101_224949Z\\evidencias\\compilacao-real-r3.json",
+      "changes": [
+        {
+          "field": "sha256",
+          "previous": "6e5841af7f3b8c14c91708512a1ede99e0ca3bed99e31dd089b2f50623607c35",
+          "corrected": "81601410fa60250a2f2486a85db612359b020a2ff231d708701e7bb6d4628b74"
+        }
+      ]
+    },
+    {
+      "file": "_auditoria\\fase6_20261101_224949Z\\evidencias\\compilacao-real-r4.json",
+      "changes": [
+        {
+          "field": "sha256",
+          "previous": "a0900985d45a8dfea81ccdb974fc2ea41e015848165fcc83517f6ea545c9538c",
+          "corrected": "7f0f41f7336ebae8f7cfea2b698335be4ef346e78743cde34d899299dd848de1"
+        }
+      ]
+    },
+    {
+      "file": "_auditoria\\fase6_20261101_224949Z\\evidencias\\correcao-guarda-explicita-r3.json",
+      "changes": [
+        {
+          "field": "beforeSHA",
+          "previous": "cfe8aadddeb0cdfe252edfc1b5c30c5f63911f59a96f2cb7a9e6c7b3f4f2ffb7",
+          "corrected": "661f0f6f778d655f90944191bf1f266cd8c5b585cddeedd73220574dfc4b42eb"
+        },
+        {
+          "field": "afterSHA",
+          "previous": "71916094780a97df2a73eb552c1a0cf8ac050807e8fc676d6f26d37d77c42f6a",
+          "corrected": "1e2191b779d07c492b01d57469e966e27a94fe50dbcd22851b28e9bc405b7c47"
+        }
+      ]
+    }
+  ]
+}

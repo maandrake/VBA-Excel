@@ -1,0 +1,36 @@
+{
+  "capturedAt": "2026-11-03T01:07:39.984Z",
+  "testID": "E1_SESSAO_REABERTA_E2_R3",
+  "status": "PASS",
+  "modality": "Execucao real VBA auxiliar, nao evento de movimentacao",
+  "procedure": "E1_SessaoReaberta",
+  "fixture": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+  "initialization": {
+    "observed": "CACHE_AUDITADO",
+    "checkedBeforeManualCacheLoad": true
+  },
+  "diagnostic": "AUDIT=OK;PROJECTION=VERIFIED;REV=16;MOV=16;RECEIPTS=16;ACTIVE=5;PENDING=0",
+  "application": {
+    "worksheets": 17,
+    "EnableEvents": true,
+    "ScreenUpdating": true,
+    "Calculation": -4105,
+    "DisplayAlerts": true,
+    "WorkbookSaved": false
+  },
+  "unchangedHashes": [
+    {
+      "name": "Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "before": "856c1c148451bae188d5539b3a344371579275268d7475dd535e1ade89ee39d0",
+      "after": "856c1c148451bae188d5539b3a344371579275268d7475dd535e1ade89ee39d0",
+      "ok": true
+    },
+    {
+      "name": "Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "before": "1390a79c2b36fcea13843bb211dcb56ffbfe3fe8523e2200f70f32e1dbc35581",
+      "after": "1390a79c2b36fcea13843bb211dcb56ffbfe3fe8523e2200f70f32e1dbc35581",
+      "ok": true
+    }
+  ],
+  "scope": "Reabertura interativa do projeto E2 depois do fechamento anterior; instancia Excel tambem mantem E1 e Pasta1. Nao representa nova instalacao, crash ou falha de energia."
+}

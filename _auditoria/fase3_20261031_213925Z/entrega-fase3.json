@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-10-31T22:19:48.460Z",
+  "execution": "20261031_213925Z",
+  "status": "NAO_HOMOLOGADO",
+  "delivery": "Fontes e pacote manual preparados; XLSM revisado integrado nao produzido",
+  "originalsIntact": 39,
+  "phase1PreservedFiles": 155,
+  "phase2PreservedFiles": 146,
+  "phase2BackupsVerified": 46,
+  "newBackupsVerified": 69,
+  "backupLocation": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase3_20261031_213925Z\\backup",
+  "development": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase3_20261031_213925Z\\desenvolvimento",
+  "developmentFiles": 42,
+  "changedSystemSources": [
+    "MDL/clsOperacaoPlanilha.cls"
+  ],
+  "technicalCorrections": [
+    "C3-01 ciclo de vida do contexto",
+    "C3-02 preservacao de Errors(xlNumberAsText).Ignore"
+  ],
+  "static": {
+    "pass": 12,
+    "fail": 0,
+    "modality": "Analise estatica"
+  },
+  "powershellParser": {
+    "files": 18,
+    "errors": 0
+  },
+  "manualPackage": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase3_20261031_213925Z\\Importar_No_VBE",
+  "packageVerification": {
+    "timestamp": "2026-10-31T22:19:48.456Z",
+    "modality": "Analise de integridade do pacote; nao importacao VBA",
+    "componentAndFRXFiles": 42,
+    "documentBodies": 18,
+    "expectedVBAComponents": 55,
+    "actualImported": 0,
+    "issues": [],
+    "status": "PASS"
+  },
+  "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase3_20261031_213925Z\\Fixture_Auditoria_Fase3.xlsm",
+  "vba": {
+    "imported": 0,
+    "compiled": false,
+    "functionalExecutions": 0,
+    "status": "BLOQUEADO",
+    "error": "0x800A03EC - O acesso de programacao ao projeto do Visual Basic nao e confiavel"
+  },
+  "A08": {
+    "status": "CRITICO_ABERTO",
+    "deleteCommandsUnchanged": 7,
+    "policyIntegrated": false,
+    "recommendation": "Identidade estavel condicionada a definicao/aprovacao e migracao"
+  },
+  "A09": {
+    "status": "CRITICO_ABERTO",
+    "modality": "COM equivalente e modelo PowerShell; nao classe VBA",
+    "boundaryScenarios": 15,
+    "scopeRestored": 10,
+    "reconciliationRequired": 4,
+    "recoveryIncomplete": 1
+  },
+  "xml": {
+    "scenarios": 12,
+    "modality": "MSXML/RegExp COM e modelo numerico .NET; nao macro VBA"
+  },
+  "backup": {
+    "groupedScenarios": 5,
+    "modality": "COM equivalente; nao funcao VBA"
+  },
+  "pendingDecisions": [
+    "Identidade e baixa A08",
+    "Vinculos anuais e conciliacao A09",
+    "Cancelamento A13",
+    "Logs/caminhos A20",
+    "Importacao e compilacao manual com protecoes atuais"
+  ],
+  "securityChanged": false,
+  "productionModified": false,
+  "commitCreated": false,
+  "published": false,
+  "documents": [
+    {
+      "file": "PLANO_CORRECAO_FASE3.md",
+      "sha256": "31020aae11ccd42e70f25331d73f452851b37d5e1a4971f6a16116468be48090",
+      "size": 6583
+    },
+    {
+      "file": "RELATORIO_HOMOLOGACAO_FASE3.md",
+      "sha256": "a7436650eaced9bb5e7fed3bd4ebc6c85da588a76a7db6b77e7901433ab44e98",
+      "size": 15922
+    },
+    {
+      "file": "MATRIZ_TESTES_FASE3.md",
+      "sha256": "c349a18275f739901ceefa11e113b1c108cad3d1c0951fb3a0044cc92ea3575c",
+      "size": 8368
+    },
+    {
+      "file": "PENDENCIAS_DECISAO.md",
+      "sha256": "e09d268526f4a31b0f8e87a7d66e94347181225a0deae692546d55431bb09afd",
+      "size": 4739
+    },
+    {
+      "file": "RELATORIO_AUDITORIA.md",
+      "sha256": "f30ce68c446484693419a77a7045e17670ea9660833366f04b7f91421165fa16",
+      "size": 29495
+    },
+    {
+      "file": "TESTES_VBA.md",
+      "sha256": "7eab7bb47c01d454ff0a0ce8eea980e891e80c1db1580f356f644dfa17a52674",
+      "size": 23931
+    },
+    {
+      "file": "MAPA_PROJETO.md",
+      "sha256": "aa8c921757609a7bf40ccb5598e5946c98b3e35edd162f0f19b48d5a2d291902",
+      "size": 74641
+    },
+    {
+      "file": "HISTORICO_ALTERACOES.md",
+      "sha256": "f1b2ac3923a7d63b2beef266f3a98da8fe8259bd921ff9cfa92e9e8d4e4406ef",
+      "size": 10387
+    }
+  ]
+}

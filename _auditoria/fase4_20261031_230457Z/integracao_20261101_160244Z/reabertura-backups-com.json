@@ -1,0 +1,32 @@
+{
+  "mode": "Operação COM de reabertura somente leitura; não é execução da macro",
+  "origin": "Transcrição das observações COM efetivas",
+  "ownHwnd": 2101972,
+  "ownInstanceClosed": true,
+  "results": [
+    {
+      "file": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\Backup_Testes_F4\\Fixture_Auditoria_Fase4_20261101_134232_001\\Fixture_Auditoria_Fase4.xlsm",
+      "status": "PASS",
+      "readOnly": true,
+      "sheets": 17,
+      "memorySentinel": "F4_BACKUP_MEMORIA",
+      "formula": "=1+2",
+      "key": "00000000000000000000000000000000000000000001",
+      "keyType": "System.String",
+      "numberFormat": "@",
+      "ignore": true
+    },
+    {
+      "file": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\Backup_Testes_F4\\Fixture_Auditoria_Fase4_20261101_134242_001\\Fixture_Auditoria_Fase4.xlsm",
+      "status": "PASS",
+      "readOnly": true,
+      "sheets": 17,
+      "memorySentinel": "F4_BACKUP_MEMORIA",
+      "formula": "=1+2",
+      "key": "00000000000000000000000000000000000000000001",
+      "keyType": "System.String",
+      "numberFormat": "@",
+      "ignore": true
+    }
+  ]
+}

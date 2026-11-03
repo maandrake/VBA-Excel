@@ -1,0 +1,10 @@
+﻿{
+    "ID":  "F9_RECONEXAO_APOS_LIBERACAO",
+    "PID":  42856,
+    "Affected":  1,
+    "Fence":  2,
+    "RevisionAfterRollback":  0,
+    "Resultado":  "PASS",
+    "Tratamento":  "RECUPERADO",
+    "Modalidade":  "COM ADO PowerShell; retomada depois da liberacao VBA"
+}

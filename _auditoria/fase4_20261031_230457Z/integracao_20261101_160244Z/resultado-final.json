@@ -1,0 +1,131 @@
+{
+  "timestamp": "2026-11-01T17:56:47.655Z",
+  "status": "FIXTURE_INTEGRADA_COMPILADA_REGRESSAO_PARCIAL_NAO_HOMOLOGADO",
+  "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\Entrega_Fase4_20261101\\Fixture_Auditoria_Fase4_Integrada_Testada.xlsm",
+  "sha256": "dcbd72e46e8b182a9810254bcce460ea2cb17260b4bcb47b622ddc3d4f9879a0",
+  "workingFixture": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\Fixture_Auditoria_Fase4.xlsm",
+  "package": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\Importar_No_VBE",
+  "newVBProjectAttempts": 1,
+  "vbProjectAccess": "BLOQUEADO 0x800A03EC",
+  "nativeImport": "PASS",
+  "actualTotalVBE": 55,
+  "actualComponentTypes": {
+    "documents": 18,
+    "standardModules": 30,
+    "classes": 2,
+    "userForms": 5
+  },
+  "revisedSystemComponentsIntegrated": 34,
+  "testComponentsIntegrated": 3,
+  "compilation": "PASS — compilação real no VBE",
+  "systemSourceChanges": 1,
+  "systemSourceChanged": "clsOperacaoPlanilha.RestaurarCelula",
+  "suiteAssertions": 397,
+  "vbaSuites": [
+    {
+      "name": "Auditoria_ExecutarTestesSeguros",
+      "status": "PASS",
+      "assertions": 9
+    },
+    {
+      "name": "AuditoriaFase2_Executar",
+      "status": "PASS",
+      "assertions": 377
+    },
+    {
+      "name": "AuditoriaFase4_IntegridadeComplementar",
+      "status": "PASS",
+      "assertions": 11
+    },
+    {
+      "name": "AuditoriaFase3_CicloVida",
+      "status": "BLOQUEADO",
+      "reason": "Preferência de interrupção em módulo de classe; sem autorização registrada para alteração temporária"
+    }
+  ],
+  "realEntryEventCases": 6,
+  "realEntryEventCaseStatus": "PASS nos critérios documentados",
+  "realEntryEvents": [
+    "CommandButton_Gravar_Click",
+    "CommandButton_GravarFilial_Click"
+  ],
+  "otherVBAExecuted": [
+    "Carregamento cinco UserForms",
+    "Pesquisa matriz e ListBox real",
+    "Quatro rejeições ValidarXMLNFe",
+    "Parser XML malformado",
+    "CriarBackupVersionado duas vezes",
+    "Callback ChamarSalvar",
+    "Recuperação de célula Empty"
+  ],
+  "backupReadbackCOM": 2,
+  "recoveryBroadCase": "FAIL — quatro falhas, conciliação obrigatória",
+  "criticalOpen": [
+    "A08",
+    "A09"
+  ],
+  "decisionsApproved": [],
+  "securityChanged": false,
+  "debuggerPreferenceChanged": false,
+  "originalsIntact": 39,
+  "phase1BackupsVerified": 39,
+  "phase2BackupsVerified": 46,
+  "phase3FilesPreserved": 160,
+  "initialPhase4BackupsPreserved": 114,
+  "commitCreated": false,
+  "published": false,
+  "stockPolicyChanged": false,
+  "productionPromoted": false,
+  "evidence": "integracao_20261101_160244Z/resultado-final.json",
+  "documents": [
+    {
+      "relative": "RELATORIO_INTEGRACAO_FASE4.md",
+      "size": 15268,
+      "sha256": "f452540a9a585c7b7dab18d180869ab70cae718dfa86fd641364cbbacfee6b9a"
+    },
+    {
+      "relative": "COMPILACAO_VBA_FASE4.md",
+      "size": 27042,
+      "sha256": "7e579eeb2c503556c98bf18c75a464431f2dbf49e11bf47a2d2d8f1dd3d63cde"
+    },
+    {
+      "relative": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+      "size": 13712,
+      "sha256": "92aca0a199eceb84d52bcc9bbb8f4987cf31affdfa2c94b67b28bf3bae2eb10f"
+    },
+    {
+      "relative": "PENDENCIAS_DECISAO.md",
+      "size": 8415,
+      "sha256": "500c69d4d70c4ed1ebf1f722dd8f8b6283e3320bebcf0ad34cc3eca95dd43eaa"
+    },
+    {
+      "relative": "HISTORICO_ALTERACOES.md",
+      "size": 19849,
+      "sha256": "8bebcfd63522b83f2be476a1eeb4d42796011a92f8620264babcc423a7cafbbe"
+    },
+    {
+      "relative": "RELATORIO_AUDITORIA.md",
+      "size": 31766,
+      "sha256": "c4cf5ea9bb2d6252f936f9e7e3d5927a0c5dd2c244238a76fce808607570d75b"
+    },
+    {
+      "relative": "TESTES_VBA.md",
+      "size": 28870,
+      "sha256": "74063af115964d27e0fe601f70b53688a5de3328d72e05ff4b31c8238586d2ae"
+    },
+    {
+      "relative": "MAPA_PROJETO.md",
+      "size": 78016,
+      "sha256": "48c8751d8369c918f643ce006907b55f1cc7ed10596d22d9ac8a8cdb795ef149"
+    },
+    {
+      "relative": "PLANO_IDENTIDADE_REGISTROS.md",
+      "size": 11491,
+      "sha256": "6752e541e52776bd9c711d8ff5008eede32d6950de2fd109cfc715317e32d4f0"
+    }
+  ],
+  "finalPreservationChecks": 398,
+  "finalPreservationFailures": 0,
+  "documentationLinksChecked": 130,
+  "documentationLinksMissing": 0
+}

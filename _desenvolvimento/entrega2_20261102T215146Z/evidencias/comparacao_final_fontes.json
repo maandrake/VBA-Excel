@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-11-03T00:50:35.974Z",
+  "components": 69,
+  "sheets": 17,
+  "userForms": 5,
+  "codeNamesUnchanged": true,
+  "modifiedByImplementation": [
+    "Cad_NFE",
+    "Cad_NFE_Saida",
+    "UserFormFiltro",
+    "modPersistenciaFase10",
+    "modCenariosFase10",
+    "modCandidatoIntegrado",
+    "clsTesteCandidato",
+    "modTestesEntrega1"
+  ],
+  "normalizationOnly": [
+    "mdlCriaBackup",
+    "modSeleniumConsultaNFE",
+    "modValidacaoXML",
+    "Cad_NCM",
+    "frmRelatorioXML",
+    "modPersistenciaFase9"
+  ],
+  "designerStreams": 127,
+  "designerSizesEqual": true,
+  "designerHashesEqual": 52,
+  "designerLimit": "Office reserializou GUIDs e streams; nomes/tamanhos preservados, igualdade binaria nao comprovada. Pares FRM/FRX de referencia preservados; vbaProject.bin exato incluso."
+}

@@ -1,0 +1,32 @@
+{
+  "mode": "Execução funcional VBA",
+  "function": "AuditoriaFase4_IntegridadeComplementar",
+  "status": "PASS",
+  "assertions": 11,
+  "output": "PASS: 11 verificacoes VBA complementares; falha individual reconhecida sem atomicidade.",
+  "coverage": [
+    "snapshots sobrepostos restaurados em ordem inversa",
+    "um destino protegido em aba separada",
+    "falha individual com diagnóstico 1",
+    "demais destinos restaurados",
+    "nova tentativa após liberar proteção antes de Delete/Save",
+    "fórmula, chave String 44, NumberFormat e Ignore"
+  ],
+  "negativeBroadCase": {
+    "status": "FAIL recuperacao integral",
+    "beforeClassFix": {
+      "A20": "vazio",
+      "B20": 99,
+      "C20": "vazio",
+      "D20": "vazio"
+    },
+    "afterClassFix": {
+      "A20": "ALTERADO",
+      "B20": 99,
+      "C20": "ALTERADO",
+      "D20": 99
+    },
+    "diagnostic": "Falhas na compensacao: 4. Conciliacao manual obrigatoria."
+  },
+  "note": "O PASS do cenário isolado não elimina o FAIL da proteção total nem os limites A09."
+}

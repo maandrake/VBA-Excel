@@ -1,0 +1,70 @@
+﻿[
+    {
+        "Name":  "Asynchable Commit",
+        "Value":  false
+    },
+    {
+        "Name":  "DBMS Name",
+        "Value":  "MS Jet"
+    },
+    {
+        "Name":  "DBMS Version",
+        "Value":  "04.00.0000"
+    },
+    {
+        "Name":  "Prepare Commit Behavior",
+        "Value":  2
+    },
+    {
+        "Name":  "Jet OLEDB:Engine Type",
+        "Value":  6
+    },
+    {
+        "Name":  "Jet OLEDB:Database Locking Mode",
+        "Value":  0
+    },
+    {
+        "Name":  "Autocommit Isolation Levels",
+        "Value":  4096
+    },
+    {
+        "Name":  "Jet OLEDB:Max Locks Per File",
+        "Value":  0
+    },
+    {
+        "Name":  "Jet OLEDB:Implicit Commit Sync",
+        "Value":  false
+    },
+    {
+        "Name":  "Jet OLEDB:Flush Transaction Timeout",
+        "Value":  0
+    },
+    {
+        "Name":  "Jet OLEDB:Lock Delay",
+        "Value":  0
+    },
+    {
+        "Name":  "Jet OLEDB:User Commit Sync",
+        "Value":  true
+    },
+    {
+        "Name":  "Jet OLEDB:Lock Retry",
+        "Value":  0
+    },
+    {
+        "Name":  "Jet OLEDB:Exclusive Async Delay",
+        "Value":  0
+    },
+    {
+        "Name":  "Jet OLEDB:Shared Async Delay",
+        "Value":  0
+    },
+    {
+        "Name":  "Jet OLEDB:Page Locks to Table Lock",
+        "Value":  0
+    },
+    {
+        "Name":  "Jet OLEDB:Transaction Commit Mode",
+        "Value":  0
+    }
+]

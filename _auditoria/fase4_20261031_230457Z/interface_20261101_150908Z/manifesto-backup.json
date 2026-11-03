@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-11-01T15:09:08.309Z",
+  "records": [
+    {
+      "file": "RELATORIO_INTEGRACAO_FASE4.md",
+      "sha256": "7d536fe8030eed908c70a3995370f2313bf38dff020e5a1c72c0f5d7e40f1aa2",
+      "verified": true
+    },
+    {
+      "file": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+      "sha256": "b217aee9fea6a35782900164979512506c82f5301a550777629b5c5b4712a22d",
+      "verified": true
+    },
+    {
+      "file": "HISTORICO_ALTERACOES.md",
+      "sha256": "1c0edc7098abdd6d70fa3f1739cc97ecd085b1bbfcd046b7ea7ec724a0540968",
+      "verified": true
+    },
+    {
+      "file": "COMPILACAO_VBA_FASE4.md",
+      "sha256": "fd62a727d8e17a78ae6294576edaf78210d8198e41a6f99378c447360eccd25d",
+      "verified": true
+    },
+    {
+      "file": "Fixture_Auditoria_Fase4.xlsm",
+      "sha256": "ff4f6b37d529e7404ae31bc65ceb1aeb3ba8f54aeb007b71c1e47c9bb9b9585d",
+      "verified": true
+    },
+    {
+      "file": "inventario-integracao.json",
+      "sha256": "6db3969179811921fe29968815b9ab319d7bc6c5560aec67ec67fa872104e477",
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Cad_NCM.frx",
+    "sha256": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+    "reference": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+    "ok": true
+  },
+  {
+    "name": "Cad_NFE.frx",
+    "sha256": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+    "reference": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+    "ok": true
+  },
+  {
+    "name": "Cad_NFE_Saida.frx",
+    "sha256": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+    "reference": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+    "ok": true
+  },
+  {
+    "name": "frmRelatorioXML.frx",
+    "sha256": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+    "reference": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+    "ok": true
+  },
+  {
+    "name": "UserFormFiltro.frx",
+    "sha256": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+    "reference": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+    "ok": true
+  }
+]

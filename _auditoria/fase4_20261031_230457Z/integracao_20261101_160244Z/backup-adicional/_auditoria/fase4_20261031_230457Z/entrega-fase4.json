@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-10-31T23:10:11.021Z",
+  "status": "AGUARDANDO_INTERVENCAO_MANUAL_NAO_INTEGRADO_NAO_HOMOLOGADO",
+  "newVBProjectAttempts": 0,
+  "newCOMEquivalentTests": 0,
+  "systemSourceChanges": 0,
+  "originalsIntact": 39,
+  "phase3FilesPreserved": 160,
+  "newVerifiedBackups": 114,
+  "initialHashChecks": 211,
+  "finalHashChecks": 412,
+  "finalHashFailures": 0,
+  "expectedComponents": 55,
+  "actualTotalVBE": null,
+  "revisedComponentsProvenIntegrated": 0,
+  "compilation": "BLOQUEADO",
+  "vbaFunctionsExecuted": 0,
+  "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\Fixture_Auditoria_Fase4.xlsm",
+  "package": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\Importar_No_VBE",
+  "operatorAction": "Seguir COMPILACAO_VBA_FASE4.md e retornar contagem, compilacao/erro e saidas de tres funcoes/exportados",
+  "manualReplyReceived": false,
+  "decisionsApproved": [],
+  "criticalOpen": [
+    "A08",
+    "A09"
+  ],
+  "securityChanged": false,
+  "commitCreated": false,
+  "published": false,
+  "documents": [
+    {
+      "relative": "COMPILACAO_VBA_FASE4.md",
+      "size": 21521,
+      "sha256": "fd62a727d8e17a78ae6294576edaf78210d8198e41a6f99378c447360eccd25d"
+    },
+    {
+      "relative": "PLANO_IDENTIDADE_REGISTROS.md",
+      "size": 11491,
+      "sha256": "6752e541e52776bd9c711d8ff5008eede32d6950de2fd109cfc715317e32d4f0"
+    },
+    {
+      "relative": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+      "size": 6793,
+      "sha256": "6a523940b585b11d77f450050e1d663c2efc6cfdd33d795b319f04da8503e2a0"
+    },
+    {
+      "relative": "RELATORIO_INTEGRACAO_FASE4.md",
+      "size": 6939,
+      "sha256": "d659a01c6edb9ca8c5e508decf37d82ffa926625000d1eff8a3980a285ca5cf8"
+    },
+    {
+      "relative": "PENDENCIAS_DECISAO.md",
+      "size": 5618,
+      "sha256": "8a6edf7520ceecd8c54dc5da445235ddc61f4841ad5718a3dc549ccbcccb7ece"
+    },
+    {
+      "relative": "HISTORICO_ALTERACOES.md",
+      "size": 12389,
+      "sha256": "a15a9aec8b49e63bc1e62f227c3e9c0639b1cc67bfa9245b53587ae71c5903c0"
+    },
+    {
+      "relative": "RELATORIO_AUDITORIA.md",
+      "size": 30179,
+      "sha256": "72ea92a7293d53725c7019635ffe1034adfcdfa452ca4ef49f70a16dc7146678"
+    },
+    {
+      "relative": "TESTES_VBA.md",
+      "size": 24615,
+      "sha256": "0da43235349cf2feb62a061b57be9b28fe25e415feb809088e43a959bb7fa05f"
+    },
+    {
+      "relative": "MAPA_PROJETO.md",
+      "size": 75325,
+      "sha256": "8535ca1b5fd9487390576c6ce19c575c687bfa382bc759a9aea811f555ba6d00"
+    }
+  ]
+}

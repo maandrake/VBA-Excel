@@ -1,0 +1,4 @@
+Origem: transcricao do terminal da tentativa real de execucao de Preparar-CopiaSintetica.ps1.
+Status: BLOQUEADO.
+PSSecurityException / UnauthorizedAccess: o arquivo nao pode ser carregado porque a execucao de scripts foi desabilitada neste sistema.
+Nao foi alterada ExecutionPolicy e nao foi utilizado bypass. Parse estatico posterior: zero erros; isso nao comprova execucao.

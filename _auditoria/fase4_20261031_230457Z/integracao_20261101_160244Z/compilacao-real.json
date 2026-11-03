@@ -1,0 +1,14 @@
+{
+  "mode": "Compilação real VBA pela interface do Excel",
+  "status": "PASS",
+  "origin": "Observação efetiva do VBE, transcrita nesta sessão",
+  "office": "Excel 16.0 build 20527 x64",
+  "command": "Depurar > Compilar VBAProject",
+  "firstError": "Erro de sintaxe em chamada ExigirF2 da suíte modTestesFase2",
+  "fix": "C4-01",
+  "lastState": "Compilar VBAProject desabilitado após executar, repetir e salvar a revisão",
+  "compiledComponents": 55,
+  "sourceIdentityProof": "fontes-integradas-entrega.json",
+  "notEquivalent": "Análise textual e Problems não foram utilizados como compilação",
+  "securityChanged": false
+}

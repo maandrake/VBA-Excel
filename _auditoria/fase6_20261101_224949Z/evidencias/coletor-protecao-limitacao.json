@@ -1,0 +1,9 @@
+{
+  "observedCase": "A_D_FALHA_BAIXA",
+  "error": 1004,
+  "scope": "Coletor de evidencias, nao logica da movimentacao",
+  "partialAfterRows": 6720,
+  "lastWorksheet": "Todas Saidas",
+  "hypothesis": "Leitura de Errors(xlNumberAsText).Ignore na aba seguinte protegida; encapsular getter e registrar erro, sem trocar por False",
+  "changes": "IgnoreSeguro preserva resultado legivel ou NAO_LIDO:codigo; caso original incompleto preservado; repetir somente em nova copia e novo lote"
+}

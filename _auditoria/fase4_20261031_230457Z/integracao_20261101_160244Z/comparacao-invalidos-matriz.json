@@ -1,0 +1,22 @@
+{
+  "mode": "Inspeção OOXML local após execução VBA dos eventos; não é simulação dos gravadores",
+  "before": "fixture-apos-entrada-matriz.xlsm",
+  "after": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\Entrega_Fase4_20261101\\Fixture_Auditoria_Fase4_Integrada_Testada.xlsm",
+  "comparison": "Todos os elementos de célula: valor resolvido de sharedStrings, tipo, fórmula e índice de estilo; não compara seleção, layout ou todas as propriedades de desenho",
+  "results": [
+    {
+      "sheet": "Entradas",
+      "beforeCells": 21,
+      "afterCells": 21,
+      "differences": [],
+      "status": "PASS"
+    },
+    {
+      "sheet": "Entradas Anual",
+      "beforeCells": 10,
+      "afterCells": 10,
+      "differences": [],
+      "status": "PASS"
+    }
+  ]
+}

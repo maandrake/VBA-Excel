@@ -1,0 +1,57 @@
+{
+  "modalidade": "Execução funcional VBA: ValidarXMLNFe e frmRelatorioXML",
+  "resultados": [
+    {
+      "file": "XML_chave_invalida_resultado.txt",
+      "resultado": "Tipo=Execucao funcional VBA: modValidacaoXML.ValidarXMLNFe\r\nArquivo=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\XML_SUITE\\xml\\chave_invalida.xml\r\nRetorno=Falso\r\nParseError=0\r\n"
+    },
+    {
+      "file": "XML_dois_inf_resultado.txt",
+      "resultado": "Tipo=Execucao funcional VBA: modValidacaoXML.ValidarXMLNFe\r\nArquivo=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\XML_SUITE\\xml\\dois_inf.xml\r\nRetorno=Falso\r\nParseError=0\r\n"
+    },
+    {
+      "file": "XML_malformado_resultado.txt",
+      "resultado": "Tipo=Execucao funcional VBA: modValidacaoXML.ValidarXMLNFe\r\nArquivo=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\XML_SUITE\\xml\\malformado.xml\r\nRetorno=Falso\r\nParseError=-1072896685\r\n"
+    },
+    {
+      "file": "XML_multiplos_itens_resultado.txt",
+      "resultado": "Tipo=Execucao funcional VBA: modValidacaoXML.ValidarXMLNFe\r\nArquivo=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\XML_SUITE\\xml\\multiplos_itens.xml\r\nRetorno=Verdadeiro\r\nParseError=0\r\n"
+    },
+    {
+      "file": "XML_numerico_invalido_resultado.txt",
+      "resultado": "Tipo=Execucao funcional VBA: modValidacaoXML.ValidarXMLNFe\r\nArquivo=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\XML_SUITE\\xml\\numerico_invalido.xml\r\nRetorno=Falso\r\nParseError=0\r\n"
+    },
+    {
+      "file": "XML_numero_invalido_resultado.txt",
+      "resultado": "Tipo=Execucao funcional VBA: modValidacaoXML.ValidarXMLNFe\r\nArquivo=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\XML_SUITE\\xml\\numero_invalido.xml\r\nRetorno=Falso\r\nParseError=0\r\n"
+    },
+    {
+      "file": "XML_overflow_resultado.txt",
+      "resultado": "Tipo=Execucao funcional VBA: modValidacaoXML.ValidarXMLNFe\r\nArquivo=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\XML_SUITE\\xml\\overflow.xml\r\nRetorno=Falso\r\nParseError=0\r\n"
+    },
+    {
+      "file": "XML_sem_inf_resultado.txt",
+      "resultado": "Tipo=Execucao funcional VBA: modValidacaoXML.ValidarXMLNFe\r\nArquivo=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\XML_SUITE\\xml\\sem_inf.xml\r\nRetorno=Falso\r\nParseError=0\r\n"
+    },
+    {
+      "file": "XML_soma_divergente_resultado.txt",
+      "resultado": "Tipo=Execucao funcional VBA: modValidacaoXML.ValidarXMLNFe\r\nArquivo=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\XML_SUITE\\xml\\soma_divergente.xml\r\nRetorno=Falso\r\nParseError=0\r\n"
+    },
+    {
+      "file": "XML_tributos_divergentes_resultado.txt",
+      "resultado": "Tipo=Execucao funcional VBA: modValidacaoXML.ValidarXMLNFe\r\nArquivo=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\XML_SUITE\\xml\\tributos_divergentes.xml\r\nRetorno=Falso\r\nParseError=0\r\n"
+    },
+    {
+      "file": "XML_tributos_resultado.txt",
+      "resultado": "Tipo=Execucao funcional VBA: modValidacaoXML.ValidarXMLNFe\r\nArquivo=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\XML_SUITE\\xml\\tributos.xml\r\nRetorno=Verdadeiro\r\nParseError=0\r\n"
+    },
+    {
+      "file": "XML_valido_resultado.txt",
+      "resultado": "Tipo=Execucao funcional VBA: modValidacaoXML.ValidarXMLNFe\r\nArquivo=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\XML_SUITE\\xml\\valido.xml\r\nRetorno=Verdadeiro\r\nParseError=0\r\n"
+    },
+    {
+      "file": "XML_vazio_resultado.txt",
+      "resultado": "Tipo=Execucao funcional VBA: modValidacaoXML.ValidarXMLNFe\r\nArquivo=C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\XML_SUITE\\xml\\vazio.xml\r\nRetorno=Falso\r\nParseError=0\r\n"
+    }
+  ]
+}

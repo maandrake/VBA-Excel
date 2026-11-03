@@ -1,0 +1,26 @@
+{
+  "vscodeProblems": "No errors found nos tres BAS; nao equivale a compilacao VBA",
+  "sourceBodiesInheritedEquivalent": 63,
+  "newSourcesMatch": [
+    {
+      "name": "modPersistenciaFase10",
+      "file": "modLaboratorioFase10.bas",
+      "normalizedEqual": true,
+      "embeddedSourceSHA256": "c4aa8618ca5353fc6da63530c70ac39088f1d8b72ea350c5ce51d6f38a1221af"
+    },
+    {
+      "name": "modCenariosFase10",
+      "file": "modCenariosFase10.bas",
+      "normalizedEqual": true,
+      "embeddedSourceSHA256": "ae80d35eb9d3057c60390d6f1a619b932038e0eebfb7fa287257359fb03d2a13"
+    },
+    {
+      "name": "modFronteirasFase10",
+      "file": "modFronteirasFase10.bas",
+      "normalizedEqual": true,
+      "embeddedSourceSHA256": "a70b4e9c3e1fbe525f576bfd0938e30a7214fff0f83f337c2a1afe24783542d3"
+    }
+  ],
+  "gitTrackedDiff": "git status --short --untracked-files=no e git diff --stat sem saida; documentos da auditoria nao foram commitados",
+  "realCompilation": "Editor VBA na instancia quente; execucoes funcionais registradas; sessao fria bloqueada"
+}

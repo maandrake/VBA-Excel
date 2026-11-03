@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-01T21:42:18.532Z",
+  "mode": "Verificacao estatica de arquivos e evidencias, distinta de teste funcional e compilacao VBA",
+  "status": "PASS",
+  "runtime": "mcp__node_repl: import do script local Verificar-Evidencias-Fase5.mjs",
+  "files": 518,
+  "originals": 39,
+  "exactSnapshotPairs": 19,
+  "businessScenarios": 26,
+  "classification": {
+    "PASS": 20,
+    "FAIL": 5,
+    "BLOQUEADO": 1
+  },
+  "manifestSHA256": "906e9ec49096e920a654e7fe93444fec63d42f87db12a1297633bd604214b3a5",
+  "additionalChecks": {
+    "markdownLinksChecked": 244,
+    "missingLinks": 0,
+    "editorProblems": "Nenhum erro reportado nos quatro Markdown novos; nao e verificacao de VBA",
+    "gitDiffCheck": "exit 0; arquivos novos nao rastreados nao sao avaliados por git diff",
+    "nodeCLI": "BLOQUEADO no PowerShell: node nao esta no PATH. Nenhuma instalacao feita; mesmo script executado no runtime Node ja disponivel da ferramenta."
+  }
+}

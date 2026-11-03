@@ -1,0 +1,2182 @@
+[
+  {
+    "module": "Cad_NFE",
+    "procedure": "UserForm_Initialize",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "TextBoxPesquisa_Change",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "TextBoxPesquisaFilial_Change",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCopiarEntradaPFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonDetranNet_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonDetranNet_MouseDown",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonDetranNet_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonDetranNet_MouseUp",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonDetranNetBIN_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_Excluir_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_Excluir_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_ExcluirFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_ExcluirFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_Gravar_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_Gravar_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_GravarFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_GravarFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_Limpar_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_Limpar_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_LimparFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_LimparFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "MultiPage1_Change",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCadNFESaida_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCadNFESaida_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCadNFESaida_MouseDown",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCadNFESaida_MouseUp",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonFechar_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonFechar_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonFechar_MouseDown",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonFechar_MouseUp",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonAlterar_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCopiarEntrada_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCopiarEntradaFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCopiarEntradaFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCopiarAutoEntradaFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCopiarAutoEntradaFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonFiltroCompra_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonFiltroCompra_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonAlterar_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonLerXML_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonFiltroCompraFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonFiltroCompraFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonNCM_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Command_EntradaFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_SaidasFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Command_EntradaFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_SaidasFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCopiarEntrada_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonNCM_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonNCMFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonNCMFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonChaveR_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonChaveR_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "FrameMenu_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Command_Entrada_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_Saidas_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Command_Entrada_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_Saidas_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonSalvarTudo_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonSalvarTudo_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonSalvarTudo_MouseDown",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonSalvarTudo_MouseUp",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Data_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "DataFilial_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "txt_Valor_AfterUpdate",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "UserForm_QueryClose",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonLerXML_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "txt_ValorFilial_AfterUpdate",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_Operação_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_Operação_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_OutroEnvio_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_OutroEnvio_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_OutroEnvioFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_OutroEnvioFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "TextBoxChaveDeAcessoFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "TextBoxChaveDeAcessoFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "N_Nfe_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "N_Nfe_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "UN_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "UN_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_Dados_da_NFe_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_Dados_da_NFe_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "PLACA_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "PLACA_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "COD_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "COD_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Combo_ANO_MOD_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Combo_ANO_MOD_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_COR_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_COR_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_VEÍCULO_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_VEÍCULO_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ListBoxLista_Change",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ListBoxLista_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ListBoxLista_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ListBoxLista2_Change",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_Veículo_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_Veículo_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Data_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Data_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_Data_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_Data_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "txt_Valor_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "txt_Valor_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_Valores_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_Valores_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "TextBoxPesquisa_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "TextBoxPesquisa_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "TextBoxPesquisaFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "TextBoxPesquisaFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ListBoxLista2_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ListBoxLista2_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Fame_PesquisaFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Fame_PesquisaFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_Pesquisa_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_Pesquisa_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_Ações_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_Ações_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_AçõesFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_AçõesFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "FrameMenu_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "FrameMenu_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_OperaçãoFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_OperaçãoFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "N_NfeFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "N_NfeFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "UNFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "UNFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_Dados_da_NFeFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_Dados_da_NFeFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "PLACAFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "PLACAFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CODFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CODFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Combo_ANO_MODFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Combo_ANO_MODFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_CORFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_CORFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_VEÍCULOFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ComboBox_VEÍCULOFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_VeículoFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_VeículoFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "DataFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "DataFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_DataFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_DataFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "txt_ValorFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "txt_ValorFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_ValoresFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_ValoresFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_PesquisaFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "Frame_PesquisaFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "PLACA_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "PLACA_AfterUpdate",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "SóNúmeros",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "N_Nfe_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "UN_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "COD_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "txt_Valor_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "N_NfeFilial_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "UNFilial_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CODFilial_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "txt_ValorFilial_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelEsquerda_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelEsquerda_MouseDown",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelEsquerda_MouseUp",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelDireita_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelDireita_MouseDown",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelDireita_MouseUp",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelAcima_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelAcima_MouseDown",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelAcima_MouseUp",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelAbaixo_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelAbaixo_MouseDown",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelAbaixo_MouseUp",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelCopiar_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelCopiar_MouseDown",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelCopiar_MouseUp",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelEsquerda_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelDireita_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelAcima_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelAbaixo_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelCopiar_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "AtualizaPainelCelula",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ControleExiste",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "UserForm_Initialize",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Command_EntradaFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Command_Saida_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_ExcluirFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_GravarFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_LimparFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_SaidasFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButtonNCM_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButtonNCMFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButtonCadNFE_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButtonFechar_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButtonSalvarTudo_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Command_Entrada_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_Saidas_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "MultiPage1_Change",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_PorFilial_AfterUpdate",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_Excluir_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButtonCopiarSaida_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButtonCopiarSaida_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_Fechar_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_Gravar_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_Limpar_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_EntradaFilial_AfterUpdate",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_LucroFilial_AfterUpdate",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_Saida_AfterUpdate",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_SaidaFilial_AfterUpdate",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxBaseICMSFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "UserForm_QueryClose",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButtonSalvarTudo_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButtonCadNFE_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButtonFechar_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_Gravar_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_Limpar_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_Excluir_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Command_Entrada_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_Saidas_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButtonNCM_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_GravarFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_LimparFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_ExcluirFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Command_EntradaFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_SaidasFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButtonNCMFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "FrameMenu_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "FrameMenu_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "FrameMenu_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_Ações_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_Ações_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_Dados_da_NFe_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_Dados_da_NFe_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_Veículo_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_Veículo_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_Valores_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_Valores_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_Data_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_Data_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_Pesquisa_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_Pesquisa_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_AçõesFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_AçõesFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_PesquisaFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_PesquisaFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_Dados_da_NFeFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_Dados_da_NFeFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_VeículoFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_VeículoFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_ValoresFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_ValoresFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_ImpostoFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_ImpostoFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_DataFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Frame_DataFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Fame_PesquisaFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Fame_PesquisaFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_ESTOQUE_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_ESTOQUE_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_Operação_Change",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "VisibilidadeOutroEnvio",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ZerarCampo",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_Operação_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_Operação_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_Saida_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_Saida_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_Entrada_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_Entrada_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_OutroEnvio_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_OutroEnvio_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxChaveDeAcesso_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxChaveDeAcesso_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_OutroEnvioFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_OutroEnvioFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxChaveDeAcessoFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxChaveDeAcessoFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "COD_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "COD_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_VEÍCULO_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_VEÍCULO_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_PLACA_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_PLACA_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_Ano_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_Ano_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_COR_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_COR_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_Entrada_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_Entrada_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_Saida_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_Saida_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_Lucro_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_Lucro_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Data_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Data_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_Por_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_Por_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxBaseICMS_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxBaseICMS_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_ICMS_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_ICMS_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxBasePISeCOFINS_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxBasePISeCOFINS_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_PIS_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_PIS_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_COFINS_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_COFINS_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_ESTOQUEFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_ESTOQUEFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_OperaçãoFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_OperaçãoFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_SaidaFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_SaidaFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_EntradaFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_EntradaFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CODFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CODFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_VEÍCULOFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_VEÍCULOFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_PLACAFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_PLACAFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_AnoFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_AnoFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_CORFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_CORFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_EntradaFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_EntradaFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_SaidaFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_SaidaFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_LucroFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_LucroFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_DataFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_DataFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_PorFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBox_PorFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxBaseICMSFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxBaseICMSFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_ICMSFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_ICMSFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxBasePISeCOFINSFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxBasePISeCOFINSFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_PISFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_PISFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_COFINSFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_COFINSFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBoxCampos_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBoxCampos_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBoxCamposFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ComboBoxCamposFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxFiltroFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxFiltroFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxFiltro_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxFiltro_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ListBoxLista_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ListBoxLista_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ListBoxListaFilial_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ListBoxListaFilial_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxFiltro_Change",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheCampos",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheCabecalho",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheLista",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "Array2DTranspose",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ListBoxLista_Change",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxFiltroFilial_Change",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheCampos2",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheCabecalho2",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheLista2",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ListBoxListaFilial_Change",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "SóNúmeros",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_ESTOQUE_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_Entrada_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_Saida_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "COD_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_Entrada_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_Saida_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_ESTOQUEFilial_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_SaidaFilial_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_EntradaFilial_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CODFilial_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_EntradaFilial_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_Valor_SaidaFilial_KeyPress",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "UserForm_Initialize",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonFechar_Click",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonFiltroCompra_Click",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonFiltroCompra_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "FrameMenu_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "Command_Entrada_Click",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "Command_Entrada_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonFiltroAguardando_Click",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonFiltroAguardando_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonRepasse_Click",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonRepasse_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonVenda_Click",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonVenda_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonTransferência_Click",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonTransferência_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonDevolução_Click",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonDevolução_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonMatriz_Click",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonMatriz_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonFilial_Click",
+    "ok": true
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonFilial_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "FramePesquisa_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "FramePesquisa_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "ComboBoxCampos_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "ComboBoxCampos_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "TextBoxFiltro_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "TextBoxFiltro_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "ListBoxLista_Change",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "FrameResultado_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "FrameResultado_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "TextBoxMotor_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "TextBoxMotor_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "TextBoxCEST_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "TextBoxCEST_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "TextBoxNCM_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "TextBoxNCM_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "ListBoxLista_Enter",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "ListBoxLista_Exit",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "TextBoxFiltro_Change",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "UserForm_Initialize",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "PreencheCampos",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "PreencheCabecalho",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "PreencheLista",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "Array2DTranspose",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "CommandButtonFechar_Click",
+    "ok": true
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "CommandButtonFechar_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "frmRelatorioXML",
+    "procedure": "CarregarRelatorio",
+    "ok": true
+  },
+  {
+    "module": "frmRelatorioXML",
+    "procedure": "CommandButton_Salvar_Click",
+    "ok": true
+  },
+  {
+    "module": "frmRelatorioXML",
+    "procedure": "CommandButton_Salvar_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "frmRelatorioXML",
+    "procedure": "TextoSeguroListBox",
+    "ok": true
+  },
+  {
+    "module": "frmRelatorioXML",
+    "procedure": "cmdFechar_Click",
+    "ok": true
+  },
+  {
+    "module": "frmRelatorioXML",
+    "procedure": "cmdFechar_MouseMove",
+    "ok": true
+  },
+  {
+    "module": "frmRelatorioXML",
+    "procedure": "cmdFechar_MouseDown",
+    "ok": true
+  },
+  {
+    "module": "frmRelatorioXML",
+    "procedure": "cmdFechar_MouseUp",
+    "ok": true
+  }
+]

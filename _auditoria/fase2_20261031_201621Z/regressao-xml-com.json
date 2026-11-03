@@ -1,0 +1,30 @@
+﻿{
+    "Timestamp":  "2026-10-31T17:44:14.6121531-03:00",
+    "Kind":  "MSXML COM ficticio; nao executa VBA",
+    "Tests":  [
+                  {
+                      "Name":  "XML sintetico bem formado",
+                      "Pass":  true
+                  },
+                  {
+                      "Name":  "XPath com namespace",
+                      "Pass":  true
+                  },
+                  {
+                      "Name":  "Chave no atributo preservada como texto",
+                      "Pass":  true
+                  },
+                  {
+                      "Name":  "XML malformado rejeitado",
+                      "Pass":  true
+                  },
+                  {
+                      "Name":  "DTD interna rejeitada",
+                      "Pass":  true
+                  },
+                  {
+                      "Name":  "Dois infNFe identificados para recusa pelo carregador",
+                      "Pass":  true
+                  }
+              ]
+}

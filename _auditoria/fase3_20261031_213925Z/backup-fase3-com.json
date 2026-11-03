@@ -1,0 +1,57 @@
+﻿{
+    "Timestamp":  "2026-10-31T18:56:31.9340067-03:00",
+    "Modality":  "Excel/FSO COM equivalente; nao executa CriarBackupVersionado VBA",
+    "Cases":  [
+                  {
+                      "Status":  "PASS",
+                      "RootCreated":  true,
+                      "Name":  "ProprietarioDuasPastasVersoesRestauracao"
+                  },
+                  {
+                      "OriginalError":  "Exceção de HRESULT: 0x800A004C (CTL_E_PATHNOTFOUND)",
+                      "Status":  "PASS",
+                      "Meaning":  "Falha propagada no equivalente, sem copiar nem salvar a origem",
+                      "Name":  "PaiInexistente"
+                  },
+                  {
+                      "OriginalError":  "Exceção de HRESULT: 0x800A003A (CTL_E_FILEALREADYEXISTS)",
+                      "Status":  "PASS",
+                      "Meaning":  "Falha propagada no equivalente, sem copiar nem salvar a origem",
+                      "Name":  "RaizEArquivo"
+                  },
+                  {
+                      "OriginalError":  "O Microsoft Excel não pode acessar o arquivo \u0027C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase3_20261031_213925Z\\Backup\\ComTrava\\Origem_TIMESTAMP_FICTICIO_001\\Origem.xlsx\u0027. Há várias razões possíveis:\r\n\r\n• O nome do arquivo ou caminho não existe.\r\n• O arquivo está sendo usado por outro programa.\r\n• A pasta de trabalho que você está tentando salvar tem o mesmo nome de outra \r\npasta de trabalho aberta no momento.",
+                      "Status":  "PASS",
+                      "FailureEvidencePreserved":  true,
+                      "Name":  "FalhaGravacaoSaveCopyAsComArquivoTravado"
+                  },
+                  {
+                      "Status":  "PASS",
+                      "Name":  "SemSaveInesperadoNaOrigem",
+                      "OwnerSaved":  false,
+                      "DiskSHA256":  "C6CE9B28A84E11696CD796321FCCF3E35D3411344FA1A7FB1C0F32BB2D8EDBE3"
+                  }
+              ],
+    "Copies":  [
+                   {
+                       "Path":  "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase3_20261031_213925Z\\Backup\\RaizNova\\Origem_TIMESTAMP_FICTICIO_001\\Origem.xlsx",
+                       "Collisions":  0,
+                       "SHA256":  "8E0718C5C36ADDB15151981EDEEF94DD4E28FBD61C6EC631EDF772CFC39167D0",
+                       "Size":  9302,
+                       "RestoreOK":  true
+                   },
+                   {
+                       "Path":  "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase3_20261031_213925Z\\Backup\\RaizNova\\Origem_TIMESTAMP_FICTICIO_002\\Origem.xlsx",
+                       "Collisions":  1,
+                       "SHA256":  "E3E58155D4EC7E8E656C67C6E512938BFBF1FD4562AE55AF5BFAE1F648CE84B8",
+                       "Size":  9303,
+                       "RestoreOK":  true
+                   }
+               ],
+    "SecurityChanged":  false,
+    "RetentionCleanup":  false,
+    "OwnHwnds":  [
+                     264926,
+                     266228
+                 ]
+}

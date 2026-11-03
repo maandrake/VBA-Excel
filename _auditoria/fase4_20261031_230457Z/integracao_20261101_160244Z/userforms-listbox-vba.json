@@ -1,0 +1,20 @@
+{
+  "mode": "Execução funcional VBA em MSForms real",
+  "loadedControls": {
+    "Cad_NFE": 108,
+    "Cad_NFE_Saida": 130,
+    "Cad_NCM": 14,
+    "frmRelatorioXML": 5,
+    "UserFormFiltro": 21
+  },
+  "research": {
+    "query": "veiculo ficticio",
+    "count": 2,
+    "selectedIndex": 0,
+    "filledNF": "TESTE_1",
+    "negativeIndex": -1,
+    "preservedNF": "TESTE_1",
+    "notFoundCount": 0
+  },
+  "limitations": "Não certifica o layout visual completo, todos os controles ou os eventos gravadores."
+}

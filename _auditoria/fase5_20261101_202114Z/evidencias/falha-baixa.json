@@ -1,0 +1,9 @@
+{
+  "modality": "Execucao funcional VBA; breakpoint antes de MarcarBaixaIniciada",
+  "fault": "Origem Entradas Filial protegida com senha de teste F5QA apos quatro gravacoes",
+  "message": "Erro 1004: O método Delete da classe Range falhou. Baixa estrutural iniciada: conciliacao manual obrigatoria antes de nova tentativa.",
+  "result": "FAIL integridade: quatro destinos gravados e origem permanece; compensacao recusada pelo limite estrutural",
+  "retry": false,
+  "sourceStillExists": true,
+  "savedOnlyByEvidenceHarness": true
+}

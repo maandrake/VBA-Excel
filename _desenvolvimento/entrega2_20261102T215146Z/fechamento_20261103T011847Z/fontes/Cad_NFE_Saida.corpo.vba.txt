@@ -1,0 +1,1882 @@
+Option Explicit
+Private Const NomePlanilha As String = "Saidas"
+Private Const NomePlanilha2 As String = "Saidas Filial"
+Private Const LinhaCabecalho As Integer = 1
+
+Private Sub UserForm_Initialize()
+    Me.LabelStatus.CAPTION = "CANDIDATA SINTETICA - selecione pela entrada"
+    Me.TextBox_Data.value = Format$(Date, "dd/mm/yyyy")
+    Me.TextBox_DataFilial.value = Format$(Date, "dd/mm/yyyy")
+    C1_ConfigLista Me.ListBoxLista
+    C1_ConfigLista Me.ListBoxListaFilial
+End Sub
+
+Private Sub Command_EntradaFilial_Click()
+
+    LabelStatus = "Planilha Entradas filial..."
+    ThisWorkbook.Worksheets("Entradas Filial").Select
+End Sub
+
+Private Sub Command_Saida_Click()
+
+    ThisWorkbook.Worksheets("Saidas Filial").Select
+End Sub
+
+Private Sub CommandButton_ExcluirFilial_Click()
+    C2_ClassificarExclusao Me
+End Sub
+
+Private Sub CommandButton_GravarFilial_Click()
+    C1_GravarSaida Me, True
+End Sub
+
+Private Sub CommandButton_LimparFilial_Click()
+    C1_LimparContexto Me
+
+    ComboBox_OperaçãoFilial.value = "Devolução"
+    TextBox_N_SaidaFilial.value = ""
+    TextBox_N_EntradaFilial.value = ""
+    TextBox_ESTOQUEFilial.value = "1"
+    ComboBox_OutroEnvioFilial.value = ""
+    TextBoxChaveDeAcessoFilial.value = ""
+    CODFilial.value = ""
+    ComboBox_VEÍCULOFilial.value = ""
+    TextBox_PLACAFilial.value = ""
+    ComboBox_AnoFilial.value = ""
+    ComboBox_CORFilial.value = ""
+    TextBox_Valor_EntradaFilial.value = ""
+    TextBox_Valor_SaidaFilial.value = ""
+    TextBox_DataFilial.value = Format(Now, "dd/mm/yyyy")
+    TextBox_Valor_LucroFilial.value = "R$ 0,00"
+    ComboBox_PorFilial.value = "12"
+    TextBoxBaseICMSFilial.value = "R$ 0,00"
+    TextBox_ICMSFilial.value = "R$ 0,00"
+    TextBox_PISFilial.value = "R$ 0,00"
+    TextBox_COFINSFilial.value = "R$ 0,00"
+    TextBoxFiltroFilial.value = ""
+    ComboBoxCamposFilial.value = "Nº Nfe Saida"
+    ListBoxListaFilial.Clear
+    Me.TextBox_ESTOQUEFilial.SetFocus
+
+    ThisWorkbook.Worksheets("Saidas Filial").Select
+    LabelStatus = "Todos os campos limpos..."
+End Sub
+
+Private Sub CommandButton_SaidasFilial_Click()
+    
+    LabelStatus = "Planilha Saidas filial..."
+    ThisWorkbook.Worksheets("Saidas Filial").Select
+End Sub
+
+Private Sub CommandButtonNCM_Click()
+    
+    LabelStatus = "Pesquisa NCM..."
+    Cad_NCM.show
+End Sub
+
+Private Sub CommandButtonNCMFilial_Click()
+    
+    LabelStatus = "Pesquisa NCM..."
+    Cad_NCM.show
+End Sub
+
+Private Sub CommandButtonCadNFE_Click()
+
+    Cad_NFE_Saida.Hide
+        ThisWorkbook.Worksheets("Entradas").Select
+    Cad_NFE.show
+End Sub
+
+Private Sub CommandButtonFechar_Click()
+
+    Cad_NFE_Saida.Hide
+End Sub
+
+Private Sub CommandButtonSalvarTudo_Click()
+    CandidatoBackup
+End Sub
+
+Private Sub Command_Entrada_Click()
+    
+    LabelStatus = "Planilha Entradas matriz..."
+    ThisWorkbook.Worksheets("Entradas").Select
+End Sub
+
+Private Sub CommandButton_Saidas_Click()
+    
+    LabelStatus = "Planilha Saidas matriz..."
+    ThisWorkbook.Worksheets("Saidas").Select
+End Sub
+
+Private Sub MultiPage1_Change()
+
+    If MultiPage1.SelectedItem.Index = 0 Then
+        ThisWorkbook.Worksheets("Saidas").Select
+    ElseIf MultiPage1.SelectedItem.Index = 1 Then
+        ThisWorkbook.Worksheets("Saidas Filial").Select
+    End If
+End Sub
+
+Private Sub ComboBox_PorFilial_AfterUpdate()
+
+    TextBoxBaseICMSFilial = (TextBox_Valor_SaidaFilial / 100) * (5)
+        TextBoxBaseICMSFilial.text = Format(TextBoxBaseICMSFilial.text, "Currency")
+
+    TextBox_ICMSFilial = (TextBox_Valor_SaidaFilial / 100) * (5) / 100 * (ComboBox_PorFilial)
+        TextBox_ICMSFilial.text = Format(TextBox_ICMSFilial.text, "Currency")
+    
+    TextBox_PISFilial = (TextBox_Valor_LucroFilial / 100) * (0.65)
+        TextBox_PISFilial.text = Format(TextBox_PISFilial.text, "Currency")
+        
+    TextBox_COFINSFilial = (TextBox_Valor_LucroFilial / 100) * (3)
+        TextBox_COFINSFilial.text = Format(TextBox_COFINSFilial.text, "Currency")
+
+End Sub
+
+Private Sub CommandButton_Excluir_Click()
+    C2_ClassificarExclusao Me
+End Sub
+
+Private Sub CommandButtonCopiarSaida_Click()
+    
+    Cad_NFE.MultiPage1.value = 0
+    Cad_NFE.UN.value = Cad_NFE_Saida.TextBox_ESTOQUE.value
+    'Cad_NFE.N_Nfe.Value = Cad_NFE_Saida.TextBox_N_Entrada.Value
+    Cad_NFE.COD.value = Cad_NFE_Saida.COD.value
+    Cad_NFE.ComboBox_VEÍCULO.value = Cad_NFE_Saida.ComboBox_VEÍCULO.value
+    Cad_NFE.PLACA.value = Cad_NFE_Saida.TextBox_PLACA.value
+    Cad_NFE.Combo_ANO_MOD.value = Cad_NFE_Saida.ComboBox_Ano.value
+    Cad_NFE.ComboBox_COR.value = Cad_NFE_Saida.ComboBox_COR.value
+    Cad_NFE.txt_Valor.value = Cad_NFE_Saida.TextBox_Valor_Entrada.value
+    Cad_NFE.Data.value = Format(Now, "dd/mm/yyyy")
+    Cad_NFE_Saida.Hide
+        ThisWorkbook.Worksheets("Entradas").Select
+    Cad_NFE.show
+End Sub
+
+Private Sub CommandButtonCopiarSaida_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_Fechar_Click()
+
+    Cad_NFE_Saida.Hide
+End Sub
+
+Private Sub CommandButton_Gravar_Click()
+    C1_GravarSaida Me, False
+End Sub
+
+Private Sub CommandButton_Limpar_Click()
+    C1_LimparContexto Me
+
+    ComboBox_Operação.value = "Venda"
+    TextBox_N_Saida.value = ""
+    TextBox_N_Entrada.value = ""
+    TextBox_ESTOQUE.value = "1"
+    ComboBox_OutroEnvio.value = ""
+    TextBoxChaveDeAcesso.value = ""
+    COD.value = ""
+    ComboBox_VEÍCULO.value = ""
+    TextBox_PLACA.value = ""
+    ComboBox_Ano.value = ""
+    ComboBox_COR.value = ""
+    TextBox_Valor_Entrada.value = ""
+    TextBox_Valor_Saida.value = ""
+    TextBox_Data.value = Format(Now, "dd/mm/yyyy")
+    TextBox_Valor_Lucro.value = ""
+    ComboBox_Por.value = "12"
+    TextBoxBaseICMS.value = ""
+    TextBox_ICMS.value = ""
+    TextBoxBasePISeCOFINS = ""
+    TextBox_PIS.value = ""
+    TextBox_COFINS.value = ""
+    TextBoxFiltro.value = ""
+    ComboBoxCampos.value = "Nº Nfe Saida"
+    ListBoxLista.Clear
+    Me.TextBox_ESTOQUE.SetFocus
+    
+    VisibilidadeOutroEnvio Me
+    
+    ThisWorkbook.Worksheets("Saidas").Select
+    LabelStatus = "Todos os campos limpos..."
+End Sub
+
+Private Sub TextBox_Valor_EntradaFilial_AfterUpdate()
+
+    Dim valor1 As Double
+    Dim valor2 As Double
+        valor1 = 0
+        valor2 = 0
+
+    If Me.TextBox_Valor_SaidaFilial = Empty Then
+        Else
+    valor1 = Me.TextBox_Valor_SaidaFilial.value
+        End If
+    If Me.TextBox_Valor_EntradaFilial = Empty Then
+        Else
+    valor2 = Me.TextBox_Valor_EntradaFilial.value
+        End If
+
+    Me.TextBox_Valor_LucroFilial = valor1 - valor2
+    
+    TextBox_Valor_EntradaFilial.text = Format(TextBox_Valor_EntradaFilial.text, "Currency")
+
+End Sub
+
+Private Sub TextBox_Valor_LucroFilial_AfterUpdate()
+
+Dim valor1 As Double
+    Dim valor2 As Double
+        valor1 = 0
+        valor2 = 0
+
+    If Me.TextBox_Valor_SaidaFilial = Empty Then
+        Else
+    valor1 = Me.TextBox_Valor_SaidaFilial.value
+        End If
+    If Me.TextBox_Valor_EntradaFilial = Empty Then
+        Else
+    valor2 = Me.TextBox_Valor_EntradaFilial.value
+        End If
+
+    Me.TextBox_Valor_LucroFilial = valor1 - valor2
+    
+    TextBox_Valor_LucroFilial.text = Format(TextBox_Valor_LucroFilial.text, "Currency")
+
+End Sub
+
+Private Sub TextBox_Valor_Saida_AfterUpdate()
+    
+    LabelStatus = "Calculando..."
+    Dim valor1 As Double
+    Dim valor2 As Double
+    Dim valor3 As Double
+    Dim valor4 As Double
+    Dim valor5 As Double
+        valor1 = 0
+        valor2 = 0
+        valor3 = 0
+        valor4 = 0
+        valor5 = 0
+
+    If Me.TextBox_Valor_Saida = Empty Then
+        Else
+    valor1 = Me.TextBox_Valor_Saida.value
+        End If
+    If Me.TextBox_Valor_Entrada = Empty Then
+        Else
+    valor2 = Me.TextBox_Valor_Entrada.value
+        End If
+    If Me.ComboBox_Por = Empty Then
+        Else
+    valor3 = Me.ComboBox_Por.value
+        End If
+    If Me.TextBox_Valor_Lucro = Empty Then
+        Else
+    valor4 = Me.TextBox_Valor_Lucro.value
+        End If
+    If Me.TextBox_ICMS = Empty Then
+        Else
+    valor5 = Me.TextBox_ICMS.value
+        End If
+
+    Me.TextBox_Valor_Lucro = (valor1 - valor2)
+    Me.TextBoxBaseICMS = (valor1 / 100) * (5)
+    Me.TextBox_ICMS = (valor1 / 100) * (5) / 100 * (valor3)
+    Me.TextBoxBasePISeCOFINS = (valor1 - valor2) - (valor1 / 100) * (5) / 100 * (valor3)
+    Me.TextBox_PIS = ((valor1 - valor2) - (valor1 / 100) * (5) / 100 * (valor3)) * (0.65) / 100
+    Me.TextBox_COFINS = ((valor1 - valor2) - (valor1 / 100) * (5) / 100 * (valor3)) * (3) / 100
+       
+    TextBox_Valor_Lucro.text = Format(TextBox_Valor_Lucro.text, "Currency")
+    TextBoxBaseICMS.text = Format(TextBoxBaseICMS.text, "Currency")
+    TextBox_ICMS.text = Format(TextBox_ICMS.text, "Currency")
+    TextBoxBasePISeCOFINS.text = Format(TextBoxBasePISeCOFINS.text, "Currency")
+    TextBox_PIS.text = Format(TextBox_PIS.text, "Currency")
+    TextBox_COFINS.text = Format(TextBox_COFINS.text, "Currency")
+    TextBox_Valor_Saida.text = Format(TextBox_Valor_Saida.text, "Currency")
+    TextBox_Valor_Lucro.text = Format(TextBox_Valor_Lucro.text, "Currency")
+    
+    LabelStatus = "Calculado..."
+End Sub
+
+Private Sub TextBox_Valor_SaidaFilial_AfterUpdate()
+
+    Dim valor1 As Double
+    Dim valor2 As Double
+        valor1 = 0
+        valor2 = 0
+
+    If Me.TextBox_Valor_SaidaFilial = Empty Then
+        Else
+    valor1 = Me.TextBox_Valor_SaidaFilial.value
+        End If
+    If Me.TextBox_Valor_EntradaFilial = Empty Then
+        Else
+    valor2 = Me.TextBox_Valor_EntradaFilial.value
+        End If
+
+    Me.TextBox_Valor_LucroFilial = valor1 - valor2
+    
+    TextBox_Valor_SaidaFilial.text = Format(TextBox_Valor_SaidaFilial.text, "Currency")
+
+End Sub
+
+Private Sub TextBoxBaseICMSFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+    
+    TextBoxBaseICMSFilial.BorderColor = &H8000000D
+    TextBoxBaseICMSFilial.BackColor = &H80000002
+End Sub
+
+Private Sub UserForm_QueryClose(Cancel As Integer, CloseMode As Integer)
+
+  If CloseMode = vbFormControlMenu Then
+    Cancel = True
+    Range("u1") = Range("u1") + 1
+    Dim msg, Style, title, Help, Ctxt, Response, MyString
+    msg = "Por favor, use o botão Fechar em Ações" ' Define a mensagem.
+    Style = vbOKOnly + vbInformation + vbDefaultButton2 ' Define os botões.
+    title = "Fechar Cadastro" ' Define o título.
+    Response = MsgBox(msg, Style, title)
+  End If
+End Sub
+
+Private Sub CommandButtonSalvarTudo_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+    LabelBakupBakup.Visible = True
+End Sub
+
+Private Sub CommandButtonCadNFE_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+    LabelEntradas.Visible = True
+End Sub
+
+Private Sub CommandButtonFechar_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_Gravar_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_Limpar_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_Excluir_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub Command_Entrada_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_Saidas_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonNCM_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_GravarFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_LimparFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_ExcluirFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub Command_EntradaFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButton_SaidasFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub CommandButtonNCMFilial_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    MouseCursor (32649)
+End Sub
+
+Private Sub FrameMenu_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal x As Single, ByVal Y As Single)
+
+    LabelBakupBakup.Visible = False
+    LabelEntradas.Visible = False
+End Sub
+
+Private Sub FrameMenu_Enter()
+    
+    FrameMenu.ForeColor = &H8000000D
+    FrameMenu.BorderColor = &H8000000D
+End Sub
+
+Private Sub FrameMenu_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+    
+    FrameMenu.ForeColor = &H8000000A
+    FrameMenu.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_Ações_Enter()
+
+    TextBox_Data.BorderColor = &H8000000A
+    TextBox_Data.BackColor = &H80000005
+    Label_Data.ForeColor = &H80000011
+    
+    Frame_Ações.ForeColor = &H8000000D
+    Frame_Ações.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_Ações_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+    
+    Frame_Ações.ForeColor = &H8000000A
+    Frame_Ações.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_Dados_da_NFe_Enter()
+    
+    Frame_Dados_da_NFe.ForeColor = &H8000000D
+    Frame_Dados_da_NFe.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_Dados_da_NFe_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+    
+    Frame_Dados_da_NFe.ForeColor = &H8000000A
+    Frame_Dados_da_NFe.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_Veículo_Enter()
+        
+    TextBoxChaveDeAcesso.BorderColor = &H8000000A
+    TextBoxChaveDeAcesso.BackColor = &H80000005
+    LabelChaveDeAcesso.ForeColor = &H80000011
+        
+    TextBox_N_Entrada.BorderColor = &H8000000A
+    TextBox_N_Entrada.BackColor = &H80000005
+    Label_NFe_Entrada.ForeColor = &H80000011
+    
+    Frame_Veículo.ForeColor = &H8000000D
+    Frame_Veículo.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_Veículo_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+    
+    Frame_Veículo.ForeColor = &H8000000A
+    Frame_Veículo.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_Valores_Enter()
+
+    ComboBox_COR.BorderColor = &H8000000A
+    ComboBox_COR.BackColor = &H80000005
+    Label_COR.ForeColor = &H80000011
+    
+    Frame_Valores.ForeColor = &H8000000D
+    Frame_Valores.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_Valores_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+    
+    Frame_Valores.ForeColor = &H8000000A
+    Frame_Valores.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_Data_Enter()
+
+    TextBox_Data.BorderColor = &H8000000D
+    TextBox_Data.BackColor = &H80000002
+    Label_Data.ForeColor = &H80000012
+    
+    TextBox_COFINS.BorderColor = &H8000000A
+    TextBox_COFINS.BackColor = &H80000005
+    Label_COFINS.ForeColor = &H80000011
+    
+    Frame_Data.ForeColor = &H8000000D
+    Frame_Data.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_Data_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+    
+    Frame_Data.ForeColor = &H8000000A
+    Frame_Data.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_Pesquisa_Enter()
+
+    Frame_Pesquisa.ForeColor = &H8000000D
+    Frame_Pesquisa.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_Pesquisa_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+  
+    Frame_Pesquisa.ForeColor = &H80000011
+    Frame_Pesquisa.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_AçõesFilial_Enter()
+
+    TextBox_DataFilial.BorderColor = &H8000000A
+    TextBox_DataFilial.BackColor = &H80000005
+    Label_DataFilial.ForeColor = &H80000011
+    
+    Frame_AçõesFilial.ForeColor = &H8000000D
+    Frame_AçõesFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_AçõesFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+    
+    Frame_AçõesFilial.ForeColor = &H8000000A
+    Frame_AçõesFilial.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_PesquisaFilial_Enter()
+    
+    Fame_PesquisaFilial.ForeColor = &H8000000D
+    Fame_PesquisaFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_PesquisaFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+    
+    Fame_PesquisaFilial.ForeColor = &H8000000A
+    Fame_PesquisaFilial.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_Dados_da_NFeFilial_Enter()
+    
+    Frame_Dados_da_NFeFilial.ForeColor = &H8000000D
+    Frame_Dados_da_NFeFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_Dados_da_NFeFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+    
+    Frame_Dados_da_NFeFilial.ForeColor = &H8000000A
+    Frame_Dados_da_NFeFilial.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_VeículoFilial_Enter()
+
+    TextBoxChaveDeAcessoFilial.BorderColor = &H8000000A
+    TextBoxChaveDeAcessoFilial.BackColor = &H80000005
+    LabelChaveDeAcessoFilial.ForeColor = &H80000011
+    
+    Frame_VeículoFilial.ForeColor = &H8000000D
+    Frame_VeículoFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_VeículoFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+    
+    Frame_VeículoFilial.ForeColor = &H8000000A
+    Frame_VeículoFilial.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_ValoresFilial_Enter()
+
+    ComboBox_CORFilial.BorderColor = &H8000000A
+    ComboBox_CORFilial.BackColor = &H80000005
+    Label_CORFilial.ForeColor = &H80000011
+    
+    Frame_ValoresFilial.ForeColor = &H8000000D
+    Frame_ValoresFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_ValoresFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+    
+    Frame_ValoresFilial.ForeColor = &H8000000A
+    Frame_ValoresFilial.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_ImpostoFilial_Enter()
+
+    TextBox_Valor_LucroFilial.BorderColor = &H8000000A
+    TextBox_Valor_LucroFilial.BackColor = &H80000005
+    Label_LucroFilial.ForeColor = &H80000011
+    
+    'Referência legada inválida (controle ausente no FRX): Frame_ImpostoFilial.ForeColor = &H8000000D
+    'Referência legada inválida (controle ausente no FRX): Frame_ImpostoFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_ImpostoFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+    
+    'Referência legada inválida (controle ausente no FRX): Frame_ImpostoFilial.ForeColor = &H8000000A
+    'Referência legada inválida (controle ausente no FRX): Frame_ImpostoFilial.BorderColor = &H8000000A
+End Sub
+
+Private Sub Frame_DataFilial_Enter()
+
+    TextBox_DataFilial.BorderColor = &H8000000D
+    TextBox_DataFilial.BackColor = &H80000002
+    Label_DataFilial.ForeColor = &H80000012
+    
+    TextBox_COFINSFilial.BorderColor = &H8000000A
+    TextBox_COFINSFilial.BackColor = &H80000005
+    Label_COFINSFilial.ForeColor = &H80000011
+    
+    Frame_DataFilial.ForeColor = &H8000000D
+    Frame_DataFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub Frame_DataFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+    
+    Frame_DataFilial.ForeColor = &H8000000A
+    Frame_DataFilial.BorderColor = &H8000000A
+End Sub
+
+Private Sub Fame_PesquisaFilial_Enter()
+
+    Fame_PesquisaFilial.ForeColor = &H8000000D
+    Fame_PesquisaFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub Fame_PesquisaFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+  
+    Fame_PesquisaFilial.ForeColor = &H80000011
+    Fame_PesquisaFilial.BorderColor = &H8000000A
+End Sub
+
+Private Sub TextBox_ESTOQUE_Enter()
+
+    TextBox_ESTOQUE.BorderColor = &H8000000D
+    TextBox_ESTOQUE.BackColor = &H80000002
+    Label_Quant.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_ESTOQUE_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_ESTOQUE.BorderColor = &H8000000A
+    TextBox_ESTOQUE.BackColor = &H80000005
+    Label_Quant.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_Operação_Change()
+    C2_RestaurarOrigemSaida Me, False
+
+    If Trim$(Me.ComboBox_Operação.value) = "Aguardando" Then
+        
+        VisibilidadeOutroEnvio Me
+        
+        Me.TextBox_Valor_Lucro.value = ""
+        Me.TextBoxBaseICMS.value = ""
+        Me.TextBox_ICMS.value = ""
+        Me.TextBoxBasePISeCOFINS.value = ""
+        Me.TextBox_PIS.value = ""
+        Me.TextBox_COFINS.value = ""
+        Me.TextBox_Valor_Entrada.value = ""
+        Me.TextBox_Valor_Saida.value = ""
+    End If
+
+    If Trim$(Me.ComboBox_Operação.value) = "Ajuste" Then
+        
+        VisibilidadeOutroEnvio Me
+
+        Me.TextBox_Valor_Lucro.value = ""
+        Me.TextBoxBaseICMS.value = ""
+        Me.TextBox_ICMS.value = ""
+        Me.TextBoxBasePISeCOFINS.value = ""
+        Me.TextBox_PIS.value = ""
+        Me.TextBox_COFINS.value = ""
+        Me.TextBox_Valor_Entrada.value = ""
+        Me.TextBox_Valor_Saida.value = ""
+    End If
+
+    If Trim$(Me.ComboBox_Operação.value) = "Cancelado" Then
+        
+        VisibilidadeOutroEnvio Me
+        
+        Me.TextBox_N_Saida = ""
+        Me.TextBox_N_Entrada = ""
+        ZerarCampo Me.TextBox_Valor_Entrada
+        ZerarCampo Me.TextBox_Valor_Saida
+        ZerarCampo Me.TextBox_Valor_Lucro
+        ZerarCampo Me.TextBoxBaseICMS
+        ZerarCampo Me.TextBox_ICMS
+        ZerarCampo Me.TextBoxBasePISeCOFINS
+        ZerarCampo Me.TextBox_PIS
+        ZerarCampo Me.TextBox_COFINS
+        
+    End If
+    
+    If Trim$(Me.ComboBox_Operação.value) = "Complemento de Nfe" Then
+        
+        VisibilidadeOutroEnvio Me
+        
+        Me.TextBox_Valor_Lucro.value = ""
+        Me.TextBoxBaseICMS.value = ""
+        Me.TextBox_ICMS.value = ""
+        Me.TextBoxBasePISeCOFINS.value = ""
+        Me.TextBox_PIS.value = ""
+        Me.TextBox_COFINS.value = ""
+        Me.TextBox_Valor_Entrada.value = ""
+        Me.TextBox_Valor_Saida.value = ""
+    End If
+    
+    If Trim$(Me.ComboBox_Operação.value) = "Compra" Then
+        
+        VisibilidadeOutroEnvio Me
+        
+        Me.TextBox_Valor_Lucro.value = ""
+        Me.TextBoxBaseICMS.value = ""
+        Me.TextBox_ICMS.value = ""
+        Me.TextBoxBasePISeCOFINS.value = ""
+        Me.TextBox_PIS.value = ""
+        Me.TextBox_COFINS.value = ""
+        Me.TextBox_Valor_Entrada.value = ""
+        Me.TextBox_Valor_Saida.value = ""
+    End If
+    
+    If Trim$(Me.ComboBox_Operação.value) = "Demonstração" Then
+        
+        VisibilidadeOutroEnvio Me
+        
+        Me.TextBox_Valor_Lucro.value = ""
+        Me.TextBoxBaseICMS.value = ""
+        Me.TextBox_ICMS.value = ""
+        Me.TextBoxBasePISeCOFINS.value = ""
+        Me.TextBox_PIS.value = ""
+        Me.TextBox_COFINS.value = ""
+        Me.TextBox_Valor_Entrada.value = ""
+        Me.TextBox_Valor_Saida.value = ""
+    End If
+
+    If Trim$(Me.ComboBox_Operação.value) = "Devolução" Then
+        
+        VisibilidadeOutroEnvio Me
+        
+        Me.TextBox_Valor_Saida.value = Me.TextBox_Valor_Entrada.value
+        ZerarCampo Me.TextBox_Valor_Lucro
+        ZerarCampo Me.TextBoxBaseICMS
+        ZerarCampo Me.TextBox_ICMS
+        ZerarCampo Me.TextBoxBasePISeCOFINS
+        ZerarCampo Me.TextBox_PIS
+        ZerarCampo Me.TextBox_COFINS
+        TextBox_Valor_Entrada.value = TextBox_Valor_Saida
+        
+    End If
+    
+    If Trim$(Me.ComboBox_Operação.value) = "Estorno" Then
+        
+        VisibilidadeOutroEnvio Me
+        
+        Me.TextBox_Valor_Lucro.value = ""
+        Me.TextBoxBaseICMS.value = ""
+        Me.TextBox_ICMS.value = ""
+        Me.TextBoxBasePISeCOFINS.value = ""
+        Me.TextBox_PIS.value = ""
+        Me.TextBox_COFINS.value = ""
+        Me.TextBox_Valor_Entrada.value = ""
+        Me.TextBox_Valor_Saida.value = ""
+    End If
+    
+    If Trim$(Me.ComboBox_Operação.value) = "Exportação" Then
+        
+        VisibilidadeOutroEnvio Me
+        
+        Me.TextBox_Valor_Lucro.value = ""
+        Me.TextBoxBaseICMS.value = ""
+        Me.TextBox_ICMS.value = ""
+        Me.TextBoxBasePISeCOFINS.value = ""
+        Me.TextBox_PIS.value = ""
+        Me.TextBox_COFINS.value = ""
+        Me.TextBox_Valor_Entrada.value = ""
+        Me.TextBox_Valor_Saida.value = ""
+    End If
+    
+    If Trim$(Me.ComboBox_Operação.value) = "Importação" Then
+        
+        VisibilidadeOutroEnvio Me
+        
+        Me.TextBox_Valor_Lucro.value = ""
+        Me.TextBoxBaseICMS.value = ""
+        Me.TextBox_ICMS.value = ""
+        Me.TextBoxBasePISeCOFINS.value = ""
+        Me.TextBox_PIS.value = ""
+        Me.TextBox_COFINS.value = ""
+        Me.TextBox_Valor_Entrada.value = ""
+        Me.TextBox_Valor_Saida.value = ""
+    End If
+    
+    If Trim$(Me.ComboBox_Operação.value) = "Inutilizada" Then
+        
+        VisibilidadeOutroEnvio Me
+        
+        Me.TextBox_Valor_Lucro.value = ""
+        Me.TextBoxBaseICMS.value = ""
+        Me.TextBox_ICMS.value = ""
+        Me.TextBoxBasePISeCOFINS.value = ""
+        Me.TextBox_PIS.value = ""
+        Me.TextBox_COFINS.value = ""
+        Me.TextBox_Valor_Entrada.value = ""
+        Me.TextBox_Valor_Saida.value = ""
+    End If
+    
+    If Trim$(Me.ComboBox_Operação.value) = "Remessa" Then
+        
+        VisibilidadeOutroEnvio Me
+        
+        Me.TextBox_Valor_Lucro.value = ""
+        Me.TextBoxBaseICMS.value = ""
+        Me.TextBox_ICMS.value = ""
+        Me.TextBoxBasePISeCOFINS.value = ""
+        Me.TextBox_PIS.value = ""
+        Me.TextBox_COFINS.value = ""
+        Me.TextBox_Valor_Entrada.value = ""
+        Me.TextBox_Valor_Saida.value = ""
+    End If
+    
+    If Trim$(Me.ComboBox_Operação.value) = "Repasse" Then
+        
+        VisibilidadeOutroEnvio Me
+        
+        Me.TextBox_Valor_Lucro.value = ""
+        Me.TextBoxBaseICMS.value = ""
+        Me.TextBox_ICMS.value = ""
+        Me.TextBoxBasePISeCOFINS.value = ""
+        Me.TextBox_PIS.value = ""
+        Me.TextBox_COFINS.value = ""
+        Me.TextBox_Valor_Entrada.value = ""
+        Me.TextBox_Valor_Saida.value = ""
+    End If
+    
+    If Trim$(Me.ComboBox_Operação.value) = "Transferência" Then
+        
+        VisibilidadeOutroEnvio Me, True
+        
+        Me.TextBox_Valor_Saida.value = Me.TextBox_Valor_Entrada.value
+        
+        ZerarCampo Me.TextBox_Valor_Lucro
+        ZerarCampo Me.TextBoxBaseICMS
+        ZerarCampo Me.TextBox_ICMS
+        ZerarCampo Me.TextBoxBasePISeCOFINS
+        ZerarCampo Me.TextBox_PIS
+        ZerarCampo Me.TextBox_COFINS
+        TextBox_Valor_Entrada.value = TextBox_Valor_Saida
+        
+    End If
+    
+    If Trim$(Me.ComboBox_Operação.value) = "Venda" Then
+        
+        VisibilidadeOutroEnvio Me
+
+        Me.TextBox_Valor_Lucro.value = ""
+        Me.TextBoxBaseICMS.value = ""
+        Me.TextBox_ICMS.value = ""
+        Me.TextBoxBasePISeCOFINS.value = ""
+        Me.TextBox_PIS.value = ""
+        Me.TextBox_COFINS.value = ""
+        Me.TextBox_Valor_Entrada.value = ""
+        Me.TextBox_Valor_Saida.value = ""
+    End If
+    C2_RestaurarOrigemSaida Me, False
+End Sub
+
+Public Sub VisibilidadeOutroEnvio(ByVal frm As Object, Optional ByVal Exibir As Boolean = False)
+
+    With frm
+        .Label_OutroEnvio.Visible = Exibir
+        .ComboBox_OutroEnvio.Visible = Exibir
+        .LabelChaveDeAcesso.Visible = Exibir
+        .TextBoxChaveDeAcesso.Visible = Exibir
+    End With
+
+End Sub
+
+Private Sub ZerarCampo(ByVal txt As MSForms.TextBox)
+    txt.value = FormatCurrency(0, 2)
+End Sub
+
+Private Sub ComboBox_Operação_Enter()
+
+    ComboBox_Operação.BorderColor = &H8000000D
+    ComboBox_Operação.BackColor = &H80000002
+    Label_Operação.ForeColor = &H80000012
+End Sub
+
+Private Sub ComboBox_Operação_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_Operação.BorderColor = &H8000000A
+    ComboBox_Operação.BackColor = &H80000005
+    Label_Operação.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_N_Saida_Enter()
+
+    TextBox_N_Saida.BorderColor = &H8000000D
+    TextBox_N_Saida.BackColor = &H80000002
+    Label_NFe_Saida.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_N_Saida_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+'Verifica se existe células com o mesmo valor
+Dim vernumeronfe As Double
+Dim planilha As Worksheet
+Set planilha = ThisWorkbook.Worksheets("Saidas")
+vernumeronfe = WorksheetFunction.CountIf(planilha.Range("A:A"), TextBox_N_Saida.text)
+
+If TextBox_N_Saida.text = "" Then
+        Exit Sub
+End If
+
+If vernumeronfe > 0 Then
+        MsgBox "Numero da NFe já cadastrado!", vbCritical, "Numero da NFe"
+        LabelStatus = "Numero da NFe já cadastrado!"
+        TextBox_N_Saida.BorderColor = &HFF&
+        TextBox_N_Saida.BackColor = &H8080FF
+        TextBox_N_Saida.ForeColor = &HC0&
+        Exit Sub
+End If
+
+    TextBox_N_Saida.BorderColor = &H8000000A
+    TextBox_N_Saida.BackColor = &H80000005
+    Label_NFe_Saida.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_N_Entrada_Enter()
+
+    TextBox_N_Entrada.BorderColor = &H8000000D
+    TextBox_N_Entrada.BackColor = &H80000002
+    Label_NFe_Entrada.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_N_Entrada_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_N_Entrada.BorderColor = &H8000000A
+    TextBox_N_Entrada.BackColor = &H80000005
+    Label_NFe_Entrada.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_OutroEnvio_Enter()
+
+    ComboBox_OutroEnvio.BorderColor = &H8000000D
+    ComboBox_OutroEnvio.BackColor = &H80000002
+    Label_OutroEnvio.ForeColor = &H80000012
+End Sub
+
+Private Sub ComboBox_OutroEnvio_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_OutroEnvio.BorderColor = &H8000000A
+    ComboBox_OutroEnvio.BackColor = &H80000005
+    Label_OutroEnvio.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBoxChaveDeAcesso_Enter()
+
+    TextBoxChaveDeAcesso.BorderColor = &H8000000D
+    TextBoxChaveDeAcesso.BackColor = &H80000002
+    LabelChaveDeAcesso.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBoxChaveDeAcesso_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBoxChaveDeAcesso.BorderColor = &H8000000A
+    TextBoxChaveDeAcesso.BackColor = &H80000005
+    LabelChaveDeAcesso.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_OutroEnvioFilial_Enter()
+
+    ComboBox_OutroEnvioFilial.BorderColor = &H8000000D
+    ComboBox_OutroEnvioFilial.BackColor = &H80000002
+    Label_OutroEnvioFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub ComboBox_OutroEnvioFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_OutroEnvioFilial.BorderColor = &H8000000A
+    ComboBox_OutroEnvioFilial.BackColor = &H80000005
+    Label_OutroEnvioFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBoxChaveDeAcessoFilial_Enter()
+
+    TextBoxChaveDeAcessoFilial.BorderColor = &H8000000D
+    TextBoxChaveDeAcessoFilial.BackColor = &H80000002
+    LabelChaveDeAcessoFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBoxChaveDeAcessoFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBoxChaveDeAcessoFilial.BorderColor = &H8000000A
+    TextBoxChaveDeAcessoFilial.BackColor = &H80000005
+    LabelChaveDeAcessoFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub COD_Enter()
+
+    COD.BorderColor = &H8000000D
+    COD.BackColor = &H80000002
+    Label_COD.ForeColor = &H80000012
+End Sub
+
+Private Sub COD_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    COD.BorderColor = &H8000000A
+    COD.BackColor = &H80000005
+    Label_COD.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_VEÍCULO_Enter()
+
+    ComboBox_VEÍCULO.BorderColor = &H8000000D
+    ComboBox_VEÍCULO.BackColor = &H80000002
+    Label_VEÍCULO.ForeColor = &H80000012
+End Sub
+
+Private Sub ComboBox_VEÍCULO_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_VEÍCULO.BorderColor = &H8000000A
+    ComboBox_VEÍCULO.BackColor = &H80000005
+    Label_VEÍCULO.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_PLACA_Enter()
+
+    TextBox_PLACA.BorderColor = &H8000000D
+    TextBox_PLACA.BackColor = &H80000002
+    Label_PLACA.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_PLACA_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_PLACA.BorderColor = &H8000000A
+    TextBox_PLACA.BackColor = &H80000005
+    Label_PLACA.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_Ano_Enter()
+
+    ComboBox_Ano.BorderColor = &H8000000D
+    ComboBox_Ano.BackColor = &H80000002
+    Label_ANO_MOD.ForeColor = &H80000012
+End Sub
+
+Private Sub ComboBox_Ano_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_Ano.BorderColor = &H8000000A
+    ComboBox_Ano.BackColor = &H80000005
+    Label_ANO_MOD.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_COR_Enter()
+
+    ComboBox_COR.BorderColor = &H8000000D
+    ComboBox_COR.BackColor = &H80000002
+    Label_COR.ForeColor = &H80000012
+End Sub
+
+Private Sub ComboBox_COR_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_COR.BorderColor = &H8000000A
+    ComboBox_COR.BackColor = &H80000005
+    Label_COR.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_Valor_Entrada_Enter()
+
+    TextBox_Valor_Entrada.BorderColor = &H8000000D
+    TextBox_Valor_Entrada.BackColor = &H80000002
+    Label_Valor_Entrada.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_Valor_Entrada_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_Valor_Entrada.BorderColor = &H8000000A
+    TextBox_Valor_Entrada.BackColor = &H80000005
+    Label_Valor_Entrada.ForeColor = &H80000011
+    
+    TextBox_Valor_Entrada.text = Format(TextBox_Valor_Entrada.text, "Currency")
+End Sub
+
+Private Sub TextBox_Valor_Saida_Enter()
+
+    TextBox_Valor_Saida.BorderColor = &H8000000D
+    TextBox_Valor_Saida.BackColor = &H80000002
+    Label_Valor_Saida.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_Valor_Saida_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_Valor_Saida.BorderColor = &H8000000A
+    TextBox_Valor_Saida.BackColor = &H80000005
+    Label_Valor_Saida.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_Valor_Lucro_Enter()
+
+    TextBox_Valor_Lucro.BorderColor = &H8000000D
+    TextBox_Valor_Lucro.BackColor = &H80000002
+    Label_Valor_Lucro.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_Valor_Lucro_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    Dim valorLucro As Double
+    
+    ' Tenta converter o valor do TextBox em um número
+    On Error Resume Next
+    valorLucro = CDbl(TextBox_Valor_Lucro.value)
+    On Error GoTo 0
+    
+    ' Verifica se o valor é negativo
+    If valorLucro <= 0 Then
+        ' Define os campos como R$ 0,00
+        TextBox_Valor_Lucro.value = "R$ 0,00"
+        TextBoxBasePISeCOFINS.value = "R$ 0,00"
+        TextBox_PIS.value = "R$ 0,00"
+        TextBox_COFINS.value = "R$ 0,00"
+    End If
+    
+    ' Configura as propriedades de cor dos campos
+    TextBox_Valor_Lucro.BorderColor = &H8000000A
+    TextBox_Valor_Lucro.BackColor = &H80000005
+    Label_Valor_Lucro.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_Data_Enter()
+
+    TextBox_Data.BorderColor = &H8000000D
+    TextBox_Data.BackColor = &H80000002
+    Label_Data.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_Data_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_Data.BorderColor = &H8000000A
+    TextBox_Data.BackColor = &H80000005
+    Label_Data.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_Por_Enter()
+
+    ComboBox_Por.BorderColor = &H8000000D
+    ComboBox_Por.BackColor = &H80000002
+    Label_Aliq.ForeColor = &H80000012
+End Sub
+
+Private Sub ComboBox_Por_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_Por.BorderColor = &H8000000A
+    ComboBox_Por.BackColor = &H80000005
+    Label_Aliq.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBoxBaseICMS_Enter()
+
+    TextBoxBaseICMS.BorderColor = &H8000000D
+    TextBoxBaseICMS.BackColor = &H80000002
+    LabelBaseICMS.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBoxBaseICMS_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBoxBaseICMS.BorderColor = &H8000000A
+    TextBoxBaseICMS.BackColor = &H80000005
+    LabelBaseICMS.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_ICMS_Enter()
+
+    TextBox_ICMS.BorderColor = &H8000000D
+    TextBox_ICMS.BackColor = &H80000002
+    Label_ICMS.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_ICMS_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_ICMS.BorderColor = &H8000000A
+    TextBox_ICMS.BackColor = &H80000005
+    Label_ICMS.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBoxBasePISeCOFINS_Enter()
+
+    TextBoxBasePISeCOFINS.BorderColor = &H8000000D
+    TextBoxBasePISeCOFINS.BackColor = &H80000002
+    LabelBasePISeCOFINS.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBoxBasePISeCOFINS_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBoxBasePISeCOFINS.BorderColor = &H8000000A
+    TextBoxBasePISeCOFINS.BackColor = &H80000005
+    LabelBasePISeCOFINS.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_PIS_Enter()
+
+    TextBox_PIS.BorderColor = &H8000000D
+    TextBox_PIS.BackColor = &H80000002
+    Label_PIS.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_PIS_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_PIS.BorderColor = &H8000000A
+    TextBox_PIS.BackColor = &H80000005
+    Label_PIS.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_COFINS_Enter()
+
+    TextBox_COFINS.BorderColor = &H8000000D
+    TextBox_COFINS.BackColor = &H80000002
+    Label_COFINS.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_COFINS_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_COFINS.BorderColor = &H8000000A
+    TextBox_COFINS.BackColor = &H80000005
+    Label_COFINS.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_ESTOQUEFilial_Enter()
+
+    TextBox_ESTOQUEFilial.BorderColor = &H8000000D
+    TextBox_ESTOQUEFilial.BackColor = &H80000002
+    Label_QuantFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_ESTOQUEFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_ESTOQUEFilial.BorderColor = &H8000000A
+    TextBox_ESTOQUEFilial.BackColor = &H80000005
+    Label_QuantFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_OperaçãoFilial_Enter()
+
+    ComboBox_OperaçãoFilial.BorderColor = &H8000000D
+    ComboBox_OperaçãoFilial.BackColor = &H80000002
+    Label_OperaçãoFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub ComboBox_OperaçãoFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_OperaçãoFilial.BorderColor = &H8000000A
+    ComboBox_OperaçãoFilial.BackColor = &H80000005
+    Label_OperaçãoFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_N_SaidaFilial_Enter()
+
+    TextBox_N_SaidaFilial.BorderColor = &H8000000D
+    TextBox_N_SaidaFilial.BackColor = &H80000002
+    Label_Quant.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_N_SaidaFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+'Verifica se existe células com o mesmo valor
+Dim vernumeronfe As Double
+Dim planilha As Worksheet
+Set planilha = ThisWorkbook.Worksheets("Saidas Filial")
+vernumeronfe = WorksheetFunction.CountIf(planilha.Range("A:A"), TextBox_N_SaidaFilial.text)
+
+If TextBox_N_SaidaFilial.text = "" Then
+        Exit Sub
+End If
+
+If vernumeronfe > 0 Then
+        MsgBox "Numero da NFe já cadastrado!", vbCritical, "Numero da NFe"
+        LabelStatus = "Numero da NFe já cadastrado!"
+        TextBox_N_SaidaFilial.BorderColor = &HFF&
+        TextBox_N_SaidaFilial.BackColor = &H8080FF
+        TextBox_N_SaidaFilial.ForeColor = &HC0&
+        Exit Sub
+End If
+
+    TextBox_N_SaidaFilial.BorderColor = &H8000000A
+    TextBox_N_SaidaFilial.BackColor = &H80000005
+    Label_NFe_SaidaFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_N_EntradaFilial_Enter()
+
+    TextBox_N_EntradaFilial.BorderColor = &H8000000D
+    TextBox_N_EntradaFilial.BackColor = &H80000002
+    Label_NFe_EntradaFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_N_EntradaFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_N_EntradaFilial.BorderColor = &H8000000A
+    TextBox_N_EntradaFilial.BackColor = &H80000005
+    Label_NFe_EntradaFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub CODFilial_Enter()
+
+    CODFilial.BorderColor = &H8000000D
+    CODFilial.BackColor = &H80000002
+    Label_CODFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub CODFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    CODFilial.BorderColor = &H8000000A
+    CODFilial.BackColor = &H80000005
+    Label_CODFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_VEÍCULOFilial_Enter()
+
+    ComboBox_VEÍCULOFilial.BorderColor = &H8000000D
+    ComboBox_VEÍCULOFilial.BackColor = &H80000002
+    Label_VEÍCULOFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub ComboBox_VEÍCULOFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_VEÍCULOFilial.BorderColor = &H8000000A
+    ComboBox_VEÍCULOFilial.BackColor = &H80000005
+    Label_VEÍCULOFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_PLACAFilial_Enter()
+
+    TextBox_PLACAFilial.BorderColor = &H8000000D
+    TextBox_PLACAFilial.BackColor = &H80000002
+    Label_PLACAFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_PLACAFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_PLACAFilial.BorderColor = &H8000000A
+    TextBox_PLACAFilial.BackColor = &H80000005
+    Label_PLACAFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_AnoFilial_Enter()
+
+    ComboBox_AnoFilial.BorderColor = &H8000000D
+    ComboBox_AnoFilial.BackColor = &H80000002
+    Label_ANO_MODFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub ComboBox_AnoFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_AnoFilial.BorderColor = &H8000000A
+    ComboBox_AnoFilial.BackColor = &H80000005
+    Label_ANO_MODFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_CORFilial_Enter()
+
+    ComboBox_CORFilial.BorderColor = &H8000000D
+    ComboBox_CORFilial.BackColor = &H80000002
+    Label_CORFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub ComboBox_CORFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_CORFilial.BorderColor = &H8000000A
+    ComboBox_CORFilial.BackColor = &H80000005
+    Label_CORFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_Valor_EntradaFilial_Enter()
+
+    TextBox_Valor_EntradaFilial.BorderColor = &H8000000D
+    TextBox_Valor_EntradaFilial.BackColor = &H80000002
+    Label_Valor_EntradaFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_Valor_EntradaFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_Valor_EntradaFilial.BorderColor = &H8000000A
+    TextBox_Valor_EntradaFilial.BackColor = &H80000005
+    Label_Valor_EntradaFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_Valor_SaidaFilial_Enter()
+
+    TextBox_Valor_SaidaFilial.BorderColor = &H8000000D
+    TextBox_Valor_SaidaFilial.BackColor = &H80000002
+    Label_Valor_SaidaFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_Valor_SaidaFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_Valor_SaidaFilial.BorderColor = &H8000000A
+    TextBox_Valor_SaidaFilial.BackColor = &H80000005
+    Label_Valor_SaidaFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_Valor_LucroFilial_Enter()
+
+    TextBox_Valor_LucroFilial.BorderColor = &H8000000D
+    TextBox_Valor_LucroFilial.BackColor = &H80000002
+    Label_LucroFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_Valor_LucroFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_Valor_LucroFilial.BorderColor = &H8000000A
+    TextBox_Valor_LucroFilial.BackColor = &H80000005
+    Label_LucroFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_DataFilial_Enter()
+
+    TextBox_DataFilial.BorderColor = &H8000000D
+    TextBox_DataFilial.BackColor = &H80000002
+    Label_DataFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_DataFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_DataFilial.BorderColor = &H8000000A
+    TextBox_DataFilial.BackColor = &H80000005
+    Label_DataFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBox_PorFilial_Enter()
+
+    ComboBox_PorFilial.BorderColor = &H8000000D
+    ComboBox_PorFilial.BackColor = &H80000002
+    Label_AliqFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub ComboBox_PorFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBox_PorFilial.BorderColor = &H8000000A
+    ComboBox_PorFilial.BackColor = &H80000005
+    Label_AliqFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBoxBaseICMSFilial_Enter()
+
+    TextBoxBaseICMSFilial.BorderColor = &H8000000D
+    TextBoxBaseICMSFilial.BackColor = &H80000002
+    LabelBaseICMSFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBoxBaseICMSFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBoxBaseICMSFilial.BorderColor = &H8000000A
+    TextBoxBaseICMSFilial.BackColor = &H80000005
+    LabelBaseICMSFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_ICMSFilial_Enter()
+
+    TextBox_ICMSFilial.BorderColor = &H8000000D
+    TextBox_ICMSFilial.BackColor = &H80000002
+    Label_ICMSFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_ICMSFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_ICMSFilial.BorderColor = &H8000000A
+    TextBox_ICMSFilial.BackColor = &H80000005
+    Label_ICMSFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBoxBasePISeCOFINSFilial_Enter()
+
+    TextBoxBasePISeCOFINSFilial.BorderColor = &H8000000D
+    TextBoxBasePISeCOFINSFilial.BackColor = &H80000002
+    LabelBasePISeCOFINSFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBoxBasePISeCOFINSFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBoxBasePISeCOFINSFilial.BorderColor = &H8000000A
+    TextBoxBasePISeCOFINSFilial.BackColor = &H80000005
+    LabelBasePISeCOFINSFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_PISFilial_Enter()
+
+    TextBox_PISFilial.BorderColor = &H8000000D
+    TextBox_PISFilial.BackColor = &H80000002
+    Label_PISFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_PISFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_PISFilial.BorderColor = &H8000000A
+    TextBox_PISFilial.BackColor = &H80000005
+    Label_PISFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBox_COFINSFilial_Enter()
+
+    TextBox_COFINSFilial.BorderColor = &H8000000D
+    TextBox_COFINSFilial.BackColor = &H80000002
+    Label_COFINSFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBox_COFINSFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBox_COFINSFilial.BorderColor = &H8000000A
+    TextBox_COFINSFilial.BackColor = &H80000005
+    Label_COFINSFilial.ForeColor = &H80000011
+End Sub
+Private Sub ComboBoxCampos_Enter()
+
+    ComboBoxCampos.BorderColor = &H8000000D
+    ComboBoxCampos.BackColor = &H80000002
+    Label_Filtro.ForeColor = &H80000012
+End Sub
+
+Private Sub ComboBoxCampos_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBoxCampos.BorderColor = &H8000000A
+    ComboBoxCampos.BackColor = &H80000005
+    Label_Filtro.ForeColor = &H80000011
+End Sub
+
+Private Sub ComboBoxCamposFilial_Enter()
+
+    ComboBoxCamposFilial.BorderColor = &H8000000D
+    ComboBoxCamposFilial.BackColor = &H80000002
+    Label_FiltroFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub ComboBoxCamposFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ComboBoxCamposFilial.BorderColor = &H8000000A
+    ComboBoxCamposFilial.BackColor = &H80000005
+    Label_FiltroFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBoxFiltroFilial_Enter()
+
+    TextBoxFiltroFilial.BorderColor = &H8000000D
+    TextBoxFiltroFilial.BackColor = &H80000002
+    Label_PesquisaFilial.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBoxFiltroFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBoxFiltroFilial.BorderColor = &H8000000A
+    TextBoxFiltroFilial.BackColor = &H80000005
+    Label_PesquisaFilial.ForeColor = &H80000011
+End Sub
+
+Private Sub TextBoxFiltro_Enter()
+
+    TextBoxFiltro.BorderColor = &H8000000D
+    TextBoxFiltro.BackColor = &H80000002
+    Label_Pesquisa.ForeColor = &H80000012
+End Sub
+
+Private Sub TextBoxFiltro_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    TextBoxFiltro.BorderColor = &H8000000A
+    TextBoxFiltro.BackColor = &H80000005
+    Label_Pesquisa.ForeColor = &H80000011
+End Sub
+
+Private Sub ListBoxLista_Enter()
+
+    ListBoxLista.BorderColor = &H8000000D
+End Sub
+
+Private Sub ListBoxLista_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ListBoxLista.BorderColor = &H8000000A
+End Sub
+
+Private Sub ListBoxListaFilial_Enter()
+
+    ListBoxListaFilial.BorderColor = &H8000000D
+End Sub
+
+Private Sub ListBoxListaFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)
+
+    ListBoxListaFilial.BorderColor = &H8000000A
+End Sub
+
+'Inicio da pesquisa saidas na matriz
+Private Sub TextBoxFiltro_Change()
+    C1_Pesquisar Me.TextBoxFiltro.text, Me.ListBoxLista, "MATRIZ", True
+End Sub
+
+Private Sub PreencheCampos()
+    Dim WS As Worksheet
+    Dim coluna As Long
+    Dim linha As Long
+    Set WS = ThisWorkbook.Worksheets(NomePlanilha)
+    coluna = 1
+    linha = LinhaCabecalho
+
+    With WS
+        While .Cells(linha, coluna).value <> Empty
+            Me.ComboBoxCampos.AddItem .Cells(linha, coluna)
+            coluna = coluna + 1
+        Wend
+    End With
+End Sub
+
+Private Sub PreencheCabecalho(ByRef lista())
+    Dim WS As Worksheet
+    Dim coluna As Long
+    Dim linha As Long
+    Set WS = ThisWorkbook.Worksheets(NomePlanilha)
+    coluna = 1
+    linha = LinhaCabecalho
+
+    With WS
+        While .Cells(linha, coluna).value <> Empty
+            lista(coluna - 1, 0) = .Cells(linha, coluna)
+            coluna = coluna + 1
+        Wend
+    End With
+End Sub
+
+Private Sub PreencheLista(ByVal TextoDigitado As String)
+    Dim WS As Worksheet
+    Dim i As Long
+    Dim x As Long
+    Dim indiceLista As Long
+    Dim coluna As Long
+    Dim TextoCelula As String
+    Dim quantidadeColunas As Long
+    Dim lista()
+
+    If Me.ComboBoxCampos.ListIndex < 0 Then Exit Sub
+    Set WS = ThisWorkbook.Worksheets(NomePlanilha)
+    quantidadeColunas = WS.UsedRange.Columns.count
+    ReDim lista(quantidadeColunas, 0)
+
+    i = LinhaCabecalho + 1
+    indiceLista = 1
+    coluna = Me.ComboBoxCampos.ListIndex + 1
+    Call PreencheCabecalho(lista)
+
+    ListBoxLista.Clear
+    With WS
+        While .Cells(i, coluna).value <> Empty
+            TextoCelula = .Cells(i, coluna).value
+            If UCase(Left(TextoCelula, Len(TextoDigitado))) = UCase(TextoDigitado) Then
+
+                'Expande a matriz uma vez por registro encontrado.
+                ReDim Preserve lista(quantidadeColunas, indiceLista)
+                For x = 0 To quantidadeColunas - 1
+                    lista(x, indiceLista) = .Cells(i, x + 1)
+                Next
+
+                indiceLista = indiceLista + 1
+            End If
+            i = i + 1
+        Wend
+    End With
+   
+    lista = Array2DTranspose(lista)
+
+    Me.ListBoxLista.list = lista
+End Sub
+
+Function Array2DTranspose(avValues As Variant) As Variant
+    Dim lThisCol As Long, lThisRow As Long
+    Dim lUb2 As Long, lLb2 As Long
+    Dim lUb1 As Long, lLb1 As Long
+    Dim avTransposed As Variant
+    If IsArray(avValues) Then
+        On Error GoTo ErrFailed
+        lUb2 = UBound(avValues, 2)
+        lLb2 = LBound(avValues, 2)
+        lUb1 = UBound(avValues, 1)
+        lLb1 = LBound(avValues, 1)
+        ReDim avTransposed(lLb2 To lUb2, lLb1 To lUb1)
+        For lThisCol = lLb1 To lUb1
+            For lThisRow = lLb2 To lUb2
+                avTransposed(lThisRow, lThisCol) = avValues(lThisCol, lThisRow)
+            Next
+        Next
+    End If
+    Array2DTranspose = avTransposed
+    Exit Function
+ErrFailed:
+    Debug.Print Err.Description
+    Debug.Assert False
+    Array2DTranspose = Empty
+    Exit Function
+    Resume
+End Function
+
+Private Sub ListBoxLista_Change()
+    C2_SelecionarHistorico Me, Me.ListBoxLista
+End Sub
+'Fim da pesquisa saidas na matriz
+
+'Inicio da pesquisa saidas na filial
+Private Sub TextBoxFiltroFilial_Change()
+    C1_Pesquisar Me.TextBoxFiltroFilial.text, Me.ListBoxListaFilial, "FILIAL", True
+End Sub
+
+Private Sub PreencheCampos2()
+    Dim WS As Worksheet
+    Dim coluna As Long
+    Dim linha As Long
+    Set WS = ThisWorkbook.Worksheets(NomePlanilha2)
+    coluna = 1
+    linha = LinhaCabecalho
+
+    With WS
+        While .Cells(linha, coluna).value <> Empty
+            Me.ComboBoxCamposFilial.AddItem .Cells(linha, coluna)
+            coluna = coluna + 1
+        Wend
+    End With
+End Sub
+
+Private Sub PreencheCabecalho2(ByRef lista())
+    Dim WS As Worksheet
+    Dim coluna As Long
+    Dim linha As Long
+    Set WS = ThisWorkbook.Worksheets(NomePlanilha2)
+    coluna = 1
+    linha = LinhaCabecalho
+
+    With WS
+        While .Cells(linha, coluna).value <> Empty
+            lista(coluna - 1, 0) = .Cells(linha, coluna)
+            coluna = coluna + 1
+        Wend
+    End With
+End Sub
+
+Private Sub PreencheLista2(ByVal TextoDigitado As String)
+    Dim WS As Worksheet
+    Dim i As Long
+    Dim x As Long
+    Dim indiceLista As Long
+    Dim coluna As Long
+    Dim TextoCelula As String
+    Dim quantidadeColunas As Long
+    Dim lista()
+
+    If Me.ComboBoxCamposFilial.ListIndex < 0 Then Exit Sub
+    Set WS = ThisWorkbook.Worksheets(NomePlanilha2)
+    quantidadeColunas = WS.UsedRange.Columns.count
+    ReDim lista(quantidadeColunas, 0)
+
+    i = LinhaCabecalho + 1
+    indiceLista = 1
+    coluna = Me.ComboBoxCamposFilial.ListIndex + 1
+    Call PreencheCabecalho2(lista)
+
+    ListBoxListaFilial.Clear
+    With WS
+        While .Cells(i, coluna).value <> Empty
+            TextoCelula = .Cells(i, coluna).value
+            If UCase(Left(TextoCelula, Len(TextoDigitado))) = UCase(TextoDigitado) Then
+
+                'Expande a matriz uma vez por registro encontrado.
+                ReDim Preserve lista(quantidadeColunas, indiceLista)
+                For x = 0 To quantidadeColunas - 1
+                    lista(x, indiceLista) = .Cells(i, x + 1)
+                Next
+
+                indiceLista = indiceLista + 1
+            End If
+            i = i + 1
+        Wend
+    End With
+   
+    lista = Array2DTranspose(lista)
+
+    Me.ListBoxListaFilial.list = lista
+End Sub
+
+Private Sub ListBoxListaFilial_Change()
+    C2_SelecionarHistorico Me, Me.ListBoxListaFilial
+End Sub
+'Fim da pesquisa saidas na filial
+
+Private Function SóNúmeros(l As IReturnInteger)
+    Select Case l
+        Case Asc("0") To Asc("9")
+            SóNúmeros = l
+        Case Else
+            SóNúmeros = 0
+            MsgBox "Favor inserir apenas números!", vbExclamation, "CAMPO TIPO NÚMERO"
+    End Select
+End Function
+
+Private Sub TextBox_ESTOQUE_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub TextBox_N_Entrada_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub TextBox_N_Saida_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub COD_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub TextBox_Valor_Entrada_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub TextBox_Valor_Saida_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub TextBox_ESTOQUEFilial_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub TextBox_N_SaidaFilial_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub TextBox_N_EntradaFilial_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub CODFilial_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub TextBox_Valor_EntradaFilial_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+Private Sub TextBox_Valor_SaidaFilial_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
+
+    KeyAscii = SóNúmeros(KeyAscii)
+End Sub
+
+
+
+

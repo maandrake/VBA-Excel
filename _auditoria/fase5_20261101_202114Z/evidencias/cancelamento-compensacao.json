@@ -1,0 +1,8 @@
+{
+  "modalidade": "Execução funcional VBA",
+  "caso": "C_FALHA_INTER",
+  "ponto": "Cad_NFE_Saida.CommandButton_Gravar_Click, antes de Todas Saidas.Activate. Saidas A2=22001 e histórico vazio observados na janela Imediata; campo Valor Entrada alterado para ABC pelo depurador.",
+  "celulas": 7560,
+  "diferencas": 0,
+  "resultado": "PASS limitado antes de Delete/Save"
+}

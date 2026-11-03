@@ -1,0 +1,33 @@
+RELATÓRIO DE VALIDAÇÃO DA NF-e
+====================================================================================================
+Arquivo: C:\Users\MARCOSALEXANDREPERDO\AppData\Local\Temp\vscode-agent-codex-sandbox-JTJOQt\VBA_Fase4_20261031_230457Z\VBA_Fase5_20261101_202114Z\XML_SUITE\xml\numerico_invalido.xml
+XML COM DIVERGÊNCIAS | Erros: 3 | Avisos: 0
+====================================================================================================
+
+CAMPO	ESPERADO / FORMULÁRIO	ENCONTRADO NO XML	RESULTADO	OBSERVAÇÃO
+Modelo do documento - mod	55 - NF-e	55	CORRETO	O documento deve ser uma NF-e modelo 55.
+Ambiente da NF-e - tpAmb	1 - Produção	1 - Produção	CORRETO	XML de homologação não deve ser utilizado para gravação.
+Autorização da NF-e - cStat	100 - Autorizado o uso	100 - ARQUIVO SINTETICO SEM VALIDADE FISCAL SEM ASSINATURA	CORRETO	A NF-e deve possuir protocolo de autorização com cStat 100.
+Chave de acesso	01234567890123456789012345678901234567890123	01234567890123456789012345678901234567890123	CORRETO	A chave do protocolo deve ser igual à chave do atributo Id da infNFe.
+Tipo da NF-e - tpNF	1 - Saída	1 - Saída	CORRETO	O formulário de saídas somente aceita NF-e com tpNF igual a 1.
+Chave de acesso no formulário	01234567890123456789012345678901234567890123	01234567890123456789012345678901234567890123	CORRETO	A chave preenchida deve corresponder ao atributo Id da infNFe.
+Número da NF-e - nNF	22001	22001	CORRETO	
+Data de emissão - dhEmi	01/11/2026	01/11/2026 | 2026-11-01T10:00:00-03:00	CORRETO	
+Código do produto - cProd	F5A	F5A	CORRETO	
+Placa na descrição - xProd	FIC5A01	FICTICIO A FIC5A01	CORRETO	A placa informada deve constar na descrição do produto da NF-e.
+CFOP da operação	5102 ou 6102	5102	CORRETO	Operação selecionada: Venda.
+Natureza da operação - natOp	Venda	VENDA FICTICIA TESTE LOCAL	CORRETO	
+Benefício fiscal - cBenef	SC820019	SC820019	CORRETO	Benefício fiscal correto para o CFOP 5102.
+Valor do produto - vProd	1000	ABC	INCORRETO	A tag está ausente ou não contém um número válido.
+ICMS - CST	40 ou 41	40	CORRETO	Operação sem tributação do ICMS no item.
+ICMS - valores do item	Conferência dispensada	CST 40	SEM TRIBUTAÇÃO	vBC, pICMS e vICMS não são exigidos no item para esse CST.
+PIS - CST	07 ou 08	07	CORRETO	Operação isenta da contribuição. A conferência dos valores foi dispensada.
+PIS - valores	Conferência dispensada	CST 07	SEM INCIDÊNCIA	A base de cálculo e o valor do PIS não foram conferidos.
+COFINS - CST	07 ou 08	07	CORRETO	Operação isenta da contribuição.
+COFINS - valores	Conferência dispensada	CST 07	SEM INCIDÊNCIA	A base, a alíquota e o valor da COFINS não foram exigidos.
+Valor numérico no somatório	Número XML válido	ABC	INCORRETO	Nó vProd: //*[local-name()='det']/*[local-name()='prod']/*[local-name()='vProd']
+Total dos produtos	0,00	1000.00	INCORRETO	Soma dos vProd de todos os itens. Diferença: -1000,0000
+Total da base do ICMS	0,00	0.00	CORRETO	Soma das bases de ICMS dos itens.
+Total do ICMS	0,00	0.00	CORRETO	Soma dos valores de ICMS dos itens.
+Total do PIS	0,00	0.00	CORRETO	Soma dos valores de PIS dos itens.
+Total da COFINS	0,00	0.00	CORRETO	Soma dos valores de COFINS dos itens.

@@ -1,0 +1,2730 @@
+[
+  {
+    "module": "clsOperacaoPlanilha",
+    "procedure": "RegistrarDestino",
+    "start": 44,
+    "end": 72,
+    "hits": [
+      {
+        "line": 66,
+        "text": "        item.Add celula.Formula",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "ReferenciaFisica"
+  },
+  {
+    "module": "clsOperacaoPlanilha",
+    "procedure": "RestaurarCelula",
+    "start": 118,
+    "end": 141,
+    "hits": [
+      {
+        "line": 126,
+        "text": "        celula.Formula = item(3)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "ReferenciaFisica"
+  },
+  {
+    "module": "modIntegridadeOperacao",
+    "procedure": "ProximaLinhaGravacao",
+    "start": 19,
+    "end": 25,
+    "hits": [
+      {
+        "line": 21,
+        "text": "    linha = ws.Cells(ws.rows.count, 1).End(xlUp).Row + 1",
+        "tags": [
+          "LinhaFisica"
+        ]
+      }
+    ],
+    "reason": "LinhaFisica"
+  },
+  {
+    "module": "mdlCopiar",
+    "procedure": "UF_CopiarCelula",
+    "start": 39,
+    "end": 55,
+    "hits": [
+      {
+        "line": 44,
+        "text": "        txt = CStr(ActiveCell.text)   'como aparece (com formatação)",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 46,
+        "text": "        txt = CStr(ActiveCell.value)  'valor \"puro\"",
+        "tags": [
+          "ActiveCell"
+        ]
+      }
+    ],
+    "reason": "ActiveCell"
+  },
+  {
+    "module": "mdlCopiar",
+    "procedure": "UF_AtualizaLabels",
+    "start": 62,
+    "end": 92,
+    "hits": [
+      {
+        "line": 65,
+        "text": "    If ActiveCell Is Nothing Then",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 73,
+        "text": "    addr = ActiveCell.Address(False, False)",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 74,
+        "text": "    conteudo = CStr(ActiveCell.text) 'como aparece (com formatação)",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 83,
+        "text": "        Frm.Controls(\"LabelTextoCelula\").CAPTION = CStr(ActiveCell.text)",
+        "tags": [
+          "ActiveCell"
+        ]
+      }
+    ],
+    "reason": "ActiveCell"
+  },
+  {
+    "module": "mdlCopiar",
+    "procedure": "MoveActiveCell",
+    "start": 111,
+    "end": 131,
+    "hits": [
+      {
+        "line": 115,
+        "text": "    If ActiveCell Is Nothing Then Exit Sub",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 118,
+        "text": "    r = ActiveCell.Row + dRow",
+        "tags": [
+          "ActiveCell",
+          "LinhaFisica"
+        ]
+      },
+      {
+        "line": 119,
+        "text": "    c = ActiveCell.Column + dCol",
+        "tags": [
+          "ActiveCell"
+        ]
+      }
+    ],
+    "reason": "ActiveCell, LinhaFisica"
+  },
+  {
+    "module": "MóduloPesquisa",
+    "procedure": "AbrirRegistroDaLista",
+    "start": 219,
+    "end": 255,
+    "hits": [
+      {
+        "line": 226,
+        "text": "    If Lst.ListIndex < 0 Then Exit Sub",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 228,
+        "text": "    NomeAba = CStr(Lst.List(Lst.ListIndex, 0))",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 231,
+        "text": "    NumeroLinha = CLng(Val(Lst.List(Lst.ListIndex, 12)))",
+        "tags": [
+          "ListIndex"
+        ]
+      }
+    ],
+    "reason": "ListIndex"
+  },
+  {
+    "module": "MóduloPesquisa",
+    "procedure": "UltimaLinhaUsada",
+    "start": 260,
+    "end": 268,
+    "hits": [
+      {
+        "line": 266,
+        "text": "    ).End(xlUp).Row",
+        "tags": [
+          "LinhaFisica"
+        ]
+      }
+    ],
+    "reason": "LinhaFisica"
+  },
+  {
+    "module": "MóduloPesquisa",
+    "procedure": "IrParaCelulaNFe",
+    "start": 303,
+    "end": 341,
+    "hits": [
+      {
+        "line": 315,
+        "text": "    Set celEncontrada = ws.Cells.Find( _",
+        "tags": [
+          "Find"
+        ]
+      }
+    ],
+    "reason": "Find"
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "ListBoxLista_Change",
+    "start": 69,
+    "end": 77,
+    "hits": [
+      {
+        "line": 72,
+        "text": "    If ListBoxLista.ListIndex < 0 Then Exit Sub",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 74,
+        "text": "    TextBoxMotor.text = ListBoxLista.List(ListBoxLista.ListIndex, 4)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 75,
+        "text": "    TextBoxCEST.text = ListBoxLista.List(ListBoxLista.ListIndex, 1)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 76,
+        "text": "    TextBoxNCM.text = ListBoxLista.List(ListBoxLista.ListIndex, 2)",
+        "tags": [
+          "ListIndex"
+        ]
+      }
+    ],
+    "reason": "ListIndex"
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "TextBoxFiltro_Change",
+    "start": 157,
+    "end": 161,
+    "hits": [
+      {
+        "line": 158,
+        "text": "    If Me.ComboBoxCampos.ListIndex <> -1 Then",
+        "tags": [
+          "ListIndex"
+        ]
+      }
+    ],
+    "reason": "ListIndex"
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "PreencheCampos",
+    "start": 169,
+    "end": 183,
+    "hits": [
+      {
+        "line": 178,
+        "text": "        While .Cells(linha, coluna).value <> Empty",
+        "tags": [
+          "Lacunas"
+        ]
+      }
+    ],
+    "reason": "Lacunas"
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "PreencheCabecalho",
+    "start": 185,
+    "end": 199,
+    "hits": [
+      {
+        "line": 194,
+        "text": "        While .Cells(linha, coluna).value <> Empty",
+        "tags": [
+          "Lacunas"
+        ]
+      }
+    ],
+    "reason": "Lacunas"
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "PreencheLista",
+    "start": 201,
+    "end": 242,
+    "hits": [
+      {
+        "line": 211,
+        "text": "    If Me.ComboBoxCampos.ListIndex < 0 Then Exit Sub",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 218,
+        "text": "    coluna = Me.ComboBoxCampos.ListIndex + 1",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 223,
+        "text": "        While .Cells(i, coluna).value <> Empty",
+        "tags": [
+          "Lacunas"
+        ]
+      }
+    ],
+    "reason": "ListIndex, Lacunas"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_Excluir_Click",
+    "start": 117,
+    "end": 182,
+    "hits": [
+      {
+        "line": 127,
+        "text": "Set c = .Find(N_Nfe.value, LookIn:=xlValues, LookAt:=xlWhole)",
+        "tags": [
+          "Find"
+        ]
+      },
+      {
+        "line": 139,
+        "text": "         ActiveCell.Resize(1, 14).Select",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 140,
+        "text": "         Selection.Delete Shift:=xlUp",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 164,
+        "text": "         Selection.End(xlDown).Select",
+        "tags": [
+          "LinhaFisica",
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "Find, ActiveCell, ReferenciaFisica, LinhaFisica"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_ExcluirFilial_Click",
+    "start": 189,
+    "end": 260,
+    "hits": [
+      {
+        "line": 202,
+        "text": "        Set c = .Find(What:=nfeKey, LookIn:=xlValues, LookAt:=xlWhole)",
+        "tags": [
+          "Find"
+        ]
+      },
+      {
+        "line": 211,
+        "text": "                c.Resize(1, 13).Delete Shift:=xlUp",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 215,
+        "text": "                    Set cAnual = .Find(What:=nfeKey, LookIn:=xlValues, LookAt:=xlWhole)",
+        "tags": [
+          "Find"
+        ]
+      },
+      {
+        "line": 217,
+        "text": "                        cAnual.Resize(1, 16).Delete Shift:=xlUp",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "Find, ReferenciaFisica"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_Gravar_Click",
+    "start": 267,
+    "end": 397,
+    "hits": [
+      {
+        "line": 283,
+        "text": "vernumeronfe = WorksheetFunction.CountIf(planilha.Range(\"A:A\"), N_Nfe.text)",
+        "tags": [
+          "CountIf"
+        ]
+      },
+      {
+        "line": 303,
+        "text": "operacao.RegistrarDestino destino.Resize(1, 11)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 305,
+        "text": "operacao.RegistrarDestino destino.Resize(1, 10)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 315,
+        "text": "  If Not (IsEmpty(ActiveCell)) Then",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 316,
+        "text": "      ActiveCell.Offset(1, 0).Select",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 318,
+        "text": "Loop Until IsEmpty(ActiveCell) = True",
+        "tags": [
+          "ActiveCell",
+          "Lacunas"
+        ]
+      },
+      {
+        "line": 321,
+        "text": "ActiveCell.value = N_Nfe.value",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 322,
+        "text": "ActiveCell.Offset(0, 1).value = ComboBox_Operação.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 323,
+        "text": "ActiveCell.Offset(0, 2).value = UN.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 324,
+        "text": "ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULO.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 325,
+        "text": "ActiveCell.Offset(0, 4).value = COD.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 326,
+        "text": "ActiveCell.Offset(0, 5).value = PLACA.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 327,
+        "text": "ActiveCell.Offset(0, 6).value = Combo_ANO_MOD.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 328,
+        "text": "ActiveCell.Offset(0, 7).value = ComboBox_COR.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 329,
+        "text": "ActiveCell.Offset(0, 8).value = CDbl(txt_Valor.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 330,
+        "text": "ActiveCell.Offset(0, 9).value = CDate(Data.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 331,
+        "text": "ActiveCell.Offset(0, 10).value = ComboBox_OutroEnvio.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 340,
+        "text": "  If Not (IsEmpty(ActiveCell)) Then",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 341,
+        "text": "      ActiveCell.Offset(1, 0).Select",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 343,
+        "text": "Loop Until IsEmpty(ActiveCell) = True",
+        "tags": [
+          "ActiveCell",
+          "Lacunas"
+        ]
+      },
+      {
+        "line": 346,
+        "text": "ActiveCell.value = N_Nfe.value",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 347,
+        "text": "ActiveCell.Offset(0, 1).value = ComboBox_Operação.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 348,
+        "text": "ActiveCell.Offset(0, 2).value = UN.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 349,
+        "text": "ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULO.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 350,
+        "text": "ActiveCell.Offset(0, 4).value = COD.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 351,
+        "text": "ActiveCell.Offset(0, 5).value = PLACA.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 352,
+        "text": "ActiveCell.Offset(0, 6).value = Combo_ANO_MOD.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 353,
+        "text": "ActiveCell.Offset(0, 7).value = ComboBox_COR.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 354,
+        "text": "ActiveCell.Offset(0, 8).value = CDbl(txt_Valor.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 355,
+        "text": "ActiveCell.Offset(0, 9).value = CDate(Data.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "CountIf, ReferenciaFisica, ActiveCell, Lacunas"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_GravarFilial_Click",
+    "start": 404,
+    "end": 532,
+    "hits": [
+      {
+        "line": 417,
+        "text": "vernumeronfe = WorksheetFunction.CountIf(planilha.Range(\"A:A\"), N_NfeFilial.text)",
+        "tags": [
+          "CountIf"
+        ]
+      },
+      {
+        "line": 438,
+        "text": "operacao.RegistrarDestino destino.Resize(1, 12)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 440,
+        "text": "operacao.RegistrarDestino destino.Resize(1, 10)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 449,
+        "text": "  If Not (IsEmpty(ActiveCell)) Then",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 450,
+        "text": "      ActiveCell.Offset(1, 0).Select",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 452,
+        "text": "Loop Until IsEmpty(ActiveCell) = True",
+        "tags": [
+          "ActiveCell",
+          "Lacunas"
+        ]
+      },
+      {
+        "line": 455,
+        "text": "ActiveCell.value = N_NfeFilial.value",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 456,
+        "text": "ActiveCell.Offset(0, 1).value = ComboBox_OperaçãoFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 457,
+        "text": "ActiveCell.Offset(0, 2).value = UNFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 458,
+        "text": "ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULOFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 459,
+        "text": "ActiveCell.Offset(0, 4).value = CODFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 460,
+        "text": "ActiveCell.Offset(0, 5).value = PLACAFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 461,
+        "text": "ActiveCell.Offset(0, 6).value = Combo_ANO_MODFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 462,
+        "text": "ActiveCell.Offset(0, 7).value = ComboBox_CORFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 463,
+        "text": "ActiveCell.Offset(0, 8).value = CDbl(txt_ValorFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 464,
+        "text": "ActiveCell.Offset(0, 9).value = CDate(DataFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 465,
+        "text": "ActiveCell.Offset(0, 10).value = ComboBox_OutroEnvioFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 467,
+        "text": "ActiveCell.Offset(0, 11).NumberFormat = \"@\"",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 468,
+        "text": "ActiveCell.Offset(0, 11).value = CStr(TextBoxChaveDeAcessoFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 477,
+        "text": "  If Not (IsEmpty(ActiveCell)) Then",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 478,
+        "text": "      ActiveCell.Offset(1, 0).Select",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 480,
+        "text": "Loop Until IsEmpty(ActiveCell) = True",
+        "tags": [
+          "ActiveCell",
+          "Lacunas"
+        ]
+      },
+      {
+        "line": 483,
+        "text": "ActiveCell.value = N_NfeFilial.value",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 484,
+        "text": "ActiveCell.Offset(0, 1).value = ComboBox_OperaçãoFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 485,
+        "text": "ActiveCell.Offset(0, 2).value = UNFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 486,
+        "text": "ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULOFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 487,
+        "text": "ActiveCell.Offset(0, 4).value = CODFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 488,
+        "text": "ActiveCell.Offset(0, 5).value = PLACAFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 489,
+        "text": "ActiveCell.Offset(0, 6).value = Combo_ANO_MODFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 490,
+        "text": "ActiveCell.Offset(0, 7).value = ComboBox_CORFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 491,
+        "text": "ActiveCell.Offset(0, 8).value = CDbl(txt_ValorFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 492,
+        "text": "ActiveCell.Offset(0, 9).value = CDate(DataFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "CountIf, ReferenciaFisica, ActiveCell, Lacunas"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonAlterar_Click",
+    "start": 663,
+    "end": 792,
+    "hits": [
+      {
+        "line": 672,
+        "text": "Set c = .Find(TextBoxPesquisa, LookIn:=xlValues, LookAt:=xlWhole)",
+        "tags": [
+          "Find"
+        ]
+      },
+      {
+        "line": 683,
+        "text": "        ActiveCell.Resize(1, 11).Select",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 684,
+        "text": "        Selection.ClearContents 'Shift:=xlUp",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 694,
+        "text": "                  If Not (IsEmpty(ActiveCell)) Then",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 695,
+        "text": "                      ActiveCell.Offset(1, 0).Select",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 697,
+        "text": "                Loop Until IsEmpty(ActiveCell) = True",
+        "tags": [
+          "ActiveCell",
+          "Lacunas"
+        ]
+      },
+      {
+        "line": 700,
+        "text": "                ActiveCell.value = N_Nfe.value",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 701,
+        "text": "                ActiveCell.Offset(0, 1).value = ComboBox_Operação.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 702,
+        "text": "                ActiveCell.Offset(0, 2).value = UN.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 703,
+        "text": "                ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULO.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 704,
+        "text": "                ActiveCell.Offset(0, 4).value = COD.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 705,
+        "text": "                ActiveCell.Offset(0, 5).value = PLACA.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 706,
+        "text": "                ActiveCell.Offset(0, 6).value = Combo_ANO_MOD.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 707,
+        "text": "                ActiveCell.Offset(0, 7).value = ComboBox_COR.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 708,
+        "text": "                ActiveCell.Offset(0, 8).value = CDbl(txt_Valor.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 709,
+        "text": "                ActiveCell.Offset(0, 9).value = CDate(Data.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 710,
+        "text": "                ActiveCell.Offset(0, 10).value = ComboBox_OutroEnvio.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 715,
+        "text": "                        ActiveCell.Resize(1, 10).Select",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 716,
+        "text": "                        Selection.ClearContents 'Shift:=xlUp",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 724,
+        "text": "                  If Not (IsEmpty(ActiveCell)) Then",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 725,
+        "text": "                      ActiveCell.Offset(1, 0).Select",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 727,
+        "text": "                Loop Until IsEmpty(ActiveCell) = True",
+        "tags": [
+          "ActiveCell",
+          "Lacunas"
+        ]
+      },
+      {
+        "line": 730,
+        "text": "                ActiveCell.value = N_Nfe.value",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 731,
+        "text": "                ActiveCell.Offset(0, 1).value = ComboBox_Operação.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 732,
+        "text": "                ActiveCell.Offset(0, 2).value = UN.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 733,
+        "text": "                ActiveCell.Offset(0, 3).value = ComboBox_VEÍCULO.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 734,
+        "text": "                ActiveCell.Offset(0, 4).value = COD.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 735,
+        "text": "                ActiveCell.Offset(0, 5).value = PLACA.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 736,
+        "text": "                ActiveCell.Offset(0, 6).value = Combo_ANO_MOD.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 737,
+        "text": "                ActiveCell.Offset(0, 7).value = ComboBox_COR.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 738,
+        "text": "                ActiveCell.Offset(0, 8).value = CDbl(txt_Valor.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 739,
+        "text": "                ActiveCell.Offset(0, 9).value = CDate(Data.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 766,
+        "text": "    Range(\"A3\").End(xlDown).Offset(1, 0).Select",
+        "tags": [
+          "LinhaFisica",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 772,
+        "text": "        Range(\"A3\").End(xlDown).Offset(1, 0).Select",
+        "tags": [
+          "LinhaFisica",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 783,
+        "text": "        Range(\"A3\").End(xlDown).Offset(1, 0).Select",
+        "tags": [
+          "LinhaFisica",
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "Find, ActiveCell, ReferenciaFisica, Lacunas, LinhaFisica"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCopiarAutoEntradaFilial_Click",
+    "start": 840,
+    "end": 965,
+    "hits": [
+      {
+        "line": 853,
+        "text": "    Set celula = ws.Columns(\"B\").Find( _",
+        "tags": [
+          "Find"
+        ]
+      },
+      {
+        "line": 870,
+        "text": "    linha = celula.Row",
+        "tags": [
+          "LinhaFisica"
+        ]
+      }
+    ],
+    "reason": "Find, LinhaFisica"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonChaveR_Click",
+    "start": 1051,
+    "end": 1161,
+    "hits": [
+      {
+        "line": 1072,
+        "text": "    ultimaLinha = ws.Cells(ws.rows.count, \"L\").End(xlUp).Row",
+        "tags": [
+          "LinhaFisica"
+        ]
+      }
+    ],
+    "reason": "LinhaFisica"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "N_Nfe_Exit",
+    "start": 1498,
+    "end": 1522,
+    "hits": [
+      {
+        "line": 1504,
+        "text": "vernumeronfe = WorksheetFunction.CountIf(planilha.Range(\"A:A\"), N_Nfe.text)",
+        "tags": [
+          "CountIf"
+        ]
+      }
+    ],
+    "reason": "CountIf"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ListBoxLista_Change",
+    "start": 1642,
+    "end": 1756,
+    "hits": [
+      {
+        "line": 1645,
+        "text": "    Dim NumeroLinhaPlanilha As Long",
+        "tags": [
+          "LinhaFisica"
+        ]
+      },
+      {
+        "line": 1655,
+        "text": "    If Me.ListBoxLista.ListIndex < 0 Then Exit Sub",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 1657,
+        "text": "    linha = Me.ListBoxLista.ListIndex",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 1663,
+        "text": "    NumeroLinhaPlanilha = CLng(Val(Me.ListBoxLista.List(linha, 12)))",
+        "tags": [
+          "LinhaFisica"
+        ]
+      },
+      {
+        "line": 1665,
+        "text": "    If NumeroLinhaPlanilha < 2 Then Exit Sub",
+        "tags": [
+          "LinhaFisica"
+        ]
+      },
+      {
+        "line": 1741,
+        "text": "        Reference:=ws.Cells(NumeroLinhaPlanilha, 1), _",
+        "tags": [
+          "LinhaFisica"
+        ]
+      }
+    ],
+    "reason": "LinhaFisica, ListIndex"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ListBoxLista2_Change",
+    "start": 1768,
+    "end": 1882,
+    "hits": [
+      {
+        "line": 1771,
+        "text": "    Dim NumeroLinhaPlanilha As Long",
+        "tags": [
+          "LinhaFisica"
+        ]
+      },
+      {
+        "line": 1781,
+        "text": "    If Me.ListBoxLista2.ListIndex < 0 Then Exit Sub",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 1783,
+        "text": "    linha = Me.ListBoxLista2.ListIndex",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 1789,
+        "text": "    NumeroLinhaPlanilha = CLng(Val(Me.ListBoxLista2.List(linha, 12)))",
+        "tags": [
+          "LinhaFisica"
+        ]
+      },
+      {
+        "line": 1791,
+        "text": "    If NumeroLinhaPlanilha < 2 Then Exit Sub",
+        "tags": [
+          "LinhaFisica"
+        ]
+      },
+      {
+        "line": 1867,
+        "text": "        Reference:=ws.Cells(NumeroLinhaPlanilha, 1), _",
+        "tags": [
+          "LinhaFisica"
+        ]
+      }
+    ],
+    "reason": "LinhaFisica, ListIndex"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "N_NfeFilial_Exit",
+    "start": 2122,
+    "end": 2146,
+    "hits": [
+      {
+        "line": 2128,
+        "text": "vernumeronfe = WorksheetFunction.CountIf(planilha.Range(\"A:A\"), N_NfeFilial.text)",
+        "tags": [
+          "CountIf"
+        ]
+      }
+    ],
+    "reason": "CountIf"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelCopiar_Click",
+    "start": 2544,
+    "end": 2546,
+    "hits": [
+      {
+        "line": 2545,
+        "text": "    UF_CopiarCelula Me, True 'True = copia como aparece (ActiveCell.Text)",
+        "tags": [
+          "ActiveCell"
+        ]
+      }
+    ],
+    "reason": "ActiveCell"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "AtualizaPainelCelula",
+    "start": 2548,
+    "end": 2554,
+    "hits": [
+      {
+        "line": 2550,
+        "text": "    If Not ActiveCell Is Nothing Then",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 2551,
+        "text": "        If ControleExiste(Me, \"LabelCelAtual\") Then Me.Controls(\"LabelCelAtual\").CAPTION = ActiveCell.Address(False, False)",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 2552,
+        "text": "        If ControleExiste(Me, \"LabelCelValor\") Then Me.Controls(\"LabelCelValor\").CAPTION = CStr(ActiveCell.text)",
+        "tags": [
+          "ActiveCell"
+        ]
+      }
+    ],
+    "reason": "ActiveCell"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_ExcluirFilial_Click",
+    "start": 44,
+    "end": 91,
+    "hits": [
+      {
+        "line": 54,
+        "text": "Set c = .Find(TextBox_N_SaidaFilial.value, LookIn:=xlValues, LookAt:=xlWhole)",
+        "tags": [
+          "Find"
+        ]
+      },
+      {
+        "line": 60,
+        "text": "         Selection.EntireRow.Delete",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "Find, ReferenciaFisica"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_GravarFilial_Click",
+    "start": 93,
+    "end": 354,
+    "hits": [
+      {
+        "line": 104,
+        "text": "vernumeronfe = WorksheetFunction.CountIf(planilha.Range(\"A:A\"), TextBox_N_SaidaFilial.text)",
+        "tags": [
+          "CountIf"
+        ]
+      },
+      {
+        "line": 126,
+        "text": "        Set origem = .Find(What:=TextBox_N_EntradaFilial.value, LookIn:=xlValues, LookAt:=xlWhole)",
+        "tags": [
+          "Find"
+        ]
+      },
+      {
+        "line": 131,
+        "text": "    VerificarDestinoGravacao origem.Resize(1, 13)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 135,
+        "text": "    operacao.RegistrarDestino destino.Resize(1, 16)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 137,
+        "text": "    operacao.RegistrarDestino destino.Resize(1, 16)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 139,
+        "text": "    operacao.RegistrarDestino destino.Resize(1, 11)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 141,
+        "text": "    operacao.RegistrarDestino destino.Resize(1, 10)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 150,
+        "text": "  If Not (IsEmpty(ActiveCell)) Then",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 151,
+        "text": "      ActiveCell.Offset(1, 0).Select",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 153,
+        "text": "Loop Until IsEmpty(ActiveCell) = True",
+        "tags": [
+          "ActiveCell",
+          "Lacunas"
+        ]
+      },
+      {
+        "line": 156,
+        "text": "    ActiveCell.value = TextBox_N_SaidaFilial.value",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 157,
+        "text": "    ActiveCell.Offset(0, 1).value = TextBox_N_EntradaFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 158,
+        "text": "    ActiveCell.Offset(0, 2).value = ComboBox_OperaçãoFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 159,
+        "text": "    ActiveCell.Offset(0, 3).value = TextBox_ESTOQUEFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 160,
+        "text": "    ActiveCell.Offset(0, 4).value = ComboBox_VEÍCULOFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 161,
+        "text": "    ActiveCell.Offset(0, 5).value = TextBox_PLACAFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 162,
+        "text": "    ActiveCell.Offset(0, 6).value = ComboBox_AnoFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 163,
+        "text": "    ActiveCell.Offset(0, 7).value = ComboBox_CORFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 164,
+        "text": "    ActiveCell.Offset(0, 8).value = CDbl(TextBox_Valor_EntradaFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 165,
+        "text": "    ActiveCell.Offset(0, 9).value = CDbl(TextBox_Valor_SaidaFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 166,
+        "text": "    ActiveCell.Offset(0, 11).value = CDate(TextBox_DataFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 167,
+        "text": "    ActiveCell.Offset(0, 12).value = ComboBox_PorFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 168,
+        "text": "    ActiveCell.Offset(0, 13).value = CDbl(TextBox_ICMSFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 169,
+        "text": "    ActiveCell.Offset(0, 14).value = CDbl(TextBox_PISFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 170,
+        "text": "    ActiveCell.Offset(0, 15).value = CDbl(TextBox_COFINSFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 179,
+        "text": "  If Not (IsEmpty(ActiveCell)) Then",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 180,
+        "text": "      ActiveCell.Offset(1, 0).Select",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 182,
+        "text": "Loop Until IsEmpty(ActiveCell) = True",
+        "tags": [
+          "ActiveCell",
+          "Lacunas"
+        ]
+      },
+      {
+        "line": 185,
+        "text": "    ActiveCell.value = TextBox_N_SaidaFilial.value",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 186,
+        "text": "    ActiveCell.Offset(0, 1).value = TextBox_N_EntradaFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 187,
+        "text": "    ActiveCell.Offset(0, 2).value = ComboBox_OperaçãoFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 188,
+        "text": "    ActiveCell.Offset(0, 3).value = TextBox_ESTOQUEFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 189,
+        "text": "    ActiveCell.Offset(0, 4).value = ComboBox_VEÍCULOFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 190,
+        "text": "    ActiveCell.Offset(0, 5).value = TextBox_PLACAFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 191,
+        "text": "    ActiveCell.Offset(0, 6).value = ComboBox_AnoFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 192,
+        "text": "    ActiveCell.Offset(0, 7).value = ComboBox_CORFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 193,
+        "text": "    ActiveCell.Offset(0, 8).value = CDbl(TextBox_Valor_EntradaFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 194,
+        "text": "    ActiveCell.Offset(0, 9).value = CDbl(TextBox_Valor_SaidaFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 195,
+        "text": "    ActiveCell.Offset(0, 11).value = CDate(TextBox_DataFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 196,
+        "text": "    ActiveCell.Offset(0, 12).value = ComboBox_PorFilial.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 197,
+        "text": "    ActiveCell.Offset(0, 13).value = CDbl(TextBox_ICMSFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 198,
+        "text": "    ActiveCell.Offset(0, 14).value = CDbl(TextBox_PISFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 199,
+        "text": "    ActiveCell.Offset(0, 15).value = CDbl(TextBox_COFINSFilial.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 210,
+        "text": "    proxLinha = .Cells(.rows.count, \"A\").End(xlUp).Row",
+        "tags": [
+          "LinhaFisica"
+        ]
+      },
+      {
+        "line": 234,
+        "text": "    proxLinha = .Cells(.rows.count, \"A\").End(xlUp).Row",
+        "tags": [
+          "LinhaFisica"
+        ]
+      },
+      {
+        "line": 259,
+        "text": "    Set c = .Find(TextBox_N_EntradaFilial.value, LookIn:=xlValues, LookAt:=xlWhole)",
+        "tags": [
+          "Find"
+        ]
+      },
+      {
+        "line": 264,
+        "text": "        c.Resize(1, 13).Delete Shift:=xlUp",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "CountIf, Find, ReferenciaFisica, ActiveCell, Lacunas, LinhaFisica"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_Excluir_Click",
+    "start": 478,
+    "end": 536,
+    "hits": [
+      {
+        "line": 488,
+        "text": "Set c = .Find(TextBox_N_Saida.value, LookIn:=xlValues, LookAt:=xlWhole)",
+        "tags": [
+          "Find"
+        ]
+      },
+      {
+        "line": 494,
+        "text": "         Selection.EntireRow.Delete",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "Find, ReferenciaFisica"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_Gravar_Click",
+    "start": 565,
+    "end": 1006,
+    "hits": [
+      {
+        "line": 623,
+        "text": "    vernumeronfe = WorksheetFunction.CountIf( _",
+        "tags": [
+          "CountIf"
+        ]
+      },
+      {
+        "line": 665,
+        "text": "            Set c = .Find( _",
+        "tags": [
+          "Find"
+        ]
+      },
+      {
+        "line": 696,
+        "text": "        VerificarDestinoGravacao c.Resize(1, 14)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 704,
+        "text": "    operacao.RegistrarDestino destino.Resize(1, 16)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 706,
+        "text": "    operacao.RegistrarDestino destino.Resize(1, 16)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 709,
+        "text": "        operacao.RegistrarDestino destino.Resize(1, 10)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 713,
+        "text": "        operacao.RegistrarDestino destino.Resize(1, 12)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 715,
+        "text": "        operacao.RegistrarDestino destino.Resize(1, 10)",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 724,
+        "text": "    Do While Not IsEmpty(ActiveCell)",
+        "tags": [
+          "ActiveCell",
+          "Lacunas"
+        ]
+      },
+      {
+        "line": 725,
+        "text": "        ActiveCell.Offset(1, 0).Select",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 728,
+        "text": "    ActiveCell.value = TextBox_N_Saida.value",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 729,
+        "text": "    ActiveCell.Offset(0, 1).value = TextBox_N_Entrada.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 730,
+        "text": "    ActiveCell.Offset(0, 2).value = ComboBox_Operação.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 731,
+        "text": "    ActiveCell.Offset(0, 3).value = TextBox_ESTOQUE.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 732,
+        "text": "    ActiveCell.Offset(0, 4).value = ComboBox_VEÍCULO.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 733,
+        "text": "    ActiveCell.Offset(0, 5).value = TextBox_PLACA.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 734,
+        "text": "    ActiveCell.Offset(0, 6).value = ComboBox_Ano.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 735,
+        "text": "    ActiveCell.Offset(0, 7).value = ComboBox_COR.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 736,
+        "text": "    ActiveCell.Offset(0, 8).value = CDbl(TextBox_Valor_Entrada.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 737,
+        "text": "    ActiveCell.Offset(0, 9).value = CDbl(TextBox_Valor_Saida.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 738,
+        "text": "    ActiveCell.Offset(0, 11).value = CDate(TextBox_Data.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 739,
+        "text": "    ActiveCell.Offset(0, 12).value = CDbl(ComboBox_Por.value) / 100",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 740,
+        "text": "    ActiveCell.Offset(0, 13).value = CDbl(TextBox_ICMS.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 741,
+        "text": "    ActiveCell.Offset(0, 14).value = CDbl(TextBox_PIS.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 742,
+        "text": "    ActiveCell.Offset(0, 15).value = CDbl(TextBox_COFINS.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 753,
+        "text": "            wsDemo.Cells(wsDemo.rows.count, \"A\").End(xlUp).Row + 1",
+        "tags": [
+          "LinhaFisica"
+        ]
+      },
+      {
+        "line": 794,
+        "text": "            wsDemo.Cells(wsDemo.rows.count, \"A\").End(xlUp).Row + 1",
+        "tags": [
+          "LinhaFisica"
+        ]
+      },
+      {
+        "line": 828,
+        "text": "            wsDemo.Cells(wsDemo.rows.count, \"A\").End(xlUp).Row + 1",
+        "tags": [
+          "LinhaFisica"
+        ]
+      },
+      {
+        "line": 860,
+        "text": "    Do While Not IsEmpty(ActiveCell)",
+        "tags": [
+          "ActiveCell",
+          "Lacunas"
+        ]
+      },
+      {
+        "line": 861,
+        "text": "        ActiveCell.Offset(1, 0).Select",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 864,
+        "text": "    ActiveCell.value = TextBox_N_Saida.value",
+        "tags": [
+          "ActiveCell"
+        ]
+      },
+      {
+        "line": 865,
+        "text": "    ActiveCell.Offset(0, 1).value = TextBox_N_Entrada.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 866,
+        "text": "    ActiveCell.Offset(0, 2).value = ComboBox_Operação.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 867,
+        "text": "    ActiveCell.Offset(0, 3).value = TextBox_ESTOQUE.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 868,
+        "text": "    ActiveCell.Offset(0, 4).value = ComboBox_VEÍCULO.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 869,
+        "text": "    ActiveCell.Offset(0, 5).value = TextBox_PLACA.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 870,
+        "text": "    ActiveCell.Offset(0, 6).value = ComboBox_Ano.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 871,
+        "text": "    ActiveCell.Offset(0, 7).value = ComboBox_COR.value",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 872,
+        "text": "    ActiveCell.Offset(0, 8).value = CDbl(TextBox_Valor_Entrada.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 873,
+        "text": "    ActiveCell.Offset(0, 9).value = CDbl(TextBox_Valor_Saida.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 874,
+        "text": "    ActiveCell.Offset(0, 11).value = CDate(TextBox_Data.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 875,
+        "text": "    ActiveCell.Offset(0, 12).value = CDbl(ComboBox_Por.value) / 100",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 876,
+        "text": "    ActiveCell.Offset(0, 13).value = CDbl(TextBox_ICMS.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 877,
+        "text": "    ActiveCell.Offset(0, 14).value = CDbl(TextBox_PIS.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 878,
+        "text": "    ActiveCell.Offset(0, 15).value = CDbl(TextBox_COFINS.value)",
+        "tags": [
+          "ActiveCell",
+          "ReferenciaFisica"
+        ]
+      },
+      {
+        "line": 890,
+        "text": "        c.Resize(1, 14).Delete Shift:=xlUp",
+        "tags": [
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "CountIf, Find, ReferenciaFisica, ActiveCell, Lacunas, LinhaFisica"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_Saida_Exit",
+    "start": 1761,
+    "end": 1785,
+    "hits": [
+      {
+        "line": 1767,
+        "text": "vernumeronfe = WorksheetFunction.CountIf(planilha.Range(\"A:A\"), TextBox_N_Saida.text)",
+        "tags": [
+          "CountIf"
+        ]
+      }
+    ],
+    "reason": "CountIf"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_SaidaFilial_Exit",
+    "start": 2121,
+    "end": 2145,
+    "hits": [
+      {
+        "line": 2127,
+        "text": "vernumeronfe = WorksheetFunction.CountIf(planilha.Range(\"A:A\"), TextBox_N_SaidaFilial.text)",
+        "tags": [
+          "CountIf"
+        ]
+      }
+    ],
+    "reason": "CountIf"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxFiltro_Change",
+    "start": 2447,
+    "end": 2451,
+    "hits": [
+      {
+        "line": 2448,
+        "text": "    If Me.ComboBoxCampos.ListIndex <> -1 Then",
+        "tags": [
+          "ListIndex"
+        ]
+      }
+    ],
+    "reason": "ListIndex"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheCampos",
+    "start": 2453,
+    "end": 2467,
+    "hits": [
+      {
+        "line": 2462,
+        "text": "        While .Cells(linha, coluna).value <> Empty",
+        "tags": [
+          "Lacunas"
+        ]
+      }
+    ],
+    "reason": "Lacunas"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheCabecalho",
+    "start": 2469,
+    "end": 2483,
+    "hits": [
+      {
+        "line": 2478,
+        "text": "        While .Cells(linha, coluna).value <> Empty",
+        "tags": [
+          "Lacunas"
+        ]
+      }
+    ],
+    "reason": "Lacunas"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheLista",
+    "start": 2485,
+    "end": 2526,
+    "hits": [
+      {
+        "line": 2495,
+        "text": "    If Me.ComboBoxCampos.ListIndex < 0 Then Exit Sub",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2502,
+        "text": "    coluna = Me.ComboBoxCampos.ListIndex + 1",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2507,
+        "text": "        While .Cells(i, coluna).value <> Empty",
+        "tags": [
+          "Lacunas"
+        ]
+      }
+    ],
+    "reason": "ListIndex, Lacunas"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ListBoxLista_Change",
+    "start": 2556,
+    "end": 2613,
+    "hits": [
+      {
+        "line": 2558,
+        "text": "    If Me.ListBoxLista.ListIndex < 0 Then Exit Sub",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2564,
+        "text": "    TextBox_ESTOQUE.value = ListBoxLista.List(ListBoxLista.ListIndex, 3)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2565,
+        "text": "    ComboBox_Operação.value = ListBoxLista.List(ListBoxLista.ListIndex, 2)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2566,
+        "text": "    TextBox_N_Saida.value = ListBoxLista.List(ListBoxLista.ListIndex, 0)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2567,
+        "text": "    TextBox_N_Entrada.value = ListBoxLista.List(ListBoxLista.ListIndex, 1)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2568,
+        "text": "    ComboBox_VEÍCULO.value = ListBoxLista.List(ListBoxLista.ListIndex, 4)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2569,
+        "text": "    TextBox_PLACA.value = ListBoxLista.List(ListBoxLista.ListIndex, 5)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2570,
+        "text": "    ComboBox_Ano.value = ListBoxLista.List(ListBoxLista.ListIndex, 6)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2571,
+        "text": "    ComboBox_COR.value = ListBoxLista.List(ListBoxLista.ListIndex, 7)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2572,
+        "text": "    TextBox_Valor_Entrada.value = ListBoxLista.List(ListBoxLista.ListIndex, 8)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2574,
+        "text": "    TextBox_Valor_Saida.value = ListBoxLista.List(ListBoxLista.ListIndex, 9)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2576,
+        "text": "    ComboBox_Por.value = ListBoxLista.List(ListBoxLista.ListIndex, 12)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2578,
+        "text": "    TextBox_Data.value = ListBoxLista.List(ListBoxLista.ListIndex, 11)",
+        "tags": [
+          "ListIndex"
+        ]
+      }
+    ],
+    "reason": "ListIndex"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxFiltroFilial_Change",
+    "start": 2617,
+    "end": 2621,
+    "hits": [
+      {
+        "line": 2618,
+        "text": "    If Me.ComboBoxCamposFilial.ListIndex <> -1 Then",
+        "tags": [
+          "ListIndex"
+        ]
+      }
+    ],
+    "reason": "ListIndex"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheCampos2",
+    "start": 2623,
+    "end": 2637,
+    "hits": [
+      {
+        "line": 2632,
+        "text": "        While .Cells(linha, coluna).value <> Empty",
+        "tags": [
+          "Lacunas"
+        ]
+      }
+    ],
+    "reason": "Lacunas"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheCabecalho2",
+    "start": 2639,
+    "end": 2653,
+    "hits": [
+      {
+        "line": 2648,
+        "text": "        While .Cells(linha, coluna).value <> Empty",
+        "tags": [
+          "Lacunas"
+        ]
+      }
+    ],
+    "reason": "Lacunas"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheLista2",
+    "start": 2655,
+    "end": 2696,
+    "hits": [
+      {
+        "line": 2665,
+        "text": "    If Me.ComboBoxCamposFilial.ListIndex < 0 Then Exit Sub",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2672,
+        "text": "    coluna = Me.ComboBoxCamposFilial.ListIndex + 1",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2677,
+        "text": "        While .Cells(i, coluna).value <> Empty",
+        "tags": [
+          "Lacunas"
+        ]
+      }
+    ],
+    "reason": "ListIndex, Lacunas"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ListBoxListaFilial_Change",
+    "start": 2698,
+    "end": 2755,
+    "hits": [
+      {
+        "line": 2700,
+        "text": "    If Me.ListBoxListaFilial.ListIndex < 0 Then Exit Sub",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2706,
+        "text": "    TextBox_ESTOQUEFilial.value = ListBoxListaFilial.List(ListBoxListaFilial.ListIndex, 3)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2707,
+        "text": "    ComboBox_OperaçãoFilial.value = ListBoxListaFilial.List(ListBoxListaFilial.ListIndex, 2)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2708,
+        "text": "    TextBox_N_SaidaFilial.value = ListBoxListaFilial.List(ListBoxListaFilial.ListIndex, 0)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2709,
+        "text": "    TextBox_N_EntradaFilial.value = ListBoxListaFilial.List(ListBoxListaFilial.ListIndex, 1)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2710,
+        "text": "    ComboBox_VEÍCULOFilial.value = ListBoxListaFilial.List(ListBoxListaFilial.ListIndex, 4)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2711,
+        "text": "    TextBox_PLACAFilial.value = ListBoxListaFilial.List(ListBoxListaFilial.ListIndex, 5)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2712,
+        "text": "    ComboBox_AnoFilial.value = ListBoxListaFilial.List(ListBoxListaFilial.ListIndex, 6)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2713,
+        "text": "    ComboBox_CORFilial.value = ListBoxListaFilial.List(ListBoxListaFilial.ListIndex, 7)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2714,
+        "text": "    TextBox_Valor_EntradaFilial.value = ListBoxListaFilial.List(ListBoxListaFilial.ListIndex, 8)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2716,
+        "text": "    TextBox_Valor_SaidaFilial.value = ListBoxListaFilial.List(ListBoxListaFilial.ListIndex, 9)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2718,
+        "text": "    ComboBox_PorFilial.value = ListBoxListaFilial.List(ListBoxListaFilial.ListIndex, 12)",
+        "tags": [
+          "ListIndex"
+        ]
+      },
+      {
+        "line": 2720,
+        "text": "    TextBox_DataFilial.value = ListBoxListaFilial.List(ListBoxListaFilial.ListIndex, 11)",
+        "tags": [
+          "ListIndex"
+        ]
+      }
+    ],
+    "reason": "ListIndex"
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonFiltroCompra_Click",
+    "start": 22,
+    "end": 27,
+    "hits": [
+      {
+        "line": 26,
+        "text": "    Selection.End(xlDown).Select",
+        "tags": [
+          "LinhaFisica",
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "LinhaFisica, ReferenciaFisica"
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "Command_Entrada_Click",
+    "start": 48,
+    "end": 53,
+    "hits": [
+      {
+        "line": 52,
+        "text": "    Selection.End(xlDown).Select",
+        "tags": [
+          "LinhaFisica",
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "LinhaFisica, ReferenciaFisica"
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonFiltroAguardando_Click",
+    "start": 61,
+    "end": 66,
+    "hits": [
+      {
+        "line": 65,
+        "text": "    Selection.End(xlDown).Select",
+        "tags": [
+          "LinhaFisica",
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "LinhaFisica, ReferenciaFisica"
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonRepasse_Click",
+    "start": 74,
+    "end": 79,
+    "hits": [
+      {
+        "line": 78,
+        "text": "    Selection.End(xlDown).Select",
+        "tags": [
+          "LinhaFisica",
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "LinhaFisica, ReferenciaFisica"
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonVenda_Click",
+    "start": 87,
+    "end": 92,
+    "hits": [
+      {
+        "line": 91,
+        "text": "    Selection.End(xlDown).Select",
+        "tags": [
+          "LinhaFisica",
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "LinhaFisica, ReferenciaFisica"
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonTransferência_Click",
+    "start": 100,
+    "end": 105,
+    "hits": [
+      {
+        "line": 104,
+        "text": "    Selection.End(xlDown).Select",
+        "tags": [
+          "LinhaFisica",
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "LinhaFisica, ReferenciaFisica"
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonDevolução_Click",
+    "start": 113,
+    "end": 118,
+    "hits": [
+      {
+        "line": 117,
+        "text": "    Selection.End(xlDown).Select",
+        "tags": [
+          "LinhaFisica",
+          "ReferenciaFisica"
+        ]
+      }
+    ],
+    "reason": "LinhaFisica, ReferenciaFisica"
+  },
+  {
+    "module": "MóduloPesquisa",
+    "procedure": "ConfigurarListBoxPesquisa",
+    "start": 13,
+    "end": 31,
+    "reason": "Contrato de leitor/escritor confirmado por inspeção complementar"
+  },
+  {
+    "module": "MóduloPesquisa",
+    "procedure": "PesquisarEntradasRapido",
+    "start": 36,
+    "end": 214,
+    "reason": "Contrato de leitor/escritor confirmado por inspeção complementar"
+  },
+  {
+    "module": "MóduloPesquisa",
+    "procedure": "TransporParaListBox",
+    "start": 273,
+    "end": 298,
+    "reason": "Contrato de leitor/escritor confirmado por inspeção complementar"
+  },
+  {
+    "module": "modPreencherFormulario",
+    "procedure": "PreencherDadosEntradas",
+    "start": 4,
+    "end": 51,
+    "reason": "Contrato de leitor/escritor confirmado por inspeção complementar"
+  },
+  {
+    "module": "modPreencherFormulario",
+    "procedure": "PreencherDadosEntradasFilial",
+    "start": 53,
+    "end": 104,
+    "reason": "Contrato de leitor/escritor confirmado por inspeção complementar"
+  },
+  {
+    "module": "modIntegridadeOperacao",
+    "procedure": "PrimeiraVagaGravacao",
+    "start": 4,
+    "end": 17,
+    "reason": "Contrato de leitor/escritor confirmado por inspeção complementar"
+  },
+  {
+    "module": "mdlCopiar",
+    "procedure": "UF_NavegarCelula",
+    "start": 28,
+    "end": 31,
+    "reason": "Contrato de leitor/escritor confirmado por inspeção complementar"
+  }
+]

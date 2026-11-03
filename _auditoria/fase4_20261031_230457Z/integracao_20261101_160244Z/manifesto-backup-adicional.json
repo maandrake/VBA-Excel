@@ -1,0 +1,32 @@
+[
+  {
+    "original": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase4_20261031_230457Z\\desenvolvimento\\MDL\\clsOperacaoPlanilha.cls",
+    "backup": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase4_20261031_230457Z\\integracao_20261101_160244Z\\backup-adicional\\_auditoria\\fase4_20261031_230457Z\\desenvolvimento\\MDL\\clsOperacaoPlanilha.cls",
+    "sha256": "a6621e394e9111ba3419cbb0b792b8f821bb8a003060baacb7d1d4fd2824b40e",
+    "verified": true
+  },
+  {
+    "original": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase4_20261031_230457Z\\scripts\\modTestesAuditoria.bas",
+    "backup": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase4_20261031_230457Z\\integracao_20261101_160244Z\\backup-adicional\\_auditoria\\fase4_20261031_230457Z\\scripts\\modTestesAuditoria.bas",
+    "sha256": "409b64d4e61b2235a6e69699d9d3102d408408889ff84d3a6fdf81321a081210",
+    "verified": true
+  },
+  {
+    "original": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase4_20261031_230457Z\\scripts\\modTestesFase2.bas",
+    "backup": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase4_20261031_230457Z\\integracao_20261101_160244Z\\backup-adicional\\_auditoria\\fase4_20261031_230457Z\\scripts\\modTestesFase2.bas",
+    "sha256": "4074237d5d2058a66b9c303dfb1628caf182f04ac2ab3db21de8835bbb7eed18",
+    "verified": true
+  },
+  {
+    "original": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\PENDENCIAS_DECISAO.md",
+    "backup": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase4_20261031_230457Z\\integracao_20261101_160244Z\\backup-adicional\\PENDENCIAS_DECISAO.md",
+    "sha256": "8a6edf7520ceecd8c54dc5da445235ddc61f4841ad5718a3dc549ccbcccb7ece",
+    "verified": true
+  },
+  {
+    "original": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase4_20261031_230457Z\\entrega-fase4.json",
+    "backup": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase4_20261031_230457Z\\integracao_20261101_160244Z\\backup-adicional\\_auditoria\\fase4_20261031_230457Z\\entrega-fase4.json",
+    "sha256": "1ababa06c2ab431d4daa720eab979d38979f8e16bf91a6de313afddc78989d6a",
+    "verified": true
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Menu Principal",
+    "codeName": "Planilha12",
+    "target": "worksheets/sheet1.xml",
+    "formulaCount": 208,
+    "formulasByColumn": {
+      "B": 1,
+      "C": 73,
+      "G": 55,
+      "D": 40,
+      "H": 39
+    }
+  },
+  {
+    "name": "Entradas",
+    "codeName": "Planilha1",
+    "target": "worksheets/sheet2.xml",
+    "formulaCount": 2344,
+    "formulasByColumn": {
+      "C": 1,
+      "G": 1,
+      "I": 1,
+      "N": 781,
+      "L": 780,
+      "M": 780
+    }
+  },
+  {
+    "name": "Transferidos",
+    "codeName": "Planilha13",
+    "target": "worksheets/sheet3.xml",
+    "formulaCount": 3,
+    "formulasByColumn": {
+      "D": 1,
+      "I": 1,
+      "J": 1
+    }
+  },
+  {
+    "name": "Entradas Anual",
+    "codeName": "Planilha3",
+    "target": "worksheets/sheet4.xml",
+    "formulaCount": 17971,
+    "formulasByColumn": {
+      "P": 2996,
+      "C": 1,
+      "G": 1,
+      "I": 1,
+      "K": 2993,
+      "L": 2994,
+      "M": 2995,
+      "N": 2995,
+      "O": 2995
+    }
+  },
+  {
+    "name": "Demonstração",
+    "codeName": "Planilha4",
+    "target": "worksheets/sheet5.xml",
+    "formulaCount": 154,
+    "formulasByColumn": {
+      "M": 51,
+      "C": 1,
+      "G": 1,
+      "I": 1,
+      "K": 50,
+      "L": 50
+    }
+  },
+  {
+    "name": "Saidas",
+    "codeName": "Planilha2",
+    "target": "worksheets/sheet6.xml",
+    "formulaCount": 100,
+    "formulasByColumn": {
+      "K": 46,
+      "Q": 45,
+      "D": 2,
+      "G": 1,
+      "J": 2,
+      "N": 1,
+      "O": 1,
+      "P": 2
+    }
+  },
+  {
+    "name": "Todas Saidas",
+    "codeName": "Planilha17",
+    "target": "worksheets/sheet7.xml",
+    "formulaCount": 16673,
+    "formulasByColumn": {
+      "D": 1,
+      "J": 1,
+      "N": 545,
+      "O": 545,
+      "P": 545,
+      "K": 5012,
+      "Q": 5012,
+      "R": 5012
+    }
+  },
+  {
+    "name": "Entradas Filial",
+    "codeName": "Planilha15",
+    "target": "worksheets/sheet8.xml",
+    "formulaCount": 1093,
+    "formulasByColumn": {
+      "C": 1,
+      "G": 1,
+      "I": 1,
+      "O": 364,
+      "M": 363,
+      "N": 363
+    }
+  },
+  {
+    "name": "Entradas Anual Filial",
+    "codeName": "Planilha10",
+    "target": "worksheets/sheet9.xml",
+    "formulaCount": 2974,
+    "formulasByColumn": {
+      "P": 496,
+      "C": 1,
+      "G": 1,
+      "I": 1,
+      "K": 495,
+      "L": 495,
+      "M": 495,
+      "N": 495,
+      "O": 495
+    }
+  },
+  {
+    "name": "Saidas Filial",
+    "codeName": "Planilha16",
+    "target": "worksheets/sheet10.xml",
+    "formulaCount": 64,
+    "formulasByColumn": {
+      "K": 27,
+      "Q": 28,
+      "D": 2,
+      "G": 1,
+      "J": 2,
+      "N": 2,
+      "O": 1,
+      "P": 1
+    }
+  },
+  {
+    "name": "Todas Saidas Filial",
+    "codeName": "Planilha18",
+    "target": "worksheets/sheet11.xml",
+    "formulaCount": 1501,
+    "formulasByColumn": {
+      "D": 1,
+      "J": 1,
+      "N": 1,
+      "O": 1,
+      "P": 1,
+      "K": 498,
+      "Q": 499,
+      "R": 499
+    }
+  },
+  {
+    "name": "Carros PF",
+    "codeName": "Planilha7",
+    "target": "worksheets/sheet12.xml",
+    "formulaCount": 130,
+    "formulasByColumn": {
+      "A": 1,
+      "G": 1,
+      "J": 32,
+      "M": 32,
+      "N": 32,
+      "O": 32
+    }
+  },
+  {
+    "name": "Clientes",
+    "codeName": "Planilha6",
+    "target": "worksheets/sheet13.xml",
+    "formulaCount": 0,
+    "formulasByColumn": {}
+  },
+  {
+    "name": "Veículos",
+    "codeName": "Planilha9",
+    "target": "worksheets/sheet14.xml",
+    "formulaCount": 0,
+    "formulasByColumn": {}
+  },
+  {
+    "name": "Doc. para fora",
+    "codeName": "Planilha11",
+    "target": "worksheets/sheet15.xml",
+    "formulaCount": 0,
+    "formulasByColumn": {}
+  },
+  {
+    "name": "NCM e CEST",
+    "codeName": "Planilha5",
+    "target": "worksheets/sheet16.xml",
+    "formulaCount": 0,
+    "formulasByColumn": {}
+  },
+  {
+    "name": "Listas",
+    "codeName": "Planilha8",
+    "target": "worksheets/sheet17.xml",
+    "formulaCount": 17,
+    "formulasByColumn": {
+      "J": 17
+    }
+  }
+]

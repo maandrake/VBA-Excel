@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-02T03:13:31.592Z",
+  "uiTranscription": {
+    "label": "F7_SESSAO1",
+    "workbooksCount": 1,
+    "fullName": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\Fixture_Arquitetura_Fase7_Mestre.xlsm",
+    "version": "16.0",
+    "build": "20527",
+    "os": "Windows (64 bit) NT 10.00",
+    "closedNormally": true,
+    "windowsRemoved": [
+      3148430,
+      14028294
+    ],
+    "preexistingExcelWindowUnchanged": 8589906
+  },
+  "savedComponents": 58,
+  "sha256": "c7858e3682403f719784db4f817dcd7810ee1ff617fb6c3a7d647d8050d16b1a",
+  "mode": "Observacao UI nativa e inspecao estatica do arquivo salvo; nao COM VBProject"
+}

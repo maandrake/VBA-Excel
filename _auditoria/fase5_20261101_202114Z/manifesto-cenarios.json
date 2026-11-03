@@ -1,0 +1,30 @@
+{
+  "baseSHA256": "f989289554a5c081cef8bd13de2e0b6f0e48ec4c1ba1dd5e75c349eff458f72c",
+  "components": 56,
+  "cases": {
+    "C_VALIDO": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\C_VALIDO\\Fixture_Auditoria_Fase5_C_VALIDO.xlsm",
+    "C_DUP": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\C_DUP\\Fixture_Auditoria_Fase5_C_DUP.xlsm",
+    "C_VAZIO": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\C_VAZIO\\Fixture_Auditoria_Fase5_C_VAZIO.xlsm",
+    "C_VALOR": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\C_VALOR\\Fixture_Auditoria_Fase5_C_VALOR.xlsm",
+    "C_DATA": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\C_DATA\\Fixture_Auditoria_Fase5_C_DATA.xlsm",
+    "D_VALIDO": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\D_VALIDO\\Fixture_Auditoria_Fase5_D_VALIDO.xlsm",
+    "D_DUP": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\D_DUP\\Fixture_Auditoria_Fase5_D_DUP.xlsm",
+    "D_SEMORIGEM": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\D_SEMORIGEM\\Fixture_Auditoria_Fase5_D_SEMORIGEM.xlsm",
+    "D_VALOR": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\D_VALOR\\Fixture_Auditoria_Fase5_D_VALOR.xlsm",
+    "D_DATA": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\D_DATA\\Fixture_Auditoria_Fase5_D_DATA.xlsm",
+    "D_FALHA_INTER": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\D_FALHA_INTER\\Fixture_Auditoria_Fase5_D_FALHA_INTER.xlsm",
+    "D_FALHA_BAIXA": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\D_FALHA_BAIXA\\Fixture_Auditoria_Fase5_D_FALHA_BAIXA.xlsm",
+    "V_VALIDO": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\V_VALIDO\\Fixture_Auditoria_Fase5_V_VALIDO.xlsm",
+    "V_DUP": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\V_DUP\\Fixture_Auditoria_Fase5_V_DUP.xlsm",
+    "V_VAZIO": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\V_VAZIO\\Fixture_Auditoria_Fase5_V_VAZIO.xlsm",
+    "V_VALOR": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\V_VALOR\\Fixture_Auditoria_Fase5_V_VALOR.xlsm",
+    "V_DATA": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\V_DATA\\Fixture_Auditoria_Fase5_V_DATA.xlsm",
+    "V_XML_DIVERGE": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\V_XML_DIVERGE\\Fixture_Auditoria_Fase5_V_XML_DIVERGE.xlsm",
+    "V_SEMORIGEM": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\V_SEMORIGEM\\Fixture_Auditoria_Fase5_V_SEMORIGEM.xlsm",
+    "V_FALHA_INTER": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\V_FALHA_INTER\\Fixture_Auditoria_Fase5_V_FALHA_INTER.xlsm",
+    "T_VALIDO": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\T_VALIDO\\Fixture_Auditoria_Fase5_T_VALIDO.xlsm",
+    "T_DUP_DESTINO": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\T_DUP_DESTINO\\Fixture_Auditoria_Fase5_T_DUP_DESTINO.xlsm",
+    "T_FALHA_INTER": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\T_FALHA_INTER\\Fixture_Auditoria_Fase5_T_FALHA_INTER.xlsm",
+    "XML_SUITE": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\VBA_Fase5_20261101_202114Z\\XML_SUITE\\Fixture_Auditoria_Fase5_XML_SUITE.xlsm"
+  }
+}

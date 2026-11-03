@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-03T01:47:07.470Z",
+  "origem": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Fechamento_20261103T011847Z",
+  "destino": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z",
+  "hashAnterior": "014b4d03151ff63dd1c716a952473235f67d3cd03e64492b1080602bc4176407",
+  "procedimento": "C3_Realocar",
+  "resultado": "REALOCADO_REQUER_REABERTURA_E_VERIFICACAO",
+  "origemDiagnostico": "ERROR:5:Autoridade revogada por geracao",
+  "modalidade": "VBA_REAL_JANELA_IMEDIATA_TRANSCRICAO_INTERFACE"
+}

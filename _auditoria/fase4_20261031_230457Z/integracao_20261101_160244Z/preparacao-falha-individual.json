@@ -1,0 +1,7 @@
+{
+  "reason": "Proteger uma aba afeta formatos/Ignore de todos os destinos nela; isolar a celula protegida em Entradas e os demais destinos em Saidas",
+  "testModule": "modTestesFase2",
+  "before": "963ff071f34fabc4ae39edaa2784b73e80fc71bd0fea8b57dc86dbdf84a4e7b5",
+  "after": "95e195729dd72c75187a9a0926783212d9e41e942336c872239a86fde3e263ff",
+  "productionLogicChanged": false
+}

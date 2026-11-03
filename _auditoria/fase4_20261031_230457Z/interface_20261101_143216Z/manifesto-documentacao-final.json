@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-01T14:40:04.549Z",
+  "files": [
+    {
+      "file": "RELATORIO_INTEGRACAO_FASE4.md",
+      "sha256": "7d536fe8030eed908c70a3995370f2313bf38dff020e5a1c72c0f5d7e40f1aa2"
+    },
+    {
+      "file": "MATRIZ_REGRESSAO_VBA_FASE4.md",
+      "sha256": "b217aee9fea6a35782900164979512506c82f5301a550777629b5c5b4712a22d"
+    },
+    {
+      "file": "HISTORICO_ALTERACOES.md",
+      "sha256": "1c0edc7098abdd6d70fa3f1739cc97ecd085b1bbfcd046b7ea7ec724a0540968"
+    },
+    {
+      "file": "TESTES_VBA.md",
+      "sha256": "b06d9b922b1d5c53e76e310ff479bc54e91f79e2cd1a41e92cf8d85e176011c7"
+    }
+  ]
+}

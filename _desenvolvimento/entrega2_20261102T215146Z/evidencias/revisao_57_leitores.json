@@ -1,0 +1,607 @@
+[
+  {
+    "module": "clsOperacaoPlanilha",
+    "procedure": "RegistrarDestino",
+    "exists": true,
+    "line": 44,
+    "body": "Public Sub RegistrarDestino(ByVal alvo As Range)\n    Dim celula As Range, item As Collection\n    Dim temSpill As Variant\n    If Not mAtiva Then Err.Raise vbObjectError + 2101, , \"Operacao nao iniciada.\"\n    If alvo Is Nothing Then Err.Raise vbObjectError + 2107, , \"Destino nao informado.\"\n    If Not alvo.Parent.Parent Is mLivro Then\n        Err.Raise vbObjectError + 2102, , \"Destino de outra pasta.\"\n    End If\n    VerificarDestinoGravacao alvo\n    For Each celula In alvo.Cells\n        If celula.HasArray Then Err.Raise vbObjectError + 2103, , \"Destino com formula matricial.\"\n        temSpill = False\n        On Error Resume Next\n        temSpill = CallByName(celula, \"HasSpill\", VbGet)\n        Err.Clear\n        On Error GoTo 0\n        If Not IsNull(temSpill) Then\n            If temSpill Then Err.Raise vbObjectError + 2104, , \"Destino com formula derramada.\"\n        End If\n        Set item = New Collection\n        item.Add celula\n        item.Add CBool(celula.HasFormula)\n        item.Add celula.Formula\n        item.Add celula.Value2\n        item.Add CStr(celula.NumberFormat)\n        item.Add CBool(celula.Errors(xlNumberAsText).Ignore)\n        mItens.Add item\n    Next celula\nEnd Sub",
+    "delegates": [],
+    "oldRisk": "ReferenciaFisica"
+  },
+  {
+    "module": "clsOperacaoPlanilha",
+    "procedure": "RestaurarCelula",
+    "exists": true,
+    "line": 118,
+    "body": "Private Function RestaurarCelula(ByVal item As Collection) As Boolean\n    Dim celula As Range, valor As Variant\n    On Error GoTo Falhou\n    Set celula = item(1)\n    valor = item(4)\n    'A atribuicao substitui o conteudo; nao limpar antes de validar o formato.\n    If CBool(item(2)) Then\n        celula.NumberFormat = CStr(item(5))\n        celula.Formula = item(3)\n    ElseIf VarType(valor) = vbString Then\n        'Texto que comeca com = nao pode virar formula na recuperacao.\n        celula.NumberFormat = \"@\"\n        celula.Value2 = CStr(valor)\n        celula.NumberFormat = CStr(item(5))\n    Else\n        celula.NumberFormat = CStr(item(5))\n        celula.Value2 = valor\n    End If\n    celula.Errors(xlNumberAsText).Ignore = CBool(item(6))\n    RestaurarCelula = True\n    Exit Function\nFalhou:\n    RestaurarCelula = False\nEnd Function",
+    "delegates": [
+      "    Exit Function"
+    ],
+    "oldRisk": "ReferenciaFisica"
+  },
+  {
+    "module": "modIntegridadeOperacao",
+    "procedure": "ProximaLinhaGravacao",
+    "exists": true,
+    "line": 19,
+    "body": "Public Function ProximaLinhaGravacao(ByVal WS As Worksheet) As Range\n    Dim linha As Long\n    linha = WS.Cells(WS.rows.count, 1).End(xlUp).row + 1\n    If linha < 2 Then linha = 2\n    If linha > WS.rows.count Then Err.Raise vbObjectError + 2122, , \"Planilha sem capacidade.\"\n    Set ProximaLinhaGravacao = WS.Cells(linha, 1)\nEnd Function",
+    "delegates": [],
+    "oldRisk": "LinhaFisica"
+  },
+  {
+    "module": "mdlCopiar",
+    "procedure": "UF_CopiarCelula",
+    "exists": true,
+    "line": 39,
+    "body": "Public Sub UF_CopiarCelula(ByVal frm As Object, Optional ByVal usarTextoFormatado As Boolean = True)\n    On Error GoTo Trata\n\n    Dim txt As String\n    If usarTextoFormatado Then\n        txt = CStr(ActiveCell.text)   'como aparece (com formatação)\n    Else\n        txt = CStr(ActiveCell.value)  'valor \"puro\"\n    End If\n\n    Clipboard_SetText txt\n    UF_AtualizaLabels frm, \"Conteúdo copiado\"\n\n    Exit Sub\nTrata:\n    UF_SetStatus frm, \"Não foi possível copiar o conteúdo da célula.\"\nEnd Sub",
+    "delegates": [
+      "    Exit Sub"
+    ],
+    "oldRisk": "ActiveCell"
+  },
+  {
+    "module": "mdlCopiar",
+    "procedure": "UF_AtualizaLabels",
+    "exists": true,
+    "line": 62,
+    "body": "Private Sub UF_AtualizaLabels(ByVal frm As Object, ByVal acao As String)\n    On Error Resume Next\n\n    If ActiveCell Is Nothing Then\n        UF_SetStatus frm, \"Nenhuma célula ativa.\"\n        Exit Sub\n    End If\n\n    Dim addr As String\n    Dim conteudo As String\n\n    addr = ActiveCell.Address(False, False)\n    conteudo = CStr(ActiveCell.text) 'como aparece (com formatação)\n\n    If Len(conteudo) = 0 Then conteudo = \"(vazio)\"\n\n    ' Evita status gigante (opcional)\n    If Len(conteudo) > 200 Then conteudo = Left$(conteudo, 200) & \"...\"\n\n    ' Atualiza LabelTextoCelula (se existir)\n    If ControleExiste(frm, \"LabelTextoCelula\") Then\n        frm.Controls(\"LabelTextoCelula\").CAPTION = CStr(ActiveCell.text)\n    End If\n\n    ' Atualiza LabelConteudoCélula com o conteúdo da célula\n    ' 1) Em duas linhas (recomendado para leitura):\n    UF_SetStatus frm, conteudo\n\n    ' 2) Se preferir tudo em uma linha, use esta no lugar da de cima:\n    'UF_SetStatus frm, acao & \" - \" & addr & \" => \" & conteudo\nEnd Sub",
+    "delegates": [
+      "        Exit Sub"
+    ],
+    "oldRisk": "ActiveCell"
+  },
+  {
+    "module": "mdlCopiar",
+    "procedure": "MoveActiveCell",
+    "exists": true,
+    "line": 111,
+    "body": "Private Sub MoveActiveCell(ByVal dRow As Long, ByVal dCol As Long)\n    On Error GoTo Trata\n\n    If TypeName(ActiveSheet) <> \"Worksheet\" Then Exit Sub\n    If ActiveCell Is Nothing Then Exit Sub\n\n    Dim r As Long, c As Long\n    r = ActiveCell.row + dRow\n    c = ActiveCell.Column + dCol\n\n    If r < 1 Then r = 1\n    If c < 1 Then c = 1\n    If r > ActiveSheet.rows.count Then r = ActiveSheet.rows.count\n    If c > ActiveSheet.Columns.count Then c = ActiveSheet.Columns.count\n\n    ActiveSheet.Cells(r, c).Select\n    Exit Sub\n\nTrata:\n    ' proteção contra planilha protegida/seleção inválida\nEnd Sub",
+    "delegates": [
+      "    If TypeName(ActiveSheet) <> \"Worksheet\" Then Exit Sub",
+      "    If ActiveCell Is Nothing Then Exit Sub",
+      "    Exit Sub"
+    ],
+    "oldRisk": "ActiveCell, LinhaFisica"
+  },
+  {
+    "module": "MóduloPesquisa",
+    "procedure": "AbrirRegistroDaLista",
+    "exists": true,
+    "line": 29,
+    "body": "Public Sub AbrirRegistroDaLista(ByVal lst As Object)\n    C1_Navegar lst\nEnd Sub",
+    "delegates": [
+      "    C1_Navegar lst"
+    ],
+    "oldRisk": "ListIndex"
+  },
+  {
+    "module": "MóduloPesquisa",
+    "procedure": "UltimaLinhaUsada",
+    "exists": true,
+    "line": 36,
+    "body": "Private Function UltimaLinhaUsada( _\n    ByVal WS As Worksheet, _\n    ByVal coluna As String) As Long\n\n    UltimaLinhaUsada = WS.Cells( _\n        WS.rows.count, coluna _\n    ).End(xlUp).row\n\nEnd Function",
+    "delegates": [],
+    "oldRisk": "LinhaFisica"
+  },
+  {
+    "module": "MóduloPesquisa",
+    "procedure": "IrParaCelulaNFe",
+    "exists": true,
+    "line": 79,
+    "body": "Public Sub IrParaCelulaNFe( _\n    ByVal NomePlanilha As String, _\n    ByVal NumeroNFe As String)\n    C1_Bloqueado \"Navegacao somente por NF-e e ambigua; use pesquisa por identidade\"\nEnd Sub",
+    "delegates": [
+      "    C1_Bloqueado \"Navegacao somente por NF-e e ambigua; use pesquisa por identidade\""
+    ],
+    "oldRisk": "Find"
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "ListBoxLista_Change",
+    "exists": true,
+    "line": 69,
+    "body": "Private Sub ListBoxLista_Change()\n\n    'Clear e a carga da lista podem disparar Change sem seleção.\n    If ListBoxLista.ListIndex < 0 Then Exit Sub\n\n    TextBoxMotor.text = ListBoxLista.list(ListBoxLista.ListIndex, 4)\n    TextBoxCEST.text = ListBoxLista.list(ListBoxLista.ListIndex, 1)\n    TextBoxNCM.text = ListBoxLista.list(ListBoxLista.ListIndex, 2)\nEnd Sub",
+    "delegates": [
+      "    If ListBoxLista.ListIndex < 0 Then Exit Sub"
+    ],
+    "oldRisk": "ListIndex"
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "TextBoxFiltro_Change",
+    "exists": true,
+    "line": 157,
+    "body": "Private Sub TextBoxFiltro_Change()\n    If Me.ComboBoxCampos.ListIndex <> -1 Then\n        Call PreencheLista(TextBoxFiltro.text)\n    End If\nEnd Sub",
+    "delegates": [],
+    "oldRisk": "ListIndex"
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "PreencheCampos",
+    "exists": true,
+    "line": 169,
+    "body": "Private Sub PreencheCampos()\n    Dim WS As Worksheet\n    Dim coluna As Long\n    Dim linha As Long\n    Set WS = ThisWorkbook.Worksheets(NomePlanilha)\n    coluna = 1\n    linha = LinhaCabecalho\n\n    With WS\n        While .Cells(linha, coluna).value <> Empty\n            Me.ComboBoxCampos.AddItem .Cells(linha, coluna)\n            coluna = coluna + 1\n        Wend\n    End With\nEnd Sub",
+    "delegates": [],
+    "oldRisk": "Lacunas"
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "PreencheCabecalho",
+    "exists": true,
+    "line": 185,
+    "body": "Private Sub PreencheCabecalho(ByRef lista())\n    Dim WS As Worksheet\n    Dim coluna As Long\n    Dim linha As Long\n    Set WS = ThisWorkbook.Worksheets(NomePlanilha)\n    coluna = 1\n    linha = LinhaCabecalho\n\n    With WS\n        While .Cells(linha, coluna).value <> Empty\n            lista(coluna - 1, 0) = .Cells(linha, coluna)\n            coluna = coluna + 1\n        Wend\n    End With\nEnd Sub",
+    "delegates": [],
+    "oldRisk": "Lacunas"
+  },
+  {
+    "module": "Cad_NCM",
+    "procedure": "PreencheLista",
+    "exists": true,
+    "line": 201,
+    "body": "Private Sub PreencheLista(ByVal TextoDigitado As String)\n    Dim WS As Worksheet\n    Dim i As Long\n    Dim x As Long\n    Dim indiceLista As Long\n    Dim coluna As Long\n    Dim TextoCelula As String\n    Dim quantidadeColunas As Long\n    Dim lista()\n\n    If Me.ComboBoxCampos.ListIndex < 0 Then Exit Sub\n    Set WS = ThisWorkbook.Worksheets(NomePlanilha)\n    quantidadeColunas = WS.UsedRange.Columns.count\n    ReDim lista(quantidadeColunas, 0)\n\n    i = LinhaCabecalho + 1\n    indiceLista = 1\n    coluna = Me.ComboBoxCampos.ListIndex + 1\n    Call PreencheCabecalho(lista)\n\n    ListBoxLista.Clear\n    With WS\n        While .Cells(i, coluna).value <> Empty\n            TextoCelula = .Cells(i, coluna).value\n            If UCase(Left(TextoCelula, Len(TextoDigitado))) = UCase(TextoDigitado) Then\n\n                'Uma expansão por registro, preservando as dimensões originais.\n                ReDim Preserve lista(quantidadeColunas, indiceLista)\n                For x = 0 To quantidadeColunas - 1\n                    lista(x, indiceLista) = .Cells(i, x + 1)\n                Next\n\n                indiceLista = indiceLista + 1\n            End If\n            i = i + 1\n        Wend\n    End With\n   \n    lista = Array2DTranspose(lista)\n\n    Me.ListBoxLista.list = lista\nEnd Sub",
+    "delegates": [
+      "    If Me.ComboBoxCampos.ListIndex < 0 Then Exit Sub"
+    ],
+    "oldRisk": "ListIndex, Lacunas"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_Excluir_Click",
+    "exists": true,
+    "line": 84,
+    "body": "Private Sub CommandButton_Excluir_Click()\n    C2_ClassificarExclusao Me\nEnd Sub",
+    "delegates": [
+      "    C2_ClassificarExclusao Me"
+    ],
+    "oldRisk": "Find, ActiveCell, ReferenciaFisica, LinhaFisica"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_ExcluirFilial_Click",
+    "exists": true,
+    "line": 93,
+    "body": "Private Sub CommandButton_ExcluirFilial_Click()\n    C2_ClassificarExclusao Me\nEnd Sub",
+    "delegates": [
+      "    C2_ClassificarExclusao Me"
+    ],
+    "oldRisk": "Find, ReferenciaFisica"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_Gravar_Click",
+    "exists": true,
+    "line": 102,
+    "body": "Private Sub CommandButton_Gravar_Click()\n    C1_GravarEntrada Me, False\nEnd Sub",
+    "delegates": [
+      "    C1_GravarEntrada Me, False"
+    ],
+    "oldRisk": "CountIf, ReferenciaFisica, ActiveCell, Lacunas"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButton_GravarFilial_Click",
+    "exists": true,
+    "line": 111,
+    "body": "Private Sub CommandButton_GravarFilial_Click()\n    C1_GravarEntrada Me, True\nEnd Sub",
+    "delegates": [
+      "    C1_GravarEntrada Me, True"
+    ],
+    "oldRisk": "CountIf, ReferenciaFisica, ActiveCell, Lacunas"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonAlterar_Click",
+    "exists": true,
+    "line": 246,
+    "body": "Private Sub CommandButtonAlterar_Click()\n    C2_AlterarEntrada Me\nEnd Sub",
+    "delegates": [
+      "    C2_AlterarEntrada Me"
+    ],
+    "oldRisk": "Find, ActiveCell, ReferenciaFisica, Lacunas, LinhaFisica"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCopiarAutoEntradaFilial_Click",
+    "exists": true,
+    "line": 263,
+    "body": "Private Sub CommandButtonCopiarAutoEntradaFilial_Click()\n    C1_EnviarSaida Me, True\nEnd Sub",
+    "delegates": [
+      "    C1_EnviarSaida Me, True"
+    ],
+    "oldRisk": "Find, LinhaFisica"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonChaveR_Click",
+    "exists": true,
+    "line": 347,
+    "body": "Private Sub CommandButtonChaveR_Click()\n    CandidatoReconstruir\nEnd Sub",
+    "delegates": [
+      "    CandidatoReconstruir"
+    ],
+    "oldRisk": "LinhaFisica"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "N_Nfe_Exit",
+    "exists": true,
+    "line": 533,
+    "body": "Private Sub N_Nfe_Exit(ByVal Cancel As MSForms.ReturnBoolean)\n    \n'Verifica se existe células com o mesmo valor\nDim vernumeronfe As Double\nDim planilha As Worksheet\nSet planilha = ThisWorkbook.Worksheets(\"Entradas\")\nvernumeronfe = WorksheetFunction.CountIf(planilha.Range(\"A:A\"), N_Nfe.text)\n\nIf N_Nfe.text = \"\" Then\n        Exit Sub\nEnd If\n\nIf vernumeronfe > 0 Then\n        MsgBox \"Numero da NFe já cadastrado!\", vbCritical, \"Numero da NFe\"\n        LabelStatus = \"Numero da NFe já cadastrado!\"\n        N_Nfe.BorderColor = &HFF&\n        N_Nfe.BackColor = &H8080FF\n        Label_N_Nfe.ForeColor = &HC0&\n        Exit Sub\nEnd If\n    \n    N_Nfe.BorderColor = &H8000000A\n    N_Nfe.BackColor = &H80000005\n    Label_N_Nfe.ForeColor = &H80000011\nEnd Sub",
+    "delegates": [
+      "        Exit Sub",
+      "        Exit Sub"
+    ],
+    "oldRisk": "CountIf"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ListBoxLista_Change",
+    "exists": true,
+    "line": 677,
+    "body": "Private Sub ListBoxLista_Change()\n    C1_SelecionarEntrada Me, Me.ListBoxLista, False\nEnd Sub",
+    "delegates": [
+      "    C1_SelecionarEntrada Me, Me.ListBoxLista, False"
+    ],
+    "oldRisk": "LinhaFisica, ListIndex"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "ListBoxLista2_Change",
+    "exists": true,
+    "line": 691,
+    "body": "Private Sub ListBoxLista2_Change()\n    C1_SelecionarEntrada Me, Me.ListBoxLista2, True\nEnd Sub",
+    "delegates": [
+      "    C1_SelecionarEntrada Me, Me.ListBoxLista2, True"
+    ],
+    "oldRisk": "LinhaFisica, ListIndex"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "N_NfeFilial_Exit",
+    "exists": true,
+    "line": 933,
+    "body": "Private Sub N_NfeFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)\n\n'Verifica se existe células com o mesmo valor\nDim vernumeronfe As Double\nDim planilha As Worksheet\nSet planilha = ThisWorkbook.Worksheets(\"Entradas Filial\")\nvernumeronfe = WorksheetFunction.CountIf(planilha.Range(\"A:A\"), N_NfeFilial.text)\n\nIf N_NfeFilial.text = \"\" Then\n        Exit Sub\nEnd If\n\nIf vernumeronfe > 0 Then\n        MsgBox \"Numero da NFe já cadastrado!\", vbCritical, \"Numero da NFe\"\n        LabelStatus = \"Numero da NFe já cadastrado!\"\n        N_NfeFilial.BorderColor = &HFF&\n        N_NfeFilial.BackColor = &H8080FF\n        N_NfeFilial.ForeColor = &HC0&\n        Exit Sub\nEnd If\n\n    N_NfeFilial.BorderColor = &H8000000A\n    N_NfeFilial.BackColor = &H80000005\n    Label_N_NfeFilial.ForeColor = &H80000011\nEnd Sub",
+    "delegates": [
+      "        Exit Sub",
+      "        Exit Sub"
+    ],
+    "oldRisk": "CountIf"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "CommandButtonCelCopiar_Click",
+    "exists": true,
+    "line": 1355,
+    "body": "Private Sub CommandButtonCelCopiar_Click()\n    UF_CopiarCelula Me, True 'True = copia como aparece (ActiveCell.Text)\nEnd Sub",
+    "delegates": [],
+    "oldRisk": "ActiveCell"
+  },
+  {
+    "module": "Cad_NFE",
+    "procedure": "AtualizaPainelCelula",
+    "exists": true,
+    "line": 1359,
+    "body": "Private Sub AtualizaPainelCelula()\n    On Error Resume Next\n    If Not ActiveCell Is Nothing Then\n        If ControleExiste(Me, \"LabelCelAtual\") Then Me.Controls(\"LabelCelAtual\").CAPTION = ActiveCell.Address(False, False)\n        If ControleExiste(Me, \"LabelCelValor\") Then Me.Controls(\"LabelCelValor\").CAPTION = CStr(ActiveCell.text)\n    End If\nEnd Sub",
+    "delegates": [],
+    "oldRisk": "ActiveCell"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_ExcluirFilial_Click",
+    "exists": true,
+    "line": 33,
+    "body": "Private Sub CommandButton_ExcluirFilial_Click()\n    C2_ClassificarExclusao Me\nEnd Sub",
+    "delegates": [
+      "    C2_ClassificarExclusao Me"
+    ],
+    "oldRisk": "Find, ReferenciaFisica"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_GravarFilial_Click",
+    "exists": true,
+    "line": 37,
+    "body": "Private Sub CommandButton_GravarFilial_Click()\n    C1_GravarSaida Me, True\nEnd Sub",
+    "delegates": [
+      "    C1_GravarSaida Me, True"
+    ],
+    "oldRisk": "CountIf, Find, ReferenciaFisica, ActiveCell, Lacunas, LinhaFisica"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_Excluir_Click",
+    "exists": true,
+    "line": 144,
+    "body": "Private Sub CommandButton_Excluir_Click()\n    C2_ClassificarExclusao Me\nEnd Sub",
+    "delegates": [
+      "    C2_ClassificarExclusao Me"
+    ],
+    "oldRisk": "Find, ReferenciaFisica"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "CommandButton_Gravar_Click",
+    "exists": true,
+    "line": 175,
+    "body": "Private Sub CommandButton_Gravar_Click()\n    C1_GravarSaida Me, False\nEnd Sub",
+    "delegates": [
+      "    C1_GravarSaida Me, False"
+    ],
+    "oldRisk": "CountIf, Find, ReferenciaFisica, ActiveCell, Lacunas, LinhaFisica"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_Saida_Exit",
+    "exists": true,
+    "line": 935,
+    "body": "Private Sub TextBox_N_Saida_Exit(ByVal Cancel As MSForms.ReturnBoolean)\n\n'Verifica se existe células com o mesmo valor\nDim vernumeronfe As Double\nDim planilha As Worksheet\nSet planilha = ThisWorkbook.Worksheets(\"Saidas\")\nvernumeronfe = WorksheetFunction.CountIf(planilha.Range(\"A:A\"), TextBox_N_Saida.text)\n\nIf TextBox_N_Saida.text = \"\" Then\n        Exit Sub\nEnd If\n\nIf vernumeronfe > 0 Then\n        MsgBox \"Numero da NFe já cadastrado!\", vbCritical, \"Numero da NFe\"\n        LabelStatus = \"Numero da NFe já cadastrado!\"\n        TextBox_N_Saida.BorderColor = &HFF&\n        TextBox_N_Saida.BackColor = &H8080FF\n        TextBox_N_Saida.ForeColor = &HC0&\n        Exit Sub\nEnd If\n\n    TextBox_N_Saida.BorderColor = &H8000000A\n    TextBox_N_Saida.BackColor = &H80000005\n    Label_NFe_Saida.ForeColor = &H80000011\nEnd Sub",
+    "delegates": [
+      "        Exit Sub",
+      "        Exit Sub"
+    ],
+    "oldRisk": "CountIf"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBox_N_SaidaFilial_Exit",
+    "exists": true,
+    "line": 1295,
+    "body": "Private Sub TextBox_N_SaidaFilial_Exit(ByVal Cancel As MSForms.ReturnBoolean)\n\n'Verifica se existe células com o mesmo valor\nDim vernumeronfe As Double\nDim planilha As Worksheet\nSet planilha = ThisWorkbook.Worksheets(\"Saidas Filial\")\nvernumeronfe = WorksheetFunction.CountIf(planilha.Range(\"A:A\"), TextBox_N_SaidaFilial.text)\n\nIf TextBox_N_SaidaFilial.text = \"\" Then\n        Exit Sub\nEnd If\n\nIf vernumeronfe > 0 Then\n        MsgBox \"Numero da NFe já cadastrado!\", vbCritical, \"Numero da NFe\"\n        LabelStatus = \"Numero da NFe já cadastrado!\"\n        TextBox_N_SaidaFilial.BorderColor = &HFF&\n        TextBox_N_SaidaFilial.BackColor = &H8080FF\n        TextBox_N_SaidaFilial.ForeColor = &HC0&\n        Exit Sub\nEnd If\n\n    TextBox_N_SaidaFilial.BorderColor = &H8000000A\n    TextBox_N_SaidaFilial.BackColor = &H80000005\n    Label_NFe_SaidaFilial.ForeColor = &H80000011\nEnd Sub",
+    "delegates": [
+      "        Exit Sub",
+      "        Exit Sub"
+    ],
+    "oldRisk": "CountIf"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxFiltro_Change",
+    "exists": true,
+    "line": 1621,
+    "body": "Private Sub TextBoxFiltro_Change()\n    C1_Pesquisar Me.TextBoxFiltro.text, Me.ListBoxLista, \"MATRIZ\", True\nEnd Sub",
+    "delegates": [
+      "    C1_Pesquisar Me.TextBoxFiltro.text, Me.ListBoxLista, \"MATRIZ\", True"
+    ],
+    "oldRisk": "ListIndex"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheCampos",
+    "exists": true,
+    "line": 1625,
+    "body": "Private Sub PreencheCampos()\n    Dim WS As Worksheet\n    Dim coluna As Long\n    Dim linha As Long\n    Set WS = ThisWorkbook.Worksheets(NomePlanilha)\n    coluna = 1\n    linha = LinhaCabecalho\n\n    With WS\n        While .Cells(linha, coluna).value <> Empty\n            Me.ComboBoxCampos.AddItem .Cells(linha, coluna)\n            coluna = coluna + 1\n        Wend\n    End With\nEnd Sub",
+    "delegates": [],
+    "oldRisk": "Lacunas"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheCabecalho",
+    "exists": true,
+    "line": 1641,
+    "body": "Private Sub PreencheCabecalho(ByRef lista())\n    Dim WS As Worksheet\n    Dim coluna As Long\n    Dim linha As Long\n    Set WS = ThisWorkbook.Worksheets(NomePlanilha)\n    coluna = 1\n    linha = LinhaCabecalho\n\n    With WS\n        While .Cells(linha, coluna).value <> Empty\n            lista(coluna - 1, 0) = .Cells(linha, coluna)\n            coluna = coluna + 1\n        Wend\n    End With\nEnd Sub",
+    "delegates": [],
+    "oldRisk": "Lacunas"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheLista",
+    "exists": true,
+    "line": 1657,
+    "body": "Private Sub PreencheLista(ByVal TextoDigitado As String)\n    Dim WS As Worksheet\n    Dim i As Long\n    Dim x As Long\n    Dim indiceLista As Long\n    Dim coluna As Long\n    Dim TextoCelula As String\n    Dim quantidadeColunas As Long\n    Dim lista()\n\n    If Me.ComboBoxCampos.ListIndex < 0 Then Exit Sub\n    Set WS = ThisWorkbook.Worksheets(NomePlanilha)\n    quantidadeColunas = WS.UsedRange.Columns.count\n    ReDim lista(quantidadeColunas, 0)\n\n    i = LinhaCabecalho + 1\n    indiceLista = 1\n    coluna = Me.ComboBoxCampos.ListIndex + 1\n    Call PreencheCabecalho(lista)\n\n    ListBoxLista.Clear\n    With WS\n        While .Cells(i, coluna).value <> Empty\n            TextoCelula = .Cells(i, coluna).value\n            If UCase(Left(TextoCelula, Len(TextoDigitado))) = UCase(TextoDigitado) Then\n\n                'Expande a matriz uma vez por registro encontrado.\n                ReDim Preserve lista(quantidadeColunas, indiceLista)\n                For x = 0 To quantidadeColunas - 1\n                    lista(x, indiceLista) = .Cells(i, x + 1)\n                Next\n\n                indiceLista = indiceLista + 1\n            End If\n            i = i + 1\n        Wend\n    End With\n   \n    lista = Array2DTranspose(lista)\n\n    Me.ListBoxLista.list = lista\nEnd Sub",
+    "delegates": [
+      "    If Me.ComboBoxCampos.ListIndex < 0 Then Exit Sub"
+    ],
+    "oldRisk": "ListIndex, Lacunas"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ListBoxLista_Change",
+    "exists": true,
+    "line": 1728,
+    "body": "Private Sub ListBoxLista_Change()\n    C2_SelecionarHistorico Me, Me.ListBoxLista\nEnd Sub",
+    "delegates": [
+      "    C2_SelecionarHistorico Me, Me.ListBoxLista"
+    ],
+    "oldRisk": "ListIndex"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "TextBoxFiltroFilial_Change",
+    "exists": true,
+    "line": 1734,
+    "body": "Private Sub TextBoxFiltroFilial_Change()\n    C1_Pesquisar Me.TextBoxFiltroFilial.text, Me.ListBoxListaFilial, \"FILIAL\", True\nEnd Sub",
+    "delegates": [
+      "    C1_Pesquisar Me.TextBoxFiltroFilial.text, Me.ListBoxListaFilial, \"FILIAL\", True"
+    ],
+    "oldRisk": "ListIndex"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheCampos2",
+    "exists": true,
+    "line": 1738,
+    "body": "Private Sub PreencheCampos2()\n    Dim WS As Worksheet\n    Dim coluna As Long\n    Dim linha As Long\n    Set WS = ThisWorkbook.Worksheets(NomePlanilha2)\n    coluna = 1\n    linha = LinhaCabecalho\n\n    With WS\n        While .Cells(linha, coluna).value <> Empty\n            Me.ComboBoxCamposFilial.AddItem .Cells(linha, coluna)\n            coluna = coluna + 1\n        Wend\n    End With\nEnd Sub",
+    "delegates": [],
+    "oldRisk": "Lacunas"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheCabecalho2",
+    "exists": true,
+    "line": 1754,
+    "body": "Private Sub PreencheCabecalho2(ByRef lista())\n    Dim WS As Worksheet\n    Dim coluna As Long\n    Dim linha As Long\n    Set WS = ThisWorkbook.Worksheets(NomePlanilha2)\n    coluna = 1\n    linha = LinhaCabecalho\n\n    With WS\n        While .Cells(linha, coluna).value <> Empty\n            lista(coluna - 1, 0) = .Cells(linha, coluna)\n            coluna = coluna + 1\n        Wend\n    End With\nEnd Sub",
+    "delegates": [],
+    "oldRisk": "Lacunas"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "PreencheLista2",
+    "exists": true,
+    "line": 1770,
+    "body": "Private Sub PreencheLista2(ByVal TextoDigitado As String)\n    Dim WS As Worksheet\n    Dim i As Long\n    Dim x As Long\n    Dim indiceLista As Long\n    Dim coluna As Long\n    Dim TextoCelula As String\n    Dim quantidadeColunas As Long\n    Dim lista()\n\n    If Me.ComboBoxCamposFilial.ListIndex < 0 Then Exit Sub\n    Set WS = ThisWorkbook.Worksheets(NomePlanilha2)\n    quantidadeColunas = WS.UsedRange.Columns.count\n    ReDim lista(quantidadeColunas, 0)\n\n    i = LinhaCabecalho + 1\n    indiceLista = 1\n    coluna = Me.ComboBoxCamposFilial.ListIndex + 1\n    Call PreencheCabecalho2(lista)\n\n    ListBoxListaFilial.Clear\n    With WS\n        While .Cells(i, coluna).value <> Empty\n            TextoCelula = .Cells(i, coluna).value\n            If UCase(Left(TextoCelula, Len(TextoDigitado))) = UCase(TextoDigitado) Then\n\n                'Expande a matriz uma vez por registro encontrado.\n                ReDim Preserve lista(quantidadeColunas, indiceLista)\n                For x = 0 To quantidadeColunas - 1\n                    lista(x, indiceLista) = .Cells(i, x + 1)\n                Next\n\n                indiceLista = indiceLista + 1\n            End If\n            i = i + 1\n        Wend\n    End With\n   \n    lista = Array2DTranspose(lista)\n\n    Me.ListBoxListaFilial.list = lista\nEnd Sub",
+    "delegates": [
+      "    If Me.ComboBoxCamposFilial.ListIndex < 0 Then Exit Sub"
+    ],
+    "oldRisk": "ListIndex, Lacunas"
+  },
+  {
+    "module": "Cad_NFE_Saida",
+    "procedure": "ListBoxListaFilial_Change",
+    "exists": true,
+    "line": 1813,
+    "body": "Private Sub ListBoxListaFilial_Change()\n    C2_SelecionarHistorico Me, Me.ListBoxListaFilial\nEnd Sub",
+    "delegates": [
+      "    C2_SelecionarHistorico Me, Me.ListBoxListaFilial"
+    ],
+    "oldRisk": "ListIndex"
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonFiltroCompra_Click",
+    "exists": true,
+    "line": 23,
+    "body": "Private Sub CommandButtonFiltroCompra_Click()\n    C2_Filtrar \"Compra\", mLocal\nEnd Sub",
+    "delegates": [
+      "    C2_Filtrar \"Compra\", mLocal"
+    ],
+    "oldRisk": "LinhaFisica, ReferenciaFisica"
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "Command_Entrada_Click",
+    "exists": true,
+    "line": 46,
+    "body": "Private Sub Command_Entrada_Click()\n    C2_Filtrar \"Compra\", mLocal\nEnd Sub",
+    "delegates": [
+      "    C2_Filtrar \"Compra\", mLocal"
+    ],
+    "oldRisk": "LinhaFisica, ReferenciaFisica"
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonFiltroAguardando_Click",
+    "exists": true,
+    "line": 56,
+    "body": "Private Sub CommandButtonFiltroAguardando_Click()\n    C1_Bloqueado \"Filtro contextual legado; use pesquisa integrada por identidade\"\nEnd Sub",
+    "delegates": [
+      "    C1_Bloqueado \"Filtro contextual legado; use pesquisa integrada por identidade\""
+    ],
+    "oldRisk": "LinhaFisica, ReferenciaFisica"
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonRepasse_Click",
+    "exists": true,
+    "line": 66,
+    "body": "Private Sub CommandButtonRepasse_Click()\n    C1_Bloqueado \"Filtro contextual legado; use pesquisa integrada por identidade\"\nEnd Sub",
+    "delegates": [
+      "    C1_Bloqueado \"Filtro contextual legado; use pesquisa integrada por identidade\""
+    ],
+    "oldRisk": "LinhaFisica, ReferenciaFisica"
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonVenda_Click",
+    "exists": true,
+    "line": 76,
+    "body": "Private Sub CommandButtonVenda_Click()\n    C2_Filtrar \"Venda\", mLocal\nEnd Sub",
+    "delegates": [
+      "    C2_Filtrar \"Venda\", mLocal"
+    ],
+    "oldRisk": "LinhaFisica, ReferenciaFisica"
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonTransferência_Click",
+    "exists": true,
+    "line": 86,
+    "body": "Private Sub CommandButtonTransferência_Click()\n    C2_Filtrar \"Transferência\", mLocal\nEnd Sub",
+    "delegates": [
+      "    C2_Filtrar \"Transferência\", mLocal"
+    ],
+    "oldRisk": "LinhaFisica, ReferenciaFisica"
+  },
+  {
+    "module": "UserFormFiltro",
+    "procedure": "CommandButtonDevolução_Click",
+    "exists": true,
+    "line": 96,
+    "body": "Private Sub CommandButtonDevolução_Click()\n    C2_Filtrar \"Devolução\", mLocal\nEnd Sub",
+    "delegates": [
+      "    C2_Filtrar \"Devolução\", mLocal"
+    ],
+    "oldRisk": "LinhaFisica, ReferenciaFisica"
+  },
+  {
+    "module": "MóduloPesquisa",
+    "procedure": "ConfigurarListBoxPesquisa",
+    "exists": true,
+    "line": 13,
+    "body": "Public Sub ConfigurarListBoxPesquisa(ByVal lst As Object)\n    C1_ConfigLista lst\nEnd Sub",
+    "delegates": [
+      "    C1_ConfigLista lst"
+    ],
+    "oldRisk": "Contrato de leitor/escritor confirmado por inspeção complementar"
+  },
+  {
+    "module": "MóduloPesquisa",
+    "procedure": "PesquisarEntradasRapido",
+    "exists": true,
+    "line": 20,
+    "body": "Public Sub PesquisarEntradasRapido( _\n    ByVal TextoPesquisa As String, _\n    ByVal lst As Object)\n    C1_Pesquisar TextoPesquisa, lst\nEnd Sub",
+    "delegates": [
+      "    C1_Pesquisar TextoPesquisa, lst"
+    ],
+    "oldRisk": "Contrato de leitor/escritor confirmado por inspeção complementar"
+  },
+  {
+    "module": "MóduloPesquisa",
+    "procedure": "TransporParaListBox",
+    "exists": true,
+    "line": 49,
+    "body": "Private Function TransporParaListBox( _\n    ByVal Matriz As Variant) As Variant\n\n    Dim i As Long\n    Dim j As Long\n\n    Dim Temp() As Variant\n\n    ReDim Temp( _\n        0 To UBound(Matriz, 2), _\n        0 To UBound(Matriz, 1) _\n    )\n\n    For i = 0 To UBound(Matriz, 1)\n\n        For j = 0 To UBound(Matriz, 2)\n\n            Temp(j, i) = Matriz(i, j)\n\n        Next j\n\n    Next i\n\n    TransporParaListBox = Temp\n\nEnd Function",
+    "delegates": [],
+    "oldRisk": "Contrato de leitor/escritor confirmado por inspeção complementar"
+  },
+  {
+    "module": "modPreencherFormulario",
+    "procedure": "PreencherDadosEntradas",
+    "exists": true,
+    "line": 4,
+    "body": "Public Sub PreencherDadosEntradas( _\n    ByVal frm As Object, _\n    ByVal lista As Object, _\n    ByVal linha As Long)\n    C1_SelecionarEntrada frm, lista, False\nEnd Sub",
+    "delegates": [
+      "    C1_SelecionarEntrada frm, lista, False"
+    ],
+    "oldRisk": "Contrato de leitor/escritor confirmado por inspeção complementar"
+  },
+  {
+    "module": "modPreencherFormulario",
+    "procedure": "PreencherDadosEntradasFilial",
+    "exists": true,
+    "line": 11,
+    "body": "Public Sub PreencherDadosEntradasFilial( _\n    ByVal frm As Object, _\n    ByVal lista As Object, _\n    ByVal linha As Long)\n    C1_SelecionarEntrada frm, lista, True\nEnd Sub",
+    "delegates": [
+      "    C1_SelecionarEntrada frm, lista, True"
+    ],
+    "oldRisk": "Contrato de leitor/escritor confirmado por inspeção complementar"
+  },
+  {
+    "module": "modIntegridadeOperacao",
+    "procedure": "PrimeiraVagaGravacao",
+    "exists": true,
+    "line": 4,
+    "body": "Public Function PrimeiraVagaGravacao(ByVal WS As Worksheet, ByVal primeiraLinha As Long) As Range\n    Dim linha As Long\n    If primeiraLinha < 1 Or primeiraLinha > WS.rows.count Then\n        Err.Raise vbObjectError + 2120, , \"Linha inicial invalida.\"\n    End If\n    For linha = primeiraLinha To WS.rows.count\n        'Preserva a regra existente: primeira celula realmente Empty, nao formula vazia.\n        If IsEmpty(WS.Cells(linha, 1).Value2) Then\n            Set PrimeiraVagaGravacao = WS.Cells(linha, 1)\n            Exit Function\n        End If\n    Next linha\n    Err.Raise vbObjectError + 2121, , \"Nao existe vaga na planilha \" & WS.name\nEnd Function",
+    "delegates": [
+      "            Exit Function"
+    ],
+    "oldRisk": "Contrato de leitor/escritor confirmado por inspeção complementar"
+  },
+  {
+    "module": "mdlCopiar",
+    "procedure": "UF_NavegarCelula",
+    "exists": true,
+    "line": 28,
+    "body": "Public Sub UF_NavegarCelula(ByVal frm As Object, ByVal dRow As Long, ByVal dCol As Long)\n    MoveActiveCell dRow, dCol\n    UF_AtualizaLabels frm, \"Navegação\"\nEnd Sub",
+    "delegates": [],
+    "oldRisk": "Contrato de leitor/escritor confirmado por inspeção complementar"
+  }
+]

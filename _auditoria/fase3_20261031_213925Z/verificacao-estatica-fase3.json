@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-10-31T22:19:26.185Z",
+  "modality": "Analise estatica; nao e compilacao nem execucao VBA",
+  "results": [
+    {
+      "name": "Originais e backups da fase 1 por SHA-256",
+      "status": "PASS",
+      "details": 39
+    },
+    {
+      "name": "Execucoes anteriores inteiras preservadas",
+      "status": "PASS",
+      "details": {
+        "phase1": 155,
+        "phase2": 146
+      }
+    },
+    {
+      "name": "Backup da fase 2 confirmado",
+      "status": "PASS",
+      "details": 46
+    },
+    {
+      "name": "69 novos backups confirmados",
+      "status": "PASS",
+      "details": 69
+    },
+    {
+      "name": "Somente clsOperacaoPlanilha alterada entre os fontes do sistema",
+      "status": "PASS",
+      "details": [
+        "MDL/clsOperacaoPlanilha.cls"
+      ]
+    },
+    {
+      "name": "665 contratos exportados e atributos preservados",
+      "status": "PASS",
+      "details": 665
+    },
+    {
+      "name": "Pares FRM/FRX, XML, formulas fiscais e XLSM identicos a fase 2",
+      "status": "PASS",
+      "details": "Nenhuma alteracao em controle, evento, fiscalidade ou politica de Delete."
+    },
+    {
+      "name": "Sete Delete e consumidores de recuperacao preservados",
+      "status": "PASS",
+      "details": 7
+    },
+    {
+      "name": "Ciclo de vida e metadado da chave presentes",
+      "status": "PASS",
+      "details": "Contrato estatico, nao execucao VBA."
+    },
+    {
+      "name": "Suite reaproveitada tem regressao de ciclo de vida e guardas de fixture",
+      "status": "PASS",
+      "details": "PREPARADO, NAO IMPORTADO, NAO EXECUTADO."
+    },
+    {
+      "name": "Quebras de linha e bytes dos 33 fontes nao alterados preservados",
+      "status": "PASS",
+      "details": 34
+    },
+    {
+      "name": "Inventario sem duplicidade publica e sem nova assinatura",
+      "status": "PASS",
+      "details": {
+        "files": 34,
+        "procedures": 665,
+        "publicDuplicates": 0
+      }
+    }
+  ],
+  "pass": 12,
+  "fail": 0
+}

@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\evidencias\\RECIBO_AUSENTE\\Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "sha256": "5af8340d6375216cf716beb9d9d48f012af8544eea1f483ebf21a6f1d2fbbcd2"
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\evidencias\\RECIBO_AUSENTE\\Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "sha256": "3e3939149abc3c04795ce94bd8c0a4812ce455bf263eb8be6792d66616c02ffa"
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\resultados_entrega2.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\evidencias\\RECIBO_AUSENTE\\resultados_entrega2.tsv",
+      "sha256": "f299891507ed8362edcd3c671df9a40fcbaeae64c21fd3d43d8c1e1e95215afe"
+    }
+  ],
+  "scope": "Adulteracao controlada exclusivamente sintetica; autoridade recusada; nenhum recibo recriado"
+}

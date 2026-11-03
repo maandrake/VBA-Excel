@@ -1,0 +1,46 @@
+{
+  "captured": "2026-11-02T21:12:00.822Z",
+  "mode": "VBA_REAL_AUXILIAR_E_INSPECAO_DE_FONTES",
+  "workbookSHA256": "5b2a0d55fcea077dd034ace4c4892bbc9fdd46c69760d7d318d2162f54771749",
+  "databaseSHA256": "3198e07699f644f64c325a9fb517470b64950aa5a262cc354629ed61f1503dc3",
+  "onlyBodyChanged": "modCandidatoIntegrado",
+  "forms": "Somente VB_Base reserializado; corpos/eventos identicos ao checkpoint",
+  "components": 69,
+  "aliasTests": {
+    "origin": "transcrito da Janela Imediata; screenshot aliases-vba.jpg",
+    "sameExistingFile8dot3AndLong": true,
+    "otherDirectoryCopy": false,
+    "missingFile": false
+  },
+  "reopenAfterFix": {
+    "run": 46,
+    "id": "E1_SESSAO_REABERTA_R3",
+    "status": "PASS",
+    "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+    "expected": "Cache e formulas apos fechar e reabrir o XLSM",
+    "observed": "AUDIT=OK;PROJECTION=VERIFIED;REV=8;MOV=8;RECEIPTS=8;ACTIVE=3;PENDING=0",
+    "file": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+    "time": "2026-11-02 18:06:30"
+  },
+  "newExcelProcess": 50212,
+  "coldReopen": {
+    "status": "PASS",
+    "process": 50212,
+    "automaticInitialization": "CACHE_AUDITADO; observado antes de chamar qualquer carregador manual",
+    "result": {
+      "run": 47,
+      "id": "E1_SESSAO_REABERTA_R3",
+      "status": "PASS",
+      "mode": "VBA_FUNCIONAL_EVENTOS_REAIS",
+      "expected": "Cache e formulas apos fechar e reabrir o XLSM",
+      "observed": "AUDIT=OK;PROJECTION=VERIFIED;REV=8;MOV=8;RECEIPTS=8;ACTIVE=3;PENDING=0",
+      "file": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+      "time": "2026-11-02 18:14:17"
+    },
+    "screenshot": "sessao-fria-resultado.jpg",
+    "method": "Excel /x; habilitacao manual de macros; execucao VBA na nova instancia"
+  },
+  "userExcelPreserved": 42180,
+  "databaseAfter": "3198e07699f644f64c325a9fb517470b64950aa5a262cc354629ed61f1503dc3",
+  "workbookAfter": "5b2a0d55fcea077dd034ace4c4892bbc9fdd46c69760d7d318d2162f54771749"
+}

@@ -1,0 +1,16 @@
+{
+  "mode": "Execução funcional VBA",
+  "origin": "Transcrição da saída observada após C4-04",
+  "function": "AuditoriaFase2_Executar",
+  "status": "PASS",
+  "assertions": 377,
+  "otherWorkbookActive": true,
+  "formsWritersExecuted": false,
+  "states": {
+    "EnableEvents": true,
+    "ScreenUpdating": true,
+    "DisplayAlerts": true,
+    "Calculation": -4105
+  },
+  "finalStateCheck": "F4_FINAL=Fixture_Auditoria_Fase4.xlsm SHEETS= 17 EVENTS=Verdadeiro SCREEN=Verdadeiro ALERTS=Verdadeiro CALC=-4105"
+}

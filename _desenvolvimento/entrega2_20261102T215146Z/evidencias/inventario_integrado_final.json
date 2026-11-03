@@ -1,0 +1,1064 @@
+{
+  "components": 69,
+  "moduleChanges": [
+    {
+      "name": "EstaPastaDeTrabalho",
+      "changed": false
+    },
+    {
+      "name": "Planilha12",
+      "changed": false
+    },
+    {
+      "name": "Planilha1",
+      "changed": false
+    },
+    {
+      "name": "Planilha13",
+      "changed": false
+    },
+    {
+      "name": "Planilha3",
+      "changed": false
+    },
+    {
+      "name": "Planilha4",
+      "changed": false
+    },
+    {
+      "name": "Planilha2",
+      "changed": false
+    },
+    {
+      "name": "Planilha17",
+      "changed": false
+    },
+    {
+      "name": "Planilha15",
+      "changed": false
+    },
+    {
+      "name": "Planilha10",
+      "changed": false
+    },
+    {
+      "name": "Planilha16",
+      "changed": false
+    },
+    {
+      "name": "Planilha18",
+      "changed": false
+    },
+    {
+      "name": "Planilha7",
+      "changed": false
+    },
+    {
+      "name": "Planilha6",
+      "changed": false
+    },
+    {
+      "name": "Planilha9",
+      "changed": false
+    },
+    {
+      "name": "Planilha11",
+      "changed": false
+    },
+    {
+      "name": "Planilha5",
+      "changed": false
+    },
+    {
+      "name": "Planilha8",
+      "changed": false
+    },
+    {
+      "name": "clsOperacaoPlanilha",
+      "changed": false
+    },
+    {
+      "name": "modIntegridadeOperacao",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarFiltro",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarTabCan",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarTabEnt",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarTabSai",
+      "changed": false
+    },
+    {
+      "name": "mdlCondCel",
+      "changed": false
+    },
+    {
+      "name": "mdlCopiar",
+      "changed": false
+    },
+    {
+      "name": "mdlCriaBackup",
+      "changed": true
+    },
+    {
+      "name": "mdlCursor",
+      "changed": false
+    },
+    {
+      "name": "mdlMacroConexão",
+      "changed": false
+    },
+    {
+      "name": "mdlMacroConexãoClientes",
+      "changed": false
+    },
+    {
+      "name": "mdlMacroDocFora",
+      "changed": false
+    },
+    {
+      "name": "mdlOcultarTítulo",
+      "changed": false
+    },
+    {
+      "name": "mdlTelaCheia",
+      "changed": false
+    },
+    {
+      "name": "modSeleniumCommon",
+      "changed": false
+    },
+    {
+      "name": "modSeleniumConsultaNFE",
+      "changed": true
+    },
+    {
+      "name": "modSeleniumRenavamConsulta",
+      "changed": false
+    },
+    {
+      "name": "modSelTest",
+      "changed": false
+    },
+    {
+      "name": "MóduloOfficeRibbonEditor",
+      "changed": false
+    },
+    {
+      "name": "MóduloPesquisa",
+      "changed": false
+    },
+    {
+      "name": "MóduloRemoveFechar",
+      "changed": false
+    },
+    {
+      "name": "modValidacaoXML",
+      "changed": true
+    },
+    {
+      "name": "mdlChamarForm",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarFormDocFora",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarFormNCM",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarFormSaida",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarFormVeículos",
+      "changed": false
+    },
+    {
+      "name": "modPreencherFormulario",
+      "changed": false
+    },
+    {
+      "name": "Cad_NCM",
+      "changed": true
+    },
+    {
+      "name": "Cad_NFE",
+      "changed": true
+    },
+    {
+      "name": "Cad_NFE_Saida",
+      "changed": true
+    },
+    {
+      "name": "frmRelatorioXML",
+      "changed": true
+    },
+    {
+      "name": "UserFormFiltro",
+      "changed": true
+    },
+    {
+      "name": "AuditoriaListaFake",
+      "changed": false
+    },
+    {
+      "name": "modTestesAuditoria",
+      "changed": false
+    },
+    {
+      "name": "modTestesFase2",
+      "changed": false
+    },
+    {
+      "name": "modTestesIntegradosFase5",
+      "changed": false
+    },
+    {
+      "name": "modPrototiposFase6",
+      "changed": false
+    },
+    {
+      "name": "modPrototiposFase7",
+      "changed": false
+    },
+    {
+      "name": "clsRepositorioFase8",
+      "changed": false
+    },
+    {
+      "name": "modExperimentosFase8",
+      "changed": false
+    },
+    {
+      "name": "clsSaveFase9",
+      "changed": false
+    },
+    {
+      "name": "modPersistenciaFase9",
+      "changed": true
+    },
+    {
+      "name": "modVerificacaoFase9",
+      "changed": false
+    },
+    {
+      "name": "modPersistenciaFase10",
+      "changed": true
+    },
+    {
+      "name": "modCenariosFase10",
+      "changed": true
+    },
+    {
+      "name": "modFronteirasFase10",
+      "changed": false
+    },
+    {
+      "name": "modCandidatoIntegrado",
+      "changed": true
+    },
+    {
+      "name": "clsTesteCandidato",
+      "changed": true
+    },
+    {
+      "name": "modTestesEntrega1",
+      "changed": true
+    }
+  ],
+  "sheets": [
+    "Menu Principal",
+    "Entradas",
+    "Transferidos",
+    "Entradas Anual",
+    "Demonstração",
+    "Saidas",
+    "Todas Saidas",
+    "Entradas Filial",
+    "Entradas Anual Filial",
+    "Saidas Filial",
+    "Todas Saidas Filial",
+    "Carros PF",
+    "Clientes",
+    "Veículos",
+    "Doc. para fora",
+    "NCM e CEST",
+    "Listas"
+  ],
+  "designers": [
+    {
+      "path": "/Cad_NCM/f",
+      "expected": "f1c6871769e4a96fdba22427f99bc8f5c399313cd8ea0e9f0c48e390f8759b3b",
+      "actual": "77a661fe5cda2a6399c26e436f0534eb781ccb460f903997467fb4c37d3a6fa1",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NCM/o",
+      "expected": "c78dbef5a64d486eeb0b0e479ea07911ba03f56e0c79ff74cd210163b7ac2cd4",
+      "actual": "170813356636f8c46713ab86e9c1c693895ab6ca4eb8b95a313b831d78b78128",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NCM/i18/f",
+      "expected": "c3c946ce0bd9ec2d708aded8126222043f440dc5faee66ddb639ab07305f5c99",
+      "actual": "1ecada0e5c406ecfd16920ef8128f817f5d289cf6dfc5ef6326a29acebc60eeb",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NCM/i18/o",
+      "expected": "4858b4928433613116cf8129f447d32af3c726a2725bf8d162b64b441e4044cc",
+      "actual": "2a119450f65337d3fe9343f1669f442bd910e62dea36fbf83d1c93a62911274e",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NCM/i18/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NCM/i254/f",
+      "expected": "4b11d88282d94e8129ec621e956c85ef89738e28cafc665ffb5217ac24d4f091",
+      "actual": "c9b880a51ab630714e041e45bb9cfe8f423d9394350a8579fdf8ca08709efc49",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NCM/i254/o",
+      "expected": "c3e4fcc71fe157f92688c8cc4216d1eb79ff60f4f08abce37013730d98ca4f51",
+      "actual": "07bcdb26702035b82125a9f2aa59c06eb50505410c13e09f2b9e0450c4879e43",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NCM/i254/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NCM/\u0001CompObj",
+      "expected": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+      "actual": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NCM/\u0003VBFrame",
+      "expected": "fdea07d72afd8f220531522f135799ba9d41cefecf75f30ca50e7fd0f7697764",
+      "actual": "fdea07d72afd8f220531522f135799ba9d41cefecf75f30ca50e7fd0f7697764",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/f",
+      "expected": "2b9ae14138c008a67c53b0fb53e7a0edfefb22d96c49b8edd9840e906cecbb34",
+      "actual": "3261db928b993e926ff90a87db90dc1708c8f014fb0406d9a988bee9b20447d5",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/o",
+      "expected": "13e7777c2f7fe5fa7be3d2141928f74666a5a3f32fe4aacd8b1a3d0463553d68",
+      "actual": "7c5d15d725e8f29e68c2bbf2b2264c2c603990260d06c559fa7c2e34dc0e0a19",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/f",
+      "expected": "ca9b48035412f0b878b922751ddfb40afb108c330dfe01cf021b107b7a9219f6",
+      "actual": "ab46223c432f96a0c17ea4621347a1663fa10901cb8d68570574aae0ad9acf4c",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/o",
+      "expected": "81c1ddd16fa3aa32672e8710fbf7bfcd2c431c78d98c6195cd33c5ad69c4a955",
+      "actual": "d38de358c94031f48b9f91bce7c2ea06b74f9426db333b75c7b38b4d07184e99",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/x",
+      "expected": "4bb3f21198637d3f094a8951404c0715daf8492729096ae7421e9872e36e66bd",
+      "actual": "4bb3f21198637d3f094a8951404c0715daf8492729096ae7421e9872e36e66bd",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/f",
+      "expected": "92bd5aeae5bd65f3a2d664b9ef11c6b76e4adb1e3bd42d807f091011f94f7b19",
+      "actual": "98b9dda9bd0e70adaf23dc47f630160328604f7bdb5f68bdeb4e7e9caeff3a54",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/o",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i12/f",
+      "expected": "5f93145e99351dd29cf9ceef0aca786779e9fc395fec88eaf4b18d42b02ac674",
+      "actual": "49b06d2bfad179575cfc3f1e4c268271e79984f21db2bdff798860368f644c86",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i12/o",
+      "expected": "76003aeb16cb9685e25dec650baeeb1da1589aaaa1d3348501b9ede7a6fa0c76",
+      "actual": "565511f152289555106a412504dc4b8d5a26c34bc017a6b0379c2a861ee86bf8",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i12/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i46/f",
+      "expected": "328a33e8bbcd1c510fe07ccaf0b58fc13dd112a2129912d12611e4ede0b94b75",
+      "actual": "c3640dc7b4cba73d1c152e5007f5a19d67a0814fd9c46f6fbc865bb05a245e0c",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i46/o",
+      "expected": "aa621fa54884ebb0893be8a0e7318815153350c0c2d00e72b43f944d1f95820f",
+      "actual": "855cd02e2d859ebfc6c5526524075417d7577b0390a613b0a9fc8dcd11a2c1ab",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i46/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i50/f",
+      "expected": "4b963d108493e96fd18dced8c9b79aca2d056d65cef46c3e59d259c775f8943d",
+      "actual": "df77d9487dc6299f7c64599879a51588cb84fa3c9ca011845a177e21f020d5d2",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i50/o",
+      "expected": "a2ff0353ca7fb8c9fd5a3a3ad020cf3d1dc1d678ba0f5e29523478d31abea025",
+      "actual": "9d237afe01899dc423abba80c97414d8ccbf51bdf9eecae77bf6422eaa7b0a5a",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i50/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i391/f",
+      "expected": "25e3a52bd9e9d2d0749e2b719675a4b71e5c99fabe5947ed53cbaee3f47b648a",
+      "actual": "7d7aafc71f92d0e15b7bf3e6a1ad575afb25457ff0ae70f6ebdbb5b4c7d2e80f",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i391/o",
+      "expected": "a783028fc7f57a089570936fe87693379c7e66bd00ba614d3828118f75de4164",
+      "actual": "b93b424c6d521adfdfd0413c88cb4e933c26c76c6e9f5815dc34233c32f60f78",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i391/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i460/f",
+      "expected": "b4631e9318aaeaa0fe1f7d4cb23c927030f600e4c26bee7e6075b64e2b03a815",
+      "actual": "635a2fc7d709c706ac4ac3006078df8e978a0c639a480c45d0712a4c35cfb077",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i460/o",
+      "expected": "4a6fd90f36320eb8ca2361634f9754fe3f505136fb411b9423ac5d0d0830a544",
+      "actual": "e14c31b9d0b5bd43224fcf794b0e35198b47a857ef09d984e14bcf6ba4dc0c35",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i460/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i483/f",
+      "expected": "49d0c93f77138762ccaf6b1848577ea3457921596214bf241b0f264d67a88744",
+      "actual": "2397f1cef76e65306ae6ba956b6d6d27a0c70ee6a7fdd24f017ddb9b080bf353",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i483/o",
+      "expected": "4d0260bfec0a60bad2e01797b90608f67538e6750d03d1e337c4c77ab7623afb",
+      "actual": "0532f5b403d16cb99d4aef46550ca196901ceeda5c231b2eb8c5dcc0113ec53e",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i483/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/\u0001CompObj",
+      "expected": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+      "actual": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/f",
+      "expected": "ce25a2b2fb16de912ece96049beb9389873f851ffcd6d5ffe4f6e799a25459b2",
+      "actual": "fa31daf4f1617161a1f3185afdd4a5d548e889777f37fdeec9d27b79bed789f4",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/o",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i547/f",
+      "expected": "6ac7603b26d2624cd6eb1d89007bd8ebb0c3905f8b91698785f9b2dc0b6be25d",
+      "actual": "9b7bf45ee6b79fe6615a1aead454b19aeb8fa3ebf4a854cf1c88fa7e7d81ae29",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i547/o",
+      "expected": "b7767f041f9e19434c4b52253c908075003545b3d62d3d6b6abf7f5c589a2127",
+      "actual": "27dd37ae3ca8e5aaf01a98d30115b77f39113ac5075cb9b2a5eebb4ec514c5d4",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i547/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i567/f",
+      "expected": "25844f3cd652e21a7c6f37c00c03660ee85f3a72a31660f6d97dd683c77864ec",
+      "actual": "c11d2d348948230838c6d5f4fd4e3f0029811c10a2b2d0e722eead6c8c65c0a0",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i567/o",
+      "expected": "bdfc231ee8db60671de1eb1a163cc565a8bd29ff221e630a49585e2fa9d08efe",
+      "actual": "a23e98f1f6072db31c292ba75d4361b726512dd05a43f68a0c3d76e19862c020",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i567/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i570/f",
+      "expected": "7df828064afc922a0307fedb1641239cbbda553b82df010dc6e6dc6fdebe41ee",
+      "actual": "225f7624986d333fdc7594f99ea6a9a5d4fbaa85ee8b5196cee3bc49dee061fb",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i570/o",
+      "expected": "9ffa703ddf75ae62720f8d3b034be494cfd0a102162b932aa56680953bc63443",
+      "actual": "c7d4f7e736d3d0b61c1eeb28edc7f84cbca2cb47c7901262a1e9ad35ff8ab059",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i570/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i582/f",
+      "expected": "9de2fea6628fcb7096dbadc3fc9ed8eb1b0725c2307ad5d5ae87deab885dc61d",
+      "actual": "bf0229a6c772925e05fdd0d06ba8577f3e08bf8f892c685b175826ae4a1310ca",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i582/o",
+      "expected": "381333a7c8a7dd02884aca09d8b4a8370aa1007dd35de414603cbc4738af3753",
+      "actual": "113a6c04460422e6e8aac40720e9b7dc6fafd740ff6994552faa507bb7c73a6b",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i582/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i585/f",
+      "expected": "2520840c6d940bb58c7d7b6efd2c8dc3af2f27c9192c42bbd20dacf1507097bd",
+      "actual": "3b7cfc27d4697e377d2cad6cc9aa2d71d939203c52f2070298c34c763ceaf1a7",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i585/o",
+      "expected": "9a2ffe270fd2d4cb29a2563ea5049e33e82d5006ab57f69d4ee89605b39fc7c2",
+      "actual": "e6f32c0b3291baa6bb5f994127333487158e91c28062a239fec619b0559cb728",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i585/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i612/f",
+      "expected": "cb267c93d11f53d10842ca3144086c5dc5a24ac44b88176a438f1465776276f1",
+      "actual": "c99dbcb04299f7ccf3f30ff8184f537d8fce270b8a1aa74c1b2434c9a923c496",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i612/o",
+      "expected": "f74021c2b4e0ff1174289316973ce7350a3690974ac5ebadfaca05dd21f96d08",
+      "actual": "2151fc7d222a35d8ea611ef85aefa7e819b1610486cc3780cb6069d531ab4f95",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i612/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/\u0001CompObj",
+      "expected": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+      "actual": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i98/\u0001CompObj",
+      "expected": "81051ff4bf424aef18995fb1be348a111ae21371c8605eeb65d0e7603ab4af78",
+      "actual": "81051ff4bf424aef18995fb1be348a111ae21371c8605eeb65d0e7603ab4af78",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/i103/f",
+      "expected": "468821efa24e2f46fae669ede07e907468ae68b8d3db04cc9c52d602a3c5b777",
+      "actual": "602323a867a2470a70e15f4fb5030eb0743ebbceccee0b06a1131ab9179ef65d",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i103/o",
+      "expected": "8ae22ce3db9d6d3aedd19533e61d001b8a2eac65af8126ca92aa57eb00db9e9e",
+      "actual": "e629c23dcef7ad04f9e3ef9d0aa1527aca108e58dd9599fbf3ddec2324e6de3c",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE/i103/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/\u0001CompObj",
+      "expected": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+      "actual": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE/\u0003VBFrame",
+      "expected": "460b04b204d1f06c3b10c8edfffb2fead356fd20800e0f1b957a3f4227e27a6a",
+      "actual": "460b04b204d1f06c3b10c8edfffb2fead356fd20800e0f1b957a3f4227e27a6a",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/f",
+      "expected": "7e5a1d6eebb1761842e80a62cd88855ef6ed96f00f20857ac0e6562d1c271d33",
+      "actual": "1b36763d2cb890e51e1e6a18915516cb0666bbdbadb7cf5b82ead1b67c9de600",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/o",
+      "expected": "80e9ed8968cb86268d94f4f7c38e2055e817ec630e1fb7953621dd3fdde26e16",
+      "actual": "10c40083a7e0cd3c29e260d284e31f42049a4a4251df3c81cacceefe1c11ab1c",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/f",
+      "expected": "2b89ff4e7c0903c26802cf70505481bed96202e8682cbedbb694806305ba4592",
+      "actual": "1a2276cdc767701fca422829c197b2d034e11fe780b010e83c8d550d780fe735",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/o",
+      "expected": "acba099cd708df8bc2485badd496aba4a7d40ba3ec0ff0166aa5033f798bba40",
+      "actual": "5c9ccc799b4771379340cfe896a3d8b66f73f24d24c37ea6462057f32e5b77ce",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/x",
+      "expected": "4bb3f21198637d3f094a8951404c0715daf8492729096ae7421e9872e36e66bd",
+      "actual": "4bb3f21198637d3f094a8951404c0715daf8492729096ae7421e9872e36e66bd",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/f",
+      "expected": "61318185012f5e568adb541db064cdc279f29884a15b95b768e2407795ad1ee8",
+      "actual": "54e05d922b65cdaac341321b080c8c5927f33f5e48eed9ede57fe3bfdefa8cd5",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/o",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i12/f",
+      "expected": "14cdb31fcd972f68b6237a939013e0c7369047a7b85edf4ad4b581f3a1e1fdf2",
+      "actual": "c23b7aed3fca7d2eafc1875fda7b0f72e54ec366c5481df2e6fc228aad91b9e3",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i12/o",
+      "expected": "84dc9be1e96a4795b5a4104f5bce0842db2f28ef1100c484ff2eb7e4631390b3",
+      "actual": "f4541dcce7b733dc6a241373c40d295560d26fd4ecb7a227946faed7d84a0765",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i12/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i46/f",
+      "expected": "adbf0d2ea6052de5f9f95256b3ce8ad1bc19885c8ff625024c0979fbc0bde562",
+      "actual": "740dbab729d829f1284c9f9102c22997eb521210df974a5f96ebc5927f3a6ab8",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i46/o",
+      "expected": "45dc4d3ca7932a3c13a79d0c319e5d000be389806ab5a3f8d07c580d09d913d3",
+      "actual": "b593fc32a4650975aeea747f9ed0ba5725e967b169895a9b4dbe2c0993b994bf",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i46/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i50/f",
+      "expected": "2591dc037f9afb03cf45b92003577cabd41b3cadd66bbcc7aa06c3c3c118e9bd",
+      "actual": "9d74ebe9fc2eb0aec7eb56cc08ab01efa82f7f4cd3a207f0ac39a3c1808903f3",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i50/o",
+      "expected": "5ac582ec1a5b7b304aa49bc55adac12ca2f4a261ec23228c3bbbb222d1aa0e27",
+      "actual": "6dc1f91c5a41e63ca4b1cdf0801ede5fde466d5be05a02a41106487bf50a289a",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i50/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i391/f",
+      "expected": "a4e4093c217a26a39bc8dff8386703987b35975706aefeacbb6ccb48c7d46536",
+      "actual": "1256bf123fd3bf6fefd42a6bdb2aaed2961ad24a435b8321f1aebf07d383146a",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i391/o",
+      "expected": "5804475ed4ad378a4120a67fcd37717aaeec3c4ea764283ef116275f018d97a0",
+      "actual": "8f421118cfe6c864a2b68169f70671f801037904afa2886d7d082b1730ab7239",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i391/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i460/f",
+      "expected": "f8882f36152fe19e92b9338662ced256b5059919d97a80c2fb5669b2b324346c",
+      "actual": "383a95257c6a08f6e601d2b29d84869352f9cd62e2c2bad2dbc2915d84f09c3e",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i460/o",
+      "expected": "b2e8477903cfa25d6a41b17cd16784b49182e4199ea0d06214f3b1dc1eb450ce",
+      "actual": "38791b97bcf3c6443723d21ce6c7b485e877e00b87324644b8a9fe4d7073f2a0",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i460/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i483/f",
+      "expected": "1a65ded8db417ed4acaa623fe59bcc92bb68dd652786877cb0e69afc0cc989ee",
+      "actual": "03738c29e522a7807f8907b77d0a257f924a9f982922ea543850941a6a8aae0b",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i483/o",
+      "expected": "f79a920eea3fb6c1a1824b997055d76f7e0e3663309cded2c9157d3d447a0a28",
+      "actual": "ca1030a68f7eafd0d0e247dd17d9837ad8ccb1394b98e2e3b99b23daab6be95d",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i483/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/\u0001CompObj",
+      "expected": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+      "actual": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/f",
+      "expected": "7df983f442f163aba48583812312b697abdd68388ee7b86cb81bb0a1e2293ad4",
+      "actual": "a452a6f1605524454f140b9617b2afb4fe3a72cf060657fa176afaf07d1a8117",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/o",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i242/f",
+      "expected": "e969ffff4f7e0d2ee0018ce6bf5391c9e4934ed08781a2ae3dfb3861246843b8",
+      "actual": "32c5bcccca5901c44ed875982114f21efbd5e31f2eb21db5ea08ecfeb021b30d",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i242/o",
+      "expected": "bd5caefe6df8739cb529f1c27d929b8f596b4b0be7502b8757ae687507e6e7ed",
+      "actual": "df1b228dc25e31b50a6f310f2828cff4ae43e90640661a9bf25c0e49b6d2cd4e",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i242/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i248/f",
+      "expected": "c0f2cb0b39eaf564a35a5eee2de7ea4c31811c2212c07fe9d36c7e20a5cf777d",
+      "actual": "a42aba59e1532556fff3a472fb6d3d1cc609f544344b9a4547ae7561e5f71ebd",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i248/o",
+      "expected": "8ab963de9b0508eddaa7d330e7821965abf2f693f388dd115ff1c4a11b3bf77a",
+      "actual": "0d4238aa8f620d306089fe0a14b4ae11e92b1c94dba8f2b617539620d74a033b",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i248/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i257/f",
+      "expected": "1adb8925874c8f75ddfa8e06e1d01bcd97bcf9dcbe401b0dbc98e819b1e09fb0",
+      "actual": "62024f3ec3af00eacf50bc8791e1586278f4e63eae97169d54963cef10c44f47",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i257/o",
+      "expected": "fe861b75f12bfc300ff0a113d1629d4b8a6f39e11e420de5f6b1ca702fa0027d",
+      "actual": "944455aad1171f9f15fc0579919cebd77998e15e7c61af5447a27210105d3818",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i257/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i268/f",
+      "expected": "35d0d4a8af8e40bcfdcd497500e60bafb3ec57e394b82bf69ae30fb92a0f1bdc",
+      "actual": "0fa340be12de9547051f39b7880c68239adab32fbde1e5ea585752c652243ec8",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i268/o",
+      "expected": "267d2adc96f14c10cda99a34aa25621444b7864abf9f9a1033d399957af2f383",
+      "actual": "45ca933a0f0bc07a1e79832fc5cbd0406d309397eccc3cb3ae7fdb6950d6f1e8",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i268/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i275/f",
+      "expected": "99b87d12209f29a1812d6e5f9c8ccceec748c68fc2416ef6e27389f355419fc1",
+      "actual": "93909c8ea7ae9cdc3e3d7eb7ff0fd8c0873525d1998cab14472edc8136d6fdfa",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i275/o",
+      "expected": "4439228e670224a7d9ff5ae95eda306c42c5a2ca8c89759cd97285dd5cf6c922",
+      "actual": "b593fc32a4650975aeea747f9ed0ba5725e967b169895a9b4dbe2c0993b994bf",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i275/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i498/f",
+      "expected": "935c39df600e6aa8eae03d5f55b0e9d09a8ceb1e0370b2fd85b343cded3d2eb6",
+      "actual": "f586a036e9bcfb5e56c7853c1c95f98005bff392e33af1c41b0684d037ad195b",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i498/o",
+      "expected": "fcf24a28fd2a7bf67a1d5665a2058a2c38b3ebf5b5a498a4c741cb943d25bfbb",
+      "actual": "10e0186646275b969452d6e212c51211c88eef3ec439c2ca86b4c29da8be65ce",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i498/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/\u0001CompObj",
+      "expected": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+      "actual": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/\u0001CompObj",
+      "expected": "81051ff4bf424aef18995fb1be348a111ae21371c8605eeb65d0e7603ab4af78",
+      "actual": "81051ff4bf424aef18995fb1be348a111ae21371c8605eeb65d0e7603ab4af78",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i103/f",
+      "expected": "8e670fada127037948d131f3e6d2f63f67ac43ac93c41e020b0de540c1575933",
+      "actual": "f13a4c9754ba4427acd16bec72d1e36d26de3124f499392430147f80f11a9844",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i103/o",
+      "expected": "295882a23175985921c52b6689c1d874576f3a2fbfe0f18ac1ea64449de8f116",
+      "actual": "92248effdf09acafca8de05af71ecd0800f7e12e7bb8cda411fafaa9cba482e7",
+      "ok": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i103/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/\u0001CompObj",
+      "expected": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+      "actual": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+      "ok": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/\u0003VBFrame",
+      "expected": "0e234638137790ed6854729ffc59edbe92968b49ec1d999247651f8e9a8aa1c0",
+      "actual": "0e234638137790ed6854729ffc59edbe92968b49ec1d999247651f8e9a8aa1c0",
+      "ok": true
+    },
+    {
+      "path": "/UserFormFiltro/f",
+      "expected": "9176fccbaa1333bd8cd390fa6aa8c9ed43c45a5e6956ac96783a26d2788627cc",
+      "actual": "85ab0d23fc84193b2df96825480e5aeb566d52fbd80740993d966b7239099560",
+      "ok": false
+    },
+    {
+      "path": "/UserFormFiltro/o",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "path": "/UserFormFiltro/i02/f",
+      "expected": "247eae14693759f21c166cddd265e663a4c6ce3f15de5989175593c4e7d2a98d",
+      "actual": "2ede881e669131bfbe9399cb93b0653ddcc987644b3f52d64124cad9d74c3b5a",
+      "ok": false
+    },
+    {
+      "path": "/UserFormFiltro/i02/o",
+      "expected": "d005f3a31cd9a12059993c5f8f4fb5bd300a028079d9c3c71a5de067e9b174b0",
+      "actual": "74e12f46343fec323902a646ba18712e246da6e26a66f2eb4abd18fd5380c986",
+      "ok": false
+    },
+    {
+      "path": "/UserFormFiltro/i02/\u0001CompObj",
+      "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+      "ok": true
+    },
+    {
+      "path": "/UserFormFiltro/\u0001CompObj",
+      "expected": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+      "actual": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+      "ok": true
+    },
+    {
+      "path": "/UserFormFiltro/\u0003VBFrame",
+      "expected": "197f78847b54876f81bf1ae3f5497bd80f5d89846f546ac900011a0a08073eab",
+      "actual": "197f78847b54876f81bf1ae3f5497bd80f5d89846f546ac900011a0a08073eab",
+      "ok": true
+    },
+    {
+      "path": "/frmRelatorioXML/f",
+      "expected": "be12a8d37f37b4662c3fd6e01c4c500b014fa8f852056844a6f46dd557a94ba7",
+      "actual": "9871b7a8e8838e01bf8421e186f577831d462a5709fa364d148ca5bbbd803048",
+      "ok": false
+    },
+    {
+      "path": "/frmRelatorioXML/o",
+      "expected": "427e6d298c032e1781b8836692795ae4224ea045bbfb3a36049a305975cc0cf7",
+      "actual": "98e45e0ae6be8a6ceadd9bb187cdac53915e6b012df2958dbb9972510b75f71d",
+      "ok": false
+    },
+    {
+      "path": "/frmRelatorioXML/\u0001CompObj",
+      "expected": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+      "actual": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+      "ok": true
+    },
+    {
+      "path": "/frmRelatorioXML/\u0003VBFrame",
+      "expected": "581d536f3a6823c96349d296a707ba9ebabb3af840edc7a236e9158e73b8be1b",
+      "actual": "581d536f3a6823c96349d296a707ba9ebabb3af840edc7a236e9158e73b8be1b",
+      "ok": true
+    }
+  ]
+}

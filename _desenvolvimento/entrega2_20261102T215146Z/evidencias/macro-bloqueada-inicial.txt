@@ -1,0 +1,1 @@
+Tentativa E1_IniciarBaseLimpa recusada: As macros neste projeto estao desativadas. Nenhum banco E2 criado. Consulta ThisWorkbook.FullName tambem recusada. Acao manual pendente; nao houve alteracao de seguranca.

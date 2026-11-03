@@ -1,0 +1,48 @@
+{
+  "origin": "Transcricao identificada de interface nativa CUA/VBE; nao VBProject COM",
+  "office": {
+    "version": "16.0",
+    "build": "20527",
+    "bitness": "x64"
+  },
+  "sessions": [
+    {
+      "pid": 45652,
+      "excelWindow": 6557138,
+      "vbeWindow": 2756386,
+      "compilation": "Depurar > Compilar sem erro; Compilar desabilitado apos ultima correcao; macros executadas",
+      "end": {
+        "workbooks": 1,
+        "events": true,
+        "screenUpdating": true,
+        "calculation": -4105,
+        "displayAlerts": true,
+        "closedNormally": true
+      }
+    },
+    {
+      "pid": 48356,
+      "excelWindow": 37227398,
+      "vbeWindow": 460122,
+      "freshProcess": true,
+      "executed": "F9_Cold",
+      "end": {
+        "workbooks": 1,
+        "events": true,
+        "screenUpdating": true,
+        "calculation": -4105,
+        "displayAlerts": true,
+        "closedNormally": true
+      }
+    }
+  ],
+  "untouchedUserExcelWindow": 8589906,
+  "securitySettingsChanged": false,
+  "globalKill": false,
+  "portao2": false,
+  "limitations": [
+    "Macro warning enabled only for exact authorized synthetic file, no global setting",
+    "Initial duplicate imports preserved in checkpoint, removed only duplicated F9 components",
+    "Guard supplemental path check corrected from short path marker to original path; boundary normalization retained"
+  ]
+}

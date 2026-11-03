@@ -1,0 +1,3139 @@
+{
+  "timestamp": "2026-10-31T21:39:26.375Z",
+  "root": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel",
+  "previousPhase1": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\20261031_174936Z",
+  "previousPhase2": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase2_20261031_201621Z",
+  "p3": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase3_20261031_213925Z",
+  "dev3": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase3_20261031_213925Z\\desenvolvimento",
+  "scripts3": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase3_20261031_213925Z\\scripts",
+  "backup3": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase3_20261031_213925Z\\backup",
+  "test3": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase3_20261031_213925Z",
+  "originalChecks": [
+    {
+      "file": "Excel\\Estoque Fera Veículos 2026.xlsm",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "Form\\Cad_NCM.frm",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "Form\\Cad_NCM.frx",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "Form\\Cad_NFE.frm",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "Form\\Cad_NFE.frx",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frm",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frx",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "Form\\frmRelatorioXML.frm",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "Form\\frmRelatorioXML.frx",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "Form\\UserFormFiltro.frm",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "Form\\UserFormFiltro.frx",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlChamarFiltro.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlChamarForm.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlChamarFormDocFora.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlChamarFormNCM.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlChamarFormSaida.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlChamarFormVeículos.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlChamarTabCan.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlChamarTabEnt.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlChamarTabSai.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlCondCel.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlCopiar.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlCriaBackup.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlCursor.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlMacroConexão.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlMacroConexãoClientes.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlMacroDocFora.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlOcultarTítulo.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\mdlTelaCheia.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\modPreencherFormulario.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\modSeleniumCommon.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\modSeleniumConsultaNFE.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\modSeleniumRenavamConsulta.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\modSelTest.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\modValidacaoXML.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\MóduloOfficeRibbonEditor.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\MóduloPesquisa.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "MDL\\MóduloRemoveFechar.bas",
+      "originalOK": true,
+      "backupOK": true
+    },
+    {
+      "file": "README.md",
+      "originalOK": true,
+      "backupOK": true
+    }
+  ],
+  "phase1Checks": [
+    {
+      "file": "achados.json",
+      "ok": true
+    },
+    {
+      "file": "alteracoes.json",
+      "ok": true
+    },
+    {
+      "file": "backup\\Excel\\Estoque Fera Veículos 2026.xlsm",
+      "ok": true
+    },
+    {
+      "file": "backup\\Form\\Cad_NCM.frm",
+      "ok": true
+    },
+    {
+      "file": "backup\\Form\\Cad_NCM.frx",
+      "ok": true
+    },
+    {
+      "file": "backup\\Form\\Cad_NFE.frm",
+      "ok": true
+    },
+    {
+      "file": "backup\\Form\\Cad_NFE.frx",
+      "ok": true
+    },
+    {
+      "file": "backup\\Form\\Cad_NFE_Saida.frm",
+      "ok": true
+    },
+    {
+      "file": "backup\\Form\\Cad_NFE_Saida.frx",
+      "ok": true
+    },
+    {
+      "file": "backup\\Form\\frmRelatorioXML.frm",
+      "ok": true
+    },
+    {
+      "file": "backup\\Form\\frmRelatorioXML.frx",
+      "ok": true
+    },
+    {
+      "file": "backup\\Form\\UserFormFiltro.frm",
+      "ok": true
+    },
+    {
+      "file": "backup\\Form\\UserFormFiltro.frx",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlChamarFiltro.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlChamarForm.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlChamarFormDocFora.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlChamarFormNCM.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlChamarFormSaida.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlChamarFormVeículos.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlChamarTabCan.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlChamarTabEnt.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlChamarTabSai.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlCondCel.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlCopiar.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlCriaBackup.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlCursor.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlMacroConexão.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlMacroConexãoClientes.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlMacroDocFora.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlOcultarTítulo.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\mdlTelaCheia.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\modPreencherFormulario.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\modSeleniumCommon.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\modSeleniumConsultaNFE.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\modSeleniumRenavamConsulta.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\modSelTest.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\modValidacaoXML.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\MóduloOfficeRibbonEditor.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\MóduloPesquisa.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\MDL\\MóduloRemoveFechar.bas",
+      "ok": true
+    },
+    {
+      "file": "backup\\README.md",
+      "ok": true
+    },
+    {
+      "file": "chamadas-explicitas.json",
+      "ok": true
+    },
+    {
+      "file": "comparacao-fontes-embutidos.json",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\Excel\\Estoque Fera Veículos 2026.xlsm",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\Form\\Cad_NCM.frm",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\Form\\Cad_NCM.frx",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\Form\\Cad_NFE.frm",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\Form\\Cad_NFE.frx",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\Form\\Cad_NFE_Saida.frm",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\Form\\Cad_NFE_Saida.frx",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\Form\\frmRelatorioXML.frm",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\Form\\frmRelatorioXML.frx",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\Form\\UserFormFiltro.frm",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\Form\\UserFormFiltro.frx",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\LEIA_ANTES_DE_USAR.md",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlChamarFiltro.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlChamarForm.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlChamarFormDocFora.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlChamarFormNCM.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlChamarFormSaida.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlChamarFormVeículos.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlChamarTabCan.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlChamarTabEnt.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlChamarTabSai.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlCondCel.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlCopiar.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlCriaBackup.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlCursor.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlMacroConexão.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlMacroConexãoClientes.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlMacroDocFora.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlOcultarTítulo.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\mdlTelaCheia.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\modPreencherFormulario.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\modSeleniumCommon.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\modSeleniumConsultaNFE.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\modSeleniumRenavamConsulta.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\modSelTest.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\modValidacaoXML.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\MóduloOfficeRibbonEditor.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\MóduloPesquisa.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\MDL\\MóduloRemoveFechar.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento\\README.md",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Cad_NCM.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Cad_NFE.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Cad_NFE_Saida.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\EstaPastaDeTrabalho.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\frmRelatorioXML.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlChamarFiltro.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlChamarForm.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlChamarFormDocFora.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlChamarFormNCM.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlChamarFormSaida.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlChamarFormVeículos.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlChamarTabCan.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlChamarTabEnt.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlChamarTabSai.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlCondCel.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlCopiar.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlCriaBackup.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlCursor.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlMacroConexão.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlMacroConexãoClientes.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlMacroDocFora.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlOcultarTítulo.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\mdlTelaCheia.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\modPreencherFormulario.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\modSeleniumCommon.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\modSeleniumConsultaNFE.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\modSeleniumRenavamConsulta.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\modSelTest.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\modValidacaoXML.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\MóduloOfficeRibbonEditor.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\MóduloPesquisa.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\MóduloRemoveFechar.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha1.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha10.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha11.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha12.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha13.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha15.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha16.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha17.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha18.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha2.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha3.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha4.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha5.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha6.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha7.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha8.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\Planilha9.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "embutido_original\\UserFormFiltro.vba.txt",
+      "ok": true
+    },
+    {
+      "file": "entrega.json",
+      "ok": true
+    },
+    {
+      "file": "evidencias\\original\\analise-estatica.json",
+      "ok": true
+    },
+    {
+      "file": "evidencias\\revisado\\analise-estatica.json",
+      "ok": true
+    },
+    {
+      "file": "manifesto-original.json",
+      "ok": true
+    },
+    {
+      "file": "office_excel_detail.json",
+      "ok": true
+    },
+    {
+      "file": "office_probe.json",
+      "ok": true
+    },
+    {
+      "file": "planilhas.json",
+      "ok": true
+    },
+    {
+      "file": "processos_office_final.json",
+      "ok": true
+    },
+    {
+      "file": "referencias-declaradas.json",
+      "ok": true
+    },
+    {
+      "file": "scripts\\auditar-vba.mjs",
+      "ok": true
+    },
+    {
+      "file": "scripts\\AuditoriaListaFake.cls",
+      "ok": true
+    },
+    {
+      "file": "scripts\\modTestesAuditoria.bas",
+      "ok": true
+    },
+    {
+      "file": "scripts\\Preparar-TestesVBA.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts\\Test-ExcelCom.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts\\Test-OfficeCapabilities.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts\\Test-XMLCom.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts\\testar-auditoria.mjs",
+      "ok": true
+    },
+    {
+      "file": "sintaxe_powershell.json",
+      "ok": true
+    },
+    {
+      "file": "tentativa_word.json",
+      "ok": true
+    },
+    {
+      "file": "testes-estaticos.json",
+      "ok": true
+    },
+    {
+      "file": "testes_excel_com.json",
+      "ok": true
+    },
+    {
+      "file": "testes_xml_com.json",
+      "ok": true
+    }
+  ],
+  "phase2BackupChecks": [
+    {
+      "file": "Excel\\Estoque Fera Veículos 2026.xlsm",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "Form\\Cad_NCM.frm",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "Form\\Cad_NCM.frx",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "Form\\Cad_NFE.frm",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "Form\\Cad_NFE.frx",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frm",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "Form\\Cad_NFE_Saida.frx",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "Form\\frmRelatorioXML.frm",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "Form\\frmRelatorioXML.frx",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "Form\\UserFormFiltro.frm",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "Form\\UserFormFiltro.frx",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "LEIA_ANTES_DE_USAR.md",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlChamarFiltro.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlChamarForm.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlChamarFormDocFora.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlChamarFormNCM.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlChamarFormSaida.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlChamarFormVeículos.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlChamarTabCan.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlChamarTabEnt.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlChamarTabSai.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlCondCel.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlCopiar.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlCriaBackup.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlCursor.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlMacroConexão.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlMacroConexãoClientes.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlMacroDocFora.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlOcultarTítulo.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\mdlTelaCheia.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\modPreencherFormulario.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\modSeleniumCommon.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\modSeleniumConsultaNFE.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\modSeleniumRenavamConsulta.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\modSelTest.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\modValidacaoXML.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\MóduloOfficeRibbonEditor.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\MóduloPesquisa.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "MDL\\MóduloRemoveFechar.bas",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "README.md",
+      "kind": "desenvolvimento",
+      "ok": true
+    },
+    {
+      "file": "AGENTS.md",
+      "kind": "documentacao",
+      "ok": true
+    },
+    {
+      "file": "RELATORIO_AUDITORIA.md",
+      "kind": "documentacao",
+      "ok": true
+    },
+    {
+      "file": "MAPA_PROJETO.md",
+      "kind": "documentacao",
+      "ok": true
+    },
+    {
+      "file": "TESTES_VBA.md",
+      "kind": "documentacao",
+      "ok": true
+    },
+    {
+      "file": "HISTORICO_ALTERACOES.md",
+      "kind": "documentacao",
+      "ok": true
+    },
+    {
+      "file": "README.md",
+      "kind": "documentacao",
+      "ok": true
+    }
+  ],
+  "phase2DevelopmentChecks": [
+    {
+      "file": "Excel/Estoque Fera Veículos 2026.xlsm",
+      "ok": true
+    },
+    {
+      "file": "Form/Cad_NCM.frm",
+      "ok": true
+    },
+    {
+      "file": "Form/Cad_NCM.frx",
+      "ok": true
+    },
+    {
+      "file": "Form/Cad_NFE.frm",
+      "ok": true
+    },
+    {
+      "file": "Form/Cad_NFE.frx",
+      "ok": true
+    },
+    {
+      "file": "Form/Cad_NFE_Saida.frm",
+      "ok": true
+    },
+    {
+      "file": "Form/Cad_NFE_Saida.frx",
+      "ok": true
+    },
+    {
+      "file": "Form/frmRelatorioXML.frm",
+      "ok": true
+    },
+    {
+      "file": "Form/frmRelatorioXML.frx",
+      "ok": true
+    },
+    {
+      "file": "Form/UserFormFiltro.frm",
+      "ok": true
+    },
+    {
+      "file": "Form/UserFormFiltro.frx",
+      "ok": true
+    },
+    {
+      "file": "LEIA_ANTES_DE_USAR.md",
+      "ok": true
+    },
+    {
+      "file": "MDL/clsOperacaoPlanilha.cls",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlChamarFiltro.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlChamarForm.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlChamarFormDocFora.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlChamarFormNCM.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlChamarFormSaida.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlChamarFormVeículos.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlChamarTabCan.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlChamarTabEnt.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlChamarTabSai.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlCondCel.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlCopiar.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlCriaBackup.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlCursor.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlMacroConexão.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlMacroConexãoClientes.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlMacroDocFora.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlOcultarTítulo.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/mdlTelaCheia.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/modIntegridadeOperacao.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/modPreencherFormulario.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/modSeleniumCommon.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/modSeleniumConsultaNFE.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/modSeleniumRenavamConsulta.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/modSelTest.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/modValidacaoXML.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/MóduloOfficeRibbonEditor.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/MóduloPesquisa.bas",
+      "ok": true
+    },
+    {
+      "file": "MDL/MóduloRemoveFechar.bas",
+      "ok": true
+    },
+    {
+      "file": "README.md",
+      "ok": true
+    }
+  ],
+  "phase2Inventory": [
+    {
+      "relative": "achados-fase2.json",
+      "size": 28085,
+      "sha256": "e89d25d5722e13f4902b48b17c5f3a85e7d6afb16f4060cbcd13010c1507f7fa"
+    },
+    {
+      "relative": "alteracoes-fase2.json",
+      "size": 907494,
+      "sha256": "8986c3cbfbce0867448e32b4fa16b986b96ce524062caee54935a16797c9df29"
+    },
+    {
+      "relative": "backup/desenvolvimento/Excel/Estoque Fera Veículos 2026.xlsm",
+      "size": 4564697,
+      "sha256": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850"
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/Cad_NCM.frm",
+      "size": 8116,
+      "sha256": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027"
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/Cad_NCM.frx",
+      "size": 257048,
+      "sha256": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a"
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/Cad_NFE.frm",
+      "size": 83320,
+      "sha256": "7ef27e1f90466a3c5488fa700d5de033c48ecb98b30c1a00d2b26aacd66e6a2d"
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/Cad_NFE.frx",
+      "size": 1867800,
+      "sha256": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df"
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/Cad_NFE_Saida.frm",
+      "size": 90438,
+      "sha256": "00fc3c4c7dfa9452826fec3013121815750998c0b73ab5c97addc5e7ecb5f458"
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/Cad_NFE_Saida.frx",
+      "size": 1346584,
+      "sha256": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23"
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/frmRelatorioXML.frm",
+      "size": 6023,
+      "sha256": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345"
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/frmRelatorioXML.frx",
+      "size": 94232,
+      "sha256": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b"
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/UserFormFiltro.frm",
+      "size": 4630,
+      "sha256": "72104ed848f1c883a7ba8cfe1fbf0e3580877dca42a93750350db28fbce912c5"
+    },
+    {
+      "relative": "backup/desenvolvimento/Form/UserFormFiltro.frx",
+      "size": 511000,
+      "sha256": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785"
+    },
+    {
+      "relative": "backup/desenvolvimento/LEIA_ANTES_DE_USAR.md",
+      "size": 1090,
+      "sha256": "d2e45bb7919c0f26a561473d60036b1e872805d0591634f849e7501dc9837594"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarFiltro.bas",
+      "size": 122,
+      "sha256": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarForm.bas",
+      "size": 138,
+      "sha256": "f1a50ae2170e8d91fe64d7eff748009a86afb13deb5f4f0afc12a4e4f905aa36"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarFormDocFora.bas",
+      "size": 272,
+      "sha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarFormNCM.bas",
+      "size": 116,
+      "sha256": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarFormSaida.bas",
+      "size": 152,
+      "sha256": "738e72244780dbf0342c18d9688f0bf929dc8d609e1b4788dabc2aaf7d2cd403"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarFormVeículos.bas",
+      "size": 274,
+      "sha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarTabCan.bas",
+      "size": 142,
+      "sha256": "c476162d14a48d47b27abf29fcb1a265be1146cabf770e1b7ba5baa6845215ed"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarTabEnt.bas",
+      "size": 120,
+      "sha256": "6aa6e174c4eaeedeebb8054ba5f989f27b679e4cd9d716554d7209cb05be27ed"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlChamarTabSai.bas",
+      "size": 118,
+      "sha256": "8ecd5f302438f49849bf0ede7bc5be6fcc62792f8ca845a9d155b70daed19f3d"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlCondCel.bas",
+      "size": 7761,
+      "sha256": "eb898b196b26f6360615cf503030c2b20eb8d345e277550e07df46ede111f60c"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlCopiar.bas",
+      "size": 5969,
+      "sha256": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlCriaBackup.bas",
+      "size": 2546,
+      "sha256": "8477beee7a2be221e2daf6ba6b8a805412fecf638f67e38f5a7654aa052148ff"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlCursor.bas",
+      "size": 1025,
+      "sha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlMacroConexão.bas",
+      "size": 182,
+      "sha256": "38ef9f12fac5df53037a3e0fef4d5039c0c87c939dbd20667e2cf6bc890cd405"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlMacroConexãoClientes.bas",
+      "size": 199,
+      "sha256": "0933295f65ca204d94633c1b6bf640299e18f0d04b033f2044c0f013bf2643e7"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlMacroDocFora.bas",
+      "size": 195,
+      "sha256": "2675a05d8126ec68039565153e67bd3e51afad76e885e540cd09df5fd4676f01"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlOcultarTítulo.bas",
+      "size": 1404,
+      "sha256": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/mdlTelaCheia.bas",
+      "size": 2098,
+      "sha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/modPreencherFormulario.bas",
+      "size": 2876,
+      "sha256": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/modSeleniumCommon.bas",
+      "size": 4291,
+      "sha256": "f38c55ae5cf11320a7864286b706094cfd7686f6d01669519aafe67d974091b2"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/modSeleniumConsultaNFE.bas",
+      "size": 43104,
+      "sha256": "a6b6045c0179684ee54fb30ff7c0340917e7ca0736e5f9249fb78808193cdbf2"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/modSeleniumRenavamConsulta.bas",
+      "size": 18900,
+      "sha256": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/modSelTest.bas",
+      "size": 42591,
+      "sha256": "1bd9a034503af0479bed5f7fd38fea83e5a2b693459c2e731de98ccf50e2b3a0"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/modValidacaoXML.bas",
+      "size": 60123,
+      "sha256": "8b79d34333a47ba1b5fe98f3641d79eb7075127b9967d7072e3041e94b4c3548"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/MóduloOfficeRibbonEditor.bas",
+      "size": 455,
+      "sha256": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/MóduloPesquisa.bas",
+      "size": 9079,
+      "sha256": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7"
+    },
+    {
+      "relative": "backup/desenvolvimento/MDL/MóduloRemoveFechar.bas",
+      "size": 1243,
+      "sha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd"
+    },
+    {
+      "relative": "backup/desenvolvimento/README.md",
+      "size": 7765,
+      "sha256": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854"
+    },
+    {
+      "relative": "backup/documentacao/AGENTS.md",
+      "size": 3409,
+      "sha256": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7"
+    },
+    {
+      "relative": "backup/documentacao/HISTORICO_ALTERACOES.md",
+      "size": 4450,
+      "sha256": "05e39fa73d60cc2bd109ae399af826ea0b37f1f9dae229269c01e89f57988d5a"
+    },
+    {
+      "relative": "backup/documentacao/MAPA_PROJETO.md",
+      "size": 62429,
+      "sha256": "d534bec9508ff091934d62fc1b9dd7afadb9ba7c14c9941d37de237cb514f00b"
+    },
+    {
+      "relative": "backup/documentacao/README.md",
+      "size": 7765,
+      "sha256": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854"
+    },
+    {
+      "relative": "backup/documentacao/RELATORIO_AUDITORIA.md",
+      "size": 16491,
+      "sha256": "22cbb70f3be3eb658ee88dd872f08ae23a4376550b260b9823d92945e19654be"
+    },
+    {
+      "relative": "backup/documentacao/TESTES_VBA.md",
+      "size": 10234,
+      "sha256": "c953bf404f8c33cc69b28463c66a51da42dd327a50d88e98cab15e6cce25a6d1"
+    },
+    {
+      "relative": "compilacao-probe.json",
+      "size": 1404,
+      "sha256": "4a9fd70aef2383364bea1ff54e4e6fc0a16c71de28aa40fa721f7221b54f11b4"
+    },
+    {
+      "relative": "COMPILACAO_MANUAL.md",
+      "size": 7521,
+      "sha256": "c6c1d888965114dfa9f2d44a46a4aad4e50c543dbadfbd7984effb37dd004fdd"
+    },
+    {
+      "relative": "desenvolvimento/Excel/Estoque Fera Veículos 2026.xlsm",
+      "size": 4564697,
+      "sha256": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850"
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NCM.frm",
+      "size": 8116,
+      "sha256": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027"
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NCM.frx",
+      "size": 257048,
+      "sha256": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a"
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NFE.frm",
+      "size": 85530,
+      "sha256": "81b0ea767b26af67d0addff843b7f3dee412e359fc288c0fa1a6ef675f83f83f"
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NFE.frx",
+      "size": 1867800,
+      "sha256": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df"
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NFE_Saida.frm",
+      "size": 94710,
+      "sha256": "495af9524850ba0b25031263ca0022c92313e7289da4ea42df5e17782b0bc726"
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NFE_Saida.frx",
+      "size": 1346584,
+      "sha256": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23"
+    },
+    {
+      "relative": "desenvolvimento/Form/frmRelatorioXML.frm",
+      "size": 6023,
+      "sha256": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345"
+    },
+    {
+      "relative": "desenvolvimento/Form/frmRelatorioXML.frx",
+      "size": 94232,
+      "sha256": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b"
+    },
+    {
+      "relative": "desenvolvimento/Form/UserFormFiltro.frm",
+      "size": 4664,
+      "sha256": "5b4786291a713de25452dd4ac4446c03a70db09b418d29b00dd57af311df1eb1"
+    },
+    {
+      "relative": "desenvolvimento/Form/UserFormFiltro.frx",
+      "size": 511000,
+      "sha256": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785"
+    },
+    {
+      "relative": "desenvolvimento/LEIA_ANTES_DE_USAR.md",
+      "size": 1006,
+      "sha256": "a8daa59a42c65d824c2d9255ad8bd637f66a4616684854f6164df901100c9a96"
+    },
+    {
+      "relative": "desenvolvimento/MDL/clsOperacaoPlanilha.cls",
+      "size": 5518,
+      "sha256": "cddcfd577bd41f2c04a8bd279a566607df742b8398253ae5dd33d4ed7f3eded9"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarFiltro.bas",
+      "size": 122,
+      "sha256": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarForm.bas",
+      "size": 155,
+      "sha256": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarFormDocFora.bas",
+      "size": 272,
+      "sha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarFormNCM.bas",
+      "size": 116,
+      "sha256": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarFormSaida.bas",
+      "size": 169,
+      "sha256": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarFormVeículos.bas",
+      "size": 274,
+      "sha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarTabCan.bas",
+      "size": 499,
+      "sha256": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarTabEnt.bas",
+      "size": 137,
+      "sha256": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarTabSai.bas",
+      "size": 135,
+      "sha256": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlCondCel.bas",
+      "size": 7828,
+      "sha256": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlCopiar.bas",
+      "size": 5969,
+      "sha256": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlCriaBackup.bas",
+      "size": 4316,
+      "sha256": "252d5c896167a78649855a4480cf8b353315b834350ac19653789682958bd87e"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlCursor.bas",
+      "size": 1025,
+      "sha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlMacroConexão.bas",
+      "size": 659,
+      "sha256": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlMacroConexãoClientes.bas",
+      "size": 676,
+      "sha256": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlMacroDocFora.bas",
+      "size": 698,
+      "sha256": "efb80d365c274f0de6991f4110fe96f5f2017caffaeec0b94f07d0882e8838bc"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlOcultarTítulo.bas",
+      "size": 1404,
+      "sha256": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlTelaCheia.bas",
+      "size": 2098,
+      "sha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc"
+    },
+    {
+      "relative": "desenvolvimento/MDL/modIntegridadeOperacao.bas",
+      "size": 2100,
+      "sha256": "3591b877a4b21a959ba5e77a7475e970aea8a8cbd1ea9a956bdd6ffc3c4d2d3f"
+    },
+    {
+      "relative": "desenvolvimento/MDL/modPreencherFormulario.bas",
+      "size": 2876,
+      "sha256": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742"
+    },
+    {
+      "relative": "desenvolvimento/MDL/modSeleniumCommon.bas",
+      "size": 4959,
+      "sha256": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6"
+    },
+    {
+      "relative": "desenvolvimento/MDL/modSeleniumConsultaNFE.bas",
+      "size": 43076,
+      "sha256": "1519876036a17fa65ea9407eff4b8b78aec9f7b1dc749fc5f5d77fba8fac35c1"
+    },
+    {
+      "relative": "desenvolvimento/MDL/modSeleniumRenavamConsulta.bas",
+      "size": 18900,
+      "sha256": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3"
+    },
+    {
+      "relative": "desenvolvimento/MDL/modSelTest.bas",
+      "size": 43113,
+      "sha256": "da8ccd8a4bf91350b1250b1b79602ee18ceabca03da7bafa3a694e1e17539ba5"
+    },
+    {
+      "relative": "desenvolvimento/MDL/modValidacaoXML.bas",
+      "size": 62173,
+      "sha256": "a9b10bc5d7a6dea0dd2bb854439147610aeaa5c16ff49bae325285d8fc37c264"
+    },
+    {
+      "relative": "desenvolvimento/MDL/MóduloOfficeRibbonEditor.bas",
+      "size": 455,
+      "sha256": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2"
+    },
+    {
+      "relative": "desenvolvimento/MDL/MóduloPesquisa.bas",
+      "size": 9079,
+      "sha256": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7"
+    },
+    {
+      "relative": "desenvolvimento/MDL/MóduloRemoveFechar.bas",
+      "size": 1243,
+      "sha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd"
+    },
+    {
+      "relative": "desenvolvimento/README.md",
+      "size": 7765,
+      "sha256": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854"
+    },
+    {
+      "relative": "diagnostico-backup-v3.json",
+      "size": 348,
+      "sha256": "e711a6b758a11769b871e6d86e36570fce38bc19929471d81a2d0c17b6b3c4a7"
+    },
+    {
+      "relative": "entrega-fase2.json",
+      "size": 19361,
+      "sha256": "fb154d924548e236c9f734a7764897e26885a3a998d370bff734bd0f4b26ed92"
+    },
+    {
+      "relative": "evidencias/analise-estatica.json",
+      "size": 203555,
+      "sha256": "cc26d3db4699362d522e1f7c886092661d9d0083d5fd6cf99ea6e87c25def3fc"
+    },
+    {
+      "relative": "evidencias/estatica/analise-estatica.json",
+      "size": 203555,
+      "sha256": "f5bdb1633bee2a3bda3ac5387f8d229abbb29d81d76710ecfc6682ac43cc1106"
+    },
+    {
+      "relative": "evidencias/estatica-final/analise-estatica.json",
+      "size": 203336,
+      "sha256": "584f2f56e4b7f94c289a24f3213ab6a37e9f10a919a417b2bc0e6a0cdf291af5"
+    },
+    {
+      "relative": "formulas-a08.json",
+      "size": 5613537,
+      "sha256": "cf2a638068cfb862f29985960420414a35ad694d433031e35b64617f40ec2c66"
+    },
+    {
+      "relative": "links-documentacao.json",
+      "size": 79,
+      "sha256": "42d6427978a2f4902e63e30df737fea2bc689ad10a68d454b25e35e1773da88a"
+    },
+    {
+      "relative": "manifesto-desenvolvimento-final.json",
+      "size": 7023,
+      "sha256": "87bb359ee24fe421debc4980cfac097084c436e49fc81ef4779d1bc8cccd0a16"
+    },
+    {
+      "relative": "manifesto-inicial-fase2.json",
+      "size": 37810,
+      "sha256": "d93b519ac90e96e6d923b8eded6ca1484335ab88cfaa64b73dcc5cf476b9bd60"
+    },
+    {
+      "relative": "mapa-fontes-fase2.md",
+      "size": 66423,
+      "sha256": "94b64baf311d3dacca50bad1f3ebbe06ca510bcff30dc463c90942f05cdbe960"
+    },
+    {
+      "relative": "operacoes-multiplas.json",
+      "size": 2189,
+      "sha256": "5aff3aa7dfc928c507f5af4c4b0fcc132fecd8af9b6f1834e095f2e637c35f15"
+    },
+    {
+      "relative": "PLANO_INICIAL_FASE2.md",
+      "size": 9857,
+      "sha256": "8d6a90c88b65661dab3ddc78e1c6e672385f225c353b153504f587eb908d9192"
+    },
+    {
+      "relative": "problems-fase2.json",
+      "size": 242,
+      "sha256": "f3c463a31287035d2dea31d126febc677d1b72049ba0ee346b6cf92fb4b03185"
+    },
+    {
+      "relative": "regressao-excel-com.json",
+      "size": 1423,
+      "sha256": "591f2952e5018a7ae457861b4f6edb33eefe4061101bed3e40a667f081f0a93a"
+    },
+    {
+      "relative": "regressao-fase1/evidencias/original/analise-estatica.json",
+      "size": 200532,
+      "sha256": "897d9a07c2d4ff667d7abcdcffb8d601af24697c2a522cac4f40a3819d03cc43"
+    },
+    {
+      "relative": "regressao-fase1/evidencias/revisado/analise-estatica.json",
+      "size": 200696,
+      "sha256": "3eea2414d7e75d9497d6765282d58e5534efb5f33dbdf32e3bae264546473379"
+    },
+    {
+      "relative": "regressao-fase1/manifesto-original.json",
+      "size": 13745,
+      "sha256": "c1afbb40ac41432817fb27bbb5aa5a7d7255a261c1e9acec99e1920c7bea0fea"
+    },
+    {
+      "relative": "regressao-fase1/testes-estaticos.json",
+      "size": 1957,
+      "sha256": "6d604bec553a61285ac0cff3e3a6f215501968f9b8f7f7a4602fb210c316bf7a"
+    },
+    {
+      "relative": "regressao-xml-com.json",
+      "size": 1028,
+      "sha256": "6c9364918ae7dd7a2e2d937f7f487e4fa38dcd7f9a7c1b77574cc3e5731c4881"
+    },
+    {
+      "relative": "scripts/auditar-vba.mjs",
+      "size": 9730,
+      "sha256": "d77988a1d6333e91ea5b2d6c4abf030c53106c5f634225d00570ebc9d895953b"
+    },
+    {
+      "relative": "scripts/AuditoriaListaFake.cls",
+      "size": 640,
+      "sha256": "e61a9f17ca21de9e0cf68a90d8bfaab16846dea548abba3d09f67453cf14462b"
+    },
+    {
+      "relative": "scripts/fixture-esquema.json",
+      "size": 5006,
+      "sha256": "f989ba2db5d7a4438610c8d0d39d6f0a37a8ab8f88202464ce3c7833897586bd"
+    },
+    {
+      "relative": "scripts/modTestesAuditoria.bas",
+      "size": 3080,
+      "sha256": "409b64d4e61b2235a6e69699d9d3102d408408889ff84d3a6fdf81321a081210"
+    },
+    {
+      "relative": "scripts/modTestesFase2.bas",
+      "size": 6812,
+      "sha256": "d8ff972e510acdcd7e11dee327604da0b2c7b5618504515d9bb54e82e2ee16a4"
+    },
+    {
+      "relative": "scripts/Preparar-TestesVBA.ps1",
+      "size": 6011,
+      "sha256": "9a14ea31a32263e610afeac872e7f69f4390c57eb7af5222c6458b63ee0c6d84"
+    },
+    {
+      "relative": "scripts/Reexecutar-ExcelCom.ps1",
+      "size": 3397,
+      "sha256": "6ae4809000b864ff27b45a5bc81c5725ee34219cd383033a1fc2f68b5131b5b1"
+    },
+    {
+      "relative": "scripts/Reexecutar-XMLCom.ps1",
+      "size": 1934,
+      "sha256": "48c2c8730503c6b83e3bd61a08fa2774a6b404f0319ce57db99c3ef9508df90d"
+    },
+    {
+      "relative": "scripts/Reproduzir-A08.ps1",
+      "size": 2352,
+      "sha256": "782229eba753d60fd420b9e760929bd325cc4dce3cf55ad8f29bb70e24192321"
+    },
+    {
+      "relative": "scripts/Test-ExcelCom.ps1",
+      "size": 3156,
+      "sha256": "af0d38cf78fdecdc797f91ed97d08194fcfd1f95c3ee7d1f13164bf321fdfed0"
+    },
+    {
+      "relative": "scripts/Test-Fase2BackupContexto.ps1",
+      "size": 5834,
+      "sha256": "8259f8374e2abaffc8028bdeaa976d097e5cfa6cd0eb4dbd1abee9be73f3c333"
+    },
+    {
+      "relative": "scripts/Test-Fase2BackupContextoV2.ps1",
+      "size": 6192,
+      "sha256": "111569236cc5f82dc1ac972534efbdca2d0ca9d744f80f6a882290c5ee90314b"
+    },
+    {
+      "relative": "scripts/Test-Fase2BackupContextoV3.ps1",
+      "size": 6536,
+      "sha256": "5672277a760b4f605c6a87f281db82a47412504ff08d3832984adf716f6aca52"
+    },
+    {
+      "relative": "scripts/Test-Fase2BackupContextoV4.ps1",
+      "size": 6764,
+      "sha256": "d0ea1259a444a403fbc56d0224bc8570a4e5226fb9263cd03a490c8e2ea2a029"
+    },
+    {
+      "relative": "scripts/Test-Fase2Recuperacao.ps1",
+      "size": 5779,
+      "sha256": "8f78f499ea522c071f5d35e46efc5fd8b22b16d5466137bedf093d08b82c7221"
+    },
+    {
+      "relative": "scripts/Test-OfficeCapabilities.ps1",
+      "size": 2905,
+      "sha256": "16725a92812b71c6e0e69591c085e6d21cad3a49ac6d0d2d4d44f3c6a85ea894"
+    },
+    {
+      "relative": "scripts/Test-XMLCom.ps1",
+      "size": 1828,
+      "sha256": "a7bd70cda52601469fe03029ae5a8110dfeb5c640508a281159af60559dc5080"
+    },
+    {
+      "relative": "scripts/testar-auditoria.mjs",
+      "size": 6849,
+      "sha256": "37d5b73e6bf9821e97c985c448c4946c43c56e0f184cc265c7e72935422307a3"
+    },
+    {
+      "relative": "scripts/verificar-fase2.mjs",
+      "size": 8333,
+      "sha256": "11a1b784538c971ffa71458b7ea3597d541044dd7e7269b4fcd9e4dd492b1573"
+    },
+    {
+      "relative": "sintaxe-powershell-fase2-inicial.json",
+      "size": 2504,
+      "sha256": "ca31883a27641cde00b81e9d594918c3340b299243ce8a355d27526fc0e3d15c"
+    },
+    {
+      "relative": "sintaxe-powershell-fase2.json",
+      "size": 2815,
+      "sha256": "5adeec1d1d67de295b910ca7d8c350df155ea9067e134916fc7192e7ccf6282e"
+    },
+    {
+      "relative": "testes-a08-com.json",
+      "size": 5120,
+      "sha256": "f9e95c0f7e2470d1867b7ccb0a3ba66bfba8bf42a54dd6737fb9a053c8368b92"
+    },
+    {
+      "relative": "testes-a08-prototipos-com.json",
+      "size": 273,
+      "sha256": "6e4244cb366e78e7fe3518a9d622ab56227310650862fb51435775b8b102c0ff"
+    },
+    {
+      "relative": "testes-a08-prototipos-v2-com.json",
+      "size": 1287,
+      "sha256": "1d752929023d41f275cb75075ac8c38532ac27b1bbc4fba308886956ec005a4e"
+    },
+    {
+      "relative": "testes-a09-com.json",
+      "size": 224474,
+      "sha256": "e701d9cc04da2036a9152d205d62e7f208b6fbd5b526ac10191c599cb933377d"
+    },
+    {
+      "relative": "testes-backup-contexto-com.json",
+      "size": 1633,
+      "sha256": "db34e88a14de66f1b14518b32b4916a264ee279d00be1585c37524df98b0bd5a"
+    },
+    {
+      "relative": "testes-backup-contexto-v2-com.json",
+      "size": 1237,
+      "sha256": "4dbed3ec28e759670fef38bd574dda5bb302ded1758ea622fe5f3702306129f1"
+    },
+    {
+      "relative": "testes-backup-contexto-v3-com.json",
+      "size": 8127,
+      "sha256": "657ebafb41aa501e3dcf677ae4ba72fae22151ea8db7f901d23efc28088a61f8"
+    },
+    {
+      "relative": "testes-backup-contexto-v4-com.json",
+      "size": 8434,
+      "sha256": "15cad68d0487719736116586a9fbdae38bdfc3690b420ab57236341b5677aaa6"
+    },
+    {
+      "relative": "testes-estaticos-fase2-inicial.json",
+      "size": 2385,
+      "sha256": "336e02546d192393e5b9e1d90a1c3896dc7d7a45391a9dd33cebfbf0f616c2df"
+    },
+    {
+      "relative": "testes-estaticos-fase2.json",
+      "size": 2334,
+      "sha256": "3121c57ef738ee767a59ca4d0b1f2cd3aaee21345fcf09cc5642280a52a347b9"
+    },
+    {
+      "relative": "testes-recuperacao-reprodutivel-inicial.json",
+      "size": 738,
+      "sha256": "50c762de4a07c2f52c661f10f9ec48cdee4ef8a462204d18c366920ac85abb63"
+    },
+    {
+      "relative": "testes-recuperacao-reprodutivel-v2.json",
+      "size": 519171,
+      "sha256": "adc346a1e5a23babf91038b4d2cd2d5a299b497c4a3e2f68f506682905d10af6"
+    },
+    {
+      "relative": "testes-xml-condicoes-com.json",
+      "size": 4469,
+      "sha256": "79c85b2a7d7c87a2785c683e9bbac25b16bdfad5f238f7ddcdca3dcf921ce57d"
+    },
+    {
+      "relative": "verificacao-fase1.json",
+      "size": 17554,
+      "sha256": "b6e5489ba0fea35096add427cd62854c558b84649e090bc14879a801dbdfe0bd"
+    }
+  ],
+  "newBackupRecords": [
+    {
+      "relative": "desenvolvimento/Excel/Estoque Fera Veículos 2026.xlsm",
+      "size": 4564697,
+      "sha256": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850"
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NCM.frm",
+      "size": 8116,
+      "sha256": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027"
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NCM.frx",
+      "size": 257048,
+      "sha256": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a"
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NFE.frm",
+      "size": 85530,
+      "sha256": "81b0ea767b26af67d0addff843b7f3dee412e359fc288c0fa1a6ef675f83f83f"
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NFE.frx",
+      "size": 1867800,
+      "sha256": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df"
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NFE_Saida.frm",
+      "size": 94710,
+      "sha256": "495af9524850ba0b25031263ca0022c92313e7289da4ea42df5e17782b0bc726"
+    },
+    {
+      "relative": "desenvolvimento/Form/Cad_NFE_Saida.frx",
+      "size": 1346584,
+      "sha256": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23"
+    },
+    {
+      "relative": "desenvolvimento/Form/frmRelatorioXML.frm",
+      "size": 6023,
+      "sha256": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345"
+    },
+    {
+      "relative": "desenvolvimento/Form/frmRelatorioXML.frx",
+      "size": 94232,
+      "sha256": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b"
+    },
+    {
+      "relative": "desenvolvimento/Form/UserFormFiltro.frm",
+      "size": 4664,
+      "sha256": "5b4786291a713de25452dd4ac4446c03a70db09b418d29b00dd57af311df1eb1"
+    },
+    {
+      "relative": "desenvolvimento/Form/UserFormFiltro.frx",
+      "size": 511000,
+      "sha256": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785"
+    },
+    {
+      "relative": "desenvolvimento/LEIA_ANTES_DE_USAR.md",
+      "size": 1006,
+      "sha256": "a8daa59a42c65d824c2d9255ad8bd637f66a4616684854f6164df901100c9a96"
+    },
+    {
+      "relative": "desenvolvimento/MDL/clsOperacaoPlanilha.cls",
+      "size": 5518,
+      "sha256": "cddcfd577bd41f2c04a8bd279a566607df742b8398253ae5dd33d4ed7f3eded9"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarFiltro.bas",
+      "size": 122,
+      "sha256": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarForm.bas",
+      "size": 155,
+      "sha256": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarFormDocFora.bas",
+      "size": 272,
+      "sha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarFormNCM.bas",
+      "size": 116,
+      "sha256": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarFormSaida.bas",
+      "size": 169,
+      "sha256": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarFormVeículos.bas",
+      "size": 274,
+      "sha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarTabCan.bas",
+      "size": 499,
+      "sha256": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarTabEnt.bas",
+      "size": 137,
+      "sha256": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlChamarTabSai.bas",
+      "size": 135,
+      "sha256": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlCondCel.bas",
+      "size": 7828,
+      "sha256": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlCopiar.bas",
+      "size": 5969,
+      "sha256": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlCriaBackup.bas",
+      "size": 4316,
+      "sha256": "252d5c896167a78649855a4480cf8b353315b834350ac19653789682958bd87e"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlCursor.bas",
+      "size": 1025,
+      "sha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlMacroConexão.bas",
+      "size": 659,
+      "sha256": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlMacroConexãoClientes.bas",
+      "size": 676,
+      "sha256": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlMacroDocFora.bas",
+      "size": 698,
+      "sha256": "efb80d365c274f0de6991f4110fe96f5f2017caffaeec0b94f07d0882e8838bc"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlOcultarTítulo.bas",
+      "size": 1404,
+      "sha256": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a"
+    },
+    {
+      "relative": "desenvolvimento/MDL/mdlTelaCheia.bas",
+      "size": 2098,
+      "sha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc"
+    },
+    {
+      "relative": "desenvolvimento/MDL/modIntegridadeOperacao.bas",
+      "size": 2100,
+      "sha256": "3591b877a4b21a959ba5e77a7475e970aea8a8cbd1ea9a956bdd6ffc3c4d2d3f"
+    },
+    {
+      "relative": "desenvolvimento/MDL/modPreencherFormulario.bas",
+      "size": 2876,
+      "sha256": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742"
+    },
+    {
+      "relative": "desenvolvimento/MDL/modSeleniumCommon.bas",
+      "size": 4959,
+      "sha256": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6"
+    },
+    {
+      "relative": "desenvolvimento/MDL/modSeleniumConsultaNFE.bas",
+      "size": 43076,
+      "sha256": "1519876036a17fa65ea9407eff4b8b78aec9f7b1dc749fc5f5d77fba8fac35c1"
+    },
+    {
+      "relative": "desenvolvimento/MDL/modSeleniumRenavamConsulta.bas",
+      "size": 18900,
+      "sha256": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3"
+    },
+    {
+      "relative": "desenvolvimento/MDL/modSelTest.bas",
+      "size": 43113,
+      "sha256": "da8ccd8a4bf91350b1250b1b79602ee18ceabca03da7bafa3a694e1e17539ba5"
+    },
+    {
+      "relative": "desenvolvimento/MDL/modValidacaoXML.bas",
+      "size": 62173,
+      "sha256": "a9b10bc5d7a6dea0dd2bb854439147610aeaa5c16ff49bae325285d8fc37c264"
+    },
+    {
+      "relative": "desenvolvimento/MDL/MóduloOfficeRibbonEditor.bas",
+      "size": 455,
+      "sha256": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2"
+    },
+    {
+      "relative": "desenvolvimento/MDL/MóduloPesquisa.bas",
+      "size": 9079,
+      "sha256": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7"
+    },
+    {
+      "relative": "desenvolvimento/MDL/MóduloRemoveFechar.bas",
+      "size": 1243,
+      "sha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd"
+    },
+    {
+      "relative": "desenvolvimento/README.md",
+      "size": 7765,
+      "sha256": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854"
+    },
+    {
+      "relative": "documentacao/AGENTS.md",
+      "size": 3409,
+      "sha256": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7"
+    },
+    {
+      "relative": "documentacao/COMPILACAO_MANUAL_FASE2.md",
+      "size": 7521,
+      "sha256": "c6c1d888965114dfa9f2d44a46a4aad4e50c543dbadfbd7984effb37dd004fdd"
+    },
+    {
+      "relative": "documentacao/HISTORICO_ALTERACOES.md",
+      "size": 7802,
+      "sha256": "8983e2d40fc852e04aa2d44df8735f8bc5b4912ba2bff0817bbb9b79e49b6372"
+    },
+    {
+      "relative": "documentacao/MAPA_PROJETO.md",
+      "size": 71613,
+      "sha256": "075152b94f9d8e333eef846bffae788eeb62266e3b0b7c82c4949e38cdd89559"
+    },
+    {
+      "relative": "documentacao/PLANO_CORRECAO_FASE2.md",
+      "size": 28770,
+      "sha256": "8e05cd97a52279fe80a48a3c65471cbd17dbc49a5038c094538e2a875739813f"
+    },
+    {
+      "relative": "documentacao/README.md",
+      "size": 7765,
+      "sha256": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854"
+    },
+    {
+      "relative": "documentacao/RELATORIO_AUDITORIA.md",
+      "size": 27901,
+      "sha256": "a81a51c8cd5fcbd98f2ec9031413e09107453903edc759306cbeb3aff3ff2259"
+    },
+    {
+      "relative": "documentacao/TESTES_VBA.md",
+      "size": 22539,
+      "sha256": "45e7e882e126cf37fbc0aea8dac1d82e7404e244bfb8819f0e2089bef9163df7"
+    },
+    {
+      "relative": "scripts/auditar-vba.mjs",
+      "size": 9730,
+      "sha256": "d77988a1d6333e91ea5b2d6c4abf030c53106c5f634225d00570ebc9d895953b"
+    },
+    {
+      "relative": "scripts/AuditoriaListaFake.cls",
+      "size": 640,
+      "sha256": "e61a9f17ca21de9e0cf68a90d8bfaab16846dea548abba3d09f67453cf14462b"
+    },
+    {
+      "relative": "scripts/fixture-esquema.json",
+      "size": 5006,
+      "sha256": "f989ba2db5d7a4438610c8d0d39d6f0a37a8ab8f88202464ce3c7833897586bd"
+    },
+    {
+      "relative": "scripts/modTestesAuditoria.bas",
+      "size": 3080,
+      "sha256": "409b64d4e61b2235a6e69699d9d3102d408408889ff84d3a6fdf81321a081210"
+    },
+    {
+      "relative": "scripts/modTestesFase2.bas",
+      "size": 6812,
+      "sha256": "d8ff972e510acdcd7e11dee327604da0b2c7b5618504515d9bb54e82e2ee16a4"
+    },
+    {
+      "relative": "scripts/Preparar-TestesVBA.ps1",
+      "size": 6011,
+      "sha256": "9a14ea31a32263e610afeac872e7f69f4390c57eb7af5222c6458b63ee0c6d84"
+    },
+    {
+      "relative": "scripts/Reexecutar-ExcelCom.ps1",
+      "size": 3397,
+      "sha256": "6ae4809000b864ff27b45a5bc81c5725ee34219cd383033a1fc2f68b5131b5b1"
+    },
+    {
+      "relative": "scripts/Reexecutar-XMLCom.ps1",
+      "size": 1934,
+      "sha256": "48c2c8730503c6b83e3bd61a08fa2774a6b404f0319ce57db99c3ef9508df90d"
+    },
+    {
+      "relative": "scripts/Reproduzir-A08.ps1",
+      "size": 2352,
+      "sha256": "782229eba753d60fd420b9e760929bd325cc4dce3cf55ad8f29bb70e24192321"
+    },
+    {
+      "relative": "scripts/Test-ExcelCom.ps1",
+      "size": 3156,
+      "sha256": "af0d38cf78fdecdc797f91ed97d08194fcfd1f95c3ee7d1f13164bf321fdfed0"
+    },
+    {
+      "relative": "scripts/Test-Fase2BackupContexto.ps1",
+      "size": 5834,
+      "sha256": "8259f8374e2abaffc8028bdeaa976d097e5cfa6cd0eb4dbd1abee9be73f3c333"
+    },
+    {
+      "relative": "scripts/Test-Fase2BackupContextoV2.ps1",
+      "size": 6192,
+      "sha256": "111569236cc5f82dc1ac972534efbdca2d0ca9d744f80f6a882290c5ee90314b"
+    },
+    {
+      "relative": "scripts/Test-Fase2BackupContextoV3.ps1",
+      "size": 6536,
+      "sha256": "5672277a760b4f605c6a87f281db82a47412504ff08d3832984adf716f6aca52"
+    },
+    {
+      "relative": "scripts/Test-Fase2BackupContextoV4.ps1",
+      "size": 6764,
+      "sha256": "d0ea1259a444a403fbc56d0224bc8570a4e5226fb9263cd03a490c8e2ea2a029"
+    },
+    {
+      "relative": "scripts/Test-Fase2Recuperacao.ps1",
+      "size": 5779,
+      "sha256": "8f78f499ea522c071f5d35e46efc5fd8b22b16d5466137bedf093d08b82c7221"
+    },
+    {
+      "relative": "scripts/Test-OfficeCapabilities.ps1",
+      "size": 2905,
+      "sha256": "16725a92812b71c6e0e69591c085e6d21cad3a49ac6d0d2d4d44f3c6a85ea894"
+    },
+    {
+      "relative": "scripts/Test-XMLCom.ps1",
+      "size": 1828,
+      "sha256": "a7bd70cda52601469fe03029ae5a8110dfeb5c640508a281159af60559dc5080"
+    },
+    {
+      "relative": "scripts/testar-auditoria.mjs",
+      "size": 6849,
+      "sha256": "37d5b73e6bf9821e97c985c448c4946c43c56e0f184cc265c7e72935422307a3"
+    },
+    {
+      "relative": "scripts/verificar-fase2.mjs",
+      "size": 8333,
+      "sha256": "11a1b784538c971ffa71458b7ea3597d541044dd7e7269b4fcd9e4dd492b1573"
+    }
+  ],
+  "backupVerify": [
+    {
+      "file": "desenvolvimento/Excel/Estoque Fera Veículos 2026.xlsm",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/Form/Cad_NCM.frm",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/Form/Cad_NCM.frx",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/Form/Cad_NFE.frm",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/Form/Cad_NFE.frx",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/Form/Cad_NFE_Saida.frm",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/Form/Cad_NFE_Saida.frx",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/Form/frmRelatorioXML.frm",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/Form/frmRelatorioXML.frx",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/Form/UserFormFiltro.frm",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/Form/UserFormFiltro.frx",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/LEIA_ANTES_DE_USAR.md",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/clsOperacaoPlanilha.cls",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlChamarFiltro.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlChamarForm.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlChamarFormDocFora.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlChamarFormNCM.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlChamarFormSaida.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlChamarFormVeículos.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlChamarTabCan.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlChamarTabEnt.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlChamarTabSai.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlCondCel.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlCopiar.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlCriaBackup.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlCursor.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlMacroConexão.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlMacroConexãoClientes.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlMacroDocFora.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlOcultarTítulo.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/mdlTelaCheia.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/modIntegridadeOperacao.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/modPreencherFormulario.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/modSeleniumCommon.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/modSeleniumConsultaNFE.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/modSeleniumRenavamConsulta.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/modSelTest.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/modValidacaoXML.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/MóduloOfficeRibbonEditor.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/MóduloPesquisa.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/MDL/MóduloRemoveFechar.bas",
+      "ok": true
+    },
+    {
+      "file": "desenvolvimento/README.md",
+      "ok": true
+    },
+    {
+      "file": "documentacao/AGENTS.md",
+      "ok": true
+    },
+    {
+      "file": "documentacao/COMPILACAO_MANUAL_FASE2.md",
+      "ok": true
+    },
+    {
+      "file": "documentacao/HISTORICO_ALTERACOES.md",
+      "ok": true
+    },
+    {
+      "file": "documentacao/MAPA_PROJETO.md",
+      "ok": true
+    },
+    {
+      "file": "documentacao/PLANO_CORRECAO_FASE2.md",
+      "ok": true
+    },
+    {
+      "file": "documentacao/README.md",
+      "ok": true
+    },
+    {
+      "file": "documentacao/RELATORIO_AUDITORIA.md",
+      "ok": true
+    },
+    {
+      "file": "documentacao/TESTES_VBA.md",
+      "ok": true
+    },
+    {
+      "file": "scripts/auditar-vba.mjs",
+      "ok": true
+    },
+    {
+      "file": "scripts/AuditoriaListaFake.cls",
+      "ok": true
+    },
+    {
+      "file": "scripts/fixture-esquema.json",
+      "ok": true
+    },
+    {
+      "file": "scripts/modTestesAuditoria.bas",
+      "ok": true
+    },
+    {
+      "file": "scripts/modTestesFase2.bas",
+      "ok": true
+    },
+    {
+      "file": "scripts/Preparar-TestesVBA.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts/Reexecutar-ExcelCom.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts/Reexecutar-XMLCom.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts/Reproduzir-A08.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts/Test-ExcelCom.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts/Test-Fase2BackupContexto.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts/Test-Fase2BackupContextoV2.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts/Test-Fase2BackupContextoV3.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts/Test-Fase2BackupContextoV4.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts/Test-Fase2Recuperacao.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts/Test-OfficeCapabilities.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts/Test-XMLCom.ps1",
+      "ok": true
+    },
+    {
+      "file": "scripts/testar-auditoria.mjs",
+      "ok": true
+    },
+    {
+      "file": "scripts/verificar-fase2.mjs",
+      "ok": true
+    }
+  ],
+  "initialDevelopment": [
+    {
+      "relative": "Excel/Estoque Fera Veículos 2026.xlsm",
+      "size": 4564697,
+      "sha256": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850"
+    },
+    {
+      "relative": "Form/Cad_NCM.frm",
+      "size": 8116,
+      "sha256": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027"
+    },
+    {
+      "relative": "Form/Cad_NCM.frx",
+      "size": 257048,
+      "sha256": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a"
+    },
+    {
+      "relative": "Form/Cad_NFE.frm",
+      "size": 85530,
+      "sha256": "81b0ea767b26af67d0addff843b7f3dee412e359fc288c0fa1a6ef675f83f83f"
+    },
+    {
+      "relative": "Form/Cad_NFE.frx",
+      "size": 1867800,
+      "sha256": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df"
+    },
+    {
+      "relative": "Form/Cad_NFE_Saida.frm",
+      "size": 94710,
+      "sha256": "495af9524850ba0b25031263ca0022c92313e7289da4ea42df5e17782b0bc726"
+    },
+    {
+      "relative": "Form/Cad_NFE_Saida.frx",
+      "size": 1346584,
+      "sha256": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23"
+    },
+    {
+      "relative": "Form/frmRelatorioXML.frm",
+      "size": 6023,
+      "sha256": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345"
+    },
+    {
+      "relative": "Form/frmRelatorioXML.frx",
+      "size": 94232,
+      "sha256": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b"
+    },
+    {
+      "relative": "Form/UserFormFiltro.frm",
+      "size": 4664,
+      "sha256": "5b4786291a713de25452dd4ac4446c03a70db09b418d29b00dd57af311df1eb1"
+    },
+    {
+      "relative": "Form/UserFormFiltro.frx",
+      "size": 511000,
+      "sha256": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785"
+    },
+    {
+      "relative": "LEIA_ANTES_DE_USAR.md",
+      "size": 1006,
+      "sha256": "a8daa59a42c65d824c2d9255ad8bd637f66a4616684854f6164df901100c9a96"
+    },
+    {
+      "relative": "MDL/clsOperacaoPlanilha.cls",
+      "size": 5518,
+      "sha256": "cddcfd577bd41f2c04a8bd279a566607df742b8398253ae5dd33d4ed7f3eded9"
+    },
+    {
+      "relative": "MDL/mdlChamarFiltro.bas",
+      "size": 122,
+      "sha256": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4"
+    },
+    {
+      "relative": "MDL/mdlChamarForm.bas",
+      "size": 155,
+      "sha256": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1"
+    },
+    {
+      "relative": "MDL/mdlChamarFormDocFora.bas",
+      "size": 272,
+      "sha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0"
+    },
+    {
+      "relative": "MDL/mdlChamarFormNCM.bas",
+      "size": 116,
+      "sha256": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a"
+    },
+    {
+      "relative": "MDL/mdlChamarFormSaida.bas",
+      "size": 169,
+      "sha256": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea"
+    },
+    {
+      "relative": "MDL/mdlChamarFormVeículos.bas",
+      "size": 274,
+      "sha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a"
+    },
+    {
+      "relative": "MDL/mdlChamarTabCan.bas",
+      "size": 499,
+      "sha256": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634"
+    },
+    {
+      "relative": "MDL/mdlChamarTabEnt.bas",
+      "size": 137,
+      "sha256": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c"
+    },
+    {
+      "relative": "MDL/mdlChamarTabSai.bas",
+      "size": 135,
+      "sha256": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b"
+    },
+    {
+      "relative": "MDL/mdlCondCel.bas",
+      "size": 7828,
+      "sha256": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88"
+    },
+    {
+      "relative": "MDL/mdlCopiar.bas",
+      "size": 5969,
+      "sha256": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91"
+    },
+    {
+      "relative": "MDL/mdlCriaBackup.bas",
+      "size": 4316,
+      "sha256": "252d5c896167a78649855a4480cf8b353315b834350ac19653789682958bd87e"
+    },
+    {
+      "relative": "MDL/mdlCursor.bas",
+      "size": 1025,
+      "sha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348"
+    },
+    {
+      "relative": "MDL/mdlMacroConexão.bas",
+      "size": 659,
+      "sha256": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f"
+    },
+    {
+      "relative": "MDL/mdlMacroConexãoClientes.bas",
+      "size": 676,
+      "sha256": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941"
+    },
+    {
+      "relative": "MDL/mdlMacroDocFora.bas",
+      "size": 698,
+      "sha256": "efb80d365c274f0de6991f4110fe96f5f2017caffaeec0b94f07d0882e8838bc"
+    },
+    {
+      "relative": "MDL/mdlOcultarTítulo.bas",
+      "size": 1404,
+      "sha256": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a"
+    },
+    {
+      "relative": "MDL/mdlTelaCheia.bas",
+      "size": 2098,
+      "sha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc"
+    },
+    {
+      "relative": "MDL/modIntegridadeOperacao.bas",
+      "size": 2100,
+      "sha256": "3591b877a4b21a959ba5e77a7475e970aea8a8cbd1ea9a956bdd6ffc3c4d2d3f"
+    },
+    {
+      "relative": "MDL/modPreencherFormulario.bas",
+      "size": 2876,
+      "sha256": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742"
+    },
+    {
+      "relative": "MDL/modSeleniumCommon.bas",
+      "size": 4959,
+      "sha256": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6"
+    },
+    {
+      "relative": "MDL/modSeleniumConsultaNFE.bas",
+      "size": 43076,
+      "sha256": "1519876036a17fa65ea9407eff4b8b78aec9f7b1dc749fc5f5d77fba8fac35c1"
+    },
+    {
+      "relative": "MDL/modSeleniumRenavamConsulta.bas",
+      "size": 18900,
+      "sha256": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3"
+    },
+    {
+      "relative": "MDL/modSelTest.bas",
+      "size": 43113,
+      "sha256": "da8ccd8a4bf91350b1250b1b79602ee18ceabca03da7bafa3a694e1e17539ba5"
+    },
+    {
+      "relative": "MDL/modValidacaoXML.bas",
+      "size": 62173,
+      "sha256": "a9b10bc5d7a6dea0dd2bb854439147610aeaa5c16ff49bae325285d8fc37c264"
+    },
+    {
+      "relative": "MDL/MóduloOfficeRibbonEditor.bas",
+      "size": 455,
+      "sha256": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2"
+    },
+    {
+      "relative": "MDL/MóduloPesquisa.bas",
+      "size": 9079,
+      "sha256": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7"
+    },
+    {
+      "relative": "MDL/MóduloRemoveFechar.bas",
+      "size": 1243,
+      "sha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd"
+    },
+    {
+      "relative": "README.md",
+      "size": 7765,
+      "sha256": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854"
+    }
+  ],
+  "deltas": [
+    {
+      "file": "Excel/Estoque Fera Veículos 2026.xlsm",
+      "originalSha256": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "phase2Sha256": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "phase3InitialSha256": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "Form/Cad_NCM.frm",
+      "originalSha256": "c5aa276b7e1ad1da01a0d54a9faceb93c095d480806e83813db02b1a981c78a9",
+      "phase2Sha256": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027",
+      "phase3InitialSha256": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "Form/Cad_NCM.frx",
+      "originalSha256": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "phase2Sha256": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "phase3InitialSha256": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "Form/Cad_NFE.frm",
+      "originalSha256": "7c36590ff7e7f513e8396564e80d991f1ceb33602c16a07deba13598270176ee",
+      "phase2Sha256": "81b0ea767b26af67d0addff843b7f3dee412e359fc288c0fa1a6ef675f83f83f",
+      "phase3InitialSha256": "81b0ea767b26af67d0addff843b7f3dee412e359fc288c0fa1a6ef675f83f83f",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "Form/Cad_NFE.frx",
+      "originalSha256": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "phase2Sha256": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "phase3InitialSha256": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "Form/Cad_NFE_Saida.frm",
+      "originalSha256": "b3262a8af0a8c97342daa50cb1bca03b3cb23b5cf387f9abd3973697fa14ad32",
+      "phase2Sha256": "495af9524850ba0b25031263ca0022c92313e7289da4ea42df5e17782b0bc726",
+      "phase3InitialSha256": "495af9524850ba0b25031263ca0022c92313e7289da4ea42df5e17782b0bc726",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "Form/Cad_NFE_Saida.frx",
+      "originalSha256": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "phase2Sha256": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "phase3InitialSha256": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "Form/frmRelatorioXML.frm",
+      "originalSha256": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "phase2Sha256": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "phase3InitialSha256": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "Form/frmRelatorioXML.frx",
+      "originalSha256": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "phase2Sha256": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "phase3InitialSha256": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "Form/UserFormFiltro.frm",
+      "originalSha256": "72104ed848f1c883a7ba8cfe1fbf0e3580877dca42a93750350db28fbce912c5",
+      "phase2Sha256": "5b4786291a713de25452dd4ac4446c03a70db09b418d29b00dd57af311df1eb1",
+      "phase3InitialSha256": "5b4786291a713de25452dd4ac4446c03a70db09b418d29b00dd57af311df1eb1",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "Form/UserFormFiltro.frx",
+      "originalSha256": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "phase2Sha256": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "phase3InitialSha256": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "LEIA_ANTES_DE_USAR.md",
+      "originalSha256": null,
+      "phase2Sha256": "a8daa59a42c65d824c2d9255ad8bd637f66a4616684854f6164df901100c9a96",
+      "phase3InitialSha256": "a8daa59a42c65d824c2d9255ad8bd637f66a4616684854f6164df901100c9a96",
+      "differentFromOriginal": "NEW_AFTER_PHASE1",
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/clsOperacaoPlanilha.cls",
+      "originalSha256": null,
+      "phase2Sha256": "cddcfd577bd41f2c04a8bd279a566607df742b8398253ae5dd33d4ed7f3eded9",
+      "phase3InitialSha256": "cddcfd577bd41f2c04a8bd279a566607df742b8398253ae5dd33d4ed7f3eded9",
+      "differentFromOriginal": "NEW_AFTER_PHASE1",
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlChamarFiltro.bas",
+      "originalSha256": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "phase2Sha256": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "phase3InitialSha256": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlChamarForm.bas",
+      "originalSha256": "f1a50ae2170e8d91fe64d7eff748009a86afb13deb5f4f0afc12a4e4f905aa36",
+      "phase2Sha256": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1",
+      "phase3InitialSha256": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlChamarFormDocFora.bas",
+      "originalSha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "phase2Sha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "phase3InitialSha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlChamarFormNCM.bas",
+      "originalSha256": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "phase2Sha256": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "phase3InitialSha256": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlChamarFormSaida.bas",
+      "originalSha256": "738e72244780dbf0342c18d9688f0bf929dc8d609e1b4788dabc2aaf7d2cd403",
+      "phase2Sha256": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea",
+      "phase3InitialSha256": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlChamarFormVeículos.bas",
+      "originalSha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "phase2Sha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "phase3InitialSha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlChamarTabCan.bas",
+      "originalSha256": "c476162d14a48d47b27abf29fcb1a265be1146cabf770e1b7ba5baa6845215ed",
+      "phase2Sha256": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+      "phase3InitialSha256": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlChamarTabEnt.bas",
+      "originalSha256": "6aa6e174c4eaeedeebb8054ba5f989f27b679e4cd9d716554d7209cb05be27ed",
+      "phase2Sha256": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+      "phase3InitialSha256": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlChamarTabSai.bas",
+      "originalSha256": "8ecd5f302438f49849bf0ede7bc5be6fcc62792f8ca845a9d155b70daed19f3d",
+      "phase2Sha256": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+      "phase3InitialSha256": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlCondCel.bas",
+      "originalSha256": "eb898b196b26f6360615cf503030c2b20eb8d345e277550e07df46ede111f60c",
+      "phase2Sha256": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88",
+      "phase3InitialSha256": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlCopiar.bas",
+      "originalSha256": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "phase2Sha256": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "phase3InitialSha256": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlCriaBackup.bas",
+      "originalSha256": "8477beee7a2be221e2daf6ba6b8a805412fecf638f67e38f5a7654aa052148ff",
+      "phase2Sha256": "252d5c896167a78649855a4480cf8b353315b834350ac19653789682958bd87e",
+      "phase3InitialSha256": "252d5c896167a78649855a4480cf8b353315b834350ac19653789682958bd87e",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlCursor.bas",
+      "originalSha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "phase2Sha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "phase3InitialSha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlMacroConexão.bas",
+      "originalSha256": "38ef9f12fac5df53037a3e0fef4d5039c0c87c939dbd20667e2cf6bc890cd405",
+      "phase2Sha256": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+      "phase3InitialSha256": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlMacroConexãoClientes.bas",
+      "originalSha256": "0933295f65ca204d94633c1b6bf640299e18f0d04b033f2044c0f013bf2643e7",
+      "phase2Sha256": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+      "phase3InitialSha256": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlMacroDocFora.bas",
+      "originalSha256": "2675a05d8126ec68039565153e67bd3e51afad76e885e540cd09df5fd4676f01",
+      "phase2Sha256": "efb80d365c274f0de6991f4110fe96f5f2017caffaeec0b94f07d0882e8838bc",
+      "phase3InitialSha256": "efb80d365c274f0de6991f4110fe96f5f2017caffaeec0b94f07d0882e8838bc",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlOcultarTítulo.bas",
+      "originalSha256": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "phase2Sha256": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "phase3InitialSha256": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/mdlTelaCheia.bas",
+      "originalSha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "phase2Sha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "phase3InitialSha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/modIntegridadeOperacao.bas",
+      "originalSha256": null,
+      "phase2Sha256": "3591b877a4b21a959ba5e77a7475e970aea8a8cbd1ea9a956bdd6ffc3c4d2d3f",
+      "phase3InitialSha256": "3591b877a4b21a959ba5e77a7475e970aea8a8cbd1ea9a956bdd6ffc3c4d2d3f",
+      "differentFromOriginal": "NEW_AFTER_PHASE1",
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/modPreencherFormulario.bas",
+      "originalSha256": "716b2d1388e29aee6e2f71aea45e68ae65641b3b00c7f59463151a860a97179f",
+      "phase2Sha256": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742",
+      "phase3InitialSha256": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/modSeleniumCommon.bas",
+      "originalSha256": "f38c55ae5cf11320a7864286b706094cfd7686f6d01669519aafe67d974091b2",
+      "phase2Sha256": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+      "phase3InitialSha256": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/modSeleniumConsultaNFE.bas",
+      "originalSha256": "a6b6045c0179684ee54fb30ff7c0340917e7ca0736e5f9249fb78808193cdbf2",
+      "phase2Sha256": "1519876036a17fa65ea9407eff4b8b78aec9f7b1dc749fc5f5d77fba8fac35c1",
+      "phase3InitialSha256": "1519876036a17fa65ea9407eff4b8b78aec9f7b1dc749fc5f5d77fba8fac35c1",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/modSeleniumRenavamConsulta.bas",
+      "originalSha256": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "phase2Sha256": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "phase3InitialSha256": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/modSelTest.bas",
+      "originalSha256": "1bd9a034503af0479bed5f7fd38fea83e5a2b693459c2e731de98ccf50e2b3a0",
+      "phase2Sha256": "da8ccd8a4bf91350b1250b1b79602ee18ceabca03da7bafa3a694e1e17539ba5",
+      "phase3InitialSha256": "da8ccd8a4bf91350b1250b1b79602ee18ceabca03da7bafa3a694e1e17539ba5",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/modValidacaoXML.bas",
+      "originalSha256": "8b79d34333a47ba1b5fe98f3641d79eb7075127b9967d7072e3041e94b4c3548",
+      "phase2Sha256": "a9b10bc5d7a6dea0dd2bb854439147610aeaa5c16ff49bae325285d8fc37c264",
+      "phase3InitialSha256": "a9b10bc5d7a6dea0dd2bb854439147610aeaa5c16ff49bae325285d8fc37c264",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/MóduloOfficeRibbonEditor.bas",
+      "originalSha256": "2d8aed2ec79ba3e825e782c2391d08f112d0d98b48475d0a7a02ab4ae97a2ed4",
+      "phase2Sha256": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2",
+      "phase3InitialSha256": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2",
+      "differentFromOriginal": true,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/MóduloPesquisa.bas",
+      "originalSha256": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "phase2Sha256": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "phase3InitialSha256": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "MDL/MóduloRemoveFechar.bas",
+      "originalSha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "phase2Sha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "phase3InitialSha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    },
+    {
+      "file": "README.md",
+      "originalSha256": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "phase2Sha256": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "phase3InitialSha256": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "differentFromOriginal": false,
+      "equalToPhase2": true
+    }
+  ]
+}

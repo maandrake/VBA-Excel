@@ -1,0 +1,138 @@
+{
+  "mode": "Execução funcional VBA por clique real no UserForm Cad_NFE",
+  "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\Fixture_Auditoria_Fase4.xlsm",
+  "beforeHash": "b605a8e8f58fda9047e00e75ceadc54f4a48eb00687397d514670f5f09b6b901",
+  "afterSuccessHash": "0b85833fe6ab40de48cb82153c6f8365d022606e14906ee97670d762a898256c",
+  "input": {
+    "nNF": "900001",
+    "operation": "Compra",
+    "un": "1",
+    "vehicle": "VEICULO FICTICIO F4",
+    "code": "F4QA",
+    "plate": "FIC4A01",
+    "modelYear": "2026/2026",
+    "color": "FICTICIA",
+    "value": "1234,56",
+    "date": "01/11/2026",
+    "renave": "NÃO"
+  },
+  "cases": [
+    {
+      "id": "ENT-M-VALIDA",
+      "status": "PASS",
+      "observed": "Nfe inserida com sucesso...",
+      "countEntradas": 1,
+      "countAnual": 1,
+      "value": 1234.56,
+      "date": "01/11/2026",
+      "historicalAtoJEqual": true
+    },
+    {
+      "id": "ENT-M-DUPLICADA",
+      "status": "PASS",
+      "observed": "Numero da NFe já cadastrado!",
+      "countEntradas": 1,
+      "countAnual": 1
+    },
+    {
+      "id": "ENT-M-VALOR",
+      "status": "PASS",
+      "inputNF": "900002",
+      "value": "ABC",
+      "message": "Falha ao gravar NFe (13): Tipos incompatíveis",
+      "countEntradas": 0,
+      "countAnual": 0
+    },
+    {
+      "id": "ENT-M-DATA",
+      "status": "PASS",
+      "inputNF": "900003",
+      "value": "100,00",
+      "date": "DATA_INVALIDA",
+      "message": "Falha ao gravar NFe (13): Tipos incompatíveis",
+      "countEntradas": 0,
+      "countAnual": 0
+    },
+    {
+      "id": "ENT-M-NUMERO-VAZIO",
+      "status": "PASS",
+      "observed": "Retorno sem gravação; A5 continua Empty em Entradas e Entradas Anual",
+      "noError": true
+    },
+    {
+      "id": "ENT-F-VALIDA",
+      "status": "PASS",
+      "input": {
+        "nNF": "900101",
+        "operation": "Compra",
+        "un": "1",
+        "vehicle": "VEICULO FICTICIO FILIAL F4",
+        "code": "F4QAF",
+        "plate": "FIC4B01",
+        "modelYear": "2026/2026",
+        "color": "FICTICIA",
+        "value": "2345,67",
+        "date": "01/11/2026",
+        "key": "00000000000000000000000000000000000000000001"
+      },
+      "beforeCounts": [
+        0,
+        0
+      ],
+      "afterCounts": [
+        1,
+        1
+      ],
+      "keyType": "String",
+      "keyLength": 44,
+      "keyFormat": "@",
+      "keyExact": true,
+      "sentinels": {
+        "Entradas Filial!M4": {
+          "formula": "=1+2",
+          "value": 3
+        },
+        "Entradas Filial!N4": {
+          "formula": "=M4+1",
+          "value": 4
+        },
+        "Entradas Anual Filial!N4": {
+          "formula": "='Entradas Filial'!M4"
+        }
+      },
+      "historicalAtoJEqual": true
+    }
+  ],
+  "note": "A mensagem de erro é resposta esperada aos dados inválidos, não um PASS sem conferir células. O teste válido preserva o comportamento atual de matriz sem campo de chave persistido por esse procedimento.",
+  "finalStates": {
+    "EnableEvents": true,
+    "ScreenUpdating": true,
+    "DisplayAlerts": true,
+    "Calculation": -4105
+  },
+  "finalFixture": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\Entrega_Fase4_20261101\\Fixture_Auditoria_Fase4_Integrada_Testada.xlsm",
+  "finalSHA256": "dcbd72e46e8b182a9810254bcce460ea2cb17260b4bcb47b622ddc3d4f9879a0",
+  "invalidFullCellComparison": [
+    {
+      "sheet": "Entradas",
+      "beforeCells": 21,
+      "afterCells": 21,
+      "differences": [],
+      "status": "PASS"
+    },
+    {
+      "sheet": "Entradas Anual",
+      "beforeCells": 10,
+      "afterCells": 10,
+      "differences": [],
+      "status": "PASS"
+    }
+  ],
+  "limits": [
+    "Não valida todos os campos obrigatórios possíveis",
+    "Falhas entre escritas dos gravadores não foram injetadas",
+    "Demais casos da filial ainda não executados",
+    "Históricos recebem A:J; este teste não introduz chave ausente no anual",
+    "Matriz não persiste chave nesse procedimento atual"
+  ]
+}

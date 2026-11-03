@@ -1,0 +1,48 @@
+{
+  "session1": {
+    "pid": 10488,
+    "window": 2428890,
+    "vbe": 855852,
+    "workbooks": 1,
+    "version": "16.0",
+    "build": "20527",
+    "os": "Windows (64-bit) NT 10.00",
+    "EnableEvents": true,
+    "ScreenUpdating": true,
+    "Calculation": -4105,
+    "DisplayAlerts": true
+  },
+  "untouchedUserSession": {
+    "pid": 42180,
+    "window": 8589906
+  },
+  "origin": "Transcricao da janela Verificacao imediata e inventario de processos, nao VBProject COM",
+  "session2": {
+    "pid": 51860,
+    "window": 3084978,
+    "vbe": 1968882,
+    "workbooks": 1,
+    "version": "16.0",
+    "build": "20527",
+    "EnableEvents": true,
+    "ScreenUpdating": true,
+    "Calculation": -4105,
+    "DisplayAlerts": true
+  },
+  "macroBlock": {
+    "message": "As macros neste projeto estao desativadas.",
+    "action": "Fechamento/reabertura e Habilitar Macros no aviso do arquivo sintetico; nenhuma configuracao global alterada",
+    "status": "resolvido pela interface"
+  },
+  "session3": {
+    "pid": 49544,
+    "window": 2034418,
+    "vbe": 2297342,
+    "workbooks": 1,
+    "EnableEvents": true,
+    "ScreenUpdating": true,
+    "Calculation": -4105,
+    "DisplayAlerts": true,
+    "compile": "Depurar > Compilar: desabilitado apos compilacao sem erro; rotinas executadas"
+  }
+}

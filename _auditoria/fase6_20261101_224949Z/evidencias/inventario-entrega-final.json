@@ -1,0 +1,364 @@
+{
+  "file": "_auditoria/fase6_20261101_224949Z/entrega/Fixture_Arquitetura_Fase6_R4_EXPERIMENTAL_NAO_HOMOLOGADA.xlsm",
+  "sha256": "7f0f41f7336ebae8f7cfea2b698335be4ef346e78743cde34d899299dd848de1",
+  "components": 57,
+  "moduleNames": [
+    "EstaPastaDeTrabalho",
+    "Planilha12",
+    "Planilha1",
+    "Planilha13",
+    "Planilha3",
+    "Planilha4",
+    "Planilha2",
+    "Planilha17",
+    "Planilha15",
+    "Planilha10",
+    "Planilha16",
+    "Planilha18",
+    "Planilha7",
+    "Planilha6",
+    "Planilha9",
+    "Planilha11",
+    "Planilha5",
+    "Planilha8",
+    "clsOperacaoPlanilha",
+    "modIntegridadeOperacao",
+    "mdlChamarFiltro",
+    "mdlChamarTabCan",
+    "mdlChamarTabEnt",
+    "mdlChamarTabSai",
+    "mdlCondCel",
+    "mdlCopiar",
+    "mdlCriaBackup",
+    "mdlCursor",
+    "mdlMacroConexão",
+    "mdlMacroConexãoClientes",
+    "mdlMacroDocFora",
+    "mdlOcultarTítulo",
+    "mdlTelaCheia",
+    "modSeleniumCommon",
+    "modSeleniumConsultaNFE",
+    "modSeleniumRenavamConsulta",
+    "modSelTest",
+    "MóduloOfficeRibbonEditor",
+    "MóduloPesquisa",
+    "MóduloRemoveFechar",
+    "modValidacaoXML",
+    "mdlChamarForm",
+    "mdlChamarFormDocFora",
+    "mdlChamarFormNCM",
+    "mdlChamarFormSaida",
+    "mdlChamarFormVeículos",
+    "modPreencherFormulario",
+    "Cad_NCM",
+    "Cad_NFE",
+    "Cad_NFE_Saida",
+    "frmRelatorioXML",
+    "UserFormFiltro",
+    "AuditoriaListaFake",
+    "modTestesAuditoria",
+    "modTestesFase2",
+    "modTestesIntegradosFase5",
+    "modPrototiposFase6"
+  ],
+  "inheritedModules": [
+    {
+      "name": "EstaPastaDeTrabalho",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha12",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha1",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha13",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha3",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha4",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha2",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha17",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha15",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha10",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha16",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha18",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha7",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha6",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha9",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha11",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha5",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Planilha8",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "clsOperacaoPlanilha",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "modIntegridadeOperacao",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlChamarFiltro",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlChamarTabCan",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlChamarTabEnt",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlChamarTabSai",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlCondCel",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlCopiar",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlCriaBackup",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlCursor",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlMacroConexão",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlMacroConexãoClientes",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlMacroDocFora",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlOcultarTítulo",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlTelaCheia",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "modSeleniumCommon",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "modSeleniumConsultaNFE",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "modSeleniumRenavamConsulta",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "modSelTest",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "MóduloOfficeRibbonEditor",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "MóduloPesquisa",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "MóduloRemoveFechar",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "modValidacaoXML",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlChamarForm",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlChamarFormDocFora",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlChamarFormNCM",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlChamarFormSaida",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "mdlChamarFormVeículos",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "modPreencherFormulario",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Cad_NCM",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Cad_NFE",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "Cad_NFE_Saida",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "frmRelatorioXML",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "UserFormFiltro",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "AuditoriaListaFake",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "modTestesAuditoria",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "modTestesFase2",
+      "unchangedCanonical": true
+    },
+    {
+      "name": "modTestesIntegradosFase5",
+      "unchangedCanonical": true
+    }
+  ],
+  "prototypeSourceMatches": true,
+  "codeNames": [
+    {
+      "entry": "xl/worksheets/sheet1.xml",
+      "codeName": "Planilha12"
+    },
+    {
+      "entry": "xl/worksheets/sheet2.xml",
+      "codeName": "Planilha1"
+    },
+    {
+      "entry": "xl/worksheets/sheet3.xml",
+      "codeName": "Planilha13"
+    },
+    {
+      "entry": "xl/worksheets/sheet4.xml",
+      "codeName": "Planilha3"
+    },
+    {
+      "entry": "xl/worksheets/sheet5.xml",
+      "codeName": "Planilha4"
+    },
+    {
+      "entry": "xl/worksheets/sheet6.xml",
+      "codeName": "Planilha2"
+    },
+    {
+      "entry": "xl/worksheets/sheet7.xml",
+      "codeName": "Planilha17"
+    },
+    {
+      "entry": "xl/worksheets/sheet8.xml",
+      "codeName": "Planilha15"
+    },
+    {
+      "entry": "xl/worksheets/sheet9.xml",
+      "codeName": "Planilha10"
+    },
+    {
+      "entry": "xl/worksheets/sheet10.xml",
+      "codeName": "Planilha16"
+    },
+    {
+      "entry": "xl/worksheets/sheet11.xml",
+      "codeName": "Planilha18"
+    },
+    {
+      "entry": "xl/worksheets/sheet12.xml",
+      "codeName": "Planilha7"
+    },
+    {
+      "entry": "xl/worksheets/sheet13.xml",
+      "codeName": "Planilha6"
+    },
+    {
+      "entry": "xl/worksheets/sheet14.xml",
+      "codeName": "Planilha9"
+    },
+    {
+      "entry": "xl/worksheets/sheet15.xml",
+      "codeName": "Planilha11"
+    },
+    {
+      "entry": "xl/worksheets/sheet16.xml",
+      "codeName": "Planilha5"
+    },
+    {
+      "entry": "xl/worksheets/sheet17.xml",
+      "codeName": "Planilha8"
+    }
+  ],
+  "codeNamesUnchanged": true,
+  "compilation": "PASS real no Editor VBA; menu Compilar desabilitado ao finalizar; execucoes R4 concluidas",
+  "status": "EXPERIMENTAL_NAO_HOMOLOGADA; nao integrar identificadores nem politica de baixa sem aprovacao"
+}

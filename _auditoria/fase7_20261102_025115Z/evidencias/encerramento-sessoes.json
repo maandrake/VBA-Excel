@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-11-02T03:30:21.873Z",
+  "createdSessions": [
+    {
+      "excel": 14028294,
+      "vbe": 3148430,
+      "closedNormally": true
+    },
+    {
+      "excel": 36637574,
+      "vbe": 2497612,
+      "closedNormally": true
+    }
+  ],
+  "beforeClosingEach": {
+    "workbooksCount": 1,
+    "master": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase7_20261102_025115Z\\Fixture_Arquitetura_Fase7_Mestre.xlsm"
+  },
+  "preexistingExcel": {
+    "window": 8589906,
+    "preserved": true
+  },
+  "forceKill": false,
+  "securityChanged": false,
+  "latestObservedWindows": [
+    986590,
+    986674,
+    8589906,
+    658934
+  ],
+  "source": "Transcricao das observacoes da interface Windows e Janela Imediata"
+}

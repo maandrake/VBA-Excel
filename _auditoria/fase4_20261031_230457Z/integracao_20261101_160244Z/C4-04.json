@@ -1,0 +1,34 @@
+{
+  "id": "C4-04",
+  "module": "clsOperacaoPlanilha",
+  "procedure": "RestaurarCelula",
+  "evidenceBefore": {
+    "status": "FAIL",
+    "message": "FAIL: Diagnostico individual",
+    "diagnostic": "Falhas na compensacao: 4. Conciliacao manual obrigatoria.",
+    "cells": {
+      "A20": "vazia",
+      "B20": 99,
+      "C20": "vazia",
+      "D20": "vazia"
+    },
+    "sheetProtectionAfterCleanup": false
+  },
+  "cause": "ClearContents anterior a NumberFormat; formato bloqueado mesmo em celula desbloqueada deixa conteudo apagado",
+  "change": "Retirar ClearContents redundante; atribuicao Value2/Formula ja substitui o conteudo",
+  "before": "a6621e394e9111ba3419cbb0b792b8f821bb8a003060baacb7d1d4fd2824b40e",
+  "after": "f7867223784bb49b966a81a87ac682b27af3886ff1e51bf4ee8942a8fb7de73f",
+  "guarantee": "Após a correção: 377 verificações de regressão e 11 complementares PASS; proteção ampla continua FAIL de recuperação integral e exige conciliação. Sem atomicidade.",
+  "evidenceAfter": {
+    "status": "FAIL recuperacao integral; PASS ausencia de limpeza adicional",
+    "diagnostic": "Falhas na compensacao: 4. Conciliacao manual obrigatoria.",
+    "cells": {
+      "A20": "ALTERADO",
+      "B20": 99,
+      "C20": "ALTERADO",
+      "D20": 99
+    },
+    "sheetProtectionAfterCleanup": false,
+    "mode": "Execucao funcional VBA do mesmo teste e inspecao das variaveis em depuracao"
+  }
+}

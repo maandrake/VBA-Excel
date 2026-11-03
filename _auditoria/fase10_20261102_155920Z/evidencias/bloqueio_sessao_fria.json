@@ -1,0 +1,12 @@
+{
+  "mode": "Execucao funcional VBA",
+  "status": "BLOQUEADO",
+  "warmPID": 52068,
+  "coldPID": 41728,
+  "fixture": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase10_20261102_155920Z\\Fixture_Integridade_Fase10_Mestre.xlsm",
+  "attempt": "Call F10_Frio",
+  "messageVBE": "As macros neste projeto estão desativadas. Consulte a 'Ajuda' on-line ou a documentação do aplicativo host para determinar como ativar macros.",
+  "messageInfo": "O conteúdo ativo pode conter malware e outros riscos à segurança. O conteúdo ativo neste arquivo está bloqueado. Analise as configurações da Central de Confiabilidade ou contate o administrador de TI.",
+  "securityChanged": false,
+  "logNotCreated": true
+}

@@ -1,0 +1,140 @@
+{
+  "timestamp": "2026-11-01T15:09:08.309Z",
+  "modality": "Inspecao real da interface Excel/VBE; nao compilacao nem teste funcional",
+  "excelWindow": {
+    "id": 8129612,
+    "title": "Fixture_Auditoria_Fase4.xlsm - Excel"
+  },
+  "vbeWindow": {
+    "id": 1247638,
+    "title": "Microsoft Visual Basic for Applications - Fixture_Auditoria_Fase4.xlsm"
+  },
+  "visibleWorksheetNames": [
+    "Menu Principal",
+    "Saidas Filial",
+    "Todas Saidas Filial",
+    "Carros PF",
+    "Clientes",
+    "Veículos",
+    "Doc. para fora",
+    "NCM e CEST",
+    "Listas",
+    "Entradas",
+    "Transferidos",
+    "Entradas Anual",
+    "Demonstração",
+    "Saidas",
+    "Todas Saidas",
+    "Entradas Filial",
+    "Entradas Anual Filial"
+  ],
+  "actualVBEComponents": 18,
+  "actualVBEComponentKinds": {
+    "documents": 18,
+    "standardModules": 0,
+    "classes": 0,
+    "userForms": 0
+  },
+  "actualDocumentCodeNames": [
+    {
+      "sheet": "Menu Principal",
+      "codeName": "Planilha1"
+    },
+    {
+      "sheet": "Saidas Filial",
+      "codeName": "Planilha10"
+    },
+    {
+      "sheet": "Todas Saidas Filial",
+      "codeName": "Planilha11"
+    },
+    {
+      "sheet": "Carros PF",
+      "codeName": "Planilha12"
+    },
+    {
+      "sheet": "Clientes",
+      "codeName": "Planilha13"
+    },
+    {
+      "sheet": "Veículos",
+      "codeName": "Planilha14"
+    },
+    {
+      "sheet": "Doc. para fora",
+      "codeName": "Planilha15"
+    },
+    {
+      "sheet": "NCM e CEST",
+      "codeName": "Planilha16"
+    },
+    {
+      "sheet": "Listas",
+      "codeName": "Planilha17"
+    },
+    {
+      "sheet": "Entradas",
+      "codeName": "Planilha2"
+    },
+    {
+      "sheet": "Transferidos",
+      "codeName": "Planilha3"
+    },
+    {
+      "sheet": "Entradas Anual",
+      "codeName": "Planilha4"
+    },
+    {
+      "sheet": "Demonstração",
+      "codeName": "Planilha5"
+    },
+    {
+      "sheet": "Saidas",
+      "codeName": "Planilha6"
+    },
+    {
+      "sheet": "Todas Saidas",
+      "codeName": "Planilha7"
+    },
+    {
+      "sheet": "Entradas Filial",
+      "codeName": "Planilha8"
+    },
+    {
+      "sheet": "Entradas Anual Filial",
+      "codeName": "Planilha9"
+    }
+  ],
+  "workbookDocument": "EstaPastaDeTrabalho",
+  "codeNamesConfigured": false,
+  "documentBodiesVerified": false,
+  "dialog": "Importar arquivo",
+  "selectedFile": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/VBA_Fase4_20261031_230457Z/Importar_No_VBE/MDL/clsOperacaoPlanilha.cls",
+  "inputCorrection": "Primeiro caminho tinha barras perdidas por escape JS; corrigido e confirmado no campo usando /; nao foi importado",
+  "errors": [
+    "coordinate input geometry is unavailable",
+    "point (1560, 1068) is over EXCEL.EXE \"&Abrir\", not target window EXCEL.EXE \"Microsoft Visual Basic for Applications - Fixture_Auditoria_Fase4.xlsm\"; activate the target or take a fresh screenshot before retrying",
+    "wait for accessibility set value: timed out waiting on channel"
+  ],
+  "recovery": [
+    "sky: ativacao e nova captura",
+    "cua_repl: descoberta de janela VBE, raiz Raise e nova captura",
+    "Ctrl+M abriu dialogo; SetValue corrigido foi observado",
+    "Enter e Alt+A mantiveram dialogo aberto; foco observado permaneceu Caixa de Pesquisa"
+  ],
+  "immediateQuery": {
+    "text": "? ThisWorkbook.FullName",
+    "attempted": true,
+    "outputVerified": false,
+    "countsAsSuiteTest": false
+  },
+  "revisedImported": 0,
+  "realCompilations": 0,
+  "vbaSuiteExecutions": 0,
+  "fixtureDiskSHA256": "ff4f6b37d529e7404ae31bc65ceb1aeb3ba8f54aeb007b71c1e47c9bb9b9585d",
+  "fixtureDiskStillBaseline": true,
+  "status": "BLOQUEADO_CONTROLE_INTERFACE_CONFIRMACAO_MODAL",
+  "securityChanged": false,
+  "externalQueries": false,
+  "productionModified": false
+}

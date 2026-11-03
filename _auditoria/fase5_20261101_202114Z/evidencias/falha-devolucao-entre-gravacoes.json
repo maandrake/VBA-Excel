@@ -1,0 +1,11 @@
+{
+  "modality": "Execucao funcional VBA via MSForms CommandButton.Value=True; breakpoint nativo na segunda gravacao",
+  "firstDestination": "Saidas Filial A2=22001; Todas Saidas Filial A2 vazia antes da injecao (janela Imediata)",
+  "fault": "TextBox_Valor_EntradaFilial=ABC depois da primeira gravacao",
+  "message": "Erro 13: Tipos incompatíveis. Destinos restaurados em memoria antes de qualquer Delete.",
+  "firstSnapshotEqual": true,
+  "retrySnapshotEqual": true,
+  "cellsPerSnapshot": 7560,
+  "sourceDifferences": "Somente Attribute VB_Base gerado pelo VBE; corpo do evento preservado",
+  "limits": "Antes de Delete/Save; nenhuma garantia pos-estrutura"
+}

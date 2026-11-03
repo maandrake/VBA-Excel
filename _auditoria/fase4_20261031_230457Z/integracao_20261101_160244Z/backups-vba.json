@@ -1,0 +1,26 @@
+{
+  "mode": "Execução funcional VBA CriarBackupVersionado; validação independente do arquivo ZIP/CFB",
+  "backups": [
+    {
+      "file": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\Backup_Testes_F4\\Fixture_Auditoria_Fase4_20261101_134232_001\\Fixture_Auditoria_Fase4.xlsm",
+      "size": 1968022,
+      "sha256": "ac3c5bbacd1196bb89be2432326656a530b9fdd191721a35e2ce8da6208cfbe3",
+      "components": 55,
+      "hasMemorySentinel": true,
+      "hasAA2": true
+    },
+    {
+      "file": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase4_20261031_230457Z\\Backup_Testes_F4\\Fixture_Auditoria_Fase4_20261101_134242_001\\Fixture_Auditoria_Fase4.xlsm",
+      "size": 1968340,
+      "sha256": "4b84238748384e6dfee84da24810dfffb5ae142514d4dd7054f29c3735be545d",
+      "components": 55,
+      "hasMemorySentinel": true,
+      "hasAA2": true
+    }
+  ],
+  "sourceDiskUnchanged": true,
+  "previous": {
+    "sha256": "8565f4bdc1bc408b49b4dff91b5a33d770d73e4bfe8866a259a42d2a57c6fd62",
+    "mtime": "2026-11-01T16:35:36.371Z"
+  }
+}

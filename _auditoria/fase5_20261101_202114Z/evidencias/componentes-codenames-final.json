@@ -1,0 +1,195 @@
+{
+  "timestamp": "2026-11-01T21:31:58.037Z",
+  "method": "Compilacao VBA real pelo menu Depurar > Compilar apos importacao do modulo de teste; comando executado sem erro. Conferencia final por interface na base reaberta: Compilar VBAProject desabilitado.",
+  "sourceOfInterfaceEvidence": "Observacao direta da interface CUA; transcricao do operador automatizado, nao log emitido pelo compilador.",
+  "components": 56,
+  "sheets": [
+    "Menu Principal",
+    "Entradas",
+    "Transferidos",
+    "Entradas Anual",
+    "Demonstração",
+    "Saidas",
+    "Todas Saidas",
+    "Entradas Filial",
+    "Entradas Anual Filial",
+    "Saidas Filial",
+    "Todas Saidas Filial",
+    "Carros PF",
+    "Clientes",
+    "Veículos",
+    "Doc. para fora",
+    "NCM e CEST",
+    "Listas"
+  ],
+  "sha256": "f989289554a5c081cef8bd13de2e0b6f0e48ec4c1ba1dd5e75c349eff458f72c",
+  "baselineSHA256": "dcbd72e46e8b182a9810254bcce460ea2cb17260b4bcb47b622ddc3d4f9879a0",
+  "correction": "compilacao-inicial.json contem contagem obsoleta 57 anterior a conclusao da remocao/salvamento do modulo de teste duplicado modTestesIntegradosFase51. Registro preservado para rastreabilidade, NAO e inventario da entrega. Checkpoint duplicado NAO_USAR separado; entrega/cenarios conferidos em disco com 56 componentes.",
+  "semanticApplicationCodeChanged": false,
+  "serializationDiffs": [
+    {
+      "modulo": "modValidacaoXML",
+      "linhasOriginais": 2067,
+      "linhasNovas": 2067,
+      "diferencas": [
+        {
+          "linha": 53,
+          "antes": "        .SetProperty \"ProhibitDTD\", True",
+          "depois": "        .setProperty \"ProhibitDTD\", True"
+        },
+        {
+          "linha": 54,
+          "antes": "        .SetProperty \"SelectionLanguage\", \"XPath\"",
+          "depois": "        .setProperty \"SelectionLanguage\", \"XPath\""
+        }
+      ]
+    },
+    {
+      "modulo": "Cad_NCM",
+      "linhasOriginais": 282,
+      "linhasNovas": 282,
+      "diferencas": [
+        {
+          "linha": 2,
+          "antes": "Attribute VB_Base = \"0{66FF14F0-4C26-4A42-B7FB-00FFDE2CB067}{9114D6F6-CB07-4B18-87F0-9ECC839ED0A0}\"",
+          "depois": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\""
+        }
+      ]
+    },
+    {
+      "modulo": "Cad_NFE",
+      "linhasOriginais": 2568,
+      "linhasNovas": 2568,
+      "diferencas": [
+        {
+          "linha": 2,
+          "antes": "Attribute VB_Base = \"0{9AE009F1-88EE-447B-9B48-EBE776676353}{D8720C3B-83F5-44E8-86A6-2AA9A0D62027}\"",
+          "depois": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\""
+        },
+        {
+          "linha": 1311,
+          "antes": "    If xmlDoc.parseError.ErrorCode <> 0 Then",
+          "depois": "    If xmlDoc.parseError.errorCode <> 0 Then"
+        },
+        {
+          "linha": 1318,
+          "antes": "    xmlDoc.SetProperty \"SelectionNamespaces\", \"xmlns:ns='http://www.portalfiscal.inf.br/nfe'\"",
+          "depois": "    xmlDoc.setProperty \"SelectionNamespaces\", \"xmlns:ns='http://www.portalfiscal.inf.br/nfe'\""
+        }
+      ]
+    },
+    {
+      "modulo": "Cad_NFE_Saida",
+      "linhasOriginais": 2830,
+      "linhasNovas": 2830,
+      "diferencas": [
+        {
+          "linha": 2,
+          "antes": "Attribute VB_Base = \"0{794A5A96-9AEE-4A1A-8465-8A2F3BE37C74}{8D50838E-6749-46A2-873A-C3892539BF3B}\"",
+          "depois": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\""
+        }
+      ]
+    },
+    {
+      "modulo": "frmRelatorioXML",
+      "linhasOriginais": 229,
+      "linhasNovas": 229,
+      "diferencas": [
+        {
+          "linha": 2,
+          "antes": "Attribute VB_Base = \"0{05895738-2F46-4B5E-A4E1-1F9005826DAB}{3E0144A9-2836-4325-9B7E-00776EB15877}\"",
+          "depois": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\""
+        }
+      ]
+    },
+    {
+      "modulo": "UserFormFiltro",
+      "linhasOriginais": 148,
+      "linhasNovas": 148,
+      "diferencas": [
+        {
+          "linha": 2,
+          "antes": "Attribute VB_Base = \"0{568D07DE-2225-49BA-B20C-FD20A8A43C0A}{D8C80A1C-C658-4F4D-A639-089DA8079213}\"",
+          "depois": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\""
+        }
+      ]
+    }
+  ],
+  "securityChanged": false,
+  "componentTypes": {
+    "Module": 31,
+    "Class": 2,
+    "BaseClass": 5,
+    "Document": 18
+  },
+  "codeNames": [
+    {
+      "part": "xl/worksheets/sheet1.xml",
+      "codeName": "Planilha12"
+    },
+    {
+      "part": "xl/worksheets/sheet2.xml",
+      "codeName": "Planilha1"
+    },
+    {
+      "part": "xl/worksheets/sheet3.xml",
+      "codeName": "Planilha13"
+    },
+    {
+      "part": "xl/worksheets/sheet4.xml",
+      "codeName": "Planilha3"
+    },
+    {
+      "part": "xl/worksheets/sheet5.xml",
+      "codeName": "Planilha4"
+    },
+    {
+      "part": "xl/worksheets/sheet6.xml",
+      "codeName": "Planilha2"
+    },
+    {
+      "part": "xl/worksheets/sheet7.xml",
+      "codeName": "Planilha17"
+    },
+    {
+      "part": "xl/worksheets/sheet8.xml",
+      "codeName": "Planilha15"
+    },
+    {
+      "part": "xl/worksheets/sheet9.xml",
+      "codeName": "Planilha10"
+    },
+    {
+      "part": "xl/worksheets/sheet10.xml",
+      "codeName": "Planilha16"
+    },
+    {
+      "part": "xl/worksheets/sheet11.xml",
+      "codeName": "Planilha18"
+    },
+    {
+      "part": "xl/worksheets/sheet12.xml",
+      "codeName": "Planilha7"
+    },
+    {
+      "part": "xl/worksheets/sheet13.xml",
+      "codeName": "Planilha6"
+    },
+    {
+      "part": "xl/worksheets/sheet14.xml",
+      "codeName": "Planilha9"
+    },
+    {
+      "part": "xl/worksheets/sheet15.xml",
+      "codeName": "Planilha11"
+    },
+    {
+      "part": "xl/worksheets/sheet16.xml",
+      "codeName": "Planilha5"
+    },
+    {
+      "part": "xl/worksheets/sheet17.xml",
+      "codeName": "Planilha8"
+    }
+  ]
+}

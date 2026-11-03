@@ -1,0 +1,36 @@
+{
+  "modalidade": "Execução funcional VBA",
+  "compensacao": {
+    "caso": "T_FALHA_INTER",
+    "antesQuartoDestino": "Saidas A2=22001; Entradas Filial A7=22001; Entradas Anual Filial A7=22001; Todas Saidas A2 vazio. Observação transcrita da janela Imediata.",
+    "celulas": 7560,
+    "diferencas": 0
+  },
+  "duplicidade": {
+    "caso": "T_DUP_DESTINO",
+    "registros": [
+      {
+        "Planilha": "Entradas Filial",
+        "Celula": "A4",
+        "Tipo": "Double",
+        "Valor": "22001",
+        "Formula": "22001",
+        "NumberFormat": "General",
+        "Ignore": "Falso",
+        "Locked": "Verdadeiro",
+        "Protegida": "Falso"
+      },
+      {
+        "Planilha": "Entradas Filial",
+        "Celula": "A7",
+        "Tipo": "Double",
+        "Valor": "22001",
+        "Formula": "22001",
+        "NumberFormat": "General",
+        "Ignore": "Falso",
+        "Locked": "Verdadeiro",
+        "Protegida": "Falso"
+      }
+    ]
+  }
+}

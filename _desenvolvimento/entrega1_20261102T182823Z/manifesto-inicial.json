@@ -1,0 +1,63 @@
+{
+  "stamp": "20261102T182823Z",
+  "authorization": "P2-01 a P2-08 exclusivamente candidata sintetica; sem promocao",
+  "baseManifestSHA256": "be0051c3902e977af2a7aec59551f003102c5d8a16c90b0366125b5c2c8a19d8",
+  "checkedPrevious": 2795,
+  "mismatches": [],
+  "copies": [
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\entrega\\Fixture_Integridade_Fase10_EXPERIMENTAL_NAO_HOMOLOGADA.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\backup\\Fixture_F10_Referencia.xlsm",
+      "sha256": "7d1f119124e71a3314601e8c41475db22de9429010aa5424b1652d655b38b7e2"
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase10_20261102_155920Z\\entrega\\Fixture_Integridade_Fase10_EXPERIMENTAL_NAO_HOMOLOGADA.xlsm",
+      "destination": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega1_20261102T182823Z\\Estoque_Fera_Veiculos_Candidato_Integrado.xlsm",
+      "sha256": "7d1f119124e71a3314601e8c41475db22de9429010aa5424b1652d655b38b7e2"
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\AGENTS.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\backup\\AGENTS.md",
+      "sha256": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7"
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\.gitignore",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\backup\\.gitignore",
+      "sha256": "0e4ed863854d3ef23193ae90b3ccf7c939213a181faeee232c01fd34477e9af5"
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\HISTORICO_ALTERACOES.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\backup\\HISTORICO_ALTERACOES.md",
+      "sha256": "5c5a452aa5f3a2ed61c01dd4850019271884510d763708056f0f368a9818c93a"
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\RELATORIO_AUDITORIA.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\backup\\RELATORIO_AUDITORIA.md",
+      "sha256": "a62e6bab3651177fdba8fdf9f7cb7f1a3e04f1889f4673fd0b2a994cdfa1190b"
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\MAPA_PROJETO.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\backup\\MAPA_PROJETO.md",
+      "sha256": "88607328b41c56c20d6cb549aeedc92653f84df79c62ea99e76f3daa84312e00"
+    },
+    {
+      "source": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\TESTES_VBA.md",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega1_20261102T182823Z\\backup\\TESTES_VBA.md",
+      "sha256": "fb2fca6f787a95d0c4cc70142e34aab8f6b76be86a368d19db9f791f935f85bf"
+    }
+  ],
+  "read": [
+    "AGENTS.md",
+    "PACOTE_DECISAO_INTEGRACAO_FASE10.md",
+    "TESTES_RECUPERACAO_FASE10.md",
+    "MATRIZ_REGRESSAO_FASE10.md",
+    "CONTRATO_IDENTIDADE_FASE7.md",
+    "PLANO_MIGRACAO_REVERSIVEL_FASE7.md",
+    "RELATORIO_TECNICO_FASE10.md",
+    "RELATORIO_TESTES_INTEGRADOS_FASE5.md",
+    "MAPA_MIGRACAO_LEITORES_FASE7.md",
+    "RELATORIO_INTEGRACAO_FASE4.md",
+    "RELATORIO_TECNICO_FASE9.md",
+    "RELATORIO_TECNICO_FASE8.md"
+  ]
+}

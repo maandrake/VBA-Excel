@@ -1,0 +1,237 @@
+{
+  "timestamp": "2026-11-01T23:48:10.130Z",
+  "fixture": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase6_20261101_224949Z\\revisao3\\Fixture_Arquitetura_Fase6_MestreR3.xlsm",
+  "sha256": "81601410fa60250a2f2486a85db612359b020a2ff231d708701e7bb6d4628b74",
+  "components": 57,
+  "modality": "Compilacao real VBA no Editor nativo; Depurar > Compilar VBAProject desabilitado depois de compilar; salvo Ctrl+B e reaberto no Excel",
+  "sourceEquivalentIgnoringVbeSpacingRecasing": true,
+  "principalComponents": [
+    {
+      "module": "EstaPastaDeTrabalho",
+      "equal": true
+    },
+    {
+      "module": "Planilha12",
+      "equal": true
+    },
+    {
+      "module": "Planilha1",
+      "equal": true
+    },
+    {
+      "module": "Planilha13",
+      "equal": true
+    },
+    {
+      "module": "Planilha3",
+      "equal": true
+    },
+    {
+      "module": "Planilha4",
+      "equal": true
+    },
+    {
+      "module": "Planilha2",
+      "equal": true
+    },
+    {
+      "module": "Planilha17",
+      "equal": true
+    },
+    {
+      "module": "Planilha15",
+      "equal": true
+    },
+    {
+      "module": "Planilha10",
+      "equal": true
+    },
+    {
+      "module": "Planilha16",
+      "equal": true
+    },
+    {
+      "module": "Planilha18",
+      "equal": true
+    },
+    {
+      "module": "Planilha7",
+      "equal": true
+    },
+    {
+      "module": "Planilha6",
+      "equal": true
+    },
+    {
+      "module": "Planilha9",
+      "equal": true
+    },
+    {
+      "module": "Planilha11",
+      "equal": true
+    },
+    {
+      "module": "Planilha5",
+      "equal": true
+    },
+    {
+      "module": "Planilha8",
+      "equal": true
+    },
+    {
+      "module": "clsOperacaoPlanilha",
+      "equal": true
+    },
+    {
+      "module": "modIntegridadeOperacao",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarFiltro",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarTabCan",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarTabEnt",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarTabSai",
+      "equal": true
+    },
+    {
+      "module": "mdlCondCel",
+      "equal": true
+    },
+    {
+      "module": "mdlCopiar",
+      "equal": true
+    },
+    {
+      "module": "mdlCriaBackup",
+      "equal": true
+    },
+    {
+      "module": "mdlCursor",
+      "equal": true
+    },
+    {
+      "module": "mdlMacroConexão",
+      "equal": true
+    },
+    {
+      "module": "mdlMacroConexãoClientes",
+      "equal": true
+    },
+    {
+      "module": "mdlMacroDocFora",
+      "equal": true
+    },
+    {
+      "module": "mdlOcultarTítulo",
+      "equal": true
+    },
+    {
+      "module": "mdlTelaCheia",
+      "equal": true
+    },
+    {
+      "module": "modSeleniumCommon",
+      "equal": true
+    },
+    {
+      "module": "modSeleniumConsultaNFE",
+      "equal": true
+    },
+    {
+      "module": "modSeleniumRenavamConsulta",
+      "equal": true
+    },
+    {
+      "module": "modSelTest",
+      "equal": true
+    },
+    {
+      "module": "MóduloOfficeRibbonEditor",
+      "equal": true
+    },
+    {
+      "module": "MóduloPesquisa",
+      "equal": true
+    },
+    {
+      "module": "MóduloRemoveFechar",
+      "equal": true
+    },
+    {
+      "module": "modValidacaoXML",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarForm",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarFormDocFora",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarFormNCM",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarFormSaida",
+      "equal": true
+    },
+    {
+      "module": "mdlChamarFormVeículos",
+      "equal": true
+    },
+    {
+      "module": "modPreencherFormulario",
+      "equal": true
+    },
+    {
+      "module": "Cad_NCM",
+      "equal": true
+    },
+    {
+      "module": "Cad_NFE",
+      "equal": true
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "equal": true
+    },
+    {
+      "module": "frmRelatorioXML",
+      "equal": true
+    },
+    {
+      "module": "UserFormFiltro",
+      "equal": true
+    },
+    {
+      "module": "AuditoriaListaFake",
+      "equal": true
+    },
+    {
+      "module": "modTestesAuditoria",
+      "equal": true
+    },
+    {
+      "module": "modTestesFase2",
+      "equal": true
+    },
+    {
+      "module": "modTestesIntegradosFase5",
+      "equal": true
+    }
+  ],
+  "security": "Aviso Habilitar Macros aceito exclusivamente para o arquivo sintetico R3, apos revisao de seu fonte. Sem alterar Trust Center, AccessVBOM, Registro, ExecutionPolicy ou locais confiaveis.",
+  "scope": "R3 altera somente quatro chamadas explicitas da guarda e adiciona F6_TestarGuardas; nucleo experimental de negocio e diario igual a R2.",
+  "notice": "R2 teve bloqueio de ambiente 0x8000FFFF/memoria insuficiente; sessao nova Excel /x para R3. Nenhum encerramento forcado."
+}

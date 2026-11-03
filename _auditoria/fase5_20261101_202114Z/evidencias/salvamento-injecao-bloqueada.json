@@ -1,0 +1,8 @@
+{
+  "caso": "C_FALHA_SAVE",
+  "modalidade": "Preparação de teste de falha em evento VBA real",
+  "resultado": "BLOQUEADO",
+  "motivo": "EPERM: o Windows recusou renomear a pasta temporária C_FALHA_SAVE com o workbook aberto. Nenhuma configuração de segurança foi alterada. Não houve falha real de Save; o fluxo de cancelamento foi continuado e salvou normalmente.",
+  "checkpoint": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\backup\\Checkpoint_C_FALHA_SAVE_antes.xlsm",
+  "sha256": "7aaffd9f65ab2d0dc890cd09c0b3da050af29ad5a8d56893eb5586e56af2d74c"
+}

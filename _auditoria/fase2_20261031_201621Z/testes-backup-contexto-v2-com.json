@@ -1,0 +1,26 @@
+﻿{
+    "Timestamp":  "2026-10-31T17:39:58.0497455-03:00",
+    "Kind":  "Excel/MSXML/WScript COM equivalentes; nenhuma macro VBA executada",
+    "Tests":  [
+                  {
+                      "Name":  "Salvar proprietario com outra pasta ativa",
+                      "Pass":  true,
+                      "Details":  {
+                                      "SavedB":  false,
+                                      "SavedA":  true,
+                                      "Active":  "contexto_B.xlsx"
+                                  }
+                  },
+                  {
+                      "Name":  "Backup 1 tem pacote ZIP",
+                      "Pass":  true,
+                      "Details":  {
+                                      "Bytes":  9356
+                                  }
+                  }
+              ],
+    "TestRoot":  "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\VBA_Fase2_20261031_201621Z\\BackupContextoV2",
+    "AutomationSecurityObserved":  1,
+    "Error":  "Não é possível chamar um método em uma expressão de valor nulo.",
+    "ErrorDetail":  "Não é possível chamar um método em uma expressão de valor nulo."
+}

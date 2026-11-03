@@ -1,0 +1,59 @@
+{
+  "justification": "Revisao estatica encontrou ausencia de selo de conteudo, rechecagem de vinculos na repeticao concluida e gate de diario orfao/truncado. Alteracoes exclusivamente experimentais; nao sao correcao integrada ao produto.",
+  "replacements": [
+    {
+      "before": "\"Planilha\", \"LinhaDica\", \"Papel\")",
+      "after": "\"Planilha\", \"LinhaDica\", \"Papel\", \"SeloConteudo\")"
+    },
+    {
+      "before": ".Cells(l, 7).Value2 = r: .Cells(l, 8).Value2 = papel",
+      "after": ".Cells(l, 7).Value2 = r: .Cells(l, 8).Value2 = papel\n        .Cells(l, 9).Value2 = SeloConteudo6(sh, r)"
+    },
+    {
+      "before": "Resize(UBound(nomes) + 1, 8)",
+      "after": "Resize(UBound(nomes) + 1, 9)"
+    },
+    {
+      "before": "    ResolverOrigem = True",
+      "after": "    If Not VinculosConferem6(ep) Then Exit Function\n    ResolverOrigem = True"
+    },
+    {
+      "before": "    ro = Unica(WS(\"_F6_Operacoes\"), 1, op)",
+      "after": "    If Not DiarioCoerente6() Then RodarOperacao = \"CONCILIAR_DIARIO\": Exit Function\n    ro = Unica(WS(\"_F6_Operacoes\"), 1, op)"
+    },
+    {
+      "before": "        If estado = \"CONCLUIDA\" Then RodarOperacao = \"JA_CONCLUIDA\": Exit Function",
+      "after": "        If estado = \"CONCLUIDA\" Then\n            If Not VinculosConferem6(ep) Then\n                WS(\"_F6_Operacoes\").Cells(ro, 5).Value2 = \"PENDENTE_CONCILIACAO\"\n                Diario op, CStr(WS(\"_F6_Operacoes\").Cells(ro, 7).Value2), \"DIVERGENCIA_POS_CONCLUSAO\", \"PENDENTE_CONCILIACAO\"\n                RodarOperacao = \"CONCILIAR\": Exit Function\n            End If\n            RodarOperacao = \"JA_CONCLUIDA\": Exit Function\n        End If"
+    },
+    {
+      "before": " & CStr(erro)\n    t.Close",
+      "after": " & CStr(erro) & vbTab & CStr(WS(\"_F6_Operacoes\").Cells(Unica(WS(\"_F6_Operacoes\"), 1, op), 3).Value2)\n    t.Close"
+    },
+    {
+      "before": "\"C_REORDENACAO\", \"C_CANCELADO\")",
+      "after": "\"C_REORDENACAO\", \"C_CANCELADO\", \"C_LEITOR_LEGADO\", \"C_POSHIST_MUTACAO\", \"C_MUTACAO_ORIGEM\", \"C_DIARIO_ORFAO\", \"C_DIARIO_TRUNCADO\", \"C_VERSAO_OBSOLETA\")"
+    },
+    {
+      "before": "Dim r As Long, i As Long, qtd As Long, pid As String, vid As String, novo As String, a As Variant, b As Variant, sh As Worksheet, linha As Long",
+      "after": "Dim r As Long, i As Long, qtd As Long, pid As String, vid As String, novo As String, a As Variant, b As Variant, sh As Worksheet, linha As Long\n    Dim lista As AuditoriaListaFake, arqTeste As Object"
+    },
+    {
+      "before": "    Exportar \"antes\": ThisWorkbook.Save",
+      "after": "    If caso = \"C_MUTACAO_ORIGEM\" Then WS(\"Entradas\").Range(\"I4\").Value2 = 1234\n    If caso = \"C_DIARIO_ORFAO\" Or caso = \"C_DIARIO_TRUNCADO\" Then\n        Set arqTeste = FSO.CreateTextFile(ThisWorkbook.Path & \"\\diario-operacoes.tsv\", False, True)\n        If caso = \"C_DIARIO_ORFAO\" Then arqTeste.WriteLine \"1\" & vbTab & NovaID() & vbTab & \"TENTATIVA_SINTETICA\" & vbTab & \"PREPARADA\" & vbTab & \"PREPARADA\" & vbTab & \"0\" & vbTab & gEpM Else arqTeste.WriteLine \"REGISTRO_TRUNCADO\"\n        arqTeste.Close\n    End If\n    If caso = \"C_VERSAO_OBSOLETA\" Then tipo = \"Transferencia\"\n    Exportar \"antes\": ThisWorkbook.Save"
+    },
+    {
+      "before": "    If caso = \"C_PROJECAO_DUPLICADA\" Then\n        Teste",
+      "after": "    If caso = \"C_DIARIO_ORFAO\" Or caso = \"C_DIARIO_TRUNCADO\" Then\n        Teste \"Diario_incoerente_bloqueado\", resultado = \"CONCILIAR_DIARIO\" And antes = AssinaturaDados(), \"CONCILIAR_DIARIO sem escrita\", resultado\n        GoTo Encerrar\n    End If\n    If caso = \"C_MUTACAO_ORIGEM\" Then\n        Teste \"Mutacao_origem_detectada\", resultado = \"RECUSADA_IDENTIDADE\" And antes = AssinaturaDados(), \"RECUSADA_IDENTIDADE sem escrita\", resultado\n        GoTo Encerrar\n    End If\n    If caso = \"C_PROJECAO_DUPLICADA\" Then\n        Teste"
+    },
+    {
+      "before": "        If caso = \"C_CANCELADO\" Then Teste",
+      "after": "        If caso = \"C_POSHIST_MUTACAO\" Then\n            WS(\"Todas Saidas\").Range(\"F2\").Value2 = \"FIC6ERR\"\n            antes = AssinaturaDados()\n            resultado = RodarOperacao(\"C\", tipo, ep, gOp, \"\", 22001, chaveNF)\n            Teste \"Mutacao_historico_detectada\", resultado = \"CONCILIAR\" And antes = AssinaturaDados(), \"CONCILIAR sem nova escrita\", resultado\n        End If\n        If caso = \"C_VERSAO_OBSOLETA\" Then\n            antes = AssinaturaDados()\n            resultado = RodarOperacao(\"C\", \"Devolucao\", ep, NovaID(), \"\", 22001, CHAVE, 1)\n            Teste \"Versao_obsoleta_recusada\", resultado = \"RECUSADA_VERSAO\" And antes = AssinaturaDados(), \"RECUSADA_VERSAO sem escrita\", resultado\n        End If\n        If caso = \"C_LEITOR_LEGADO\" Then\n            Set lista = New AuditoriaListaFake\n            PesquisarEntradasRapido \"FIC6A01\", lista\n            Teste \"Pesquisa_produto_exclui_baixado\", lista.ListCount = 0, \"zero resultados ativos para A encerrado\", CStr(lista.ListCount)\n            Teste \"Total_fisico_equivale_a_ativo\", Application.CountIf(WS(\"Entradas\").Range(\"A4:A40\"), \">0\") = Ativos(\"MATRIZ\"), \"somente dois ativos matriz\", CStr(Application.CountIf(WS(\"Entradas\").Range(\"A4:A40\"), \">0\"))\n            vid = CStr(WS(\"_F6_Episodios\").Cells(Unica(WS(\"_F6_Episodios\"), 1, gEpM), 2).Value2)\n            novo = CriarEpisodio(\"MATRIZ\", 8, \"FIC6A01\", 11001, vid, gEpM)\n            WS(\"Entradas Anual\").Range(\"P8\").Formula = \"=IF(COUNTIF('Todas Saidas'!$F$2:$F$40,F8)>0,\"\"SIM\"\",\"\"NAO\"\")\"\n            Application.Calculate\n            Teste \"Formula_placa_nao_confunde_reentrada\", WS(\"Entradas Anual\").Range(\"P8\").Value2 = \"NAO\", \"NAO: episodio novo nao vendido\", Limpo(WS(\"Entradas Anual\").Range(\"P8\").Value2)\n        End If\n        If caso = \"C_CANCELADO\" Then Teste"
+    }
+  ],
+  "addedHelpers": [
+    "SeloConteudo6",
+    "VinculosConferem6",
+    "DiarioCoerente6"
+  ],
+  "sourceSHA": "661f0f6f778d655f90944191bf1f266cd8c5b585cddeedd73220574dfc4b42eb"
+}

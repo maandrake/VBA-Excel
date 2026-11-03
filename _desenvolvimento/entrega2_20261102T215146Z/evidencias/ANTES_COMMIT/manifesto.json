@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\evidencias\\ANTES_COMMIT\\Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+      "sha256": "5af8340d6375216cf716beb9d9d48f012af8544eea1f483ebf21a6f1d2fbbcd2"
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\evidencias\\ANTES_COMMIT\\Banco_Candidato_Operacoes_Corrigidas.accdb",
+      "sha256": "51a5a61705d8dc117ec10444d12d42ec82ad63af83e604834029fc257263d8f7"
+    },
+    {
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_20261102T215146Z\\resultados_entrega2.tsv",
+      "destination": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_desenvolvimento\\entrega2_20261102T215146Z\\evidencias\\ANTES_COMMIT\\resultados_entrega2.tsv",
+      "sha256": "71c85199c5c33f576a8d7f55b32245c4951e5825e0f08288a1093926c5c4bc8a"
+    }
+  ],
+  "scope": "Rollback dos fatos comprovado; intencao mantida; reset somente de copia sintetica sem commits posteriores"
+}

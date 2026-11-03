@@ -1,0 +1,18 @@
+﻿{
+    "Timestamp":  "2026-10-31T19:04:46.0069438-03:00",
+    "Modality":  "COM equivalente; verificacao de metadado Errors.Item(3), associado a numero como texto pela celula sintetica",
+    "Results":  [
+                    {
+                        "AfterCurrentCompensation":  false,
+                        "InitialIgnore":  false,
+                        "KeyLength":  44,
+                        "CellErrorCheckValue":  true
+                    },
+                    {
+                        "AfterCurrentCompensation":  false,
+                        "InitialIgnore":  true,
+                        "KeyLength":  44,
+                        "CellErrorCheckValue":  true
+                    }
+                ]
+}

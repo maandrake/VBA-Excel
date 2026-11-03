@@ -1,0 +1,12 @@
+{
+  "classification": "BLOQUEADO",
+  "modality": "Execucao de script auxiliar PowerShell, nao teste VBA",
+  "command": "& .\\_auditoria\\fase8_20261102_121422Z\\scripts\\Verificar-Fase8.ps1",
+  "exitCode": 1,
+  "error": "O arquivo nao pode ser carregado porque a execucao de scripts foi desabilitada neste sistema.",
+  "category": "PSSecurityException",
+  "fullyQualifiedErrorId": "UnauthorizedAccess",
+  "securityChanged": false,
+  "bypassUsed": false,
+  "alternative": "Conferencia SHA256 independente em Node, sem executar/converter o script PowerShell."
+}

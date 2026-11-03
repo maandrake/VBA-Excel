@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-01T23:02:14.682Z",
+  "method": "VBE: importacao de um modulo; Depurar > Compilar executado; erro local reservado corrigido apenas no prototipo; nova compilacao sem erro; menu Compilar desabilitado apos salvar",
+  "modality": "Compilacao real VBA por interface; transcricao de observacao",
+  "components": 56,
+  "sha256": "f989289554a5c081cef8bd13de2e0b6f0e48ec4c1ba1dd5e75c349eff458f72c",
+  "referenceUnchanged": true,
+  "macroEnable": "Confirmacao do aviso de execucao somente para a fixture sintetica autorizada; nenhuma politica, Trust Center ou AccessVBOM alterado"
+}

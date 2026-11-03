@@ -1,0 +1,11 @@
+﻿{
+    "ID":  "F9_PROCESSO_SEGUNDO",
+    "PID":  26732,
+    "ExcelPID":  45652,
+    "Modalidade":  "COM ADO em processo PowerShell concorrente com sessao VBA aberta",
+    "OwnerObserved":  "C216A4D0-3242-4EF4-B459-C55CF483C1D5",
+    "FenceObserved":  1,
+    "Affected":  0,
+    "Resultado":  "PASS",
+    "Tratamento":  "RECUSADO"
+}

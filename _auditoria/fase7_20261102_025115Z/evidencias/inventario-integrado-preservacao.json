@@ -1,0 +1,273 @@
+{
+  "timestamp": "2026-11-02T03:17:28.798Z",
+  "componentsActual": 58,
+  "inherited": [
+    {
+      "module": "EstaPastaDeTrabalho",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha12",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha1",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha13",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha3",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha4",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha2",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha17",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha15",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha10",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha16",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha18",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha7",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha6",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha9",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha11",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha5",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Planilha8",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "clsOperacaoPlanilha",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "modIntegridadeOperacao",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlChamarFiltro",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlChamarTabCan",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlChamarTabEnt",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlChamarTabSai",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlCondCel",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlCopiar",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlCriaBackup",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlCursor",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlMacroConexão",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlMacroConexãoClientes",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlMacroDocFora",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlOcultarTítulo",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlTelaCheia",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "modSeleniumCommon",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "modSeleniumConsultaNFE",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "modSeleniumRenavamConsulta",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "modSelTest",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "MóduloOfficeRibbonEditor",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "MóduloPesquisa",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "MóduloRemoveFechar",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "modValidacaoXML",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlChamarForm",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlChamarFormDocFora",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlChamarFormNCM",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlChamarFormSaida",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "mdlChamarFormVeículos",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "modPreencherFormulario",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Cad_NCM",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Cad_NFE",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "frmRelatorioXML",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "UserFormFiltro",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "AuditoriaListaFake",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "modTestesAuditoria",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "modTestesFase2",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "modTestesIntegradosFase5",
+      "unchangedCanonical": true
+    },
+    {
+      "module": "modPrototiposFase6",
+      "unchangedCanonical": true
+    }
+  ],
+  "sevenDeletes": [
+    {
+      "module": "Cad_NFE",
+      "line": 140,
+      "text": "Selection.Delete Shift:=xlUp"
+    },
+    {
+      "module": "Cad_NFE",
+      "line": 211,
+      "text": "c.Resize(1, 13).Delete Shift:=xlUp"
+    },
+    {
+      "module": "Cad_NFE",
+      "line": 217,
+      "text": "cAnual.Resize(1, 16).Delete Shift:=xlUp"
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "line": 60,
+      "text": "Selection.EntireRow.Delete"
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "line": 264,
+      "text": "c.Resize(1, 13).Delete Shift:=xlUp"
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "line": 494,
+      "text": "Selection.EntireRow.Delete"
+    },
+    {
+      "module": "Cad_NFE_Saida",
+      "line": 890,
+      "text": "c.Resize(1, 14).Delete Shift:=xlUp"
+    }
+  ],
+  "originalReferenceSHA": "7f0f41f7336ebae8f7cfea2b698335be4ef346e78743cde34d899299dd848de1",
+  "masterSHA": "c7858e3682403f719784db4f817dcd7810ee1ff617fb6c3a7d647d8050d16b1a"
+}

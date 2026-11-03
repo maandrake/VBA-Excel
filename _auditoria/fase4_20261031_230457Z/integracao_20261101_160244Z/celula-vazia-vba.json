@@ -1,0 +1,17 @@
+{
+  "mode": "Execução funcional VBA na janela Imediata",
+  "status": "PASS",
+  "precondition": "IsEmpty(Saidas!A30)=True",
+  "mutation": "TEMP_FICTICIO",
+  "firstAttempt": {
+    "status": "FAIL da chamada experimental",
+    "error": 13,
+    "message": "Tipos incompatíveis",
+    "cause": "Variável implícita Variant passada ao parâmetro ByRef String na chamada pela janela Imediata"
+  },
+  "retry": "Recuperar(CStr(\"\"))",
+  "output": "REC_VAZIA=Verdadeiro EMPTY=Verdadeiro",
+  "finalized": true,
+  "finalApplication": "ESTADO_FINAL=VerdadeiroVerdadeiroVerdadeiro-4105",
+  "scope": "Prova de regressão C4-04 de valor Empty; fora da contagem 397 das suítes, sem alteração de fonte"
+}

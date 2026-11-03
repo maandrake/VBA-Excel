@@ -1,0 +1,78 @@
+﻿{
+    "Cases":  [
+                  {
+                      "Before":  {
+                                     "Value":  null,
+                                     "Formula":  "",
+                                     "HasFormula":  false,
+                                     "Format":  "Geral",
+                                     "Ignore":  false
+                                 },
+                      "Case":  "Vazio",
+                      "Status":  "PASS",
+                      "After":  {
+                                    "Value":  null,
+                                    "Formula":  "",
+                                    "HasFormula":  false,
+                                    "Format":  "Geral",
+                                    "Ignore":  false
+                                }
+                  },
+                  {
+                      "Before":  {
+                                     "Value":  3,
+                                     "Formula":  "=1+2",
+                                     "HasFormula":  true,
+                                     "Format":  "Geral",
+                                     "Ignore":  false
+                                 },
+                      "Case":  "Formula",
+                      "Status":  "PASS",
+                      "After":  {
+                                    "Value":  3,
+                                    "Formula":  "=1+2",
+                                    "HasFormula":  true,
+                                    "Format":  "Geral",
+                                    "Ignore":  false
+                                }
+                  },
+                  {
+                      "Before":  {
+                                     "Value":  "=TEXTO_FICTICIO",
+                                     "Formula":  "=TEXTO_FICTICIO",
+                                     "HasFormula":  false,
+                                     "Format":  "@",
+                                     "Ignore":  false
+                                 },
+                      "Case":  "Texto",
+                      "Status":  "PASS",
+                      "After":  {
+                                    "Value":  "=TEXTO_FICTICIO",
+                                    "Formula":  "=TEXTO_FICTICIO",
+                                    "HasFormula":  false,
+                                    "Format":  "@",
+                                    "Ignore":  false
+                                }
+                  },
+                  {
+                      "Before":  {
+                                     "Value":  "00000000000000000000000000000000000000000001",
+                                     "Formula":  "00000000000000000000000000000000000000000001",
+                                     "HasFormula":  false,
+                                     "Format":  "@",
+                                     "Ignore":  true
+                                 },
+                      "Case":  "Chave",
+                      "Status":  "PASS",
+                      "After":  {
+                                    "Value":  "00000000000000000000000000000000000000000001",
+                                    "Formula":  "00000000000000000000000000000000000000000001",
+                                    "HasFormula":  false,
+                                    "Format":  "@",
+                                    "Ignore":  true
+                                }
+                  }
+              ],
+    "Timestamp":  "2026-10-31T19:06:08.8224602-03:00",
+    "Modality":  "COM equivalente do snapshot corrigido com metadado; nao executa classe VBA"
+}

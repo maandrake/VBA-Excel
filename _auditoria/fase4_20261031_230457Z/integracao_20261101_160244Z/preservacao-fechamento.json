@@ -1,0 +1,2791 @@
+{
+  "timestamp": "2026-11-01T17:58:21.583Z",
+  "files": [
+    {
+      "group": "original",
+      "relative": "Excel\\Estoque Fera Veículos 2026.xlsm",
+      "expected": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "actual": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "Form\\Cad_NCM.frm",
+      "expected": "c5aa276b7e1ad1da01a0d54a9faceb93c095d480806e83813db02b1a981c78a9",
+      "actual": "c5aa276b7e1ad1da01a0d54a9faceb93c095d480806e83813db02b1a981c78a9",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "Form\\Cad_NCM.frx",
+      "expected": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "actual": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "Form\\Cad_NFE.frm",
+      "expected": "7c36590ff7e7f513e8396564e80d991f1ceb33602c16a07deba13598270176ee",
+      "actual": "7c36590ff7e7f513e8396564e80d991f1ceb33602c16a07deba13598270176ee",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "Form\\Cad_NFE.frx",
+      "expected": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "actual": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "Form\\Cad_NFE_Saida.frm",
+      "expected": "b3262a8af0a8c97342daa50cb1bca03b3cb23b5cf387f9abd3973697fa14ad32",
+      "actual": "b3262a8af0a8c97342daa50cb1bca03b3cb23b5cf387f9abd3973697fa14ad32",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "Form\\Cad_NFE_Saida.frx",
+      "expected": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "actual": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "Form\\frmRelatorioXML.frm",
+      "expected": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "actual": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "Form\\frmRelatorioXML.frx",
+      "expected": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "actual": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "Form\\UserFormFiltro.frm",
+      "expected": "72104ed848f1c883a7ba8cfe1fbf0e3580877dca42a93750350db28fbce912c5",
+      "actual": "72104ed848f1c883a7ba8cfe1fbf0e3580877dca42a93750350db28fbce912c5",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "Form\\UserFormFiltro.frx",
+      "expected": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "actual": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlChamarFiltro.bas",
+      "expected": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "actual": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlChamarForm.bas",
+      "expected": "f1a50ae2170e8d91fe64d7eff748009a86afb13deb5f4f0afc12a4e4f905aa36",
+      "actual": "f1a50ae2170e8d91fe64d7eff748009a86afb13deb5f4f0afc12a4e4f905aa36",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlChamarFormDocFora.bas",
+      "expected": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "actual": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlChamarFormNCM.bas",
+      "expected": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "actual": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlChamarFormSaida.bas",
+      "expected": "738e72244780dbf0342c18d9688f0bf929dc8d609e1b4788dabc2aaf7d2cd403",
+      "actual": "738e72244780dbf0342c18d9688f0bf929dc8d609e1b4788dabc2aaf7d2cd403",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlChamarFormVeículos.bas",
+      "expected": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "actual": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlChamarTabCan.bas",
+      "expected": "c476162d14a48d47b27abf29fcb1a265be1146cabf770e1b7ba5baa6845215ed",
+      "actual": "c476162d14a48d47b27abf29fcb1a265be1146cabf770e1b7ba5baa6845215ed",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlChamarTabEnt.bas",
+      "expected": "6aa6e174c4eaeedeebb8054ba5f989f27b679e4cd9d716554d7209cb05be27ed",
+      "actual": "6aa6e174c4eaeedeebb8054ba5f989f27b679e4cd9d716554d7209cb05be27ed",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlChamarTabSai.bas",
+      "expected": "8ecd5f302438f49849bf0ede7bc5be6fcc62792f8ca845a9d155b70daed19f3d",
+      "actual": "8ecd5f302438f49849bf0ede7bc5be6fcc62792f8ca845a9d155b70daed19f3d",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlCondCel.bas",
+      "expected": "eb898b196b26f6360615cf503030c2b20eb8d345e277550e07df46ede111f60c",
+      "actual": "eb898b196b26f6360615cf503030c2b20eb8d345e277550e07df46ede111f60c",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlCopiar.bas",
+      "expected": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "actual": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlCriaBackup.bas",
+      "expected": "8477beee7a2be221e2daf6ba6b8a805412fecf638f67e38f5a7654aa052148ff",
+      "actual": "8477beee7a2be221e2daf6ba6b8a805412fecf638f67e38f5a7654aa052148ff",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlCursor.bas",
+      "expected": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "actual": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlMacroConexão.bas",
+      "expected": "38ef9f12fac5df53037a3e0fef4d5039c0c87c939dbd20667e2cf6bc890cd405",
+      "actual": "38ef9f12fac5df53037a3e0fef4d5039c0c87c939dbd20667e2cf6bc890cd405",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlMacroConexãoClientes.bas",
+      "expected": "0933295f65ca204d94633c1b6bf640299e18f0d04b033f2044c0f013bf2643e7",
+      "actual": "0933295f65ca204d94633c1b6bf640299e18f0d04b033f2044c0f013bf2643e7",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlMacroDocFora.bas",
+      "expected": "2675a05d8126ec68039565153e67bd3e51afad76e885e540cd09df5fd4676f01",
+      "actual": "2675a05d8126ec68039565153e67bd3e51afad76e885e540cd09df5fd4676f01",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlOcultarTítulo.bas",
+      "expected": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "actual": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\mdlTelaCheia.bas",
+      "expected": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "actual": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\modPreencherFormulario.bas",
+      "expected": "716b2d1388e29aee6e2f71aea45e68ae65641b3b00c7f59463151a860a97179f",
+      "actual": "716b2d1388e29aee6e2f71aea45e68ae65641b3b00c7f59463151a860a97179f",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\modSeleniumCommon.bas",
+      "expected": "f38c55ae5cf11320a7864286b706094cfd7686f6d01669519aafe67d974091b2",
+      "actual": "f38c55ae5cf11320a7864286b706094cfd7686f6d01669519aafe67d974091b2",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\modSeleniumConsultaNFE.bas",
+      "expected": "a6b6045c0179684ee54fb30ff7c0340917e7ca0736e5f9249fb78808193cdbf2",
+      "actual": "a6b6045c0179684ee54fb30ff7c0340917e7ca0736e5f9249fb78808193cdbf2",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\modSeleniumRenavamConsulta.bas",
+      "expected": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "actual": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\modSelTest.bas",
+      "expected": "1bd9a034503af0479bed5f7fd38fea83e5a2b693459c2e731de98ccf50e2b3a0",
+      "actual": "1bd9a034503af0479bed5f7fd38fea83e5a2b693459c2e731de98ccf50e2b3a0",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\modValidacaoXML.bas",
+      "expected": "8b79d34333a47ba1b5fe98f3641d79eb7075127b9967d7072e3041e94b4c3548",
+      "actual": "8b79d34333a47ba1b5fe98f3641d79eb7075127b9967d7072e3041e94b4c3548",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\MóduloOfficeRibbonEditor.bas",
+      "expected": "2d8aed2ec79ba3e825e782c2391d08f112d0d98b48475d0a7a02ab4ae97a2ed4",
+      "actual": "2d8aed2ec79ba3e825e782c2391d08f112d0d98b48475d0a7a02ab4ae97a2ed4",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\MóduloPesquisa.bas",
+      "expected": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "actual": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "MDL\\MóduloRemoveFechar.bas",
+      "expected": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "actual": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "pass": true
+    },
+    {
+      "group": "original",
+      "relative": "README.md",
+      "expected": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "actual": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "a08-estrategias-com.json",
+      "expected": "451ec45149d09d3f13c1a6ace61e2fe3549d5abbacbeea262626c0e0384c880a",
+      "actual": "451ec45149d09d3f13c1a6ace61e2fe3549d5abbacbeea262626c0e0384c880a",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "a09-fronteiras-com.json",
+      "expected": "c509150e2fbd341c5c3aa556eb3f0f12b26136f0a735542246dd367883311f4f",
+      "actual": "c509150e2fbd341c5c3aa556eb3f0f12b26136f0a735542246dd367883311f4f",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "a09-metadado-corrigido-com.json",
+      "expected": "7f4ef27b0d5ccab8218dd3dc594eb7abf3d8d1357e5f33760acccd7f2071efce",
+      "actual": "7f4ef27b0d5ccab8218dd3dc594eb7abf3d8d1357e5f33760acccd7f2071efce",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "a09-metadado-ignore-com.json",
+      "expected": "d53a3d213fcd92d8b83eea1338e50881af5e97632d3040832177ca4448362a35",
+      "actual": "d53a3d213fcd92d8b83eea1338e50881af5e97632d3040832177ca4448362a35",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "alteracoes-fase3.json",
+      "expected": "61313146ae7029a8c6f6bf672d8619221e2bd099020d163fb221bfea420d864b",
+      "actual": "61313146ae7029a8c6f6bf672d8619221e2bd099020d163fb221bfea420d864b",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/Excel/Estoque Fera Veículos 2026.xlsm",
+      "expected": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "actual": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/Form/Cad_NCM.frm",
+      "expected": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027",
+      "actual": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/Form/Cad_NCM.frx",
+      "expected": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "actual": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/Form/Cad_NFE.frm",
+      "expected": "81b0ea767b26af67d0addff843b7f3dee412e359fc288c0fa1a6ef675f83f83f",
+      "actual": "81b0ea767b26af67d0addff843b7f3dee412e359fc288c0fa1a6ef675f83f83f",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/Form/Cad_NFE.frx",
+      "expected": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "actual": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/Form/Cad_NFE_Saida.frm",
+      "expected": "495af9524850ba0b25031263ca0022c92313e7289da4ea42df5e17782b0bc726",
+      "actual": "495af9524850ba0b25031263ca0022c92313e7289da4ea42df5e17782b0bc726",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/Form/Cad_NFE_Saida.frx",
+      "expected": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "actual": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/Form/frmRelatorioXML.frm",
+      "expected": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "actual": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/Form/frmRelatorioXML.frx",
+      "expected": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "actual": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/Form/UserFormFiltro.frm",
+      "expected": "5b4786291a713de25452dd4ac4446c03a70db09b418d29b00dd57af311df1eb1",
+      "actual": "5b4786291a713de25452dd4ac4446c03a70db09b418d29b00dd57af311df1eb1",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/Form/UserFormFiltro.frx",
+      "expected": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "actual": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/LEIA_ANTES_DE_USAR.md",
+      "expected": "a8daa59a42c65d824c2d9255ad8bd637f66a4616684854f6164df901100c9a96",
+      "actual": "a8daa59a42c65d824c2d9255ad8bd637f66a4616684854f6164df901100c9a96",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/clsOperacaoPlanilha.cls",
+      "expected": "cddcfd577bd41f2c04a8bd279a566607df742b8398253ae5dd33d4ed7f3eded9",
+      "actual": "cddcfd577bd41f2c04a8bd279a566607df742b8398253ae5dd33d4ed7f3eded9",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlChamarFiltro.bas",
+      "expected": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "actual": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlChamarForm.bas",
+      "expected": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1",
+      "actual": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlChamarFormDocFora.bas",
+      "expected": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "actual": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlChamarFormNCM.bas",
+      "expected": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "actual": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlChamarFormSaida.bas",
+      "expected": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea",
+      "actual": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlChamarFormVeículos.bas",
+      "expected": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "actual": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlChamarTabCan.bas",
+      "expected": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+      "actual": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlChamarTabEnt.bas",
+      "expected": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+      "actual": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlChamarTabSai.bas",
+      "expected": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+      "actual": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlCondCel.bas",
+      "expected": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88",
+      "actual": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlCopiar.bas",
+      "expected": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "actual": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlCriaBackup.bas",
+      "expected": "252d5c896167a78649855a4480cf8b353315b834350ac19653789682958bd87e",
+      "actual": "252d5c896167a78649855a4480cf8b353315b834350ac19653789682958bd87e",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlCursor.bas",
+      "expected": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "actual": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlMacroConexão.bas",
+      "expected": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+      "actual": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlMacroConexãoClientes.bas",
+      "expected": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+      "actual": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlMacroDocFora.bas",
+      "expected": "efb80d365c274f0de6991f4110fe96f5f2017caffaeec0b94f07d0882e8838bc",
+      "actual": "efb80d365c274f0de6991f4110fe96f5f2017caffaeec0b94f07d0882e8838bc",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlOcultarTítulo.bas",
+      "expected": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "actual": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/mdlTelaCheia.bas",
+      "expected": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "actual": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/modIntegridadeOperacao.bas",
+      "expected": "3591b877a4b21a959ba5e77a7475e970aea8a8cbd1ea9a956bdd6ffc3c4d2d3f",
+      "actual": "3591b877a4b21a959ba5e77a7475e970aea8a8cbd1ea9a956bdd6ffc3c4d2d3f",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/modPreencherFormulario.bas",
+      "expected": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742",
+      "actual": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/modSeleniumCommon.bas",
+      "expected": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+      "actual": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/modSeleniumConsultaNFE.bas",
+      "expected": "1519876036a17fa65ea9407eff4b8b78aec9f7b1dc749fc5f5d77fba8fac35c1",
+      "actual": "1519876036a17fa65ea9407eff4b8b78aec9f7b1dc749fc5f5d77fba8fac35c1",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/modSeleniumRenavamConsulta.bas",
+      "expected": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "actual": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/modSelTest.bas",
+      "expected": "da8ccd8a4bf91350b1250b1b79602ee18ceabca03da7bafa3a694e1e17539ba5",
+      "actual": "da8ccd8a4bf91350b1250b1b79602ee18ceabca03da7bafa3a694e1e17539ba5",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/modValidacaoXML.bas",
+      "expected": "a9b10bc5d7a6dea0dd2bb854439147610aeaa5c16ff49bae325285d8fc37c264",
+      "actual": "a9b10bc5d7a6dea0dd2bb854439147610aeaa5c16ff49bae325285d8fc37c264",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/MóduloOfficeRibbonEditor.bas",
+      "expected": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2",
+      "actual": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/MóduloPesquisa.bas",
+      "expected": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "actual": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/MDL/MóduloRemoveFechar.bas",
+      "expected": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "actual": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/desenvolvimento/README.md",
+      "expected": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "actual": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/documentacao/AGENTS.md",
+      "expected": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7",
+      "actual": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/documentacao/COMPILACAO_MANUAL_FASE2.md",
+      "expected": "c6c1d888965114dfa9f2d44a46a4aad4e50c543dbadfbd7984effb37dd004fdd",
+      "actual": "c6c1d888965114dfa9f2d44a46a4aad4e50c543dbadfbd7984effb37dd004fdd",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/documentacao/HISTORICO_ALTERACOES.md",
+      "expected": "8983e2d40fc852e04aa2d44df8735f8bc5b4912ba2bff0817bbb9b79e49b6372",
+      "actual": "8983e2d40fc852e04aa2d44df8735f8bc5b4912ba2bff0817bbb9b79e49b6372",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/documentacao/MAPA_PROJETO.md",
+      "expected": "075152b94f9d8e333eef846bffae788eeb62266e3b0b7c82c4949e38cdd89559",
+      "actual": "075152b94f9d8e333eef846bffae788eeb62266e3b0b7c82c4949e38cdd89559",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/documentacao/PLANO_CORRECAO_FASE2.md",
+      "expected": "8e05cd97a52279fe80a48a3c65471cbd17dbc49a5038c094538e2a875739813f",
+      "actual": "8e05cd97a52279fe80a48a3c65471cbd17dbc49a5038c094538e2a875739813f",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/documentacao/README.md",
+      "expected": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "actual": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/documentacao/RELATORIO_AUDITORIA.md",
+      "expected": "a81a51c8cd5fcbd98f2ec9031413e09107453903edc759306cbeb3aff3ff2259",
+      "actual": "a81a51c8cd5fcbd98f2ec9031413e09107453903edc759306cbeb3aff3ff2259",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/documentacao/TESTES_VBA.md",
+      "expected": "45e7e882e126cf37fbc0aea8dac1d82e7404e244bfb8819f0e2089bef9163df7",
+      "actual": "45e7e882e126cf37fbc0aea8dac1d82e7404e244bfb8819f0e2089bef9163df7",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/auditar-vba.mjs",
+      "expected": "d77988a1d6333e91ea5b2d6c4abf030c53106c5f634225d00570ebc9d895953b",
+      "actual": "d77988a1d6333e91ea5b2d6c4abf030c53106c5f634225d00570ebc9d895953b",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/AuditoriaListaFake.cls",
+      "expected": "e61a9f17ca21de9e0cf68a90d8bfaab16846dea548abba3d09f67453cf14462b",
+      "actual": "e61a9f17ca21de9e0cf68a90d8bfaab16846dea548abba3d09f67453cf14462b",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/fixture-esquema.json",
+      "expected": "f989ba2db5d7a4438610c8d0d39d6f0a37a8ab8f88202464ce3c7833897586bd",
+      "actual": "f989ba2db5d7a4438610c8d0d39d6f0a37a8ab8f88202464ce3c7833897586bd",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/modTestesAuditoria.bas",
+      "expected": "409b64d4e61b2235a6e69699d9d3102d408408889ff84d3a6fdf81321a081210",
+      "actual": "409b64d4e61b2235a6e69699d9d3102d408408889ff84d3a6fdf81321a081210",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/modTestesFase2.bas",
+      "expected": "d8ff972e510acdcd7e11dee327604da0b2c7b5618504515d9bb54e82e2ee16a4",
+      "actual": "d8ff972e510acdcd7e11dee327604da0b2c7b5618504515d9bb54e82e2ee16a4",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/Preparar-TestesVBA.ps1",
+      "expected": "9a14ea31a32263e610afeac872e7f69f4390c57eb7af5222c6458b63ee0c6d84",
+      "actual": "9a14ea31a32263e610afeac872e7f69f4390c57eb7af5222c6458b63ee0c6d84",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/Reexecutar-ExcelCom.ps1",
+      "expected": "6ae4809000b864ff27b45a5bc81c5725ee34219cd383033a1fc2f68b5131b5b1",
+      "actual": "6ae4809000b864ff27b45a5bc81c5725ee34219cd383033a1fc2f68b5131b5b1",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/Reexecutar-XMLCom.ps1",
+      "expected": "48c2c8730503c6b83e3bd61a08fa2774a6b404f0319ce57db99c3ef9508df90d",
+      "actual": "48c2c8730503c6b83e3bd61a08fa2774a6b404f0319ce57db99c3ef9508df90d",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/Reproduzir-A08.ps1",
+      "expected": "782229eba753d60fd420b9e760929bd325cc4dce3cf55ad8f29bb70e24192321",
+      "actual": "782229eba753d60fd420b9e760929bd325cc4dce3cf55ad8f29bb70e24192321",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/Test-ExcelCom.ps1",
+      "expected": "af0d38cf78fdecdc797f91ed97d08194fcfd1f95c3ee7d1f13164bf321fdfed0",
+      "actual": "af0d38cf78fdecdc797f91ed97d08194fcfd1f95c3ee7d1f13164bf321fdfed0",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/Test-Fase2BackupContexto.ps1",
+      "expected": "8259f8374e2abaffc8028bdeaa976d097e5cfa6cd0eb4dbd1abee9be73f3c333",
+      "actual": "8259f8374e2abaffc8028bdeaa976d097e5cfa6cd0eb4dbd1abee9be73f3c333",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/Test-Fase2BackupContextoV2.ps1",
+      "expected": "111569236cc5f82dc1ac972534efbdca2d0ca9d744f80f6a882290c5ee90314b",
+      "actual": "111569236cc5f82dc1ac972534efbdca2d0ca9d744f80f6a882290c5ee90314b",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/Test-Fase2BackupContextoV3.ps1",
+      "expected": "5672277a760b4f605c6a87f281db82a47412504ff08d3832984adf716f6aca52",
+      "actual": "5672277a760b4f605c6a87f281db82a47412504ff08d3832984adf716f6aca52",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/Test-Fase2BackupContextoV4.ps1",
+      "expected": "d0ea1259a444a403fbc56d0224bc8570a4e5226fb9263cd03a490c8e2ea2a029",
+      "actual": "d0ea1259a444a403fbc56d0224bc8570a4e5226fb9263cd03a490c8e2ea2a029",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/Test-Fase2Recuperacao.ps1",
+      "expected": "8f78f499ea522c071f5d35e46efc5fd8b22b16d5466137bedf093d08b82c7221",
+      "actual": "8f78f499ea522c071f5d35e46efc5fd8b22b16d5466137bedf093d08b82c7221",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/Test-OfficeCapabilities.ps1",
+      "expected": "16725a92812b71c6e0e69591c085e6d21cad3a49ac6d0d2d4d44f3c6a85ea894",
+      "actual": "16725a92812b71c6e0e69591c085e6d21cad3a49ac6d0d2d4d44f3c6a85ea894",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/Test-XMLCom.ps1",
+      "expected": "a7bd70cda52601469fe03029ae5a8110dfeb5c640508a281159af60559dc5080",
+      "actual": "a7bd70cda52601469fe03029ae5a8110dfeb5c640508a281159af60559dc5080",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/testar-auditoria.mjs",
+      "expected": "37d5b73e6bf9821e97c985c448c4946c43c56e0f184cc265c7e72935422307a3",
+      "actual": "37d5b73e6bf9821e97c985c448c4946c43c56e0f184cc265c7e72935422307a3",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup/scripts/verificar-fase2.mjs",
+      "expected": "11a1b784538c971ffa71458b7ea3597d541044dd7e7269b4fcd9e4dd492b1573",
+      "actual": "11a1b784538c971ffa71458b7ea3597d541044dd7e7269b4fcd9e4dd492b1573",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "backup-fase3-com.json",
+      "expected": "4abdef01e4e0259452b0a1c9ecd685fbe410468cfca669bbb954d3214802a53b",
+      "actual": "4abdef01e4e0259452b0a1c9ecd685fbe410468cfca669bbb954d3214802a53b",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "bibliotecas-registradas.json",
+      "expected": "5587d7eba21cfe7bf29cf774eaf86425eedfa51f8151920b98fdd31b968e6374",
+      "actual": "5587d7eba21cfe7bf29cf774eaf86425eedfa51f8151920b98fdd31b968e6374",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "comparacao-tres-versoes.json",
+      "expected": "b8f15f211e60ed570233837772464e027584cf010b7668d036a581d92d909985",
+      "actual": "b8f15f211e60ed570233837772464e027584cf010b7668d036a581d92d909985",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "COMPILACAO_MANUAL.md",
+      "expected": "213089e2d6d9465a4fdcfcab2bbb17f1cc763dd34016201000a354fe005a514a",
+      "actual": "213089e2d6d9465a4fdcfcab2bbb17f1cc763dd34016201000a354fe005a514a",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/Excel/Estoque Fera Veículos 2026.xlsm",
+      "expected": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "actual": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/Form/Cad_NCM.frm",
+      "expected": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027",
+      "actual": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/Form/Cad_NCM.frx",
+      "expected": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "actual": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/Form/Cad_NFE.frm",
+      "expected": "81b0ea767b26af67d0addff843b7f3dee412e359fc288c0fa1a6ef675f83f83f",
+      "actual": "81b0ea767b26af67d0addff843b7f3dee412e359fc288c0fa1a6ef675f83f83f",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/Form/Cad_NFE.frx",
+      "expected": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "actual": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/Form/Cad_NFE_Saida.frm",
+      "expected": "495af9524850ba0b25031263ca0022c92313e7289da4ea42df5e17782b0bc726",
+      "actual": "495af9524850ba0b25031263ca0022c92313e7289da4ea42df5e17782b0bc726",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/Form/Cad_NFE_Saida.frx",
+      "expected": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "actual": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/Form/frmRelatorioXML.frm",
+      "expected": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "actual": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/Form/frmRelatorioXML.frx",
+      "expected": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "actual": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/Form/UserFormFiltro.frm",
+      "expected": "5b4786291a713de25452dd4ac4446c03a70db09b418d29b00dd57af311df1eb1",
+      "actual": "5b4786291a713de25452dd4ac4446c03a70db09b418d29b00dd57af311df1eb1",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/Form/UserFormFiltro.frx",
+      "expected": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "actual": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/LEIA_ANTES_DE_USAR.md",
+      "expected": "ed15d94b962b6852f5afe27aed5a2beb0038d17a509a6decb0e17bb36ebc8a97",
+      "actual": "ed15d94b962b6852f5afe27aed5a2beb0038d17a509a6decb0e17bb36ebc8a97",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/clsOperacaoPlanilha.cls",
+      "expected": "a6621e394e9111ba3419cbb0b792b8f821bb8a003060baacb7d1d4fd2824b40e",
+      "actual": "a6621e394e9111ba3419cbb0b792b8f821bb8a003060baacb7d1d4fd2824b40e",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlChamarFiltro.bas",
+      "expected": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "actual": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlChamarForm.bas",
+      "expected": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1",
+      "actual": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlChamarFormDocFora.bas",
+      "expected": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "actual": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlChamarFormNCM.bas",
+      "expected": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "actual": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlChamarFormSaida.bas",
+      "expected": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea",
+      "actual": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlChamarFormVeículos.bas",
+      "expected": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "actual": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlChamarTabCan.bas",
+      "expected": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+      "actual": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlChamarTabEnt.bas",
+      "expected": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+      "actual": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlChamarTabSai.bas",
+      "expected": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+      "actual": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlCondCel.bas",
+      "expected": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88",
+      "actual": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlCopiar.bas",
+      "expected": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "actual": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlCriaBackup.bas",
+      "expected": "252d5c896167a78649855a4480cf8b353315b834350ac19653789682958bd87e",
+      "actual": "252d5c896167a78649855a4480cf8b353315b834350ac19653789682958bd87e",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlCursor.bas",
+      "expected": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "actual": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlMacroConexão.bas",
+      "expected": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+      "actual": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlMacroConexãoClientes.bas",
+      "expected": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+      "actual": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlMacroDocFora.bas",
+      "expected": "efb80d365c274f0de6991f4110fe96f5f2017caffaeec0b94f07d0882e8838bc",
+      "actual": "efb80d365c274f0de6991f4110fe96f5f2017caffaeec0b94f07d0882e8838bc",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlOcultarTítulo.bas",
+      "expected": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "actual": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/mdlTelaCheia.bas",
+      "expected": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "actual": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/modIntegridadeOperacao.bas",
+      "expected": "3591b877a4b21a959ba5e77a7475e970aea8a8cbd1ea9a956bdd6ffc3c4d2d3f",
+      "actual": "3591b877a4b21a959ba5e77a7475e970aea8a8cbd1ea9a956bdd6ffc3c4d2d3f",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/modPreencherFormulario.bas",
+      "expected": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742",
+      "actual": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/modSeleniumCommon.bas",
+      "expected": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+      "actual": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/modSeleniumConsultaNFE.bas",
+      "expected": "1519876036a17fa65ea9407eff4b8b78aec9f7b1dc749fc5f5d77fba8fac35c1",
+      "actual": "1519876036a17fa65ea9407eff4b8b78aec9f7b1dc749fc5f5d77fba8fac35c1",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/modSeleniumRenavamConsulta.bas",
+      "expected": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "actual": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/modSelTest.bas",
+      "expected": "da8ccd8a4bf91350b1250b1b79602ee18ceabca03da7bafa3a694e1e17539ba5",
+      "actual": "da8ccd8a4bf91350b1250b1b79602ee18ceabca03da7bafa3a694e1e17539ba5",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/modValidacaoXML.bas",
+      "expected": "a9b10bc5d7a6dea0dd2bb854439147610aeaa5c16ff49bae325285d8fc37c264",
+      "actual": "a9b10bc5d7a6dea0dd2bb854439147610aeaa5c16ff49bae325285d8fc37c264",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/MóduloOfficeRibbonEditor.bas",
+      "expected": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2",
+      "actual": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/MóduloPesquisa.bas",
+      "expected": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "actual": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/MDL/MóduloRemoveFechar.bas",
+      "expected": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "actual": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "desenvolvimento/README.md",
+      "expected": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "actual": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "entrega-fase3.json",
+      "expected": "a9d9a58a13a2525c67cece8f5d4ea1df2fbed15ed230a4ba16bc2a8b21743041",
+      "actual": "a9d9a58a13a2525c67cece8f5d4ea1df2fbed15ed230a4ba16bc2a8b21743041",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "evidencias/estatica/analise-estatica.json",
+      "expected": "93df0bd7b9f5278d8e08933721d214b002b45be3478c4526dcd828874beece38",
+      "actual": "93df0bd7b9f5278d8e08933721d214b002b45be3478c4526dcd828874beece38",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "evidencias/estatica-final/analise-estatica.json",
+      "expected": "d37357884a8a4692de50dcb32f7d2e4c0d1f9a0999ded4424c0cd929fc7f4e2b",
+      "actual": "d37357884a8a4692de50dcb32f7d2e4c0d1f9a0999ded4424c0cd929fc7f4e2b",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "git-inspecao.json",
+      "expected": "b5d7ecc34697dbc71d530aaf1feea850453069932ad20df499f65a0feca0e87b",
+      "actual": "b5d7ecc34697dbc71d530aaf1feea850453069932ad20df499f65a0feca0e87b",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "identidade-existente.json",
+      "expected": "b684d9441186e6506cf29729c7d5ddb368a0360704826a2c11616d97b8e1b662",
+      "actual": "b684d9441186e6506cf29729c7d5ddb368a0360704826a2c11616d97b8e1b662",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "links-documentacao.json",
+      "expected": "7fb642e838f847ea7313ea36e394ad882b75fe0f902495de4c2a03bca333bb0f",
+      "actual": "7fb642e838f847ea7313ea36e394ad882b75fe0f902495de4c2a03bca333bb0f",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "manifesto-desenvolvimento-final.json",
+      "expected": "f883a70c4dfed25a9274ab1a26d919d626cd24f9680136e92d0c808567201ac9",
+      "actual": "f883a70c4dfed25a9274ab1a26d919d626cd24f9680136e92d0c808567201ac9",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "manifesto-inicial-fase3.json",
+      "expected": "66f03a29664e47e3cf45bc797596662570c7801752f98e345f78227cdf676ced",
+      "actual": "66f03a29664e47e3cf45bc797596662570c7801752f98e345f78227cdf676ced",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "office-fase3.json",
+      "expected": "4052dc61d4ae50046029f9def845aa405725c9d84184804c6a603ff0d31b0f06",
+      "actual": "4052dc61d4ae50046029f9def845aa405725c9d84184804c6a603ff0d31b0f06",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "pacote-importacao.json",
+      "expected": "b780fef5b57c498e485cda97250ef54cc0514b44dc75fe8c861a9e5b6b672e50",
+      "actual": "b780fef5b57c498e485cda97250ef54cc0514b44dc75fe8c861a9e5b6b672e50",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/auditar-vba.mjs",
+      "expected": "d77988a1d6333e91ea5b2d6c4abf030c53106c5f634225d00570ebc9d895953b",
+      "actual": "d77988a1d6333e91ea5b2d6c4abf030c53106c5f634225d00570ebc9d895953b",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/AuditoriaListaFake.cls",
+      "expected": "e61a9f17ca21de9e0cf68a90d8bfaab16846dea548abba3d09f67453cf14462b",
+      "actual": "e61a9f17ca21de9e0cf68a90d8bfaab16846dea548abba3d09f67453cf14462b",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/fixture-esquema.json",
+      "expected": "f989ba2db5d7a4438610c8d0d39d6f0a37a8ab8f88202464ce3c7833897586bd",
+      "actual": "f989ba2db5d7a4438610c8d0d39d6f0a37a8ab8f88202464ce3c7833897586bd",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/modTestesAuditoria.bas",
+      "expected": "409b64d4e61b2235a6e69699d9d3102d408408889ff84d3a6fdf81321a081210",
+      "actual": "409b64d4e61b2235a6e69699d9d3102d408408889ff84d3a6fdf81321a081210",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/modTestesFase2.bas",
+      "expected": "4074237d5d2058a66b9c303dfb1628caf182f04ac2ab3db21de8835bbb7eed18",
+      "actual": "4074237d5d2058a66b9c303dfb1628caf182f04ac2ab3db21de8835bbb7eed18",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Preparar-TestesVBA.ps1",
+      "expected": "9a14ea31a32263e610afeac872e7f69f4390c57eb7af5222c6458b63ee0c6d84",
+      "actual": "9a14ea31a32263e610afeac872e7f69f4390c57eb7af5222c6458b63ee0c6d84",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Reexecutar-ExcelCom.ps1",
+      "expected": "6ae4809000b864ff27b45a5bc81c5725ee34219cd383033a1fc2f68b5131b5b1",
+      "actual": "6ae4809000b864ff27b45a5bc81c5725ee34219cd383033a1fc2f68b5131b5b1",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Reexecutar-XMLCom.ps1",
+      "expected": "48c2c8730503c6b83e3bd61a08fa2774a6b404f0319ce57db99c3ef9508df90d",
+      "actual": "48c2c8730503c6b83e3bd61a08fa2774a6b404f0319ce57db99c3ef9508df90d",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Reproduzir-A08.ps1",
+      "expected": "782229eba753d60fd420b9e760929bd325cc4dce3cf55ad8f29bb70e24192321",
+      "actual": "782229eba753d60fd420b9e760929bd325cc4dce3cf55ad8f29bb70e24192321",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Sondar-OfficeFase3.ps1",
+      "expected": "972975801d04e3783a10c2fee7612943253bc13ce90a8b22197f5488adb506bf",
+      "actual": "972975801d04e3783a10c2fee7612943253bc13ce90a8b22197f5488adb506bf",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Test-BackupFase3.ps1",
+      "expected": "ec355c8d341eeafbc03388fb87b51d63787000038497ae0e37d24edbad420fb9",
+      "actual": "ec355c8d341eeafbc03388fb87b51d63787000038497ae0e37d24edbad420fb9",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Test-EstrategiasA08.ps1",
+      "expected": "9a3224bcdc56022d0067a306b4b7c66359fbcab969cc689db987c2e5fd95344a",
+      "actual": "9a3224bcdc56022d0067a306b4b7c66359fbcab969cc689db987c2e5fd95344a",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Test-ExcelCom.ps1",
+      "expected": "af0d38cf78fdecdc797f91ed97d08194fcfd1f95c3ee7d1f13164bf321fdfed0",
+      "actual": "af0d38cf78fdecdc797f91ed97d08194fcfd1f95c3ee7d1f13164bf321fdfed0",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Test-Fase2BackupContexto.ps1",
+      "expected": "8259f8374e2abaffc8028bdeaa976d097e5cfa6cd0eb4dbd1abee9be73f3c333",
+      "actual": "8259f8374e2abaffc8028bdeaa976d097e5cfa6cd0eb4dbd1abee9be73f3c333",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Test-Fase2BackupContextoV2.ps1",
+      "expected": "111569236cc5f82dc1ac972534efbdca2d0ca9d744f80f6a882290c5ee90314b",
+      "actual": "111569236cc5f82dc1ac972534efbdca2d0ca9d744f80f6a882290c5ee90314b",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Test-Fase2BackupContextoV3.ps1",
+      "expected": "5672277a760b4f605c6a87f281db82a47412504ff08d3832984adf716f6aca52",
+      "actual": "5672277a760b4f605c6a87f281db82a47412504ff08d3832984adf716f6aca52",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Test-Fase2BackupContextoV4.ps1",
+      "expected": "d0ea1259a444a403fbc56d0224bc8570a4e5226fb9263cd03a490c8e2ea2a029",
+      "actual": "d0ea1259a444a403fbc56d0224bc8570a4e5226fb9263cd03a490c8e2ea2a029",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Test-Fase2Recuperacao.ps1",
+      "expected": "8f78f499ea522c071f5d35e46efc5fd8b22b16d5466137bedf093d08b82c7221",
+      "actual": "8f78f499ea522c071f5d35e46efc5fd8b22b16d5466137bedf093d08b82c7221",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Test-FronteirasA09.ps1",
+      "expected": "7a764c02433b355b6b6285f1026fb8d59b5e2ff5f8ee010c51ec75220e163d87",
+      "actual": "7a764c02433b355b6b6285f1026fb8d59b5e2ff5f8ee010c51ec75220e163d87",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Test-MetadadoA09.ps1",
+      "expected": "ccb71d9fa3bfe8aa4a5be43f90207d2f563db92fbe1be6138ddf6a5a49efeee6",
+      "actual": "ccb71d9fa3bfe8aa4a5be43f90207d2f563db92fbe1be6138ddf6a5a49efeee6",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Test-OfficeCapabilities.ps1",
+      "expected": "16725a92812b71c6e0e69591c085e6d21cad3a49ac6d0d2d4d44f3c6a85ea894",
+      "actual": "16725a92812b71c6e0e69591c085e6d21cad3a49ac6d0d2d4d44f3c6a85ea894",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Test-XMLCom.ps1",
+      "expected": "a7bd70cda52601469fe03029ae5a8110dfeb5c640508a281159af60559dc5080",
+      "actual": "a7bd70cda52601469fe03029ae5a8110dfeb5c640508a281159af60559dc5080",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/Test-XMLFase3.ps1",
+      "expected": "9708d153ec4159a4103131ba78476e6cebc95252a27423f504831e26c26141cf",
+      "actual": "9708d153ec4159a4103131ba78476e6cebc95252a27423f504831e26c26141cf",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/testar-auditoria.mjs",
+      "expected": "37d5b73e6bf9821e97c985c448c4946c43c56e0f184cc265c7e72935422307a3",
+      "actual": "37d5b73e6bf9821e97c985c448c4946c43c56e0f184cc265c7e72935422307a3",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/verificar-fase2.mjs",
+      "expected": "11a1b784538c971ffa71458b7ea3597d541044dd7e7269b4fcd9e4dd492b1573",
+      "actual": "11a1b784538c971ffa71458b7ea3597d541044dd7e7269b4fcd9e4dd492b1573",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "scripts/verificar-fase3.mjs",
+      "expected": "58d08ae73ce45745a687a32f1ed78dc3b1b9d96412281243603c8376ef04c2ee",
+      "actual": "58d08ae73ce45745a687a32f1ed78dc3b1b9d96412281243603c8376ef04c2ee",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "sintaxe-powershell.json",
+      "expected": "996ad7a11df9c58bf710326da100892b19b14c9e55127c9df591b9832fe5e611",
+      "actual": "996ad7a11df9c58bf710326da100892b19b14c9e55127c9df591b9832fe5e611",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "verificacao-estatica-fase3.json",
+      "expected": "18537c0a133c321bfe0fb5d0c3ca9931d04f1e95e4fabe750c13a5c10eb14db4",
+      "actual": "18537c0a133c321bfe0fb5d0c3ca9931d04f1e95e4fabe750c13a5c10eb14db4",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "verificacao-pacote.json",
+      "expected": "e76089160ba317a6260b1e7a832801d36c6dfb1c230fe9df093507ee7a744e82",
+      "actual": "e76089160ba317a6260b1e7a832801d36c6dfb1c230fe9df093507ee7a744e82",
+      "pass": true
+    },
+    {
+      "group": "phase3",
+      "relative": "xml-fase3-com.json",
+      "expected": "0de76b036ec4fc6ac42581b9707471f4db6a6c8f2e0d2b406a49337a465c14b8",
+      "actual": "0de76b036ec4fc6ac42581b9707471f4db6a6c8f2e0d2b406a49337a465c14b8",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "documentacao/AGENTS.md",
+      "expected": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7",
+      "actual": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "documentacao/RELATORIO_HOMOLOGACAO_FASE3.md",
+      "expected": "a7436650eaced9bb5e7fed3bd4ebc6c85da588a76a7db6b77e7901433ab44e98",
+      "actual": "a7436650eaced9bb5e7fed3bd4ebc6c85da588a76a7db6b77e7901433ab44e98",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "documentacao/MATRIZ_TESTES_FASE3.md",
+      "expected": "c349a18275f739901ceefa11e113b1c108cad3d1c0951fb3a0044cc92ea3575c",
+      "actual": "c349a18275f739901ceefa11e113b1c108cad3d1c0951fb3a0044cc92ea3575c",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "documentacao/PENDENCIAS_DECISAO.md",
+      "expected": "e09d268526f4a31b0f8e87a7d66e94347181225a0deae692546d55431bb09afd",
+      "actual": "e09d268526f4a31b0f8e87a7d66e94347181225a0deae692546d55431bb09afd",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "documentacao/PLANO_CORRECAO_FASE2.md",
+      "expected": "8e05cd97a52279fe80a48a3c65471cbd17dbc49a5038c094538e2a875739813f",
+      "actual": "8e05cd97a52279fe80a48a3c65471cbd17dbc49a5038c094538e2a875739813f",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "documentacao/RELATORIO_AUDITORIA.md",
+      "expected": "f30ce68c446484693419a77a7045e17670ea9660833366f04b7f91421165fa16",
+      "actual": "f30ce68c446484693419a77a7045e17670ea9660833366f04b7f91421165fa16",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "documentacao/TESTES_VBA.md",
+      "expected": "7eab7bb47c01d454ff0a0ce8eea980e891e80c1db1580f356f644dfa17a52674",
+      "actual": "7eab7bb47c01d454ff0a0ce8eea980e891e80c1db1580f356f644dfa17a52674",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "documentacao/MAPA_PROJETO.md",
+      "expected": "aa8c921757609a7bf40ccb5598e5946c98b3e35edd162f0f19b48d5a2d291902",
+      "actual": "aa8c921757609a7bf40ccb5598e5946c98b3e35edd162f0f19b48d5a2d291902",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "documentacao/HISTORICO_ALTERACOES.md",
+      "expected": "f1b2ac3923a7d63b2beef266f3a98da8fe8259bd921ff9cfa92e9e8d4e4406ef",
+      "actual": "f1b2ac3923a7d63b2beef266f3a98da8fe8259bd921ff9cfa92e9e8d4e4406ef",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/Form/Cad_NCM.frm",
+      "expected": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027",
+      "actual": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/Form/Cad_NCM.frx",
+      "expected": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "actual": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/Form/Cad_NFE.frm",
+      "expected": "81b0ea767b26af67d0addff843b7f3dee412e359fc288c0fa1a6ef675f83f83f",
+      "actual": "81b0ea767b26af67d0addff843b7f3dee412e359fc288c0fa1a6ef675f83f83f",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/Form/Cad_NFE.frx",
+      "expected": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "actual": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/Form/Cad_NFE_Saida.frm",
+      "expected": "495af9524850ba0b25031263ca0022c92313e7289da4ea42df5e17782b0bc726",
+      "actual": "495af9524850ba0b25031263ca0022c92313e7289da4ea42df5e17782b0bc726",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/Form/Cad_NFE_Saida.frx",
+      "expected": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "actual": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/Form/frmRelatorioXML.frm",
+      "expected": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "actual": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/Form/frmRelatorioXML.frx",
+      "expected": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "actual": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/Form/UserFormFiltro.frm",
+      "expected": "5b4786291a713de25452dd4ac4446c03a70db09b418d29b00dd57af311df1eb1",
+      "actual": "5b4786291a713de25452dd4ac4446c03a70db09b418d29b00dd57af311df1eb1",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/Form/UserFormFiltro.frx",
+      "expected": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "actual": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/clsOperacaoPlanilha.cls",
+      "expected": "a6621e394e9111ba3419cbb0b792b8f821bb8a003060baacb7d1d4fd2824b40e",
+      "actual": "a6621e394e9111ba3419cbb0b792b8f821bb8a003060baacb7d1d4fd2824b40e",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlChamarFiltro.bas",
+      "expected": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "actual": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlChamarForm.bas",
+      "expected": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1",
+      "actual": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlChamarFormDocFora.bas",
+      "expected": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "actual": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlChamarFormNCM.bas",
+      "expected": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "actual": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlChamarFormSaida.bas",
+      "expected": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea",
+      "actual": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlChamarFormVeículos.bas",
+      "expected": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "actual": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlChamarTabCan.bas",
+      "expected": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+      "actual": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlChamarTabEnt.bas",
+      "expected": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+      "actual": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlChamarTabSai.bas",
+      "expected": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+      "actual": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlCondCel.bas",
+      "expected": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88",
+      "actual": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlCopiar.bas",
+      "expected": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "actual": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlCriaBackup.bas",
+      "expected": "252d5c896167a78649855a4480cf8b353315b834350ac19653789682958bd87e",
+      "actual": "252d5c896167a78649855a4480cf8b353315b834350ac19653789682958bd87e",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlCursor.bas",
+      "expected": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "actual": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlMacroConexão.bas",
+      "expected": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+      "actual": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlMacroConexãoClientes.bas",
+      "expected": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+      "actual": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlMacroDocFora.bas",
+      "expected": "efb80d365c274f0de6991f4110fe96f5f2017caffaeec0b94f07d0882e8838bc",
+      "actual": "efb80d365c274f0de6991f4110fe96f5f2017caffaeec0b94f07d0882e8838bc",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlOcultarTítulo.bas",
+      "expected": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "actual": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/mdlTelaCheia.bas",
+      "expected": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "actual": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/modIntegridadeOperacao.bas",
+      "expected": "3591b877a4b21a959ba5e77a7475e970aea8a8cbd1ea9a956bdd6ffc3c4d2d3f",
+      "actual": "3591b877a4b21a959ba5e77a7475e970aea8a8cbd1ea9a956bdd6ffc3c4d2d3f",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/modPreencherFormulario.bas",
+      "expected": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742",
+      "actual": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/modSeleniumCommon.bas",
+      "expected": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+      "actual": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/modSeleniumConsultaNFE.bas",
+      "expected": "1519876036a17fa65ea9407eff4b8b78aec9f7b1dc749fc5f5d77fba8fac35c1",
+      "actual": "1519876036a17fa65ea9407eff4b8b78aec9f7b1dc749fc5f5d77fba8fac35c1",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/modSeleniumRenavamConsulta.bas",
+      "expected": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "actual": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/modSelTest.bas",
+      "expected": "da8ccd8a4bf91350b1250b1b79602ee18ceabca03da7bafa3a694e1e17539ba5",
+      "actual": "da8ccd8a4bf91350b1250b1b79602ee18ceabca03da7bafa3a694e1e17539ba5",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/modValidacaoXML.bas",
+      "expected": "a9b10bc5d7a6dea0dd2bb854439147610aeaa5c16ff49bae325285d8fc37c264",
+      "actual": "a9b10bc5d7a6dea0dd2bb854439147610aeaa5c16ff49bae325285d8fc37c264",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/MóduloOfficeRibbonEditor.bas",
+      "expected": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2",
+      "actual": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/MóduloPesquisa.bas",
+      "expected": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "actual": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "fontes/MDL/MóduloRemoveFechar.bas",
+      "expected": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "actual": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "scripts/modTestesAuditoria.bas",
+      "expected": "409b64d4e61b2235a6e69699d9d3102d408408889ff84d3a6fdf81321a081210",
+      "actual": "409b64d4e61b2235a6e69699d9d3102d408408889ff84d3a6fdf81321a081210",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "scripts/AuditoriaListaFake.cls",
+      "expected": "e61a9f17ca21de9e0cf68a90d8bfaab16846dea548abba3d09f67453cf14462b",
+      "actual": "e61a9f17ca21de9e0cf68a90d8bfaab16846dea548abba3d09f67453cf14462b",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "scripts/modTestesFase2.bas",
+      "expected": "4074237d5d2058a66b9c303dfb1628caf182f04ac2ab3db21de8835bbb7eed18",
+      "actual": "4074237d5d2058a66b9c303dfb1628caf182f04ac2ab3db21de8835bbb7eed18",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "scripts/fixture-esquema.json",
+      "expected": "f989ba2db5d7a4438610c8d0d39d6f0a37a8ab8f88202464ce3c7833897586bd",
+      "actual": "f989ba2db5d7a4438610c8d0d39d6f0a37a8ab8f88202464ce3c7833897586bd",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "COMPILACAO_MANUAL_FASE3.md",
+      "expected": "213089e2d6d9465a4fdcfcab2bbb17f1cc763dd34016201000a354fe005a514a",
+      "actual": "213089e2d6d9465a4fdcfcab2bbb17f1cc763dd34016201000a354fe005a514a",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/EstaPastaDeTrabalho.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha1.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha10.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha11.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha12.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha13.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha15.txt",
+      "expected": "b664262f46978a386653d3801cc0cadb91d50c7d222c165e339690c99bf0b752",
+      "actual": "b664262f46978a386653d3801cc0cadb91d50c7d222c165e339690c99bf0b752",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha16.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha17.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha18.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha2.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha3.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha4.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha5.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha6.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha7.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha8.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Documentos/Planilha9.txt",
+      "expected": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "actual": "01667e36dc387751e3bf2a2bbdbd79993ded799913c528ed5be28d81e5a81c31",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Form/Cad_NCM.frm",
+      "expected": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027",
+      "actual": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Form/Cad_NCM.frx",
+      "expected": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "actual": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Form/Cad_NFE.frm",
+      "expected": "81b0ea767b26af67d0addff843b7f3dee412e359fc288c0fa1a6ef675f83f83f",
+      "actual": "81b0ea767b26af67d0addff843b7f3dee412e359fc288c0fa1a6ef675f83f83f",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Form/Cad_NFE.frx",
+      "expected": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "actual": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Form/Cad_NFE_Saida.frm",
+      "expected": "495af9524850ba0b25031263ca0022c92313e7289da4ea42df5e17782b0bc726",
+      "actual": "495af9524850ba0b25031263ca0022c92313e7289da4ea42df5e17782b0bc726",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Form/Cad_NFE_Saida.frx",
+      "expected": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "actual": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Form/frmRelatorioXML.frm",
+      "expected": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "actual": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Form/frmRelatorioXML.frx",
+      "expected": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "actual": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Form/UserFormFiltro.frm",
+      "expected": "5b4786291a713de25452dd4ac4446c03a70db09b418d29b00dd57af311df1eb1",
+      "actual": "5b4786291a713de25452dd4ac4446c03a70db09b418d29b00dd57af311df1eb1",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Form/UserFormFiltro.frx",
+      "expected": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "actual": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/clsOperacaoPlanilha.cls",
+      "expected": "a6621e394e9111ba3419cbb0b792b8f821bb8a003060baacb7d1d4fd2824b40e",
+      "actual": "a6621e394e9111ba3419cbb0b792b8f821bb8a003060baacb7d1d4fd2824b40e",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlChamarFiltro.bas",
+      "expected": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "actual": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlChamarForm.bas",
+      "expected": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1",
+      "actual": "a16a707a4f57d7d6be682c5e91dec4f7eec21788e1d3a9c9222433e4d66f1be1",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlChamarFormDocFora.bas",
+      "expected": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "actual": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlChamarFormNCM.bas",
+      "expected": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "actual": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlChamarFormSaida.bas",
+      "expected": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea",
+      "actual": "b12617de9eba95f87503dce2eb28cdbb784f049858d5885f36202234b07885ea",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlChamarFormVeículos.bas",
+      "expected": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "actual": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlChamarTabCan.bas",
+      "expected": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+      "actual": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlChamarTabEnt.bas",
+      "expected": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+      "actual": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlChamarTabSai.bas",
+      "expected": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+      "actual": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlCondCel.bas",
+      "expected": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88",
+      "actual": "4c5f74c53c93f098f30b46b459b7f6da25f4c46a7ced7f2c498a345628601a88",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlCopiar.bas",
+      "expected": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "actual": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlCriaBackup.bas",
+      "expected": "252d5c896167a78649855a4480cf8b353315b834350ac19653789682958bd87e",
+      "actual": "252d5c896167a78649855a4480cf8b353315b834350ac19653789682958bd87e",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlCursor.bas",
+      "expected": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "actual": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlMacroConexão.bas",
+      "expected": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+      "actual": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlMacroConexãoClientes.bas",
+      "expected": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+      "actual": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlMacroDocFora.bas",
+      "expected": "85caa0cac4b69c53f13c58e9ac4ca4e6a474d23271bcaff1f969f8fb91e340ee",
+      "actual": "85caa0cac4b69c53f13c58e9ac4ca4e6a474d23271bcaff1f969f8fb91e340ee",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlOcultarTítulo.bas",
+      "expected": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "actual": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/mdlTelaCheia.bas",
+      "expected": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "actual": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/modIntegridadeOperacao.bas",
+      "expected": "3591b877a4b21a959ba5e77a7475e970aea8a8cbd1ea9a956bdd6ffc3c4d2d3f",
+      "actual": "3591b877a4b21a959ba5e77a7475e970aea8a8cbd1ea9a956bdd6ffc3c4d2d3f",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/modPreencherFormulario.bas",
+      "expected": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742",
+      "actual": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/modSeleniumCommon.bas",
+      "expected": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+      "actual": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/modSeleniumConsultaNFE.bas",
+      "expected": "1519876036a17fa65ea9407eff4b8b78aec9f7b1dc749fc5f5d77fba8fac35c1",
+      "actual": "1519876036a17fa65ea9407eff4b8b78aec9f7b1dc749fc5f5d77fba8fac35c1",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/modSeleniumRenavamConsulta.bas",
+      "expected": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "actual": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/modSelTest.bas",
+      "expected": "da8ccd8a4bf91350b1250b1b79602ee18ceabca03da7bafa3a694e1e17539ba5",
+      "actual": "da8ccd8a4bf91350b1250b1b79602ee18ceabca03da7bafa3a694e1e17539ba5",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/modValidacaoXML.bas",
+      "expected": "a9b10bc5d7a6dea0dd2bb854439147610aeaa5c16ff49bae325285d8fc37c264",
+      "actual": "a9b10bc5d7a6dea0dd2bb854439147610aeaa5c16ff49bae325285d8fc37c264",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/MóduloOfficeRibbonEditor.bas",
+      "expected": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2",
+      "actual": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/MóduloPesquisa.bas",
+      "expected": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "actual": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/MDL/MóduloRemoveFechar.bas",
+      "expected": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "actual": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Testes/AuditoriaListaFake.cls",
+      "expected": "028558269b26138407c7006d86fb5c2ac5885df1068f6e7322c59234d45414f9",
+      "actual": "028558269b26138407c7006d86fb5c2ac5885df1068f6e7322c59234d45414f9",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Testes/modTestesAuditoria.bas",
+      "expected": "6df2e7d514a3e2a1a1f3cb8fd2df69f34f97a4beefe69207bd44736dbb3fb95b",
+      "actual": "6df2e7d514a3e2a1a1f3cb8fd2df69f34f97a4beefe69207bd44736dbb3fb95b",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "pacote/Testes/modTestesFase2.bas",
+      "expected": "4074237d5d2058a66b9c303dfb1628caf182f04ac2ab3db21de8835bbb7eed18",
+      "actual": "4074237d5d2058a66b9c303dfb1628caf182f04ac2ab3db21de8835bbb7eed18",
+      "pass": true
+    },
+    {
+      "group": "phase4InitialBackup",
+      "relative": "Fixture_Auditoria_Fase3.xlsm",
+      "expected": "ff4f6b37d529e7404ae31bc65ceb1aeb3ba8f54aeb007b71c1e47c9bb9b9585d",
+      "actual": "ff4f6b37d529e7404ae31bc65ceb1aeb3ba8f54aeb007b71c1e47c9bb9b9585d",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "Excel\\Estoque Fera Veículos 2026.xlsm",
+      "expected": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "actual": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "Form\\Cad_NCM.frm",
+      "expected": "c5aa276b7e1ad1da01a0d54a9faceb93c095d480806e83813db02b1a981c78a9",
+      "actual": "c5aa276b7e1ad1da01a0d54a9faceb93c095d480806e83813db02b1a981c78a9",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "Form\\Cad_NCM.frx",
+      "expected": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "actual": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "Form\\Cad_NFE.frm",
+      "expected": "7c36590ff7e7f513e8396564e80d991f1ceb33602c16a07deba13598270176ee",
+      "actual": "7c36590ff7e7f513e8396564e80d991f1ceb33602c16a07deba13598270176ee",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "Form\\Cad_NFE.frx",
+      "expected": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "actual": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "Form\\Cad_NFE_Saida.frm",
+      "expected": "b3262a8af0a8c97342daa50cb1bca03b3cb23b5cf387f9abd3973697fa14ad32",
+      "actual": "b3262a8af0a8c97342daa50cb1bca03b3cb23b5cf387f9abd3973697fa14ad32",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "Form\\Cad_NFE_Saida.frx",
+      "expected": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "actual": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "Form\\frmRelatorioXML.frm",
+      "expected": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "actual": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "Form\\frmRelatorioXML.frx",
+      "expected": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "actual": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "Form\\UserFormFiltro.frm",
+      "expected": "72104ed848f1c883a7ba8cfe1fbf0e3580877dca42a93750350db28fbce912c5",
+      "actual": "72104ed848f1c883a7ba8cfe1fbf0e3580877dca42a93750350db28fbce912c5",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "Form\\UserFormFiltro.frx",
+      "expected": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "actual": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlChamarFiltro.bas",
+      "expected": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "actual": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlChamarForm.bas",
+      "expected": "f1a50ae2170e8d91fe64d7eff748009a86afb13deb5f4f0afc12a4e4f905aa36",
+      "actual": "f1a50ae2170e8d91fe64d7eff748009a86afb13deb5f4f0afc12a4e4f905aa36",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlChamarFormDocFora.bas",
+      "expected": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "actual": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlChamarFormNCM.bas",
+      "expected": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "actual": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlChamarFormSaida.bas",
+      "expected": "738e72244780dbf0342c18d9688f0bf929dc8d609e1b4788dabc2aaf7d2cd403",
+      "actual": "738e72244780dbf0342c18d9688f0bf929dc8d609e1b4788dabc2aaf7d2cd403",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlChamarFormVeículos.bas",
+      "expected": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "actual": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlChamarTabCan.bas",
+      "expected": "c476162d14a48d47b27abf29fcb1a265be1146cabf770e1b7ba5baa6845215ed",
+      "actual": "c476162d14a48d47b27abf29fcb1a265be1146cabf770e1b7ba5baa6845215ed",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlChamarTabEnt.bas",
+      "expected": "6aa6e174c4eaeedeebb8054ba5f989f27b679e4cd9d716554d7209cb05be27ed",
+      "actual": "6aa6e174c4eaeedeebb8054ba5f989f27b679e4cd9d716554d7209cb05be27ed",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlChamarTabSai.bas",
+      "expected": "8ecd5f302438f49849bf0ede7bc5be6fcc62792f8ca845a9d155b70daed19f3d",
+      "actual": "8ecd5f302438f49849bf0ede7bc5be6fcc62792f8ca845a9d155b70daed19f3d",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlCondCel.bas",
+      "expected": "eb898b196b26f6360615cf503030c2b20eb8d345e277550e07df46ede111f60c",
+      "actual": "eb898b196b26f6360615cf503030c2b20eb8d345e277550e07df46ede111f60c",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlCopiar.bas",
+      "expected": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "actual": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlCriaBackup.bas",
+      "expected": "8477beee7a2be221e2daf6ba6b8a805412fecf638f67e38f5a7654aa052148ff",
+      "actual": "8477beee7a2be221e2daf6ba6b8a805412fecf638f67e38f5a7654aa052148ff",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlCursor.bas",
+      "expected": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "actual": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlMacroConexão.bas",
+      "expected": "38ef9f12fac5df53037a3e0fef4d5039c0c87c939dbd20667e2cf6bc890cd405",
+      "actual": "38ef9f12fac5df53037a3e0fef4d5039c0c87c939dbd20667e2cf6bc890cd405",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlMacroConexãoClientes.bas",
+      "expected": "0933295f65ca204d94633c1b6bf640299e18f0d04b033f2044c0f013bf2643e7",
+      "actual": "0933295f65ca204d94633c1b6bf640299e18f0d04b033f2044c0f013bf2643e7",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlMacroDocFora.bas",
+      "expected": "2675a05d8126ec68039565153e67bd3e51afad76e885e540cd09df5fd4676f01",
+      "actual": "2675a05d8126ec68039565153e67bd3e51afad76e885e540cd09df5fd4676f01",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlOcultarTítulo.bas",
+      "expected": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "actual": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\mdlTelaCheia.bas",
+      "expected": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "actual": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\modPreencherFormulario.bas",
+      "expected": "716b2d1388e29aee6e2f71aea45e68ae65641b3b00c7f59463151a860a97179f",
+      "actual": "716b2d1388e29aee6e2f71aea45e68ae65641b3b00c7f59463151a860a97179f",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\modSeleniumCommon.bas",
+      "expected": "f38c55ae5cf11320a7864286b706094cfd7686f6d01669519aafe67d974091b2",
+      "actual": "f38c55ae5cf11320a7864286b706094cfd7686f6d01669519aafe67d974091b2",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\modSeleniumConsultaNFE.bas",
+      "expected": "a6b6045c0179684ee54fb30ff7c0340917e7ca0736e5f9249fb78808193cdbf2",
+      "actual": "a6b6045c0179684ee54fb30ff7c0340917e7ca0736e5f9249fb78808193cdbf2",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\modSeleniumRenavamConsulta.bas",
+      "expected": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "actual": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\modSelTest.bas",
+      "expected": "1bd9a034503af0479bed5f7fd38fea83e5a2b693459c2e731de98ccf50e2b3a0",
+      "actual": "1bd9a034503af0479bed5f7fd38fea83e5a2b693459c2e731de98ccf50e2b3a0",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\modValidacaoXML.bas",
+      "expected": "8b79d34333a47ba1b5fe98f3641d79eb7075127b9967d7072e3041e94b4c3548",
+      "actual": "8b79d34333a47ba1b5fe98f3641d79eb7075127b9967d7072e3041e94b4c3548",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\MóduloOfficeRibbonEditor.bas",
+      "expected": "2d8aed2ec79ba3e825e782c2391d08f112d0d98b48475d0a7a02ab4ae97a2ed4",
+      "actual": "2d8aed2ec79ba3e825e782c2391d08f112d0d98b48475d0a7a02ab4ae97a2ed4",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\MóduloPesquisa.bas",
+      "expected": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "actual": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "MDL\\MóduloRemoveFechar.bas",
+      "expected": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "actual": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "pass": true
+    },
+    {
+      "group": "phase1Backup",
+      "relative": "README.md",
+      "expected": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "actual": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\Excel\\Estoque Fera Veículos 2026.xlsm",
+      "expected": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "actual": "2ad1c635da68b51a68d5d2c0d3cd638f1ff8064942b299699f2594d7a9ca8850",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\Form\\Cad_NCM.frm",
+      "expected": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027",
+      "actual": "d647121541eabbea9d4fbd8d2edb163827a8e18e42d6c5125bb7fed3ab313027",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\Form\\Cad_NCM.frx",
+      "expected": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "actual": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\Form\\Cad_NFE.frm",
+      "expected": "7ef27e1f90466a3c5488fa700d5de033c48ecb98b30c1a00d2b26aacd66e6a2d",
+      "actual": "7ef27e1f90466a3c5488fa700d5de033c48ecb98b30c1a00d2b26aacd66e6a2d",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\Form\\Cad_NFE.frx",
+      "expected": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "actual": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\Form\\Cad_NFE_Saida.frm",
+      "expected": "00fc3c4c7dfa9452826fec3013121815750998c0b73ab5c97addc5e7ecb5f458",
+      "actual": "00fc3c4c7dfa9452826fec3013121815750998c0b73ab5c97addc5e7ecb5f458",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\Form\\Cad_NFE_Saida.frx",
+      "expected": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "actual": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\Form\\frmRelatorioXML.frm",
+      "expected": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "actual": "56e49cb8ed09790fe53bac36da224c6a23bc4b941a70f7bab92c08fa671ee345",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\Form\\frmRelatorioXML.frx",
+      "expected": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "actual": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\Form\\UserFormFiltro.frm",
+      "expected": "72104ed848f1c883a7ba8cfe1fbf0e3580877dca42a93750350db28fbce912c5",
+      "actual": "72104ed848f1c883a7ba8cfe1fbf0e3580877dca42a93750350db28fbce912c5",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\Form\\UserFormFiltro.frx",
+      "expected": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "actual": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\LEIA_ANTES_DE_USAR.md",
+      "expected": "d2e45bb7919c0f26a561473d60036b1e872805d0591634f849e7501dc9837594",
+      "actual": "d2e45bb7919c0f26a561473d60036b1e872805d0591634f849e7501dc9837594",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlChamarFiltro.bas",
+      "expected": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "actual": "537965b84f0b9504a353db09b598d5985a85aa527b64381cba8808a3aaa3d7a4",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlChamarForm.bas",
+      "expected": "f1a50ae2170e8d91fe64d7eff748009a86afb13deb5f4f0afc12a4e4f905aa36",
+      "actual": "f1a50ae2170e8d91fe64d7eff748009a86afb13deb5f4f0afc12a4e4f905aa36",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlChamarFormDocFora.bas",
+      "expected": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "actual": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlChamarFormNCM.bas",
+      "expected": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "actual": "e349f22eae10ffbb4d40efd3981b6d78ea3e6c98de98b24b38875f0431d6fd1a",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlChamarFormSaida.bas",
+      "expected": "738e72244780dbf0342c18d9688f0bf929dc8d609e1b4788dabc2aaf7d2cd403",
+      "actual": "738e72244780dbf0342c18d9688f0bf929dc8d609e1b4788dabc2aaf7d2cd403",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlChamarFormVeículos.bas",
+      "expected": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "actual": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlChamarTabCan.bas",
+      "expected": "c476162d14a48d47b27abf29fcb1a265be1146cabf770e1b7ba5baa6845215ed",
+      "actual": "c476162d14a48d47b27abf29fcb1a265be1146cabf770e1b7ba5baa6845215ed",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlChamarTabEnt.bas",
+      "expected": "6aa6e174c4eaeedeebb8054ba5f989f27b679e4cd9d716554d7209cb05be27ed",
+      "actual": "6aa6e174c4eaeedeebb8054ba5f989f27b679e4cd9d716554d7209cb05be27ed",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlChamarTabSai.bas",
+      "expected": "8ecd5f302438f49849bf0ede7bc5be6fcc62792f8ca845a9d155b70daed19f3d",
+      "actual": "8ecd5f302438f49849bf0ede7bc5be6fcc62792f8ca845a9d155b70daed19f3d",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlCondCel.bas",
+      "expected": "eb898b196b26f6360615cf503030c2b20eb8d345e277550e07df46ede111f60c",
+      "actual": "eb898b196b26f6360615cf503030c2b20eb8d345e277550e07df46ede111f60c",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlCopiar.bas",
+      "expected": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "actual": "64c4f7d755607cdaa55307768954c5c09bef9365a88f0e54810bfeaf3cc99a91",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlCriaBackup.bas",
+      "expected": "8477beee7a2be221e2daf6ba6b8a805412fecf638f67e38f5a7654aa052148ff",
+      "actual": "8477beee7a2be221e2daf6ba6b8a805412fecf638f67e38f5a7654aa052148ff",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlCursor.bas",
+      "expected": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "actual": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlMacroConexão.bas",
+      "expected": "38ef9f12fac5df53037a3e0fef4d5039c0c87c939dbd20667e2cf6bc890cd405",
+      "actual": "38ef9f12fac5df53037a3e0fef4d5039c0c87c939dbd20667e2cf6bc890cd405",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlMacroConexãoClientes.bas",
+      "expected": "0933295f65ca204d94633c1b6bf640299e18f0d04b033f2044c0f013bf2643e7",
+      "actual": "0933295f65ca204d94633c1b6bf640299e18f0d04b033f2044c0f013bf2643e7",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlMacroDocFora.bas",
+      "expected": "2675a05d8126ec68039565153e67bd3e51afad76e885e540cd09df5fd4676f01",
+      "actual": "2675a05d8126ec68039565153e67bd3e51afad76e885e540cd09df5fd4676f01",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlOcultarTítulo.bas",
+      "expected": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "actual": "7f445ad27d3a1d9b386f467fc1c48140eba747d09a3c2c5a0c1f7fd1cc58d33a",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\mdlTelaCheia.bas",
+      "expected": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "actual": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\modPreencherFormulario.bas",
+      "expected": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742",
+      "actual": "933075bb1322bf075645c778a2202b0078cd73b4e5c10da642692c285686c742",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\modSeleniumCommon.bas",
+      "expected": "f38c55ae5cf11320a7864286b706094cfd7686f6d01669519aafe67d974091b2",
+      "actual": "f38c55ae5cf11320a7864286b706094cfd7686f6d01669519aafe67d974091b2",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\modSeleniumConsultaNFE.bas",
+      "expected": "a6b6045c0179684ee54fb30ff7c0340917e7ca0736e5f9249fb78808193cdbf2",
+      "actual": "a6b6045c0179684ee54fb30ff7c0340917e7ca0736e5f9249fb78808193cdbf2",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\modSeleniumRenavamConsulta.bas",
+      "expected": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "actual": "b738cc4bf9fb87f8a00bcc77ca569f7c58fe933c710dbcd1067387d117b9c8c3",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\modSelTest.bas",
+      "expected": "1bd9a034503af0479bed5f7fd38fea83e5a2b693459c2e731de98ccf50e2b3a0",
+      "actual": "1bd9a034503af0479bed5f7fd38fea83e5a2b693459c2e731de98ccf50e2b3a0",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\modValidacaoXML.bas",
+      "expected": "8b79d34333a47ba1b5fe98f3641d79eb7075127b9967d7072e3041e94b4c3548",
+      "actual": "8b79d34333a47ba1b5fe98f3641d79eb7075127b9967d7072e3041e94b4c3548",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\MóduloOfficeRibbonEditor.bas",
+      "expected": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2",
+      "actual": "b505a3286aac949f55d4b7ba7bcb71d5bc292d865ee82b9cfe4433062c373ce2",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\MóduloPesquisa.bas",
+      "expected": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "actual": "b1c1ebc9e3f0b28daea185996077e0f8c5f2b1e9411596d5ee6a4479e8435ec7",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\MDL\\MóduloRemoveFechar.bas",
+      "expected": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "actual": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "desenvolvimento\\README.md",
+      "expected": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "actual": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "documentacao\\AGENTS.md",
+      "expected": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7",
+      "actual": "1f16d1eb59902535de63a096dbcbc935a8c95ada730200a5f6980e862cfe4ff7",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "documentacao\\RELATORIO_AUDITORIA.md",
+      "expected": "22cbb70f3be3eb658ee88dd872f08ae23a4376550b260b9823d92945e19654be",
+      "actual": "22cbb70f3be3eb658ee88dd872f08ae23a4376550b260b9823d92945e19654be",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "documentacao\\MAPA_PROJETO.md",
+      "expected": "d534bec9508ff091934d62fc1b9dd7afadb9ba7c14c9941d37de237cb514f00b",
+      "actual": "d534bec9508ff091934d62fc1b9dd7afadb9ba7c14c9941d37de237cb514f00b",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "documentacao\\TESTES_VBA.md",
+      "expected": "c953bf404f8c33cc69b28463c66a51da42dd327a50d88e98cab15e6cce25a6d1",
+      "actual": "c953bf404f8c33cc69b28463c66a51da42dd327a50d88e98cab15e6cce25a6d1",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "documentacao\\HISTORICO_ALTERACOES.md",
+      "expected": "05e39fa73d60cc2bd109ae399af826ea0b37f1f9dae229269c01e89f57988d5a",
+      "actual": "05e39fa73d60cc2bd109ae399af826ea0b37f1f9dae229269c01e89f57988d5a",
+      "pass": true
+    },
+    {
+      "group": "phase2Backup",
+      "relative": "documentacao\\README.md",
+      "expected": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "actual": "a8a1f7018f46392c7b35b3c1a3f2f6778592ef7335e47cbd3dca7bb17a04a854",
+      "pass": true
+    }
+  ]
+}

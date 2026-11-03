@@ -1,0 +1,9 @@
+{
+  "error": "Erro de compilacao: Erro de sintaxe",
+  "procedure": "CriarEpisodio / Ativos",
+  "cause": "Parametro local conflita com palavra reservada VBA",
+  "change": "Renomear apenas identificador local para localEstoque no modulo experimental",
+  "productionChanged": false,
+  "beforeSHA": "a08a0914943f3031fc7b555eee3f48138b6e8db9b4e97c5e0faecd03527978f6",
+  "afterSHA": "a71cc479058509d75469f972ecec3bf9599f1fb60bae5e9ec7e31c8b6efae8d7"
+}

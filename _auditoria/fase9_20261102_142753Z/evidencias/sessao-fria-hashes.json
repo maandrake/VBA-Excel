@@ -1,0 +1,337 @@
+{
+  "excludedEphemeralOfficeLocks": [
+    "~$Fixture_Persistencia_Fase9_Mestre.xlsm"
+  ],
+  "files": [
+    {
+      "name": "backup_ciclo.accdb",
+      "sha256": "a8eda549c11618228108f6dbdebcbb63477b0629324c88eefbe5aad59edfd81a",
+      "after": "a8eda549c11618228108f6dbdebcbb63477b0629324c88eefbe5aad59edfd81a",
+      "unchanged": true
+    },
+    {
+      "name": "bench_100.accdb",
+      "sha256": "a8fc9ddc0a8a876fb4f3011acc020577b76cdc6d5a6fd4e183174a5779360790",
+      "after": "a8fc9ddc0a8a876fb4f3011acc020577b76cdc6d5a6fd4e183174a5779360790",
+      "unchanged": true
+    },
+    {
+      "name": "bench_100.tsv",
+      "sha256": "6ef05cf5abfe88d4c73f40b108bef688d6e11b4cb0a8dec183abbd3565b95ff6",
+      "after": "6ef05cf5abfe88d4c73f40b108bef688d6e11b4cb0a8dec183abbd3565b95ff6",
+      "unchanged": true
+    },
+    {
+      "name": "bench_1000.accdb",
+      "sha256": "dc00547eab6fa8fe1b64d682162fd47a3e3a2744bd4615c64d0c411fc2961de6",
+      "after": "dc00547eab6fa8fe1b64d682162fd47a3e3a2744bd4615c64d0c411fc2961de6",
+      "unchanged": true
+    },
+    {
+      "name": "bench_1000.tsv",
+      "sha256": "60c3ec3cff936b3f1d5ba5320d0ae014e81cbc1bd2b10e8e511c802f644a3294",
+      "after": "60c3ec3cff936b3f1d5ba5320d0ae014e81cbc1bd2b10e8e511c802f644a3294",
+      "unchanged": true
+    },
+    {
+      "name": "bench_10000.accdb",
+      "sha256": "6b50f7ddbcaedec7241dde8c3f3c798c449238f62e4a6be9f996b429213f89d4",
+      "after": "6b50f7ddbcaedec7241dde8c3f3c798c449238f62e4a6be9f996b429213f89d4",
+      "unchanged": true
+    },
+    {
+      "name": "bench_10000.tsv",
+      "sha256": "ac29b1c45e94571bdf19c19d8a97233606cc02ec842112c716bc9a83f717bd10",
+      "after": "ac29b1c45e94571bdf19c19d8a97233606cc02ec842112c716bc9a83f717bd10",
+      "unchanged": true
+    },
+    {
+      "name": "bench_5000.accdb",
+      "sha256": "90eb2b899f0f3f0b481ed7000288d2a8b49d69c177f63d3b712073d1c776a50b",
+      "after": "90eb2b899f0f3f0b481ed7000288d2a8b49d69c177f63d3b712073d1c776a50b",
+      "unchanged": true
+    },
+    {
+      "name": "bench_5000.tsv",
+      "sha256": "073fb0b6ad6551418d892f09d2393a5e904eeab72decdaaa55c41719701aef5a",
+      "after": "073fb0b6ad6551418d892f09d2393a5e904eeab72decdaaa55c41719701aef5a",
+      "unchanged": true
+    },
+    {
+      "name": "ciclo.accdb",
+      "sha256": "b7547856efe71da340609b0e2a8d8d3f05ed8779d39955a4b8e7c0d8473985c6",
+      "after": "b7547856efe71da340609b0e2a8d8d3f05ed8779d39955a4b8e7c0d8473985c6",
+      "unchanged": true
+    },
+    {
+      "name": "ciclo_final.tsv",
+      "sha256": "f5169ae56f3eea02b38a27d4de04cb865f5f591f00beaed89d538c58100c254f",
+      "after": "f5169ae56f3eea02b38a27d4de04cb865f5f591f00beaed89d538c58100c254f",
+      "unchanged": true
+    },
+    {
+      "name": "complemento_f9.tsv",
+      "sha256": "98e955327abf54ead4f866fbe4648e1cc58ed829d1350b97eb5fd0232683f8a5",
+      "after": "98e955327abf54ead4f866fbe4648e1cc58ed829d1350b97eb5fd0232683f8a5",
+      "unchanged": true
+    },
+    {
+      "name": "concorrencia.accdb",
+      "sha256": "5380de7a1a1798eef35ea2cfdc725fb21a15c1424c11a81fddfa33820f667a83",
+      "after": "5380de7a1a1798eef35ea2cfdc725fb21a15c1424c11a81fddfa33820f667a83",
+      "unchanged": true
+    },
+    {
+      "name": "core_f9.tsv",
+      "sha256": "69da45bb35c5bd07a1fc6f9140b3d0b27ed4e465797180a3ebca9bccdcca1bfd",
+      "after": "69da45bb35c5bd07a1fc6f9140b3d0b27ed4e465797180a3ebca9bccdcca1bfd",
+      "unchanged": true
+    },
+    {
+      "name": "falhas_f9.tsv",
+      "sha256": "1e1367f1fbfb578c0e8b079a32549b5484b6fef31c5201b9c2c18a79ea32b032",
+      "after": "1e1367f1fbfb578c0e8b079a32549b5484b6fef31c5201b9c2c18a79ea32b032",
+      "unchanged": true
+    },
+    {
+      "name": "falha_1.accdb",
+      "sha256": "6355d4c88e49c0ff6c5a65200a8df6b843f28ba9dc318f3abd8cc416120e489c",
+      "after": "6355d4c88e49c0ff6c5a65200a8df6b843f28ba9dc318f3abd8cc416120e489c",
+      "unchanged": true
+    },
+    {
+      "name": "falha_1_antes.tsv",
+      "sha256": "7e40f5b0e07bac2991f1f2f8997e911fdc8cca02feef254048ea133e4b6af3f6",
+      "after": "7e40f5b0e07bac2991f1f2f8997e911fdc8cca02feef254048ea133e4b6af3f6",
+      "unchanged": true
+    },
+    {
+      "name": "falha_1_depois.tsv",
+      "sha256": "3670d706b8f699f3758aebf3b3929b801819a40617a032120d010cc33cefd977",
+      "after": "3670d706b8f699f3758aebf3b3929b801819a40617a032120d010cc33cefd977",
+      "unchanged": true
+    },
+    {
+      "name": "falha_2.accdb",
+      "sha256": "b2c44aa858fbc1cc51e79c7d3e31050bc7b10c28584d2f8e285fa7d001d8f33a",
+      "after": "b2c44aa858fbc1cc51e79c7d3e31050bc7b10c28584d2f8e285fa7d001d8f33a",
+      "unchanged": true
+    },
+    {
+      "name": "falha_2_antes.tsv",
+      "sha256": "0b554bf511d46f8d54e14c4f2de9fda61d28e7e1c5fb5a0ffcf4806587d8d979",
+      "after": "0b554bf511d46f8d54e14c4f2de9fda61d28e7e1c5fb5a0ffcf4806587d8d979",
+      "unchanged": true
+    },
+    {
+      "name": "falha_2_depois.tsv",
+      "sha256": "1eb918eba9f60d294c09f7b51355ed79fbd982e117d902469ee195e99c00242c",
+      "after": "1eb918eba9f60d294c09f7b51355ed79fbd982e117d902469ee195e99c00242c",
+      "unchanged": true
+    },
+    {
+      "name": "falha_3.accdb",
+      "sha256": "6bc5f18695586397105e33c6f907fc7147acacef740081072c4964049c62053f",
+      "after": "6bc5f18695586397105e33c6f907fc7147acacef740081072c4964049c62053f",
+      "unchanged": true
+    },
+    {
+      "name": "falha_3_antes.tsv",
+      "sha256": "4cfb61149ba17b8d5989130b2d11c99e946877fcea18cf098fa8e261af7762ee",
+      "after": "4cfb61149ba17b8d5989130b2d11c99e946877fcea18cf098fa8e261af7762ee",
+      "unchanged": true
+    },
+    {
+      "name": "falha_3_depois.tsv",
+      "sha256": "305ead6019900a9f4a37ca2f5692f262382a6b296ae2564830f0bc2f2f64e9f5",
+      "after": "305ead6019900a9f4a37ca2f5692f262382a6b296ae2564830f0bc2f2f64e9f5",
+      "unchanged": true
+    },
+    {
+      "name": "falha_4.accdb",
+      "sha256": "a202d1014369a511f8153f8fc4f63e776fcec59378f4c98814de2f540230bfc3",
+      "after": "a202d1014369a511f8153f8fc4f63e776fcec59378f4c98814de2f540230bfc3",
+      "unchanged": true
+    },
+    {
+      "name": "falha_4_antes.tsv",
+      "sha256": "bdb7de656814a73faa3a84f20f802af45f5067bd41e552ccd5db507e2930325e",
+      "after": "bdb7de656814a73faa3a84f20f802af45f5067bd41e552ccd5db507e2930325e",
+      "unchanged": true
+    },
+    {
+      "name": "falha_4_depois.tsv",
+      "sha256": "06eb0b1ecf4877ae2f43acc58b2e3b947e296181a95d19f6e38fb1527bd075ef",
+      "after": "06eb0b1ecf4877ae2f43acc58b2e3b947e296181a95d19f6e38fb1527bd075ef",
+      "unchanged": true
+    },
+    {
+      "name": "falha_5.accdb",
+      "sha256": "ae955dd283be08440669f38022f00a4cb8d033748e3bd98acc2b225bbb31f8c4",
+      "after": "ae955dd283be08440669f38022f00a4cb8d033748e3bd98acc2b225bbb31f8c4",
+      "unchanged": true
+    },
+    {
+      "name": "falha_5_antes.tsv",
+      "sha256": "3c6ca0835eadf37e92448a657398ce188f1dc7e7b2f9839b6404c1856a6b7f22",
+      "after": "3c6ca0835eadf37e92448a657398ce188f1dc7e7b2f9839b6404c1856a6b7f22",
+      "unchanged": true
+    },
+    {
+      "name": "falha_5_depois.tsv",
+      "sha256": "a8723c93eb75c5a42d78e8a10d55cf591e15a9407c768ab1337fadabcccbc20b",
+      "after": "a8723c93eb75c5a42d78e8a10d55cf591e15a9407c768ab1337fadabcccbc20b",
+      "unchanged": true
+    },
+    {
+      "name": "falha_6.accdb",
+      "sha256": "8362f133fa501b0c45bea80fe739e0d659adf1a41ab39447946cfa005cb2dfd8",
+      "after": "8362f133fa501b0c45bea80fe739e0d659adf1a41ab39447946cfa005cb2dfd8",
+      "unchanged": true
+    },
+    {
+      "name": "falha_6_antes.tsv",
+      "sha256": "8f9b730742d702eea1aedf70f60b0955b400ab82a1709ea0f5eb0a0d004a4c7e",
+      "after": "8f9b730742d702eea1aedf70f60b0955b400ab82a1709ea0f5eb0a0d004a4c7e",
+      "unchanged": true
+    },
+    {
+      "name": "falha_6_depois.tsv",
+      "sha256": "2f7bd63cce36b6e6b831060fdc436c9462c2f2cca2f66b874ba67898e97d8503",
+      "after": "2f7bd63cce36b6e6b831060fdc436c9462c2f2cca2f66b874ba67898e97d8503",
+      "unchanged": true
+    },
+    {
+      "name": "falha_7.accdb",
+      "sha256": "9c21e22d684a643f22fefb00285b06160a0c31b00d38c658f67d3673641beb6f",
+      "after": "9c21e22d684a643f22fefb00285b06160a0c31b00d38c658f67d3673641beb6f",
+      "unchanged": true
+    },
+    {
+      "name": "falha_7_antes.tsv",
+      "sha256": "65bae79e7957db91ac4099174f6673fdec828739a2236513e9d5fac4d1eaeb73",
+      "after": "65bae79e7957db91ac4099174f6673fdec828739a2236513e9d5fac4d1eaeb73",
+      "unchanged": true
+    },
+    {
+      "name": "falha_7_depois.tsv",
+      "sha256": "ecfbd358fb3f600229f4418acc8e25033cd9c2c2dbd622727a91fed47e741071",
+      "after": "ecfbd358fb3f600229f4418acc8e25033cd9c2c2dbd622727a91fed47e741071",
+      "unchanged": true
+    },
+    {
+      "name": "falha_8.accdb",
+      "sha256": "7d44678103181fcac7c1413ca4f5d0bf4a1b7e3d2f2084ea5f34bfd2bc62d87c",
+      "after": "7d44678103181fcac7c1413ca4f5d0bf4a1b7e3d2f2084ea5f34bfd2bc62d87c",
+      "unchanged": true
+    },
+    {
+      "name": "falha_8_antes.tsv",
+      "sha256": "2b0a395bbf0025e11945db9fae16a57db615ae50e376a8f54c3117c539d0032a",
+      "after": "2b0a395bbf0025e11945db9fae16a57db615ae50e376a8f54c3117c539d0032a",
+      "unchanged": true
+    },
+    {
+      "name": "falha_8_depois.tsv",
+      "sha256": "98981420904dd730edb6006b25bbe5fcc4e053c3fcb760eb385124f4adda4fd4",
+      "after": "98981420904dd730edb6006b25bbe5fcc4e053c3fcb760eb385124f4adda4fd4",
+      "unchanged": true
+    },
+    {
+      "name": "Fixture_Persistencia_Fase9_Mestre.xlsm",
+      "sha256": "bba8b96d9b8deadbdd233b009d81805c78c0e5dc399b289771a5542686a7b865",
+      "after": "fbb127500d504e6ac9bf3f857dfc936f1f0e43449b3549a2473fff2a5b56386d",
+      "unchanged": false
+    },
+    {
+      "name": "historico_alterado.accdb",
+      "sha256": "25e812d85d6f6f3d70513f0e6ee14f4c55a7bcf72631f6510044cdcf46fb646c",
+      "after": "25e812d85d6f6f3d70513f0e6ee14f4c55a7bcf72631f6510044cdcf46fb646c",
+      "unchanged": true
+    },
+    {
+      "name": "lease_orfao.accdb",
+      "sha256": "7eb8f957f2dbac3b7d729b30c5c225814db5e9af35385b809c4095bbd978063c",
+      "after": "7eb8f957f2dbac3b7d729b30c5c225814db5e9af35385b809c4095bbd978063c",
+      "unchanged": true
+    },
+    {
+      "name": "legado_sintetico.tsv",
+      "sha256": "38de109d962cb44f45cab4934ea957be1480c362cad00da4b7d9538ddddc2218",
+      "after": "38de109d962cb44f45cab4934ea957be1480c362cad00da4b7d9538ddddc2218",
+      "unchanged": true
+    },
+    {
+      "name": "migracao.accdb",
+      "sha256": "7f4b1bfe881766db8735d5bdb592ffa6d8e450da2ccf056d881f68a1d9543338",
+      "after": "7f4b1bfe881766db8735d5bdb592ffa6d8e450da2ccf056d881f68a1d9543338",
+      "unchanged": true
+    },
+    {
+      "name": "origem_alterada.accdb",
+      "sha256": "611f51620bf0fb1af2ddb5c62be6b5e39f7a0e36ffdd9fd7a864dd7524cb999d",
+      "after": "611f51620bf0fb1af2ddb5c62be6b5e39f7a0e36ffdd9fd7a864dd7524cb999d",
+      "unchanged": true
+    },
+    {
+      "name": "Projecao_Bench_100.xlsm",
+      "sha256": "3bde977466d58d769a781418f810e5fe5c03ea42d3f048adfece63318ce6a6d2",
+      "after": "3bde977466d58d769a781418f810e5fe5c03ea42d3f048adfece63318ce6a6d2",
+      "unchanged": true
+    },
+    {
+      "name": "Projecao_Bench_1000.xlsm",
+      "sha256": "3742372bf9c18db85623d92cfb82e57670747c8d8637bd41a5655194b2c59940",
+      "after": "3742372bf9c18db85623d92cfb82e57670747c8d8637bd41a5655194b2c59940",
+      "unchanged": true
+    },
+    {
+      "name": "Projecao_Bench_10000.xlsm",
+      "sha256": "b66396ca5cc51c51685bb5474de51773afa7f8af4622183a93a36f3d31de354d",
+      "after": "b66396ca5cc51c51685bb5474de51773afa7f8af4622183a93a36f3d31de354d",
+      "unchanged": true
+    },
+    {
+      "name": "Projecao_Bench_5000.xlsm",
+      "sha256": "dcca7f279d90ece8355b13a1f0dd0126c20e5e25debda094db5620a2b48c6d25",
+      "after": "dcca7f279d90ece8355b13a1f0dd0126c20e5e25debda094db5620a2b48c6d25",
+      "unchanged": true
+    },
+    {
+      "name": "Projecao_Ciclo.xlsm",
+      "sha256": "0a9b8aedb650db4aeae91b1917d1a85025403c8f71396ad3623ec8160276118d",
+      "after": "0a9b8aedb650db4aeae91b1917d1a85025403c8f71396ad3623ec8160276118d",
+      "unchanged": true
+    },
+    {
+      "name": "projecao_f9.tsv",
+      "sha256": "357c701245728326a4c4c22cea9071cc84f8c3fe76f88494adf277c0257c845c",
+      "after": "357c701245728326a4c4c22cea9071cc84f8c3fe76f88494adf277c0257c845c",
+      "unchanged": true
+    },
+    {
+      "name": "Projecao_Inspecao_Metadata.xlsm",
+      "sha256": "07b8e5bf276eb2a6c55a78a9eb93748a18cea188c5629426cb368090729c6fda",
+      "after": "07b8e5bf276eb2a6c55a78a9eb93748a18cea188c5629426cb368090729c6fda",
+      "unchanged": true
+    },
+    {
+      "name": "Projecao_Reconstruida.xlsm",
+      "sha256": "d565b07a3c45b2af5e9f0c8d22798bcce6b964b0ddd7fa848c41e0ffb4c8d5c0",
+      "after": "d565b07a3c45b2af5e9f0c8d22798bcce6b964b0ddd7fa848c41e0ffb4c8d5c0",
+      "unchanged": true
+    },
+    {
+      "name": "Projecao_Reparada.xlsm",
+      "sha256": "d11729a6aa7ced15ffb5c34b88a6bf5881b28339ceffffac571c853a95359efc",
+      "after": "d11729a6aa7ced15ffb5c34b88a6bf5881b28339ceffffac571c853a95359efc",
+      "unchanged": true
+    },
+    {
+      "name": "sondagem_ace.accdb",
+      "sha256": "45041c18ea0bf739c537e98352cd5530ea00bc14ce2caf1021484dc67ff6f833",
+      "after": "45041c18ea0bf739c537e98352cd5530ea00bc14ce2caf1021484dc67ff6f833",
+      "unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,2688 @@
+{
+  "base": {
+    "sha256": "f989289554a5c081cef8bd13de2e0b6f0e48ec4c1ba1dd5e75c349eff458f72c",
+    "components": [
+      "EstaPastaDeTrabalho",
+      "Planilha12",
+      "Planilha1",
+      "Planilha13",
+      "Planilha3",
+      "Planilha4",
+      "Planilha2",
+      "Planilha17",
+      "Planilha15",
+      "Planilha10",
+      "Planilha16",
+      "Planilha18",
+      "Planilha7",
+      "Planilha6",
+      "Planilha9",
+      "Planilha11",
+      "Planilha5",
+      "Planilha8",
+      "clsOperacaoPlanilha",
+      "modIntegridadeOperacao",
+      "mdlChamarFiltro",
+      "mdlChamarTabCan",
+      "mdlChamarTabEnt",
+      "mdlChamarTabSai",
+      "mdlCondCel",
+      "mdlCopiar",
+      "mdlCriaBackup",
+      "mdlCursor",
+      "mdlMacroConexão",
+      "mdlMacroConexãoClientes",
+      "mdlMacroDocFora",
+      "mdlOcultarTítulo",
+      "mdlTelaCheia",
+      "modSeleniumCommon",
+      "modSeleniumConsultaNFE",
+      "modSeleniumRenavamConsulta",
+      "modSelTest",
+      "MóduloOfficeRibbonEditor",
+      "MóduloPesquisa",
+      "MóduloRemoveFechar",
+      "modValidacaoXML",
+      "mdlChamarForm",
+      "mdlChamarFormDocFora",
+      "mdlChamarFormNCM",
+      "mdlChamarFormSaida",
+      "mdlChamarFormVeículos",
+      "modPreencherFormulario",
+      "Cad_NCM",
+      "Cad_NFE",
+      "Cad_NFE_Saida",
+      "frmRelatorioXML",
+      "UserFormFiltro",
+      "AuditoriaListaFake",
+      "modTestesAuditoria",
+      "modTestesFase2",
+      "modTestesIntegradosFase5"
+    ]
+  },
+  "cases": [
+    {
+      "id": "A09_2WB",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\A09_2WB\\Fixture_Auditoria_Fase5_A09_2WB.xlsm",
+      "sha256": "9bc2c4eca46a51fc8ed33ca0860b5ee75feb501f9ee41499c9c28852291f2585",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{CF56BA75-4AC3-491D-8F8B-7525ADF70FD3}{C78CAB60-1134-47F5-A054-070BE0968621}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{05BEBA62-D67D-4207-8D97-02DD90D745D6}{00BED089-8438-4853-9B37-4F49A393639A}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{328A88BE-1E0A-4BC1-A037-41CCF9F2EB2D}{D8622569-E821-4B00-9725-0783E655E886}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{7F5AC449-30DD-48ED-8AE7-9470A1611A5B}{302FEF90-06C6-4ECE-9972-5649967BFF82}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{800C30B1-BB0A-46E9-A7DE-C2E9A21BEC06}{2FC8DEC8-716D-4B68-B14D-8595DE56AAD7}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A09_SUITE",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\A09_SUITE\\Fixture_Auditoria_Fase5_A09_SUITE.xlsm",
+      "sha256": "2ae365e1be17199c4ed81aa8fff0453b9cab15b158e13c76be9efb82a767e409",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{5F06BDA9-A325-4A4E-90B1-67E217CD1917}{5F7DC38A-3FF6-479E-B8D6-10AB2AA0DF38}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{579102F4-D530-4EDC-A7A7-0CE56AC63769}{81A6B2EE-BE25-4475-920E-770040B13048}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{6684651C-1E26-4DDC-A124-62AE6865490B}{16F71C18-6C6B-48FB-A21A-45366788A68E}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{4B239750-8A81-4126-A9A1-1369A5306D4B}{03F11A30-58CC-4F04-9187-2FF47237981B}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{C0452754-A053-4FCA-B30D-3143CBAFFFAE}{16F29483-68E1-49D3-BC61-30A5CA602EA1}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C_DATA",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\C_DATA\\Fixture_Auditoria_Fase5_C_DATA.xlsm",
+      "sha256": "da957f5ecd9bc4925cb16efb3126c4a68aa905082028914d9b1410608115c662",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{259550ED-E605-4245-8418-B3012F693573}{46DD384D-D8F1-4454-86A0-715F9D80A6E1}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{A80378C3-5AB7-4200-9B38-69455E378C15}{EE8540E2-D4C4-4D5A-A2BF-05748F1DF217}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{C30E9ABD-874E-4EF1-937B-538DCC02948F}{C4DDE4FD-12F3-4185-BB8A-36804F1D43C6}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{88E3C44F-AD1C-4AE3-BFA3-C8467851F74B}{DA55240F-F05C-40DC-BEB1-A97D37BC06BB}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{796B28DD-9E59-4190-8F2A-345C8BB23FDD}{75099845-DDBE-40D7-8B7F-9760CA43CD1B}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C_DUP",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\C_DUP\\Fixture_Auditoria_Fase5_C_DUP.xlsm",
+      "sha256": "6dce2bff032914f4d648fa5e99b3eade675c407de04f2de6b6cc2b5a429df57d",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{9986C1E1-DB33-4641-B778-2108F9927935}{48DE5692-A5F5-47FD-98BE-8D90DBDAC494}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{D7808949-A7D6-4BD9-ADF5-A4C1CD560578}{6E38FB62-43B3-47F9-8A86-FB4244432AC3}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{8419B3A6-EE8F-42FD-90F7-7A4DDCEA4380}{F3C67F12-8AA8-47A3-869A-62EB0011609A}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{31EC9347-F0DF-46D8-8D78-B8299696F466}{6B8C07E2-DF19-4860-88A2-F283B1CB7FDC}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{6DFEAAA5-DB1D-4633-9D68-B7BCC5503B91}{8D76AADA-F20B-4013-92D1-F050EF0DBFE9}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C_FALHA_INTER",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\C_FALHA_INTER\\Fixture_Auditoria_Fase5_C_FALHA_INTER.xlsm",
+      "sha256": "00781e2402d4d110fbb79a182681053769a93c7d5d0f3154f833fe2eead6aa5a",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{D796E2B7-06B3-49EA-B627-AEA98CC34567}{DD9FD02A-086B-49E8-A080-29998C581B97}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{09CE97CE-0331-4669-82EC-7526C2F96045}{46B287EE-6DC4-4188-A34C-919D11E1AD0C}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{1C8C6BC8-4D32-44D7-84FA-8C41C87458F7}{E5F2E3F1-36FA-4B16-8A7B-74F8344CC585}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{E2D3CC61-071A-4082-BB4B-AD724E958C55}{3821F03C-1330-4FED-8683-AE67125A7FEA}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{A13367D9-193E-4E1B-8919-66F70542E29B}{9774F646-82E7-4DD9-8569-64B87FFCB6E0}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C_FALHA_SAVE",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\C_FALHA_SAVE\\Fixture_Auditoria_Fase5_C_FALHA_SAVE.xlsm",
+      "sha256": "4ba5b0f8635cc493262287efc401294e4fe52834110ba101d6fde1bdf300dcbd",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{BAD627F6-08DA-4167-9DDD-995A05031D2F}{F12B0B2C-62A9-4C07-8191-1004FFCEFC73}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{8240B46D-A66B-4DAA-888D-7A02B8AEBD1D}{EA902837-2739-478B-BCB1-5964FADE0AFA}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{E7581DDC-066B-4767-A2FD-63234F9B985D}{BE9D249D-C80C-4F26-ABDA-6491872828BC}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{D7D1EE08-141B-4A66-8B31-446EC21BDC4D}{861AA897-F279-43C9-8DDD-6ADEEEE4E2AA}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{1434CA2E-2670-4DA9-886E-9DA8A3E9CEA0}{9729F09B-41CA-490C-8219-D8BFD7107DB4}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C_VALIDO",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\C_VALIDO\\Fixture_Auditoria_Fase5_C_VALIDO.xlsm",
+      "sha256": "bc9aeeee6b55d5501d4848d3d32468bc1cf40d4fcc05de98a10799c553be3358",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{6107C3A2-F91F-479D-A517-1F599F2EACDF}{48D417F3-C401-421D-9643-FD5157890DCD}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{B5039963-B561-43EB-86B4-0867CA0B57DC}{37669F99-9658-4859-AB25-3C92A3363B3B}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{9169F933-EB3D-4033-AEAD-7A97A57D93F2}{4AD018C8-7AEB-40C0-9F28-380E80F8B6D0}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{8DACA687-7A3E-4451-BF74-7F29B84111EA}{5AA2E126-7CB0-422D-B5DC-ECEB9368DEE8}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{06D54B53-EAB4-438B-9ABB-58C05157BB1E}{D38DC616-EFCB-4824-84FB-ED4BFC8F015F}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C_VALOR",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\C_VALOR\\Fixture_Auditoria_Fase5_C_VALOR.xlsm",
+      "sha256": "1b1a21edc701a65d02477bc386f9cdf3da92223137ec8fc0788d1c178c88ef8e",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{CC8F5C5D-8B7F-4791-BB3E-3E45E4F4CA47}{6228A695-82E9-4A53-A272-C07E8438F48F}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{0154759A-84FC-4B8F-91E4-6CB45E26214E}{E630A09F-8F5D-4E4F-8DCB-E9FFFBA32CED}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{54F6FFB0-E3B5-4C50-AAAC-08411643714F}{1246B19E-82BA-4A47-ADD6-9AA44C7F1418}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{B1517BC8-164C-49E9-8B4B-EE6EF273A0CF}{15C44ADB-D502-49C8-98FB-7EDA32D4562D}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{5C5A4DBB-5BD3-42E8-9BE2-C1630CC9D0E3}{CA31527F-78E6-44D1-967A-A5C647BFB05C}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C_VAZIO",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\C_VAZIO\\Fixture_Auditoria_Fase5_C_VAZIO.xlsm",
+      "sha256": "ec43b9e56805db95d375c0cff7a0cf27d979f93441ab8c671944111b74f05513",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{26A105D5-9CA5-4B15-AEFA-4E9934B92AC3}{2E55531C-E57B-41C6-A5B6-A315A9369887}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{91140C59-F026-4AB0-9211-3CDDB5AD572A}{A4C225C8-B450-42BA-A5B3-F5DC6511DC8C}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{D226E718-922D-40F8-8D98-E9509378ACE6}{08B04BC6-71A6-4150-A59A-4B9B4D8DD347}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{0FFC258E-8483-40F1-A91B-BD270B542C39}{4DB7ED87-9A50-4141-9E7E-A7243899AE56}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{5CAA6007-B832-4988-A3FC-7EA515680495}{742809EB-2102-48E7-B9B6-1D7E45E2AA9C}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D_DATA",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\D_DATA\\Fixture_Auditoria_Fase5_D_DATA.xlsm",
+      "sha256": "87f0e282df94d9a43b0b18699e2f965faab52359df2a201fb66e6448ac0a3519",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{88304FA6-E0D9-4321-A218-2DB33EE4080F}{866660B5-135B-4DE9-BF57-6986CF39E0B0}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{10598385-007E-43C9-88CC-B41AF6A90EFA}{1DB412CE-3C22-4F47-85C6-3BFDA15024D1}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{F0BC3C95-DE40-49AB-AA22-2C3046B8279A}{2B6A3A04-7414-4B54-9125-33AD627B6368}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{D079C6AB-463E-4DA9-B5B0-03E1A82518D9}{92AADD60-E345-4D33-941F-81B7A6CB629E}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{4F2A8F53-8EF7-4066-8E02-7C5E846501A8}{7FFC259E-DE1C-4D28-A36F-E3A1F17BA8AB}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D_DUP",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\D_DUP\\Fixture_Auditoria_Fase5_D_DUP.xlsm",
+      "sha256": "f70bbf837c891ea4c6ac539b0bf9ddd05ddaae2b4a08dd6f56eaa20c96486f7e",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{33B2CB6B-D33D-4641-95B7-886634598E7E}{8F4ECC99-E6BF-4AC7-9119-CB357F6EEA91}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{E87DEC3C-35C2-40AA-9B2E-2288BB7137AC}{2168CF0A-A8CF-4B11-836B-A27164436566}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{2584D0A0-BEE5-4073-9348-C3454C7F7CED}{A1A353C7-69D9-4364-9E09-1AE24CB04385}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{0894A729-C856-4211-89D8-F1338A3157F3}{C8897033-85BE-4EDF-B3FD-4BAF9D3627B4}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{E16D27C4-B9BE-4B18-A329-9A42132F9A9A}{5451A87C-1B41-4A1F-B93C-E42914915498}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D_FALHA_BAIXA",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\D_FALHA_BAIXA\\Fixture_Auditoria_Fase5_D_FALHA_BAIXA.xlsm",
+      "sha256": "75933df7838d7cfef20bf3f82f2d7082bcac6ee1614bbfd0f79ace5cf0a7ec11",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{5A2F5ACC-B9A7-4A81-93B8-F1156BBA844D}{64098676-0EDF-4205-9F7D-5B68821A9E4E}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{2D57C607-3216-40D6-9B15-A45815C17E9E}{7A662EF4-8BD1-43D6-8A16-2B0B1C528555}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{52191D3E-8D78-4E14-B2CE-0BB9C2017B64}{C82A7956-BE99-4BA5-A697-DAA26291EFA0}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{B5E17606-0C8C-4817-9445-4D9586569524}{676349A5-9A0E-4E72-998F-6C3F490C4F5C}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{7FCD5B03-0692-437B-A2D2-36E73EC3AE29}{845F47C6-5E51-4D73-B5FC-4A6879DE50E9}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D_FALHA_INTER",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\D_FALHA_INTER\\Fixture_Auditoria_Fase5_D_FALHA_INTER.xlsm",
+      "sha256": "3b0f330194f7ba5b978a09b32fed01e086974cdcee375903a199d1713155c62f",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{07198C90-E92C-42C8-ABF3-56382B0CAD8F}{170388D2-EFA6-4587-915A-72A106B3C356}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{E03A05B2-14B1-4216-B571-BDC033D3D2E9}{B3088459-1DED-4A02-BA96-21D67E9BAC7D}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{E79E9243-E82F-4FBF-8C7F-426940AE0B36}{588FB0AC-FE70-4102-A6AD-CB9F3A7C01CC}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{EB4E0F21-411E-4EB4-8780-CB31E301A2B5}{8A20B833-AF18-4968-B49E-255AC9403B42}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{9A524245-FA48-4375-9852-65A06CF06B01}{18003B1A-B90E-4722-B73E-3F958BDDA32A}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D_SEMORIGEM",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\D_SEMORIGEM\\Fixture_Auditoria_Fase5_D_SEMORIGEM.xlsm",
+      "sha256": "1b91165c8fd2d7e84dc55f43c0514bd7304ee26fbf0fe9bb61af9983fc9017fc",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{F03141CE-066D-48B0-B5DD-247F562F593B}{9E285C09-721B-4FC2-9828-5C808C9C9A47}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{B38BD41B-10DC-4175-BDC7-AE8071F3DB61}{5A97F227-E2D6-4C08-944C-5E1CE99DFCA3}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{9D117CCD-DE04-4182-B7D4-D984140D9816}{1A60AB25-52C1-4B97-8AAF-3B1E8B3AD8E7}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{1828761D-570D-4E5E-8D2E-64F88BD90ACF}{00A7D86F-5D36-48FA-B226-DAAC3E1C755E}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{DE1D2636-AD4B-4D7A-9820-FB83C6C72048}{6659698C-F0EA-4132-AAE9-1D0E5C0C8E89}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D_VALIDO",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\D_VALIDO\\Fixture_Auditoria_Fase5_D_VALIDO.xlsm",
+      "sha256": "ad06aebea15e74485ad8ee2a5e12daec1ae3b1531c090d150ba9b9d599c760cb",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{8C97A954-BFE8-49B3-93ED-30979147ADD6}{7502A84B-CEB4-4699-B8BE-165F8A7E3F9D}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{DB710297-D4EA-462E-8EF4-23125496E3F3}{0711FADD-F30E-4509-B9EE-4D737C6691B7}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{40963C32-80F5-4B8F-BFE9-7ECD2F972524}{72054C6A-BBDD-46F4-8739-4C1F3A9FAA76}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{CE0BA6AA-CE22-4B84-910A-F950672C3EB5}{6726AED6-29BC-4C4E-AE7D-445D2C749A0F}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{DD73D026-1387-4852-8507-C8C76399A1F2}{E864EE2D-1F5E-4A41-A1D4-ECE816BC9E46}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D_VALOR",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\D_VALOR\\Fixture_Auditoria_Fase5_D_VALOR.xlsm",
+      "sha256": "b840b3bbc57eba3be0fabf55799210447ce018cbfd2fd42cd88194e195252eca",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{7661336E-7733-4956-8B75-00754963CFED}{E18F2986-9D7F-4916-8B5D-47ED7CDEA914}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{9FDAEBBA-C572-46F7-996B-68E91BD7EDF1}{7C6094DB-62DE-4E7C-A24B-E6F95D443911}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{B170695B-BF36-49EB-BE38-7816641B39CF}{6E4F8CA9-34C4-40C7-83C0-BE8A1A106BCC}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{C1EA5D16-B4A1-41B5-9FB5-FCF8D5FDB6FA}{4241350E-7729-4512-892D-7AF2D3066B44}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{D2DDD509-F1C8-4350-BD7C-686C09A79C46}{6014BD71-BAE4-430C-A933-4ED6A6B99B0E}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D_VAZIO",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\D_VAZIO\\Fixture_Auditoria_Fase5_D_VAZIO.xlsm",
+      "sha256": "f2a16a502a276b7571d5931f130fc20229ef170126a9cf12d08056c9eb8e69c7",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{E982AA8C-84AF-4CA0-9E43-80BCA3FFF781}{D5B9C67D-4389-4879-B396-906F7CBCE4D6}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{E0D3CA0B-7763-4AC8-9643-2E6E976CDF71}{0C154D48-0115-4CEC-9B24-2D0B892FCF0E}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{A86256AE-00DF-4A67-9A5A-417B642DF1DC}{3059BD10-8C80-4262-A034-31E74D38E1ED}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{D64B41D4-A00A-432C-8451-5F76ECE57885}{CF875BBD-9481-46F0-B5FB-4F69EA312628}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{479E57AD-DE1A-430F-825A-CA6B3AE44EC4}{854B0B24-A9AF-48B4-A8E8-7BB881BAA915}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T_DUP_DESTINO",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\T_DUP_DESTINO\\Fixture_Auditoria_Fase5_T_DUP_DESTINO.xlsm",
+      "sha256": "d0f9c6793463bd7e03b939bf86c5b8096f366cea72d9717fac05ee9eadbace3f",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{D51CFA73-28BA-494F-94A5-66B839D2BFF8}{F86BF8CE-F7D0-43B4-AFDC-BB4A0876FBCC}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{4271F7AD-77A6-4F8D-886A-370857A83C61}{A163FBFB-8AD5-4A82-AD8F-4B7ED5FB9055}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{158B29EC-5B12-49AC-B44D-779F67761C63}{5EE366D5-1D5A-4164-81ED-4214E8A059B3}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{BA371372-B756-45C4-AFE9-F3876E6D5A12}{DE019CDC-E48F-44E6-9A89-C9A7A8210BD5}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{EBE83960-8E43-43A9-B524-EE4523F2577B}{D9C4EAF5-088D-4601-AF24-566297809F20}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T_FALHA_INTER",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\T_FALHA_INTER\\Fixture_Auditoria_Fase5_T_FALHA_INTER.xlsm",
+      "sha256": "9eec836c327177d4c48b6837c3bb779a4fd6c3b3f4016178d9d978ea908f8780",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{B4A44618-7D4B-446A-81CA-9482E35C6A5B}{EE773B96-9136-421A-A1B1-DC1B1268BEB9}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{417999F3-727B-4DF5-AA62-146F6DFA1557}{46A0BED9-B68A-4052-9D9A-D8C66CC43599}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{18155A5A-BCCC-435E-90CC-FA0F3A318ADC}{6C208682-966C-4985-A8AC-FA685D02EDA8}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{1844C21A-23B4-4C73-ABC6-6E0F89FBF8E9}{B14FA9C4-6DCD-47EC-8BE6-68B8E314F4CB}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{930D264D-EF38-4A90-821C-32F64BBB481F}{5AF920F0-585D-4614-A55D-77A539A7B477}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T_VALIDO",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\T_VALIDO\\Fixture_Auditoria_Fase5_T_VALIDO.xlsm",
+      "sha256": "a783702e10cd88de0f05cebc83a361c42c178c58c86436b176a4e15532a51827",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{3DA8BE81-3B41-437D-94AF-3DC612B18F69}{89103B29-70C4-45C6-B52B-6F2D428F2AD4}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{C5550EBC-AE90-4E0E-8B03-5AB0ABB92956}{CAA26389-BF74-489F-8E22-63258BC858D9}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{E300C6AF-F8E2-4D79-837E-A6D70DB7329D}{FDD0CC02-2815-48B8-BF30-057DF79A0EC0}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{4063C088-FB37-4BE7-A343-2A0DCFA45E1E}{C5A141D1-B713-4B30-A716-E6DCA26CF9D9}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{028FE6C3-2B7C-4593-B094-326A42EC37E8}{B0C61A2D-BA79-47C9-8670-AC970D22B312}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V_DATA",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\V_DATA\\Fixture_Auditoria_Fase5_V_DATA.xlsm",
+      "sha256": "d91f44e3061e99f4d4980e1bd8a7a44e39ef9eb5abc4964054c2e60ac90c3b34",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{6F0479B7-5903-4C0B-B2D9-774343556C5D}{26658720-D893-4FC1-A244-2EF8C9829298}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{D3EC1608-1C2D-475B-9FAA-2ACA19C5A9FB}{F3306017-F2ED-41E5-89C2-B6A20B1EC541}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{DDA21763-0960-4B5A-B412-F187B697F202}{6D4924BB-6D92-446D-BDED-0C9C374AE80D}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{439E99B5-458B-47A6-9220-DCE5727F3262}{4B0B1301-B436-4316-88CE-E319EE80AE2B}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{BD531948-60AB-4BA5-B561-605A202512D7}{C9FDAF2C-BD35-44C5-9DA4-3384B8C60AC1}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V_DUP",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\V_DUP\\Fixture_Auditoria_Fase5_V_DUP.xlsm",
+      "sha256": "1f5cff611721c5d839437e78472a936972871a29c62f73564ae12889eb2b8c8e",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{F5325B74-93B9-44B1-AE94-448C4C4A7C93}{3687C51F-6448-451E-B1F5-57B034895605}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{C5B61B70-F09A-413F-9C3C-287759B2B25D}{A1657BDD-B4E9-4996-8309-D39374BA52DD}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{BE5A56C8-0E74-4291-B9D4-4133C27493AC}{63EA0820-D109-4FD3-9739-A683AD188B72}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{F5E846B1-E3BE-412A-B86D-E5D44290ED13}{6826607A-6A3C-4E71-BFA4-1C5E03530351}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{0B56DDE7-C229-4433-8012-7282357ABFA7}{99C78117-0C69-49E8-BFA9-A490D206B76C}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V_FALHA_INTER",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\V_FALHA_INTER\\Fixture_Auditoria_Fase5_V_FALHA_INTER.xlsm",
+      "sha256": "e3745ca0c69ad7385f7be449857987f71198e6b988cd64d3f071bb811a6d8f71",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{69A8F350-B8E1-4193-AF96-0BF6D4BB1C13}{552FF941-791A-4BEB-93E9-1CBB80168AAA}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{2A379A61-3A29-4E43-81CE-182C3D3BA3F0}{A27CBD09-32AD-48D7-9C44-94A115222540}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{8522901B-A327-45CA-90C0-1E7B68C66206}{F18372C0-B561-4212-BBE6-7DB41882633F}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{68875C1C-918B-4D1A-B6E8-3BBA2122E71F}{2BC759B4-50F7-44A3-80E6-1B4BB87EE24D}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{CFFC975A-F3B4-42BE-BA7E-8C3328305BBC}{566E2691-3863-48D1-867F-76840E82C56D}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V_SEMORIGEM",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\V_SEMORIGEM\\Fixture_Auditoria_Fase5_V_SEMORIGEM.xlsm",
+      "sha256": "d835a3b3d65ccb3ac8e81dbf58fc2ae98b3ffacaf470897b75fea29e45c09141",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{FF9B4608-EB40-49D4-891B-C463DCF3182A}{DAFD3B46-E8B8-4D36-8DB0-CDF218E8B1FD}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{7E276951-EFCC-4120-8D28-4092285B1093}{4125F50D-7417-4C1E-92D9-C55B04BA0544}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{E516A64D-C7F6-4848-8BD1-4E7B6AE2C7DA}{E2A236B0-B642-4EF3-AB14-06B2718DFBC3}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{C6D81A80-69BA-45AA-9EB3-29C223B97681}{F1F1C059-E428-45F3-8986-DE95C9BB11F5}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{68E7D2DC-04F6-4D6A-AD8B-B2877F82206A}{288FE72F-66C7-43FA-AC26-91BEAFCFCB15}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V_VALIDO",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\V_VALIDO\\Fixture_Auditoria_Fase5_V_VALIDO.xlsm",
+      "sha256": "070f8552d412d35fffc240acb23d36882411bbaff1b02fc91d11b1f22c2ddcb8",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{A70B5B9B-CF0D-4C63-9792-78D8CE5E8584}{6E59B2B1-1117-4322-B619-D8927BC42EDB}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{67EB260E-838F-4125-B805-62734ABBE17A}{124D41A5-3E8E-4C34-855D-DF26D7D43BDA}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{B65F9470-DBA2-420B-A537-FA5803120E45}{E748D5A2-CF0F-426F-8372-718B064BC05B}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{45C1331B-A580-408B-9614-4816752E529B}{B7B89650-9C8C-4B12-A758-BCEACC77F41F}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{79C5091E-0A0E-4F74-9C18-A4862EFE84A3}{1DCBC5CF-3CA8-4368-8AD3-9A875E67D4B8}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V_VALOR",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\V_VALOR\\Fixture_Auditoria_Fase5_V_VALOR.xlsm",
+      "sha256": "782f11fccc2c72dd769cd3340461c45cee035500ab6d62af0efb939e8fac8546",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{8F12D62A-AB0A-40DD-B972-5D51D18E42C5}{2EC93763-BA61-46F9-971C-458DEAA4E6F2}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{0A0BF980-FFF6-45C1-BE89-4549898259C5}{FCE79C38-1A94-4DB2-9398-B84A2FF5B388}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{CD7BBD22-1D9A-40F5-8C64-CC0DEE2E6238}{944F4DF8-5BFF-4221-9455-4DCCAB73BB65}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{F372A871-AF8A-46FF-9576-E8AD41547F5F}{8ED88C73-67ED-424E-9BDF-46E559640530}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{543C0760-B8E4-490E-AF39-706E370173E2}{A9B5EFAD-99F0-44C7-BF18-9493E0DE63B1}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V_VAZIO_XML",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\V_VAZIO_XML\\Fixture_Auditoria_Fase5_V_VAZIO_XML.xlsm",
+      "sha256": "b1b89742855b046d5ac160fe0ac2a511cab019659267bab36c60b0edd1001412",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{4BFB8D0C-849E-4813-A328-471D9DD1A8F2}{0132154F-3A37-4AC7-96D9-8B41A2D15411}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{389CB35F-3EEB-4A08-9559-906D1D753196}{9137425F-05F2-4732-B5DF-06FE8E74CA3C}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{4FB6FCE5-A8B5-47F0-8EBC-2EEC6C145030}{9B88D477-E74E-448A-AECA-915FD50B02C7}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{FA3ADA1C-D46F-437D-9D09-1252E8729FC1}{D98BE067-4258-4267-B3B9-214FDE8C44AD}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{E8512313-35A7-4F6A-976A-E9FDA43F5885}{EEA97030-AB70-4BDA-8FBE-8A030064487B}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V_XML_DIVERGE",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\V_XML_DIVERGE\\Fixture_Auditoria_Fase5_V_XML_DIVERGE.xlsm",
+      "sha256": "94f721accaa0be76a3d7cf2d45bf477879966c0481967db18120d1902c7b96af",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{952FFEAF-1441-487B-9AA5-73F57771798D}{8346AF7F-E77B-4658-9D34-68BD57DC8F8D}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{B642BA9B-3A05-4CD5-B35B-61FCA8EF3307}{1B56170F-D7B2-4AE3-BD4E-F197F83A4A67}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{EC30ECF7-9F73-4C21-A6E6-F603BFA35C38}{4B6165D3-2885-49FC-B877-69629358333D}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{B40E3526-7B7B-4F67-B737-ACDCB786373C}{73C7DB63-DB8B-4F0C-A692-E495F6604AC8}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{83505F72-4FD4-4CE3-91F0-B75729E8F397}{4B77B0C6-7F26-4F38-BC24-6BB4655EFABD}\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "XML_SUITE",
+      "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\OneDrive - MARCOS DESPACHANTE\\Marcos Despachante\\Software\\VBA-Excel\\_auditoria\\fase5_20261101_202114Z\\evidencias\\cenarios\\XML_SUITE\\Fixture_Auditoria_Fase5_XML_SUITE.xlsm",
+      "sha256": "85f45e8dfca1d6a8d54884c6710848a9a5316ed197698c5f5bde627fc1a95e80",
+      "components": 56,
+      "changesFromBase": [
+        {
+          "module": "Cad_NCM",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{53C8DAE7-3C28-40F1-BFC3-F93CEFC77704}{DC93419B-2491-424C-AE8C-4C175533A865}\"",
+              "after": "Attribute VB_Base = \"0{7F8D1604-868E-4242-BF42-AFEB7617B128}{42D2950B-6B1A-4B25-82F1-813569E19F5D}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{AC48E06B-BBD7-4098-BCC2-1BBF88A8D5AD}{D4D6A5A4-EAF3-4C37-8613-10CB32A65F73}\"",
+              "after": "Attribute VB_Base = \"0{3CE3B741-8ED4-4AD8-8BDE-3518F4B7DB18}{9692383E-437D-4116-8A5E-A84428159E98}\""
+            }
+          ]
+        },
+        {
+          "module": "Cad_NFE_Saida",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{5461D3DD-0C6B-4EC6-B946-FE4B06A28040}{66A53F91-1CFB-4313-BD6E-FE99D5DD116B}\"",
+              "after": "Attribute VB_Base = \"0{E14E5FA9-C18F-4691-82FB-CFB9E9FB486D}{DF19FF46-4D27-4421-8392-C9322C430ACD}\""
+            }
+          ]
+        },
+        {
+          "module": "frmRelatorioXML",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{095FA2A9-5BC9-4288-83C2-FBBA654E48CC}{43787BC8-E1B8-4CCA-8A70-7B8DEBF5A261}\"",
+              "after": "Attribute VB_Base = \"0{0525AF9D-CD02-4C67-9869-2F3E7F48CFFF}{87E895EA-B43A-4CCE-80F1-06CCFEB2FDB6}\""
+            }
+          ]
+        },
+        {
+          "module": "UserFormFiltro",
+          "diffs": [
+            {
+              "line": 2,
+              "before": "Attribute VB_Base = \"0{B00C5F02-B114-46FF-851E-F9B959166913}{A124D02F-0221-421C-BD76-7889B3083CA4}\"",
+              "after": "Attribute VB_Base = \"0{DC8EAFF9-E6A0-4EF2-BB66-CE64BA14AF5C}{0378F4D5-AFCD-426D-BF05-E425DBC31585}\""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "designer": {
+    "mode": "Analise binaria; nao e compilacao nem prova visual",
+    "exportedFRX": [
+      {
+        "file": "Form\\Cad_NCM.frx",
+        "sha256": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+        "expected": "2c502e315bed2861cdb019337f01138f692e9df154efb03066629d3f86f24b7a",
+        "pass": true
+      },
+      {
+        "file": "Form\\Cad_NFE.frx",
+        "sha256": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+        "expected": "3043c8ff6392eb9fe6d57dcf78a68539eb0f64574962a1def48fe7ed726005df",
+        "pass": true
+      },
+      {
+        "file": "Form\\Cad_NFE_Saida.frx",
+        "sha256": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+        "expected": "8976ba3e70caf4bdcac9c91fe722cfef43db0239c821cea4d455f5f4ee811f23",
+        "pass": true
+      },
+      {
+        "file": "Form\\frmRelatorioXML.frx",
+        "sha256": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+        "expected": "762277f3e4c7aa48f6a5c8b67dbd46ae54574e13d04904b13db75d472ed5025b",
+        "pass": true
+      },
+      {
+        "file": "Form\\UserFormFiltro.frx",
+        "sha256": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+        "expected": "eed9e0c5bf34d720f614c46d094ae37a462d84e0eba488334403b39d7a0ad785",
+        "pass": true
+      }
+    ],
+    "embedded": [
+      {
+        "path": "/Cad_NCM/f",
+        "size": 287,
+        "expected": "dadb443050548efbddbcd472167a6eca9fe3448f0184ac722600543afa74a93b",
+        "actual": "5f1830d91b3e3ec68084fd6c5ddec1ce228a94c39c53736cc75a86b6e1e86912",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NCM/o",
+        "size": 42936,
+        "expected": "621955f547f235a265f3bbdf7c3c6f28769bec345115259dac26e6e12daaf824",
+        "actual": "e0f941844928017745fc3f1377d05b0256fc69a2d1c83df3dfc6461299940430",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NCM/i18/f",
+        "size": 102218,
+        "expected": "c5278782d26c8db74aa7744aea6d2ec177614048011841788e5bb3d66c1a8c60",
+        "actual": "ced567e80ee244bad9a34e18b784201450e22c8c5da5d1adb8454d14303f8d9e",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NCM/i18/o",
+        "size": 260,
+        "expected": "903f382dd00d1419894e2466e383ceebc654a152a8fb1ea718e43c1deac6b82b",
+        "actual": "66469f370540715a5543f440ad84ec31c9e8244c9eab36b53c946ae7a0f79ce3",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NCM/i18/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NCM/i254/f",
+        "size": 102298,
+        "expected": "9b411d3a19b2957acceb8576c91e131573246d6100f7eeacbd5fce962d3e8954",
+        "actual": "e0832262a3deb4ed342568d5bb13417d1f789a7c10d919bca7f813a25b5060ca",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NCM/i254/o",
+        "size": 368,
+        "expected": "57c585083abb6162ca7fb42d95f3a36ccf519de82ac38c232299e40e9327d259",
+        "actual": "c1457e3a0465e053ef8b29f785f9c9f61d350a1f43b11ec673dc4064aae211d5",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NCM/i254/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NCM/\u0001CompObj",
+        "size": 97,
+        "expected": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+        "actual": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NCM/\u0003VBFrame",
+        "size": 295,
+        "expected": "fdea07d72afd8f220531522f135799ba9d41cefecf75f30ca50e7fd0f7697764",
+        "actual": "fdea07d72afd8f220531522f135799ba9d41cefecf75f30ca50e7fd0f7697764",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/f",
+        "size": 907,
+        "expected": "414418a2324a80dd96fcd06c99dc62d42e82e482f5c4a94d48218d88a94762dd",
+        "actual": "34f9db6effa6db51ffc9aa87dd5f9027ff207fb5865add500dc9cca13d4cef62",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/o",
+        "size": 559699,
+        "expected": "092ab413556fa3412e33c228c5fc0f8f1f9b1fd143dfa2450213c5a5dd186790",
+        "actual": "0f7ef8ff1c21a35e251370c75a6bee0d1d14997cf8c52b8f9732a50d2b66fa04",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/f",
+        "size": 192,
+        "expected": "12ed93593a5355e4cb34641e72b8f2045d650e48042eeaed441ba66eaccfa373",
+        "actual": "2fd6023e2f9352d746dc2a47ed4f860f7fc2739fe147249f67c466e906e77959",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/o",
+        "size": 180,
+        "expected": "7df844897eb08456e26a877c67ce804fc457dfb116fcc743119027a60a5b916e",
+        "actual": "e7d3523a6bad5bcd4072b657feb8bd0ae7020649e3f30630009d6f63eaea24e5",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/x",
+        "size": 48,
+        "expected": "4bb3f21198637d3f094a8951404c0715daf8492729096ae7421e9872e36e66bd",
+        "actual": "4bb3f21198637d3f094a8951404c0715daf8492729096ae7421e9872e36e66bd",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/f",
+        "size": 336,
+        "expected": "fb5a25acd0cfeaf82cb89812c2ea3cce40a1f8f0550f5bb6f29ce5c9752db147",
+        "actual": "df7cc40abe819e6a44ad71e7c7de0c06757e13de64be7007ca2cbfc78c94278b",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/o",
+        "size": 0,
+        "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i12/f",
+        "size": 645,
+        "expected": "941e0795a1c9d3c0c8bd3622e4f9039e7afc81777247a6032c7cd7e8b071a6b5",
+        "actual": "a433c877020d4c7fe7586f6e1a7200872ba748a264df965ac1edbbe0ee54317b",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i12/o",
+        "size": 620,
+        "expected": "3810c611d642650d1bbb27ab7e52b6f96be310cb2f20d0c26d6d7e662faa2904",
+        "actual": "5292cd389ed230ce1857c151355bd2dcaec55b10cd59fe51ca4efa7d35ddd655",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i12/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i46/f",
+        "size": 193,
+        "expected": "587b2905197b8d15676b27e2fc9269b6d29e81eb6c8dacadf69720730adf038d",
+        "actual": "3311d6613ff840f7c3660d2b8c061fcf8b54d3862d7aa143540ff2c87d32c941",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i46/o",
+        "size": 132,
+        "expected": "d19203de084096af46fe0ca129f998a5d185f0c59d70f7683d4242d7142946d7",
+        "actual": "f849adfc435e65d828335bddd518a68a7652f5c95104ff978ba0ef9be47a4128",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i46/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i50/f",
+        "size": 797,
+        "expected": "374f7199b7aed69879d4e54cb1ee299638cfc81c9b87867ff49cca7478f33b3b",
+        "actual": "3a0eb5becc675b95a8165d225ee4c4b1735c29a6dde3d5e433df30c1111cbc45",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i50/o",
+        "size": 509594,
+        "expected": "dbd247926917e669631865486344cfe97163b282268adfe9ba1c42fcc172fe5b",
+        "actual": "206b0cf1b31fcaaf9153169dd64abe52d3efd2e055f3ff43b09bf94ba8fa9fe9",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i50/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i391/f",
+        "size": 677,
+        "expected": "942ddd279a1792bde5616b521895ccc3cd4878e0f873ca703e4f92b7b43fb80f",
+        "actual": "967ef418810758295332ae1403c0533be155bf1da52e403b56fb67744ff35ae7",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i391/o",
+        "size": 696,
+        "expected": "474059e4fa99a998176d4167b8a8f82af428d2d4f918d4d2c88b19a56464eff9",
+        "actual": "9907ed79de512631779759500be3957af6d1a5a014b92d8c91c9a20686cc300c",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i391/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i460/f",
+        "size": 209,
+        "expected": "d77c72cf59a6979acb441931512221c4153d8dc0e1a52d806042de74c132b153",
+        "actual": "ff7c098e0a712e56b885bc855d19e942f16633603d8ca895c4201dbe99ec89a4",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i460/o",
+        "size": 132,
+        "expected": "a85e5b45318fb12d59e368c2bbb047ec80a3d9471413a3c9718e7de4af1c3317",
+        "actual": "2dd63b02cad0e6da2068937bc09007ba0ddba1f1b2be97b0e56a73059f771d33",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i460/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i483/f",
+        "size": 245,
+        "expected": "9c23599df57791e8e531d2869c862667a90f40fc70ac6acea38461bf946307d2",
+        "actual": "7687518668ef3e5127f244980aef0507e0319b9f74461aec767edc8ed57cbc84",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i483/o",
+        "size": 28266,
+        "expected": "b3712d968f61130cb3b9b2ad37e2aa30666239617b67d8755b62a3ad7d9e7aca",
+        "actual": "d03cee13c26de125ff596083ae878a5730d59f8c24888ce98075c737e915cc30",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/i483/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i100/\u0001CompObj",
+        "size": 110,
+        "expected": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+        "actual": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/f",
+        "size": 364,
+        "expected": "bb4d70776dc56920013e4175f1e7bbf3ac38a353549a7c8d449b25f4940e515c",
+        "actual": "4633ecb7f32f17ea497c15a2d39d34d57e7007650eb6d7d444cb084239b71ee2",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/o",
+        "size": 0,
+        "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i547/f",
+        "size": 701,
+        "expected": "958c1b858ba0199d2623bca51b525548bd81828592914a5bd36fba17f5fb0736",
+        "actual": "803dc6e423a0698220d05b348496a9c15514fd36c3c99d575ad1fb0ae7ee1f59",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i547/o",
+        "size": 620,
+        "expected": "817fff535c077fb89e7cc38bde33e8226c41515586ab13196fa4295d9b96378d",
+        "actual": "7f394cd799eb4a0de8c935d0bde647192d5d99d6ece6a0017f102b1e5f9282d6",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i547/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i567/f",
+        "size": 205,
+        "expected": "2ad935dc7fbd76dfd3f5baf6a5d6c3fa4c1f34becdb501d0f47657a902d1400a",
+        "actual": "38242a74576c13ea44f8ebfcb17b7e527e20b63983146cc025050171c4643836",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i567/o",
+        "size": 132,
+        "expected": "88e7110e94330de83720dc82217e7dbb8aa74c2e71589905195c2b57e7013f94",
+        "actual": "9de8ad0d9941babbebd99a74f6072b44136b4a77a773547bc0acbeca68d7b2f0",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i567/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i570/f",
+        "size": 853,
+        "expected": "5fd352af76cf1961c8f6c9f9061d3f553709061f7250a3556bc50cd835a7b9b5",
+        "actual": "626028979d939a295765a0943b1e4e18fa5b3053161707d9850984dd15834818",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i570/o",
+        "size": 832,
+        "expected": "7cd47f23b549301fcd6c5c83f6eeca5975a3ef1008a55ec012b5e04eda593114",
+        "actual": "10d32c42a0dcd5373d491fd9d65eb942313d2f763f0283cee537f510e17c8324",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i570/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i582/f",
+        "size": 217,
+        "expected": "75ad0ba331b2b82f0c2b58b0767d6f89f43b2ca13f72b4833515c828a9a84027",
+        "actual": "b47dafbbd7007d90540cde6dc28d14bc5f58212edf8d545039054b497424b1a2",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i582/o",
+        "size": 132,
+        "expected": "6ef60e7ce882a354653385999a451ee1b776ee8a95d260df0d9f4888808a8a63",
+        "actual": "bf5dfd56334f92c204ca01847775a138b921501d21efa94ab42f81250cffe37d",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i582/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i585/f",
+        "size": 269,
+        "expected": "e312bf9703a491493070d446eac3a4c38141e52ef417e6afce3c008b36dd3c4d",
+        "actual": "46f0183239efd3001dc588d6e1c1b93b10b3b812cfd8d9fec96de53fdea2521a",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i585/o",
+        "size": 28266,
+        "expected": "c73e43392c79d9a73cea5510de8589062b49b0896f488c68fe683e4d2a792c7a",
+        "actual": "8f624ca488afcafa044ae49adb107eabe9323176ad656c25fff14c2fef1a16c0",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i585/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i612/f",
+        "size": 905,
+        "expected": "84083e83c23ed65b7eddecfbb6bd9f579c2fb9a237a645abf7b079165c851522",
+        "actual": "016343acc3d1d5083860892dd9ab10a82be9e02d07dd833d89242a9699da35fb",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i612/o",
+        "size": 505438,
+        "expected": "e0574d9ed65b0f6ad91ee2e3f2fe13f3bf016af56f033160d9b0a55767b3d695",
+        "actual": "9c3fb3eed66201eecbb7bae929e143588cf9cc0acca6ea35b6f861ae35d9d2c9",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/i612/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/i101/\u0001CompObj",
+        "size": 110,
+        "expected": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+        "actual": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i98/\u0001CompObj",
+        "size": 115,
+        "expected": "81051ff4bf424aef18995fb1be348a111ae21371c8605eeb65d0e7603ab4af78",
+        "actual": "81051ff4bf424aef18995fb1be348a111ae21371c8605eeb65d0e7603ab4af78",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/i103/f",
+        "size": 102366,
+        "expected": "8ca84c950563f28252d46d1d2dcfa5c3d9c312f194fb85c83a145a149c6a769f",
+        "actual": "51da97b6442ddbcd260f9c485fa71c2ce5215f532b2af05f32d308e67c885246",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i103/o",
+        "size": 92012,
+        "expected": "fa1da942e4f46a6c8150509728318c501855f33b51f8a3c0643f48e8d1779d04",
+        "actual": "7093cc2d058553db8275ce689facd538885b4307c27715cb278eb75d5ce2e8ef",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE/i103/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/\u0001CompObj",
+        "size": 97,
+        "expected": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+        "actual": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE/\u0003VBFrame",
+        "size": 312,
+        "expected": "460b04b204d1f06c3b10c8edfffb2fead356fd20800e0f1b957a3f4227e27a6a",
+        "actual": "460b04b204d1f06c3b10c8edfffb2fead356fd20800e0f1b957a3f4227e27a6a",
+        "pass": true
+      },
+      {
+        "path": "/PROJECT",
+        "size": 3730,
+        "expected": "86c16cb0d579512afd0d86feadae9bc9d32c1bbf15fc861b682b95fd33f34189",
+        "actual": "ffc7d663b6df4055307e66e18daeb7dc912688de14430aeb65b6a03708e3219a",
+        "pass": false
+      },
+      {
+        "path": "/PROJECTwm",
+        "size": 2462,
+        "expected": "a3d2b2601b85bc7a4cc1d9f2b956977e773108fbffc7c3fe20283bfaf9630b4d",
+        "actual": "f24c10468a4305a3add65e2cfd0bad5b70dc3fe16801f85b07b088a26b94217c",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/f",
+        "size": 439,
+        "expected": "e3f5cdfc912f1604600bd87ce854f6e236d5bd191c0aee7bb541345bbaaca927",
+        "actual": "a64b1de3501d5b8df9e76f11df35d6f155a45939b49cbda82d066cfdf9a18a0c",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/o",
+        "size": 401944,
+        "expected": "c5ea54820af60a4127a577ca6e11dbff791982f1198d2352132c4f4e2bdd4a95",
+        "actual": "829e8276b38681d6b8a006d71e4dc19bcdb4a7e84c3a48f3b53d50747721fab7",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/f",
+        "size": 192,
+        "expected": "22c55d7efa9f337bc507b927588ab23b2ddb717ffe8b8b9eb753bbb485dfca80",
+        "actual": "22c55d7efa9f337bc507b927588ab23b2ddb717ffe8b8b9eb753bbb485dfca80",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/o",
+        "size": 172,
+        "expected": "990221d50cebdf84ea4b6ca91ecfe7b50a77d2426005f57015c680c2bd78f345",
+        "actual": "04667508fafe360bff90edb19f5339de9a3e3d87ea5fe1572806806024dbb531",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/x",
+        "size": 48,
+        "expected": "4bb3f21198637d3f094a8951404c0715daf8492729096ae7421e9872e36e66bd",
+        "actual": "4bb3f21198637d3f094a8951404c0715daf8492729096ae7421e9872e36e66bd",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/f",
+        "size": 336,
+        "expected": "5a399deb224db9999253b580d293a78ac82cfe2e1ec58118478a24b90437ca86",
+        "actual": "e53a0b3d27b617e60ff759cd7ddd7e3373cc1feb6e3e7ab0cc1ddeb4f5c2f748",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/o",
+        "size": 0,
+        "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i12/f",
+        "size": 649,
+        "expected": "5b756b3d9642d03490ea07ff579e5c6cb39fd8b82fa7805e1cda816981d95cef",
+        "actual": "8fb6c8791f2e3beeebb7c23743cac4fbba15d097a13b0918cc09b9e79a9ec1f0",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i12/o",
+        "size": 620,
+        "expected": "c6d6bb13267bdfe4ae12879198891285ad80e2b19de8cbe862609fb803703766",
+        "actual": "5fea9a556a25a6f4a6b04784db6a85b5339ec55242d7b6d588c027bbf302caed",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i12/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i46/f",
+        "size": 201,
+        "expected": "a96120349b4495ce19db26de70d9a6336b83649eb854b33c8f728ad0c5997123",
+        "actual": "d304691a8c74759c704ca52b83bcd15edc3f71cab36255bfe25863a463aedfb5",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i46/o",
+        "size": 132,
+        "expected": "092d3413bda2fe262dbb98c2836fd47730ac08e8b9f1c230b122d0bce0b2e5e8",
+        "actual": "c59f697175c72eb15d2633f615cda692e2d0094d41bac08e786db09449cb2f40",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i46/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i50/f",
+        "size": 593,
+        "expected": "84c61693de0940161d01aac8e2207c7b7a3cd12593732b7105a932150392de7e",
+        "actual": "a7c329a2ca0a8a5a9b6cce4b6fef8172db23cc831a147762e123aa857ed4e869",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i50/o",
+        "size": 375723,
+        "expected": "bba4dc19556b455e6aaf692e2b5c2bbb68a4888dd0515f0c8d13e45804622c59",
+        "actual": "9a8c83dfaaf684696a37d08e947613c774049a6af5a9f30a094fa241e950cc73",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i50/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i391/f",
+        "size": 833,
+        "expected": "8a7f11cc3ff4728167c32e0aced776111d4b331cc7c5af21ce78659abe5e86d6",
+        "actual": "7cb951dc8e9ca6e47866288aac596f2afb7ad6ea943efd61d920c9cfcb5514e0",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i391/o",
+        "size": 864,
+        "expected": "27d97c7da72593dc16849c3d21466f52ebd0b447378b6fc7d0d472044dca95aa",
+        "actual": "4dccfe132df7f7d4d6c4951c1bfb79ab81e196f2d0bf476c9b614a92c87569e4",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i391/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i460/f",
+        "size": 1045,
+        "expected": "898926cf7015f21aa8948fcda56fb7bdcabc7950d03684b9003742e988685bc6",
+        "actual": "06af2d817acd101eced4a7a2ded4e394d7ca727f3815a931308dba94959da976",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i460/o",
+        "size": 1180,
+        "expected": "43b592dc0085c4cfc9b156a8f769eb549e90ebb64690bf05573348cb14c5a309",
+        "actual": "157611a50ffd72deee286ecf83cd4eb826fc0b53585c313c75fe417ff86b4d3f",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i460/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i483/f",
+        "size": 353,
+        "expected": "15fd91e95134c14308a7770a1a28f8c795e98e571f50e71a0f288584f9341f17",
+        "actual": "588a68d08b24dc259a07f87e5b0d9c4c61b9bab2867c2cc1162e7a365a83b5e0",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i483/o",
+        "size": 556,
+        "expected": "5c76a45f346552608741991a5d778d4e410eb649325793e2f051ba6fd842ce98",
+        "actual": "a97e63d0d6632942b5615160d80a79651b8e90ed6a4e8926323da206c99ea31f",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/i483/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i100/\u0001CompObj",
+        "size": 110,
+        "expected": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+        "actual": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/f",
+        "size": 364,
+        "expected": "92c04c6bb70a3607d765a85b49a3b05176b905138090781b543f9b80d622790f",
+        "actual": "a29e78be1ad8c4ade2cb83416af0bf96c24b01d2c0aef7541faa1d00ae6af2fd",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/o",
+        "size": 0,
+        "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i242/f",
+        "size": 569,
+        "expected": "2c351d25a06fcfc65c3db3f187b849d7dc7a7d7cc4438fef3b3ca36f8fb171e7",
+        "actual": "ce85b42f93322b2b00a3ff4cc77b37988103da211a39aeaf63b5b011b123b254",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i242/o",
+        "size": 338032,
+        "expected": "cc8cb02b5a289969df046f2a9d130a90d42029aad0cdc1a6d16601bb684d27c5",
+        "actual": "2a341f5777aa3fbc7ad05c1164aa91cfb5e8fe2e12395bd9c12843be9d85f010",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i242/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i248/f",
+        "size": 849,
+        "expected": "e9b8c9979fd6c5f54fbcd65a27bb1f643adff570def0bb78a003d7e91716bc28",
+        "actual": "4b049f7c4a1dc94abe8b204d97ef3f8b37fab7efb5b319d5989cf152db422885",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i248/o",
+        "size": 812,
+        "expected": "64d56b1bf56b37f8010b89c4757f87f2a66ecb314445e2885640c56410e750c5",
+        "actual": "88b01901e92d89fe049bd3d7fe89d0771afda1fb9fe76375277ef41862598fbf",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i248/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i257/f",
+        "size": 709,
+        "expected": "43d96f86601842247a8c5cf1c74b552ead83bbcfe1ef295019222d2480c536ed",
+        "actual": "bf02cce609af374aaa42884c10e9768f41703167af9c473c8deabdaf95394d23",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i257/o",
+        "size": 620,
+        "expected": "a2fd7c403da7b335873536ca78a66574a530d750a322662446f23235af165707",
+        "actual": "2671b4d72eef87560980c76780cf695c5ab9d2a8ae3cb74a969b80d6bbf13dcf",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i257/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i268/f",
+        "size": 1149,
+        "expected": "b03d11154bf68228c87d3abcc485cb451ed0a81a850a440095bc754cc10ea422",
+        "actual": "fabfdcea5e3d52dc1fdc4412ee6428c9fe6147fdf9244bb82f79de1b30903505",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i268/o",
+        "size": 1252,
+        "expected": "f32c91deecff2ae584dcdf6d77ce2d5ca712ae3de1b01ea001e1c032a9d306df",
+        "actual": "83d383c04e68884201855f4f266bd85954aad376391ada492cf794f3fb4ec5f3",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i268/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i275/f",
+        "size": 213,
+        "expected": "0915e6454425c184190dc32317a2f612d199fdc091c6f64f2fa300b38762aa58",
+        "actual": "2409a2fce579f3fa7f7acffe3104bb5674b06a982044e59a512588c3f7c921d8",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i275/o",
+        "size": 132,
+        "expected": "21a88d304e73347d50bc6981bca22b2cb30bf9f9b89268343030398632edb90e",
+        "actual": "7446ab327d0fa14c14eda4be995e41d1b043d65a1b7c3747caf91cee29d61ae5",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i275/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i498/f",
+        "size": 381,
+        "expected": "4c9d946af73828078ebced4ff5cb88862ca923a99f3fbc2f722629375902ce27",
+        "actual": "40e773c3b492ad5c09f48722063395a90cb560f8ba0160254b53d627fdf20ca2",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i498/o",
+        "size": 556,
+        "expected": "57e140a1aec2cd532e506ea8040f2d1e4ed63eaabbf4a2a574d3bff8ef200e09",
+        "actual": "9e9681ef70e4f768b60a18b8540b845df5f90ea0b4b05a2b417e058901596106",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/i498/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/i101/\u0001CompObj",
+        "size": 110,
+        "expected": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+        "actual": "864ff89013730cf69bcea86d88fd94b248dddf183dfb1ad8ccde8ce6c8183c7d",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i98/\u0001CompObj",
+        "size": 115,
+        "expected": "81051ff4bf424aef18995fb1be348a111ae21371c8605eeb65d0e7603ab4af78",
+        "actual": "81051ff4bf424aef18995fb1be348a111ae21371c8605eeb65d0e7603ab4af78",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/i103/f",
+        "size": 102230,
+        "expected": "199730967c2f9c4d8dc59151a775f1b0de37883fbd7bdecd191f8d8d1e248fc5",
+        "actual": "485e9031d1978860eef31dea6dceca490606aa9f6a62b29c609c3dce0af323ad",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i103/o",
+        "size": 86430,
+        "expected": "7996632718d03b59231b173d67cb3dbe2ee63cc1bcfd3888551fdfbdbc90692c",
+        "actual": "98574efc63e1dbef9a4ee82ce85a4a22dc61f8651e4c4bcdee4ee2abfcbc8270",
+        "pass": false
+      },
+      {
+        "path": "/Cad_NFE_Saida/i103/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/\u0001CompObj",
+        "size": 97,
+        "expected": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+        "actual": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+        "pass": true
+      },
+      {
+        "path": "/Cad_NFE_Saida/\u0003VBFrame",
+        "size": 313,
+        "expected": "0e234638137790ed6854729ffc59edbe92968b49ec1d999247651f8e9a8aa1c0",
+        "actual": "0e234638137790ed6854729ffc59edbe92968b49ec1d999247651f8e9a8aa1c0",
+        "pass": true
+      },
+      {
+        "path": "/UserFormFiltro/f",
+        "size": 131,
+        "expected": "45b75338bb3975762af41fe64ede831ea0ff74136a44cd0c900ac3e350542f26",
+        "actual": "8f133d1b4da6332d4b8aa0855aefaa0bffbfaf6cfd006b0d25daa46f30273f28",
+        "pass": false
+      },
+      {
+        "path": "/UserFormFiltro/o",
+        "size": 0,
+        "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass": true
+      },
+      {
+        "path": "/UserFormFiltro/i02/f",
+        "size": 1181,
+        "expected": "dd0ca8cc7cfe4c2786d5c5826c6e7228db15010b2cad1c3d4cc2f99ab5f21607",
+        "actual": "11785ad0faef77d33f174d68fdd2202368bc74665f95baca2f419fafc00d10dd",
+        "pass": false
+      },
+      {
+        "path": "/UserFormFiltro/i02/o",
+        "size": 500902,
+        "expected": "5e174d5ef7e838c088d562639416d687134fd506a13a6f0613c35f8e8968ddd7",
+        "actual": "2c06357f16b5f9ec2b672dfa884c81c9c4f2dbedc0bdb9218deebfb2e69bf7ef",
+        "pass": false
+      },
+      {
+        "path": "/UserFormFiltro/i02/\u0001CompObj",
+        "size": 112,
+        "expected": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "actual": "13705b227cf42e385d373fa77308c08db0e4c4454c54685d32f79384f9fe4b16",
+        "pass": true
+      },
+      {
+        "path": "/UserFormFiltro/\u0001CompObj",
+        "size": 97,
+        "expected": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+        "actual": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+        "pass": true
+      },
+      {
+        "path": "/UserFormFiltro/\u0003VBFrame",
+        "size": 296,
+        "expected": "197f78847b54876f81bf1ae3f5497bd80f5d89846f546ac900011a0a08073eab",
+        "actual": "197f78847b54876f81bf1ae3f5497bd80f5d89846f546ac900011a0a08073eab",
+        "pass": true
+      },
+      {
+        "path": "/frmRelatorioXML/f",
+        "size": 339,
+        "expected": "1231b0a89c4020fdf671dbe2a924537b0aa7ceace0e257a1742ceeabac3968b6",
+        "actual": "a735d4ccfd872c8c2db62ca632e2ea0d9170fae096a833d6d0b86811dcd880a3",
+        "pass": false
+      },
+      {
+        "path": "/frmRelatorioXML/o",
+        "size": 91024,
+        "expected": "f528381ca966f9f5da5a83513fadd9e43bcdbf7342550319f7b200680e6cf6f6",
+        "actual": "dfc8dc36d9059fcc45ce047ae858318e78e940352a35b4bbb95ac5d9a8e805c5",
+        "pass": false
+      },
+      {
+        "path": "/frmRelatorioXML/\u0001CompObj",
+        "size": 97,
+        "expected": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+        "actual": "057e3d39cd6e6b882c9cebfb56920db712f49cd628b35bf58e1fd544c0bea20b",
+        "pass": true
+      },
+      {
+        "path": "/frmRelatorioXML/\u0003VBFrame",
+        "size": 301,
+        "expected": "581d536f3a6823c96349d296a707ba9ebabb3af840edc7a236e9158e73b8be1b",
+        "actual": "581d536f3a6823c96349d296a707ba9ebabb3af840edc7a236e9158e73b8be1b",
+        "pass": true
+      }
+    ],
+    "notice": "Os streams MSForms foram serializados novamente pelo VBE e nao sao byte-identicos. Nao se afirma equivalencia binaria; controles exercitados foram resolvidos durante os testes. Nenhum designer foi editado intencionalmente."
+  }
+}
