@@ -1,0 +1,8 @@
+{
+  "status": "FAIL",
+  "modalidade": "VBA_SESSAO_FRIA",
+  "esperado": "Reabrir em outro TEMP sob controle de autoridade",
+  "observado": "CACHE_BLOQUEADO: Somente TEMP; ERROR:5:Somente TEMP; Saved=False",
+  "causa": "Guard10/TempC3 dependem de Environ TEMP da sessao que mudou",
+  "hashXlsmAntes": "f7c0bd8d51e22719f15c3a075dd2ff607b024177f4635e35b60ea0ec7a0c5b6b"
+}
