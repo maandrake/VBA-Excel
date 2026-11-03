@@ -426,3 +426,8 @@ Implementação dirigida na candidata sintética, sem nova auditoria geral. [Rel
 ### Continuação da reabertura E2
 
 O bloqueio anterior foi superado após habilitação manual. Execução real VBA auxiliar E1_SESSAO_REABERTA_E2_R3 PASS, inicialização automáticaCACHE_AUDITADO, revisão16/projeçãoVERIFIED/16recibos/0Pending, hashes do par inalterados. [Evidência](./_desenvolvimento/entrega2_20261102T215146Z/continuacao_reabertura_20261103T010409Z/evidencias_reabertura.json). Log acumulado62execuções/55PASS/7FAIL; não são62cenários únicos. Nenhuma fonte ou operação de estoque foi alterada nesta continuação. Demais limites e NÃO HOMOLOGADA mantidos.
+
+
+## Manutenção do repositório em 03/11/2026
+
+O gitlink autorreferente foi removido em `c560de1`. Os cinco arquivos do backup adicional da Fase 4 foram realocados com SHA-256 conferido pelo [manifesto histórico](./_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/manifesto-backup-adicional.json). O [mapa de caminhos](./MAPA_PROJETO.md#backups-de-manutenção) permite localizar os arquivos pelos registros antigos.

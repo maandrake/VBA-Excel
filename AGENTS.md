@@ -4,6 +4,7 @@
 
 - Trate [Excel/](./Excel/), [MDL/](./MDL/) e [Form/](./Form/) como a base original até haver promoção explícita de uma revisão validada. A auditoria de 31/10/2026 manteve esses arquivos intactos.
 - Trabalhe em cópia de desenvolvimento identificada. Antes de editar, gere backup datado e manifesto SHA-256; confira todos os hashes. Nunca sobrescreva originais de produção.
+- Para novos backups de manutenção, use [Backup-Manutencao.ps1](./scripts/Backup-Manutencao.ps1) com uma lista explícita de arquivos e um destino privado fora do repositório e do OneDrive.
 - Execute Office somente com arquivos de teste em pasta temporária fora do OneDrive. Não execute movimentações fiscais ou de estoque sobre dados reais, mesmo em uma cópia contendo esses dados.
 - Não instale programas nem altere ExecutionPolicy, Trust Center, AccessVBOM, locais confiáveis ou segurança de macros sem autorização específica. Não use opções de bypass ou edições de registro para contornar bloqueios.
 - Não envie fontes, XML, dados pessoais ou credenciais a serviços externos. Não publique nem envie ao Git remoto automaticamente.

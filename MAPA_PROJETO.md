@@ -1173,3 +1173,14 @@ Implementação dirigida na candidata sintética, sem nova auditoria geral. [Rel
 ### Continuação da reabertura E2
 
 O bloqueio anterior foi superado após habilitação manual. Execução real VBA auxiliar E1_SESSAO_REABERTA_E2_R3 PASS, inicialização automáticaCACHE_AUDITADO, revisão16/projeçãoVERIFIED/16recibos/0Pending, hashes do par inalterados. [Evidência](./_desenvolvimento/entrega2_20261102T215146Z/continuacao_reabertura_20261103T010409Z/evidencias_reabertura.json). Log acumulado62execuções/55PASS/7FAIL; não são62cenários únicos. Nenhuma fonte ou operação de estoque foi alterada nesta continuação. Demais limites e NÃO HOMOLOGADA mantidos.
+
+
+## Backups de manutenção
+
+O backup adicional da Fase 4 está em [`_auditoria/backups/f4-20261101/`](./_auditoria/backups/f4-20261101/). Ao consultar um manifesto antigo, substitua o prefixo `_auditoria/fase4_20261031_230457Z/integracao_20261101_160244Z/backup-adicional/` pelo novo. O restante do caminho e os hashes SHA-256 dos cinco arquivos são os mesmos. A árvore de `c560de1` registra os caminhos históricos.
+
+Para novos checkpoints, escolha uma pasta privada, fora da árvore do repositório e do OneDrive. A rotina aceita somente arquivos explicitamente selecionados, cria um destino datado e grava `sha256.json` após a verificação. Em PowerShell 7, a partir da raiz do projeto:
+
+```powershell
+./scripts/Backup-Manutencao.ps1 -DiretorioBackup 'D:\Backups\VBA-Excel' -Arquivo @('MAPA_PROJETO.md', 'TESTES_VBA.md')
+```

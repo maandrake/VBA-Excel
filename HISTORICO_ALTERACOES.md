@@ -224,3 +224,10 @@ Log acumulado 47 execuções de asserção: 40 PASS/7 FAIL; falhas anteriores pr
 ## 02/11/2026,22:06 — continuação da Entrega2: reabertura
 
 Macros habilitadas manualmente pelo usuário. Verificada a inicialização automática CACHE_AUDITADO no caminho E2 antes de carregar cache manualmente. E1_SessaoReaberta executado no projeto E2:PASS;AUDIT=OK;PROJECTION=VERIFIED;REV=16;MOV=16;RECEIPTS=16;ACTIVE=5;PENDING=0. Log acumulado62execuções/55PASS/7FAIL preservados,56IDs;R0separado. Estados Excel conferidos e17abas; XLSM/ACCDB com hashes inalterados. Sem alteração de fontes, Save ou repetição de movimentações. E2-09superado nesse escopo; demais pendências mantidas. [Checkpoint/evidências](./_desenvolvimento/entrega2_20261102T215146Z/continuacao_reabertura_20261103T010409Z/). Relatórios/manifestações anteriores copiados e verificados antes da atualização.
+
+
+## 03/11/2026 — Manutenção do repositório Git
+
+- Removido o gitlink autorreferente em `c560de1`.
+- Realocados cinco arquivos de evidência da Fase 4 em `_auditoria/backups/f4-20261101/`, com caminhos históricos e SHA-256 preservados no manifesto original.
+- Adicionada rotina de backup de manutenção com seleção de arquivos, destino externo e verificação SHA-256.
