@@ -1,0 +1,24 @@
+{
+  "UTC": "20261104T182134Z",
+  "Checkpoint": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\CodexBackupsPrivados\\VBA-Excel\\checkpoint_diagnostico_ACE_20261104T182134Z",
+  "Laboratorio": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Diagnostico_ACE_20261104T182134Z",
+  "Execucao": "_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_diagnostico_ACE_20261104T182134Z",
+  "Arquivos": [
+    {
+      "origem": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z\\Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "copia": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\CodexBackupsPrivados\\VBA-Excel\\checkpoint_diagnostico_ACE_20261104T182134Z\\Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "sha256": "42B34E7A2632BB4875525B5B1D5DE798274BBEDA3402153A79BAD4E8D0BA1853"
+    },
+    {
+      "origem": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z\\Banco_Candidato_Entrega2_Final.accdb",
+      "copia": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\CodexBackupsPrivados\\VBA-Excel\\checkpoint_diagnostico_ACE_20261104T182134Z\\Banco_Candidato_Entrega2_Final.accdb",
+      "sha256": "9FC0BFE8001120D2804B8F56836949249606E2030A6AF431A71B1757C80267DC"
+    },
+    {
+      "origem": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Controle_E2_143C55EC132B48398413268B265117AF.accdb",
+      "copia": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\CodexBackupsPrivados\\VBA-Excel\\checkpoint_diagnostico_ACE_20261104T182134Z\\Controle_E2_143C55EC132B48398413268B265117AF.accdb",
+      "sha256": "B9E0C8ACEB4474BB6B74BA727C7064982CFA9371E060B901BDF4B2DE61632E2F"
+    }
+  ],
+  "CopiaNaoAutoritativa": true
+}

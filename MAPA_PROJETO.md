@@ -1205,3 +1205,10 @@ Novo XLSM preservado: SHA256 efd1916395159da3d30ecc99838ff6e0e44dd9e0ca2b13b2957
 FORMULA_VALUE apos edicao/formularios preservado como FAIL de tentativa; recalc completo recuperou VERIFIED, sem alterar fatos. Causa fina ainda nao isolada. Arquivo salvo e instancia exclusiva encerrada normalmente. A nova abertura do XLSM corrigido concluiu, mas Office voltou a desabilitar macros: inicializacao/fluxo final BLOQUEADOS ate habilitacao manual. Entrega2 continua em fechamento, NAO HOMOLOGADA; nenhuma liberacao de Entrega3.
 
 Impacto restrito a Cad_NFE.UserForm_QueryClose e Cad_NFE_Saida.UserForm_QueryClose. Removida dependencia indevida de ActiveSheet/U1; mantidos Cancel=True, MsgBox e eventos CommandButtonFechar_Click. Camada ACE, esquema7/contrato3, gravadores e politicas fiscais sem alteracao nesta retomada.
+
+
+## Retomada controlada — diagnóstico ACE em 04/11/2026, 18:21 UTC
+
+[Evidências e resultado da etapa](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_diagnostico_ACE_20261104T182134Z/RESULTADO_ETAPA_CONTROLADA.md). Ponytail 5.3.3 Full; Git inicial main/b7b9d99 limpo. AGENTS vigente preservado. Apenas o Excel operacional estava aberto; nenhum comando foi enviado a ele. Candidata, ACCDB e registro ativo mantêm seus hashes (42b34e…/9fc0bf…/b9e0c8…). Revisão26, 26movimentos/26recibos e Pending0 confirmados por leitura ADO. Nenhum VBA ou arquivo operacional alterado.
+
+Novo auxiliar de teste: [Testar-DiagnosticoACE.ps1](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_diagnostico_ACE_20261104T182134Z/Testar-DiagnosticoACE.ps1). Exercita apenas UPDATE parametrizado de AuthorityControl e fronteiras BeginTrans/CommitTrans/RollbackTrans em cópia descartável. Sem integração aos gravadores, sem alteração de tabelas/esquema. As três fontes de persistência/portão/integração foram comparadas à revisão embutida atual, iguais.

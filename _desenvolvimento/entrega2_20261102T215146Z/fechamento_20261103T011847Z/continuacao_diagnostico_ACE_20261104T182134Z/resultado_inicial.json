@@ -1,0 +1,85 @@
+{
+  "Modalidade": "COM_ADO_ACE_DUAS_CONEXOES_UM_PROCESSO",
+  "Banco": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Diagnostico_ACE_20261104T182134Z\\Registro_Descartavel.accdb",
+  "AutoridadeOperacional": false,
+  "VBAExecutado": false,
+  "InicioUTC": "2026-11-04T18:22:12.7185632Z",
+  "Antes": "[{\"ID\":1,\"AuthorityID\":\"6EE95416-7761-4218-AA44-5E939858E3E2\",\"BaseID\":\"143C55EC-132B-4839-8413-268B265117AF\",\"LineageID\":\"143C55EC-132B-4839-8413-268B265117AF\",\"Generation\":2,\"DataPath\":\"C:\\\\Users\\\\MARCOS~1\\\\AppData\\\\Local\\\\Temp\\\\vscode-agent-codex-sandbox-JTJOQt\\\\Entrega2_Restauracao_Controlada_20261103T0146Z\\\\Banco_Candidato_Entrega2_Final.accdb\",\"WorkbookPath\":\"C:\\\\Users\\\\MARCOS~1\\\\AppData\\\\Local\\\\Temp\\\\vscode-agent-codex-sandbox-JTJOQt\\\\Entrega2_Restauracao_Controlada_20261103T0146Z\\\\Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm\",\"OwnerID\":null}]",
+  "Provedor": "Microsoft.ACE.OLEDB.16.0",
+  "Depois": "[{\"ID\":1,\"AuthorityID\":\"6EE95416-7761-4218-AA44-5E939858E3E2\",\"BaseID\":\"143C55EC-132B-4839-8413-268B265117AF\",\"LineageID\":\"143C55EC-132B-4839-8413-268B265117AF\",\"Generation\":2,\"DataPath\":\"C:\\\\Users\\\\MARCOS~1\\\\AppData\\\\Local\\\\Temp\\\\vscode-agent-codex-sandbox-JTJOQt\\\\Entrega2_Restauracao_Controlada_20261103T0146Z\\\\Banco_Candidato_Entrega2_Final.accdb\",\"WorkbookPath\":\"C:\\\\Users\\\\MARCOS~1\\\\AppData\\\\Local\\\\Temp\\\\vscode-agent-codex-sandbox-JTJOQt\\\\Entrega2_Restauracao_Controlada_20261103T0146Z\\\\Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm\",\"OwnerID\":null}]",
+  "Etapas": [
+    {
+      "Etapa": "Sem_conflito_UPDATE",
+      "Sucesso": true,
+      "Retorno": 1,
+      "Segundos": 0.044346
+    },
+    {
+      "Etapa": "Conflito_UPDATE_parametrizado",
+      "Sucesso": false,
+      "Excecao": "Não foi possível atualizar; atualmente bloqueado.",
+      "HResult": -2147467259,
+      "ADO": [
+        {
+          "Numero": -2147467259,
+          "Nativo": -72156238,
+          "SQLState": "3218",
+          "Origem": "Microsoft Access Database Engine",
+          "Descricao": "Não foi possível atualizar; atualmente bloqueado."
+        }
+      ],
+      "Segundos": 2.2263585
+    },
+    {
+      "Etapa": "Commit_depois_do_UPDATE_recusado",
+      "Sucesso": true,
+      "Retorno": null,
+      "Segundos": 0.0068277
+    },
+    {
+      "Etapa": "Rollback_depois_do_conflito",
+      "Sucesso": false,
+      "Excecao": "Você tentou confirmar ou repetir uma transação sem antes iniciá-la.",
+      "HResult": -2147168242,
+      "ADO": [
+        {
+          "Numero": -2147168242,
+          "Nativo": -69010462,
+          "SQLState": "3034",
+          "Origem": "Microsoft Access Database Engine",
+          "Descricao": "Você tentou confirmar ou repetir uma transação sem antes iniciá-la."
+        }
+      ],
+      "Segundos": 0.0031738
+    },
+    {
+      "Etapa": "Nova_transacao_apos_rollback_do_primeiro",
+      "Sucesso": true,
+      "Retorno": 1,
+      "Segundos": 0.0036243
+    }
+  ],
+  "Verificacoes": [
+    {
+      "ID": "ACE_BASELINE",
+      "Resultado": "PASS",
+      "Observado": "Linhas=1"
+    },
+    {
+      "ID": "ACE_CONFLITO_RECUSADO",
+      "Resultado": "PASS",
+      "Observado": "{\"Etapa\":\"Conflito_UPDATE_parametrizado\",\"Sucesso\":false,\"Excecao\":\"Não foi possível atualizar; atualmente bloqueado.\",\"HResult\":-2147467259,\"ADO\":[{\"Numero\":-2147467259,\"Nativo\":-72156238,\"SQLState\":\"3218\",\"Origem\":\"Microsoft Access Database Engine\",\"Descricao\":\"Não foi possível atualizar; atualmente bloqueado.\"}],\"Segundos\":2.2263585}"
+    },
+    {
+      "ID": "ACE_NOVA_TRANSACAO",
+      "Resultado": "PASS",
+      "Observado": "Linhas=1"
+    },
+    {
+      "ID": "ACE_ESTADO_RESTAURADO",
+      "Resultado": "PASS",
+      "Observado": "Todos os campos de AuthorityControl comparados"
+    }
+  ],
+  "FimUTC": "2026-11-04T18:22:15.6240378Z"
+}

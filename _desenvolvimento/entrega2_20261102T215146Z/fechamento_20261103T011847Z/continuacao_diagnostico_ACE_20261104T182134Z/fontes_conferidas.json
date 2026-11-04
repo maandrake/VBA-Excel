@@ -1,0 +1,21 @@
+{
+  "modalidade": "extracao_estatica_somente_leitura",
+  "componentes": 72,
+  "modulos": [
+    {
+      "modulo": "modFechamentoEntrega2",
+      "igualFontePreservada": true,
+      "sha256TextoUTF8": "515f9194e88fa2b07376b43039409723d419fa9a2ff4dbf454920ee319604abc"
+    },
+    {
+      "modulo": "modPersistenciaFase10",
+      "igualFontePreservada": true,
+      "sha256TextoUTF8": "9fe0f379847f1e72b270bc327709a8302a49b98705bb9de422ca4828e66dd4b9"
+    },
+    {
+      "modulo": "modCandidatoIntegrado",
+      "igualFontePreservada": true,
+      "sha256TextoUTF8": "8e17c8c529c935b748b5542b03af2e4629767e4d0af729fbf65ad9841fb5a94a"
+    }
+  ]
+}

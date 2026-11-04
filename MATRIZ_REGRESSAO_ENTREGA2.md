@@ -208,3 +208,18 @@ Novo XLSM preservado: SHA256 efd1916395159da3d30ecc99838ff6e0e44dd9e0ca2b13b2957
 FORMULA_VALUE apos edicao/formularios preservado como FAIL de tentativa; recalc completo recuperou VERIFIED, sem alterar fatos. Causa fina ainda nao isolada. Arquivo salvo e instancia exclusiva encerrada normalmente. A nova abertura do XLSM corrigido concluiu, mas Office voltou a desabilitar macros: inicializacao/fluxo final BLOQUEADOS ate habilitacao manual. Entrega2 continua em fechamento, NAO HOMOLOGADA; nenhuma liberacao de Entrega3.
 
 [Matriz dirigida](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_reabertura_final_20261103T233016Z/MATRIZ_RETOMADA_QUERYCLOSE.md):14verificacoes,11PASS/2FAIL/1BLOQUEADO. Inclui analise estatica e ADO separados de eventos VBA. Nao somar como14fluxos e nao alterar os sete FAIL legados.
+
+
+## Retomada controlada — diagnóstico ACE em 04/11/2026, 18:21 UTC
+
+[Evidências e resultado da etapa](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_diagnostico_ACE_20261104T182134Z/RESULTADO_ETAPA_CONTROLADA.md). Ponytail 5.3.3 Full; Git inicial main/b7b9d99 limpo. AGENTS vigente preservado. Apenas o Excel operacional estava aberto; nenhum comando foi enviado a ele. Candidata, ACCDB e registro ativo mantêm seus hashes (42b34e…/9fc0bf…/b9e0c8…). Revisão26, 26movimentos/26recibos e Pending0 confirmados por leitura ADO. Nenhum VBA ou arquivo operacional alterado.
+
+Seis verificações únicas COM/ADO em duas conexões de um processo, somente registro descartável TEMP: seis PASS. A primeira tentativa executou quatro; a segunda repetiu as quatro e acrescentou duas. Não são dez testes únicos nem execução funcional VBA. Conflito capturado com SQLState3218; rollback imediato após a recusa funcionou. SQLState3034 apareceu apenas no rollback após commit deliberado da sondagem. A causa do diagnóstico E2-FECH-06 no evento real continua não isolada, sem correção especulativa.
+
+|IDs novos|Modalidade|Resultado|Limite|
+|---|---|---|---|
+|ACE_BASELINE, ACE_CONFLITO_RECUSADO, ACE_NOVA_TRANSACAO|COM/ADO, banco descartável|3PASS|Não executam eventos de formulários|
+|ACE_CONFLITO_SEM_COMMIT, ACE_LIMPEZA_SEM_COMMIT, ACE_ESTADO_RESTAURADO|COM/ADO, banco descartável|3PASS|Não isolam a mensagem E2-FECH-06 no VBA|
+|Inicialização, compilação e evento real nesta sessão|Execução VBA|NÃO EXECUTADO|Candidata não aberta na interface|
+
+Todas as tentativas anteriores e os sete defeitos históricos mantêm seus resultados.

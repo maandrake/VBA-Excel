@@ -125,3 +125,12 @@ Novo XLSM preservado: SHA256 efd1916395159da3d30ecc99838ff6e0e44dd9e0ca2b13b2957
 FORMULA_VALUE apos edicao/formularios preservado como FAIL de tentativa; recalc completo recuperou VERIFIED, sem alterar fatos. Causa fina ainda nao isolada. Arquivo salvo e instancia exclusiva encerrada normalmente. A nova abertura do XLSM corrigido concluiu, mas Office voltou a desabilitar macros: inicializacao/fluxo final BLOQUEADOS ate habilitacao manual. Entrega2 continua em fechamento, NAO HOMOLOGADA; nenhuma liberacao de Entrega3.
 
 E2-FECH-07 (media): QueryClose1004 corrigido/testado no escopo dos dois formularios; reabertura funcional da correcao pendente por macros. E2-FECH-08 (media): formula em cache desatualizada apos edicao; recalc recuperou, causa fina por isolar. E2-FECH-06 (mensagem de conflito ACE), E1-05 (dois Excel), E2-11 (ENTRY orfao) e restauracao de desastre permanecem abertos, sob engenharia/responsavel.
+
+
+## Retomada controlada — diagnóstico ACE em 04/11/2026, 18:21 UTC
+
+[Evidências e resultado da etapa](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_diagnostico_ACE_20261104T182134Z/RESULTADO_ETAPA_CONTROLADA.md). Ponytail 5.3.3 Full; Git inicial main/b7b9d99 limpo. AGENTS vigente preservado. Apenas o Excel operacional estava aberto; nenhum comando foi enviado a ele. Candidata, ACCDB e registro ativo mantêm seus hashes (42b34e…/9fc0bf…/b9e0c8…). Revisão26, 26movimentos/26recibos e Pending0 confirmados por leitura ADO. Nenhum VBA ou arquivo operacional alterado.
+
+**E2-FECH-06 permanece ABERTO (engenharia):** Seis verificações únicas COM/ADO em duas conexões de um processo, somente registro descartável TEMP: seis PASS. A primeira tentativa executou quatro; a segunda repetiu as quatro e acrescentou duas. Não são dez testes únicos nem execução funcional VBA. Conflito capturado com SQLState3218; rollback imediato após a recusa funcionou. SQLState3034 apareceu apenas no rollback após commit deliberado da sondagem. A causa do diagnóstico E2-FECH-06 no evento real continua não isolada, sem correção especulativa.
+
+Próximo critério: capturar erro/etapa e cadeia ADO no evento real antes da limpeza, aplicar apenas correção comprovada, compilar e regredir. A ausência de janela da candidata impede essa etapa de interface; não foi observada uma nova recusa de macros nesta sessão. Não encerrar E2-FECH-07/reabertura por estes testes.

@@ -260,3 +260,10 @@ Novo XLSM preservado: SHA256 efd1916395159da3d30ecc99838ff6e0e44dd9e0ca2b13b2957
 FORMULA_VALUE apos edicao/formularios preservado como FAIL de tentativa; recalc completo recuperou VERIFIED, sem alterar fatos. Causa fina ainda nao isolada. Arquivo salvo e instancia exclusiva encerrada normalmente. A nova abertura do XLSM corrigido concluiu, mas Office voltou a desabilitar macros: inicializacao/fluxo final BLOQUEADOS ate habilitacao manual. Entrega2 continua em fechamento, NAO HOMOLOGADA; nenhuma liberacao de Entrega3.
 
 Backup previo das9documentacoes pelo Backup-Manutencao.ps1:20261104T121731Z-ef30ba1a, fora do repositorio/OneDrive. Checkpoint binario previo:checkpoint_queryclose_20261103T233312Z. Patch verificado no binario salvo: somente duas linhas substituidas por comentario; assinaturas inalteradas. Sem commit/push/promocao.
+
+
+## Retomada controlada — diagnóstico ACE em 04/11/2026, 18:21 UTC
+
+[Evidências e resultado da etapa](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_diagnostico_ACE_20261104T182134Z/RESULTADO_ETAPA_CONTROLADA.md). Ponytail 5.3.3 Full; Git inicial main/b7b9d99 limpo. AGENTS vigente preservado. Apenas o Excel operacional estava aberto; nenhum comando foi enviado a ele. Candidata, ACCDB e registro ativo mantêm seus hashes (42b34e…/9fc0bf…/b9e0c8…). Revisão26, 26movimentos/26recibos e Pending0 confirmados por leitura ADO. Nenhum VBA ou arquivo operacional alterado.
+
+Criado script dirigido ao conflito ACE, duas tentativas preservadas e seis verificações únicas aprovadas no escopo COM/ADO. Nenhuma correção VBA aplicada porque a causa da mensagem real ainda não foi reproduzida. Checkpoint privado checkpoint_diagnostico_ACE_20261104T182134Z; backup oficial dos sete documentos 20261104T182134Z-dd3488e7 e da primeira versão do script 20261104T182309Z-d41f2c51. Sem commit/push/promoção.
