@@ -2,6 +2,7 @@
 
 ## Escopo e preservação
 
+- Este AGENTS.md da raiz é o documento vigente para manutenção do projeto. Os arquivos AGENTS.md de _auditoria e _desenvolvimento constituem registros históricos, que devem ser preservados integralmente e não devem substituir as instruções vigentes para o projeto ativo.
 - Trate [Excel/](./Excel/), [MDL/](./MDL/) e [Form/](./Form/) como a base original até haver promoção explícita de uma revisão validada. A auditoria de 31/10/2026 manteve esses arquivos intactos.
 - Trabalhe em cópia de desenvolvimento identificada. Antes de editar, gere backup datado e manifesto SHA-256; confira todos os hashes. Nunca sobrescreva originais de produção.
 - Para novos backups de manutenção, use [Backup-Manutencao.ps1](./scripts/Backup-Manutencao.ps1) com uma lista explícita de arquivos e um destino privado fora do repositório e do OneDrive.
@@ -28,5 +29,5 @@
 - Importe somente em fixture nova, com dados fictícios. Pare quando o Office bloquear o acesso ao projeto e registre a pendência.
 - Separe PASS, FAIL, BLOQUEADO e NÃO EXECUTADO. Distinga teste COM equivalente, simulação JS, compilação real e execução da rotina VBA.
 - Compare assinaturas, regras fiscais, FRX e resultados antes/depois. Nunca promova um XLSM que ainda não incorporou os fontes revisados.
-- Atualize [RELATORIO_AUDITORIA.md](./RELATORIO_AUDITORIA.md), [MAPA_PROJETO.md](./MAPA_PROJETO.md), [TESTES_VBA.md](./TESTES_VBA.md) e [HISTORICO_ALTERACOES.md](./HISTORICO_ALTERACOES.md).
+- Nas entregas que efetivamente alterarem o projeto, é obrigatória a atualização de [RELATORIO_AUDITORIA.md](./RELATORIO_AUDITORIA.md), [MAPA_PROJETO.md](./MAPA_PROJETO.md), [TESTES_VBA.md](./TESTES_VBA.md) e [HISTORICO_ALTERACOES.md](./HISTORICO_ALTERACOES.md). Atividades exclusivamente de leitura e análise não exigem essas atualizações e não autorizam modificações de arquivos ou do Git.
 - Use Git para fontes, scripts e documentação; mantenha backups e novas cópias de dados privados fora do versionamento.
