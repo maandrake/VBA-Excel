@@ -1,0 +1,495 @@
+{
+  "packageDir": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/VBA-Excel-Entregas/Entrega2_R26_20261103T2310Z_PENDENTE_ACEITE",
+  "total": 122,
+  "fail": 0,
+  "files": [
+    {
+      "relative": "Banco_Candidato_Entrega2_Final.accdb",
+      "ok": true
+    },
+    {
+      "relative": "Controle_E2_143C55EC132B48398413268B265117AF.accdb",
+      "ok": true
+    },
+    {
+      "relative": "documentacao/ENTREGA_2_OPERACOES_CORRIGIDAS.md",
+      "ok": true
+    },
+    {
+      "relative": "documentacao/HISTORICO_ALTERACOES.md",
+      "ok": true
+    },
+    {
+      "relative": "documentacao/MANUAL_INSTALACAO_RESTAURACAO.md",
+      "ok": true
+    },
+    {
+      "relative": "documentacao/MATRIZ_REGRESSAO_ENTREGA2.md",
+      "ok": true
+    },
+    {
+      "relative": "documentacao/PACOTE_HOMOLOGACAO_ENTREGA3.md",
+      "ok": true
+    },
+    {
+      "relative": "documentacao/REGISTRO_DEFEITOS_ABERTOS.md",
+      "ok": true
+    },
+    {
+      "relative": "Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/antes_sessao_fria_final.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/artefatos_r26_preservados.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/comparacao_72_componentes_final.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/compilacao_72_componentes.txt",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/compilacao_final_observada.txt",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/conciliacao_interface.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/concorrencia_processo_externo.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/defeito_teste_ignore.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/estado_apos_ciclo.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/estado_apos_xml_concorrencia.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/estatisticas_execucao.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/inicio.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/integridade_entrega2_congelada.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/integridade_originais_final.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/interrupcao_xml_preparacao.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/inventario_final_salvo.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/investigacao_saved.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/MATRIZ_EXECUTADA_FECHAMENTO.md",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/preservacao_formularios_final.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/RELATORIO_CONTINUACAO_ENTREGA2.md",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/resultados_entrega2.tsv",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/resultados_fechamento.tsv",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/resultados_final_e2.tsv",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/resultados_parciais_restauracao_entradas_transferencia.tsv",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/Segurar-Registro-Sintetico.ps1",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/xml_interface_observada.json",
+      "ok": true
+    },
+    {
+      "relative": "evidencias/xml_interface_observada_final.json",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/AuditoriaListaFake.cls",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Cad_NCM.frm.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Cad_NFE.frm.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Cad_NFE_Saida.frm.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/clsOperacaoPlanilha.cls",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/clsRepositorioFase8.cls",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/clsSaveFase9.cls",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/clsTesteCandidato.cls",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/EstaPastaDeTrabalho.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/frmRelatorioXML.frm.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlChamarFiltro.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlChamarForm.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlChamarFormDocFora.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlChamarFormNCM.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlChamarFormSaida.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlChamarFormVeículos.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlChamarTabCan.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlChamarTabEnt.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlChamarTabSai.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlCondCel.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlCopiar.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlCriaBackup.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlCursor.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlMacroConexão.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlMacroConexãoClientes.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlMacroDocFora.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlOcultarTítulo.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/mdlTelaCheia.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modCandidatoIntegrado.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modCenariosFase10.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modExperimentosFase8.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modFechamentoEntrega2.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modFronteirasFase10.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modIntegridadeOperacao.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modPersistenciaFase10.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modPersistenciaFase9.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modPreencherFormulario.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modPrototiposFase6.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modPrototiposFase7.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modRegressaoFinalE2.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modSeleniumCommon.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modSeleniumConsultaNFE.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modSeleniumRenavamConsulta.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modSelTest.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modTestesAuditoria.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modTestesEntrega1.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modTestesFase2.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modTestesFechamentoE2.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modTestesIntegradosFase5.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modValidacaoXML.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/modVerificacaoFase9.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/MóduloOfficeRibbonEditor.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/MóduloPesquisa.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/MóduloRemoveFechar.bas",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha1.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha10.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha11.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha12.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha13.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha15.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha16.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha17.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha18.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha2.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha3.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha4.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha5.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha6.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha7.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha8.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/Planilha9.documento.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "fontes_embutidos/UserFormFiltro.frm.codigo_embutido.txt",
+      "ok": true
+    },
+    {
+      "relative": "Form_referencia/Cad_NCM.frm",
+      "ok": true
+    },
+    {
+      "relative": "Form_referencia/Cad_NCM.frx",
+      "ok": true
+    },
+    {
+      "relative": "Form_referencia/Cad_NFE.frm",
+      "ok": true
+    },
+    {
+      "relative": "Form_referencia/Cad_NFE.frx",
+      "ok": true
+    },
+    {
+      "relative": "Form_referencia/Cad_NFE_Saida.frm",
+      "ok": true
+    },
+    {
+      "relative": "Form_referencia/Cad_NFE_Saida.frx",
+      "ok": true
+    },
+    {
+      "relative": "Form_referencia/frmRelatorioXML.frm",
+      "ok": true
+    },
+    {
+      "relative": "Form_referencia/frmRelatorioXML.frx",
+      "ok": true
+    },
+    {
+      "relative": "Form_referencia/UserFormFiltro.frm",
+      "ok": true
+    },
+    {
+      "relative": "Form_referencia/UserFormFiltro.frx",
+      "ok": true
+    },
+    {
+      "relative": "inventario_final_salvo.json",
+      "ok": true
+    },
+    {
+      "relative": "LEIA_ME.md",
+      "ok": true
+    },
+    {
+      "relative": "manifesto_artefatos.json",
+      "ok": true
+    },
+    {
+      "relative": "vbaProject.bin",
+      "ok": true
+    }
+  ]
+}

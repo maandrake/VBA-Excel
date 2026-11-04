@@ -231,3 +231,32 @@ Macros habilitadas manualmente pelo usuário. Verificada a inicialização autom
 - Removido o gitlink autorreferente em `c560de1`.
 - Realocados cinco arquivos de evidência da Fase 4 em `_auditoria/backups/f4-20261101/`, com caminhos históricos e SHA-256 preservados no manifesto original.
 - Adicionada rotina de backup de manutenção com seleção de arquivos, destino externo e verificação SHA-256.
+
+
+## 03/11/2026 — continuação do fechamento da Entrega2
+
+Preservada revisão16 congelada e conferidos novamente39originais sem divergência. Implementados modFechamentoEntrega2, vínculo/registro de autoridade e conciliação limitada auditável; esquema7/contrato3. Oito asserções VBA PASS da sessão anterior preservadas, com distinção entre evento real, API e contenção. Realocação explícita a outra pasta TEMP executada em VBA, geração2; diagnóstico da origem recusado por geração. Correção Guard10/TempC3 para TEMP local do usuário diante de mudança de sandbox entre sessões; diagnóstico/reconstrução em sessão aberta passaram.
+
+Novos backups pelo script Backup-Manutencao.ps1 em destino privado externo; binários TEMP receberam checkpoint suplementar porque o script aceita somente caminhos relativos ao repositório. A candidata foi salva e realmente compilada com71componentes; suíte ampliada incorporada e consulta SQL corrigida conforme esquema. Nova sessão recusou execução VBA por macros desativadas; não houve bypass ou mudança de segurança. Regressões ainda não executadas não foram aprovadas.
+
+Preservados artefatos privados, fontes embutidos e manifesto. Candidata XLSM8b25d17ae74fe646f13a5d834d51382182d8579337633418ad68985325f98305; ACCDBf73f68ff144567d25e9af54a5f213cd1d95cf2583299bdb87301a8d3d67b8d14. Revisão16/16movimentos-recibos/0Pending/1recibo de conciliação. Os cinco forms mantêm corpos canônicos e assinaturas existentes; designers reserializados pelo Office, sem alegação de igualdade binária. Nenhuma alteração de produção, regra fiscal, instalação, commit/push ou promoção. **Entrega2 ainda em fechamento; NÃO HOMOLOGADA; Entrega3 não iniciada.** [Relatório](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_20261103T2147Z/FECHAMENTO_ENTREGA2_EM_ANDAMENTO.md).
+
+
+## 03/11/2026 — regressão real e preservação da candidata E2 revisão 26
+
+Após habilitação manual pelo usuário, passou a reabertura fria da pasta realocada na revisão 16 e foram executados os fluxos e controles do [relatório da continuação](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_macros_20261103T2213Z/RELATORIO_CONTINUACAO_ENTREGA2.md). A massa evoluiu até revisão 26 com 26 movimentos/recibos, sete ativos e zero Pending. Foram 58 asserções nesta sessão, 57 PASS/1 FAIL da instrumentação preservado, sem alterar as classificações históricas. Novo módulo de teste modRegressaoFinalE2 incorporado, compilado e salvo; 72 componentes/17 abas/5 forms. Nenhum gravador ou regra fiscal foi modificado nesta sessão; correções limitadas ao teste de Ignore protegido e à ordem do provedor XML da suíte.
+
+Conciliação real pela interface, plano obsoleto, replay abortado e nova tentativa após recibo foram conferidos. Processo ADO independente manteve lock e o evento real recusou escrita, sem efeitos; não se declarou teste de dois Excel. A causa de Saved=False foi isolada no diagnóstico Unprotect/Protect, sem mudança de hash no disco.
+
+Nova sessão Excel foi criada depois de encerramento normal da instância exclusiva; a reabertura final ficou bloqueada no aviso de macros. Preservado pacote revisão 26 com executáveis, ACCDB, registro, fontes e hashes em [pasta privada](<C:/Users/MARCOSALEXANDREPERDO/AppData/Local/VBA-Excel-Entregas/Entrega2_R26_20261103T2310Z_PENDENTE_ACEITE/>). Originais 39/39 e par E2 congelado íntegros. Backup documental 20261103T230700Z-9ddfa761. Não houve instalação, mudança de segurança, commit/push, dados reais ou promoção. **Entrega 2 não encerrada; NÃO HOMOLOGADA.**
+
+
+## Retomada de04/11/2026 — QueryClose, revisao26
+
+[Relatorio da retomada](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_reabertura_final_20261103T233016Z/RELATORIO_RETOMADA_QUERYCLOSE.md). Os registros anteriores permanecem historicos. A referencia R26 reabriu com CACHE_AUDITADO e diagnostico VERIFIED; pesquisas reais matriz/filial confirmaram episodios e valores150,3333/456,7891. Foi reproduzido erro1004 no X de Cad_NFE: incremento arbitrario de U1 na planilha ativa protegida. Removida somente essa escrita em QueryClose de Cad_NFE e Cad_NFE_Saida na candidata. Compilacao real e regressao de X/botao Fechar dos dois formularios PASS.17tabelas/ACCDB inalterados;39originais com hashes iguais.
+
+Novo XLSM preservado: SHA256 efd1916395159da3d30ecc99838ff6e0e44dd9e0ca2b13b29570a3b59fe247e0; ACCDB9fc0bfe8001120d2804b8f56836949249606e2030a6af431a71b1757c80267dc. Pacote privado Entrega2_R26_QueryClose_20261104T1221Z_PENDENTE_ACEITE.72componentes;436assinaturas dos5formularios preservadas; designers reserializados, sem alegar identidade binaria.
+
+FORMULA_VALUE apos edicao/formularios preservado como FAIL de tentativa; recalc completo recuperou VERIFIED, sem alterar fatos. Causa fina ainda nao isolada. Arquivo salvo e instancia exclusiva encerrada normalmente. A nova abertura do XLSM corrigido concluiu, mas Office voltou a desabilitar macros: inicializacao/fluxo final BLOQUEADOS ate habilitacao manual. Entrega2 continua em fechamento, NAO HOMOLOGADA; nenhuma liberacao de Entrega3.
+
+Backup previo das9documentacoes pelo Backup-Manutencao.ps1:20261104T121731Z-ef30ba1a, fora do repositorio/OneDrive. Checkpoint binario previo:checkpoint_queryclose_20261103T233312Z. Patch verificado no binario salvo: somente duas linhas substituidas por comentario; assinaturas inalteradas. Sem commit/push/promocao.

@@ -79,3 +79,49 @@ E2-12 — Média: os sete casos históricos foram relacionados aos eventos/mecan
 ## Estado atualizado de E2-09 — reabertura
 
 **Resolvido no escopo de reabertura interativa no laboratório existente.** Macros habilitadas manualmente; CACHE_AUDITADO automático e E1_SESSAO_REABERTA_E2_R3 PASS com revisão16/projeçãoVERIFIED. XLSM/ACCDB mantêm hashes. [Evidência](./_desenvolvimento/entrega2_20261102T215146Z/continuacao_reabertura_20261103T010409Z/evidencias_reabertura.json). A linha anterior de bloqueio é histórica; portabilidadeE2-03, conciliaçãoE2-01 e outras pendências não foram encerradas por esse PASS.
+
+
+## Atualização do fechamento — 03/11/2026
+
+| Identificação | Situação / risco | Responsável e próximo critério |
+|---|---|---|
+| E2-FECH-01 — TEMP por sessão | Corrigido na candidata; diagnóstico aberto passou. Reabertura fria final bloqueada por macros. | Engenharia: confirmar inicialização e F2_Restaurada em nova sessão. |
+| E2-FECH-02 — restauração | Realocação ao vivo ensaiada e origem revogada. Recuperação quando origem/registro estão indisponíveis ainda não implementada/ensaiada. | Engenharia + responsável: protocolo sem duas autoridades e sem perda de fatos posteriores. |
+| E2-FECH-03 — conciliação | Plano/recibo de abandono sem efeitos implementado; API passou. Interface humana, versão alterada e divergências ainda precisam de regressão. ENTRY/órfãos/incertos ficam bloqueados. | Engenharia: testar os limites; responsável: decidir somente as exceções operacionais necessárias. |
+| E2-FECH-04 — regressão final | Novos eventos/filtros preparados mas não executados; Office recusou macros na sessão atual. | Proprietário: habilitação manual da cópia confiável; engenharia: executar, registrar e corrigir antes do aceite. |
+| E2-FECH-05 — Saved=False | Causa exata ainda não isolada; nenhuma atribuição Saved=True usada para mascarar. | Engenharia: comparar cálculo, eventos e hashes antes/depois em sessão habilitada. |
+| Exceções de manutenção | Anulação/estorno e retificação fiscal, monetária ou histórica NÃO DISPONÍVEIS sem contrato operacional. | Proprietário: regra específica; manter bloqueios. |
+
+[Estado completo e artefatos](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_20261103T2147Z/FECHAMENTO_ENTREGA2_EM_ANDAMENTO.md). Não há autorização para produção, migração real ou homologação por protótipos.
+
+
+## Estado corrente — continuação revisão 26
+
+As linhas anteriores são histórico. [Evidências desta sessão](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_macros_20261103T2213Z/RELATORIO_CONTINUACAO_ENTREGA2.md).
+
+| ID | Gravidade / estado | Responsável e próximo critério |
+|---|---|---|
+| E2-FECH-01 / 04 | Teste frio inicial, fluxos reais, filtros, XML e metadados executados. Reabertura final R26 BLOQUEADA no aviso de macros | Proprietário: habilitar conteúdo somente na candidata TEMP; engenharia: comprovar cache automático e fluxo após reabrir |
+| E2-FECH-02 | Realocação ao vivo + sessão fria aprovadas; backup reaberto. Restauração quando origem/registro não existem continua NÃO EXECUTADA | Engenharia/responsável: protocolo explícito, sem duplicar autoridade ou perder fatos posteriores |
+| E2-FECH-03 | Conciliação sem efeitos, interface, plano obsoleto, replay abortado e nova tentativa passaram | Engenharia: ampliar casos incertos; responsável: regras de ENTRY/órfãos/estorno. Não liberar automaticamente |
+| E2-FECH-05 | Causa de Saved=False isolada: diagnóstico protege/desprotege para ler Ignore; hash em disco inalterado | Efeito conhecido em memória; orientar usuário. Não mascarar Saved nem prometer diagnóstico totalmente sem efeitos de interface |
+| E2-FECH-06 | Média: erro de conflito ACE é apresentado como transação não iniciada. Teste recusou escrita e não criou fatos | Engenharia: preservar cadeia de erros e melhorar mensagem; reexecutar conflito após correção |
+| E1-05 | Alta: evento real versus processo ADO independente aprovado; dois gravadores Excel não ensaiados nesta revisão | Engenharia: segundo cliente integrado, perda de lease, geração e retomada órfã |
+| E2-11 | Alta: ENTRY/rascunho órfão continua sem resolução auditável | Engenharia + responsável: protocolo específico; não escolher VehicleID por placa |
+| E1-07 / E2-04 | Reentrada por ListBox e placa conhecida sem vínculo aprovadas novamente | Engenharia: múltiplos candidatos, novo veículo com placa coincidente e identidade insuficiente nos dois locais |
+| E1-09 / E2-06 | 66 projeções conferidas por identidade, fórmulas, formatos e Ignore; filtro Compra matriz/filial e Venda real aprovados | Engenharia: demais relatórios/atalhos e abrangência das 17 abas ainda não comprovados |
+| E2-TESTE-IGNORE | FAIL de instrumentação preservado; CI corrigido e novo teste 66 projeções PASS | Não é defeito novo do gravador; manter evidência anterior |
+| Exceções de manutenção | Anulação/estorno, retificação fiscal/monetária/histórica e exclusão de fato confirmado NÃO DISPONÍVEIS | Proprietário: decisão específica por operação. Nunca classificar bloqueio como implementação |
+
+Energia/crash/corrupção física, escrita SQL externa, logs/retenção e validação operacional da custódia continuam pendentes. Entrega 2 não encerrada; não iniciar Entrega 3 como aprovada.
+
+
+## Retomada de04/11/2026 — QueryClose, revisao26
+
+[Relatorio da retomada](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_reabertura_final_20261103T233016Z/RELATORIO_RETOMADA_QUERYCLOSE.md). Os registros anteriores permanecem historicos. A referencia R26 reabriu com CACHE_AUDITADO e diagnostico VERIFIED; pesquisas reais matriz/filial confirmaram episodios e valores150,3333/456,7891. Foi reproduzido erro1004 no X de Cad_NFE: incremento arbitrario de U1 na planilha ativa protegida. Removida somente essa escrita em QueryClose de Cad_NFE e Cad_NFE_Saida na candidata. Compilacao real e regressao de X/botao Fechar dos dois formularios PASS.17tabelas/ACCDB inalterados;39originais com hashes iguais.
+
+Novo XLSM preservado: SHA256 efd1916395159da3d30ecc99838ff6e0e44dd9e0ca2b13b29570a3b59fe247e0; ACCDB9fc0bfe8001120d2804b8f56836949249606e2030a6af431a71b1757c80267dc. Pacote privado Entrega2_R26_QueryClose_20261104T1221Z_PENDENTE_ACEITE.72componentes;436assinaturas dos5formularios preservadas; designers reserializados, sem alegar identidade binaria.
+
+FORMULA_VALUE apos edicao/formularios preservado como FAIL de tentativa; recalc completo recuperou VERIFIED, sem alterar fatos. Causa fina ainda nao isolada. Arquivo salvo e instancia exclusiva encerrada normalmente. A nova abertura do XLSM corrigido concluiu, mas Office voltou a desabilitar macros: inicializacao/fluxo final BLOQUEADOS ate habilitacao manual. Entrega2 continua em fechamento, NAO HOMOLOGADA; nenhuma liberacao de Entrega3.
+
+E2-FECH-07 (media): QueryClose1004 corrigido/testado no escopo dos dois formularios; reabertura funcional da correcao pendente por macros. E2-FECH-08 (media): formula em cache desatualizada apos edicao; recalc recuperou, causa fina por isolar. E2-FECH-06 (mensagem de conflito ACE), E1-05 (dois Excel), E2-11 (ENTRY orfao) e restauracao de desastre permanecem abertos, sob engenharia/responsavel.

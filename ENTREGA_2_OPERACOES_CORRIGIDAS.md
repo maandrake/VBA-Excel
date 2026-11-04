@@ -71,3 +71,44 @@ A suíte existente E1_SessaoReaberta foi então executada no projeto E2 e regist
 Os SHA-256 do XLSM e ACCDB permaneceram exatamente iguais aos entregues. Não foi necessário alterar fontes ou repetir operações. A base continua revisão16,16movimentos/recibos,5ativos e0Pending. [Evidências da continuação](./_desenvolvimento/entrega2_20261102T215146Z/continuacao_reabertura_20261103T010409Z/), [resultado estruturado](./_desenvolvimento/entrega2_20261102T215146Z/continuacao_reabertura_20261103T010409Z/evidencias_reabertura.json) e [TSV acumulado](./_desenvolvimento/entrega2_20261102T215146Z/continuacao_reabertura_20261103T010409Z/resultados_entrega2_com_reabertura.tsv).
 
 O log acumulado agora contém62execuções de asserção:55PASS/7FAIL preservados,56IDs. A referênciaR0 de10PASS continua separada. As consultas imediatas de inicialização e estados não foram somadas como novas asserções. O bloqueio de reabertura E2-09 foi superado nesse escopo. Portabilidade/restauração em outra pasta, conciliação operacional e cobertura remanescente continuam abertas; sistema NÃO HOMOLOGADO. A instância também mantém outros projetos; não se declara teste de nova instalação, crash ou energia.
+
+
+## Fechamento em andamento — 03/11/2026
+
+A continuação implementou realocação explícita de autoridade e conciliação limitada de intenção comprovadamente sem efeitos, com recibo auditável. Oito asserções VBA PASS da sessão anterior estão preservadas; a compilação real atual aprovou 71 componentes. Corrigida a guarda TEMP variável entre sessões. A nova sessão está **BLOQUEADA para macros**; os testes adicionais ainda não executados não foram aprovados. **Entrega2 não encerrada; Entrega3 não iniciada.**
+
+Artefatos efetivamente produzidos, hashes, fontes e limites estão no [relatório desta continuação](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_20261103T2147Z/FECHAMENTO_ENTREGA2_EM_ANDAMENTO.md). Banco permanece revisão16, agora esquema7/contrato3, geração2,16 movimentos/recibos e um recibo de conciliação, zeroPending. A referência congelada acima permanece intocada.
+
+
+## Continuação executada — 03/11/2026, revisão 26
+
+Esta seção atualiza o estado corrente e preserva as tentativas acima. **Entrega 2 ainda em fechamento; NÃO HOMOLOGADA; Entrega 3 não iniciada.** A candidata foi compilada e salva com 72 componentes, 17 planilhas e cinco UserForms. A regressão desta sessão contém 58 execuções de asserção: 57 PASS e um FAIL de instrumentação preservado; o helper do teste foi corrigido e a conferência posterior de 66 projeções passou. [Relatório completo](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_macros_20261103T2213Z/RELATORIO_CONTINUACAO_ENTREGA2.md), [matriz executada](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_macros_20261103T2213Z/MATRIZ_EXECUTADA_FECHAMENTO.md) e [artefatos/hash](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_macros_20261103T2213Z/artefatos_r26_preservados.json).
+
+Entrada matriz/filial, Transferência, Devolução, Venda, Cancelado técnico e reentrada foram executados pelos controles reais dos formulários com dados fictícios; ADJUST matriz e filial, botões do filtro, backup reaberto, Save cancelado, SaveAs inválido, reordenação e reconstrução foram conferidos. Dez XML negativos foram recusados sem fatos novos; dois casos são chamadas diretas do validador real e relatório, não eventos do gravador. A concorrência executada é um gravador VBA contra lock ACE em outro processo, não duas sessões Excel.
+
+Persistência independente: revisão 26, esquema 7/contrato 3, geração 2, 26 movimentos/recibos, 10 episódios, oito veículos, sete ativos, 66 projeções de planilha, zero Pending, dois recibos de conciliação. Diagnóstico VBA real: AUDIT=OK;PROJECTION=VERIFIED;REV=26;MOV=26;RECEIPTS=26;ACTIVE=7;PENDING=0. [Estado ADO](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_macros_20261103T2213Z/estado_apos_xml_concorrencia.json).
+
+Conciliação limitada foi demonstrada pela interface: APPLY3 reverteu os efeitos e deixou intenção; plano obsoleto foi recusado; novo plano com responsável, motivo e confirmação explícita gerou ABORTED/recibo sem efeitos. Replay abortado foi recusado e somente após a conciliação uma nova tentativa foi confirmada. Isso não libera ENTRY/rascunhos, lease órfão ou fatos incertos.
+
+A nova sessão final abriu o XLSM correto, mas o Office desabilitou macros. O teste frio inicial na pasta realocada/revisão 16 passou; a inicialização e o fluxo após reabrir a revisão 26 estão **BLOQUEADOS**, aguardando Habilitar Conteúdo manual. O fechamento normal atingiu somente a instância exclusiva de teste, com uma pasta aberta. Nenhuma política de segurança foi alterada.
+
+Saved=False foi isolado: após Save e cache, True; depois do diagnóstico, False devido a Unprotect/Protect para ler Ignore. O SHA-256 não mudou durante a consulta. [Evidência](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_macros_20261103T2213Z/investigacao_saved.json). Não se forjou Saved=True nem houve Save inesperado.
+
+[Pacote privado de preservação](<C:/Users/MARCOSALEXANDREPERDO/AppData/Local/VBA-Excel-Entregas/Entrega2_R26_20261103T2310Z_PENDENTE_ACEITE/>), executáveis reais com nomes preferenciais Final:
+
+| Artefato | SHA-256 |
+|---|---|
+| Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm | b379f42c739100086e1010f776777a90a9acb65d3ef94d8227dcbd1dd45e6e25 |
+| Banco_Candidato_Entrega2_Final.accdb | 9fc0bfe8001120d2804b8f56836949249606e2030a6af431a71b1757c80267dc |
+| Controle_E2_143C55EC132B48398413268B265117AF.accdb | b9e0c8aceb4474bb6b74ba727c7064982cfa9371e060b901bdf4b2de61632e2f |
+
+Os 39 originais e a Entrega 2 revisão 16 congelada foram reconferidos sem divergência. Backup documental verificado: C:/Users/MARCOSALEXANDREPERDO/AppData/Local/CodexBackupsPrivados/VBA-Excel/20261103T230700Z-9ddfa761. O pacote privado é preservação, não outra autoridade ativa. Falta concluir a reabertura final, restauração integral sem origem/registro e cobertura de dois gravadores Excel. Exceções operacionais sem regra continuam indisponíveis.
+
+
+## Retomada de04/11/2026 — QueryClose, revisao26
+
+[Relatorio da retomada](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_reabertura_final_20261103T233016Z/RELATORIO_RETOMADA_QUERYCLOSE.md). Os registros anteriores permanecem historicos. A referencia R26 reabriu com CACHE_AUDITADO e diagnostico VERIFIED; pesquisas reais matriz/filial confirmaram episodios e valores150,3333/456,7891. Foi reproduzido erro1004 no X de Cad_NFE: incremento arbitrario de U1 na planilha ativa protegida. Removida somente essa escrita em QueryClose de Cad_NFE e Cad_NFE_Saida na candidata. Compilacao real e regressao de X/botao Fechar dos dois formularios PASS.17tabelas/ACCDB inalterados;39originais com hashes iguais.
+
+Novo XLSM preservado: SHA256 efd1916395159da3d30ecc99838ff6e0e44dd9e0ca2b13b29570a3b59fe247e0; ACCDB9fc0bfe8001120d2804b8f56836949249606e2030a6af431a71b1757c80267dc. Pacote privado Entrega2_R26_QueryClose_20261104T1221Z_PENDENTE_ACEITE.72componentes;436assinaturas dos5formularios preservadas; designers reserializados, sem alegar identidade binaria.
+
+FORMULA_VALUE apos edicao/formularios preservado como FAIL de tentativa; recalc completo recuperou VERIFIED, sem alterar fatos. Causa fina ainda nao isolada. Arquivo salvo e instancia exclusiva encerrada normalmente. A nova abertura do XLSM corrigido concluiu, mas Office voltou a desabilitar macros: inicializacao/fluxo final BLOQUEADOS ate habilitacao manual. Entrega2 continua em fechamento, NAO HOMOLOGADA; nenhuma liberacao de Entrega3.

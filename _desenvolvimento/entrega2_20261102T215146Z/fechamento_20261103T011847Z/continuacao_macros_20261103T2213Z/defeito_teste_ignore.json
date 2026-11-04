@@ -1,0 +1,6 @@
+{
+  "falha": "CF_LEITORES_ERRO 1004",
+  "causa": "Suite leu Errors(xlNumberAsText).Ignore em planilha protegida; o produto ja usa IgnoredC1 com desprotecao temporaria/restauracao",
+  "alteracao": "Somente suite: helper CI preserva ProtectContents; falha original mantida no TSV",
+  "produto": "Sem alteracao"
+}

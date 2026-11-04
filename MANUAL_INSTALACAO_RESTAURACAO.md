@@ -110,3 +110,60 @@ Save cancelado real, SaveAs inválido, reconstrução e banco copiado reaberto f
 O usuário habilitou manualmente as macros e a conferência em novo contexto do projeto passou. C1_UltimoResultado indicou CACHE_AUDITADO antes de qualquer carregamento manual. E1_SessaoReaberta, executado no projeto da candidata E2, registrou PASS com revisão16,16movimentos/recibos,5ativos,0Pending ePROJECTION=VERIFIED. [Evidência](./_desenvolvimento/entrega2_20261102T215146Z/continuacao_reabertura_20261103T010409Z/evidencias_reabertura.json). O aviso já foi atendido nesta sessão; a referência anterior a aguardando clique é histórica.
 
 Os hashes entregues não mudaram. A consulta encontrou Workbook.Saved=False em memória após inicialização/cálculo, sem novo Save. Não interpretar isso como persistência adicional nem como nova movimentação. A abertura em outra pasta/instalação e a conciliação operacional continuam pendentes.
+
+
+## Continuação do fechamento: contrato3 / esquema7
+
+**Pacote compilado em andamento, não liberado para homologação.** [Artefatos e hashes](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_20261103T2147Z/FECHAMENTO_ENTREGA2_EM_ANDAMENTO.md). Office somente no TEMP, sobre a candidata sintética. O pacote privado é preservação; abrir suas cópias não estabelece autoridade.
+
+A autoridade atual está em C:/Users/MARCOS~1/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Entrega2_Restauracao_Controlada_20261103T0146Z/. Requer o XLSM/ACCDB Final e o registro compartilhado Controle_E2_143C55EC132B48398413268B265117AF.accdb no caminho persistido. Não recriar ou copiar o registro para eleger uma autoridade paralela. Não executar C3_InstalarReferencia novamente: é bootstrap da referência congelada, não rotina de restauração.
+
+Realocação sintética ensaiada: conferir Audit10=OK, READY, Pending0, WriterLeaseFREE, BaseID/linhagem/revisão e hash do banco fechado; preparar destino TEMP vazio; usar C3_Realocar com destino, responsável, justificativa e SHA esperado. O método preserva cópias e registra a nova geração; a origem é revogada. Reabrir o destino, habilitar macros manualmente se o Office exigir, diagnosticar e reconstruir/verificar a projeção antes de gravar. O ensaio preservou rev16, gerou geração2 e recusou a origem. Não repetir em caso de falha ou resultado incerto.
+
+As etapas entre arquivos não são uma transação única. Interrupção exige diagnóstico das duas bases e do registro; não apagar evidências, zerar lease nem escolher por data/nome. Não usar esse procedimento como prova de restauração de backup antigo com fatos posteriores. Recuperação sem origem/registro disponível continua pendente.
+
+Conciliação: CandidatoConciliarIntencao solicita OperationID, análise, responsável, motivo e confirmação do plano. Somente PREPARED não ENTRY, sem efeitos comprovados e com origem/versão intactas, pode receber CONCILIADO_SEM_EFEITOS. A API foi exercitada com confirmação sintética; o diálogo completo ainda não passou por teste. Fatos confirmados, recibos ausentes/divergentes, histórico alterado, ENTRY/rascunhos e lease órfão permanecem bloqueados. Não usar outro OperationID para contornar Pending. Preservar o recibo e revalidar auditoria/projeção depois.
+
+Nova sessão atual: macros desativadas pelo Office. O proprietário deve habilitar conteúdo apenas nessa candidata confiável, sem alterar políticas globais. Compilar e executar não são equivalentes: a compilação passou; a regressão ampliada aguarda essa ação. [Sequência precisa de retomada](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_20261103T2147Z/FECHAMENTO_ENTREGA2_EM_ANDAMENTO.md#retomada-sem-reiniciar-auditoria).
+
+
+## Procedimento vigente — candidata revisão 26 (03/11/2026)
+
+Esta seção atualiza o estado corrente, preservando o histórico. Somente laboratório sintético; Entrega 2 em fechamento.
+
+1. Usar o XLSM Final já aberto no TEMP Entrega2_Restauracao_Controlada_20261103T0146Z, com o ACCDB Final ao lado e registro compartilhado no caminho persistido. Não operar a cópia de preservação privada.
+2. O proprietário deve clicar Habilitar Conteúdo manualmente. Nenhuma política global deve ser alterada.
+3. Alt+F11, selecionar um módulo da candidata Final; Ctrl+G. Antes de carregar cache manualmente: `? C1_UltimoResultado`. Esperado CACHE_AUDITADO. Se vazio/bloqueado, registrar e investigar, sem mascarar a inicialização.
+4. `? C1_Diagnostico()`. Checkpoint 26: AUDIT=OK;PROJECTION=VERIFIED;REV=26;MOV=26;RECEIPTS=26;ACTIVE=7;PENDING=0. O diagnóstico pode deixar Saved=False porque desprotege/reprotege para ler Ignore. O experimento confirmou cache sem esse efeito e hash do arquivo inalterado durante a consulta.
+5. Alt+F8 → CandidatoAbrirEntrada; pesquisar F2A0001/F2F0002 e conferir o episódio/token e local. Essa consulta após a reabertura final ainda está bloqueada por macros. Não repetir as suítes de cadastro na massa final já movimentada.
+
+### Realocação e restauração
+
+A realocação ao vivo foi ensaiada: origem revogada, geração2 e teste frio inicial na nova pasta aprovados. Conferir auditoria, READY, FREE, Pending0, BaseID, linhagem, revisão e hash; preparar destino TEMP vazio. Na candidata de origem correta, a assinatura é `C3_Realocar(destino, responsavel, motivo, sha256EsperadoDoBanco)`. Todos os argumentos são obrigatórios e o hash deve ser obtido sem conexões de escrita abertas. Não executar C3_InstalarReferencia novamente.
+
+A função deve devolver REALOCADO_REQUER_REABERTURA_E_VERIFICACAO. Fechar somente a origem, abrir destino, habilitar macros manualmente, conferir identidade/geração/revisão, reconstruir e verificar antes de gravar. Se devolver PENDENTE_OU_RECUSADO, conservar os dois conjuntos e o registro, interromper e diagnosticar. Não repetir automaticamente, apagar cópias ou editar caminhos/geração. Não há transação única entre os arquivos.
+
+Esse procedimento exige origem e registro íntegros disponíveis. Recuperação de desastre sem eles e recuperação de backup antigo com fatos posteriores ainda não foram implementadas/ensaiadas. O backup real revisão24 foi reaberto/auditado; não substituir a autoridade26 por ele. Preservar ambos e conciliar fatos25/26 e recibos antes da decisão. Cópia de ACCDB com mesmo BaseID não assume autoridade; copiar o registro para criar autoridade paralela é proibido.
+
+### Conciliação limitada pela interface
+
+Alt+F8 → CandidatoConciliarIntencao. Informar OperationID exato, responsável experimental e motivo; ler o plano e confirmar somente se demonstrado PREPARED não ENTRY sem efeitos, origem/versão intactas e auditoria pronta. A decisão cria Attempt, recibo e ABORTED, preservando snapshot e justificativa. Plano obsoleto exige nova análise. Nunca trocar OperationID para contornar Pending.
+
+O diálogo completo passou para AA80FD0A-5A9A-4113-921C-12C9046D1A26, já conciliado; não repeti-lo como intenção pendente. Somente depois do recibo houve nova tentativa34021 confirmada uma vez. O procedimento não desfaz commit, não inventa recibo e não resolve ENTRY/rascunho, lease órfão, histórico alterado ou estado incerto. Esses casos permanecem PENDENTE_CONCILIACAO, sob decisão específica.
+
+### Manutenção e limites
+
+ADJUST descritivo foi testado em matriz e filial, com motivo/responsável e fato substitutivo, preservando o anterior. Retificação fiscal, dinheiro, chave, placa/data, histórico encerrado, anulação/estorno e exclusão confirmada são operações diferentes e permanecem NÃO DISPONÍVEIS sem regra aprovada. Não corrigir diretamente por SQL.
+
+Após commit confirmado e falha no Excel, não repetir o movimento: auditar recibo e executar CandidatoReconstruir. Falha pré-commit pode reverter efeitos e manter intenção; isso não é recuperação integral. Não liberar lease por idade. Backup produz conjunto verificado sem retenção automática. Energia, corrupção física, dois escritores Excel e restauração de desastre continuam sem aprovação.
+
+
+## Retomada de04/11/2026 — QueryClose, revisao26
+
+[Relatorio da retomada](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_reabertura_final_20261103T233016Z/RELATORIO_RETOMADA_QUERYCLOSE.md). Os registros anteriores permanecem historicos. A referencia R26 reabriu com CACHE_AUDITADO e diagnostico VERIFIED; pesquisas reais matriz/filial confirmaram episodios e valores150,3333/456,7891. Foi reproduzido erro1004 no X de Cad_NFE: incremento arbitrario de U1 na planilha ativa protegida. Removida somente essa escrita em QueryClose de Cad_NFE e Cad_NFE_Saida na candidata. Compilacao real e regressao de X/botao Fechar dos dois formularios PASS.17tabelas/ACCDB inalterados;39originais com hashes iguais.
+
+Novo XLSM preservado: SHA256 efd1916395159da3d30ecc99838ff6e0e44dd9e0ca2b13b29570a3b59fe247e0; ACCDB9fc0bfe8001120d2804b8f56836949249606e2030a6af431a71b1757c80267dc. Pacote privado Entrega2_R26_QueryClose_20261104T1221Z_PENDENTE_ACEITE.72componentes;436assinaturas dos5formularios preservadas; designers reserializados, sem alegar identidade binaria.
+
+FORMULA_VALUE apos edicao/formularios preservado como FAIL de tentativa; recalc completo recuperou VERIFIED, sem alterar fatos. Causa fina ainda nao isolada. Arquivo salvo e instancia exclusiva encerrada normalmente. A nova abertura do XLSM corrigido concluiu, mas Office voltou a desabilitar macros: inicializacao/fluxo final BLOQUEADOS ate habilitacao manual. Entrega2 continua em fechamento, NAO HOMOLOGADA; nenhuma liberacao de Entrega3.
+
+Na candidata Final corrigida ja aberta no TEMP, proprietario: clicar Habilitar Conteudo somente para esse arquivo sintetico reconhecido, sem alterar politicas. Depois informar a habilitacao. Retomada: ler C1_UltimoResultado antes de carregar cache; executar C1_Diagnostico; conferir REV26/MOV26/RECEIPTS26/ACTIVE7/PENDING0 e pesquisa. Nao repetir cadastramentos na massa final. O X dos formularios continua orientando o uso do botao Fechar, por comportamento preservado. Copias no pacote privado sao preservacao, nao autoridades.

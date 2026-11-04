@@ -1,0 +1,640 @@
+{
+  "designers": [
+    {
+      "path": "/Cad_NCM/f",
+      "size": 287,
+      "same": false
+    },
+    {
+      "path": "/Cad_NCM/o",
+      "size": 42936,
+      "same": false
+    },
+    {
+      "path": "/Cad_NCM/i18/f",
+      "size": 102218,
+      "same": false
+    },
+    {
+      "path": "/Cad_NCM/i18/o",
+      "size": 260,
+      "same": false
+    },
+    {
+      "path": "/Cad_NCM/i18/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NCM/i254/f",
+      "size": 102298,
+      "same": false
+    },
+    {
+      "path": "/Cad_NCM/i254/o",
+      "size": 368,
+      "same": false
+    },
+    {
+      "path": "/Cad_NCM/i254/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NCM/\u0001CompObj",
+      "size": 97,
+      "same": true
+    },
+    {
+      "path": "/Cad_NCM/\u0003VBFrame",
+      "size": 295,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/f",
+      "size": 907,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/o",
+      "size": 559699,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/f",
+      "size": 192,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/o",
+      "size": 180,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/x",
+      "size": 48,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/f",
+      "size": 336,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/o",
+      "size": 0,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i12/f",
+      "size": 645,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i12/o",
+      "size": 620,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i12/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i46/f",
+      "size": 193,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i46/o",
+      "size": 132,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i46/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i50/f",
+      "size": 797,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i50/o",
+      "size": 509594,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i50/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i391/f",
+      "size": 677,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i391/o",
+      "size": 696,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i391/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i460/f",
+      "size": 209,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i460/o",
+      "size": 132,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i460/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i483/f",
+      "size": 245,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i483/o",
+      "size": 28266,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i483/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/\u0001CompObj",
+      "size": 110,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/f",
+      "size": 364,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/o",
+      "size": 0,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i547/f",
+      "size": 701,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i547/o",
+      "size": 620,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i547/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i567/f",
+      "size": 205,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i567/o",
+      "size": 132,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i567/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i570/f",
+      "size": 853,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i570/o",
+      "size": 832,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i570/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i582/f",
+      "size": 217,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i582/o",
+      "size": 132,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i582/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i585/f",
+      "size": 269,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i585/o",
+      "size": 28266,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i585/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i612/f",
+      "size": 905,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i612/o",
+      "size": 505438,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i612/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/\u0001CompObj",
+      "size": 110,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i98/\u0001CompObj",
+      "size": 115,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/i103/f",
+      "size": 102366,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i103/o",
+      "size": 92012,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE/i103/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/\u0001CompObj",
+      "size": 97,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE/\u0003VBFrame",
+      "size": 312,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/f",
+      "size": 439,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/o",
+      "size": 401944,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/f",
+      "size": 192,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/o",
+      "size": 172,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/x",
+      "size": 48,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/f",
+      "size": 336,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/o",
+      "size": 0,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i12/f",
+      "size": 649,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i12/o",
+      "size": 620,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i12/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i46/f",
+      "size": 201,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i46/o",
+      "size": 132,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i46/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i50/f",
+      "size": 593,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i50/o",
+      "size": 375723,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i50/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i391/f",
+      "size": 833,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i391/o",
+      "size": 864,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i391/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i460/f",
+      "size": 1045,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i460/o",
+      "size": 1180,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i460/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i483/f",
+      "size": 353,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i483/o",
+      "size": 556,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i483/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/\u0001CompObj",
+      "size": 110,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/f",
+      "size": 364,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/o",
+      "size": 0,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i242/f",
+      "size": 569,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i242/o",
+      "size": 338032,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i242/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i248/f",
+      "size": 849,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i248/o",
+      "size": 812,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i248/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i257/f",
+      "size": 709,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i257/o",
+      "size": 620,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i257/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i268/f",
+      "size": 1149,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i268/o",
+      "size": 1252,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i268/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i275/f",
+      "size": 213,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i275/o",
+      "size": 132,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i275/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i498/f",
+      "size": 381,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i498/o",
+      "size": 556,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i498/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/\u0001CompObj",
+      "size": 110,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/\u0001CompObj",
+      "size": 115,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i103/f",
+      "size": 102230,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i103/o",
+      "size": 86430,
+      "same": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i103/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/\u0001CompObj",
+      "size": 97,
+      "same": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/\u0003VBFrame",
+      "size": 313,
+      "same": true
+    },
+    {
+      "path": "/UserFormFiltro/f",
+      "size": 131,
+      "same": false
+    },
+    {
+      "path": "/UserFormFiltro/o",
+      "size": 0,
+      "same": true
+    },
+    {
+      "path": "/UserFormFiltro/i02/f",
+      "size": 1181,
+      "same": false
+    },
+    {
+      "path": "/UserFormFiltro/i02/o",
+      "size": 500902,
+      "same": false
+    },
+    {
+      "path": "/UserFormFiltro/i02/\u0001CompObj",
+      "size": 112,
+      "same": true
+    },
+    {
+      "path": "/UserFormFiltro/\u0001CompObj",
+      "size": 97,
+      "same": true
+    },
+    {
+      "path": "/UserFormFiltro/\u0003VBFrame",
+      "size": 296,
+      "same": true
+    },
+    {
+      "path": "/frmRelatorioXML/f",
+      "size": 339,
+      "same": false
+    },
+    {
+      "path": "/frmRelatorioXML/o",
+      "size": 91024,
+      "same": false
+    },
+    {
+      "path": "/frmRelatorioXML/\u0001CompObj",
+      "size": 97,
+      "same": true
+    },
+    {
+      "path": "/frmRelatorioXML/\u0003VBFrame",
+      "size": 301,
+      "same": true
+    }
+  ],
+  "workbookXml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" mc:Ignorable=\"x15 xr xr6 xr10 xr2\" xmlns:x15=\"http://schemas.microsoft.com/office/spreadsheetml/2010/11/main\" xmlns:xr=\"http://schemas.microsoft.com/office/spreadsheetml/2014/revision\" xmlns:xr6=\"http://schemas.microsoft.com/office/spreadsheetml/2016/revision6\" xmlns:xr10=\"http://schemas.microsoft.com/office/spreadsheetml/2016/revision10\" xmlns:xr2=\"http://schemas.microsoft.com/office/spreadsheetml/2015/revision2\"><fileVersion appName=\"xl\" lastEdited=\"7\" lowestEdited=\"7\" rupBuild=\"30527\" codeName=\"{82680DD9-3F13-7979-5B5F-3D2375947C00}\"/><workbookPr codeName=\"EstaPastaDeTrabalho\" defaultThemeVersion=\"202300\"/><mc:AlternateContent xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\"><mc:Choice Requires=\"x15\"><x15ac:absPath url=\"C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z\\\" xmlns:x15ac=\"http://schemas.microsoft.com/office/spreadsheetml/2010/11/ac\"/></mc:Choice></mc:AlternateContent><xr:revisionPtr revIDLastSave=\"0\" documentId=\"13_ncr:1_{CEAA85F0-734B-460B-8C9D-DCC814489C11}\" xr6:coauthVersionLast=\"47\" xr6:coauthVersionMax=\"47\" xr10:uidLastSave=\"{00000000-0000-0000-0000-000000000000}\"/><bookViews><workbookView xWindow=\"20\" yWindow=\"20\" windowWidth=\"38380\" windowHeight=\"20860\" firstSheet=\"3\" activeTab=\"9\" xr2:uid=\"{1AE33A10-ABC6-4D05-A8DB-5C1973FAA50A}\"/></bookViews><sheets><sheet name=\"Menu Principal\" sheetId=\"1\" r:id=\"rId1\"/><sheet name=\"Entradas\" sheetId=\"2\" r:id=\"rId2\"/><sheet name=\"Transferidos\" sheetId=\"3\" r:id=\"rId3\"/><sheet name=\"Entradas Anual\" sheetId=\"4\" r:id=\"rId4\"/><sheet name=\"Demonstração\" sheetId=\"5\" r:id=\"rId5\"/><sheet name=\"Saidas\" sheetId=\"6\" r:id=\"rId6\"/><sheet name=\"Todas Saidas\" sheetId=\"7\" r:id=\"rId7\"/><sheet name=\"Entradas Filial\" sheetId=\"8\" r:id=\"rId8\"/><sheet name=\"Entradas Anual Filial\" sheetId=\"9\" r:id=\"rId9\"/><sheet name=\"Saidas Filial\" sheetId=\"10\" r:id=\"rId10\"/><sheet name=\"Todas Saidas Filial\" sheetId=\"11\" r:id=\"rId11\"/><sheet name=\"Carros PF\" sheetId=\"12\" r:id=\"rId12\"/><sheet name=\"Clientes\" sheetId=\"13\" r:id=\"rId13\"/><sheet name=\"Veículos\" sheetId=\"14\" r:id=\"rId14\"/><sheet name=\"Doc. para fora\" sheetId=\"15\" r:id=\"rId15\"/><sheet name=\"NCM e CEST\" sheetId=\"16\" r:id=\"rId16\"/><sheet name=\"Listas\" sheetId=\"17\" r:id=\"rId17\"/></sheets><functionGroups builtInGroupCount=\"19\"/><calcPr calcId=\"191029\"/><extLst><ext uri=\"{140A7094-0E35-4892-8432-C4D2E57EDEB5}\" xmlns:x15=\"http://schemas.microsoft.com/office/spreadsheetml/2010/11/main\"><x15:workbookPr chartTrackingRefBase=\"1\"/></ext><ext uri=\"{B58B0392-4F1F-4190-BB64-5DF3571DCE5F}\" xmlns:xcalcf=\"http://schemas.microsoft.com/office/spreadsheetml/2018/calcfeatures\"><xcalcf:calcFeatures><xcalcf:feature name=\"microsoft.com:RD\"/><xcalcf:feature name=\"microsoft.com:Single\"/><xcalcf:feature name=\"microsoft.com:FV\"/><xcalcf:feature name=\"microsoft.com:CNMTM\"/><xcalcf:feature name=\"microsoft.com:LET_WF\"/><xcalcf:feature name=\"microsoft.com:LAMBDA_WF\"/><xcalcf:feature name=\"microsoft.com:ARRAYTEXT_WF\"/></xcalcf:calcFeatures></ext><ext uri=\"{D14903EA-33C4-47F7-8F05-3474C54BE107}\" xmlns:xlwcv=\"http://schemas.microsoft.com/office/spreadsheetml/2024/workbookCompatibilityVersion\"><xlwcv:version setVersion=\"2\"/></ext></extLst></workbook>"
+}

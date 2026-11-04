@@ -1,0 +1,11 @@
+{
+  "origem": "Transcricao da janela imediata do VBA real",
+  "antesCache": true,
+  "aposCache": true,
+  "diagnostico": "AUDIT=OK;PROJECTION=VERIFIED;REV=26;MOV=26;RECEIPTS=26;ACTIVE=7;PENDING=0",
+  "aposDiagnostico": false,
+  "shaAntes": "fd35ca202643e679d4ac3fdf41566743b1026f7d8dcfe985a3dd15d2b0278962",
+  "shaDepois": "fd35ca202643e679d4ac3fdf41566743b1026f7d8dcfe985a3dd15d2b0278962",
+  "discoInalterado": true,
+  "causa": "VerifyC1 chama IgnoredC1: Unprotect/Protect para ler Errors(xlNumberAsText).Ignore. Modifica Saved em memoria; cache nao produziu a mudanca. Nao foi forjado Saved=True."
+}

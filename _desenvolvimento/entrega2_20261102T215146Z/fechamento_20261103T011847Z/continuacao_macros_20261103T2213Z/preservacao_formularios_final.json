@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Cad_NCM",
+    "corpoSemGuidBaseIgual": true,
+    "procedimentosAntes": 25,
+    "procedimentosDepois": 25
+  },
+  {
+    "name": "Cad_NFE",
+    "corpoSemGuidBaseIgual": true,
+    "procedimentosAntes": 185,
+    "procedimentosDepois": 185
+  },
+  {
+    "name": "Cad_NFE_Saida",
+    "corpoSemGuidBaseIgual": true,
+    "procedimentosAntes": 197,
+    "procedimentosDepois": 197
+  },
+  {
+    "name": "frmRelatorioXML",
+    "corpoSemGuidBaseIgual": true,
+    "procedimentosAntes": 8,
+    "procedimentosDepois": 8
+  },
+  {
+    "name": "UserFormFiltro",
+    "corpoSemGuidBaseIgual": true,
+    "procedimentosAntes": 21,
+    "procedimentosDepois": 21
+  }
+]

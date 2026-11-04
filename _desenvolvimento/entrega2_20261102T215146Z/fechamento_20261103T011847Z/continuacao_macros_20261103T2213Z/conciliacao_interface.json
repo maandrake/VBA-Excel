@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-03T22:33:10.494Z",
+  "origem": "Transcricao da interface real do Excel pelo controle de computador",
+  "operationID": "AA80FD0A-5A9A-4113-921C-12C9046D1A26",
+  "responsavel": "QA SINTETICO AUTOMATIZADO",
+  "justificativa": "Falha controlada APPLY3; rollback conferido; abortar somente intencao sem efeitos",
+  "confirmacao": "Sim no plano reanalisado",
+  "observado": "CONCILIADO_SEM_EFEITOS"
+}

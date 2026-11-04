@@ -1,0 +1,343 @@
+{
+  "UTC": "2026-11-04T12:27:22.313Z",
+  "componentes": 72,
+  "planilhas": 17,
+  "planilhaAtributos": [
+    " name=\"Menu Principal\" sheetId=\"1\" r:id=\"rId1\"/",
+    " name=\"Entradas\" sheetId=\"2\" r:id=\"rId2\"/",
+    " name=\"Transferidos\" sheetId=\"3\" r:id=\"rId3\"/",
+    " name=\"Entradas Anual\" sheetId=\"4\" r:id=\"rId4\"/",
+    " name=\"Demonstração\" sheetId=\"5\" r:id=\"rId5\"/",
+    " name=\"Saidas\" sheetId=\"6\" r:id=\"rId6\"/",
+    " name=\"Todas Saidas\" sheetId=\"7\" r:id=\"rId7\"/",
+    " name=\"Entradas Filial\" sheetId=\"8\" r:id=\"rId8\"/",
+    " name=\"Entradas Anual Filial\" sheetId=\"9\" r:id=\"rId9\"/",
+    " name=\"Saidas Filial\" sheetId=\"10\" r:id=\"rId10\"/",
+    " name=\"Todas Saidas Filial\" sheetId=\"11\" r:id=\"rId11\"/",
+    " name=\"Carros PF\" sheetId=\"12\" r:id=\"rId12\"/",
+    " name=\"Clientes\" sheetId=\"13\" r:id=\"rId13\"/",
+    " name=\"Veículos\" sheetId=\"14\" r:id=\"rId14\"/",
+    " name=\"Doc. para fora\" sheetId=\"15\" r:id=\"rId15\"/",
+    " name=\"NCM e CEST\" sheetId=\"16\" r:id=\"rId16\"/",
+    " name=\"Listas\" sheetId=\"17\" r:id=\"rId17\"/"
+  ],
+  "fontes": [
+    {
+      "name": "EstaPastaDeTrabalho",
+      "sha256": "dd7c91609fc00199c34785a85ded9463006bb672432513ecc172e2684958d398"
+    },
+    {
+      "name": "Planilha12",
+      "sha256": "56e6d5b771e910fd03c2768cae879539d8781cedb8b2b6d3d5d4c3e9db8ba7d8"
+    },
+    {
+      "name": "Planilha1",
+      "sha256": "68d11dc3a3a0ae5e1c82f733b83c5400981ab807cace78596bae7fcc0082e42c"
+    },
+    {
+      "name": "Planilha13",
+      "sha256": "a2c715fba024d244247ee640d8429c51e15db72f2a190eba1250c4524e6009ed"
+    },
+    {
+      "name": "Planilha3",
+      "sha256": "ece5fe4f860168fe26cab235b8e67ba0d009898867e791ffa7e201d746abf405"
+    },
+    {
+      "name": "Planilha4",
+      "sha256": "b29c63bd9ae5b6b6eb29920c5b01ef64ed41198f9b3daf3f1fd004a637e7b098"
+    },
+    {
+      "name": "Planilha2",
+      "sha256": "85d6c1b4a2396eb27a9f34e394733013ab79c04e72bc04ef2caa5bf5635ba70e"
+    },
+    {
+      "name": "Planilha17",
+      "sha256": "bdb292d0640c367e9ce4de4c55ec00384ba7524f198daf46f3d4389d8d846fa3"
+    },
+    {
+      "name": "Planilha15",
+      "sha256": "b72b5012d6b83aa93fad4fe4f481d47f68a8d59af33b957c6cb851b374a41f0b"
+    },
+    {
+      "name": "Planilha10",
+      "sha256": "fee0778ae47eccc07450f16aa8a1939546fa3cfbabc321a4e471389854b26507"
+    },
+    {
+      "name": "Planilha16",
+      "sha256": "582270e08b4101e72751cd854b15fd1fd23bbbc0247f1c1a5ba38aa178e568e6"
+    },
+    {
+      "name": "Planilha18",
+      "sha256": "e1148f4b17cd0c90a9911c31f3b4976a53d04387ccd4414979e821bd1e8d7d9e"
+    },
+    {
+      "name": "Planilha7",
+      "sha256": "d299515e81638f7edc9e789251bf117ed262879eab7afb9a31e618765d0362f5"
+    },
+    {
+      "name": "Planilha6",
+      "sha256": "2ae2ce91b562b745173393395abf6bc77aca10d8ac574cafb1c9b469b4662461"
+    },
+    {
+      "name": "Planilha9",
+      "sha256": "5ba1086b6cde38fead1cc40cdbb0acd27235abc7f0406b631629de8692920833"
+    },
+    {
+      "name": "Planilha11",
+      "sha256": "c2cfbda4a3141096ebc73d066977d4bfedeeb8e590358c4b4cd06781cbdcb285"
+    },
+    {
+      "name": "Planilha5",
+      "sha256": "54070719a0832718879428270900bb9fe0458d1a5a9cb456ed64d39ffaabba1b"
+    },
+    {
+      "name": "Planilha8",
+      "sha256": "d733ac71b42220f6ea90d56de39eeef8f7a4137acaade4cb53f2a007881b1dcf"
+    },
+    {
+      "name": "clsOperacaoPlanilha",
+      "sha256": "beb196d4d1389301520070e0a5c01b9735aec280e395a9459e3e4e10d8e0dafc"
+    },
+    {
+      "name": "modIntegridadeOperacao",
+      "sha256": "9c38f1e123ef3fc7b67eba789610e70e5ede1f9c68d3eda31e901b08a7d21993"
+    },
+    {
+      "name": "mdlChamarFiltro",
+      "sha256": "ebfb40a8da1b8d144edb29781f2b59e620a9cb00876032b5147a788aa57c8958"
+    },
+    {
+      "name": "mdlChamarTabCan",
+      "sha256": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634"
+    },
+    {
+      "name": "mdlChamarTabEnt",
+      "sha256": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c"
+    },
+    {
+      "name": "mdlChamarTabSai",
+      "sha256": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b"
+    },
+    {
+      "name": "mdlCondCel",
+      "sha256": "873c51e19830771ff76a8697e463cd64da1e9cb95fbd6004fbf8ad1c4e9b4957"
+    },
+    {
+      "name": "mdlCopiar",
+      "sha256": "8d9451537dae5aed5de73c4ab671411be2952231dc63b70b72529fa740cdc490"
+    },
+    {
+      "name": "mdlCriaBackup",
+      "sha256": "ad223e660418bec76062d5d0c7a26dbe821766c808a841129e9bb0dd6d4523c4"
+    },
+    {
+      "name": "mdlCursor",
+      "sha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348"
+    },
+    {
+      "name": "mdlMacroConexão",
+      "sha256": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f"
+    },
+    {
+      "name": "mdlMacroConexãoClientes",
+      "sha256": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941"
+    },
+    {
+      "name": "mdlMacroDocFora",
+      "sha256": "85caa0cac4b69c53f13c58e9ac4ca4e6a474d23271bcaff1f969f8fb91e340ee"
+    },
+    {
+      "name": "mdlOcultarTítulo",
+      "sha256": "62fbaac7301177886ee0a9ab91024b1f8c0bee597ebf891def1bb91f697eedef"
+    },
+    {
+      "name": "mdlTelaCheia",
+      "sha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc"
+    },
+    {
+      "name": "modSeleniumCommon",
+      "sha256": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6"
+    },
+    {
+      "name": "modSeleniumConsultaNFE",
+      "sha256": "b4b59146037a9d2fe04f653587c25c8b0fd762db7eff5f7b6b4f1722710a50a0"
+    },
+    {
+      "name": "modSeleniumRenavamConsulta",
+      "sha256": "19c3ce8723050ec14ffdc2d92c16fa49f34e6fc520a5bb8e6fe31dde11130658"
+    },
+    {
+      "name": "modSelTest",
+      "sha256": "894840fc367c1cf7fef45a4fb06911912c61b90b2e32dcf338c23713464fa896"
+    },
+    {
+      "name": "MóduloOfficeRibbonEditor",
+      "sha256": "725894623f0f7e883c8c16cd5311853427423859dd176428b084099a419c0777"
+    },
+    {
+      "name": "MóduloPesquisa",
+      "sha256": "8e63e0173d91b7431935c86acb22d1556590db9e898f419c1bd913e56ffe2eff"
+    },
+    {
+      "name": "MóduloRemoveFechar",
+      "sha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd"
+    },
+    {
+      "name": "modValidacaoXML",
+      "sha256": "7a6cf55e0532b02b5d06f940c5195fff1b6fb831f125fbf4cb4c65d69c3c3493"
+    },
+    {
+      "name": "mdlChamarForm",
+      "sha256": "888b82877a4e95317ccabb52553d1df052b6f7677cf4c25b680439eccd4884f1"
+    },
+    {
+      "name": "mdlChamarFormDocFora",
+      "sha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0"
+    },
+    {
+      "name": "mdlChamarFormNCM",
+      "sha256": "beec72a9412eac03765526c76056e7e9097133ff0c85d433a1d9c36974064dc9"
+    },
+    {
+      "name": "mdlChamarFormSaida",
+      "sha256": "7938d0c4831374750e4b173b61f9c1de309a08af69decdb9688cec6c1ee1d3c7"
+    },
+    {
+      "name": "mdlChamarFormVeículos",
+      "sha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a"
+    },
+    {
+      "name": "modPreencherFormulario",
+      "sha256": "e1de7c7c399e6c4b6a80fc04468d151b3b47267ef350805d74876d7907b280f8"
+    },
+    {
+      "name": "Cad_NCM",
+      "sha256": "c03d61a7b290388343cd8d39b71cbc5408ae0b64fa0845c6c4be6873788a2723"
+    },
+    {
+      "name": "Cad_NFE",
+      "sha256": "7b2459ae576f78316e2f46802e940c9ee661850cb96f3bfb22d6d543ffb81bfe"
+    },
+    {
+      "name": "Cad_NFE_Saida",
+      "sha256": "5ac16f17336f860dbe02d4fefd5cf6567212083e06e31e444ae358d3b318ffba"
+    },
+    {
+      "name": "frmRelatorioXML",
+      "sha256": "26963517fb4bd4573de8fb3543cc25344bd9731ff960a693252d58d28ee8faf8"
+    },
+    {
+      "name": "UserFormFiltro",
+      "sha256": "720f22c5f1f0ecebd8b9fd3955ed8d1d1b301ff3fd359a29c893aff885cdbd9b"
+    },
+    {
+      "name": "AuditoriaListaFake",
+      "sha256": "f97b99d922bbe209ad0f1306fab12804738a9fcb943e75b78343b6e7e421a7ab"
+    },
+    {
+      "name": "modTestesAuditoria",
+      "sha256": "516d590a1d3294b1983f7358c329bfe761122fc924788e80d5e202c668213f3f"
+    },
+    {
+      "name": "modTestesFase2",
+      "sha256": "1b81bd27828d0a529d4c083ef8c3e322bf11e433bee47897482b18298650eb41"
+    },
+    {
+      "name": "modTestesIntegradosFase5",
+      "sha256": "723c8d51c94a99c10398b4ac3debfde2bcfd08fb11f8a7a69e5382cd27f300ab"
+    },
+    {
+      "name": "modPrototiposFase6",
+      "sha256": "277d06dbe23f77c5a8679f6c13544fc3295c37746f7d8c00b850559d342f68c3"
+    },
+    {
+      "name": "modPrototiposFase7",
+      "sha256": "431fc033c2ab76b96416e0e54845c09504c9869098019d1da45cd2763c8fbee9"
+    },
+    {
+      "name": "clsRepositorioFase8",
+      "sha256": "9d9f97fb6db9da2d52371d7a2a1bb7ec1ffd3e1c8fa000eb102307d7add7a3c8"
+    },
+    {
+      "name": "modExperimentosFase8",
+      "sha256": "5ac769f64a8504971dea7a88ca7e47812d4ddd65559d6b2bdef73e1f91693ff5"
+    },
+    {
+      "name": "clsSaveFase9",
+      "sha256": "5bdaa5cb2329eb261dabf74ea98821c09109a17f535a6705523ebc2ffa3b55e6"
+    },
+    {
+      "name": "modPersistenciaFase9",
+      "sha256": "660d20bcba1a4a3c6d45eeaadf4dcf49775894fbb25d9e8bd655fc181a8e6660"
+    },
+    {
+      "name": "modVerificacaoFase9",
+      "sha256": "4d360c17660f42077bd27178127d632feb09997ecbad4563843e564ed6cf8a85"
+    },
+    {
+      "name": "modPersistenciaFase10",
+      "sha256": "9fe0f379847f1e72b270bc327709a8302a49b98705bb9de422ca4828e66dd4b9"
+    },
+    {
+      "name": "modCenariosFase10",
+      "sha256": "1a9287e25b93903ddbec32ec6e08b87563f81b90626ab4016381d558442ad7c1"
+    },
+    {
+      "name": "modFronteirasFase10",
+      "sha256": "a70b4e9c3e1fbe525f576bfd0938e30a7214fff0f83f337c2a1afe24783542d3"
+    },
+    {
+      "name": "modCandidatoIntegrado",
+      "sha256": "a35531ae007abbe9c6dffc00da39c762cd6533e36740b354caec424e931bef19"
+    },
+    {
+      "name": "clsTesteCandidato",
+      "sha256": "349feb16f5c2db4020d6e5a36db0ea8d07c29f2374e3b538028ac420565666b8"
+    },
+    {
+      "name": "modTestesEntrega1",
+      "sha256": "d8827a9c69b0e8ccbef92e96f57ef270a32f89690bcbf4617286edaa201e4638"
+    },
+    {
+      "name": "modFechamentoEntrega2",
+      "sha256": "515f9194e88fa2b07376b43039409723d419fa9a2ff4dbf454920ee319604abc"
+    },
+    {
+      "name": "modTestesFechamentoE2",
+      "sha256": "47103a44aacc4434b7aec6c683ffcad0899ae9bd8529105bb538f70b5a593d74"
+    },
+    {
+      "name": "modRegressaoFinalE2",
+      "sha256": "1d94fadfc12a6c53f1920d2189d0b0b95f3121cd8bfcd421f03144370a3ff7e6"
+    }
+  ],
+  "formSignatures": [
+    {
+      "name": "Cad_NCM",
+      "signatures": 25,
+      "same": true
+    },
+    {
+      "name": "Cad_NFE",
+      "signatures": 185,
+      "same": true
+    },
+    {
+      "name": "Cad_NFE_Saida",
+      "signatures": 197,
+      "same": true
+    },
+    {
+      "name": "frmRelatorioXML",
+      "signatures": 8,
+      "same": true
+    },
+    {
+      "name": "UserFormFiltro",
+      "signatures": 21,
+      "same": true
+    }
+  ],
+  "codeNames": "Modulos de documento sem alteracao textual frente ao R26 anterior; nenhuma renomeacao realizada",
+  "designers": "127streams presentes,43divergem por reserializacao; comparacao nao comprova todas as propriedades visuais"
+}

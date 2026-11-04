@@ -1,0 +1,813 @@
+{
+  "modules": 72,
+  "changed": [
+    {
+      "name": "Cad_NFE",
+      "changed": true
+    },
+    {
+      "name": "Cad_NFE_Saida",
+      "changed": true
+    }
+  ],
+  "comparison": [
+    {
+      "name": "EstaPastaDeTrabalho",
+      "changed": false
+    },
+    {
+      "name": "Planilha12",
+      "changed": false
+    },
+    {
+      "name": "Planilha1",
+      "changed": false
+    },
+    {
+      "name": "Planilha13",
+      "changed": false
+    },
+    {
+      "name": "Planilha3",
+      "changed": false
+    },
+    {
+      "name": "Planilha4",
+      "changed": false
+    },
+    {
+      "name": "Planilha2",
+      "changed": false
+    },
+    {
+      "name": "Planilha17",
+      "changed": false
+    },
+    {
+      "name": "Planilha15",
+      "changed": false
+    },
+    {
+      "name": "Planilha10",
+      "changed": false
+    },
+    {
+      "name": "Planilha16",
+      "changed": false
+    },
+    {
+      "name": "Planilha18",
+      "changed": false
+    },
+    {
+      "name": "Planilha7",
+      "changed": false
+    },
+    {
+      "name": "Planilha6",
+      "changed": false
+    },
+    {
+      "name": "Planilha9",
+      "changed": false
+    },
+    {
+      "name": "Planilha11",
+      "changed": false
+    },
+    {
+      "name": "Planilha5",
+      "changed": false
+    },
+    {
+      "name": "Planilha8",
+      "changed": false
+    },
+    {
+      "name": "clsOperacaoPlanilha",
+      "changed": false
+    },
+    {
+      "name": "modIntegridadeOperacao",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarFiltro",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarTabCan",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarTabEnt",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarTabSai",
+      "changed": false
+    },
+    {
+      "name": "mdlCondCel",
+      "changed": false
+    },
+    {
+      "name": "mdlCopiar",
+      "changed": false
+    },
+    {
+      "name": "mdlCriaBackup",
+      "changed": false
+    },
+    {
+      "name": "mdlCursor",
+      "changed": false
+    },
+    {
+      "name": "mdlMacroConexão",
+      "changed": false
+    },
+    {
+      "name": "mdlMacroConexãoClientes",
+      "changed": false
+    },
+    {
+      "name": "mdlMacroDocFora",
+      "changed": false
+    },
+    {
+      "name": "mdlOcultarTítulo",
+      "changed": false
+    },
+    {
+      "name": "mdlTelaCheia",
+      "changed": false
+    },
+    {
+      "name": "modSeleniumCommon",
+      "changed": false
+    },
+    {
+      "name": "modSeleniumConsultaNFE",
+      "changed": false
+    },
+    {
+      "name": "modSeleniumRenavamConsulta",
+      "changed": false
+    },
+    {
+      "name": "modSelTest",
+      "changed": false
+    },
+    {
+      "name": "MóduloOfficeRibbonEditor",
+      "changed": false
+    },
+    {
+      "name": "MóduloPesquisa",
+      "changed": false
+    },
+    {
+      "name": "MóduloRemoveFechar",
+      "changed": false
+    },
+    {
+      "name": "modValidacaoXML",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarForm",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarFormDocFora",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarFormNCM",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarFormSaida",
+      "changed": false
+    },
+    {
+      "name": "mdlChamarFormVeículos",
+      "changed": false
+    },
+    {
+      "name": "modPreencherFormulario",
+      "changed": false
+    },
+    {
+      "name": "Cad_NCM",
+      "changed": false
+    },
+    {
+      "name": "Cad_NFE",
+      "changed": true
+    },
+    {
+      "name": "Cad_NFE_Saida",
+      "changed": true
+    },
+    {
+      "name": "frmRelatorioXML",
+      "changed": false
+    },
+    {
+      "name": "UserFormFiltro",
+      "changed": false
+    },
+    {
+      "name": "AuditoriaListaFake",
+      "changed": false
+    },
+    {
+      "name": "modTestesAuditoria",
+      "changed": false
+    },
+    {
+      "name": "modTestesFase2",
+      "changed": false
+    },
+    {
+      "name": "modTestesIntegradosFase5",
+      "changed": false
+    },
+    {
+      "name": "modPrototiposFase6",
+      "changed": false
+    },
+    {
+      "name": "modPrototiposFase7",
+      "changed": false
+    },
+    {
+      "name": "clsRepositorioFase8",
+      "changed": false
+    },
+    {
+      "name": "modExperimentosFase8",
+      "changed": false
+    },
+    {
+      "name": "clsSaveFase9",
+      "changed": false
+    },
+    {
+      "name": "modPersistenciaFase9",
+      "changed": false
+    },
+    {
+      "name": "modVerificacaoFase9",
+      "changed": false
+    },
+    {
+      "name": "modPersistenciaFase10",
+      "changed": false
+    },
+    {
+      "name": "modCenariosFase10",
+      "changed": false
+    },
+    {
+      "name": "modFronteirasFase10",
+      "changed": false
+    },
+    {
+      "name": "modCandidatoIntegrado",
+      "changed": false
+    },
+    {
+      "name": "clsTesteCandidato",
+      "changed": false
+    },
+    {
+      "name": "modTestesEntrega1",
+      "changed": false
+    },
+    {
+      "name": "modFechamentoEntrega2",
+      "changed": false
+    },
+    {
+      "name": "modTestesFechamentoE2",
+      "changed": false
+    },
+    {
+      "name": "modRegressaoFinalE2",
+      "changed": false
+    }
+  ],
+  "designerStreams": [
+    {
+      "path": "/Cad_NCM/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NCM/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NCM/i18/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NCM/i18/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NCM/i18/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NCM/i254/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NCM/i254/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NCM/i254/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NCM/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NCM/\u0003VBFrame",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/x",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i12/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i12/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i12/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i46/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i46/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i46/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i50/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i50/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i50/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i391/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i391/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i391/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i460/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i460/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i460/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i483/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i483/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/i483/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i100/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i547/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i547/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i547/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i567/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i567/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i567/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i570/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i570/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i570/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i582/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i582/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i582/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i585/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i585/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i585/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i612/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i612/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/i612/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/i101/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i98/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i103/f",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i103/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/i103/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE/\u0003VBFrame",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/x",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i12/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i12/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i12/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i46/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i46/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i46/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i50/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i50/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i50/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i391/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i391/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i391/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i460/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i460/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i460/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i483/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i483/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/i483/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i100/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/o",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i242/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i242/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i242/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i248/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i248/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i248/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i257/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i257/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i257/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i268/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i268/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i268/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i275/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i275/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i275/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i498/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i498/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/i498/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/i101/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i98/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/i103/f",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i103/o",
+      "equal": false
+    },
+    {
+      "path": "/Cad_NFE_Saida/i103/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/Cad_NFE_Saida/\u0003VBFrame",
+      "equal": true
+    },
+    {
+      "path": "/UserFormFiltro/f",
+      "equal": false
+    },
+    {
+      "path": "/UserFormFiltro/o",
+      "equal": true
+    },
+    {
+      "path": "/UserFormFiltro/i02/f",
+      "equal": false
+    },
+    {
+      "path": "/UserFormFiltro/i02/o",
+      "equal": false
+    },
+    {
+      "path": "/UserFormFiltro/i02/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/UserFormFiltro/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/UserFormFiltro/\u0003VBFrame",
+      "equal": true
+    },
+    {
+      "path": "/frmRelatorioXML/f",
+      "equal": false
+    },
+    {
+      "path": "/frmRelatorioXML/o",
+      "equal": false
+    },
+    {
+      "path": "/frmRelatorioXML/\u0001CompObj",
+      "equal": true
+    },
+    {
+      "path": "/frmRelatorioXML/\u0003VBFrame",
+      "equal": true
+    }
+  ]
+}

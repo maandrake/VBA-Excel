@@ -1,0 +1,13 @@
+{
+  "UTC": "2026-11-04T12:27:22.305Z",
+  "fixture": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z\\Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+  "sha256": "efd1916395159da3d30ecc99838ff6e0e44dd9e0ca2b13b29570a3b59fe247e0",
+  "closedNormally": true,
+  "workbooksBeforeQuit": 1,
+  "savedBeforeQuit": true,
+  "newExcelWindowID": 1577384,
+  "observed": "Arquivo aberto em nova instancia; AVISO DE SEGURANCA: As macros foram desabilitadas. Habilitar Conteudo nao acionado pelo agente.",
+  "status": "BLOQUEADO",
+  "initializationExecuted": false,
+  "policiesChanged": false
+}

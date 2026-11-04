@@ -1,0 +1,1 @@
+2026-11-03T23:01Z - Editor VBA do Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm; menu Depurar > Compilar VBAProject desabilitado depois da compilacao real previamente acionada neste projeto; modulo modRegressaoFinalE2 incluido; nenhuma alteracao de fonte posterior; sem erro de compilacao observado. Transcricao de interface, nao analise estatica.

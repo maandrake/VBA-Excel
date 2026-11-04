@@ -1,0 +1,446 @@
+{
+  "packageDir": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\VBA-Excel-Entregas\\Entrega2_Fechamento_20261103T2147Z_PENDENTE_REGRESSAO",
+  "files": [
+    {
+      "file": "fontes_embutidos/EstaPastaDeTrabalho.documento.codigo_embutido.txt",
+      "sha256": "dd7c91609fc00199c34785a85ded9463006bb672432513ecc172e2684958d398",
+      "component": "EstaPastaDeTrabalho",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha12.documento.codigo_embutido.txt",
+      "sha256": "56e6d5b771e910fd03c2768cae879539d8781cedb8b2b6d3d5d4c3e9db8ba7d8",
+      "component": "Planilha12",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha1.documento.codigo_embutido.txt",
+      "sha256": "68d11dc3a3a0ae5e1c82f733b83c5400981ab807cace78596bae7fcc0082e42c",
+      "component": "Planilha1",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha13.documento.codigo_embutido.txt",
+      "sha256": "a2c715fba024d244247ee640d8429c51e15db72f2a190eba1250c4524e6009ed",
+      "component": "Planilha13",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha3.documento.codigo_embutido.txt",
+      "sha256": "ece5fe4f860168fe26cab235b8e67ba0d009898867e791ffa7e201d746abf405",
+      "component": "Planilha3",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha4.documento.codigo_embutido.txt",
+      "sha256": "b29c63bd9ae5b6b6eb29920c5b01ef64ed41198f9b3daf3f1fd004a637e7b098",
+      "component": "Planilha4",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha2.documento.codigo_embutido.txt",
+      "sha256": "85d6c1b4a2396eb27a9f34e394733013ab79c04e72bc04ef2caa5bf5635ba70e",
+      "component": "Planilha2",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha17.documento.codigo_embutido.txt",
+      "sha256": "bdb292d0640c367e9ce4de4c55ec00384ba7524f198daf46f3d4389d8d846fa3",
+      "component": "Planilha17",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha15.documento.codigo_embutido.txt",
+      "sha256": "b72b5012d6b83aa93fad4fe4f481d47f68a8d59af33b957c6cb851b374a41f0b",
+      "component": "Planilha15",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha10.documento.codigo_embutido.txt",
+      "sha256": "fee0778ae47eccc07450f16aa8a1939546fa3cfbabc321a4e471389854b26507",
+      "component": "Planilha10",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha16.documento.codigo_embutido.txt",
+      "sha256": "582270e08b4101e72751cd854b15fd1fd23bbbc0247f1c1a5ba38aa178e568e6",
+      "component": "Planilha16",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha18.documento.codigo_embutido.txt",
+      "sha256": "e1148f4b17cd0c90a9911c31f3b4976a53d04387ccd4414979e821bd1e8d7d9e",
+      "component": "Planilha18",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha7.documento.codigo_embutido.txt",
+      "sha256": "d299515e81638f7edc9e789251bf117ed262879eab7afb9a31e618765d0362f5",
+      "component": "Planilha7",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha6.documento.codigo_embutido.txt",
+      "sha256": "2ae2ce91b562b745173393395abf6bc77aca10d8ac574cafb1c9b469b4662461",
+      "component": "Planilha6",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha9.documento.codigo_embutido.txt",
+      "sha256": "5ba1086b6cde38fead1cc40cdbb0acd27235abc7f0406b631629de8692920833",
+      "component": "Planilha9",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha11.documento.codigo_embutido.txt",
+      "sha256": "c2cfbda4a3141096ebc73d066977d4bfedeeb8e590358c4b4cd06781cbdcb285",
+      "component": "Planilha11",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha5.documento.codigo_embutido.txt",
+      "sha256": "54070719a0832718879428270900bb9fe0458d1a5a9cb456ed64d39ffaabba1b",
+      "component": "Planilha5",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/Planilha8.documento.codigo_embutido.txt",
+      "sha256": "d733ac71b42220f6ea90d56de39eeef8f7a4137acaade4cb53f2a007881b1dcf",
+      "component": "Planilha8",
+      "kind": "DOCUMENTO"
+    },
+    {
+      "file": "fontes_embutidos/clsOperacaoPlanilha.cls",
+      "sha256": "beb196d4d1389301520070e0a5c01b9735aec280e395a9459e3e4e10d8e0dafc",
+      "component": "clsOperacaoPlanilha",
+      "kind": "CLASSE"
+    },
+    {
+      "file": "fontes_embutidos/modIntegridadeOperacao.bas",
+      "sha256": "9c38f1e123ef3fc7b67eba789610e70e5ede1f9c68d3eda31e901b08a7d21993",
+      "component": "modIntegridadeOperacao",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarFiltro.bas",
+      "sha256": "ebfb40a8da1b8d144edb29781f2b59e620a9cb00876032b5147a788aa57c8958",
+      "component": "mdlChamarFiltro",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarTabCan.bas",
+      "sha256": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+      "component": "mdlChamarTabCan",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarTabEnt.bas",
+      "sha256": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+      "component": "mdlChamarTabEnt",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarTabSai.bas",
+      "sha256": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+      "component": "mdlChamarTabSai",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlCondCel.bas",
+      "sha256": "873c51e19830771ff76a8697e463cd64da1e9cb95fbd6004fbf8ad1c4e9b4957",
+      "component": "mdlCondCel",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlCopiar.bas",
+      "sha256": "8d9451537dae5aed5de73c4ab671411be2952231dc63b70b72529fa740cdc490",
+      "component": "mdlCopiar",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlCriaBackup.bas",
+      "sha256": "ad223e660418bec76062d5d0c7a26dbe821766c808a841129e9bb0dd6d4523c4",
+      "component": "mdlCriaBackup",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlCursor.bas",
+      "sha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "component": "mdlCursor",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlMacroConexão.bas",
+      "sha256": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+      "component": "mdlMacroConexão",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlMacroConexãoClientes.bas",
+      "sha256": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+      "component": "mdlMacroConexãoClientes",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlMacroDocFora.bas",
+      "sha256": "85caa0cac4b69c53f13c58e9ac4ca4e6a474d23271bcaff1f969f8fb91e340ee",
+      "component": "mdlMacroDocFora",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlOcultarTítulo.bas",
+      "sha256": "62fbaac7301177886ee0a9ab91024b1f8c0bee597ebf891def1bb91f697eedef",
+      "component": "mdlOcultarTítulo",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlTelaCheia.bas",
+      "sha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "component": "mdlTelaCheia",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modSeleniumCommon.bas",
+      "sha256": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+      "component": "modSeleniumCommon",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modSeleniumConsultaNFE.bas",
+      "sha256": "b4b59146037a9d2fe04f653587c25c8b0fd762db7eff5f7b6b4f1722710a50a0",
+      "component": "modSeleniumConsultaNFE",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modSeleniumRenavamConsulta.bas",
+      "sha256": "19c3ce8723050ec14ffdc2d92c16fa49f34e6fc520a5bb8e6fe31dde11130658",
+      "component": "modSeleniumRenavamConsulta",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modSelTest.bas",
+      "sha256": "894840fc367c1cf7fef45a4fb06911912c61b90b2e32dcf338c23713464fa896",
+      "component": "modSelTest",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/MóduloOfficeRibbonEditor.bas",
+      "sha256": "725894623f0f7e883c8c16cd5311853427423859dd176428b084099a419c0777",
+      "component": "MóduloOfficeRibbonEditor",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/MóduloPesquisa.bas",
+      "sha256": "8e63e0173d91b7431935c86acb22d1556590db9e898f419c1bd913e56ffe2eff",
+      "component": "MóduloPesquisa",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/MóduloRemoveFechar.bas",
+      "sha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "component": "MóduloRemoveFechar",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modValidacaoXML.bas",
+      "sha256": "7a6cf55e0532b02b5d06f940c5195fff1b6fb831f125fbf4cb4c65d69c3c3493",
+      "component": "modValidacaoXML",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarForm.bas",
+      "sha256": "888b82877a4e95317ccabb52553d1df052b6f7677cf4c25b680439eccd4884f1",
+      "component": "mdlChamarForm",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarFormDocFora.bas",
+      "sha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "component": "mdlChamarFormDocFora",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarFormNCM.bas",
+      "sha256": "beec72a9412eac03765526c76056e7e9097133ff0c85d433a1d9c36974064dc9",
+      "component": "mdlChamarFormNCM",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarFormSaida.bas",
+      "sha256": "7938d0c4831374750e4b173b61f9c1de309a08af69decdb9688cec6c1ee1d3c7",
+      "component": "mdlChamarFormSaida",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarFormVeículos.bas",
+      "sha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "component": "mdlChamarFormVeículos",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modPreencherFormulario.bas",
+      "sha256": "e1de7c7c399e6c4b6a80fc04468d151b3b47267ef350805d74876d7907b280f8",
+      "component": "modPreencherFormulario",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/Cad_NCM.frm.codigo_embutido.txt",
+      "sha256": "dc7b171994431d9ed13beadb9ec251facb4b331b8a93bdd35de3910e6e1f4cd9",
+      "component": "Cad_NCM",
+      "kind": "USERFORM_CODIGO_SEM_DESIGNER"
+    },
+    {
+      "file": "fontes_embutidos/Cad_NFE.frm.codigo_embutido.txt",
+      "sha256": "61b787af8136c554faf3c07021a51dd29e1eee71d35fd35164c4c1bc6bb9d646",
+      "component": "Cad_NFE",
+      "kind": "USERFORM_CODIGO_SEM_DESIGNER"
+    },
+    {
+      "file": "fontes_embutidos/Cad_NFE_Saida.frm.codigo_embutido.txt",
+      "sha256": "24e7fd72d2b1029d8143b9668f68dfa73aff54986d56dea8042fc7294081dd89",
+      "component": "Cad_NFE_Saida",
+      "kind": "USERFORM_CODIGO_SEM_DESIGNER"
+    },
+    {
+      "file": "fontes_embutidos/frmRelatorioXML.frm.codigo_embutido.txt",
+      "sha256": "4db651269cc602a101d937eb78c5ca45714a1e580cb95ee1870eaf1e7328dc1f",
+      "component": "frmRelatorioXML",
+      "kind": "USERFORM_CODIGO_SEM_DESIGNER"
+    },
+    {
+      "file": "fontes_embutidos/UserFormFiltro.frm.codigo_embutido.txt",
+      "sha256": "ca9fa994b306511abc7c130bf289d806c4a15ca01c2c14ed726d9073ac6872a4",
+      "component": "UserFormFiltro",
+      "kind": "USERFORM_CODIGO_SEM_DESIGNER"
+    },
+    {
+      "file": "fontes_embutidos/AuditoriaListaFake.cls",
+      "sha256": "f97b99d922bbe209ad0f1306fab12804738a9fcb943e75b78343b6e7e421a7ab",
+      "component": "AuditoriaListaFake",
+      "kind": "CLASSE"
+    },
+    {
+      "file": "fontes_embutidos/modTestesAuditoria.bas",
+      "sha256": "516d590a1d3294b1983f7358c329bfe761122fc924788e80d5e202c668213f3f",
+      "component": "modTestesAuditoria",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modTestesFase2.bas",
+      "sha256": "1b81bd27828d0a529d4c083ef8c3e322bf11e433bee47897482b18298650eb41",
+      "component": "modTestesFase2",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modTestesIntegradosFase5.bas",
+      "sha256": "723c8d51c94a99c10398b4ac3debfde2bcfd08fb11f8a7a69e5382cd27f300ab",
+      "component": "modTestesIntegradosFase5",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modPrototiposFase6.bas",
+      "sha256": "277d06dbe23f77c5a8679f6c13544fc3295c37746f7d8c00b850559d342f68c3",
+      "component": "modPrototiposFase6",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modPrototiposFase7.bas",
+      "sha256": "431fc033c2ab76b96416e0e54845c09504c9869098019d1da45cd2763c8fbee9",
+      "component": "modPrototiposFase7",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/clsRepositorioFase8.cls",
+      "sha256": "9d9f97fb6db9da2d52371d7a2a1bb7ec1ffd3e1c8fa000eb102307d7add7a3c8",
+      "component": "clsRepositorioFase8",
+      "kind": "CLASSE"
+    },
+    {
+      "file": "fontes_embutidos/modExperimentosFase8.bas",
+      "sha256": "5ac769f64a8504971dea7a88ca7e47812d4ddd65559d6b2bdef73e1f91693ff5",
+      "component": "modExperimentosFase8",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/clsSaveFase9.cls",
+      "sha256": "5bdaa5cb2329eb261dabf74ea98821c09109a17f535a6705523ebc2ffa3b55e6",
+      "component": "clsSaveFase9",
+      "kind": "CLASSE"
+    },
+    {
+      "file": "fontes_embutidos/modPersistenciaFase9.bas",
+      "sha256": "660d20bcba1a4a3c6d45eeaadf4dcf49775894fbb25d9e8bd655fc181a8e6660",
+      "component": "modPersistenciaFase9",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modVerificacaoFase9.bas",
+      "sha256": "4d360c17660f42077bd27178127d632feb09997ecbad4563843e564ed6cf8a85",
+      "component": "modVerificacaoFase9",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modPersistenciaFase10.bas",
+      "sha256": "9fe0f379847f1e72b270bc327709a8302a49b98705bb9de422ca4828e66dd4b9",
+      "component": "modPersistenciaFase10",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modCenariosFase10.bas",
+      "sha256": "1a9287e25b93903ddbec32ec6e08b87563f81b90626ab4016381d558442ad7c1",
+      "component": "modCenariosFase10",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modFronteirasFase10.bas",
+      "sha256": "a70b4e9c3e1fbe525f576bfd0938e30a7214fff0f83f337c2a1afe24783542d3",
+      "component": "modFronteirasFase10",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modCandidatoIntegrado.bas",
+      "sha256": "a35531ae007abbe9c6dffc00da39c762cd6533e36740b354caec424e931bef19",
+      "component": "modCandidatoIntegrado",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/clsTesteCandidato.cls",
+      "sha256": "349feb16f5c2db4020d6e5a36db0ea8d07c29f2374e3b538028ac420565666b8",
+      "component": "clsTesteCandidato",
+      "kind": "CLASSE"
+    },
+    {
+      "file": "fontes_embutidos/modTestesEntrega1.bas",
+      "sha256": "d8827a9c69b0e8ccbef92e96f57ef270a32f89690bcbf4617286edaa201e4638",
+      "component": "modTestesEntrega1",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modFechamentoEntrega2.bas",
+      "sha256": "515f9194e88fa2b07376b43039409723d419fa9a2ff4dbf454920ee319604abc",
+      "component": "modFechamentoEntrega2",
+      "kind": "MODULO"
+    },
+    {
+      "file": "fontes_embutidos/modTestesFechamentoE2.bas",
+      "sha256": "47103a44aacc4434b7aec6c683ffcad0899ae9bd8529105bb538f70b5a593d74",
+      "component": "modTestesFechamentoE2",
+      "kind": "MODULO"
+    },
+    {
+      "file": "Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "sha256": "8b25d17ae74fe646f13a5d834d51382182d8579337633418ad68985325f98305",
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z\\Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm"
+    },
+    {
+      "file": "Banco_Candidato_Entrega2_Final.accdb",
+      "sha256": "f73f68ff144567d25e9af54a5f213cd1d95cf2583299bdb87301a8d3d67b8d14",
+      "source": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z\\Banco_Candidato_Entrega2_Final.accdb"
+    },
+    {
+      "file": "Controle_E2_143C55EC132B48398413268B265117AF.accdb",
+      "sha256": "267460b51138ac31ddb278571f5643a93eed8e7e68642fd84905d3fdcd29bd54",
+      "role": "BACKUP_REGISTRO_CONTROLE_NAO_AUTORIDADE_INDEPENDENTE"
+    }
+  ]
+}

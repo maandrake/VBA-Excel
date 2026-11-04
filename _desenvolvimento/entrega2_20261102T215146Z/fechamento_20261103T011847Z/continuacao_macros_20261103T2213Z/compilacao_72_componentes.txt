@@ -1,0 +1,1 @@
+Compilacao real por Depurar > Compilar VBAProject. Apos executar, menu Compilar desabilitado, sem dialogo de erro. Modulo de teste modRegressaoFinalE2 importado pela interface. 2026-11-03T22:29:44.503Z

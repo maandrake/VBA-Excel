@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-03T22:02:23.566Z",
+  "status": "AGUARDANDO_ACAO_MANUAL_OFFICE",
+  "window": "Aviso de Segurança do Microsoft Excel",
+  "action": "Clicar manualmente em Habilitar Macros na candidata sintetica reaberta",
+  "book": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z\\Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+  "sha256": "8b25d17ae74fe646f13a5d834d51382182d8579337633418ad68985325f98305",
+  "noSecurityAutomation": true
+}

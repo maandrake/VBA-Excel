@@ -1,0 +1,7 @@
+{
+  "UTC": "2026-11-03T23:30:38.3395859Z",
+  "Arquivo": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Entrega2_Restauracao_Controlada_20261103T0146Z/Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+  "SHA256": "b379f42c739100086e1010f776777a90a9acb65d3ef94d8227dcbd1dd45e6e25",
+  "Metodo": "FileStream somente leitura com FileShare.ReadWrite/Delete; nenhuma escrita",
+  "TentativaAnterior": "Get-FileHash bloqueado por compartilhamento do Excel; nao foi interpretado como divergencia"
+}

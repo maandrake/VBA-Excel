@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-03T22:18:11.954Z",
+  "motivo": "Usuario informou macros habilitadas; retomada real sem alterar seguranca",
+  "baselineRev": 16,
+  "baselineBookHash": "8b25d17ae74fe646f13a5d834d51382182d8579337633418ad68985325f98305",
+  "baselineDbHash": "f73f68ff144567d25e9af54a5f213cd1d95cf2583299bdb87301a8d3d67b8d14",
+  "laboratorio": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z",
+  "diagnosticoInicial": "AUDIT=OK;PROJECTION=VERIFIED;REV=16;MOV=16;RECEIPTS=16;ACTIVE=5;PENDING=0",
+  "cache": "CACHE_AUDITADO",
+  "savedAposDiagnostico": false
+}

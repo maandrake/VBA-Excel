@@ -1,0 +1,362 @@
+[
+  {
+    "name": "EstaPastaDeTrabalho",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha12",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha1",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha13",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha3",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha4",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha2",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha17",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha15",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha10",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha16",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha18",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha7",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha6",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha9",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha11",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha5",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Planilha8",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "clsOperacaoPlanilha",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modIntegridadeOperacao",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlChamarFiltro",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlChamarTabCan",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlChamarTabEnt",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlChamarTabSai",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlCondCel",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlCopiar",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlCriaBackup",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlCursor",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlMacroConexão",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlMacroConexãoClientes",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlMacroDocFora",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlOcultarTítulo",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlTelaCheia",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modSeleniumCommon",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modSeleniumConsultaNFE",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modSeleniumRenavamConsulta",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modSelTest",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "MóduloOfficeRibbonEditor",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "MóduloPesquisa",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "MóduloRemoveFechar",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modValidacaoXML",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlChamarForm",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlChamarFormDocFora",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlChamarFormNCM",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlChamarFormSaida",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "mdlChamarFormVeículos",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modPreencherFormulario",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "Cad_NCM",
+    "existed": true,
+    "sameCanonical": false
+  },
+  {
+    "name": "Cad_NFE",
+    "existed": true,
+    "sameCanonical": false
+  },
+  {
+    "name": "Cad_NFE_Saida",
+    "existed": true,
+    "sameCanonical": false
+  },
+  {
+    "name": "frmRelatorioXML",
+    "existed": true,
+    "sameCanonical": false
+  },
+  {
+    "name": "UserFormFiltro",
+    "existed": true,
+    "sameCanonical": false
+  },
+  {
+    "name": "AuditoriaListaFake",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modTestesAuditoria",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modTestesFase2",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modTestesIntegradosFase5",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modPrototiposFase6",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modPrototiposFase7",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "clsRepositorioFase8",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modExperimentosFase8",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "clsSaveFase9",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modPersistenciaFase9",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modVerificacaoFase9",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modPersistenciaFase10",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modCenariosFase10",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modFronteirasFase10",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modCandidatoIntegrado",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "clsTesteCandidato",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modTestesEntrega1",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modFechamentoEntrega2",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modTestesFechamentoE2",
+    "existed": true,
+    "sameCanonical": true
+  },
+  {
+    "name": "modRegressaoFinalE2",
+    "existed": false,
+    "sameCanonical": false
+  }
+]

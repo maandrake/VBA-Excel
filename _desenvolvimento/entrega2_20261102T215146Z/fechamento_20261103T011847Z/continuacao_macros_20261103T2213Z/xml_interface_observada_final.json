@@ -1,0 +1,53 @@
+[
+  {
+    "caso": "MALFORMADO",
+    "tipo": "MsgBox",
+    "observado": "Nao foi possivel carregar XML; marcas nfeProc/NFe nao fechadas"
+  },
+  {
+    "caso": "NUMERO_INVALIDO",
+    "tipo": "MsgBox",
+    "observado": "ide/nNF ausente ou numero invalido"
+  },
+  {
+    "caso": "CHAVE_INVALIDA",
+    "tipo": "MsgBox",
+    "observado": "infNFe/@Id deve conter NFe seguido de44 digitos"
+  },
+  {
+    "caso": "OPERACAO_INCOMPATIVEL",
+    "tipo": "frmRelatorioXML",
+    "observado": "Erros2; Avisos1; CFOP5152 incorreto para Venda; cBenef divergente"
+  },
+  {
+    "caso": "VALOR_INCORRETO",
+    "tipo": "frmRelatorioXML",
+    "observado": "Erros2; Avisos0; valor400,2222 vs900.3333; total inconsistente"
+  },
+  {
+    "caso": "DADOS_FISCAIS_AUSENTES",
+    "tipo": "frmRelatorioXML",
+    "observado": "Erros1; Avisos0; ICMS/CST ausente incorreto"
+  },
+  {
+    "caso": "SOMATORIO_DIVERGENTE",
+    "tipo": "frmRelatorioXML",
+    "observado": "Erros1; Avisos0; soma400.2222 vs987.6543 incorreta"
+  },
+  {
+    "caso": "NFE_DIVERGENTE",
+    "tipo": "frmRelatorioXML",
+    "modalidade": "VBA validador direto com documento fornecido; nao evento gravador",
+    "observado": "Erros1; Avisos0; formulario25052 vs XML25051 incorreto"
+  },
+  {
+    "caso": "CHAVE_DIVERGENTE",
+    "modalidade": "VBA validador direto e frmRelatorioXML; nao evento gravador",
+    "observado": "Erros 1; Avisos 0; chave do formulario 1123... diverge da chave XML 0123..."
+  },
+  {
+    "caso": "NUMERO_DUPLICADO",
+    "modalidade": "Evento real gravador apos frmRelatorioXML",
+    "observado": "XML VALIDADO; todos os dados conferem; NF24012 ja registrada"
+  }
+]

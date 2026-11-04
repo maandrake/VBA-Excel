@@ -1,0 +1,5 @@
+2026-11-03T21:54:15.078Z
+COMPILACAO_REAL_VBA PASS
+Depurar > Compilar VBAProject executado sem erro; menu Compilar desabilitado apos a execucao.
+Consulta do teste de historico ajustada para Movements.KindText, conforme esquema real.
+Teste funcional permanece NAO EXECUTADO; bloqueio de macros registrado separadamente.

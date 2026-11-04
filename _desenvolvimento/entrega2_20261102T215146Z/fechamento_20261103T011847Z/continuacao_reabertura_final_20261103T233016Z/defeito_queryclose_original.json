@@ -1,0 +1,9 @@
+{
+  "Resultado": "FAIL",
+  "Modalidade": "VBA_EVENTO_REAL_QUERYCLOSE",
+  "Erro": 1004,
+  "Causa": "Range(u1) = Range(u1) + 1 nao qualificado em planilha protegida ao clicar X",
+  "Banco": "Sem movimento; revisao26",
+  "Checkpoint": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\CodexBackupsPrivados\\VBA-Excel\\checkpoint_queryclose_20261103T233312Z",
+  "Solucao": "Retirar somente escrita da celula, preservar Cancel=True e MsgBox orientando botao Fechar"
+}

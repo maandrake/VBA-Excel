@@ -1,0 +1,97 @@
+{
+  "modality": "LEITURA_ADO_E_VERIFICACAO_INDEPENDENTE_NODE",
+  "tables": [
+    {
+      "table": "Meta",
+      "count": 1,
+      "identical": true
+    },
+    {
+      "table": "WriterLease",
+      "count": 1,
+      "identical": true
+    },
+    {
+      "table": "CandidateSettings",
+      "count": 1,
+      "identical": true
+    },
+    {
+      "table": "AuthorityBinding",
+      "count": 1,
+      "identical": true
+    },
+    {
+      "table": "Operations",
+      "count": 17,
+      "identical": true
+    },
+    {
+      "table": "Episodes",
+      "count": 7,
+      "identical": true
+    },
+    {
+      "table": "Vehicles",
+      "count": 6,
+      "identical": true
+    },
+    {
+      "table": "Movements",
+      "count": 16,
+      "identical": true
+    },
+    {
+      "table": "Projections",
+      "count": 16,
+      "identical": true
+    },
+    {
+      "table": "SheetProjections",
+      "count": 40,
+      "identical": true
+    },
+    {
+      "table": "Receipts",
+      "count": 16,
+      "identical": true
+    },
+    {
+      "table": "ChangeLog",
+      "count": 16,
+      "identical": true
+    },
+    {
+      "table": "Attempts",
+      "count": 19,
+      "identical": true
+    },
+    {
+      "table": "Pending",
+      "count": 0,
+      "identical": true
+    },
+    {
+      "table": "ReconciliationPlans",
+      "count": 1,
+      "identical": true
+    },
+    {
+      "table": "ReconciliationReceipts",
+      "count": 1,
+      "identical": true
+    },
+    {
+      "table": "ProjectionAcks",
+      "count": 24,
+      "identical": true
+    }
+  ],
+  "receiptHashes": [
+    {
+      "resolution": "62D00073-DA13-48F3-87A4-68728BA6ECB7",
+      "match": true
+    }
+  ],
+  "limitation": "Comparacao do arquivo preservado, nao ativacao da copia nem teste VBA de restauracao."
+}

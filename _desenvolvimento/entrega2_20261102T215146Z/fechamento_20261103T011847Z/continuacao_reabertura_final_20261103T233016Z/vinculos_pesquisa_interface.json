@@ -1,0 +1,33 @@
+{
+  "origem": "Token e campos transcritos da interface real; vinculos conferidos no snapshot ADO persistido. Token exibido e EpisodeID, nao ViewID.",
+  "records": [
+    {
+      "EpisodeID": "68414E81-9543-414B-810A-F16CAFA4F450",
+      "VehicleID": "B5FD753A-D8F3-426C-BB2C-75D8525788F9",
+      "Version": "1",
+      "Status": "ACTIVE",
+      "Place": "MATRIZ",
+      "ProjectionID": "838E8218-493C-4886-A9B9-A141D2DE4DF1",
+      "MovementID": "F203B5AC-DB99-467C-B37C-49CB5DF8E6C8",
+      "Doc": "12003",
+      "Amount": "150.3333",
+      "Date": "2026-11-03",
+      "Key": "01234567890123456789012345678901234567890123",
+      "KeyType": "String"
+    },
+    {
+      "EpisodeID": "F42BDB7A-F143-4BBB-9148-AE47568DC96D",
+      "VehicleID": "5A0DB5A2-49FD-451B-A475-E75C23750B1D",
+      "Version": "2",
+      "Status": "ACTIVE",
+      "Place": "FILIAL",
+      "ProjectionID": "6D6AEE16-A696-4D25-AACD-4E8D7F24163F",
+      "MovementID": "E66C8561-F75C-424B-BCB8-F71138F47CF8",
+      "Doc": "12002",
+      "Amount": "456.7891",
+      "Date": "2026-11-01",
+      "Key": "01234567890123456789012345678901234567890123",
+      "KeyType": "String"
+    }
+  ]
+}

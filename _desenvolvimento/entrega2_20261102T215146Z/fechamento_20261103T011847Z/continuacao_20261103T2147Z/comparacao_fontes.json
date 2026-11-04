@@ -1,0 +1,463 @@
+{
+  "total": 71,
+  "forms": [
+    {
+      "name": "Cad_NCM",
+      "sameCode": true,
+      "oldProcedures": 25,
+      "newProcedures": 25
+    },
+    {
+      "name": "Cad_NFE",
+      "sameCode": true,
+      "oldProcedures": 185,
+      "newProcedures": 185
+    },
+    {
+      "name": "Cad_NFE_Saida",
+      "sameCode": true,
+      "oldProcedures": 197,
+      "newProcedures": 197
+    },
+    {
+      "name": "UserFormFiltro",
+      "sameCode": true,
+      "oldProcedures": 21,
+      "newProcedures": 21
+    },
+    {
+      "name": "frmRelatorioXML",
+      "sameCode": true,
+      "oldProcedures": 8,
+      "newProcedures": 8
+    }
+  ],
+  "modules": [
+    {
+      "name": "EstaPastaDeTrabalho",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "Planilha12",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "Planilha1",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "Planilha13",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "Planilha3",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "Planilha4",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "Planilha2",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "Planilha17",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "Planilha15",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "Planilha10",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "Planilha16",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "Planilha18",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "Planilha7",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "Planilha6",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "Planilha9",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "Planilha11",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "Planilha5",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "Planilha8",
+      "old": true,
+      "sameCode": true,
+      "procedures": 0
+    },
+    {
+      "name": "clsOperacaoPlanilha",
+      "old": true,
+      "sameCode": true,
+      "procedures": 10
+    },
+    {
+      "name": "modIntegridadeOperacao",
+      "old": true,
+      "sameCode": true,
+      "procedures": 5
+    },
+    {
+      "name": "mdlChamarFiltro",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "mdlChamarTabCan",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "mdlChamarTabEnt",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "mdlChamarTabSai",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "mdlCondCel",
+      "old": true,
+      "sameCode": true,
+      "procedures": 6
+    },
+    {
+      "name": "mdlCopiar",
+      "old": true,
+      "sameCode": true,
+      "procedures": 8
+    },
+    {
+      "name": "mdlCriaBackup",
+      "old": true,
+      "sameCode": true,
+      "procedures": 4
+    },
+    {
+      "name": "mdlCursor",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "mdlMacroConexão",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "mdlMacroConexãoClientes",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "mdlMacroDocFora",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "mdlOcultarTítulo",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "mdlTelaCheia",
+      "old": true,
+      "sameCode": true,
+      "procedures": 2
+    },
+    {
+      "name": "modSeleniumCommon",
+      "old": true,
+      "sameCode": true,
+      "procedures": 7
+    },
+    {
+      "name": "modSeleniumConsultaNFE",
+      "old": true,
+      "sameCode": true,
+      "procedures": 55
+    },
+    {
+      "name": "modSeleniumRenavamConsulta",
+      "old": true,
+      "sameCode": true,
+      "procedures": 23
+    },
+    {
+      "name": "modSelTest",
+      "old": true,
+      "sameCode": true,
+      "procedures": 36
+    },
+    {
+      "name": "MóduloOfficeRibbonEditor",
+      "old": true,
+      "sameCode": true,
+      "procedures": 3
+    },
+    {
+      "name": "MóduloPesquisa",
+      "old": true,
+      "sameCode": true,
+      "procedures": 6
+    },
+    {
+      "name": "MóduloRemoveFechar",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "modValidacaoXML",
+      "old": true,
+      "sameCode": true,
+      "procedures": 47
+    },
+    {
+      "name": "mdlChamarForm",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "mdlChamarFormDocFora",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "mdlChamarFormNCM",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "mdlChamarFormSaida",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "mdlChamarFormVeículos",
+      "old": true,
+      "sameCode": true,
+      "procedures": 1
+    },
+    {
+      "name": "modPreencherFormulario",
+      "old": true,
+      "sameCode": true,
+      "procedures": 2
+    },
+    {
+      "name": "Cad_NCM",
+      "old": true,
+      "sameCode": true,
+      "procedures": 25
+    },
+    {
+      "name": "Cad_NFE",
+      "old": true,
+      "sameCode": true,
+      "procedures": 185
+    },
+    {
+      "name": "Cad_NFE_Saida",
+      "old": true,
+      "sameCode": true,
+      "procedures": 197
+    },
+    {
+      "name": "frmRelatorioXML",
+      "old": true,
+      "sameCode": true,
+      "procedures": 8
+    },
+    {
+      "name": "UserFormFiltro",
+      "old": true,
+      "sameCode": true,
+      "procedures": 21
+    },
+    {
+      "name": "AuditoriaListaFake",
+      "old": true,
+      "sameCode": true,
+      "procedures": 4
+    },
+    {
+      "name": "modTestesAuditoria",
+      "old": true,
+      "sameCode": true,
+      "procedures": 2
+    },
+    {
+      "name": "modTestesFase2",
+      "old": true,
+      "sameCode": true,
+      "procedures": 7
+    },
+    {
+      "name": "modTestesIntegradosFase5",
+      "old": true,
+      "sameCode": true,
+      "procedures": 10
+    },
+    {
+      "name": "modPrototiposFase6",
+      "old": true,
+      "sameCode": true,
+      "procedures": 36
+    },
+    {
+      "name": "modPrototiposFase7",
+      "old": true,
+      "sameCode": true,
+      "procedures": 27
+    },
+    {
+      "name": "clsRepositorioFase8",
+      "old": true,
+      "sameCode": true,
+      "procedures": 16
+    },
+    {
+      "name": "modExperimentosFase8",
+      "old": true,
+      "sameCode": true,
+      "procedures": 38
+    },
+    {
+      "name": "clsSaveFase9",
+      "old": true,
+      "sameCode": true,
+      "procedures": 4
+    },
+    {
+      "name": "modPersistenciaFase9",
+      "old": true,
+      "sameCode": true,
+      "procedures": 40
+    },
+    {
+      "name": "modVerificacaoFase9",
+      "old": true,
+      "sameCode": true,
+      "procedures": 6
+    },
+    {
+      "name": "modPersistenciaFase10",
+      "old": true,
+      "sameCode": false,
+      "procedures": 59
+    },
+    {
+      "name": "modCenariosFase10",
+      "old": true,
+      "sameCode": false,
+      "procedures": 23
+    },
+    {
+      "name": "modFronteirasFase10",
+      "old": true,
+      "sameCode": true,
+      "procedures": 5
+    },
+    {
+      "name": "modCandidatoIntegrado",
+      "old": true,
+      "sameCode": false,
+      "procedures": 66
+    },
+    {
+      "name": "clsTesteCandidato",
+      "old": true,
+      "sameCode": true,
+      "procedures": 3
+    },
+    {
+      "name": "modTestesEntrega1",
+      "old": true,
+      "sameCode": false,
+      "procedures": 38
+    },
+    {
+      "name": "modFechamentoEntrega2",
+      "old": false,
+      "sameCode": false,
+      "procedures": 19
+    },
+    {
+      "name": "modTestesFechamentoE2",
+      "old": false,
+      "sameCode": false,
+      "procedures": 17
+    }
+  ]
+}

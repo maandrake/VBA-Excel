@@ -154,3 +154,57 @@ A linha BLOQUEADO de reabertura acima registra o estado anterior. Após ação m
 | E1_SESSAO_REABERTA_E2_R3 | E1_SessaoReaberta; execução real VBA auxiliar, sem evento de movimentação | Projeto E2 fechado anteriormente, reaberto no TEMP; cache automático conferido antes de chamada manual;rev16 | Cache e fórmulas reconstituídos, autoridade/projeção coerentes | AUDIT=OK;PROJECTION=VERIFIED;REV=16;MOV=16;RECEIPTS=16;ACTIVE=5;PENDING=0; hashes inalterados | PASS | [TSV](./_desenvolvimento/entrega2_20261102T215146Z/continuacao_reabertura_20261103T010409Z/resultado_reabertura.tsv), [estado](./_desenvolvimento/entrega2_20261102T215146Z/continuacao_reabertura_20261103T010409Z/evidencias_reabertura.json) |
 
 Acumulado da continuação:62execuções/55PASS/7FAIL,56IDs; referênciaR0 permanece10PASS separados. O cache automático CACHE_AUDITADO e os estados do Excel foram transcritos da janela Imediata, identificados como conferências auxiliares, não novos eventos do produto. O encerramento/reabertura não foi crash ou nova instalação.
+
+
+## Continuação do fechamento — 03/11/2026
+
+Não substitui resultados históricos. [Relatório/evidências](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_20261103T2147Z/FECHAMENTO_ENTREGA2_EM_ANDAMENTO.md) e [TSV de oito asserções](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_20261103T2147Z/resultados_fechamento_antes_realocacao.tsv).
+
+| ID / procedimento | Modalidade | Resultado observado | Status |
+|---|---|---|---|
+| F2_INSTALACAO / F2_Baseline | VBA integração | Esquema7, revisão16, auditoriaOK/projeçãoVERIFIED | PASS |
+| F2_APP_BASELINE / F2_Baseline | VBA estados Application | True/True/True/-4105 | PASS |
+| F2_PRECOMMIT_FATOS / F2_FalhaEConciliacao | Evento real Devolução | APPLY6; fatos/versão/recibos intactos; intenção persistiu | PASS — rollback de fatos |
+| F2_REPETICAO_PENDENTE | Evento real | Mesmo OperationID recusado | PASS — RECUSADO, não recuperado |
+| F2_OUTRO_ID_PENDENTE | Evento real | Novo OperationID não contornou pendência do episódio | PASS — RECUSADO |
+| F2_EXIGE_CONFIRMACAO | API VBA conciliação | Token inválido recusado | PASS |
+| F2_CONCILIACAO_SEM_EFEITOS | API VBA com confirmação sintética | ABORTED, recibo1, Pending0, fatos intactos | PASS — CONCILIADO_SEM_EFEITOS |
+| F2_CONCILIACAO_IDEMPOTENTE | API VBA | JA_CONCILIADO, sem recibo extra | PASS |
+| C3_Realocar | VBA real, transcrição da interface | Geração2/destino novo; origem revogada | PASS no escopo de realocação ao vivo |
+| Guarda TEMP da sessão | Reabertura real antes da correção | Somente TEMP recusou caminho da sessão anterior | FAIL preservado |
+| Correção Guard10/TempC3 | Diagnóstico/reconstrução VBA na sessão aberta | AUDIT=OK/VERIFIED/rev16 | PASS restrito; frio pendente |
+| Compilação da suíte ampliada/corrigida | Compilação real VBE | Sem erro; Compilar desabilitado | PASS |
+| Diagnóstico da sessão nova | Execução VBA pela interface | Macros neste projeto estão desativadas | BLOQUEADO |
+| F2_Restaurada | Suíte VBA preparada | Não executada nesta revisão; dependência de macros | NÃO EXECUTADO |
+| F2_EntradasNovas, Transferencia, Devolucao, Venda, Cancelado, ReentradaNova, FiltrosReais | Eventos reais preparados | Não executados nesta revisão | NÃO EXECUTADO |
+| Reabertura da cópia ACCDB preservada | Leitura ADO independente | Mesmas17 tabelas e contagens, rev16 | PASS de preservação; não é teste dos eventos VBA |
+
+Sete casos históricos permanecem com os resultados anteriores. Plano obsoleto, lease órfão, interface completa da conciliação, concorrência integrada, XML restante e backup de desastre continuam pendentes. Correção SQL da suíte foi necessária: KindText está em Movements, não Projections. Não somar compilação, hashes e diagnósticos à contagem de eventos.
+
+
+## Fechamento revisão 26 — nova evidência, sem apagar a referência
+
+[58 execuções reais detalhadas](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_macros_20261103T2213Z/MATRIZ_EXECUTADA_FECHAMENTO.md): 57 PASS e um FAIL da instrumentação. Os 14 PASS do log de fechamento, 16 PASS da suíte E2 reutilizada e 27 PASS/1 FAIL do módulo final são blocos distintos; não significam 58 operações completas. As oito asserções anteriores do fechamento e os 62 resultados históricos permanecem separados.
+
+| Caso histórico | Evidência atual da candidata | Classificação e limite |
+|---|---|---|
+| V_VALIDO | F2_V_VALIDO e F2_V_VALIDO_BAIXA, evento real, NF24012/400,2222 | PASS no fluxo candidato; episódio encerrado e histórico por ID, sem Delete |
+| T_VALIDO | F2_T_VALIDO, NF24002/300,1111, quatro destinos | PASS no fluxo candidato; mesmo episódio e custódia filial experimental |
+| D_VALIDO | F2_D_VALIDO e CF_NOVA_TENTATIVA_CONCILIADA, eventos reais | PASS nos fluxos descritos; quatro destinos, custódia matriz e vínculos |
+| D_FALHA_BAIXA | CF_FALHA_BAIXA_LOGICA/APPLY3 + conciliação via diálogo | Efeitos revertidos; intenção inicialmente pendente, depois CONCILIADA_SEM_EFEITOS e nova tentativa confirmada |
+| T_DUP_DESTINO | E1_T_DUP_DESTINO_E2_R3 na referência anterior | Recusa candidata já demonstrada; não reexecutada nesta continuação |
+| C_FALHA_BAIXA | APPLY3/APPLY6 no novo motor ACE | Reversão dos fatos, conciliação limitada demonstrada; não é execução/correção da antiga classe |
+| C_FALHA_COMPENSACAO | E2_FalhaProjecao na referência anterior; Save cancelado e reconstrução reexecutados | Reconstrução da projeção a partir do commit; sem compensação após Delete/commit e sem garantia física |
+
+Os sete FAIL históricos da implementação anterior permanecem. Reabertura final R26: BLOQUEADO por macros; dois gravadores Excel e restauração sem origem/registro: NÃO EXECUTADOS. Não usar esses limites como PASS. Os XMLs divergentes de número/chave são validador direto; demais negativos acionaram o gravador real, três falhando antes de abrir o relatório. [Transcrição da interface XML](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_macros_20261103T2213Z/xml_interface_observada_final.json).
+
+
+## Retomada de04/11/2026 — QueryClose, revisao26
+
+[Relatorio da retomada](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_reabertura_final_20261103T233016Z/RELATORIO_RETOMADA_QUERYCLOSE.md). Os registros anteriores permanecem historicos. A referencia R26 reabriu com CACHE_AUDITADO e diagnostico VERIFIED; pesquisas reais matriz/filial confirmaram episodios e valores150,3333/456,7891. Foi reproduzido erro1004 no X de Cad_NFE: incremento arbitrario de U1 na planilha ativa protegida. Removida somente essa escrita em QueryClose de Cad_NFE e Cad_NFE_Saida na candidata. Compilacao real e regressao de X/botao Fechar dos dois formularios PASS.17tabelas/ACCDB inalterados;39originais com hashes iguais.
+
+Novo XLSM preservado: SHA256 efd1916395159da3d30ecc99838ff6e0e44dd9e0ca2b13b29570a3b59fe247e0; ACCDB9fc0bfe8001120d2804b8f56836949249606e2030a6af431a71b1757c80267dc. Pacote privado Entrega2_R26_QueryClose_20261104T1221Z_PENDENTE_ACEITE.72componentes;436assinaturas dos5formularios preservadas; designers reserializados, sem alegar identidade binaria.
+
+FORMULA_VALUE apos edicao/formularios preservado como FAIL de tentativa; recalc completo recuperou VERIFIED, sem alterar fatos. Causa fina ainda nao isolada. Arquivo salvo e instancia exclusiva encerrada normalmente. A nova abertura do XLSM corrigido concluiu, mas Office voltou a desabilitar macros: inicializacao/fluxo final BLOQUEADOS ate habilitacao manual. Entrega2 continua em fechamento, NAO HOMOLOGADA; nenhuma liberacao de Entrega3.
+
+[Matriz dirigida](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_reabertura_final_20261103T233016Z/MATRIZ_RETOMADA_QUERYCLOSE.md):14verificacoes,11PASS/2FAIL/1BLOQUEADO. Inclui analise estatica e ADO separados de eventos VBA. Nao somar como14fluxos e nao alterar os sete FAIL legados.

@@ -1,0 +1,15 @@
+{
+  "Modalidade": "ADO_ACE_PROCESSO_EXTERNO_LOCK_TRANSACIONAL_REGISTRO",
+  "PID": 15792,
+  "InicioUTC": "2026-11-03T22:59:56.3529256Z",
+  "Registro": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Controle_E2_143C55EC132B48398413268B265117AF.accdb",
+  "Laboratorio": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z",
+  "CommitExecutado": false,
+  "SimulaDoisExcel": false,
+  "Geracao": 2,
+  "LiberacaoPeloTeste": true,
+  "GeracaoFinal": 2,
+  "OwnerFinal": null,
+  "Resultado": "LOCK_LIBERADO_POR_ROLLBACK",
+  "FimUTC": "2026-11-03T23:00:28.3817627Z"
+}

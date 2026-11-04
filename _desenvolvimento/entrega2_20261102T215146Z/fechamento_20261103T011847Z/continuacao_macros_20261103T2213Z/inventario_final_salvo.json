@@ -1,0 +1,492 @@
+{
+  "UTC": "2026-11-03T23:07:00.285Z",
+  "componentes": 72,
+  "fontes": [
+    {
+      "name": "EstaPastaDeTrabalho",
+      "file": "EstaPastaDeTrabalho.documento.codigo_embutido.txt",
+      "sha256": "dd7c91609fc00199c34785a85ded9463006bb672432513ecc172e2684958d398",
+      "procedures": 1
+    },
+    {
+      "name": "Planilha12",
+      "file": "Planilha12.documento.codigo_embutido.txt",
+      "sha256": "56e6d5b771e910fd03c2768cae879539d8781cedb8b2b6d3d5d4c3e9db8ba7d8",
+      "procedures": 0
+    },
+    {
+      "name": "Planilha1",
+      "file": "Planilha1.documento.codigo_embutido.txt",
+      "sha256": "68d11dc3a3a0ae5e1c82f733b83c5400981ab807cace78596bae7fcc0082e42c",
+      "procedures": 0
+    },
+    {
+      "name": "Planilha13",
+      "file": "Planilha13.documento.codigo_embutido.txt",
+      "sha256": "a2c715fba024d244247ee640d8429c51e15db72f2a190eba1250c4524e6009ed",
+      "procedures": 0
+    },
+    {
+      "name": "Planilha3",
+      "file": "Planilha3.documento.codigo_embutido.txt",
+      "sha256": "ece5fe4f860168fe26cab235b8e67ba0d009898867e791ffa7e201d746abf405",
+      "procedures": 0
+    },
+    {
+      "name": "Planilha4",
+      "file": "Planilha4.documento.codigo_embutido.txt",
+      "sha256": "b29c63bd9ae5b6b6eb29920c5b01ef64ed41198f9b3daf3f1fd004a637e7b098",
+      "procedures": 0
+    },
+    {
+      "name": "Planilha2",
+      "file": "Planilha2.documento.codigo_embutido.txt",
+      "sha256": "85d6c1b4a2396eb27a9f34e394733013ab79c04e72bc04ef2caa5bf5635ba70e",
+      "procedures": 0
+    },
+    {
+      "name": "Planilha17",
+      "file": "Planilha17.documento.codigo_embutido.txt",
+      "sha256": "bdb292d0640c367e9ce4de4c55ec00384ba7524f198daf46f3d4389d8d846fa3",
+      "procedures": 0
+    },
+    {
+      "name": "Planilha15",
+      "file": "Planilha15.documento.codigo_embutido.txt",
+      "sha256": "b72b5012d6b83aa93fad4fe4f481d47f68a8d59af33b957c6cb851b374a41f0b",
+      "procedures": 1
+    },
+    {
+      "name": "Planilha10",
+      "file": "Planilha10.documento.codigo_embutido.txt",
+      "sha256": "fee0778ae47eccc07450f16aa8a1939546fa3cfbabc321a4e471389854b26507",
+      "procedures": 0
+    },
+    {
+      "name": "Planilha16",
+      "file": "Planilha16.documento.codigo_embutido.txt",
+      "sha256": "582270e08b4101e72751cd854b15fd1fd23bbbc0247f1c1a5ba38aa178e568e6",
+      "procedures": 0
+    },
+    {
+      "name": "Planilha18",
+      "file": "Planilha18.documento.codigo_embutido.txt",
+      "sha256": "e1148f4b17cd0c90a9911c31f3b4976a53d04387ccd4414979e821bd1e8d7d9e",
+      "procedures": 0
+    },
+    {
+      "name": "Planilha7",
+      "file": "Planilha7.documento.codigo_embutido.txt",
+      "sha256": "d299515e81638f7edc9e789251bf117ed262879eab7afb9a31e618765d0362f5",
+      "procedures": 0
+    },
+    {
+      "name": "Planilha6",
+      "file": "Planilha6.documento.codigo_embutido.txt",
+      "sha256": "2ae2ce91b562b745173393395abf6bc77aca10d8ac574cafb1c9b469b4662461",
+      "procedures": 0
+    },
+    {
+      "name": "Planilha9",
+      "file": "Planilha9.documento.codigo_embutido.txt",
+      "sha256": "5ba1086b6cde38fead1cc40cdbb0acd27235abc7f0406b631629de8692920833",
+      "procedures": 0
+    },
+    {
+      "name": "Planilha11",
+      "file": "Planilha11.documento.codigo_embutido.txt",
+      "sha256": "c2cfbda4a3141096ebc73d066977d4bfedeeb8e590358c4b4cd06781cbdcb285",
+      "procedures": 0
+    },
+    {
+      "name": "Planilha5",
+      "file": "Planilha5.documento.codigo_embutido.txt",
+      "sha256": "54070719a0832718879428270900bb9fe0458d1a5a9cb456ed64d39ffaabba1b",
+      "procedures": 0
+    },
+    {
+      "name": "Planilha8",
+      "file": "Planilha8.documento.codigo_embutido.txt",
+      "sha256": "d733ac71b42220f6ea90d56de39eeef8f7a4137acaade4cb53f2a007881b1dcf",
+      "procedures": 0
+    },
+    {
+      "name": "clsOperacaoPlanilha",
+      "file": "clsOperacaoPlanilha.cls",
+      "sha256": "beb196d4d1389301520070e0a5c01b9735aec280e395a9459e3e4e10d8e0dafc",
+      "procedures": 10
+    },
+    {
+      "name": "modIntegridadeOperacao",
+      "file": "modIntegridadeOperacao.bas",
+      "sha256": "9c38f1e123ef3fc7b67eba789610e70e5ede1f9c68d3eda31e901b08a7d21993",
+      "procedures": 5
+    },
+    {
+      "name": "mdlChamarFiltro",
+      "file": "mdlChamarFiltro.bas",
+      "sha256": "ebfb40a8da1b8d144edb29781f2b59e620a9cb00876032b5147a788aa57c8958",
+      "procedures": 1
+    },
+    {
+      "name": "mdlChamarTabCan",
+      "file": "mdlChamarTabCan.bas",
+      "sha256": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634",
+      "procedures": 1
+    },
+    {
+      "name": "mdlChamarTabEnt",
+      "file": "mdlChamarTabEnt.bas",
+      "sha256": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c",
+      "procedures": 1
+    },
+    {
+      "name": "mdlChamarTabSai",
+      "file": "mdlChamarTabSai.bas",
+      "sha256": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b",
+      "procedures": 1
+    },
+    {
+      "name": "mdlCondCel",
+      "file": "mdlCondCel.bas",
+      "sha256": "873c51e19830771ff76a8697e463cd64da1e9cb95fbd6004fbf8ad1c4e9b4957",
+      "procedures": 6
+    },
+    {
+      "name": "mdlCopiar",
+      "file": "mdlCopiar.bas",
+      "sha256": "8d9451537dae5aed5de73c4ab671411be2952231dc63b70b72529fa740cdc490",
+      "procedures": 8
+    },
+    {
+      "name": "mdlCriaBackup",
+      "file": "mdlCriaBackup.bas",
+      "sha256": "ad223e660418bec76062d5d0c7a26dbe821766c808a841129e9bb0dd6d4523c4",
+      "procedures": 4
+    },
+    {
+      "name": "mdlCursor",
+      "file": "mdlCursor.bas",
+      "sha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348",
+      "procedures": 1
+    },
+    {
+      "name": "mdlMacroConexão",
+      "file": "mdlMacroConexão.bas",
+      "sha256": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f",
+      "procedures": 1
+    },
+    {
+      "name": "mdlMacroConexãoClientes",
+      "file": "mdlMacroConexãoClientes.bas",
+      "sha256": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941",
+      "procedures": 1
+    },
+    {
+      "name": "mdlMacroDocFora",
+      "file": "mdlMacroDocFora.bas",
+      "sha256": "85caa0cac4b69c53f13c58e9ac4ca4e6a474d23271bcaff1f969f8fb91e340ee",
+      "procedures": 1
+    },
+    {
+      "name": "mdlOcultarTítulo",
+      "file": "mdlOcultarTítulo.bas",
+      "sha256": "62fbaac7301177886ee0a9ab91024b1f8c0bee597ebf891def1bb91f697eedef",
+      "procedures": 1
+    },
+    {
+      "name": "mdlTelaCheia",
+      "file": "mdlTelaCheia.bas",
+      "sha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc",
+      "procedures": 2
+    },
+    {
+      "name": "modSeleniumCommon",
+      "file": "modSeleniumCommon.bas",
+      "sha256": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6",
+      "procedures": 7
+    },
+    {
+      "name": "modSeleniumConsultaNFE",
+      "file": "modSeleniumConsultaNFE.bas",
+      "sha256": "b4b59146037a9d2fe04f653587c25c8b0fd762db7eff5f7b6b4f1722710a50a0",
+      "procedures": 55
+    },
+    {
+      "name": "modSeleniumRenavamConsulta",
+      "file": "modSeleniumRenavamConsulta.bas",
+      "sha256": "19c3ce8723050ec14ffdc2d92c16fa49f34e6fc520a5bb8e6fe31dde11130658",
+      "procedures": 23
+    },
+    {
+      "name": "modSelTest",
+      "file": "modSelTest.bas",
+      "sha256": "894840fc367c1cf7fef45a4fb06911912c61b90b2e32dcf338c23713464fa896",
+      "procedures": 36
+    },
+    {
+      "name": "MóduloOfficeRibbonEditor",
+      "file": "MóduloOfficeRibbonEditor.bas",
+      "sha256": "725894623f0f7e883c8c16cd5311853427423859dd176428b084099a419c0777",
+      "procedures": 3
+    },
+    {
+      "name": "MóduloPesquisa",
+      "file": "MóduloPesquisa.bas",
+      "sha256": "8e63e0173d91b7431935c86acb22d1556590db9e898f419c1bd913e56ffe2eff",
+      "procedures": 6
+    },
+    {
+      "name": "MóduloRemoveFechar",
+      "file": "MóduloRemoveFechar.bas",
+      "sha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd",
+      "procedures": 1
+    },
+    {
+      "name": "modValidacaoXML",
+      "file": "modValidacaoXML.bas",
+      "sha256": "7a6cf55e0532b02b5d06f940c5195fff1b6fb831f125fbf4cb4c65d69c3c3493",
+      "procedures": 47
+    },
+    {
+      "name": "mdlChamarForm",
+      "file": "mdlChamarForm.bas",
+      "sha256": "888b82877a4e95317ccabb52553d1df052b6f7677cf4c25b680439eccd4884f1",
+      "procedures": 1
+    },
+    {
+      "name": "mdlChamarFormDocFora",
+      "file": "mdlChamarFormDocFora.bas",
+      "sha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0",
+      "procedures": 1
+    },
+    {
+      "name": "mdlChamarFormNCM",
+      "file": "mdlChamarFormNCM.bas",
+      "sha256": "beec72a9412eac03765526c76056e7e9097133ff0c85d433a1d9c36974064dc9",
+      "procedures": 1
+    },
+    {
+      "name": "mdlChamarFormSaida",
+      "file": "mdlChamarFormSaida.bas",
+      "sha256": "7938d0c4831374750e4b173b61f9c1de309a08af69decdb9688cec6c1ee1d3c7",
+      "procedures": 1
+    },
+    {
+      "name": "mdlChamarFormVeículos",
+      "file": "mdlChamarFormVeículos.bas",
+      "sha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a",
+      "procedures": 1
+    },
+    {
+      "name": "modPreencherFormulario",
+      "file": "modPreencherFormulario.bas",
+      "sha256": "e1de7c7c399e6c4b6a80fc04468d151b3b47267ef350805d74876d7907b280f8",
+      "procedures": 2
+    },
+    {
+      "name": "Cad_NCM",
+      "file": "Cad_NCM.frm.codigo_embutido.txt",
+      "sha256": "b90b063d51c8628b2fc63a3556ff1ce46d2ddf8bd968d97ade6527d1c6b7a568",
+      "procedures": 25
+    },
+    {
+      "name": "Cad_NFE",
+      "file": "Cad_NFE.frm.codigo_embutido.txt",
+      "sha256": "47bc4bcb7bf40b410db32d40a6e786bbe2da525c1207a747934393abf5c84271",
+      "procedures": 185
+    },
+    {
+      "name": "Cad_NFE_Saida",
+      "file": "Cad_NFE_Saida.frm.codigo_embutido.txt",
+      "sha256": "b3817d0864dac48a830ccd8362d941025d957e5a8a88728f4bc7226aa549e8e3",
+      "procedures": 197
+    },
+    {
+      "name": "frmRelatorioXML",
+      "file": "frmRelatorioXML.frm.codigo_embutido.txt",
+      "sha256": "1472474cc8bdab91b9c79a4a4198f6f7a1e439c8d6c76b15d17feb5276f98b74",
+      "procedures": 8
+    },
+    {
+      "name": "UserFormFiltro",
+      "file": "UserFormFiltro.frm.codigo_embutido.txt",
+      "sha256": "aaa32197b4ba2ed36ea0b383c0f0347cc8cd9ee43ab0d03f42ffe94597f20cf2",
+      "procedures": 21
+    },
+    {
+      "name": "AuditoriaListaFake",
+      "file": "AuditoriaListaFake.cls",
+      "sha256": "f97b99d922bbe209ad0f1306fab12804738a9fcb943e75b78343b6e7e421a7ab",
+      "procedures": 4
+    },
+    {
+      "name": "modTestesAuditoria",
+      "file": "modTestesAuditoria.bas",
+      "sha256": "516d590a1d3294b1983f7358c329bfe761122fc924788e80d5e202c668213f3f",
+      "procedures": 2
+    },
+    {
+      "name": "modTestesFase2",
+      "file": "modTestesFase2.bas",
+      "sha256": "1b81bd27828d0a529d4c083ef8c3e322bf11e433bee47897482b18298650eb41",
+      "procedures": 7
+    },
+    {
+      "name": "modTestesIntegradosFase5",
+      "file": "modTestesIntegradosFase5.bas",
+      "sha256": "723c8d51c94a99c10398b4ac3debfde2bcfd08fb11f8a7a69e5382cd27f300ab",
+      "procedures": 10
+    },
+    {
+      "name": "modPrototiposFase6",
+      "file": "modPrototiposFase6.bas",
+      "sha256": "277d06dbe23f77c5a8679f6c13544fc3295c37746f7d8c00b850559d342f68c3",
+      "procedures": 36
+    },
+    {
+      "name": "modPrototiposFase7",
+      "file": "modPrototiposFase7.bas",
+      "sha256": "431fc033c2ab76b96416e0e54845c09504c9869098019d1da45cd2763c8fbee9",
+      "procedures": 27
+    },
+    {
+      "name": "clsRepositorioFase8",
+      "file": "clsRepositorioFase8.cls",
+      "sha256": "9d9f97fb6db9da2d52371d7a2a1bb7ec1ffd3e1c8fa000eb102307d7add7a3c8",
+      "procedures": 16
+    },
+    {
+      "name": "modExperimentosFase8",
+      "file": "modExperimentosFase8.bas",
+      "sha256": "5ac769f64a8504971dea7a88ca7e47812d4ddd65559d6b2bdef73e1f91693ff5",
+      "procedures": 38
+    },
+    {
+      "name": "clsSaveFase9",
+      "file": "clsSaveFase9.cls",
+      "sha256": "5bdaa5cb2329eb261dabf74ea98821c09109a17f535a6705523ebc2ffa3b55e6",
+      "procedures": 4
+    },
+    {
+      "name": "modPersistenciaFase9",
+      "file": "modPersistenciaFase9.bas",
+      "sha256": "660d20bcba1a4a3c6d45eeaadf4dcf49775894fbb25d9e8bd655fc181a8e6660",
+      "procedures": 40
+    },
+    {
+      "name": "modVerificacaoFase9",
+      "file": "modVerificacaoFase9.bas",
+      "sha256": "4d360c17660f42077bd27178127d632feb09997ecbad4563843e564ed6cf8a85",
+      "procedures": 6
+    },
+    {
+      "name": "modPersistenciaFase10",
+      "file": "modPersistenciaFase10.bas",
+      "sha256": "9fe0f379847f1e72b270bc327709a8302a49b98705bb9de422ca4828e66dd4b9",
+      "procedures": 59
+    },
+    {
+      "name": "modCenariosFase10",
+      "file": "modCenariosFase10.bas",
+      "sha256": "1a9287e25b93903ddbec32ec6e08b87563f81b90626ab4016381d558442ad7c1",
+      "procedures": 23
+    },
+    {
+      "name": "modFronteirasFase10",
+      "file": "modFronteirasFase10.bas",
+      "sha256": "a70b4e9c3e1fbe525f576bfd0938e30a7214fff0f83f337c2a1afe24783542d3",
+      "procedures": 5
+    },
+    {
+      "name": "modCandidatoIntegrado",
+      "file": "modCandidatoIntegrado.bas",
+      "sha256": "a35531ae007abbe9c6dffc00da39c762cd6533e36740b354caec424e931bef19",
+      "procedures": 66
+    },
+    {
+      "name": "clsTesteCandidato",
+      "file": "clsTesteCandidato.cls",
+      "sha256": "349feb16f5c2db4020d6e5a36db0ea8d07c29f2374e3b538028ac420565666b8",
+      "procedures": 3
+    },
+    {
+      "name": "modTestesEntrega1",
+      "file": "modTestesEntrega1.bas",
+      "sha256": "d8827a9c69b0e8ccbef92e96f57ef270a32f89690bcbf4617286edaa201e4638",
+      "procedures": 38
+    },
+    {
+      "name": "modFechamentoEntrega2",
+      "file": "modFechamentoEntrega2.bas",
+      "sha256": "515f9194e88fa2b07376b43039409723d419fa9a2ff4dbf454920ee319604abc",
+      "procedures": 19
+    },
+    {
+      "name": "modTestesFechamentoE2",
+      "file": "modTestesFechamentoE2.bas",
+      "sha256": "47103a44aacc4434b7aec6c683ffcad0899ae9bd8529105bb538f70b5a593d74",
+      "procedures": 17
+    },
+    {
+      "name": "modRegressaoFinalE2",
+      "file": "modRegressaoFinalE2.bas",
+      "sha256": "1d94fadfc12a6c53f1920d2189d0b0b95f3121cd8bfcd421f03144370a3ff7e6",
+      "procedures": 12
+    }
+  ],
+  "planilhas": [
+    "Menu Principal",
+    "Entradas",
+    "Transferidos",
+    "Entradas Anual",
+    "Demonstração",
+    "Saidas",
+    "Todas Saidas",
+    "Entradas Filial",
+    "Entradas Anual Filial",
+    "Saidas Filial",
+    "Todas Saidas Filial",
+    "Carros PF",
+    "Clientes",
+    "Veículos",
+    "Doc. para fora",
+    "NCM e CEST",
+    "Listas"
+  ],
+  "forms": [
+    {
+      "name": "Cad_NCM",
+      "corpoSemGuidBaseIgual": true,
+      "procedimentosAntes": 25,
+      "procedimentosDepois": 25
+    },
+    {
+      "name": "Cad_NFE",
+      "corpoSemGuidBaseIgual": true,
+      "procedimentosAntes": 185,
+      "procedimentosDepois": 185
+    },
+    {
+      "name": "Cad_NFE_Saida",
+      "corpoSemGuidBaseIgual": true,
+      "procedimentosAntes": 197,
+      "procedimentosDepois": 197
+    },
+    {
+      "name": "frmRelatorioXML",
+      "corpoSemGuidBaseIgual": true,
+      "procedimentosAntes": 8,
+      "procedimentosDepois": 8
+    },
+    {
+      "name": "UserFormFiltro",
+      "corpoSemGuidBaseIgual": true,
+      "procedimentosAntes": 21,
+      "procedimentosDepois": 21
+    }
+  ],
+  "projetoSHA": "dcedc33a1fca12fdeaec3b36380967aabc3b038e94604874c7edbea45b429159",
+  "candidatoSHA": "b379f42c739100086e1010f776777a90a9acb65d3ef94d8227dcbd1dd45e6e25",
+  "modalidade": "Inspecao do XLSM salvo; compilacao real documentada separadamente"
+}

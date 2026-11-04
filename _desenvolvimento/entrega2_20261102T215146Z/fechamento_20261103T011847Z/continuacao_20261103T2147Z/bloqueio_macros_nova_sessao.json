@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-03T21:52:42.378Z",
+  "book": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z\\Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+  "modality": "EXECUCAO_VBA_INTERFACE",
+  "status": "BLOQUEADO",
+  "command": "? C1_UltimoResultado, C1_Diagnostico(), ThisWorkbook.Saved",
+  "message": "As macros neste projeto estão desativadas. Consulte a Ajuda on-line ou a documentação do aplicativo host para determinar como ativar macros.",
+  "compilation": "PASS separada; 71 componentes; sem erro de compilacao",
+  "noSecurityChange": true
+}

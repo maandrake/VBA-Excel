@@ -1,0 +1,11 @@
+{
+  "UTC": "2026-11-03T23:30:16.2448526Z",
+  "Laboratorio": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Entrega2_Restauracao_Controlada_20261103T0146Z",
+  "Arquivos": [
+    {
+      "Nome": "Banco_Candidato_Entrega2_Final.accdb",
+      "SHA256": "9fc0bfe8001120d2804b8f56836949249606e2030a6af431a71b1757c80267dc"
+    }
+  ],
+  "Observacao": "Antes de C1_Diagnostico; cache automatico observado em UI sem carregamento manual"
+}

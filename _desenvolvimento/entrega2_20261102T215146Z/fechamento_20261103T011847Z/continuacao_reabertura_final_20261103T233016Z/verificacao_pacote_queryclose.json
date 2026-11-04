@@ -1,0 +1,22 @@
+{
+  "pack": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/VBA-Excel-Entregas/Entrega2_R26_QueryClose_20261104T1221Z_PENDENTE_ACEITE",
+  "checked": 115,
+  "failures": [],
+  "hashes": [
+    {
+      "file": "Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "sha256": "efd1916395159da3d30ecc99838ff6e0e44dd9e0ca2b13b29570a3b59fe247e0",
+      "size": 2821068
+    },
+    {
+      "file": "Banco_Candidato_Entrega2_Final.accdb",
+      "sha256": "9fc0bfe8001120d2804b8f56836949249606e2030a6af431a71b1757c80267dc",
+      "size": 1196032
+    },
+    {
+      "file": "Controle_E2_143C55EC132B48398413268B265117AF.accdb",
+      "sha256": "b9e0c8aceb4474bb6b74ba727c7064982cfa9371e060b901bdf4b2de61632e2f",
+      "size": 126976
+    }
+  ]
+}

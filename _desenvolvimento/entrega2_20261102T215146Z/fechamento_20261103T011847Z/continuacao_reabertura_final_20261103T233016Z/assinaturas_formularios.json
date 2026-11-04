@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Cad_NCM",
+    "signatures": 25,
+    "same": true
+  },
+  {
+    "name": "Cad_NFE",
+    "signatures": 185,
+    "same": true
+  },
+  {
+    "name": "Cad_NFE_Saida",
+    "signatures": 197,
+    "same": true
+  },
+  {
+    "name": "frmRelatorioXML",
+    "signatures": 8,
+    "same": true
+  },
+  {
+    "name": "UserFormFiltro",
+    "signatures": 21,
+    "same": true
+  }
+]

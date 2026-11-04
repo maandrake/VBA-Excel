@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-03T22:47:39.011Z",
+  "estado": "NAO_EXECUTADO",
+  "ponto": "Abertura modal do Cad_NFE_Saida antes do primeiro XML, antes de preencher campos e antes de gravacao",
+  "causa": "Fornecedor sintetico definido depois do botao Copiar; sem fornecedor, produto abre Show modal legitimamente",
+  "acao": "Redefinir somente macro de teste pelo VBE; nenhuma instancia encerrada; corrigir ordem no teste",
+  "novo": "Fornecedor de teste definido antes de Copiar; assertiva verifica motivo XML ou duplicidade, nao aceita recusa generica"
+}

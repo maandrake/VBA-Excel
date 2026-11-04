@@ -1,0 +1,11 @@
+{
+  "modality": "ANALISE_ESTATICA_XML_XLSM",
+  "errorCells": [
+    {
+      "sheet": "xl/worksheets/sheet2.xml",
+      "errors": [
+        "<c r=\"E3\" t=\"e\"><v>#N/A</v></c>"
+      ]
+    }
+  ]
+}

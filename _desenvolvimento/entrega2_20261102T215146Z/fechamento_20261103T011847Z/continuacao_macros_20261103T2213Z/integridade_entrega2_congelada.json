@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Estoque_Fera_Veiculos_Candidato_Operacoes_Corrigidas.xlsm",
+    "expected": "856c1c148451bae188d5539b3a344371579275268d7475dd535e1ade89ee39d0",
+    "actual": "856c1c148451bae188d5539b3a344371579275268d7475dd535e1ade89ee39d0",
+    "ok": true
+  },
+  {
+    "name": "Banco_Candidato_Operacoes_Corrigidas.accdb",
+    "expected": "1390a79c2b36fcea13843bb211dcb56ffbfe3fe8523e2200f70f32e1dbc35581",
+    "actual": "1390a79c2b36fcea13843bb211dcb56ffbfe3fe8523e2200f70f32e1dbc35581",
+    "ok": true
+  }
+]

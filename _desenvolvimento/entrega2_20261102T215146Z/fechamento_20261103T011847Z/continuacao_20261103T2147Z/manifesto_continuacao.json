@@ -1,0 +1,456 @@
+{
+  "status": "COMPILADO_COM_EXECUCAO_BLOQUEADA",
+  "packageDir": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\VBA-Excel-Entregas\\Entrega2_Fechamento_20261103T2147Z_PENDENTE_REGRESSAO",
+  "files": [
+    {
+      "file": "artefatos_preservados.json",
+      "bytes": 16895,
+      "sha256": "e96218c1220e1fabccaf2a74bf8108293578032036e87242dcb30cd1b3c52691"
+    },
+    {
+      "file": "bloqueio_macros_nova_sessao.json",
+      "bytes": 633,
+      "sha256": "e05ea7040d85b8479c8944a196d096d445e728b4510ada3466f0db65d8ec74c8"
+    },
+    {
+      "file": "Capturar-Estado-Sintetico.ps1",
+      "bytes": 1661,
+      "sha256": "e23d389839adae46476e9f3c284b7359d18e84832a6f28958a0866a18e20c63e"
+    },
+    {
+      "file": "checkpoint_externo.json",
+      "bytes": 461,
+      "sha256": "63ee241517e60997b3da0a3c7a0d10f2dd33f921337deb9f6442f683b7d7b50d"
+    },
+    {
+      "file": "comparacao_fontes.json",
+      "bytes": 8574,
+      "sha256": "cb5a596dec3829935ad9ef7d7b7984bddaff1ac8d6afe3e12ac0fdf7c92b6de2"
+    },
+    {
+      "file": "compilacao_consulta_corrigida.txt",
+      "bytes": 318,
+      "sha256": "9b8889795da1a68574fc6656ac06fa1ac9da9fbc618449b202a90dfa4c2e7e76"
+    },
+    {
+      "file": "compilacao_suite.json",
+      "bytes": 560,
+      "sha256": "c33679bff1022e1592302e3528ab7ac1a9350f7cfba55d86098f98533c37c146"
+    },
+    {
+      "file": "designers_planilhas.json",
+      "bytes": 16073,
+      "sha256": "70aa893b86fa91869e1e3705e6c5f24d4532490c517581fcc6e9e0674b705c16"
+    },
+    {
+      "file": "erros_cache_xml.json",
+      "bytes": 195,
+      "sha256": "23b445f41fddc424e5c0116fc9be21ad69f058a7c57a080d80dec0edafd38506"
+    },
+    {
+      "file": "estado_copia_preservada.json",
+      "bytes": 283624,
+      "sha256": "c4f9dc092c9c861c08b30ec27a410391f2696971c5192cdfb41cc0b964e254fa"
+    },
+    {
+      "file": "estado_persistido_atual.json",
+      "bytes": 283626,
+      "sha256": "2d7d2483688a230d12b8cc599cc3196f48de4bc71f24d2c0775fc1c17c8fa41e"
+    },
+    {
+      "file": "FECHAMENTO_ENTREGA2_EM_ANDAMENTO.md",
+      "bytes": 9721,
+      "sha256": "1fbffd04e2145340e0de37d31e66bc623e636e584fa5f078973e65aec8ac97d0"
+    },
+    {
+      "file": "fontes/modTestesFechamentoE2.bas",
+      "bytes": 17577,
+      "sha256": "4231f47e5b0fa361350f65f3ca71f3491b807ea88e9ef84ef0b8739c4593e1b5"
+    },
+    {
+      "file": "fontes_embutidos/AuditoriaListaFake.cls",
+      "bytes": 893,
+      "sha256": "f97b99d922bbe209ad0f1306fab12804738a9fcb943e75b78343b6e7e421a7ab"
+    },
+    {
+      "file": "fontes_embutidos/Cad_NCM.frm.codigo_embutido.txt",
+      "bytes": 7981,
+      "sha256": "dc7b171994431d9ed13beadb9ec251facb4b331b8a93bdd35de3910e6e1f4cd9"
+    },
+    {
+      "file": "fontes_embutidos/Cad_NFE.frm.codigo_embutido.txt",
+      "bytes": 42016,
+      "sha256": "61b787af8136c554faf3c07021a51dd29e1eee71d35fd35164c4c1bc6bb9d646"
+    },
+    {
+      "file": "fontes_embutidos/Cad_NFE_Saida.frm.codigo_embutido.txt",
+      "bytes": 57827,
+      "sha256": "24e7fd72d2b1029d8143b9668f68dfa73aff54986d56dea8042fc7294081dd89"
+    },
+    {
+      "file": "fontes_embutidos/clsOperacaoPlanilha.cls",
+      "bytes": 5979,
+      "sha256": "beb196d4d1389301520070e0a5c01b9735aec280e395a9459e3e4e10d8e0dafc"
+    },
+    {
+      "file": "fontes_embutidos/clsRepositorioFase8.cls",
+      "bytes": 11137,
+      "sha256": "9d9f97fb6db9da2d52371d7a2a1bb7ec1ffd3e1c8fa000eb102307d7add7a3c8"
+    },
+    {
+      "file": "fontes_embutidos/clsSaveFase9.cls",
+      "bytes": 912,
+      "sha256": "5bdaa5cb2329eb261dabf74ea98821c09109a17f535a6705523ebc2ffa3b55e6"
+    },
+    {
+      "file": "fontes_embutidos/clsTesteCandidato.cls",
+      "bytes": 968,
+      "sha256": "349feb16f5c2db4020d6e5a36db0ea8d07c29f2374e3b538028ac420565666b8"
+    },
+    {
+      "file": "fontes_embutidos/EstaPastaDeTrabalho.documento.codigo_embutido.txt",
+      "bytes": 403,
+      "sha256": "dd7c91609fc00199c34785a85ded9463006bb672432513ecc172e2684958d398"
+    },
+    {
+      "file": "fontes_embutidos/frmRelatorioXML.frm.codigo_embutido.txt",
+      "bytes": 5874,
+      "sha256": "4db651269cc602a101d937eb78c5ca45714a1e580cb95ee1870eaf1e7328dc1f"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarFiltro.bas",
+      "bytes": 122,
+      "sha256": "ebfb40a8da1b8d144edb29781f2b59e620a9cb00876032b5147a788aa57c8958"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarForm.bas",
+      "bytes": 155,
+      "sha256": "888b82877a4e95317ccabb52553d1df052b6f7677cf4c25b680439eccd4884f1"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarFormDocFora.bas",
+      "bytes": 272,
+      "sha256": "5d397611d8b4bf929d55144501203fe703eb82a5454817fc4089e093f87869f0"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarFormNCM.bas",
+      "bytes": 116,
+      "sha256": "beec72a9412eac03765526c76056e7e9097133ff0c85d433a1d9c36974064dc9"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarFormSaida.bas",
+      "bytes": 169,
+      "sha256": "7938d0c4831374750e4b173b61f9c1de309a08af69decdb9688cec6c1ee1d3c7"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarFormVeículos.bas",
+      "bytes": 274,
+      "sha256": "89d2d0022e675d1289a26313b58ce729cd2f9ff73d4678dfe3cdc545b9a2ac1a"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarTabCan.bas",
+      "bytes": 499,
+      "sha256": "e1101c2cd8e7ffa7d2a1ecc5797477a39a358c7502146dc981ee4652eab8e634"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarTabEnt.bas",
+      "bytes": 137,
+      "sha256": "2185d680586f2654c23aa2399f4870475d473e43975264aa4d85b8e2a2556b9c"
+    },
+    {
+      "file": "fontes_embutidos/mdlChamarTabSai.bas",
+      "bytes": 135,
+      "sha256": "3dc356de6918daf07d593bbd048b0bd010a0cf8b5cf064665671c13cc6c8fa1b"
+    },
+    {
+      "file": "fontes_embutidos/mdlCondCel.bas",
+      "bytes": 7828,
+      "sha256": "873c51e19830771ff76a8697e463cd64da1e9cb95fbd6004fbf8ad1c4e9b4957"
+    },
+    {
+      "file": "fontes_embutidos/mdlCopiar.bas",
+      "bytes": 5969,
+      "sha256": "8d9451537dae5aed5de73c4ab671411be2952231dc63b70b72529fa740cdc490"
+    },
+    {
+      "file": "fontes_embutidos/mdlCriaBackup.bas",
+      "bytes": 4316,
+      "sha256": "ad223e660418bec76062d5d0c7a26dbe821766c808a841129e9bb0dd6d4523c4"
+    },
+    {
+      "file": "fontes_embutidos/mdlCursor.bas",
+      "bytes": 1025,
+      "sha256": "2a800cdca261880855fd6d748a984a81d9e81fbfb3c9e376e61995d242fb4348"
+    },
+    {
+      "file": "fontes_embutidos/mdlMacroConexão.bas",
+      "bytes": 659,
+      "sha256": "61b33876eaf1d05e8a617bc33601e16aff14216e4e1500ba82ff012d7dd0996f"
+    },
+    {
+      "file": "fontes_embutidos/mdlMacroConexãoClientes.bas",
+      "bytes": 676,
+      "sha256": "b99610a11c393737779d06f4f9fe061c9dbe04b317f803ba58bc0c19ec074941"
+    },
+    {
+      "file": "fontes_embutidos/mdlMacroDocFora.bas",
+      "bytes": 685,
+      "sha256": "85caa0cac4b69c53f13c58e9ac4ca4e6a474d23271bcaff1f969f8fb91e340ee"
+    },
+    {
+      "file": "fontes_embutidos/mdlOcultarTítulo.bas",
+      "bytes": 1404,
+      "sha256": "62fbaac7301177886ee0a9ab91024b1f8c0bee597ebf891def1bb91f697eedef"
+    },
+    {
+      "file": "fontes_embutidos/mdlTelaCheia.bas",
+      "bytes": 2098,
+      "sha256": "99a76e38916d8c07ad96f7234e5016486678f7b51174840aa4ecb6b74eb55afc"
+    },
+    {
+      "file": "fontes_embutidos/modCandidatoIntegrado.bas",
+      "bytes": 71757,
+      "sha256": "a35531ae007abbe9c6dffc00da39c762cd6533e36740b354caec424e931bef19"
+    },
+    {
+      "file": "fontes_embutidos/modCenariosFase10.bas",
+      "bytes": 49097,
+      "sha256": "1a9287e25b93903ddbec32ec6e08b87563f81b90626ab4016381d558442ad7c1"
+    },
+    {
+      "file": "fontes_embutidos/modExperimentosFase8.bas",
+      "bytes": 48730,
+      "sha256": "5ac769f64a8504971dea7a88ca7e47812d4ddd65559d6b2bdef73e1f91693ff5"
+    },
+    {
+      "file": "fontes_embutidos/modFechamentoEntrega2.bas",
+      "bytes": 24407,
+      "sha256": "515f9194e88fa2b07376b43039409723d419fa9a2ff4dbf454920ee319604abc"
+    },
+    {
+      "file": "fontes_embutidos/modFronteirasFase10.bas",
+      "bytes": 7272,
+      "sha256": "a70b4e9c3e1fbe525f576bfd0938e30a7214fff0f83f337c2a1afe24783542d3"
+    },
+    {
+      "file": "fontes_embutidos/modIntegridadeOperacao.bas",
+      "bytes": 2100,
+      "sha256": "9c38f1e123ef3fc7b67eba789610e70e5ede1f9c68d3eda31e901b08a7d21993"
+    },
+    {
+      "file": "fontes_embutidos/modPersistenciaFase10.bas",
+      "bytes": 66396,
+      "sha256": "9fe0f379847f1e72b270bc327709a8302a49b98705bb9de422ca4828e66dd4b9"
+    },
+    {
+      "file": "fontes_embutidos/modPersistenciaFase9.bas",
+      "bytes": 49408,
+      "sha256": "660d20bcba1a4a3c6d45eeaadf4dcf49775894fbb25d9e8bd655fc181a8e6660"
+    },
+    {
+      "file": "fontes_embutidos/modPreencherFormulario.bas",
+      "bytes": 426,
+      "sha256": "e1de7c7c399e6c4b6a80fc04468d151b3b47267ef350805d74876d7907b280f8"
+    },
+    {
+      "file": "fontes_embutidos/modPrototiposFase6.bas",
+      "bytes": 45586,
+      "sha256": "277d06dbe23f77c5a8679f6c13544fc3295c37746f7d8c00b850559d342f68c3"
+    },
+    {
+      "file": "fontes_embutidos/modPrototiposFase7.bas",
+      "bytes": 28310,
+      "sha256": "431fc033c2ab76b96416e0e54845c09504c9869098019d1da45cd2763c8fbee9"
+    },
+    {
+      "file": "fontes_embutidos/modSeleniumCommon.bas",
+      "bytes": 4959,
+      "sha256": "bc0f5861531817ad3b7dc69327c4c8067ae92ec4b7015f7e464956838427b6d6"
+    },
+    {
+      "file": "fontes_embutidos/modSeleniumConsultaNFE.bas",
+      "bytes": 43076,
+      "sha256": "b4b59146037a9d2fe04f653587c25c8b0fd762db7eff5f7b6b4f1722710a50a0"
+    },
+    {
+      "file": "fontes_embutidos/modSeleniumRenavamConsulta.bas",
+      "bytes": 18900,
+      "sha256": "19c3ce8723050ec14ffdc2d92c16fa49f34e6fc520a5bb8e6fe31dde11130658"
+    },
+    {
+      "file": "fontes_embutidos/modSelTest.bas",
+      "bytes": 43113,
+      "sha256": "894840fc367c1cf7fef45a4fb06911912c61b90b2e32dcf338c23713464fa896"
+    },
+    {
+      "file": "fontes_embutidos/modTestesAuditoria.bas",
+      "bytes": 3279,
+      "sha256": "516d590a1d3294b1983f7358c329bfe761122fc924788e80d5e202c668213f3f"
+    },
+    {
+      "file": "fontes_embutidos/modTestesEntrega1.bas",
+      "bytes": 52103,
+      "sha256": "d8827a9c69b0e8ccbef92e96f57ef270a32f89690bcbf4617286edaa201e4638"
+    },
+    {
+      "file": "fontes_embutidos/modTestesFase2.bas",
+      "bytes": 12979,
+      "sha256": "1b81bd27828d0a529d4c083ef8c3e322bf11e433bee47897482b18298650eb41"
+    },
+    {
+      "file": "fontes_embutidos/modTestesFechamentoE2.bas",
+      "bytes": 17579,
+      "sha256": "47103a44aacc4434b7aec6c683ffcad0899ae9bd8529105bb538f70b5a593d74"
+    },
+    {
+      "file": "fontes_embutidos/modTestesIntegradosFase5.bas",
+      "bytes": 11062,
+      "sha256": "723c8d51c94a99c10398b4ac3debfde2bcfd08fb11f8a7a69e5382cd27f300ab"
+    },
+    {
+      "file": "fontes_embutidos/modValidacaoXML.bas",
+      "bytes": 62305,
+      "sha256": "7a6cf55e0532b02b5d06f940c5195fff1b6fb831f125fbf4cb4c65d69c3c3493"
+    },
+    {
+      "file": "fontes_embutidos/modVerificacaoFase9.bas",
+      "bytes": 8994,
+      "sha256": "4d360c17660f42077bd27178127d632feb09997ecbad4563843e564ed6cf8a85"
+    },
+    {
+      "file": "fontes_embutidos/MóduloOfficeRibbonEditor.bas",
+      "bytes": 455,
+      "sha256": "725894623f0f7e883c8c16cd5311853427423859dd176428b084099a419c0777"
+    },
+    {
+      "file": "fontes_embutidos/MóduloPesquisa.bas",
+      "bytes": 2444,
+      "sha256": "8e63e0173d91b7431935c86acb22d1556590db9e898f419c1bd913e56ffe2eff"
+    },
+    {
+      "file": "fontes_embutidos/MóduloRemoveFechar.bas",
+      "bytes": 1243,
+      "sha256": "0aaa9b3a5dfc86b7ebfe171a4f6ae970e388c1fc5ae02650d7a01d7c680082cd"
+    },
+    {
+      "file": "fontes_embutidos/Planilha1.documento.codigo_embutido.txt",
+      "bytes": 323,
+      "sha256": "68d11dc3a3a0ae5e1c82f733b83c5400981ab807cace78596bae7fcc0082e42c"
+    },
+    {
+      "file": "fontes_embutidos/Planilha10.documento.codigo_embutido.txt",
+      "bytes": 324,
+      "sha256": "fee0778ae47eccc07450f16aa8a1939546fa3cfbabc321a4e471389854b26507"
+    },
+    {
+      "file": "fontes_embutidos/Planilha11.documento.codigo_embutido.txt",
+      "bytes": 324,
+      "sha256": "c2cfbda4a3141096ebc73d066977d4bfedeeb8e590358c4b4cd06781cbdcb285"
+    },
+    {
+      "file": "fontes_embutidos/Planilha12.documento.codigo_embutido.txt",
+      "bytes": 324,
+      "sha256": "56e6d5b771e910fd03c2768cae879539d8781cedb8b2b6d3d5d4c3e9db8ba7d8"
+    },
+    {
+      "file": "fontes_embutidos/Planilha13.documento.codigo_embutido.txt",
+      "bytes": 324,
+      "sha256": "a2c715fba024d244247ee640d8429c51e15db72f2a190eba1250c4524e6009ed"
+    },
+    {
+      "file": "fontes_embutidos/Planilha15.documento.codigo_embutido.txt",
+      "bytes": 604,
+      "sha256": "b72b5012d6b83aa93fad4fe4f481d47f68a8d59af33b957c6cb851b374a41f0b"
+    },
+    {
+      "file": "fontes_embutidos/Planilha16.documento.codigo_embutido.txt",
+      "bytes": 324,
+      "sha256": "582270e08b4101e72751cd854b15fd1fd23bbbc0247f1c1a5ba38aa178e568e6"
+    },
+    {
+      "file": "fontes_embutidos/Planilha17.documento.codigo_embutido.txt",
+      "bytes": 324,
+      "sha256": "bdb292d0640c367e9ce4de4c55ec00384ba7524f198daf46f3d4389d8d846fa3"
+    },
+    {
+      "file": "fontes_embutidos/Planilha18.documento.codigo_embutido.txt",
+      "bytes": 324,
+      "sha256": "e1148f4b17cd0c90a9911c31f3b4976a53d04387ccd4414979e821bd1e8d7d9e"
+    },
+    {
+      "file": "fontes_embutidos/Planilha2.documento.codigo_embutido.txt",
+      "bytes": 323,
+      "sha256": "85d6c1b4a2396eb27a9f34e394733013ab79c04e72bc04ef2caa5bf5635ba70e"
+    },
+    {
+      "file": "fontes_embutidos/Planilha3.documento.codigo_embutido.txt",
+      "bytes": 323,
+      "sha256": "ece5fe4f860168fe26cab235b8e67ba0d009898867e791ffa7e201d746abf405"
+    },
+    {
+      "file": "fontes_embutidos/Planilha4.documento.codigo_embutido.txt",
+      "bytes": 323,
+      "sha256": "b29c63bd9ae5b6b6eb29920c5b01ef64ed41198f9b3daf3f1fd004a637e7b098"
+    },
+    {
+      "file": "fontes_embutidos/Planilha5.documento.codigo_embutido.txt",
+      "bytes": 323,
+      "sha256": "54070719a0832718879428270900bb9fe0458d1a5a9cb456ed64d39ffaabba1b"
+    },
+    {
+      "file": "fontes_embutidos/Planilha6.documento.codigo_embutido.txt",
+      "bytes": 323,
+      "sha256": "2ae2ce91b562b745173393395abf6bc77aca10d8ac574cafb1c9b469b4662461"
+    },
+    {
+      "file": "fontes_embutidos/Planilha7.documento.codigo_embutido.txt",
+      "bytes": 323,
+      "sha256": "d299515e81638f7edc9e789251bf117ed262879eab7afb9a31e618765d0362f5"
+    },
+    {
+      "file": "fontes_embutidos/Planilha8.documento.codigo_embutido.txt",
+      "bytes": 323,
+      "sha256": "d733ac71b42220f6ea90d56de39eeef8f7a4137acaade4cb53f2a007881b1dcf"
+    },
+    {
+      "file": "fontes_embutidos/Planilha9.documento.codigo_embutido.txt",
+      "bytes": 323,
+      "sha256": "5ba1086b6cde38fead1cc40cdbb0acd27235abc7f0406b631629de8692920833"
+    },
+    {
+      "file": "fontes_embutidos/UserFormFiltro.frm.codigo_embutido.txt",
+      "bytes": 3956,
+      "sha256": "ca9fa994b306511abc7c130bf289d806c4a15ca01c2c14ed726d9073ac6872a4"
+    },
+    {
+      "file": "integridade_originais.json",
+      "bytes": 9653,
+      "sha256": "b298bff4fe0a3c56b5b1cded08e9f45596d99abf8b29c18fdceb746f31a396ce"
+    },
+    {
+      "file": "registro_autoridade_persistido.json",
+      "bytes": 2514,
+      "sha256": "969fc38b641df4d9af41378eba76074477f629f0e5bfb51817a365f7a85fe780"
+    },
+    {
+      "file": "resultados_fechamento_antes_realocacao.tsv",
+      "bytes": 5312,
+      "sha256": "fc476f2e946ced2a15099a954c70badcc9ab5b91662926faa561ae8c1da1714b"
+    },
+    {
+      "file": "RETOMADA_IMEDIATA.md",
+      "bytes": 1073,
+      "sha256": "cefe228fc17e6ea8989a9d4a2620a91ea8b9f2675d5fb3309775e8a9e1eb91e1"
+    },
+    {
+      "file": "retomada_interface.json",
+      "bytes": 528,
+      "sha256": "b852c17e3c01668d128a222e43052dabec990f711a94b76bcc29fb9abfffb438"
+    },
+    {
+      "file": "verificacao_copia_e_recibo.json",
+      "bytes": 1767,
+      "sha256": "4a5b496c325accde0a8a4d3f03a1bf71917d8f241df80db7136b12bb52060bc5"
+    }
+  ]
+}

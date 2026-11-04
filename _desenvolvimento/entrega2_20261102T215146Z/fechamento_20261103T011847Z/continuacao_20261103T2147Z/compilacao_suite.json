@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-03T21:51:08.769Z",
+  "modality": "COMPILACAO_REAL_VBA_INTERFACE",
+  "observed": "Depurar > Compilar VBAProject executado, sem erro; menu Compilar desabilitado apos execucao",
+  "components": 71,
+  "book": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z\\Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+  "sha256": "27f0ebad67ffdf1fd2ce37c2928a0c42863ff505f5197d4271bf8049ef6a10dd",
+  "functionalTests": "AGUARDANDO_HABILITACAO_MANUAL_MACROS_NOVA_SESSAO"
+}

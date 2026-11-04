@@ -1,0 +1,26 @@
+{
+  "AuthorityControl": [
+    {
+      "ID": 1,
+      "AuthorityID": "6EE95416-7761-4218-AA44-5E939858E3E2",
+      "BaseID": "143C55EC-132B-4839-8413-268B265117AF",
+      "LineageID": "143C55EC-132B-4839-8413-268B265117AF",
+      "Generation": 2,
+      "DataPath": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z\\Banco_Candidato_Entrega2_Final.accdb",
+      "WorkbookPath": "C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z\\Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "OwnerID": null
+    }
+  ],
+  "AuthorityHistory": [
+    {
+      "EventID": "42CF3445-9BBB-4235-BEA2-A604F2844530",
+      "EventCanon": "21:String:INSTALACAO_LAB43:String:6EE95416-7761-4218-AA44-5E939858E3E271:String:1390a79c2b36fcea13843bb211dcb56ffbfe3fe8523e2200f70f32e1dbc3558119:String:QA SINTETICO99:String:Instalacao explicita da copia de laboratorio rev16; referencia anterior fechada e preservada151:String:C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Fechamento_20261103T011847Z\\Banco_Candidato_Entrega2_Final.accdb166:String:C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Fechamento_20261103T011847Z\\Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "EventHash": "921e249ceed928f75f181ccc89a3efb567e2276c7fe8d4f88a1b264eedb445c9"
+    },
+    {
+      "EventID": "067727CF-DE4E-4E17-BC3F-603473C58A77",
+      "EventCanon": "27:String:REALOCACAO_EXPLICITA19:String:QA SINTETICO80:String:Restauracao controlada em novo TEMP; revoga origem; sem fatos posteriores7:Long:1671:String:6a506c5b90de3dd96403312d6be460dff6137c11e02eabada70d0d18d72148c671:String:5e57be19e074308f27cc66de2f1b99ff934d6741cbef9fdc1a0d1292201b49a7151:String:C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Fechamento_20261103T011847Z\\Banco_Candidato_Entrega2_Final.accdb161:String:C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z\\Banco_Candidato_Entrega2_Final.accdb176:String:C:\\Users\\MARCOS~1\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-JTJOQt\\Entrega2_Restauracao_Controlada_20261103T0146Z\\Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm6:Long:2",
+      "EventHash": "b9dc4e30b94cae202b829127ec9bf6077c6c005bdb307c8a160158db87460481"
+    }
+  ]
+}

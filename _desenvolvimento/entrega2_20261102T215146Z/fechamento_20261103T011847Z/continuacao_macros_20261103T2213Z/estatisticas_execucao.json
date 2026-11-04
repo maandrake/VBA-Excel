@@ -1,0 +1,23 @@
+[
+  {
+    "name": "resultados_fechamento.tsv",
+    "execucoes": 14,
+    "pass": 14,
+    "fail": 0,
+    "ids": 14
+  },
+  {
+    "name": "resultados_entrega2.tsv",
+    "execucoes": 16,
+    "pass": 16,
+    "fail": 0,
+    "ids": 16
+  },
+  {
+    "name": "resultados_final_e2.tsv",
+    "execucoes": 28,
+    "pass": 27,
+    "fail": 1,
+    "ids": 28
+  }
+]

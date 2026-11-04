@@ -1184,3 +1184,24 @@ Para novos checkpoints, escolha uma pasta privada, fora da árvore do repositór
 ```powershell
 ./scripts/Backup-Manutencao.ps1 -DiretorioBackup 'D:\Backups\VBA-Excel' -Arquivo @('MAPA_PROJETO.md', 'TESTES_VBA.md')
 ```
+
+
+### Integração do fechamento Entrega2 — 03/11/2026
+
+Candidata71componentes: acrescentados modFechamentoEntrega2 (AuthorityBinding, registro compartilhado, portão de escrita, realocação explícita, planos/recibos de conciliação) e modTestesFechamentoE2. ConnC1 e Acquire/Lock/Release/Audit10 integram o vínculo. Contrato3/esquema7; controles/eventos dos cinco UserForms preservados. A suíte chama controles reais e distingue APIs. [Inventário efetivo](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_20261103T2147Z/comparacao_fontes.json) e [limites](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_20261103T2147Z/FECHAMENTO_ENTREGA2_EM_ANDAMENTO.md).
+
+
+## 03/11/2026 — Composição da candidata, fechamento Entrega 2
+
+Candidata sintética revisão 26, 72 componentes/17 planilhas/5 formulários. Novo modRegressaoFinalE2 de teste; corpos dos cinco forms preservados, sem alteração fiscal ou dos gravadores nesta sessão. Originais 39/39 íntegros. 58 asserções executadas: 57 PASS/1 FAIL da instrumentação preservado, corrigido em teste posterior. Banco:26movimentos/recibos,7ativos,0Pending; conciliação limitada pela interface e concorrência contra processoADO externo comprovadas no escopo descrito. Reabertura final em nova instância bloqueada por macros; demais limitações não ocultadas. [Relatório](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_macros_20261103T2213Z/RELATORIO_CONTINUACAO_ENTREGA2.md), [matriz](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_macros_20261103T2213Z/MATRIZ_EXECUTADA_FECHAMENTO.md), [inventário](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_macros_20261103T2213Z/inventario_final_salvo.json). **Não homologada; Entrega 2 em fechamento.**
+
+
+## Retomada de04/11/2026 — QueryClose, revisao26
+
+[Relatorio da retomada](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_reabertura_final_20261103T233016Z/RELATORIO_RETOMADA_QUERYCLOSE.md). Os registros anteriores permanecem historicos. A referencia R26 reabriu com CACHE_AUDITADO e diagnostico VERIFIED; pesquisas reais matriz/filial confirmaram episodios e valores150,3333/456,7891. Foi reproduzido erro1004 no X de Cad_NFE: incremento arbitrario de U1 na planilha ativa protegida. Removida somente essa escrita em QueryClose de Cad_NFE e Cad_NFE_Saida na candidata. Compilacao real e regressao de X/botao Fechar dos dois formularios PASS.17tabelas/ACCDB inalterados;39originais com hashes iguais.
+
+Novo XLSM preservado: SHA256 efd1916395159da3d30ecc99838ff6e0e44dd9e0ca2b13b29570a3b59fe247e0; ACCDB9fc0bfe8001120d2804b8f56836949249606e2030a6af431a71b1757c80267dc. Pacote privado Entrega2_R26_QueryClose_20261104T1221Z_PENDENTE_ACEITE.72componentes;436assinaturas dos5formularios preservadas; designers reserializados, sem alegar identidade binaria.
+
+FORMULA_VALUE apos edicao/formularios preservado como FAIL de tentativa; recalc completo recuperou VERIFIED, sem alterar fatos. Causa fina ainda nao isolada. Arquivo salvo e instancia exclusiva encerrada normalmente. A nova abertura do XLSM corrigido concluiu, mas Office voltou a desabilitar macros: inicializacao/fluxo final BLOQUEADOS ate habilitacao manual. Entrega2 continua em fechamento, NAO HOMOLOGADA; nenhuma liberacao de Entrega3.
+
+Impacto restrito a Cad_NFE.UserForm_QueryClose e Cad_NFE_Saida.UserForm_QueryClose. Removida dependencia indevida de ActiveSheet/U1; mantidos Cancel=True, MsgBox e eventos CommandButtonFechar_Click. Camada ACE, esquema7/contrato3, gravadores e politicas fiscais sem alteracao nesta retomada.
