@@ -1,0 +1,19 @@
+{
+  "UTC": "2026-11-04T22:08:09.2256852Z",
+  "Modalidade": "VBA_REAL_JANELA_IMEDIATA",
+  "Origem": "Transcricao da interface observada por CUA, sem log automatico da macro",
+  "Arquivo": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Entrega2_Restauracao_Controlada_20261103T0146Z/Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+  "SHA256Aberto": "42b34e7a2632bb4875525b5b1d5de798274bbeda3402153a79bad4e8d0ba1853",
+  "CacheAntesCargaManual": "CACHE_AUDITADO",
+  "SavedAposInicializacao": false,
+  "WorkbooksCount": 1,
+  "EnableEvents": true,
+  "Comando": "?C1_Diagnostico()",
+  "Observado": "AUDIT=OK;PROJECTION=VERIFIED;REV=26;MOV=26;RECEIPTS=26;ACTIVE=7;PENDING=0",
+  "Resultado": "PASS",
+  "SegurancaAlterada": false,
+  "MacrosHabilitadasPeloAgente": false,
+  "MovimentosExecutados": 0,
+  "CommitGitPeloAgente": false,
+  "GitAtual": "main/7c46ea6"
+}

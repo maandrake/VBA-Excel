@@ -1,0 +1,77 @@
+{
+  "UTC": "2026-11-04T22:15:38.314Z",
+  "testes": [
+    {
+      "id": "E2-R26-FINAL-COLD",
+      "modalidade": "Execucao VBA real",
+      "procedimento": "Workbook_Open / C1_UltimoResultado",
+      "fixture": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Entrega2_Restauracao_Controlada_20261103T0146Z/Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "origem": "Transcricao manual de AX/screenshot CUA; eventos reais no Excel, sem log automatico da macro",
+      "esperado": "CACHE_AUDITADO antes de qualquer carga manual; caminho TEMP correto; Workbooks.Count=1; Saved=False",
+      "observado": "CACHE_AUDITADO antes de qualquer carga manual; caminho TEMP correto; Workbooks.Count=1; Saved=False",
+      "resultado": "PASS",
+      "limitacao": "Nao aprova os gravadores nem encerra a Entrega2"
+    },
+    {
+      "id": "E2-R26-FINAL-DIAG",
+      "modalidade": "Execucao VBA real",
+      "procedimento": "C1_Diagnostico",
+      "fixture": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Entrega2_Restauracao_Controlada_20261103T0146Z/Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "origem": "Transcricao manual de AX/screenshot CUA; eventos reais no Excel, sem log automatico da macro",
+      "esperado": "AUDIT=OK;PROJECTION=VERIFIED;REV=26;MOV=26;RECEIPTS=26;ACTIVE=7;PENDING=0, antes e depois",
+      "observado": "AUDIT=OK;PROJECTION=VERIFIED;REV=26;MOV=26;RECEIPTS=26;ACTIVE=7;PENDING=0, antes e depois",
+      "resultado": "PASS",
+      "limitacao": "Nao aprova os gravadores nem encerra a Entrega2"
+    },
+    {
+      "id": "E2-R26-FINAL-QC-ENTRADA",
+      "modalidade": "Evento VBA real por controle",
+      "procedimento": "Cad_NFE.UserForm_QueryClose / CommandButtonFechar_Click",
+      "fixture": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Entrega2_Restauracao_Controlada_20261103T0146Z/Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "origem": "Transcricao manual de AX/screenshot CUA; eventos reais no Excel, sem log automatico da macro",
+      "esperado": "X mostra orientacao; botao existente oculta; Visible=False; sem1004",
+      "observado": "X mostra orientacao; botao existente oculta; Visible=False; sem1004",
+      "resultado": "PASS",
+      "limitacao": "Nao aprova os gravadores nem encerra a Entrega2"
+    },
+    {
+      "id": "E2-R26-FINAL-QC-SAIDA",
+      "modalidade": "Evento VBA real por controle",
+      "procedimento": "Cad_NFE_Saida.UserForm_QueryClose / CommandButtonFechar_Click",
+      "fixture": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Entrega2_Restauracao_Controlada_20261103T0146Z/Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "origem": "Transcricao manual de AX/screenshot CUA; eventos reais no Excel, sem log automatico da macro",
+      "esperado": "X mostra orientacao; botao existente oculta; Visible=False; sem1004",
+      "observado": "X mostra orientacao; botao existente oculta; Visible=False; sem1004",
+      "resultado": "PASS",
+      "limitacao": "Nao aprova os gravadores nem encerra a Entrega2"
+    },
+    {
+      "id": "E2-R26-FINAL-SENTINELA",
+      "modalidade": "Execucao VBA real",
+      "procedimento": "Leitura U1/ProtectContents e Application",
+      "fixture": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Entrega2_Restauracao_Controlada_20261103T0146Z/Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "origem": "Transcricao manual de AX/screenshot CUA; eventos reais no Excel, sem log automatico da macro",
+      "esperado": "U1 vazia/protegida antes/depois; EnableEvents/ScreenUpdating/DisplayAlerts=True e Calculation=-4105",
+      "observado": "U1 vazia/protegida antes/depois; EnableEvents/ScreenUpdating/DisplayAlerts=True e Calculation=-4105",
+      "resultado": "PASS",
+      "limitacao": "Nao aprova os gravadores nem encerra a Entrega2"
+    },
+    {
+      "id": "E2-R26-FINAL-INTEGRIDADE",
+      "modalidade": "SHA256 e leitura ADO persistente",
+      "procedimento": "Capturar-Estado-Sintetico.ps1",
+      "fixture": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Entrega2_Restauracao_Controlada_20261103T0146Z/Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "origem": "Saidas estruturadas dos scripts SHA256/ADO e comparacao dos JSON persistidos",
+      "esperado": "XLSM/ACCDB/registro com hashes iguais;17tabelas comparadas",
+      "observado": "XLSM/ACCDB/registro com hashes iguais;17tabelas comparadas",
+      "resultado": "PASS",
+      "limitacao": "Nao aprova os gravadores nem encerra a Entrega2"
+    }
+  ],
+  "compilacao": {
+    "estado": "Compilar VBAProject ja desabilitado no projeto carregado",
+    "novaInvocacao": "NAO EXECUTADO",
+    "motivo": "Nenhuma alteracao de codigo nesta etapa; nao forcar edicao para habilitar comando"
+  },
+  "falhasHistoricasPreservadas": true
+}

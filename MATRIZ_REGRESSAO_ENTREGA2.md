@@ -223,3 +223,10 @@ Seis verificações únicas COM/ADO em duas conexões de um processo, somente re
 |Inicialização, compilação e evento real nesta sessão|Execução VBA|NÃO EXECUTADO|Candidata não aberta na interface|
 
 Todas as tentativas anteriores e os sete defeitos históricos mantêm seus resultados.
+
+
+## Reabertura real da candidata corrigida — 04/11/2026, 22:04–22:15 UTC
+
+[Resultado e evidências](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_vba_real_20261104T185156Z/RESULTADO_REABERTURA_VBA_REAL.md). Instância exclusiva PID7644; XLSM42b34e… reaberto com CACHE_AUDITADO automático antes de carga manual. C1_Diagnostico real antes/depois: AUDIT=OK;PROJECTION=VERIFIED;REV=26;MOV=26;RECEIPTS=26;ACTIVE=7;PENDING=0. X e CommandButtonFechar dos dois UserForms executados por interface, sem1004; ambos Visible=False. U1 vazia/protegida e estados Application preservados. Seis verificações dirigidas PASS, com modalidades separadas; não são seis fluxos de estoque.
+
+IDs novos: E2-R26-FINAL-COLD, E2-R26-FINAL-DIAG, E2-R26-FINAL-QC-ENTRADA, E2-R26-FINAL-QC-SAIDA, E2-R26-FINAL-SENTINELA, E2-R26-FINAL-INTEGRIDADE. [Modalidade/esperado/observado/evidência](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_vba_real_20261104T185156Z/matriz_vba_real.json). Compilação explícita nova: NÃO EXECUTADO; menu já desabilitado. Os sete FAIL históricos e a sequência COM/ADO anterior não foram reclassificados.
