@@ -1,0 +1,1011 @@
+{
+  "modalidade": "INSPECAO_DAO_SOMENTE_LEITURA",
+  "tabelas": [
+    {
+      "tabela": "Attempts",
+      "regra": "[FenceNo]>=0 And Len([PayloadHash])=64 And Len([AttemptHash])=64 And [ExpectedVersion]>=0",
+      "indices": [
+        {
+          "nome": "FK_AO",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "OperationID"
+          ]
+        },
+        {
+          "nome": "PK_A",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "AttemptID"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "AuthorityBinding",
+      "regra": "",
+      "indices": [
+        {
+          "nome": "PK_AB",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "ID"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "CandidateSettings",
+      "regra": "",
+      "indices": [
+        {
+          "nome": "PK_CS",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "ID"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "ChangeLog",
+      "regra": "[RevisionNo]>0 And Len([AuditHash])=64",
+      "indices": [
+        {
+          "nome": "FK_LO",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "OperationID"
+          ]
+        },
+        {
+          "nome": "PK_L",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "AuditID"
+          ]
+        },
+        {
+          "nome": "U_LOG_OP",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "OperationID"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "Episodes",
+      "regra": "[VersionNo]>=0 And [StatusText] In ('NEW','ACTIVE','CLOSED') And (([StatusText]='NEW' And [CurrentPID] Is Null And [CurrentEpisodeID] Is Null) Or ([StatusText]<>'NEW' And [CurrentPID] Is Not Null And [CurrentEpisodeID]=[EpisodeID]))",
+      "indices": [
+        {
+          "nome": "FK_CURRENT_EP",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "CurrentEpisodeID",
+            "CurrentPID"
+          ]
+        },
+        {
+          "nome": "FK_EV",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "VehicleID"
+          ]
+        },
+        {
+          "nome": "PK_E",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "EpisodeID"
+          ]
+        },
+        {
+          "nome": "U_E_VID",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "EpisodeID",
+            "VehicleID"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "Meta",
+      "regra": "[ID]=1 And [SchemaNo]=7 And [RevisionNo]>=0 And [WriteState] In ('READY','RECONCILE')",
+      "indices": [
+        {
+          "nome": "PK_Meta",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "ID"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "Movements",
+      "regra": "[KindText] In ('ENTRY','SALE','TRANSFER','RETURN','ADJUST','CANCEL')",
+      "indices": [
+        {
+          "nome": "FK_M_PLAN",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "OperationID",
+            "MovementID"
+          ]
+        },
+        {
+          "nome": "FK_ME",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "EpisodeID"
+          ]
+        },
+        {
+          "nome": "FK_MO",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "OperationID"
+          ]
+        },
+        {
+          "nome": "FK_MO_EP",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "EpisodeID",
+            "OperationID"
+          ]
+        },
+        {
+          "nome": "PK_M",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "MovementID"
+          ]
+        },
+        {
+          "nome": "U_M_EP_ID",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "EpisodeID",
+            "MovementID"
+          ]
+        },
+        {
+          "nome": "U_M_OP_ID",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "OperationID",
+            "MovementID"
+          ]
+        },
+        {
+          "nome": "U_MO",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "OperationID"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "Operations",
+      "regra": "[ExpectedVersion]>=0 And [KindText] In ('ENTRY','SALE','TRANSFER','RETURN','ADJUST','CANCEL') And [StatusText] In ('PREPARED','CONFIRMED','ABORTED') And Len([CommandHash])=64 And Len([SourceHash])=64",
+      "indices": [
+        {
+          "nome": "FK_OE",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "EpisodeID"
+          ]
+        },
+        {
+          "nome": "PK_O",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "OperationID"
+          ]
+        },
+        {
+          "nome": "U_O_EP_ID",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "EpisodeID",
+            "OperationID"
+          ]
+        },
+        {
+          "nome": "U_OP_PLANMID",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "OperationID",
+            "PlannedMID"
+          ]
+        },
+        {
+          "nome": "U_OP_PLANPID",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "PlannedMID",
+            "PlannedPID"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "Pending",
+      "regra": "Len([ReasonText])>0",
+      "indices": [
+        {
+          "nome": "FK_NE",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "EpisodeID"
+          ]
+        },
+        {
+          "nome": "FK_NO",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "OperationID"
+          ]
+        },
+        {
+          "nome": "FK_PENDING_EP",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "EpisodeID",
+            "OperationID"
+          ]
+        },
+        {
+          "nome": "PK_Pending",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "EpisodeID"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "ProjectionAcks",
+      "regra": "[RevisionNo]>=0 And [StatusText] In ('INTENT','PENDING','CONFIRMED') And ([StatusText]<>'CONFIRMED' Or Len([FileHash])=64)",
+      "indices": [
+        {
+          "nome": "PK_ACK",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "BuildID"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "Projections",
+      "regra": "(Len([AccessKey])=0 Or Len([AccessKey])=44) And Len(Replace(Replace(Replace(Replace(Replace(Replace(Replace(Replace(Replace(Replace([AccessKey],'0',''),'1',''),'2',''),'3',''),'4',''),'5',''),'6',''),'7',''),'8',''),'9',''))=0 And Len([CivilDate])=10 And Val(Left([CivilDate],4))>=1900 And [CivilDate]=Format(DateSerial(Val(Left([CivilDate],4)),Val(Mid([CivilDate],6,2)),Val(Right([CivilDate],2))), 'yyyy-mm-dd') And Len([DocNumber])>0",
+      "indices": [
+        {
+          "nome": "FK_P_PLAN",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "MovementID",
+            "ProjectionID"
+          ]
+        },
+        {
+          "nome": "FK_PE",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "EpisodeID"
+          ]
+        },
+        {
+          "nome": "FK_PM",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "MovementID"
+          ]
+        },
+        {
+          "nome": "FK_PM_EP",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "EpisodeID",
+            "MovementID"
+          ]
+        },
+        {
+          "nome": "PK_P",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "ProjectionID"
+          ]
+        },
+        {
+          "nome": "U_P_EP_ID",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "EpisodeID",
+            "ProjectionID"
+          ]
+        },
+        {
+          "nome": "U_P_M_ID",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "MovementID",
+            "ProjectionID"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "Provenance",
+      "regra": "[DecisionText] In ('CONFIRMADO','AMBIGUO','SEM_EVIDENCIA') And ([DecisionText]<>'CONFIRMADO' Or [EpisodeID] Is Not Null)",
+      "indices": [
+        {
+          "nome": "FK_PROV_EP",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "EpisodeID"
+          ]
+        },
+        {
+          "nome": "PK_Prov",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "LegacyRef"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "Receipts",
+      "regra": "[RevisionNo]>0 And Len([ReceiptHash])=64 And (Len([PreviousHash])=64 Or [PreviousHash]='GENESIS')",
+      "indices": [
+        {
+          "nome": "FK_R_MOV",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "OperationID",
+            "MovementID"
+          ]
+        },
+        {
+          "nome": "FK_R_PROJ",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "MovementID",
+            "ProjectionID"
+          ]
+        },
+        {
+          "nome": "FK_R_VEHICLE",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "EpisodeID",
+            "VehicleID"
+          ]
+        },
+        {
+          "nome": "FK_RO",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "OperationID"
+          ]
+        },
+        {
+          "nome": "PK_R",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "ReceiptID"
+          ]
+        },
+        {
+          "nome": "U_R_REV",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "RevisionNo"
+          ]
+        },
+        {
+          "nome": "U_RO",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "OperationID"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "ReconciliationPlans",
+      "regra": "",
+      "indices": [
+        {
+          "nome": "FK_RP_A",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "AttemptID"
+          ]
+        },
+        {
+          "nome": "FK_RP_O",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "OperationID"
+          ]
+        },
+        {
+          "nome": "PK_RP",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "PlanID"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "ReconciliationReceipts",
+      "regra": "",
+      "indices": [
+        {
+          "nome": "FK_RR_ATT",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "AttemptID"
+          ]
+        },
+        {
+          "nome": "FK_RR_OP",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "OperationID"
+          ]
+        },
+        {
+          "nome": "FK_RR_PLAN",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "PlanID"
+          ]
+        },
+        {
+          "nome": "PK_RR",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "ResolutionID"
+          ]
+        },
+        {
+          "nome": "U_RR_ATT",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "AttemptID"
+          ]
+        },
+        {
+          "nome": "U_RR_OP",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "OperationID"
+          ]
+        },
+        {
+          "nome": "U_RR_PLAN",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "PlanID"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "SheetProjections",
+      "regra": "",
+      "indices": [
+        {
+          "nome": "FK_SV_M",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "EpisodeID",
+            "MovementID"
+          ]
+        },
+        {
+          "nome": "FK_SV_P",
+          "primario": false,
+          "unico": false,
+          "campos": [
+            "EpisodeID",
+            "ProjectionID"
+          ]
+        },
+        {
+          "nome": "PK_SV",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "ViewID"
+          ]
+        },
+        {
+          "nome": "U_SV",
+          "primario": false,
+          "unico": true,
+          "campos": [
+            "ProjectionID",
+            "SheetKey"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "Vehicles",
+      "regra": "Len([VehicleID])>0 And Len([Plate])>0",
+      "indices": [
+        {
+          "nome": "PK_V",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "VehicleID"
+          ]
+        }
+      ]
+    },
+    {
+      "tabela": "WriterLease",
+      "regra": "[ID]=1 And [FenceNo]>=0 And [StatusText] In ('FREE','ACTIVE') And ([StatusText]='FREE' Or Len([OwnerID])>0)",
+      "indices": [
+        {
+          "nome": "PK_Lease",
+          "primario": true,
+          "unico": true,
+          "campos": [
+            "ID"
+          ]
+        }
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "nome": "FK_AO",
+      "tabela": "Operations",
+      "estrangeira": "Attempts",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "OperationID",
+          "estrangeiro": "OperationID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_CURRENT_EP",
+      "tabela": "Projections",
+      "estrangeira": "Episodes",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "EpisodeID",
+          "estrangeiro": "CurrentEpisodeID"
+        },
+        {
+          "nome": "ProjectionID",
+          "estrangeiro": "CurrentPID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_EV",
+      "tabela": "Vehicles",
+      "estrangeira": "Episodes",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "VehicleID",
+          "estrangeiro": "VehicleID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_LO",
+      "tabela": "Operations",
+      "estrangeira": "ChangeLog",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "OperationID",
+          "estrangeiro": "OperationID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_M_PLAN",
+      "tabela": "Operations",
+      "estrangeira": "Movements",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "OperationID",
+          "estrangeiro": "OperationID"
+        },
+        {
+          "nome": "PlannedMID",
+          "estrangeiro": "MovementID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_ME",
+      "tabela": "Episodes",
+      "estrangeira": "Movements",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "EpisodeID",
+          "estrangeiro": "EpisodeID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_MO",
+      "tabela": "Operations",
+      "estrangeira": "Movements",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "OperationID",
+          "estrangeiro": "OperationID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_MO_EP",
+      "tabela": "Operations",
+      "estrangeira": "Movements",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "EpisodeID",
+          "estrangeiro": "EpisodeID"
+        },
+        {
+          "nome": "OperationID",
+          "estrangeiro": "OperationID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_NE",
+      "tabela": "Episodes",
+      "estrangeira": "Pending",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "EpisodeID",
+          "estrangeiro": "EpisodeID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_NO",
+      "tabela": "Operations",
+      "estrangeira": "Pending",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "OperationID",
+          "estrangeiro": "OperationID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_OE",
+      "tabela": "Episodes",
+      "estrangeira": "Operations",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "EpisodeID",
+          "estrangeiro": "EpisodeID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_P_PLAN",
+      "tabela": "Operations",
+      "estrangeira": "Projections",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "PlannedMID",
+          "estrangeiro": "MovementID"
+        },
+        {
+          "nome": "PlannedPID",
+          "estrangeiro": "ProjectionID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_PE",
+      "tabela": "Episodes",
+      "estrangeira": "Projections",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "EpisodeID",
+          "estrangeiro": "EpisodeID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_PENDING_EP",
+      "tabela": "Operations",
+      "estrangeira": "Pending",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "EpisodeID",
+          "estrangeiro": "EpisodeID"
+        },
+        {
+          "nome": "OperationID",
+          "estrangeiro": "OperationID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_PM",
+      "tabela": "Movements",
+      "estrangeira": "Projections",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "MovementID",
+          "estrangeiro": "MovementID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_PM_EP",
+      "tabela": "Movements",
+      "estrangeira": "Projections",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "EpisodeID",
+          "estrangeiro": "EpisodeID"
+        },
+        {
+          "nome": "MovementID",
+          "estrangeiro": "MovementID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_PROV_EP",
+      "tabela": "Episodes",
+      "estrangeira": "Provenance",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "EpisodeID",
+          "estrangeiro": "EpisodeID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_R_MOV",
+      "tabela": "Movements",
+      "estrangeira": "Receipts",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "OperationID",
+          "estrangeiro": "OperationID"
+        },
+        {
+          "nome": "MovementID",
+          "estrangeiro": "MovementID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_R_PROJ",
+      "tabela": "Projections",
+      "estrangeira": "Receipts",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "MovementID",
+          "estrangeiro": "MovementID"
+        },
+        {
+          "nome": "ProjectionID",
+          "estrangeiro": "ProjectionID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_R_VEHICLE",
+      "tabela": "Episodes",
+      "estrangeira": "Receipts",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "EpisodeID",
+          "estrangeiro": "EpisodeID"
+        },
+        {
+          "nome": "VehicleID",
+          "estrangeiro": "VehicleID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_RO",
+      "tabela": "Operations",
+      "estrangeira": "Receipts",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "OperationID",
+          "estrangeiro": "OperationID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_RP_A",
+      "tabela": "Attempts",
+      "estrangeira": "ReconciliationPlans",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "AttemptID",
+          "estrangeiro": "AttemptID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_RP_O",
+      "tabela": "Operations",
+      "estrangeira": "ReconciliationPlans",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "OperationID",
+          "estrangeiro": "OperationID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_RR_ATT",
+      "tabela": "Attempts",
+      "estrangeira": "ReconciliationReceipts",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "AttemptID",
+          "estrangeiro": "AttemptID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_RR_OP",
+      "tabela": "Operations",
+      "estrangeira": "ReconciliationReceipts",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "OperationID",
+          "estrangeiro": "OperationID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_RR_PLAN",
+      "tabela": "ReconciliationPlans",
+      "estrangeira": "ReconciliationReceipts",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "PlanID",
+          "estrangeiro": "PlanID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_SV_M",
+      "tabela": "Movements",
+      "estrangeira": "SheetProjections",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "EpisodeID",
+          "estrangeiro": "EpisodeID"
+        },
+        {
+          "nome": "MovementID",
+          "estrangeiro": "MovementID"
+        }
+      ]
+    },
+    {
+      "nome": "FK_SV_P",
+      "tabela": "Projections",
+      "estrangeira": "SheetProjections",
+      "atributos": 0,
+      "campos": [
+        {
+          "nome": "EpisodeID",
+          "estrangeiro": "EpisodeID"
+        },
+        {
+          "nome": "ProjectionID",
+          "estrangeiro": "ProjectionID"
+        }
+      ]
+    }
+  ]
+}

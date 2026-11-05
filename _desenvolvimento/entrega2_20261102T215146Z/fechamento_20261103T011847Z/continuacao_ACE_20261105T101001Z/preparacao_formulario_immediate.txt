@@ -1,0 +1,5 @@
+Load Cad_NFE: Cad_NFE.MultiPage1.Value = 0: C1_LimparContexto Cad_NFE
+Cad_NFE.N_Nfe.Value = "905001": Cad_NFE.Controls("ComboBox_Operação").Value = "Compra": Cad_NFE.UN.Value = "1": Cad_NFE.COD.Value = "QAACE01"
+Cad_NFE.Controls("ComboBox_VEÍCULO").Value = "FICTICIO ACE": Cad_NFE.PLACA.Value = "QAA1A01": Cad_NFE.Combo_ANO_MOD.Value = "2026": Cad_NFE.ComboBox_COR.Value = "BRANCO"
+Cad_NFE.txt_Valor.Value = "1234,5678": Cad_NFE.data.Value = "05/11/2026": Cad_NFE.ComboBox_OutroEnvio.Value = "TESTE": C1_Context(Cad_NFE)("ENTRYKEY") = "01234567890123456789012345678901234567890123"
+Cad_NFE.Show

@@ -1,0 +1,180 @@
+{
+  "UTC": "2026-11-05T10:12:27.3534391Z",
+  "Modalidade": "LEITURA_ADO_BANCO_PERSISTIDO",
+  "Banco": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local/Temp/Entrega2_Restauracao_Controlada_ACE_20261105T101001Z_A2/Banco_Candidato_Entrega2_Final.accdb",
+  "Tabelas": {
+    "Meta": {
+      "Quantidade": 1,
+      "Registros": [
+        {
+          "ID": {
+            "Tipo": "Int32",
+            "Valor": "1"
+          },
+          "BaseID": {
+            "Tipo": "String",
+            "Valor": "8C04F762-BA01-4B87-A968-4A41315133C4"
+          },
+          "SchemaNo": {
+            "Tipo": "Int32",
+            "Valor": "7"
+          },
+          "RevisionNo": {
+            "Tipo": "Int32",
+            "Valor": "0"
+          },
+          "WriteState": {
+            "Tipo": "String",
+            "Valor": "READY"
+          },
+          "IntegrityReason": {
+            "Tipo": "String",
+            "Valor": "NONE"
+          },
+          "LineageID": {
+            "Tipo": "String",
+            "Valor": "5DA22109-CFE3-4171-8C49-8DD108468DB1"
+          },
+          "SchemaHash": {
+            "Tipo": "String",
+            "Valor": "14ce98a6f1702b45f38a084efd109c69437b9b7a80015cd7172412f62b1c129a"
+          }
+        }
+      ]
+    },
+    "WriterLease": {
+      "Quantidade": 1,
+      "Registros": [
+        {
+          "ID": {
+            "Tipo": "Int32",
+            "Valor": "1"
+          },
+          "OwnerID": {
+            "Tipo": "String",
+            "Valor": ""
+          },
+          "FenceNo": {
+            "Tipo": "Int32",
+            "Valor": "0"
+          },
+          "StatusText": {
+            "Tipo": "String",
+            "Valor": "FREE"
+          }
+        }
+      ]
+    },
+    "CandidateSettings": {
+      "Quantidade": 1,
+      "Registros": [
+        {
+          "ID": {
+            "Tipo": "Int32",
+            "Valor": "1"
+          },
+          "BaseID": {
+            "Tipo": "String",
+            "Valor": "8C04F762-BA01-4B87-A968-4A41315133C4"
+          },
+          "AuthorityPath": {
+            "Tipo": "String",
+            "Valor": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\Entrega2_Restauracao_Controlada_ACE_20261105T101001Z_A2\\Banco_Candidato_Entrega2_Final.accdb"
+          },
+          "WorkbookID": {
+            "Tipo": "String",
+            "Valor": "CC6DDAC8-39D0-45D6-8BE6-2DB810CCA8FF"
+          },
+          "ContractVersion": {
+            "Tipo": "Int32",
+            "Valor": "3"
+          },
+          "ProjectionState": {
+            "Tipo": "String",
+            "Valor": "PENDING"
+          }
+        }
+      ]
+    },
+    "AuthorityBinding": {
+      "Quantidade": 1,
+      "Registros": [
+        {
+          "ID": {
+            "Tipo": "Int32",
+            "Valor": "1"
+          },
+          "AuthorityID": {
+            "Tipo": "String",
+            "Valor": "AD971B45-2343-437C-A776-886EFA51CA6C"
+          },
+          "RegistryPath": {
+            "Tipo": "String",
+            "Valor": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\Entrega2_Restauracao_Controlada_ACE_20261105T101001Z_A2\\Controle_Laboratorio_ACE.accdb"
+          },
+          "Generation": {
+            "Tipo": "Int32",
+            "Valor": "1"
+          },
+          "WorkbookPath": {
+            "Tipo": "String",
+            "Valor": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\Entrega2_Restauracao_Controlada_ACE_20261105T101001Z_A2\\Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm"
+          }
+        }
+      ]
+    },
+    "Operations": {
+      "Quantidade": 0,
+      "Registros": []
+    },
+    "Episodes": {
+      "Quantidade": 0,
+      "Registros": []
+    },
+    "Vehicles": {
+      "Quantidade": 0,
+      "Registros": []
+    },
+    "Movements": {
+      "Quantidade": 0,
+      "Registros": []
+    },
+    "Projections": {
+      "Quantidade": 0,
+      "Registros": []
+    },
+    "SheetProjections": {
+      "Quantidade": 0,
+      "Registros": []
+    },
+    "Receipts": {
+      "Quantidade": 0,
+      "Registros": []
+    },
+    "ChangeLog": {
+      "Quantidade": 0,
+      "Registros": []
+    },
+    "Attempts": {
+      "Quantidade": 0,
+      "Registros": []
+    },
+    "Pending": {
+      "Quantidade": 0,
+      "Registros": []
+    },
+    "ReconciliationPlans": {
+      "Quantidade": 0,
+      "Registros": []
+    },
+    "ReconciliationReceipts": {
+      "Quantidade": 0,
+      "Registros": []
+    },
+    "ProjectionAcks": {
+      "Quantidade": 0,
+      "Registros": []
+    }
+  },
+  "SHA256": "778490019b4c05a7b76194bfcd9d66a36aabe8428ce3295b00e2a6d285e45339"
+}

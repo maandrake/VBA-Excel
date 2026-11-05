@@ -1,0 +1,50 @@
+[
+  {
+    "arquivo": "ENTREGA_2_OPERACOES_CORRIGIDAS.md",
+    "antes": "4b06cc48396f2b87d14c9c1ca21332592af30afe9973c95eeee926d40ba86a47",
+    "depois": "7e481b09cee0024d84eec2185e9768000e11d14c3b8786151d7c1819658c3769",
+    "prefixoPreservado": true
+  },
+  {
+    "arquivo": "MATRIZ_REGRESSAO_ENTREGA2.md",
+    "antes": "2e1edab64d478181c76c7eff67ce16e640fbc596fb453568101970e9d5b927be",
+    "depois": "d95533a6b77070fe5124ff74a033149f25e064733b25ffce8eeb9466a96b4b93",
+    "prefixoPreservado": true
+  },
+  {
+    "arquivo": "REGISTRO_DEFEITOS_ABERTOS.md",
+    "antes": "774228478366a083e766fe1db6e51de7cfd9bf60fa5659ed47ee1449c72be764",
+    "depois": "0b902be9c0cc4a9205d9e98abbfbf2e7c2526ea1d45e05fbcdf17191fbad8b6b",
+    "prefixoPreservado": true
+  },
+  {
+    "arquivo": "HISTORICO_ALTERACOES.md",
+    "antes": "1c9acd8319e2450b92d7b7c1f4a8cc3366efe244a26ba16fa3b79d1915bd3006",
+    "depois": "b225ae3e1dd6b5ba08efbfac268006ec2a04d17574c237c8ff46703280e23bb2",
+    "prefixoPreservado": true
+  },
+  {
+    "arquivo": "TESTES_VBA.md",
+    "antes": "14a6251aa2f0aefdaf58491d8179bd5783eaa35529049fdc279232ae0d90a76a",
+    "depois": "54659cbedffe31457fdc1182847c6479f444109703ca6bbfbbc684afe93853c8",
+    "prefixoPreservado": true
+  },
+  {
+    "arquivo": "MANUAL_INSTALACAO_RESTAURACAO.md",
+    "antes": "59cd223f379205c2d05bdde8c45474bb5f2bf4d6fb9fe672182e47fcdcc2983e",
+    "depois": "f1f7100308006046100f6c8ff6e1ec5a3c1ec0b5864f2d7f91621a4ff7abc233",
+    "prefixoPreservado": true
+  },
+  {
+    "arquivo": "RELATORIO_AUDITORIA.md",
+    "antes": "c0de5ba09e1829f35f52c40d9d32140a37e7da3358e6e813e81f4f8da9390769",
+    "depois": "41059768952f5a8eaf02b311fd4e3f19ed61a0668f6d3fc464e0625c51440df4",
+    "prefixoPreservado": true
+  },
+  {
+    "arquivo": "MAPA_PROJETO.md",
+    "antes": "5d684b73ad3e23065dce1e9b3ae898b9ddc17d6c945cbcc855f8da092b6cc14f",
+    "depois": "df7b4e8eeaa2a1c72bae9bf8e6804db73f661a7e2b6d4ce1ae5c8e8b10da03d8",
+    "prefixoPreservado": true
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "data": "2026-11-05T10:15:28.413Z",
+  "arquivos": [
+    {
+      "arquivo": "atualizacao_documental.json",
+      "sha256": "801cb1eb49f2b558372e3d50052d578bdace884b2ece8a6fefe996c33bbef511"
+    },
+    {
+      "arquivo": "banco_antes_vba.json",
+      "sha256": "859b2e6e2702d1a15dccc5b74bc8633cb735ef42fa7597bbb0312a8be52696b8"
+    },
+    {
+      "arquivo": "comparacao_esquema.json",
+      "sha256": "25a5046eb2df9ddc96d7d54fc1be78d6c06b195247761c1929d6c4a3e0c85977"
+    },
+    {
+      "arquivo": "comparacao_xlsm_salvo.json",
+      "sha256": "36aa1f41d6e009515033c953853e3579175427c12cbd4ab8275a5a45bad586c9"
+    },
+    {
+      "arquivo": "esquema_laboratorio.json",
+      "sha256": "7c86a6b58222293736e7dfba0b5626be12f4e1abaabf2ef0359693894e4b298a"
+    },
+    {
+      "arquivo": "integridade_final_referencias.json",
+      "sha256": "014ea87458abc75b4673d4b1fe2353f24d068879552c83cc228bb2ac9c5b5560"
+    },
+    {
+      "arquivo": "laboratorio.json",
+      "sha256": "8ee9cce3dc2a6149ecff206dd2f91aead011f76b3e71145ceb64f3283b3f9537"
+    },
+    {
+      "arquivo": "preparacao_A1_rollback.json",
+      "sha256": "b7508c00c8e4984ee2ccd39136226879f65b81dbd2f43cc0ab39243c8b910ff5"
+    },
+    {
+      "arquivo": "preparacao_formulario_immediate.txt",
+      "sha256": "4d0925db344e33bd29dceec578762a23afcf8c92e0b67b1ed93f0774f0f3fe7f"
+    },
+    {
+      "arquivo": "Preparar-LaboratorioACE.ps1",
+      "sha256": "545615ef1b59fce4e087ee9f518898e34dd09adaf867c6dc679c0509f8c824d5"
+    },
+    {
+      "arquivo": "RESULTADO_PREPARACAO_ACE.md",
+      "sha256": "82d13c226c028c73581e99b13a35d4415763bb25ef9572bb74a65f17aaf6cf54"
+    },
+    {
+      "arquivo": "verificacao_retomada.json",
+      "sha256": "f9a2732176f14a8d080ed6d75fc78c7d602e9e9c42a18e3cee608207cdb4d75f"
+    }
+  ]
+}

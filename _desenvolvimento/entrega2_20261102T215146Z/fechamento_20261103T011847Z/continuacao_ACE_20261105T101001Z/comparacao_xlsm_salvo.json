@@ -1,0 +1,71 @@
+{
+  "moduleCount": 72,
+  "moduleDiff": [],
+  "streamDiff": [
+    "/VBA/Cad_NCM",
+    "/VBA/Cad_NFE",
+    "/VBA/Cad_NFE_Saida",
+    "/VBA/UserFormFiltro",
+    "/VBA/frmRelatorioXML",
+    "/Cad_NCM/f",
+    "/Cad_NCM/o",
+    "/Cad_NCM/i18/f",
+    "/Cad_NCM/i18/o",
+    "/Cad_NCM/i254/f",
+    "/Cad_NCM/i254/o",
+    "/PROJECT",
+    "/UserFormFiltro/f",
+    "/UserFormFiltro/i02/f",
+    "/UserFormFiltro/i02/o",
+    "/frmRelatorioXML/f",
+    "/frmRelatorioXML/o"
+  ],
+  "sheets": [
+    {
+      "name": "xl/worksheets/sheet2.xml",
+      "sameExceptProtectionSaltAndHash": true
+    },
+    {
+      "name": "xl/worksheets/sheet4.xml",
+      "sameExceptProtectionSaltAndHash": true
+    },
+    {
+      "name": "xl/worksheets/sheet6.xml",
+      "sameExceptProtectionSaltAndHash": true
+    },
+    {
+      "name": "xl/worksheets/sheet7.xml",
+      "sameExceptProtectionSaltAndHash": true
+    },
+    {
+      "name": "xl/worksheets/sheet8.xml",
+      "sameExceptProtectionSaltAndHash": true
+    },
+    {
+      "name": "xl/worksheets/sheet9.xml",
+      "sameExceptProtectionSaltAndHash": true
+    },
+    {
+      "name": "xl/worksheets/sheet10.xml",
+      "sameExceptProtectionSaltAndHash": true
+    },
+    {
+      "name": "xl/worksheets/sheet11.xml",
+      "sameExceptProtectionSaltAndHash": true
+    }
+  ],
+  "zipDiff": [
+    "xl/workbook.xml",
+    "xl/worksheets/sheet2.xml",
+    "xl/worksheets/sheet4.xml",
+    "xl/worksheets/sheet6.xml",
+    "xl/worksheets/sheet7.xml",
+    "xl/worksheets/sheet8.xml",
+    "xl/worksheets/sheet9.xml",
+    "xl/worksheets/sheet10.xml",
+    "xl/worksheets/sheet11.xml",
+    "xl/vbaProject.bin",
+    "docProps/core.xml"
+  ],
+  "notes": "Comparacao somente leitura. Hash/salt removidos apenas da comparacao em memoria; nenhum arquivo XLSM foi alterado. Nao identifica quem salvou o arquivo."
+}

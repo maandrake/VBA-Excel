@@ -1219,3 +1219,10 @@ Novo auxiliar de teste: [Testar-DiagnosticoACE.ps1](./_desenvolvimento/entrega2_
 [Resultado e evidências](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_vba_real_20261104T185156Z/RESULTADO_REABERTURA_VBA_REAL.md). Instância exclusiva PID7644; XLSM42b34e… reaberto com CACHE_AUDITADO automático antes de carga manual. C1_Diagnostico real antes/depois: AUDIT=OK;PROJECTION=VERIFIED;REV=26;MOV=26;RECEIPTS=26;ACTIVE=7;PENDING=0. X e CommandButtonFechar dos dois UserForms executados por interface, sem1004; ambos Visible=False. U1 vazia/protegida e estados Application preservados. Seis verificações dirigidas PASS, com modalidades separadas; não são seis fluxos de estoque.
 
 Nenhuma dependência, controle, assinatura, fonte ou esquema foi alterado nesta etapa. [Matriz](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_vba_real_20261104T185156Z/matriz_vba_real.json) e [comparação persistente](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_vba_real_20261104T185156Z/comparacao_banco.json). Próxima atividade: diagnóstico dirigido de E2-FECH-06 no evento real.
+
+
+## Continuação controlada — 05/11/2026: preparação do teste ACE
+
+Cadeia relevante preservada: evento real de gravação de Cad_NFE → C1_GravarEntrada → Acquire10 → C3_AdquirirPortao → Exec10/ADO. Nenhum componente VBA, evento ou controle foi alterado. Acrescentado apenas preparador de laboratório sintético, que verifica o checkpoint, inicializa identidades novas e recusa destino existente.
+
+Evidências, hashes, checkpoint, primeira tentativa revertida e roteiro de captura: [resultado da preparação ACE](_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_ACE_20261105T101001Z/RESULTADO_PREPARACAO_ACE.md). Registros anteriores preservados integralmente.

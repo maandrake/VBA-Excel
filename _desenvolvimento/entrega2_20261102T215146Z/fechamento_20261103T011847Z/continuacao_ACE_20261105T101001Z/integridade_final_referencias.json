@@ -1,0 +1,17 @@
+[
+  {
+    "arquivo": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Entrega2_Restauracao_Controlada_20261103T0146Z/Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+    "sha256": "CB610AA3E19363D4B66E32A219F33F541B5907C341F122096B644D019F96C9C4",
+    "igualAntes": true
+  },
+  {
+    "arquivo": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Entrega2_Restauracao_Controlada_20261103T0146Z/Banco_Candidato_Entrega2_Final.accdb",
+    "sha256": "9FC0BFE8001120D2804B8F56836949249606E2030A6AF431A71B1757C80267DC",
+    "igualAntes": true
+  },
+  {
+    "arquivo": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Controle_E2_143C55EC132B48398413268B265117AF.accdb",
+    "sha256": "B9E0C8ACEB4474BB6B74BA727C7064982CFA9371E060B901BDF4B2DE61632E2F",
+    "igualAntes": true
+  }
+]

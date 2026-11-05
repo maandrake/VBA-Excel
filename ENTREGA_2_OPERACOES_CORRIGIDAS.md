@@ -128,3 +128,12 @@ Não há novo XLSM final nem alteração de arquitetura nesta etapa. A candidata
 [Resultado e evidências](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_vba_real_20261104T185156Z/RESULTADO_REABERTURA_VBA_REAL.md). Instância exclusiva PID7644; XLSM42b34e… reaberto com CACHE_AUDITADO automático antes de carga manual. C1_Diagnostico real antes/depois: AUDIT=OK;PROJECTION=VERIFIED;REV=26;MOV=26;RECEIPTS=26;ACTIVE=7;PENDING=0. X e CommandButtonFechar dos dois UserForms executados por interface, sem1004; ambos Visible=False. U1 vazia/protegida e estados Application preservados. Seis verificações dirigidas PASS, com modalidades separadas; não são seis fluxos de estoque.
 
 O bloqueio de comprovação da reabertura da correção QueryClose foi superado nesta sessão. Não houve novo XLSM ou correção de gravador. VBA, XLSM/ACCDB/registro e17tabelas persistidas permaneceram inalterados. Saved=False é alteração em memória; sem Save, hash em disco igual. Compilar VBAProject já desabilitado no projeto carregado; nova invocação explícita de compilação NÃO EXECUTADA. Nenhuma configuração de segurança alterada. Candidata permanece aberta no laboratório. E2-FECH-06 e demais pendências continuam abertos; Entrega2 ainda não encerrada/NÃO HOMOLOGADA. Sem commit/push/promoção.
+
+
+## Continuação controlada — 05/11/2026: preparação do teste ACE
+
+Preservado o XLSM encontrado com hash cb610aa3e19363d4b66e32a219f33f541b5907c341f122096b644d019f96c9c4; não restaurada versão anterior. Comparação: 72 corpos VBA sem diferenças; células das oito abas divergentes preservadas, com alterações de hash/salt de proteção. Há diferenças de streams binários de formulários/caches, sem nova validação funcional. ACCDB R26 e registro mantêm os hashes anteriores. Criada fixture independente com novas identidades e fatos vazios; comparação DAO confirmou regras/índices e 28 relações nas 18 tabelas. Esses PASS de preparação não equivalem à compilação ou ao evento real.
+
+Gravador real: BLOQUEADO pelo aviso “As macros foram desabilitadas” na nova cópia. Nova compilação: NÃO EXECUTADO. Nenhuma regra fiscal, código VBA ou arquivo operacional foi alterado. Entrega 2 permanece aberta e NÃO HOMOLOGADA.
+
+Evidências, hashes, checkpoint, primeira tentativa revertida e roteiro de captura: [resultado da preparação ACE](_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_ACE_20261105T101001Z/RESULTADO_PREPARACAO_ACE.md). Registros anteriores preservados integralmente.

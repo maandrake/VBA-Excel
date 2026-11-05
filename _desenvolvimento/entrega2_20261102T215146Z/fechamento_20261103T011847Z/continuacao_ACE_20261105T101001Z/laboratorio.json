@@ -1,0 +1,42 @@
+{
+  "modalidade": "PREPARACAO_SINTETICA_ADO_NAO_TESTE_VBA",
+  "dataUTC": "2026-11-05T10:11:01.4159214Z",
+  "BaseID": "8C04F762-BA01-4B87-A968-4A41315133C4",
+  "LineageID": "5DA22109-CFE3-4171-8C49-8DD108468DB1",
+  "AuthorityID": "AD971B45-2343-437C-A776-886EFA51CA6C",
+  "WorkbookID": "CC6DDAC8-39D0-45D6-8BE6-2DB810CCA8FF",
+  "SchemaHash": "14ce98a6f1702b45f38a084efd109c69437b9b7a80015cd7172412f62b1c129a",
+  "SchemaNo": 7,
+  "Revision": 0,
+  "TabelasVazias": [
+    "ReconciliationReceipts",
+    "ReconciliationPlans",
+    "Pending",
+    "SheetProjections",
+    "Receipts",
+    "ChangeLog",
+    "Attempts",
+    "Projections",
+    "Movements",
+    "Operations",
+    "Provenance",
+    "Episodes",
+    "Vehicles",
+    "ProjectionAcks"
+  ],
+  "arquivos": [
+    {
+      "arquivo": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\Entrega2_Restauracao_Controlada_ACE_20261105T101001Z_A2\\Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "sha256": "CB610AA3E19363D4B66E32A219F33F541B5907C341F122096B644D019F96C9C4"
+    },
+    {
+      "arquivo": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\Entrega2_Restauracao_Controlada_ACE_20261105T101001Z_A2\\Banco_Candidato_Entrega2_Final.accdb",
+      "sha256": "778490019B4C05A7B76194BFCD9D66A36AABE8428CE3295B00E2A6D285E45339"
+    },
+    {
+      "arquivo": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\Temp\\Entrega2_Restauracao_Controlada_ACE_20261105T101001Z_A2\\Controle_Laboratorio_ACE.accdb",
+      "sha256": "0DDC924B6AC88E6030BAEB8C728DEBF0B7A6A0106F72125DC949C463B41EE837"
+    }
+  ],
+  "referenciaPreservada": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local/CodexBackupsPrivados/VBA-Excel/checkpoint_ACE_20261105T101001Z"
+}

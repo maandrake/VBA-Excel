@@ -167,3 +167,10 @@ Novo XLSM preservado: SHA256 efd1916395159da3d30ecc99838ff6e0e44dd9e0ca2b13b2957
 FORMULA_VALUE apos edicao/formularios preservado como FAIL de tentativa; recalc completo recuperou VERIFIED, sem alterar fatos. Causa fina ainda nao isolada. Arquivo salvo e instancia exclusiva encerrada normalmente. A nova abertura do XLSM corrigido concluiu, mas Office voltou a desabilitar macros: inicializacao/fluxo final BLOQUEADOS ate habilitacao manual. Entrega2 continua em fechamento, NAO HOMOLOGADA; nenhuma liberacao de Entrega3.
 
 Na candidata Final corrigida ja aberta no TEMP, proprietario: clicar Habilitar Conteudo somente para esse arquivo sintetico reconhecido, sem alterar politicas. Depois informar a habilitacao. Retomada: ler C1_UltimoResultado antes de carregar cache; executar C1_Diagnostico; conferir REV26/MOV26/RECEIPTS26/ACTIVE7/PENDING0 e pesquisa. Nao repetir cadastramentos na massa final. O X dos formularios continua orientando o uso do botao Fechar, por comportamento preservado. Copias no pacote privado sao preservacao, nao autoridades.
+
+
+## Continuação controlada — 05/11/2026: preparação do teste ACE
+
+Laboratório exclusivo criado em `C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/Entrega2_Restauracao_Controlada_ACE_20261105T101001Z_A2`, com BaseID e linhagem novos, sem fatos operacionais, esquema 7 preservado e registro de autoridade próprio. Não representa realocação da autoridade R26 nem autorização de instalação operacional. A projeção inicial está PENDING e requer reconstrução explícita antes da escrita. Para retomar o teste real, o usuário deve habilitar o conteúdo somente nesse XLSM sintético já aberto. Não alterar segurança do Office nem abrir a tentativa A1.
+
+Evidências, hashes, checkpoint, primeira tentativa revertida e roteiro de captura: [resultado da preparação ACE](_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_ACE_20261105T101001Z/RESULTADO_PREPARACAO_ACE.md). Registros anteriores preservados integralmente.

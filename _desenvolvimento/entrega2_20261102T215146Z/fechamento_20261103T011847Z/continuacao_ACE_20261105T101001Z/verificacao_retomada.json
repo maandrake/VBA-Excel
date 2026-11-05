@@ -1,0 +1,89 @@
+{
+  "data": "2026-11-05T10:10:01.932Z",
+  "git": "main 5911e89 clean",
+  "moduleCount": 72,
+  "moduleDiff": [],
+  "zipDiff": [
+    "xl/workbook.xml",
+    "xl/worksheets/sheet2.xml",
+    "xl/worksheets/sheet4.xml",
+    "xl/worksheets/sheet6.xml",
+    "xl/worksheets/sheet7.xml",
+    "xl/worksheets/sheet8.xml",
+    "xl/worksheets/sheet9.xml",
+    "xl/worksheets/sheet10.xml",
+    "xl/worksheets/sheet11.xml",
+    "xl/vbaProject.bin",
+    "docProps/core.xml"
+  ],
+  "xmlOther": [
+    {
+      "name": "xl/workbook.xml",
+      "before": "ernateContent><xr:revisionPtr revIDLastSave=\"0\" documentId=\"13_ncr:1_{F6238DDD-A1F5-477C-9C09-80F1D0FAC584}\" xr6:coauthVersionLast=\"47\" xr6:coauthVersionMax=\"47\" xr10:uidLastSave=\"{00000000-0000-0000-0000-000000000000}\"/><bookViews><workbookView xWindow=\"20\" yWindow=\"20\" windowWidth=\"38380\" windowHeight=\"20860\" firstSheet=\"1\" activeTab=\"7\" xr2:uid=\"{1AE33A10-ABC6-4D05-A8DB-5C1973FAA50A}\"/></bookViews><sheets><sheet n",
+      "after": "ernateContent><xr:revisionPtr revIDLastSave=\"0\" documentId=\"13_ncr:1_{B41E4FD6-8363-427A-948C-08201D89CBFB}\" xr6:coauthVersionLast=\"47\" xr6:coauthVersionMax=\"47\" xr10:uidLastSave=\"{00000000-0000-0000-0000-000000000000}\"/><bookViews><workbookView xWindow=\"20\" yWindow=\"20\" windowWidth=\"38380\" windowHeight=\"20860\" firstSheet=\"1\" activeTab=\"7\" xr2:uid=\"{1AE33A10-ABC6-4D05-A8DB-5C1973FAA50A}\"/></bookViews><sheets><sheet n"
+    },
+    {
+      "name": "xl/worksheets/sheet2.xml",
+      "before": "/row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"gV47WG2tVeqwZKM6gKH2sH4PHFytxvvaRJxuIfWK6dX7BGGKZ7QvE9whGmGpzFDf478b2EXJUoq9BKwpzQiDSg==\" saltValue=\"AUxxhC6sV1ThHFpscTizkw==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><i",
+      "after": "/row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"gbogsUGFbMs5vFqs5S/KpYUe44+7Z6BS5C5Diu/q+HYLTjtgq9FD21kZXKPRuVLCPoOJDe6Z/01b6j1Zzr3xMw==\" saltValue=\"rex1466VgMsPFTrjwTVVzA==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><i"
+    },
+    {
+      "name": "xl/worksheets/sheet4.xml",
+      "before": "</row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"QaDjG8aEbV62SdQvfcCYGqxDi/Ud0rUGPMS3hQML385Y9DbcrNFVAwMLHjzEs+kfpc2BuuLzyTubcBJpyQefpw==\" saltValue=\"sZ8+Oulv6KyIXrsYOihZyQ==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><",
+      "after": "</row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"fKvacwFBKeKvfAaTtA3DPWjeVMbMssaFQlG0lnmrjvWH0a8FceNvImmmJXQk8ZfGzbt9YIBYw5CaPKAADQ0AEA==\" saltValue=\"3mSw9dqWix+anj/NhM+vSg==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><"
+    },
+    {
+      "name": "xl/worksheets/sheet6.xml",
+      "before": "</row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"4DcM95bP0DIXLnepHDR1pe/3igErGVzbl405AcYSq9cLnFH0kk7uU5A6NdHVec2kNFopEL6kk0Ts3kRdU5uaaA==\" saltValue=\"qfhoVUeOB/+915pGX2dO4g==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><",
+      "after": "</row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"qYXarIr60nPWTcKXO7mTP5fvEM3O8JoGESQt7+xwH5Dg7/QBGMOT74MMScmmsskxXsgmT6kDrWMND7NaXCBstQ==\" saltValue=\"MgUeXFFtWOp4xA6hnL1iIQ==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><"
+    },
+    {
+      "name": "xl/worksheets/sheet7.xml",
+      "before": "</row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"xT3m0vk/+xi3sMrb9Ly/1ZH9TQCS9hilgTUOIyoExf6k0rJmpiP/jP8pmfRKcjrlYmQZiwVGpG5KDF+hBsNyPw==\" saltValue=\"F1ZA1W3cZtTSB2ArkJGtJg==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><",
+      "after": "</row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"V7oZKCEBxRwxNEPtEmLlZ9onKSMym/0kW0WhDe45dJzpZUVEYhEmAd1rX1XBN9KesLUJtHzFif8qtbOdw71Kug==\" saltValue=\"1ewoc3Dz/NLVsX+tObYi+Q==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><"
+    },
+    {
+      "name": "xl/worksheets/sheet8.xml",
+      "before": "</row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"ZSHkYBS0jcFOhQiWjuBIEckSBHVfcM3Jj20UL/iWnzYVHesc8W/w87IJcDOJDnS6MZqycMcEMzCGvRm7k60q9w==\" saltValue=\"gECDHL/WWy6O/ALknL2rag==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><",
+      "after": "</row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"Qmn5g6MlESwZIq5orI74KRbA7PLgOitqc1PmiMZVOQo0181BCF/ZFNp6S1c6wiuymTZ2lWFUas+g1sAKkhUscg==\" saltValue=\"+F/t0nXRk3FGe3k3cSclUw==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><"
+    },
+    {
+      "name": "xl/worksheets/sheet9.xml",
+      "before": "</row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"+AbGr47/HamHpSkHhBf29ac0Jv319aw7/kigBNqWklAxWi72Z+iRUrcKxwDFf/AQLfhQhKplMMaBchH3EnUu4Q==\" saltValue=\"ZKiVk8MuH0kPG47ZknayMA==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><",
+      "after": "</row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"Bklpsp3UlTWS2vI+LKyw2kvYM4NIperPaDp98EwekTrwkFPG96vZHJYqRZ5kC7iT1DoNoHGtVWJgCkpif1DzJg==\" saltValue=\"okKAZTUNqxoS9hx2vMZIbg==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><"
+    },
+    {
+      "name": "xl/worksheets/sheet10.xml",
+      "before": "</row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"Z1wpooK5xQ4Zk/V5g9LUCZy2AvFEc6/ejQil6XAuRDTvYkP85ixMq2JrgghllFE1Bs3u6ncoj+cF5ml/iADI3Q==\" saltValue=\"wTP5Z3vrjOj0kWAsQtQWpw==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><",
+      "after": "</row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"CAZiJdrlpRnXmTOz4WY2sD0Ak8Qb8lnmUW1s5RNHORkL5qf6m02yszHRwVK5Ddk3Fglzk4EtadAn2Iy0+SBJ6w==\" saltValue=\"xtDL+b2w6SbWD4KOz5aPDA==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><"
+    },
+    {
+      "name": "xl/worksheets/sheet11.xml",
+      "before": "</row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"DCiifVnCFOXsgSCCovdfatWdBXVVQTMYzh/SMrUaUSFYWE/DnKQbk02RTuuWfycyGSsLOVwN3b9CBfl7DjlpwQ==\" saltValue=\"U3eFMalI027eB4DeUiO5qw==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><",
+      "after": "</row></sheetData><sheetProtection algorithmName=\"SHA-512\" hashValue=\"wUDzsSVS/UCQZybBy6lmKrkPxO4EK4C8PItn/d8l2A9b+HOCgKoLsmbY1aHYhqTi7M+c7I/wbrDclPtO/+rDCw==\" saltValue=\"sqVx4AAJjINEWbYILRaXaA==\" spinCount=\"100000\" sheet=\"1\" objects=\"1\" scenarios=\"1\"/><pageMargins left=\"0.511811024\" right=\"0.511811024\" top=\"0.78740157499999996\" bottom=\"0.78740157499999996\" header=\"0.31496062000000002\" footer=\"0.31496062000000002\"/><"
+    },
+    {
+      "name": "docProps/core.xml",
+      "before": "cterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-11-04T12:36:22Z</dcterms:modified></cp:coreProperties>",
+      "after": "cterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-11-04T22:21:59Z</dcterms:modified></cp:coreProperties>"
+    }
+  ],
+  "cellsUnchanged": true,
+  "manifest": [
+    {
+      "arquivo": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Entrega2_Restauracao_Controlada_20261103T0146Z/Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "copia": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\CodexBackupsPrivados\\VBA-Excel\\checkpoint_ACE_20261105T101001Z\\Estoque_Fera_Veiculos_Candidato_Entrega2_Final.xlsm",
+      "sha256": "cb610aa3e19363d4b66e32a219f33f541b5907c341f122096b644d019f96c9c4"
+    },
+    {
+      "arquivo": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Entrega2_Restauracao_Controlada_20261103T0146Z/Banco_Candidato_Entrega2_Final.accdb",
+      "copia": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\CodexBackupsPrivados\\VBA-Excel\\checkpoint_ACE_20261105T101001Z\\Banco_Candidato_Entrega2_Final.accdb",
+      "sha256": "9fc0bfe8001120d2804b8f56836949249606e2030a6af431a71b1757c80267dc"
+    },
+    {
+      "arquivo": "C:/Users/MARCOSALEXANDREPERDO/AppData/Local/Temp/vscode-agent-codex-sandbox-JTJOQt/Controle_E2_143C55EC132B48398413268B265117AF.accdb",
+      "copia": "C:\\Users\\MARCOSALEXANDREPERDO\\AppData\\Local\\CodexBackupsPrivados\\VBA-Excel\\checkpoint_ACE_20261105T101001Z\\Controle_E2_143C55EC132B48398413268B265117AF.accdb",
+      "sha256": "b9e0c8aceb4474bb6b74ba727c7064982cfa9371e060b901bdf4b2de61632e2f"
+    }
+  ]
+}

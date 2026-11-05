@@ -1,0 +1,8 @@
+{
+  "modalidade": "COMPARACAO_DAO_NAO_VBA",
+  "status": "PASS",
+  "tabelas": 18,
+  "relacoes": 28,
+  "regrasEIndicesIguais": true,
+  "relacoesIguais": true
+}

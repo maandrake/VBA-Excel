@@ -230,3 +230,12 @@ Todas as tentativas anteriores e os sete defeitos históricos mantêm seus resul
 [Resultado e evidências](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_vba_real_20261104T185156Z/RESULTADO_REABERTURA_VBA_REAL.md). Instância exclusiva PID7644; XLSM42b34e… reaberto com CACHE_AUDITADO automático antes de carga manual. C1_Diagnostico real antes/depois: AUDIT=OK;PROJECTION=VERIFIED;REV=26;MOV=26;RECEIPTS=26;ACTIVE=7;PENDING=0. X e CommandButtonFechar dos dois UserForms executados por interface, sem1004; ambos Visible=False. U1 vazia/protegida e estados Application preservados. Seis verificações dirigidas PASS, com modalidades separadas; não são seis fluxos de estoque.
 
 IDs novos: E2-R26-FINAL-COLD, E2-R26-FINAL-DIAG, E2-R26-FINAL-QC-ENTRADA, E2-R26-FINAL-QC-SAIDA, E2-R26-FINAL-SENTINELA, E2-R26-FINAL-INTEGRIDADE. [Modalidade/esperado/observado/evidência](./_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_vba_real_20261104T185156Z/matriz_vba_real.json). Compilação explícita nova: NÃO EXECUTADO; menu já desabilitado. Os sete FAIL históricos e a sequência COM/ADO anterior não foram reclassificados.
+
+
+## Continuação controlada — 05/11/2026: preparação do teste ACE
+
+Preservado o XLSM encontrado com hash cb610aa3e19363d4b66e32a219f33f541b5907c341f122096b644d019f96c9c4; não restaurada versão anterior. Comparação: 72 corpos VBA sem diferenças; células das oito abas divergentes preservadas, com alterações de hash/salt de proteção. Há diferenças de streams binários de formulários/caches, sem nova validação funcional. ACCDB R26 e registro mantêm os hashes anteriores. Criada fixture independente com novas identidades e fatos vazios; comparação DAO confirmou regras/índices e 28 relações nas 18 tabelas. Esses PASS de preparação não equivalem à compilação ou ao evento real.
+
+Gravador real: BLOQUEADO pelo aviso “As macros foram desabilitadas” na nova cópia. Nova compilação: NÃO EXECUTADO. Nenhuma regra fiscal, código VBA ou arquivo operacional foi alterado. Entrega 2 permanece aberta e NÃO HOMOLOGADA.
+
+Evidências, hashes, checkpoint, primeira tentativa revertida e roteiro de captura: [resultado da preparação ACE](_desenvolvimento/entrega2_20261102T215146Z/fechamento_20261103T011847Z/continuacao_ACE_20261105T101001Z/RESULTADO_PREPARACAO_ACE.md). Registros anteriores preservados integralmente.
